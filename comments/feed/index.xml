@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments for Bitsquare</title>
+	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The decentralized bitcoin exchange</description>
+	<lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.5</generator>
+	<item>
+		<title>Comment on Software demo by Ulrich Bühring</title>
+		<link>/blog/software-demo/#comment-172</link>
+		<dc:creator><![CDATA[Ulrich Bühring]]></dc:creator>
+		<pubDate>Mon, 12 Jun 2017 23:37:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=410#comment-172</guid>
+		<description><![CDATA[I totally agree. Deposit and fees are required in Bitcoin in order to avoid charge-backs, or why? Let&#039;s find some solutions!]]></description>
+		<content:encoded><![CDATA[<p>I totally agree. Deposit and fees are required in Bitcoin in order to avoid charge-backs, or why? Let&#8217;s find some solutions!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on FAQ by lucianofr</title>
+		<link>/faq/#comment-171</link>
+		<dc:creator><![CDATA[lucianofr]]></dc:creator>
+		<pubDate>Sat, 03 Jun 2017 13:36:00 +0000</pubDate>
+		<guid isPermaLink="false">/?page_id=292#comment-171</guid>
+		<description><![CDATA[What if I cancel an order? Will I get my fee back or it is lost?]]></description>
+		<content:encoded><![CDATA[<p>What if I cancel an order? Will I get my fee back or it is lost?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on FAQ by NachoG</title>
+		<link>/faq/#comment-170</link>
+		<dc:creator><![CDATA[NachoG]]></dc:creator>
+		<pubDate>Wed, 24 May 2017 08:34:00 +0000</pubDate>
+		<guid isPermaLink="false">/?page_id=292#comment-170</guid>
+		<description><![CDATA[When buying why do I need to have trading account with the same payment method as the seller if I can just deposit cash or make a wire transfer to the sellers account? For example: If I have the IBAM of the seller I can send to it via a wire transfer from anywhere in Europe. Its obvious that we need to setup a trading account to receive FIAT, but to send FIAT its not clear why its required, its just adding friction and decreasing liquidity.]]></description>
+		<content:encoded><![CDATA[<p>When buying why do I need to have trading account with the same payment method as the seller if I can just deposit cash or make a wire transfer to the sellers account? For example: If I have the IBAM of the seller I can send to it via a wire transfer from anywhere in Europe. Its obvious that we need to setup a trading account to receive FIAT, but to send FIAT its not clear why its required, its just adding friction and decreasing liquidity.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on FAQ by NachoG</title>
+		<link>/faq/#comment-169</link>
+		<dc:creator><![CDATA[NachoG]]></dc:creator>
+		<pubDate>Wed, 24 May 2017 07:49:00 +0000</pubDate>
+		<guid isPermaLink="false">/?page_id=292#comment-169</guid>
+		<description><![CDATA[What happens to my deposit if nobody takes my offer to buy? How long does an order stay in the system before it expires? 
+Good until cancel? but if cancel I lose my deposit.
+Day order? does it expire at the end of the day if there are no takers?]]></description>
+		<content:encoded><![CDATA[<p>What happens to my deposit if nobody takes my offer to buy? How long does an order stay in the system before it expires?<br />
+Good until cancel? but if cancel I lose my deposit.<br />
+Day order? does it expire at the end of the day if there are no takers?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Software demo by NameHiddenToProtectPoster</title>
+		<link>/blog/software-demo/#comment-168</link>
+		<dc:creator><![CDATA[NameHiddenToProtectPoster]]></dc:creator>
+		<pubDate>Wed, 10 May 2017 00:55:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=410#comment-168</guid>
+		<description><![CDATA[Hi.
+Not sure how I could supply the deposit or pay the fees for my first purchase of Bitcoin if I don&#039;t have any Bitcoin yet.
+Or am I missing something?
+
+Is this a blocking point for those who don&#039;t have any Bitcoin at all, yet?
+If so, it&#039;s a barrier to entry into Bitsquare/the bitcoin ecosystem.
+
+Tom]]></description>
+		<content:encoded><![CDATA[<p>Hi.<br />
+Not sure how I could supply the deposit or pay the fees for my first purchase of Bitcoin if I don&#8217;t have any Bitcoin yet.<br />
+Or am I missing something?</p>
+<p>Is this a blocking point for those who don&#8217;t have any Bitcoin at all, yet?<br />
+If so, it&#8217;s a barrier to entry into Bitsquare/the bitcoin ecosystem.</p>
+<p>Tom</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on FAQ by Will</title>
+		<link>/faq/#comment-167</link>
+		<dc:creator><![CDATA[Will]]></dc:creator>
+		<pubDate>Sun, 23 Apr 2017 14:50:00 +0000</pubDate>
+		<guid isPermaLink="false">/?page_id=292#comment-167</guid>
+		<description><![CDATA[Great work!!
+wondering what sort of time delays are involved in a TOR network. 
+Does any latency attract traders taking advantage of time delays?
+
+Is there some information on ideal system setup. Id think that since this pc was going to have private keys on it..Wed want to make sure we had done all we could to make sure it was secure. Sugetseted setup.. pc running now other apps. linux possibly. behind a nat/firewall , in a process, only use gui for setup and monitor activity of trades with seperate client with no access to private keys??no other hardware attached to minimise risk of bots/malware on pc/// that kinda stuff???
+
+Lastly, will Bots or at least some form of automation (stop loss ect??) be in use at some stage.. Cant imagine Id want to sit at computer all day waiting for a time to trade  :) 
+
+Again.. So appreciative you people are doing this..
+Wish I had skills and time to contribute.. 
+:)]]></description>
+		<content:encoded><![CDATA[<p>Great work!!<br />
+wondering what sort of time delays are involved in a TOR network.<br />
+Does any latency attract traders taking advantage of time delays?</p>
+<p>Is there some information on ideal system setup. Id think that since this pc was going to have private keys on it..Wed want to make sure we had done all we could to make sure it was secure. Sugetseted setup.. pc running now other apps. linux possibly. behind a nat/firewall , in a process, only use gui for setup and monitor activity of trades with seperate client with no access to private keys??no other hardware attached to minimise risk of bots/malware on pc/// that kinda stuff???</p>
+<p>Lastly, will Bots or at least some form of automation (stop loss ect??) be in use at some stage.. Cant imagine Id want to sit at computer all day waiting for a time to trade  🙂 </p>
+<p>Again.. So appreciative you people are doing this..<br />
+Wish I had skills and time to contribute..<br />
+🙂</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on FAQ by Bayouranch Jones</title>
+		<link>/faq/#comment-166</link>
+		<dc:creator><![CDATA[Bayouranch Jones]]></dc:creator>
+		<pubDate>Tue, 18 Apr 2017 16:09:00 +0000</pubDate>
+		<guid isPermaLink="false">/?page_id=292#comment-166</guid>
+		<description><![CDATA[More Morons are welcome, they drive the value up and we all win, so dumb it down, get the remedial videos up.]]></description>
+		<content:encoded><![CDATA[<p>More Morons are welcome, they drive the value up and we all win, so dumb it down, get the remedial videos up.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on FAQ by Bayouranch Jones</title>
+		<link>/faq/#comment-165</link>
+		<dc:creator><![CDATA[Bayouranch Jones]]></dc:creator>
+		<pubDate>Tue, 18 Apr 2017 16:06:00 +0000</pubDate>
+		<guid isPermaLink="false">/?page_id=292#comment-165</guid>
+		<description><![CDATA[that must be the worst movie EVER, wow  who wrote that script?]]></description>
+		<content:encoded><![CDATA[<p>that must be the worst movie EVER, wow  who wrote that script?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on FAQ by Tony</title>
+		<link>/faq/#comment-164</link>
+		<dc:creator><![CDATA[Tony]]></dc:creator>
+		<pubDate>Tue, 18 Apr 2017 13:15:00 +0000</pubDate>
+		<guid isPermaLink="false">/?page_id=292#comment-164</guid>
+		<description><![CDATA[Is there a way to export the private key(s) of the BTC address(es) generated by Bitsquare?]]></description>
+		<content:encoded><![CDATA[<p>Is there a way to export the private key(s) of the BTC address(es) generated by Bitsquare?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Privacy in Bitsquare by lee</title>
+		<link>/blog/privacy-in-bitsquare/#comment-163</link>
+		<dc:creator><![CDATA[lee]]></dc:creator>
+		<pubDate>Thu, 13 Apr 2017 05:16:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=1721#comment-163</guid>
+		<description><![CDATA[Thanks for this! Interesting stuff.]]></description>
+		<content:encoded><![CDATA[<p>Thanks for this! Interesting stuff.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

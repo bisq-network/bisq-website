@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Opinion &#8211; Bitsquare</title>
+	<atom:link href="/blog/category/opinion/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The decentralized bitcoin exchange</description>
+	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.5</generator>
+	<item>
+		<title>Exploring the new territory</title>
+		<link>/blog/explorering-the-new-territory/</link>
+		<comments>/blog/explorering-the-new-territory/#comments</comments>
+		<pubDate>Fri, 05 Aug 2016 21:57:55 +0000</pubDate>
+		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[decentralization]]></category>
+		<category><![CDATA[P2P]]></category>
+		<category><![CDATA[P2P network]]></category>
+		<category><![CDATA[Privacy]]></category>
+		<category><![CDATA[Regulation]]></category>
+		<category><![CDATA[The revolution will not be televised]]></category>
+
+		<guid isPermaLink="false">/?p=1436</guid>
+		<description><![CDATA[With the recent Bitfinex heist models for decentralized exchanges have received a bit more attention as usual. This is a repeating pattern happening every few months after a major incident. And it goes back to business as usual after people are entertained by the next soap opera. So I do not expect that the majority of [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>With the recent <a href="http://blog.bitfinex.com/uncategorized/security-breach/">Bitfinex heist</a> models for decentralized exchanges have received a bit more attention as usual.</p>
+<p>This is a repeating pattern happening every few months after a major incident. And it goes back to <em>business as usual </em>after people are entertained by the next soap opera.<br />
+So I do not expect that the majority of cryptoland citizens will radically change their behavior. And that has several understandable reasons.<br />
+But beside that, <strong>there is lack of awareness for critical problems and lack of visions for possible solutions</strong>.</p>
+<p>People are used to traditional models and centralized exchanges are serving exactly that. They are similar to stock exchanges or Forex trading. They satisfy what those types of traders or speculators are looking for. Nothing wrong with serving people&#8217;s demands and habits, right?</p>
+<h3>What makes the difference?</h3>
+<p>But hey, isn&#8217;t there something different between <strong>Bitcoin</strong> and that traditional <strong>Fiat world</strong>?<br />
+Wasn&#8217;t there something what created <strong>excitement</strong> for those who consider themselves as <strong>early adopters or cypherpunks</strong>?</p>
+<p>Do you think Satoshi tried to satisfy people from the finance industry or give the mainstream users a more convenient payment method? Certainly not!<br />
+Paypal was built with that mindset, Bitcoin wasn’t.<br />
+It was built with a vision beyond the short sighted demands and habits derived from the past.</p>
+<p>So like with everything what is new, those new models require a little bit of endeavor from those who are brave enough to explore that new territory.</p>
+<h3>What are the differences?</h3>
+<p>A P2P exchange has differences and will not perfectly satisfy people who are used to centralized exchanges.</p>
+<p>But let&#8217;s first define the term <em>exchange</em> how we understand it, because many people use it with a different meaning:</p>
+<ul>
+<li>The main feature is to <em>exchange one currency to another. </em></li>
+<li>The feature to speculate on price movements, short-selling, hedging or lending are extended features which some centralized exchanges provide, but I think that is outside of the core definition of an exchange.</li>
+<li>How the exchange is implemented, if it uses automatic order matching or how fast the exchange happens are secondary characteristics.</li>
+<li>A Fiat exchange means that national currencies are used, not IOUs for representing them.</li>
+</ul>
+<p>Before we look at the reasons why the decentralized model provides a unique value let us have a look to the drawbacks:</p>
+<ul>
+<li>Bitsquare is slower and trading is a more manual process.</li>
+</ul>
+<p>That will be improved in future but the basic model that users control their funds require settlement controlled by the user and that takes a bit of time, even in the case for crypto currencies (blockchain confirmation). The exchange process will never be able to compete with high frequency trading. But that sort of speculative activity might get served by other solutions in future (Options, CFD,&#8230;).</p>
+<ul>
+<li>You need to install a desktop app and you can&#8217;t run it in your browser, smartphone or your golden caged iPad.</li>
+</ul>
+<p>The simple reason for that is that peer-to-peer means: all peers are equal &#8211; equally serving other peers and consuming from other peers.<br />
+Smartphones or tablets are not good in serving.<br />
+Web browsers are clients in the classical client-server architecture so they fail if you want to use them to serve other peers.<br />
+But sure, it would be convenient and nice to be able to run real P2P apps just everywhere. It might even happen some day but it comes with considerable challenges and effort. So please have patience or join our <a href="https://forum.bitsquare.io/">forces</a> to make it earlier happen.</p>
+<h3>What&#8217;s on the table?</h3>
+<p>So beside those drawbacks, why should you be interested in P2P applications?<br />
+You can ask the exactly same question: Why should you be interested in Bitcoin?<br />
+<strong>You get security and privacy!</strong></p>
+<p>The security model is obvious:</p>
+<ul>
+<li>If there is no sever to hack, you cannot steal money and user&#8217;s identity data from it.</li>
+</ul>
+<p>Identity theft will become even more crucial in future as it is already. Regulation will soon enter that area as well.</p>
+<ul>
+<li>If you don&#8217;t accumulate funds you don&#8217;t attract criminals.</li>
+</ul>
+<p>That is an aspect which usually does not get much attention, because big numbers are impressive in our society.</p>
+<p>Excuse me to remind on one of cryptoland&#8217;s latest soap operas, it just fits perfectly to that topic: <a href="https://daohub.org/">The DAO</a><br />
+That completely pointless strategy to collect an enormous amount of money, without any concrete need for it was not only fatally damaging their own project. That often repeated, unethical but profitable model of externalizing risks and costs to others caused immense damage to their host community: Ethereum &#8211; giving cryptoland a new soap opera episode called ETC against ETH. Too bad that the real problems are not getting solved by those excitements.</p>
+<h3>Privacy &#8211; security&#8217;s sensitive brother</h3>
+<p>Beside security, privacy is an even more important issue. I think the relevance of privacy is widely underestimated.<br />
+If you have read that infamous <a href="https://www.cryptocoinsnews.com/eu-central-database-bitcoin-users/">EU proposal</a>, you should be alerted. The <a href="https://bitcoinmagazine.com/articles/the-real-story-behind-the-mit-chainanchor-project-for-bitcoin-1462288281">MIT ChainAnchor project</a> is another warning sign that our financial privacy is at risk and governments are getting more and more drunk of power abuse.<br />
+The <a href="https://en.wikipedia.org/wiki/Four_Horsemen_of_the_Infocalypse">4 horsemen</a> are riding again. Actually they never stopped riding the last 20 years as it seems they are pretty efficient in their job. Shocking how cheap that works&#8230;</p>
+<p>We are getting closer to a critical junction: The future is the result of that what is getting prepared now. If we don&#8217;t engage to form it, others will do it for us.</p>
+<p>Bitcoin seems to become the <strong>wet dream for governments</strong> to get full control and surveillance over the financial life of it&#8217;s citizens if we allow them to continue that path.<br />
+Financial information is even more critical and valuable than information derived from communication.</p>
+<p><strong>Matching users Bitcoin addresses with the user’s real life identity</strong> threatens Bitcoin&#8217;s weak privacy model and makes chain analysis a simple exercise &#8211; and even more crucial &#8211; it destroys a core property of sound money: <strong><a href="https://en.wikipedia.org/wiki/Fungibility">Fungibility</a></strong></p>
+<p>Those companies who are engaged in that business of weakening privacy cannot be considered as anything else than parasites &#8211; destroying it&#8217;s host for short term profits.</p>
+<p>So even those who are not convinced of the <a href="http://gilc.org/privacy/survey/intro.html">importance of the protection of privacy</a> should be alarmed about that, because such a currency will never find mass adoption.<br />
+No company will use Bitcoin when they know that they have zero privacy with their transactions. Furthermore, people will not accept Bitcoin as payment if they cannot be sure that they can spend it later without risk. The burden of verifying the history of a coin and evaluating it&#8217;s risk would produce too much friction for mass adoption. All that would make Bitcoin inferior to the USD or EUR.</p>
+<h3>How can a decentralized exchange like Bitsquare help here?</h3>
+<p>Let us answer with a <a href="http://satoshi.nakamotoinstitute.org/emails/cryptography/4/">quote</a>:</p>
+<p style="text-align: center;"><em>“Governments are good at cutting off the heads of centrally controlled networks like Napster, but pure P2P networks like Gnutella and Tor seem to be standing their ground.”</em><br />
+&#8211; Satoshi Nakamoto</p>
+<p>Decentralization is a requirement to achieve censorship resistance. Censorship resistance is a foundation for a free society. <a href="https://en.wikipedia.org/wiki/First_Amendment_to_the_United_States_Constitution">Americas founding fathers</a> have been more aware of that than todays retarded politicians and their corrupted media industry.</p>
+<h3>But can a decentralized exchange be efficient?</h3>
+<p>Lack of efficiency is not that what causes the most pain in our world. We are pretty good with efficiency in many areas.<br />
+<a href="http://www.lietaer.com/2015/02/bernard-lietaer-why-we-need-a-monetary-ecosystem-inria-2014/">Resilience</a> is the area where we are terrible weak.</p>
+<p><strong>The blockchain is not good at efficiency but it is very resilient.</strong><br />
+From an efficiency point of view it is the worst, slowest and most expensive database. Only censorship resistance gives it value and significance.</p>
+<p>The fact that Bitcoin&#8217;s efficiency outperforms the bank&#8217;s efficiency and that they consider the &#8220;blockchain&#8221; revolutionary, is just because the banks are so <em>unbelievable inefficient</em> and have slept the last 20 years (or longer). They get woken up now by FinTech companies who are now considered “revolutionary” simply by applying modern IT to the banking world. We are witnessing the cheapest revolution of the century.<br />
+Bitcoin will remain alien to banks. Bitcoin is a complete contradiction to their concept and culture.</p>
+<h3>Where are we now? What is left?</h3>
+<p>We see now the first wave of P2P apps like <strong>Bitsquare</strong> and <a href="https://openbazaar.org/">OpenBazaar</a> operational and flourishing.<br />
+But of course there is a lot of headroom for improvements. Same like there was headroom to find creative solutions to scale Bitcoin (the right way).<br />
+It took a bit of time but solutions like Segregated Witness will give us a basket of gifts not a one-time-shot:<br />
+When you try to solve 1 problem and get 10 others solved as by-product, you know you are doing right. Then synergy happens.</p>
+<p>That kind of <strong>synergy</strong> is what Bitsquare is aiming for. There will be soon an announcement regarding that topic.</p>
+<p>Beside that, we are working hard to bring the project to the next level:</p>
+<ul>
+<li>Automated trading for altcoins</li>
+<li>APIs</li>
+<li>The decentralized arbitration system</li>
+<li>CoinJoin</li>
+<li>Option trading</li>
+<li>Micro credit market</li>
+<li>And of course many improvements from the feedback we get from our users</li>
+</ul>
+<p>If you have not already visited our <a href="https://bitsquare.typeform.com/to/cWQWrK">survey</a>, please lend us 5 min. of your time and let us know what you expect and think about Bitsquare.</p>
+<h3>Ready?</h3>
+<p>If we start to explore the new possibilities, potential and characteristics of decentralized applications we might end up in a completely new territory. A territory which is not built by replicating old habits from the past.<br />
+It might need a bit of openness and courage for trying out new paths, but you know:</p>
+<p style="text-align: center;"><strong><a href="https://www.youtube.com/watch?v=kZvWt29OG0s">The revolution will </a><a href="https://www.youtube.com/watch?v=NhxH6fgQuDs">not be televised</a></strong></p>
+<p style="text-align: center;"><iframe src="https://www.youtube.com/embed/qGaoXAwl9kw" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>/blog/explorering-the-new-territory/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>The Problem with Crypto Governance is Power</title>
+		<link>/blog/the-problem-with-crypto-governance-is-power/</link>
+		<comments>/blog/the-problem-with-crypto-governance-is-power/#comments</comments>
+		<pubDate>Fri, 21 Aug 2015 21:50:32 +0000</pubDate>
+		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+				<category><![CDATA[Discussion]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[block size]]></category>
+		<category><![CDATA[competition]]></category>
+		<category><![CDATA[consensus]]></category>
+		<category><![CDATA[cross-chain]]></category>
+		<category><![CDATA[decentralization of currencies]]></category>
+
+		<guid isPermaLink="false">/?p=1122</guid>
+		<description><![CDATA[The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone agrees that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated. The more interesting [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone <a href="https://scalingbitcoin.org/" target="_blank">agrees</a> that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.</p>
+<p>The more interesting problem is the little-discussed shift in governance model that some would like to see take place. Bitcoin&#8217;s current governance is based on consensus, but Bitcoin XT proponents would like to see it shift to a <a href="https://bitcoinxt.software/faq.html#who-is-involved" target="_blank">benevolent dictatorship of sorts</a>.</p>
+<p>The benevolent dictatorship model is used in many software projects, is widely accepted, and works well. But Bitcoin is not a usual software project. It&#8217;s a decentralized, censorship-resistant currency with a market capitalization of several billion.</p>
+<h3>How Power Happens</h3>
+<p>To place a single person in the role of central decision-maker of Bitcoin would create an unpredictable, massive risk for that person, as well as the currency itself.</p>
+<p>Imagine Bitcoin scales to become a globally-used currency with orders of magnitude more market capitalization than it has today. Bitcoin&#8217;s “benevolent dictator” – whomever it happened to be – would not be able to withstand the pressure that such a position would bring. No one could.</p>
+<p>What kind of pressure would this be? When one individual&#8217;s actions have the power to affect billions of dollars worth of other peoples&#8217; outcomes, that person becomes a magnet for bidders looking to purchase the most favorable outcome – for themselves. The actions of Bitcoin&#8217;s benevolent dictator would truly be up to the highest bidder or the most coercive criminal or government.</p>
+<p>So we have a contradiction: those who argue for more scalability – the XTers – want to implement an even <em>more vulnerable bottleneck</em> to scalability. This single-person bottleneck is such a fundamental deviation from Bitcoin&#8217;s <strong>constitutional values</strong> of <strong>decentralization</strong> and <strong>censorship-resistance</strong> that the author of this article would switch to using alternative cryptocurrencies.</p>
+<p>Most interesting to me is that the block size and fork debates have revealed how human nature responds to power. Even if the involved actors solve the current problem, it will not be the last time that Bitcoin is challenged by a non-technical, existential crisis. Many of us prefer to avoid confronting old ugly politics, but despite our best efforts, they&#8217;ve found us anyway.</p>
+<h3>How to Create &amp; Maintain Decentralization</h3>
+<p>The current <a href="https://lists.linuxfoundation.org/pipermail/bitcoin-dev/" target="_blank">consensus</a>-based <a href="https://github.com/bitcoin/bips/blob/master/bip-0001.mediawiki">governance process in Bitcoin</a> is far from perfect: there is still only a relatively <a href="https://bitcoin.org/en/development#coredev">small group of people</a> who are able to make decisions. The primary lesson from this crisis, then, should be how to improve that model.</p>
+<p>A better model may be similar to what young nation-states do: set up constitutions and impose structures to prevent deviation from the founding ideas. But is that the only way to go? Is it healthy and future-proof for a project to gain so much power that imposed structures are required to make changes more and more difficult? Imposed structures which attract more and more bidders looking to buy influence as the project gets bigger? Is this inherently political environment inevitable, or are there other ways out?</p>
+<p><strong>I propose an alternative, one which was not possible before cryptocurrency: let us support a network of many smaller currencies instead of following the ideas of a single, dominant one.</strong></p>
+<h3>The Domino Effect as a Sign of Centralization</h3>
+<p>Isn&#8217;t it ludicrous that the current Bitcoin crisis is affecting nearly all other cryptocurrencies as well? It reminds one of the 2008 financial crisis, in which the failure of one institution was deemed a systemic threat to the entire global financial structure.</p>
+<p>But supporting a network of smaller cryptocurrencies would relieve the political pressure of trying to have “one true blockchain.” It would create and maintain actual decentralization in money. Releasing Bitcoin&#8217;s political burden as a multi billion dollar asset will also make space for innovation. Even the pressure of governmental intervention can be mitigated by distributing its impact across the entire cryptocucrrency sphere, where a single failure doesn&#8217;t cause systemic risk for the whole ecosystem.</p>
+<p>Now to the caveats of my proposed solution: using a multitude of smaller cryptocurrencies is not the sort of system we are used to. Historically people haven&#8217;t preferred to deal with multiple currencies. But the problems of a multi-currency ecosystem can be solved when we have near-frictionless, automated, and trust-free exchanges.</p>
+<p>And it just so happens that crypto currencies can provide all of those things.</p>
+<h3>The Solution Stack</h3>
+<p>An <a href="https://bitcointalk.org/index.php?topic=193281.0" target="_blank">atomic cross-chain exchange</a> is a <a href="https://github.com/TierNolan/bips/blob/bip4x/bip-atom.mediawiki">possible</a> <a href="http://www.coincer.org/2015/01/27/atomic-protocol-1/">solution</a>. It currently lacks decentralized implementation, however. If you need to support multiple blockchains, you cannot easily build a P2P system which scales. Additionally, <a href="http://mercuryex.com/" target="_blank">Mercury</a> is an implementation which uses servers to overcome that particular problem.</p>
+<p>But there is another possible solution which fulfills the requirements of a fully decentralized exchange without suffering from usability and resource problems. The full nodes of various blockchains need to support the features required for the exchange protocol. If a cryptocurrency implementation does not provide those features, an extension would need to be built for the original full nodes which adds those features.</p>
+<p>The users supporting the exchange would then be incentivized to run these nodes, which would be fully compatible with the original node but offer an additional feature set. This is similar to the model Bitcoin XT uses (added UTXO support for Lighthouse). Tasks of a server can instead be executed by an unlimited set of P2P nodes. The <strong>node extensions</strong> might look similar to blockchain APIs, but come as a wrapper around the original full node of a given blockchain.</p>
+<h3>Application Example</h3>
+<p>Imagine a <strong>multi-currency wallet</strong> with 10 or 20 different coins, where you can decide what percentage to assign to which currency in your portfolio. It would conceptually be more similar to a stock portfolio than a traditional wallet. You could use trading agents/bots to get the best exchange rates, and your trades could be executed automatically in the background using the atomic cross chain exchange protocol.</p>
+<p>If a merchant only accepts one coin, and you don&#8217;t happen to own that coin, you could simply buy it on the exchange market. The time it would take to wait for a confirmation could be mitigated by services that offer zero-confirmation transactions (e.g. using reputation or security deposits).</p>
+<p>Note that this scenario lacks a dominant currency. This is not a problem. It actually liberates coin projects from bearing the burden of having too much power, with the regrettably attendant need for increasingly strict and complex governance models.</p>
+<p>In this scenario, centrally-controlled currencies which used a benevolent dictatorship model would not be able to cause systemic risk, because a multitude of independent currencies exist as alternatives. People don&#8217;t care if a restaurant is run by a benevolent dictator or by a collective of employees, correct? As long as there are competing restaurants to choose from and no monopoly or cartel controlling the market, the governance model of individual businesses doesn&#8217;t really matter.</p>
+<h3>An <em>Actual</em> Internet of Money</h3>
+<p>The solution discussed here would get us closer to something like a real Internet of money. Just as the browser was the tool connecting content and later applications together, a multi-currency wallet with an atomic cross-chain exchange would be the tool to <strong>connect various flavors of cryptocurrency</strong>. As fast and as simple as it is to click links from one webpage to another, so too could it be to exchange one coin for another. It should be kind of a no-brainer, really.</p>
+<h3>Governance and Politics</h3>
+<p>We can never escape from the realm of politics and the need for governance, but when we are able to reduce the power we&#8217;re exposed to, power&#8217;s attendant problems become easier to handle.</p>
+<p>If you are a software developer, you already know this: if a problem is getting too difficult, you try to break it up into several smaller pieces. You divide and conquer. Decouple dependencies. Avoid god classes. Because small is beautiful.</p>
+<p>However you describe this form of problem solving, it&#8217;s nothing new. Only the tools are new. And they&#8217;re more favorable to us now than anyone could have ever imagined.</p>
+]]></content:encoded>
+			<wfw:commentRss>/blog/the-problem-with-crypto-governance-is-power/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		</item>
+		<item>
+		<title>Killer apps</title>
+		<link>/blog/killer-apps/</link>
+		<comments>/blog/killer-apps/#comments</comments>
+		<pubDate>Sat, 25 Jul 2015 12:25:03 +0000</pubDate>
+		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+				<category><![CDATA[Discussion]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Opinion]]></category>
+
+		<guid isPermaLink="false">/?p=972</guid>
+		<description><![CDATA[Regardless of what you think or whatever you got presented by the media regarding the Greek crisis, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least. Depending on the interpretation of the severity of the problem one might come to the [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Regardless of what you think or whatever you got presented by the media regarding the <strong><a href="http://yanisvaroufakis.eu/">Greek crisis</a></strong>, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least.<br />
+Depending on the interpretation of the severity of the problem one might come to the conclusion that our political, economic and financial system is just <strong>too broken to get fixed</strong>.<em><br />
+</em></p>
+<blockquote>
+<h4>&#8220;To change something, build a new model that makes the existing model obsolete&#8221; &#8211; Buckminster Fuller</h4>
+</blockquote>
+<p>History has repeatedly demonstrated that new technologies are able to catalyze truly disruptive transformations that could never have been achieved through political efforts. Consider for instance the groundbreaking technological and social changes that the Internet has brought about all over the world.<br />
+The rise of Bitcoin and Blockchain technologies in general embody such a new model capable of moving our world to the next level while rendering the old paradigm obsolete.</p>
+<p>The prospect of technologically induced change should not let us forget the warning awareness that technology is never neutral. We have to distinguish the elements rendering freedom, fairness and prosperity from those amplifying existing power structures.</p>
+<h3>The Internet of money</h3>
+<p>Before the Internet the production and distribution of information was much more limited to an elitist circle (journalists, writers, teachers, publishers,&#8230;). Only the process of consuming the information was freely accessible for most people (newspaper, radio, TV,&#8230;). Today, everyone with access to the Internet is enabled to write, read and distribute information at a global scale with basically no cost.</p>
+<p>Other areas where information technology has been adopted are still lacking that kind of liberation. Interacting with money is still highly restricted to the narrow channels the gatekeepers of the financial institutions are willing to provide us. With crypto currencies we get access to the creation, the distribution and the processing of that kind of information which represents value &#8211; money.</p>
+<p>With the Internet we have seen an explosion of new use cases emitted by the liberation of information: From usenet to mailing lists to web pages to blogs to forums to videos to chat rooms to social networks to peer to peer networks and much more. We can expect that the new space opened by Bitcoin and Blockchain technologies might have the potential to fill up a new universe similar to that opened by the Internet and which is as hard to imagine today as it was for the early birds of the web.</p>
+<h3>Killer apps</h3>
+<p>Email &#8211; the digital equivalent of postal mail &#8211; was not  the killer app for the Internet. Nor was it the online version of newspapers or videos. All those who transferred traditional use cases to the Internet did a great job to enrich the ecosystem, but they did not provide the motivating reason to use the Internet for newcomers.<br />
+Following the analogy with the Internet it would mean that replacing today&#8217;s traditional payment methods (like cash, credit cards, PayPal, banks transfers,&#8230;) will unlikely lead to a killer app for Bitcoin. They simply do not add enough value to exceed the <strong><a href="http://szabo.best.vwh.net/micropayments.html">mental costs</a></strong> for an actual change of behavior for the majority of people.</p>
+<p>More promising use cases are the ones which were simply not possible in the pre-Internet or pre-Bitcoin era: Search engines do not exist outside the web (you can search in a certain application but not at global scope). Social networks represent another example, since there exists no equivalent to it in the non-digital world. Bringing together the power of the crowd in projects like Wikipedia or crowdfunding platforms could likewise not be accomplished without the Internet. I leave it open to the reader to add more.</p>
+<p>My definition for a killer app is that it is focussed on a use case that did not exist before being enabled by that new technology. Furthermore it needs to add enough value for the user to exceed the mental costs of trying out new behaviors that might tap into new and uncertain territories. That added value has the power to give that new technology the needed significance for entering the mainstream.</p>
+<p>It is not easy to imagine use cases which do not exist yet but which are important enough to gain traction and to evolve over time within the new technological framework.<br />
+It is likely that they will arise not from a single center but from a network of emerging technologies, tools and concepts. I would like to try to spot a few building blocks to get a better picture of the fertile ground where killer apps might grow, and perhaps we may – over time &#8211; learn how a potential killer app could look like.</p>
+<h3>Building blocks</h3>
+<p>With the rise of Bitcoin a much wider audience has been made aware of the power of <strong>cryptography</strong>. Not only Bitcoin but also other important achievements like <strong>PGP/GPG</strong> or <strong><a href="https://en.wikipedia.org/wiki/Web_of_trust">Web Of Trust</a></strong> are becoming more accepted while they are being used more frequently.<br />
+Bitcoin, like many other relevant IT is standing on the shoulders of giants; most prominently the idea of <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software"><strong>Free and Open Source Software</strong></a>, a concept so fundamental and carrying such an importance that I believe we should add it to our list of crucial ingredients.<br />
+One of the most important properties of Bitcoin is <strong>censorship resistance</strong> – a property that is achieved through the adoption of a <strong>distributed network architecture</strong>. To avoid<strong> single points of failure</strong> not only on the technical layer but also in the way how the development is organized is crucial to fulfill that property. Maybe Satoshi&#8217;s vanishing was motivated to achieve that. The <strong>removal</strong> of the need for <a href="http://szabo.best.vwh.net/ttps.html"><strong>trusted third parties</strong> </a>is another key accomplishment.<br />
+The solution to the double spend problem for digital currencies with the <a href="https://en.wikipedia.org/wiki/Byzantine_fault_tolerance"><strong>byzantine fault tolerant</strong></a> Blockchain technology was Satoshi Nakamoto&#8217;s major breakthrough. That is mandatory for a global ledger used for value representation, but we might find new applications in a wider space which do not have that strict requirement. Although <strong><a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT</a></strong> (Distributed Hash Table) networks generally lack byzantine fault tolerance they nonetheless represent a powerful and useful tool in combination with other means (like Bitcoin). Bitsquare is a child of such a combination.</p>
+<p style="text-align: left;">The actual situation of privacy and data protection is a huge unsolved problem although many people are still not aware of that. I consider the usage of <strong>ubiquitous end-to-end encryption</strong> and technology helping to <strong>protect against surveillance of meta data</strong> like <strong><a href="https://www.torproject.org/">TOR</a></strong> crucial for the society and would not like to miss that in any emerging relevant technology.<br />
+This road does not stop at cryptography and software but needs to be extended to the <strong>physical network infrastructure</strong> (<strong><a href="https://en.wikipedia.org/wiki/Mesh_networking">Mesh networks</a></strong>) and to <strong>open source hardware</strong> (<a href="https://en.wikipedia.org/wiki/Arduino"><strong>Arduino</strong></a>).<br />
+<strong>3D printing</strong> and <strong><a href="https://en.wikipedia.org/wiki/Maker_culture">Maker Spaces</a></strong> depict other family members of our fertile ecosystem.</p>
+<p style="text-align: left;">I don&#8217;t consider <strong><a href="https://en.wikipedia.org/wiki/Internet_of_Things">Internet of Things</a></strong> (IoT) as a building block for those kind of killer apps I am interested in. In fact, IoT will represent an enormous threat as long as security and privacy issues are not sufficiently addressed and solved.</p>
+<p>Let us turn our perspective to a conceptual point of view:</p>
+<p>The leap from a digital currency to <strong>voting</strong> is small and a few projects have already started to develop this space.<br />
+A digital currency or money more generally can be defined as a representation of value. <strong>Reputation, identity, registries, <a href="https://namecoin.info/">DNS</a>, <a href="http://szabo.best.vwh.net/securetitle.html">property rights</a> </strong>or<strong> <a href="http://szabo.best.vwh.net/smart.contracts.html">smart contracts</a></strong> are all applications, which can extend the usage of the Blockchain technology beyond the narrow notion of money.</p>
+<p>Perhaps Bitcoin itself represents only a <strong><a href="http://www.iamsatoshi.com/bitcoin-transition-technology/">transition technology</a></strong> and other transformations of valuable information may evolve to become more important in future. It is not set in stone that a generalized value transfer system like today’s national money system depicts the ultimate solution. If the conversion of different forms of <strong><a href="https://books.google.es/books/about/Rethinking_Money.html?id=khsInwEACAAJ&amp;redir_esc=y">specialized moneys</a> </strong>becomes near frictionless, money as we know it might become less relevant.</p>
+<p>In addition, <a href="http://www.augur.net/"><strong>prediction markets</strong></a> are able to harvest the wisdom of crowds.<br />
+<strong><a href="https://en.wikipedia.org/wiki/Delegative_democracy">Delegative (or liquid) democracy</a> </strong>platforms could serve as a tool empowering people to attain consensus in a much more efficient and fair way than it is accomplished today.</p>
+<p>As technology reduces the need for human work we are ceaselessly heading towards a society where there will simply be not enough work for everyone. Work and financial income will have to be uncoupled to liberate humanity from inappropriate and pointless activities thus opening up a space for a currently untapped potential of creativity. An <strong><a href="https://en.wikipedia.org/wiki/Basic_income">unconditional</a> <a href="http://www.lietaer.com/">basic</a> <a href="https://ourbasicincome.wordpress.com/2015/06/18/circles-universal-basic-income/">income</a></strong> might become an important enabler of these conditions.</p>
+<h3>What has that all to do with Greece?</h3>
+<p>While our world is facing tremendous, unsolved social, ecological and economic problems, it turned out that those whom we have put in charge of solving them, are a persistent unsolved problem by themselves. We use political structures created ages ago but they are not adequate to today’s situation, possibilities and challenges.</p>
+<p>We have seen incredible progress in the scientific and technological world, but we seem to be stuck in the fields of politics and the way how our society is organized. We need new approaches to solve global threats never seen in history.</p>
+<p>While we already hold some promising puzzle parts in our hands, most of them are still rather randomly distributed and lack important interconnections necessary for developing it&#8217;s full potential and sparking network effects. If we manage to combine them to create a fertile ground for growing and inspiring each other, we might be able to set <strong><a href="http://www.lietaer.com/2015/02/bernard-lietaer-why-we-need-a-monetary-ecosystem-inria-2014/">new</a> <a href="https://www.youtube.com/watch?v=8oeiOeDq_Nc">pillars</a> </strong>for a new society &#8211; replacements for obsolete paradigms.</p>
+<p>From some of the above (incomplete) list of technologies, tools and concepts we might see new applications changing fundamentally the reality we live in.</p>
+<p>Those are the <strong>killer apps</strong> I am interested in &#8211; they might help us <strong>to not get killed by ourselves.</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>/blog/killer-apps/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>

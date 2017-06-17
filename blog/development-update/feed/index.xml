@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Development update</title>
+	<atom:link href="/blog/development-update/feed/" rel="self" type="application/rss+xml" />
+	<link>/blog/development-update/</link>
+	<description>The decentralized bitcoin exchange</description>
+	<lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.5</generator>
+	<item>
+		<title>By: Jippy Maidsafecoins on Bitsquare.io - BitcoinEZ</title>
+		<link>/blog/development-update/#comment-71</link>
+		<dc:creator><![CDATA[Jippy Maidsafecoins on Bitsquare.io - BitcoinEZ]]></dc:creator>
+		<pubDate>Sun, 24 Apr 2016 03:54:25 +0000</pubDate>
+		<guid isPermaLink="false">/?p=954#comment-71</guid>
+		<description><![CDATA[[&#8230;] support, should we ask if they include Maidsafecoin or just wait till we have our shiney SAFEcoins? Read about it here Here is a fun video explaining the new happenings. Hmmmm for those who didn&#039;t know, Bitsquare.io is [&#8230;]]]></description>
+		<content:encoded><![CDATA[<p>[&#8230;] support, should we ask if they include Maidsafecoin or just wait till we have our shiney SAFEcoins? Read about it here Here is a fun video explaining the new happenings. Hmmmm for those who didn&#039;t know, Bitsquare.io is [&#8230;]</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: BTC-Guardian</title>
+		<link>/blog/development-update/#comment-36</link>
+		<dc:creator><![CDATA[BTC-Guardian]]></dc:creator>
+		<pubDate>Thu, 18 Jun 2015 17:40:00 +0000</pubDate>
+		<guid isPermaLink="false">/?p=954#comment-36</guid>
+		<description><![CDATA[Nice and crisp video, Manfred. Good work.]]></description>
+		<content:encoded><![CDATA[<p>Nice and crisp video, Manfred. Good work.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Video &#8211; Bitsquare</title>
+	<atom:link href="/blog/category/video/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>The decentralized bitcoin exchange</description>
+	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+	<language>en-GB</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.7.5</generator>
+	<item>
+		<title>Bitsquare v0.4 (payment methods and arbitration system)</title>
+		<link>/blog/bitsquare-v0-4-payment-methods-and-arbitrtion-system/</link>
+		<comments>/blog/bitsquare-v0-4-payment-methods-and-arbitrtion-system/#respond</comments>
+		<pubDate>Thu, 18 Jun 2015 12:36:07 +0000</pubDate>
+		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+				<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">/?p=958</guid>
+		<description><![CDATA[Development update for verion 0.4 including a demonstration of the payment methods and the arbitration system.]]></description>
+				<content:encoded><![CDATA[<p>Development update for verion 0.4 including a demonstration of the payment methods and the arbitration system.</p>
+<p><iframe src="//player.vimeo.com/video/131086362" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </p>
+]]></content:encoded>
+			<wfw:commentRss>/blog/bitsquare-v0-4-payment-methods-and-arbitrtion-system/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Software demo</title>
+		<link>/blog/software-demo/</link>
+		<comments>/blog/software-demo/#comments</comments>
+		<pubDate>Thu, 04 Dec 2014 00:11:56 +0000</pubDate>
+		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+				<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">/?p=410</guid>
+		<description><![CDATA[This video gives an overview about the application and guided through the trade process]]></description>
+				<content:encoded><![CDATA[<p>This video gives an overview about the application and guided through the trade process</p>
+<p><iframe src="//player.vimeo.com/video/113557042" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>/blog/software-demo/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Concept overview</title>
+		<link>/blog/concept-overview/</link>
+		<comments>/blog/concept-overview/#respond</comments>
+		<pubDate>Tue, 02 Dec 2014 22:01:28 +0000</pubDate>
+		<dc:creator><![CDATA[Lloyd Johnson]]></dc:creator>
+				<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">/?p=406</guid>
+		<description><![CDATA[This video gives a basic overview about the concept behind Bitsquare.]]></description>
+				<content:encoded><![CDATA[<p>This video gives a basic overview about the concept behind Bitsquare.</p>
+<p><iframe src="//player.vimeo.com/video/113833533" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>/blog/concept-overview/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Bitsquare protection mechanisms</title>
+		<link>/blog/bitsquare-protection-mechanisms/</link>
+		<comments>/blog/bitsquare-protection-mechanisms/#respond</comments>
+		<pubDate>Thu, 21 Aug 2014 15:21:31 +0000</pubDate>
+		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+				<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">http://dev.bitsquare.io/?p=140</guid>
+		<description><![CDATA[A video going into the details of the Protection Mechanisms system for Bitsquare:]]></description>
+				<content:encoded><![CDATA[<p>A video going into the details of the Protection Mechanisms system for Bitsquare:</p>
+<p><iframe src="//player.vimeo.com/video/110391150" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>/blog/bitsquare-protection-mechanisms/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Bitsquare &#8211; arbitration system</title>
+		<link>/blog/bitsquare-arbitration-system/</link>
+		<comments>/blog/bitsquare-arbitration-system/#respond</comments>
+		<pubDate>Thu, 21 Aug 2014 15:16:35 +0000</pubDate>
+		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+				<category><![CDATA[Video]]></category>
+
+		<guid isPermaLink="false">http://dev.bitsquare.io/?p=138</guid>
+		<description><![CDATA[A video going into the details of the Arbitration system for Bitsquare:]]></description>
+				<content:encoded><![CDATA[<p>A video going into the details of the Arbitration system for Bitsquare:</p>
+<p><iframe src="//player.vimeo.com/video/110391149" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+]]></content:encoded>
+			<wfw:commentRss>/blog/bitsquare-arbitration-system/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -167,7 +167,7 @@ body.custom-background { background-color: #ffffff; }
 </ul>
 <p><strong>Version 0.9</strong></p>
 <ul>
-<li>Add support for multiple languages</li>
+<li>P2P network improvements</li>
 </ul>
 <p><strong>Version 0.8</strong></p>
 <ul>
@@ -178,27 +178,80 @@ body.custom-background { background-color: #ffffff; }
 <ul>
 <li>Trading APIs</li>
 <li>Trezor support</li>
+<li>Windows code signing</li>
 </ul>
+
 <p><strong>Version 0.6</strong></p>
 <ul>
-<li>Bisq DAO part 2</li>
-<li>Maybe Trezor support</li>
+<li>Bisq DAO phase 2</li>
+
 </ul>
-<p><strong>Version 0.5</strong></p>
+
+<p><strong>Version 0.5.1</strong></p>
 <ul>
-<li>Bisq DAO (part 1)</li>
-<li>Dynamic transaction fees (using estimations from 21.co)</li>
-<li>Custom security deposit (avoiding canceled trades in times of high volatility)</li>
-<li>Translations</li>
-<li>Using protobuffer instead of Java serialization</li>
-<li>Use head version of BitcoinJ</li>
-<li>Re-branded app to bisq</li>
-<li>Windows code signing</li>
-<li>Maybe APIs</li>
-<li>Maybe in-app download of updates</li>
-<li>Many other smaller features and bug fixes</li>
+<li>Bisq DAO (phase 1)</li>
+<li>In-app download of updates</li>
 </ul>
+
+
 <h2>Releases:</h2>
+
+
+<p><strong>Version 0.5.0</strong> (Released: <a href="https://github.com/bitsquare/bitsquare/releases/tag/v0.5.0">June 28th 2017</a>)</p>
+<ul>
+<li>Support multiple base currencies. Beside BTC the user can choose to use LTC or DOGE as base market. More will come in future releases.</li>
+<li>Use fee estimation service form https://bitcoinfees.21.co to use dynamic mining fees.</li>
+<li>Use dynamic trading fees. Trading fees are based on trade amount and distance to market price. </li>
+	Min. fee (MF) = 0.0002 BTC, default fee (DF) = 0.002 BTC, amount factor (AF) = 1/BTC, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% 0 -> 3, 0.01% -> 0.1).
+	Tradeing fee = max(MF, DF * amount * AF * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance.</li>
+<li>Make security deposit for buyer customizable at offer creation (allowed range: 0.001 BTC - 0.2 BTC)</li>
+<li>Use fixed security deposit for seller (0.01 BTC) </li>
+<li>Simplify trade process by removing locktime support (removed finalize payout step)</li>
+<li>Use protobuffer instead of Java serialization in P2P network and local persistence</li>
+<li>Use BIP 44 wallet for BTC and BSQ</li>
+<li>Update to BitcoinJ 0.14.1 release</li>
+<li>Updated tor binaries from TorBrowser 6.5</li>
+<li>Re-brand to Bisq</li>
+<li>Use new max. trade limits to reduce risks with possible bugs in new version as well as to reflect higher BTC price
+	Bank transfers: 0.5 BTC
+	Swish, OKPay, PerfectMoney, AliPay: 1 BTC
+	Altcoins 1 BTC (exception SiaFund as their price is about 3 BCT and it is not dividable)</li>
+<li>Add email field to bank payment methods for enabling traders to verify identity (to protect against charge back risk)</li>	
+<li>Change max trade period for SEPA to 6 days. In exceptional situations like at long bank holidays exceeding the period will be tolerated.</li>
+<li>Auto select also non-EURO SEPA countries by default at SEPA account setup</li>
+<li>Added new altcoins: Janus, OctoCoin, PEPECASH</li>
+<li>Use percentage based price as default. Swap input text controls when toggle between fixed price and percentage based price. 
+  Hide percentage based inputs if no market price is available.</li>
+<li>Support for translations of all application display strings</li>
+<li>User can select preferred language (of those which are already translated) and default country.</li>
+<li>Supported new languages: German, Spanish, Greek, Portuguese and Serbian (still require UI layout adjustments)</li>
+<li>Remove ask and bid market price and use always last price.</li>
+<li>Add button in settings to resync SPV chain (delete SPV chain file)</li>
+<li>Add button for opening log file</li>
+<li>Remove arbitrator as potential receiver at dispute payout</li>
+<li>Improve arbitration payout screen </li>
+<li>Use TTL of 30 min. for market prices on the provider side.</li>
+<li>Check for market price age on client. Allow max. 30 min old market prices</li>
+<li>Show provider node at tooltip over price feed provider icon</li>
+<li>Persist last used payment account for create offer screen</li>
+<li>Use same seed words for both BTC and BSQ wallet</li>
+<li>Added BSQ as coin_type 142 0x8000008E to https://github.com/satoshilabs/slips/blob/master/slip-0044.md</li>
+<li>Update Bitcoin checkpoint file</li>
+<li>Fix bug with backup path when path had become inaccessible</li>
+<li>Fixed bug with not displaying correct MultiSig address in LockedFunds view.</li>
+<li>Add checks for locked up funds of failed trades.</li>
+<li>Add shortcut to remove failed trade from pending trades view.</li>
+<li>Use for Windows build no version nr at jar files to avoid collecting multiple jars at updates.</li>
+<li>Prepare the split role of arbitrator in mediator (has no MultiSig key) and arbitrator (3rd key holder of MultiSig). </li>
+  Not implemented yet in the UI, so mediator is at the moment identical with arbitrator.</li>
+<li>Add email and pgp pubkey to data structure (no support yet implemented in UI)</li>
+<li>Add support for passing counter currency tx ID to BTC seller (not impl. in UI yet)</li>
+<li>Change key combination for open dispute from cmd+o to alt+o and for opening emergency wallet from cmd+e to alt+e</li>
+<li>Update TAC </li>
+<li>Don't provide market price for Venezuelan currency (VEF) as official exchange rate is not reflecting reality</li>
+<li>Add -BjvmOptions=-Xss1280k for Linux builds to avoid SegFault problem with latest Ubuntu update</li>
+</ul>
+
 <p><strong>Version 0.4.9.9.3</strong> (Released: <a href="https://github.com/bitsquare/bitsquare/releases/tag/v0.4.9.9.3">May 18th 2017</a>)</p>
 <ul>
 <li>Adopt trading fee value to match new tx fee</li>
@@ -360,7 +413,7 @@ Digital Rupees, Vcash, Waves, HOdlcoin, Burstcoin, Triangles, Argentum, DIBCOIN,
 <li>Use info as default log level, improve logging</li>
 <li>Other minor bug fixes</li>
 </ul>
-<h2>Releases:</h2>
+
 <p><strong>Version 0.4.9.1</strong> (Released: <a href="https://github.com/bitsquare/bitsquare/releases/tag/v0.4.9.1">July, 27th 2016</a>)</p>
 <ul>
 <li>Add trade statistics. Price chart, volume chart and table for trades.</li>

@@ -373,9 +373,11 @@ Here you can see the list of the currently supported 125 altcoins:</p>
 <p><a name="5"></a><strong>How long does a trade take?</strong></p>
 <p>Your trade duration will be determined by the transfer times of the currencies you and your trade partner use. National currency transfers can be instant (OkPay) or can take days (SEPA). Bitcoin transactions can take up to 10 minutes, as at least one confirmation from the Bitcoin network is required for a trade to complete.</p>
 <p><a name="6"></a><strong>How much does it cost to trade on Bisq?</strong></p>
-<p>A small fee of 0.0008 BTC when creating an offer and 0.0015 BTC (0.0005 BTC Mining fee) when taking an offer is paid to Bisq&#8217;s arbitrators for their service availability. Further, this fee discourages spam and market manipulation. A security deposit of 0.03 BTC is required by all traders to participate in a transaction, but the deposits are fully refunded to both parties after a successful trade.</p>
-<p>Other potential costs you may encounter are miner&#8217;s fees to transfer cryptocurrency, or banking fees to transfer national currency.</p>
-<p>Fees have been adjusted for Bisq v 0.4.9.9 to account for occasional network congestion and to avoid the long wait for confirmations. The security deposit has been risen to avoid situations where traders didn&#8217;t follow the protocol when the price during a trade moved in an unfavorable direction.</p>
+<p>
+				
+				Trading fees are based on trade amount and distance to market price. Min. fee (MF) = 0.0002 BTC, default fee (DF) = 0.002 BTC, amount factor (AF) = 1/BTC, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% 0 -> 3, 0.01% -> 0.1). Tradeing fee = max(MF, DF * amount * AF * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance.
+				
+				</p>
 <p><a name="openOffer"></a><strong>Why do I need to keep my application online when I have an open offer?</strong></p>
 <p>If you have published an offer your Bisq application need to stay online so it is able to react in the case when another trader wants to take your offer. The MultiSig depost transaction is created in that take-offer process. Be sure you have deactivated your computers standby mode, otherwise your Bisq application lose the internet connection (monitor standby is not a problem). If you shut down the application your offer gets removed from the distributed offerbook as it would become unavailable for others. After starting Bisq again your offer gets re-published.</p>
 <p><a name="editOffer"></a><strong>How can I edit my offer?</strong></p>
@@ -392,7 +394,7 @@ Here you can see the list of the currently supported 125 altcoins:</p>
 <p>Note: At this time, a fully decentralized arbitration system is not yet developed. The current bootstrapping phase instead uses a closed group of trusted arbitrators. This will change as soon the fully decentralized system is implemented.</p>
 <p><a name="9"></a><strong>How does the arbitration process work?</strong></p>
 <p>If Trader A fails to confirm the receipt of a national currency transfer within the allotted time (e.g. six days for SEPA, one day for OKPay, etc.), a button to contact the arbitrator will appear to both traders. Trader B will then be able to submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if Trader B never sent the national currency, Trader A will be able to submit evidence to the arbitrator that the funds were never received. Submitted evidence should be cryptographically secure using either <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be deployed.</p>
-<p>The arbitrator will side with buyer or seller and sign the 2-of-3 multisignature address in favor of the appropriate party. The arbitrator keeps the errant trader&#8217;s 0.01 BTC security deposit as payment for her service.</p>
+<p>The arbitrator will side with buyer or seller and sign the 2-of-3 multisignature address in favor of the appropriate party.</p>
 <p><a name="10"></a><strong>How is collusion between arbitrators and traders prevented?</strong></p>
 <p>As outlined above, arbitrators must pay a high security deposit to become such – higher than the one-bitcoin trade limit. If an arbitrator&#8217;s dispute resolution is not agreed to by both traders, a second round of arbitration can be requested by either of them.</p>
 <p>The Bisq system in this case will then select an arbitrator from among the highest-rated arbitrators. If collusion is found to have taken place, the misbehaving arbitrator will lose her deposit. This puts the arbitrator at a significant loss, as her security deposit was more than she made by being dishonest.</p>
@@ -405,7 +407,7 @@ Here you can see the list of the currently supported 125 altcoins:</p>
 <p><a name="12"></a><strong>Wouldn&#8217;t a pure reputation system among traders make arbitrators unnecessary?</strong></p>
 <p>Pure reputation without the option of arbitration is a weak protection system, as you can never avoid <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> or <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> attacks.</p>
 <p><a name="13"></a><strong>Can I be an arbitrator?</strong></p>
-<p>Fill out our standardized form and make your security deposit. After completion of these two steps, you will be listed as an arbitrator. This process will become available as soon as the open and decentralized arbitration process is developed, as detailed above.</p>
+<p>Once the open and decentralized arbitration process is developed anyone can become an arbitrator. At the current state it not closed to trusted developers.</p>
 <h2>Miscellaneous</h2>
 <p><a name="14"></a><strong> If I don’t have any bitcoins, how can I obtain enough to pay the security deposit on my first trade?</strong></p>
 <p>We recognize that the 0.01 BTC security deposit could be a barrier to entry to bitcoin beginners, but Bisq&#8217;s targeted users have used cryptocurrencies before.</p>

@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
 
 <channel>
-	<title>competition &#8211; Bitsquare</title>
-	<atom:link href="/blog/tag/competition/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
-	<language>en-GB</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>The Problem with Crypto Governance is Power</title>
-		<link>/blog/the-problem-with-crypto-governance-is-power/</link>
-		<comments>/blog/the-problem-with-crypto-governance-is-power/#comments</comments>
-		<pubDate>Fri, 21 Aug 2015 21:50:32 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[Discussion]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Opinion]]></category>
-		<category><![CDATA[block size]]></category>
-		<category><![CDATA[competition]]></category>
-		<category><![CDATA[consensus]]></category>
-		<category><![CDATA[cross-chain]]></category>
-		<category><![CDATA[decentralization of currencies]]></category>
+    <title>competition &#8211; Bitsquare</title>
+    <atom:link href="/blog/tag/competition/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>The Problem with Crypto Governance is Power</title>
+        <link>/blog/the-problem-with-crypto-governance-is-power/</link>
+        <comments>/blog/the-problem-with-crypto-governance-is-power/#comments</comments>
+        <pubDate>Fri, 21 Aug 2015 21:50:32 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[Discussion]]></category>
+        <category><![CDATA[News]]></category>
+        <category><![CDATA[Opinion]]></category>
+        <category><![CDATA[block size]]></category>
+        <category><![CDATA[competition]]></category>
+        <category><![CDATA[consensus]]></category>
+        <category><![CDATA[cross-chain]]></category>
+        <category><![CDATA[decentralization of currencies]]></category>
 
-		<guid isPermaLink="false">/?p=1122</guid>
-		<description><![CDATA[The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone agrees that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated. The more interesting [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone <a href="https://scalingbitcoin.org/" target="_blank">agrees</a> that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.</p>
+        <guid isPermaLink="false">/?p=1122</guid>
+        <description><![CDATA[The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone agrees that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated. The more interesting [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone <a href="https://scalingbitcoin.org/" target="_blank">agrees</a> that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.</p>
 <p>The more interesting problem is the little-discussed shift in governance model that some would like to see take place. Bitcoin&#8217;s current governance is based on consensus, but Bitcoin XT proponents would like to see it shift to a <a href="https://bitcoinxt.software/faq.html#who-is-involved" target="_blank">benevolent dictatorship of sorts</a>.</p>
 <p>The benevolent dictatorship model is used in many software projects, is widely accepted, and works well. But Bitcoin is not a usual software project. It&#8217;s a decentralized, censorship-resistant currency with a market capitalization of several billion.</p>
 <h3>How Power Happens</h3>
@@ -68,8 +68,8 @@
 <p>If you are a software developer, you already know this: if a problem is getting too difficult, you try to break it up into several smaller pieces. You divide and conquer. Decouple dependencies. Avoid god classes. Because small is beautiful.</p>
 <p>However you describe this form of problem solving, it&#8217;s nothing new. Only the tools are new. And they&#8217;re more favorable to us now than anyone could have ever imagined.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/the-problem-with-crypto-governance-is-power/feed/</wfw:commentRss>
-		<slash:comments>9</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>/blog/the-problem-with-crypto-governance-is-power/feed/</wfw:commentRss>
+        <slash:comments>9</slash:comments>
+        </item>
+    </channel>
 </rss>

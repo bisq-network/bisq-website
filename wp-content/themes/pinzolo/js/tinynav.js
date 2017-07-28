@@ -31,25 +31,25 @@
 
         // Build options
         var options = '';
-		var indent = 0;
-		var indented = ["&nbsp;"];
-		for ( var i = 0; i < 10; i++) {
-			indented.push(indented[indented.length-1]+indented[indented.length-1]);
-		}
-		indented[0] = "";
+        var indent = 0;
+        var indented = ["&nbsp;"];
+        for ( var i = 0; i < 10; i++) {
+            indented.push(indented[indented.length-1]+indented[indented.length-1]);
+        }
+        indented[0] = "";
         $nav
           .addClass('l_' + namespace_i)
           .children('li')
           .each(buildNavTree=function () {
             var a = $(this).children('a').first();
             if(a.length > 0){
-	            options +=
-	              '<option value="' + a.attr('href') + '">' +
-	              indented[indent] + a.text() +
-	              '</option>';
-	              indent++;
-	              $(this).children('ul,ol').children('li').each(buildNavTree);
-	              indent--;
+                options +=
+                  '<option value="' + a.attr('href') + '">' +
+                  indented[indent] + a.text() +
+                  '</option>';
+                  indent++;
+                  $(this).children('ul,ol').children('li').each(buildNavTree);
+                  indent--;
               }
           });
 
@@ -74,7 +74,7 @@
 
       }
 
-	$('option[value="'+document.location+'"]').attr("selected","selected");
+    $('option[value="'+document.location+'"]').attr("selected","selected");
 
     });
 

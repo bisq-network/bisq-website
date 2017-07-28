@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
 
 <channel>
-	<title>Privacy &#8211; Bitsquare</title>
-	<atom:link href="/blog/tag/privacy/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
-	<language>en-GB</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>Exploring the new territory</title>
-		<link>/blog/explorering-the-new-territory/</link>
-		<comments>/blog/explorering-the-new-territory/#comments</comments>
-		<pubDate>Fri, 05 Aug 2016 21:57:55 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[Opinion]]></category>
-		<category><![CDATA[decentralization]]></category>
-		<category><![CDATA[P2P]]></category>
-		<category><![CDATA[P2P network]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Regulation]]></category>
-		<category><![CDATA[The revolution will not be televised]]></category>
+    <title>Privacy &#8211; Bitsquare</title>
+    <atom:link href="/blog/tag/privacy/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>Exploring the new territory</title>
+        <link>/blog/explorering-the-new-territory/</link>
+        <comments>/blog/explorering-the-new-territory/#comments</comments>
+        <pubDate>Fri, 05 Aug 2016 21:57:55 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[Opinion]]></category>
+        <category><![CDATA[decentralization]]></category>
+        <category><![CDATA[P2P]]></category>
+        <category><![CDATA[P2P network]]></category>
+        <category><![CDATA[Privacy]]></category>
+        <category><![CDATA[Regulation]]></category>
+        <category><![CDATA[The revolution will not be televised]]></category>
 
-		<guid isPermaLink="false">/?p=1436</guid>
-		<description><![CDATA[With the recent Bitfinex heist models for decentralized exchanges have received a bit more attention as usual. This is a repeating pattern happening every few months after a major incident. And it goes back to business as usual after people are entertained by the next soap opera. So I do not expect that the majority of [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>With the recent <a href="http://blog.bitfinex.com/uncategorized/security-breach/">Bitfinex heist</a> models for decentralized exchanges have received a bit more attention as usual.</p>
+        <guid isPermaLink="false">/?p=1436</guid>
+        <description><![CDATA[With the recent Bitfinex heist models for decentralized exchanges have received a bit more attention as usual. This is a repeating pattern happening every few months after a major incident. And it goes back to business as usual after people are entertained by the next soap opera. So I do not expect that the majority of [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>With the recent <a href="http://blog.bitfinex.com/uncategorized/security-breach/">Bitfinex heist</a> models for decentralized exchanges have received a bit more attention as usual.</p>
 <p>This is a repeating pattern happening every few months after a major incident. And it goes back to <em>business as usual </em>after people are entertained by the next soap opera.<br />
 So I do not expect that the majority of cryptoland citizens will radically change their behavior. And that has several understandable reasons.<br />
 But beside that, <strong>there is lack of awareness for critical problems and lack of visions for possible solutions</strong>.</p>
@@ -128,8 +128,8 @@ It might need a bit of openness and courage for trying out new paths, but you kn
 <p style="text-align: center;"><strong><a href="https://www.youtube.com/watch?v=kZvWt29OG0s">The revolution will </a><a href="https://www.youtube.com/watch?v=NhxH6fgQuDs">not be televised</a></strong></p>
 <p style="text-align: center;"><iframe src="https://www.youtube.com/embed/qGaoXAwl9kw" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/explorering-the-new-territory/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>/blog/explorering-the-new-territory/feed/</wfw:commentRss>
+        <slash:comments>3</slash:comments>
+        </item>
+    </channel>
 </rss>

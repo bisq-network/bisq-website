@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    
+    >
 <channel>
-	<title>Comments on: Bitsquare: Now in Alpha</title>
-	<atom:link href="/blog/bitsquare-now-in-alpha/feed/" rel="self" type="application/rss+xml" />
-	<link>/blog/bitsquare-now-in-alpha/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>By: Bitsquare has launched a crowd funding round &#124; Shanomag</title>
-		<link>/blog/bitsquare-now-in-alpha/#comment-18</link>
-		<dc:creator><![CDATA[Bitsquare has launched a crowd funding round &#124; Shanomag]]></dc:creator>
-		<pubDate>Mon, 26 Jan 2015 13:46:12 +0000</pubDate>
-		<guid isPermaLink="false">/?p=602#comment-18</guid>
-		<description><![CDATA[[&#8230;] funded our first public alpha version with our own savings. But now, we have met the limitations of self-funding by simply running out of [&#8230;]]]></description>
-		<content:encoded><![CDATA[<p>[&#8230;] funded our first public alpha version with our own savings. But now, we have met the limitations of self-funding by simply running out of [&#8230;]</p>
+    <title>Comments on: Bitsquare: Now in Alpha</title>
+    <atom:link href="/blog/bitsquare-now-in-alpha/feed/" rel="self" type="application/rss+xml" />
+    <link>/blog/bitsquare-now-in-alpha/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>By: Bitsquare has launched a crowd funding round &#124; Shanomag</title>
+        <link>/blog/bitsquare-now-in-alpha/#comment-18</link>
+        <dc:creator><![CDATA[Bitsquare has launched a crowd funding round &#124; Shanomag]]></dc:creator>
+        <pubDate>Mon, 26 Jan 2015 13:46:12 +0000</pubDate>
+        <guid isPermaLink="false">/?p=602#comment-18</guid>
+        <description><![CDATA[[&#8230;] funded our first public alpha version with our own savings. But now, we have met the limitations of self-funding by simply running out of [&#8230;]]]></description>
+        <content:encoded><![CDATA[<p>[&#8230;] funded our first public alpha version with our own savings. But now, we have met the limitations of self-funding by simply running out of [&#8230;]</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Alexander Ainslie (@AAinslie)</title>
-		<link>/blog/bitsquare-now-in-alpha/#comment-12</link>
-		<dc:creator><![CDATA[Alexander Ainslie (@AAinslie)]]></dc:creator>
-		<pubDate>Tue, 16 Dec 2014 18:50:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=602#comment-12</guid>
-		<description><![CDATA[Excellent!]]></description>
-		<content:encoded><![CDATA[<p>Excellent!</p>
+    </item>
+    <item>
+        <title>By: Alexander Ainslie (@AAinslie)</title>
+        <link>/blog/bitsquare-now-in-alpha/#comment-12</link>
+        <dc:creator><![CDATA[Alexander Ainslie (@AAinslie)]]></dc:creator>
+        <pubDate>Tue, 16 Dec 2014 18:50:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=602#comment-12</guid>
+        <description><![CDATA[Excellent!]]></description>
+        <content:encoded><![CDATA[<p>Excellent!</p>
 ]]></content:encoded>
-	</item>
+    </item>
 </channel>
 </rss>

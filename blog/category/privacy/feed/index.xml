@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
 
 <channel>
-	<title>Privacy &#8211; Bitsquare</title>
-	<atom:link href="/blog/category/privacy/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
-	<language>en-GB</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>Privacy in Bitsquare</title>
-		<link>/blog/privacy-in-bitsquare/</link>
-		<comments>/blog/privacy-in-bitsquare/#comments</comments>
-		<pubDate>Wed, 29 Mar 2017 05:01:54 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[Discussion]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Technical]]></category>
+    <title>Privacy &#8211; Bitsquare</title>
+    <atom:link href="/blog/category/privacy/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>Privacy in Bitsquare</title>
+        <link>/blog/privacy-in-bitsquare/</link>
+        <comments>/blog/privacy-in-bitsquare/#comments</comments>
+        <pubDate>Wed, 29 Mar 2017 05:01:54 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[Discussion]]></category>
+        <category><![CDATA[News]]></category>
+        <category><![CDATA[Privacy]]></category>
+        <category><![CDATA[Technical]]></category>
 
-		<guid isPermaLink="false">/?p=1721</guid>
-		<description><![CDATA[To write a blog post about privacy in Bitsquare has been already a long time on my TODO list. One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience. But as we still don’t have [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>To write a blog post about privacy in Bitsquare has been already a long time on my TODO list.</p>
+        <guid isPermaLink="false">/?p=1721</guid>
+        <description><![CDATA[To write a blog post about privacy in Bitsquare has been already a long time on my TODO list. One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience. But as we still don’t have [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>To write a blog post about privacy in Bitsquare has been already a long time on my TODO list.</p>
 <p>One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience.</p>
 <p>But as we still don’t have the resources to fix the main issue (see section below about the BitcoinJ bloom filter) I want to explain the background of the issue and propose the solution how you can protect your privacy even in the presence of that existing weakness.</p>
 <p>Beside that I want to give an overview about different areas where privacy is relevant in Bitsquare.<br />
@@ -164,8 +164,8 @@ As we cannot expect much support from that side, let&#8217;s build our new model
 [11] Bitcoin Privacy: Theory and Practice &#8211; Jonas Nick: <a href="https://www.youtube.com/watch?v=HScK4pkDNds&amp;t=11m30s">https://www.youtube.com/watch?v=HScK4pkDNds&amp;t=11m30s</a><br />
 [12] Bloom filtering, privacy &#8211; Adam Back: <a href="https://www.reddit.com/r/bitcoin_devlist/comments/3bsugu/bloom_filtering_privacy_adam_back_feb_20_2015/">https://www.reddit.com/r/bitcoin_devlist/comments/3bsugu/bloom_filtering_privacy_adam_back_feb_20_2015/</a></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/privacy-in-bitsquare/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>/blog/privacy-in-bitsquare/feed/</wfw:commentRss>
+        <slash:comments>1</slash:comments>
+        </item>
+    </channel>
 </rss>

@@ -4,8 +4,8 @@
 
   <options>
     <clientType>WordPress</clientType>
-	<supportsKeywords>Yes</supportsKeywords>
-	<supportsGetTags>Yes</supportsGetTags>
+    <supportsKeywords>Yes</supportsKeywords>
+    <supportsGetTags>Yes</supportsGetTags>
   </options>
 
   <weblog>
@@ -16,13 +16,13 @@
     <adminLinkText>Dashboard</adminLinkText>
     <adminUrl>
       <![CDATA[
-			{blog-postapi-url}/../wp-admin/
-		]]>
+            {blog-postapi-url}/../wp-admin/
+        ]]>
     </adminUrl>
     <postEditingUrl>
       <![CDATA[
-			{blog-postapi-url}/../wp-admin/post.php?action=edit&post={post-id}
-		]]>
+            {blog-postapi-url}/../wp-admin/post.php?action=edit&post={post-id}
+        ]]>
     </postEditingUrl>
   </weblog>
 
@@ -33,8 +33,8 @@
       <imageUrl>images/wlw/wp-comments.png</imageUrl>
       <clickUrl>
         <![CDATA[
-				{blog-postapi-url}/../wp-admin/edit-comments.php
-			]]>
+                {blog-postapi-url}/../wp-admin/edit-comments.php
+            ]]>
       </clickUrl>
     </button>
 

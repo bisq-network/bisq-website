@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
 
 <channel>
-	<title>bisq &#8211; Bitsquare</title>
-	<atom:link href="/blog/tag/bisq/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
-	<language>en-GB</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>Bitsquare becomes bisq</title>
-		<link>/blog/bitsquare-becomes-bisq/</link>
-		<comments>/blog/bitsquare-becomes-bisq/#comments</comments>
-		<pubDate>Mon, 06 Mar 2017 15:52:14 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[bisq]]></category>
-		<category><![CDATA[Brand]]></category>
-		<category><![CDATA[rebranding]]></category>
-		<category><![CDATA[Trademark]]></category>
+    <title>bisq &#8211; Bitsquare</title>
+    <atom:link href="/blog/tag/bisq/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>Bitsquare becomes bisq</title>
+        <link>/blog/bitsquare-becomes-bisq/</link>
+        <comments>/blog/bitsquare-becomes-bisq/#comments</comments>
+        <pubDate>Mon, 06 Mar 2017 15:52:14 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[bisq]]></category>
+        <category><![CDATA[Brand]]></category>
+        <category><![CDATA[rebranding]]></category>
+        <category><![CDATA[Trademark]]></category>
 
-		<guid isPermaLink="false">/?p=1717</guid>
-		<description><![CDATA[We announced a while ago that we started rebranding as a result of trademark conflicts. That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it. We have chosen to replace Bitsquare with bisq. Thoughts on the old name The brand Bitsquare is good but not [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>We <a href="/blog/bitsquare-is-rebranding/">announced</a> a while ago that we started rebranding as a result of trademark conflicts.</p>
+        <guid isPermaLink="false">/?p=1717</guid>
+        <description><![CDATA[We announced a while ago that we started rebranding as a result of trademark conflicts. That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it. We have chosen to replace Bitsquare with bisq. Thoughts on the old name The brand Bitsquare is good but not [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>We <a href="/blog/bitsquare-is-rebranding/">announced</a> a while ago that we started rebranding as a result of trademark conflicts.</p>
 <p>That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it.<br />
 We have chosen to replace Bitsquare with bisq.</p>
 <h3>Thoughts on the old name</h3>
@@ -67,8 +67,8 @@ It is a bit like calling your kid “Little Boy” instead of giving him a uniqu
 Please help us to spread the word to make it easier for people to know that <b>Bitsquare becomes bisq</b>.</p>
 <p>Until the rebranding has officially started, we are still Bitsquare 🙂</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/bitsquare-becomes-bisq/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>/blog/bitsquare-becomes-bisq/feed/</wfw:commentRss>
+        <slash:comments>3</slash:comments>
+        </item>
+    </channel>
 </rss>

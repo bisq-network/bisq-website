@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    
+    >
 <channel>
-	<title>Comments on: Privacy in Bitsquare</title>
-	<atom:link href="/blog/privacy-in-bitsquare/feed/" rel="self" type="application/rss+xml" />
-	<link>/blog/privacy-in-bitsquare/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>By: lee</title>
-		<link>/blog/privacy-in-bitsquare/#comment-163</link>
-		<dc:creator><![CDATA[lee]]></dc:creator>
-		<pubDate>Thu, 13 Apr 2017 05:16:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=1721#comment-163</guid>
-		<description><![CDATA[Thanks for this! Interesting stuff.]]></description>
-		<content:encoded><![CDATA[<p>Thanks for this! Interesting stuff.</p>
+    <title>Comments on: Privacy in Bitsquare</title>
+    <atom:link href="/blog/privacy-in-bitsquare/feed/" rel="self" type="application/rss+xml" />
+    <link>/blog/privacy-in-bitsquare/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>By: lee</title>
+        <link>/blog/privacy-in-bitsquare/#comment-163</link>
+        <dc:creator><![CDATA[lee]]></dc:creator>
+        <pubDate>Thu, 13 Apr 2017 05:16:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=1721#comment-163</guid>
+        <description><![CDATA[Thanks for this! Interesting stuff.]]></description>
+        <content:encoded><![CDATA[<p>Thanks for this! Interesting stuff.</p>
 ]]></content:encoded>
-	</item>
+    </item>
 </channel>
 </rss>

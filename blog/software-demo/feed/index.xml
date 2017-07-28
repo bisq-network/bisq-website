@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    
+    >
 <channel>
-	<title>Comments on: Software demo</title>
-	<atom:link href="/blog/software-demo/feed/" rel="self" type="application/rss+xml" />
-	<link>/blog/software-demo/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>By: Ulrich Bühring</title>
-		<link>/blog/software-demo/#comment-172</link>
-		<dc:creator><![CDATA[Ulrich Bühring]]></dc:creator>
-		<pubDate>Mon, 12 Jun 2017 23:37:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=410#comment-172</guid>
-		<description><![CDATA[I totally agree. Deposit and fees are required in Bitcoin in order to avoid charge-backs, or why? Let&#039;s find some solutions!]]></description>
-		<content:encoded><![CDATA[<p>I totally agree. Deposit and fees are required in Bitcoin in order to avoid charge-backs, or why? Let&#8217;s find some solutions!</p>
+    <title>Comments on: Software demo</title>
+    <atom:link href="/blog/software-demo/feed/" rel="self" type="application/rss+xml" />
+    <link>/blog/software-demo/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>By: Ulrich Bühring</title>
+        <link>/blog/software-demo/#comment-172</link>
+        <dc:creator><![CDATA[Ulrich Bühring]]></dc:creator>
+        <pubDate>Mon, 12 Jun 2017 23:37:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=410#comment-172</guid>
+        <description><![CDATA[I totally agree. Deposit and fees are required in Bitcoin in order to avoid charge-backs, or why? Let&#039;s find some solutions!]]></description>
+        <content:encoded><![CDATA[<p>I totally agree. Deposit and fees are required in Bitcoin in order to avoid charge-backs, or why? Let&#8217;s find some solutions!</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: NameHiddenToProtectPoster</title>
-		<link>/blog/software-demo/#comment-168</link>
-		<dc:creator><![CDATA[NameHiddenToProtectPoster]]></dc:creator>
-		<pubDate>Wed, 10 May 2017 00:55:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=410#comment-168</guid>
-		<description><![CDATA[Hi.
+    </item>
+    <item>
+        <title>By: NameHiddenToProtectPoster</title>
+        <link>/blog/software-demo/#comment-168</link>
+        <dc:creator><![CDATA[NameHiddenToProtectPoster]]></dc:creator>
+        <pubDate>Wed, 10 May 2017 00:55:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=410#comment-168</guid>
+        <description><![CDATA[Hi.
 Not sure how I could supply the deposit or pay the fees for my first purchase of Bitcoin if I don&#039;t have any Bitcoin yet.
 Or am I missing something?
 
@@ -38,23 +38,23 @@ Is this a blocking point for those who don&#039;t have any Bitcoin at all, yet?
 If so, it&#039;s a barrier to entry into Bitsquare/the bitcoin ecosystem.
 
 Tom]]></description>
-		<content:encoded><![CDATA[<p>Hi.<br />
+        <content:encoded><![CDATA[<p>Hi.<br />
 Not sure how I could supply the deposit or pay the fees for my first purchase of Bitcoin if I don&#8217;t have any Bitcoin yet.<br />
 Or am I missing something?</p>
 <p>Is this a blocking point for those who don&#8217;t have any Bitcoin at all, yet?<br />
 If so, it&#8217;s a barrier to entry into Bitsquare/the bitcoin ecosystem.</p>
 <p>Tom</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: bitsquare</title>
-		<link>/blog/software-demo/#comment-10</link>
-		<dc:creator><![CDATA[bitsquare]]></dc:creator>
-		<pubDate>Mon, 15 Dec 2014 22:10:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=410#comment-10</guid>
-		<description><![CDATA[If you have questions about this demo please leave a comment for us :)]]></description>
-		<content:encoded><![CDATA[<p>If you have questions about this demo please leave a comment for us 🙂</p>
+    </item>
+    <item>
+        <title>By: bitsquare</title>
+        <link>/blog/software-demo/#comment-10</link>
+        <dc:creator><![CDATA[bitsquare]]></dc:creator>
+        <pubDate>Mon, 15 Dec 2014 22:10:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=410#comment-10</guid>
+        <description><![CDATA[If you have questions about this demo please leave a comment for us :)]]></description>
+        <content:encoded><![CDATA[<p>If you have questions about this demo please leave a comment for us 🙂</p>
 ]]></content:encoded>
-	</item>
+    </item>
 </channel>
 </rss>

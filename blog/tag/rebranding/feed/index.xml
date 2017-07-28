@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
 
 <channel>
-	<title>rebranding &#8211; Bitsquare</title>
-	<atom:link href="/blog/tag/rebranding/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
-	<language>en-GB</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>Bitsquare becomes bisq</title>
-		<link>/blog/bitsquare-becomes-bisq/</link>
-		<comments>/blog/bitsquare-becomes-bisq/#comments</comments>
-		<pubDate>Mon, 06 Mar 2017 15:52:14 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[bisq]]></category>
-		<category><![CDATA[Brand]]></category>
-		<category><![CDATA[rebranding]]></category>
-		<category><![CDATA[Trademark]]></category>
+    <title>rebranding &#8211; Bitsquare</title>
+    <atom:link href="/blog/tag/rebranding/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>Bitsquare becomes bisq</title>
+        <link>/blog/bitsquare-becomes-bisq/</link>
+        <comments>/blog/bitsquare-becomes-bisq/#comments</comments>
+        <pubDate>Mon, 06 Mar 2017 15:52:14 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[bisq]]></category>
+        <category><![CDATA[Brand]]></category>
+        <category><![CDATA[rebranding]]></category>
+        <category><![CDATA[Trademark]]></category>
 
-		<guid isPermaLink="false">/?p=1717</guid>
-		<description><![CDATA[We announced a while ago that we started rebranding as a result of trademark conflicts. That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it. We have chosen to replace Bitsquare with bisq. Thoughts on the old name The brand Bitsquare is good but not [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>We <a href="/blog/bitsquare-is-rebranding/">announced</a> a while ago that we started rebranding as a result of trademark conflicts.</p>
+        <guid isPermaLink="false">/?p=1717</guid>
+        <description><![CDATA[We announced a while ago that we started rebranding as a result of trademark conflicts. That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it. We have chosen to replace Bitsquare with bisq. Thoughts on the old name The brand Bitsquare is good but not [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>We <a href="/blog/bitsquare-is-rebranding/">announced</a> a while ago that we started rebranding as a result of trademark conflicts.</p>
 <p>That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it.<br />
 We have chosen to replace Bitsquare with bisq.</p>
 <h3>Thoughts on the old name</h3>
@@ -67,22 +67,22 @@ It is a bit like calling your kid “Little Boy” instead of giving him a uniqu
 Please help us to spread the word to make it easier for people to know that <b>Bitsquare becomes bisq</b>.</p>
 <p>Until the rebranding has officially started, we are still Bitsquare 🙂</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/bitsquare-becomes-bisq/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-		<item>
-		<title>Bitsquare is rebranding</title>
-		<link>/blog/bitsquare-is-rebranding/</link>
-		<comments>/blog/bitsquare-is-rebranding/#comments</comments>
-		<pubDate>Thu, 12 Jan 2017 13:33:25 +0000</pubDate>
-		<dc:creator><![CDATA[Mihail Mihaylov]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[bounty]]></category>
-		<category><![CDATA[rebranding]]></category>
+            <wfw:commentRss>/blog/bitsquare-becomes-bisq/feed/</wfw:commentRss>
+        <slash:comments>3</slash:comments>
+        </item>
+        <item>
+        <title>Bitsquare is rebranding</title>
+        <link>/blog/bitsquare-is-rebranding/</link>
+        <comments>/blog/bitsquare-is-rebranding/#comments</comments>
+        <pubDate>Thu, 12 Jan 2017 13:33:25 +0000</pubDate>
+        <dc:creator><![CDATA[Mihail Mihaylov]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[bounty]]></category>
+        <category><![CDATA[rebranding]]></category>
 
-		<guid isPermaLink="false">/?p=1692</guid>
-		<description><![CDATA[Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being developed without venture capital or any other form of external funding, but with personal savings and donations from the community it serves. To protect the values of this community and to [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p><span style="font-weight: 400;">Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being </span><b>developed without venture capital</b><span style="font-weight: 400;"> or any other form of external funding, but with personal savings and donations from the community it serves. </span></p>
+        <guid isPermaLink="false">/?p=1692</guid>
+        <description><![CDATA[Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being developed without venture capital or any other form of external funding, but with personal savings and donations from the community it serves. To protect the values of this community and to [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p><span style="font-weight: 400;">Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being </span><b>developed without venture capital</b><span style="font-weight: 400;"> or any other form of external funding, but with personal savings and donations from the community it serves. </span></p>
 <p><span style="font-weight: 400;">To protect the values of this community and to build a stronger image there came the need to </span><b>register the Bitsquare brand</b><span style="font-weight: 400;">. The team recently initiated brand registration, but as it often happens, the name was opposed. It turns out, though to no one’s surprise, our project is not the first one to come up with the term “square” in its name. </span></p>
 <p><span style="font-weight: 400;">To try and preserve the name we all came to know and love, the team sought professional legal advice from two independent lawyers. These consultations did not bring much hope though, as we learned that</span><b> the odds are stacked against us</b><span style="font-weight: 400;">. </span></p>
 <p><span style="font-weight: 400;">Although the community has grown attached to the name “Bitsquare”, we’d rather focus our limited resources towards building stronger code. To avoid a lengthy and expensive legal process, we will have to </span><b>find another name</b><span style="font-weight: 400;">. </span></p>
@@ -90,8 +90,8 @@ Please help us to spread the word to make it easier for people to know that <b>B
 <p><span style="font-weight: 400;">The project is now seeking a new brand name that will firmly establish its presence in the cryptocurrency space. In the search for a new name, a team brainstorm produced a number of candidates. We are now </span><b>turning to the community</b><span style="font-weight: 400;"> for additional proposals. To avoid bias, though, our list will likely not be shown.</span></p>
 <p><span style="font-weight: 400;">Manfred, Bitsquare’s founder and lead dev, is offering a </span><b>bounty of 0.5 bitcoin</b><span style="font-weight: 400;"> for the person whose proposed name ends up being selected by the team. You can find the details of the bounty in our <a href="https://forum.bitsquare.io/t/bitsquare-bounty-0-5-btc-for-new-brand-name/1133">forum post</a></span><span style="font-weight: 400;">. </span></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/bitsquare-is-rebranding/feed/</wfw:commentRss>
-		<slash:comments>14</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>/blog/bitsquare-is-rebranding/feed/</wfw:commentRss>
+        <slash:comments>14</slash:comments>
+        </item>
+    </channel>
 </rss>

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
 
 <channel>
-	<title>Discussion &#8211; Bitsquare</title>
-	<atom:link href="/blog/category/discussion/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
-	<language>en-GB</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>Privacy in Bitsquare</title>
-		<link>/blog/privacy-in-bitsquare/</link>
-		<comments>/blog/privacy-in-bitsquare/#comments</comments>
-		<pubDate>Wed, 29 Mar 2017 05:01:54 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[Discussion]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Technical]]></category>
+    <title>Discussion &#8211; Bitsquare</title>
+    <atom:link href="/blog/category/discussion/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>Privacy in Bitsquare</title>
+        <link>/blog/privacy-in-bitsquare/</link>
+        <comments>/blog/privacy-in-bitsquare/#comments</comments>
+        <pubDate>Wed, 29 Mar 2017 05:01:54 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[Discussion]]></category>
+        <category><![CDATA[News]]></category>
+        <category><![CDATA[Privacy]]></category>
+        <category><![CDATA[Technical]]></category>
 
-		<guid isPermaLink="false">/?p=1721</guid>
-		<description><![CDATA[To write a blog post about privacy in Bitsquare has been already a long time on my TODO list. One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience. But as we still don’t have [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>To write a blog post about privacy in Bitsquare has been already a long time on my TODO list.</p>
+        <guid isPermaLink="false">/?p=1721</guid>
+        <description><![CDATA[To write a blog post about privacy in Bitsquare has been already a long time on my TODO list. One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience. But as we still don’t have [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>To write a blog post about privacy in Bitsquare has been already a long time on my TODO list.</p>
 <p>One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience.</p>
 <p>But as we still don’t have the resources to fix the main issue (see section below about the BitcoinJ bloom filter) I want to explain the background of the issue and propose the solution how you can protect your privacy even in the presence of that existing weakness.</p>
 <p>Beside that I want to give an overview about different areas where privacy is relevant in Bitsquare.<br />
@@ -164,27 +164,27 @@ As we cannot expect much support from that side, let&#8217;s build our new model
 [11] Bitcoin Privacy: Theory and Practice &#8211; Jonas Nick: <a href="https://www.youtube.com/watch?v=HScK4pkDNds&amp;t=11m30s">https://www.youtube.com/watch?v=HScK4pkDNds&amp;t=11m30s</a><br />
 [12] Bloom filtering, privacy &#8211; Adam Back: <a href="https://www.reddit.com/r/bitcoin_devlist/comments/3bsugu/bloom_filtering_privacy_adam_back_feb_20_2015/">https://www.reddit.com/r/bitcoin_devlist/comments/3bsugu/bloom_filtering_privacy_adam_back_feb_20_2015/</a></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/privacy-in-bitsquare/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-		</item>
-		<item>
-		<title>The Problem with Crypto Governance is Power</title>
-		<link>/blog/the-problem-with-crypto-governance-is-power/</link>
-		<comments>/blog/the-problem-with-crypto-governance-is-power/#comments</comments>
-		<pubDate>Fri, 21 Aug 2015 21:50:32 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[Discussion]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Opinion]]></category>
-		<category><![CDATA[block size]]></category>
-		<category><![CDATA[competition]]></category>
-		<category><![CDATA[consensus]]></category>
-		<category><![CDATA[cross-chain]]></category>
-		<category><![CDATA[decentralization of currencies]]></category>
+            <wfw:commentRss>/blog/privacy-in-bitsquare/feed/</wfw:commentRss>
+        <slash:comments>1</slash:comments>
+        </item>
+        <item>
+        <title>The Problem with Crypto Governance is Power</title>
+        <link>/blog/the-problem-with-crypto-governance-is-power/</link>
+        <comments>/blog/the-problem-with-crypto-governance-is-power/#comments</comments>
+        <pubDate>Fri, 21 Aug 2015 21:50:32 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[Discussion]]></category>
+        <category><![CDATA[News]]></category>
+        <category><![CDATA[Opinion]]></category>
+        <category><![CDATA[block size]]></category>
+        <category><![CDATA[competition]]></category>
+        <category><![CDATA[consensus]]></category>
+        <category><![CDATA[cross-chain]]></category>
+        <category><![CDATA[decentralization of currencies]]></category>
 
-		<guid isPermaLink="false">/?p=1122</guid>
-		<description><![CDATA[The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone agrees that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated. The more interesting [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone <a href="https://scalingbitcoin.org/" target="_blank">agrees</a> that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.</p>
+        <guid isPermaLink="false">/?p=1122</guid>
+        <description><![CDATA[The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone agrees that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated. The more interesting [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone <a href="https://scalingbitcoin.org/" target="_blank">agrees</a> that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.</p>
 <p>The more interesting problem is the little-discussed shift in governance model that some would like to see take place. Bitcoin&#8217;s current governance is based on consensus, but Bitcoin XT proponents would like to see it shift to a <a href="https://bitcoinxt.software/faq.html#who-is-involved" target="_blank">benevolent dictatorship of sorts</a>.</p>
 <p>The benevolent dictatorship model is used in many software projects, is widely accepted, and works well. But Bitcoin is not a usual software project. It&#8217;s a decentralized, censorship-resistant currency with a market capitalization of several billion.</p>
 <h3>How Power Happens</h3>
@@ -218,22 +218,22 @@ As we cannot expect much support from that side, let&#8217;s build our new model
 <p>If you are a software developer, you already know this: if a problem is getting too difficult, you try to break it up into several smaller pieces. You divide and conquer. Decouple dependencies. Avoid god classes. Because small is beautiful.</p>
 <p>However you describe this form of problem solving, it&#8217;s nothing new. Only the tools are new. And they&#8217;re more favorable to us now than anyone could have ever imagined.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/the-problem-with-crypto-governance-is-power/feed/</wfw:commentRss>
-		<slash:comments>9</slash:comments>
-		</item>
-		<item>
-		<title>Killer apps</title>
-		<link>/blog/killer-apps/</link>
-		<comments>/blog/killer-apps/#comments</comments>
-		<pubDate>Sat, 25 Jul 2015 12:25:03 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[Discussion]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Opinion]]></category>
+            <wfw:commentRss>/blog/the-problem-with-crypto-governance-is-power/feed/</wfw:commentRss>
+        <slash:comments>9</slash:comments>
+        </item>
+        <item>
+        <title>Killer apps</title>
+        <link>/blog/killer-apps/</link>
+        <comments>/blog/killer-apps/#comments</comments>
+        <pubDate>Sat, 25 Jul 2015 12:25:03 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[Discussion]]></category>
+        <category><![CDATA[News]]></category>
+        <category><![CDATA[Opinion]]></category>
 
-		<guid isPermaLink="false">/?p=972</guid>
-		<description><![CDATA[Regardless of what you think or whatever you got presented by the media regarding the Greek crisis, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least. Depending on the interpretation of the severity of the problem one might come to the [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>Regardless of what you think or whatever you got presented by the media regarding the <strong><a href="http://yanisvaroufakis.eu/">Greek crisis</a></strong>, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least.<br />
+        <guid isPermaLink="false">/?p=972</guid>
+        <description><![CDATA[Regardless of what you think or whatever you got presented by the media regarding the Greek crisis, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least. Depending on the interpretation of the severity of the problem one might come to the [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>Regardless of what you think or whatever you got presented by the media regarding the <strong><a href="http://yanisvaroufakis.eu/">Greek crisis</a></strong>, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least.<br />
 Depending on the interpretation of the severity of the problem one might come to the conclusion that our political, economic and financial system is just <strong>too broken to get fixed</strong>.<em><br />
 </em></p>
 <blockquote>
@@ -276,8 +276,8 @@ A digital currency or money more generally can be defined as a representation of
 <p>From some of the above (incomplete) list of technologies, tools and concepts we might see new applications changing fundamentally the reality we live in.</p>
 <p>Those are the <strong>killer apps</strong> I am interested in &#8211; they might help us <strong>to not get killed by ourselves.</strong></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/killer-apps/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>/blog/killer-apps/feed/</wfw:commentRss>
+        <slash:comments>3</slash:comments>
+        </item>
+    </channel>
 </rss>

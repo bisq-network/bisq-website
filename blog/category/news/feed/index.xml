@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
 
 <channel>
-	<title>News &#8211; Bitsquare</title>
-	<atom:link href="/blog/category/news/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
-	<language>en-GB</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>Privacy in Bitsquare</title>
-		<link>/blog/privacy-in-bitsquare/</link>
-		<comments>/blog/privacy-in-bitsquare/#comments</comments>
-		<pubDate>Wed, 29 Mar 2017 05:01:54 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[Discussion]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Technical]]></category>
+    <title>News &#8211; Bitsquare</title>
+    <atom:link href="/blog/category/news/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>Privacy in Bitsquare</title>
+        <link>/blog/privacy-in-bitsquare/</link>
+        <comments>/blog/privacy-in-bitsquare/#comments</comments>
+        <pubDate>Wed, 29 Mar 2017 05:01:54 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[Discussion]]></category>
+        <category><![CDATA[News]]></category>
+        <category><![CDATA[Privacy]]></category>
+        <category><![CDATA[Technical]]></category>
 
-		<guid isPermaLink="false">/?p=1721</guid>
-		<description><![CDATA[To write a blog post about privacy in Bitsquare has been already a long time on my TODO list. One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience. But as we still don’t have [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>To write a blog post about privacy in Bitsquare has been already a long time on my TODO list.</p>
+        <guid isPermaLink="false">/?p=1721</guid>
+        <description><![CDATA[To write a blog post about privacy in Bitsquare has been already a long time on my TODO list. One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience. But as we still don’t have [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>To write a blog post about privacy in Bitsquare has been already a long time on my TODO list.</p>
 <p>One reason why I postponed it for so long was that I tried to fix the weaknesses rather than to explain such complicated stuff to a broader (potentially non-technical) audience.</p>
 <p>But as we still don’t have the resources to fix the main issue (see section below about the BitcoinJ bloom filter) I want to explain the background of the issue and propose the solution how you can protect your privacy even in the presence of that existing weakness.</p>
 <p>Beside that I want to give an overview about different areas where privacy is relevant in Bitsquare.<br />
@@ -164,24 +164,24 @@ As we cannot expect much support from that side, let&#8217;s build our new model
 [11] Bitcoin Privacy: Theory and Practice &#8211; Jonas Nick: <a href="https://www.youtube.com/watch?v=HScK4pkDNds&amp;t=11m30s">https://www.youtube.com/watch?v=HScK4pkDNds&amp;t=11m30s</a><br />
 [12] Bloom filtering, privacy &#8211; Adam Back: <a href="https://www.reddit.com/r/bitcoin_devlist/comments/3bsugu/bloom_filtering_privacy_adam_back_feb_20_2015/">https://www.reddit.com/r/bitcoin_devlist/comments/3bsugu/bloom_filtering_privacy_adam_back_feb_20_2015/</a></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/privacy-in-bitsquare/feed/</wfw:commentRss>
-		<slash:comments>1</slash:comments>
-		</item>
-		<item>
-		<title>Bitsquare becomes bisq</title>
-		<link>/blog/bitsquare-becomes-bisq/</link>
-		<comments>/blog/bitsquare-becomes-bisq/#comments</comments>
-		<pubDate>Mon, 06 Mar 2017 15:52:14 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[bisq]]></category>
-		<category><![CDATA[Brand]]></category>
-		<category><![CDATA[rebranding]]></category>
-		<category><![CDATA[Trademark]]></category>
+            <wfw:commentRss>/blog/privacy-in-bitsquare/feed/</wfw:commentRss>
+        <slash:comments>1</slash:comments>
+        </item>
+        <item>
+        <title>Bitsquare becomes bisq</title>
+        <link>/blog/bitsquare-becomes-bisq/</link>
+        <comments>/blog/bitsquare-becomes-bisq/#comments</comments>
+        <pubDate>Mon, 06 Mar 2017 15:52:14 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[bisq]]></category>
+        <category><![CDATA[Brand]]></category>
+        <category><![CDATA[rebranding]]></category>
+        <category><![CDATA[Trademark]]></category>
 
-		<guid isPermaLink="false">/?p=1717</guid>
-		<description><![CDATA[We announced a while ago that we started rebranding as a result of trademark conflicts. That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it. We have chosen to replace Bitsquare with bisq. Thoughts on the old name The brand Bitsquare is good but not [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>We <a href="/blog/bitsquare-is-rebranding/">announced</a> a while ago that we started rebranding as a result of trademark conflicts.</p>
+        <guid isPermaLink="false">/?p=1717</guid>
+        <description><![CDATA[We announced a while ago that we started rebranding as a result of trademark conflicts. That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it. We have chosen to replace Bitsquare with bisq. Thoughts on the old name The brand Bitsquare is good but not [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>We <a href="/blog/bitsquare-is-rebranding/">announced</a> a while ago that we started rebranding as a result of trademark conflicts.</p>
 <p>That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it.<br />
 We have chosen to replace Bitsquare with bisq.</p>
 <h3>Thoughts on the old name</h3>
@@ -217,20 +217,20 @@ It is a bit like calling your kid “Little Boy” instead of giving him a uniqu
 Please help us to spread the word to make it easier for people to know that <b>Bitsquare becomes bisq</b>.</p>
 <p>Until the rebranding has officially started, we are still Bitsquare 🙂</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/bitsquare-becomes-bisq/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-		<item>
-		<title>Outcome of Rebranding Bounty</title>
-		<link>/blog/outcome-of-rebranding-bounty/</link>
-		<comments>/blog/outcome-of-rebranding-bounty/#respond</comments>
-		<pubDate>Wed, 22 Feb 2017 19:27:00 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
+            <wfw:commentRss>/blog/bitsquare-becomes-bisq/feed/</wfw:commentRss>
+        <slash:comments>3</slash:comments>
+        </item>
+        <item>
+        <title>Outcome of Rebranding Bounty</title>
+        <link>/blog/outcome-of-rebranding-bounty/</link>
+        <comments>/blog/outcome-of-rebranding-bounty/#respond</comments>
+        <pubDate>Wed, 22 Feb 2017 19:27:00 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
 
-		<guid isPermaLink="false">/?p=1713</guid>
-		<description><![CDATA[TL;DR The team reviewed all bounty submissions, but there was no single name that clearly stood out. The Bitsquare bounty of 0.5 bitcoin will be distributed to those with best contributions. Background We recently announced that Bitsquare is rebranding. Finding a new name is a challenging task, so the team offered a bounty to get [&#8230;]]]></description>
-				<content:encoded><![CDATA[<h3>TL;DR</h3>
+        <guid isPermaLink="false">/?p=1713</guid>
+        <description><![CDATA[TL;DR The team reviewed all bounty submissions, but there was no single name that clearly stood out. The Bitsquare bounty of 0.5 bitcoin will be distributed to those with best contributions. Background We recently announced that Bitsquare is rebranding. Finding a new name is a challenging task, so the team offered a bounty to get [&#8230;]]]></description>
+                <content:encoded><![CDATA[<h3>TL;DR</h3>
 <p>The team reviewed all bounty submissions, but there was no single name that clearly stood out. The Bitsquare bounty of 0.5 bitcoin will be distributed to those with best contributions.</p>
 <h3>Background</h3>
 <p>We recently announced that <a href="/blog/bitsquare-is-rebranding">Bitsquare is rebranding</a>. Finding a new name is a challenging task, so the team offered a bounty to get some inspiration from the growing community. The <a href="https://forum.bitsquare.io/t/bitsquare-bounty-0-5-btc-for-new-brand-name/1133">rules of the bounty</a> were introduced in the official forum of Bitsquare, where community members could make proposals for new brand name. If a given proposal ends up being selected by the team, the respective person will receive 0.5 bitcoin. In case none of the proposed names are selected, there is no winner to claim the bounty of 0.5 BTC. However, due to the active engagement by the community, <a href="https://forum.bitsquare.io/t/bitsquare-bounty-0-5-btc-for-new-brand-name/1133/401">we promised</a> that in the event of no winner, the bounty will still be distributed to those who offered the best contributions towards finding a new name.</p>
@@ -251,22 +251,22 @@ Please help us to spread the word to make it easier for people to know that <b>B
 <p>The team has stopped on a new brand name that at this point will not be disclosed. The reasons for this are several: checking with lawyers for any potential conflicts, securing domain names, changing slogan and name of DAO tokens, etc. All these need to be settled before we are comfortable disclosing the new name. We hope to complete this shortly.</p>
 <p>Thank you once again to those who participated in the bounty hunt! Keep an eye on this space for the announcement of the new brand name.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/outcome-of-rebranding-bounty/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Bitsquare is rebranding</title>
-		<link>/blog/bitsquare-is-rebranding/</link>
-		<comments>/blog/bitsquare-is-rebranding/#comments</comments>
-		<pubDate>Thu, 12 Jan 2017 13:33:25 +0000</pubDate>
-		<dc:creator><![CDATA[Mihail Mihaylov]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[bounty]]></category>
-		<category><![CDATA[rebranding]]></category>
+            <wfw:commentRss>/blog/outcome-of-rebranding-bounty/feed/</wfw:commentRss>
+        <slash:comments>0</slash:comments>
+        </item>
+        <item>
+        <title>Bitsquare is rebranding</title>
+        <link>/blog/bitsquare-is-rebranding/</link>
+        <comments>/blog/bitsquare-is-rebranding/#comments</comments>
+        <pubDate>Thu, 12 Jan 2017 13:33:25 +0000</pubDate>
+        <dc:creator><![CDATA[Mihail Mihaylov]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[bounty]]></category>
+        <category><![CDATA[rebranding]]></category>
 
-		<guid isPermaLink="false">/?p=1692</guid>
-		<description><![CDATA[Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being developed without venture capital or any other form of external funding, but with personal savings and donations from the community it serves. To protect the values of this community and to [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p><span style="font-weight: 400;">Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being </span><b>developed without venture capital</b><span style="font-weight: 400;"> or any other form of external funding, but with personal savings and donations from the community it serves. </span></p>
+        <guid isPermaLink="false">/?p=1692</guid>
+        <description><![CDATA[Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being developed without venture capital or any other form of external funding, but with personal savings and donations from the community it serves. To protect the values of this community and to [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p><span style="font-weight: 400;">Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being </span><b>developed without venture capital</b><span style="font-weight: 400;"> or any other form of external funding, but with personal savings and donations from the community it serves. </span></p>
 <p><span style="font-weight: 400;">To protect the values of this community and to build a stronger image there came the need to </span><b>register the Bitsquare brand</b><span style="font-weight: 400;">. The team recently initiated brand registration, but as it often happens, the name was opposed. It turns out, though to no one’s surprise, our project is not the first one to come up with the term “square” in its name. </span></p>
 <p><span style="font-weight: 400;">To try and preserve the name we all came to know and love, the team sought professional legal advice from two independent lawyers. These consultations did not bring much hope though, as we learned that</span><b> the odds are stacked against us</b><span style="font-weight: 400;">. </span></p>
 <p><span style="font-weight: 400;">Although the community has grown attached to the name “Bitsquare”, we’d rather focus our limited resources towards building stronger code. To avoid a lengthy and expensive legal process, we will have to </span><b>find another name</b><span style="font-weight: 400;">. </span></p>
@@ -274,27 +274,27 @@ Please help us to spread the word to make it easier for people to know that <b>B
 <p><span style="font-weight: 400;">The project is now seeking a new brand name that will firmly establish its presence in the cryptocurrency space. In the search for a new name, a team brainstorm produced a number of candidates. We are now </span><b>turning to the community</b><span style="font-weight: 400;"> for additional proposals. To avoid bias, though, our list will likely not be shown.</span></p>
 <p><span style="font-weight: 400;">Manfred, Bitsquare’s founder and lead dev, is offering a </span><b>bounty of 0.5 bitcoin</b><span style="font-weight: 400;"> for the person whose proposed name ends up being selected by the team. You can find the details of the bounty in our <a href="https://forum.bitsquare.io/t/bitsquare-bounty-0-5-btc-for-new-brand-name/1133">forum post</a></span><span style="font-weight: 400;">. </span></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/bitsquare-is-rebranding/feed/</wfw:commentRss>
-		<slash:comments>14</slash:comments>
-		</item>
-		<item>
-		<title>Exploring the new territory</title>
-		<link>/blog/explorering-the-new-territory/</link>
-		<comments>/blog/explorering-the-new-territory/#comments</comments>
-		<pubDate>Fri, 05 Aug 2016 21:57:55 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[Opinion]]></category>
-		<category><![CDATA[decentralization]]></category>
-		<category><![CDATA[P2P]]></category>
-		<category><![CDATA[P2P network]]></category>
-		<category><![CDATA[Privacy]]></category>
-		<category><![CDATA[Regulation]]></category>
-		<category><![CDATA[The revolution will not be televised]]></category>
+            <wfw:commentRss>/blog/bitsquare-is-rebranding/feed/</wfw:commentRss>
+        <slash:comments>14</slash:comments>
+        </item>
+        <item>
+        <title>Exploring the new territory</title>
+        <link>/blog/explorering-the-new-territory/</link>
+        <comments>/blog/explorering-the-new-territory/#comments</comments>
+        <pubDate>Fri, 05 Aug 2016 21:57:55 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[Opinion]]></category>
+        <category><![CDATA[decentralization]]></category>
+        <category><![CDATA[P2P]]></category>
+        <category><![CDATA[P2P network]]></category>
+        <category><![CDATA[Privacy]]></category>
+        <category><![CDATA[Regulation]]></category>
+        <category><![CDATA[The revolution will not be televised]]></category>
 
-		<guid isPermaLink="false">/?p=1436</guid>
-		<description><![CDATA[With the recent Bitfinex heist models for decentralized exchanges have received a bit more attention as usual. This is a repeating pattern happening every few months after a major incident. And it goes back to business as usual after people are entertained by the next soap opera. So I do not expect that the majority of [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>With the recent <a href="http://blog.bitfinex.com/uncategorized/security-breach/">Bitfinex heist</a> models for decentralized exchanges have received a bit more attention as usual.</p>
+        <guid isPermaLink="false">/?p=1436</guid>
+        <description><![CDATA[With the recent Bitfinex heist models for decentralized exchanges have received a bit more attention as usual. This is a repeating pattern happening every few months after a major incident. And it goes back to business as usual after people are entertained by the next soap opera. So I do not expect that the majority of [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>With the recent <a href="http://blog.bitfinex.com/uncategorized/security-breach/">Bitfinex heist</a> models for decentralized exchanges have received a bit more attention as usual.</p>
 <p>This is a repeating pattern happening every few months after a major incident. And it goes back to <em>business as usual </em>after people are entertained by the next soap opera.<br />
 So I do not expect that the majority of cryptoland citizens will radically change their behavior. And that has several understandable reasons.<br />
 But beside that, <strong>there is lack of awareness for critical problems and lack of visions for possible solutions</strong>.</p>
@@ -388,43 +388,43 @@ It might need a bit of openness and courage for trying out new paths, but you kn
 <p style="text-align: center;"><strong><a href="https://www.youtube.com/watch?v=kZvWt29OG0s">The revolution will </a><a href="https://www.youtube.com/watch?v=NhxH6fgQuDs">not be televised</a></strong></p>
 <p style="text-align: center;"><iframe src="https://www.youtube.com/embed/qGaoXAwl9kw" width="420" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/explorering-the-new-territory/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-		<item>
-		<title>Beta version launched</title>
-		<link>/blog/beta-version-launched/</link>
-		<comments>/blog/beta-version-launched/#comments</comments>
-		<pubDate>Tue, 26 Apr 2016 23:20:20 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
+            <wfw:commentRss>/blog/explorering-the-new-territory/feed/</wfw:commentRss>
+        <slash:comments>3</slash:comments>
+        </item>
+        <item>
+        <title>Beta version launched</title>
+        <link>/blog/beta-version-launched/</link>
+        <comments>/blog/beta-version-launched/#comments</comments>
+        <pubDate>Tue, 26 Apr 2016 23:20:20 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
 
-		<guid isPermaLink="false">/?p=1290</guid>
-		<description><![CDATA[A big day for Bitsquare &#8211; we have launched our Beta version! After 3 months of extensive testing on the Bitcoin mainnet, The Decentralized Bitcoin Exchange is now ripe for a wider audience. We would like to thank everybody who helped testing, providing liquidity, giving feedback or spreading the word. We extended our community channels [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>A big day for Bitsquare &#8211; we have launched our <a href="https://github.com/bitsquare/bitsquare/releases/tag/v0.4.4">Beta version</a>!</p>
+        <guid isPermaLink="false">/?p=1290</guid>
+        <description><![CDATA[A big day for Bitsquare &#8211; we have launched our Beta version! After 3 months of extensive testing on the Bitcoin mainnet, The Decentralized Bitcoin Exchange is now ripe for a wider audience. We would like to thank everybody who helped testing, providing liquidity, giving feedback or spreading the word. We extended our community channels [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>A big day for Bitsquare &#8211; we have launched our <a href="https://github.com/bitsquare/bitsquare/releases/tag/v0.4.4">Beta version</a>!</p>
 <p>After 3 months of extensive testing on the Bitcoin mainnet, The Decentralized Bitcoin Exchange is now ripe for a wider audience.</p>
 <p>We would like to thank everybody who helped testing, providing liquidity, giving feedback or spreading the word. We extended our community channels with a new <a href="https://forum.bitsquare.io/">Forum</a>, a <a href="https://bisq-slack.herokuapp.com/">Slack</a> <a href="https://bitsquare.slack.com/">channel</a> and <a href="/community/">more</a>.</p>
 <p>After the today&#8217;s Beta presentation in <a href="http://www.meetup.com/bitcoin-barcelona/events/230228028/">Fab Lab Barcelona</a>, I will do a <a href="/press/#upcoming">tour through 15 European cities</a> to get in touch with the local community.</p>
 <p>Hope to see you on the network!</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/beta-version-launched/feed/</wfw:commentRss>
-		<slash:comments>4</slash:comments>
-		</item>
-		<item>
-		<title>New P2P network</title>
-		<link>/blog/new-p2p-network/</link>
-		<comments>/blog/new-p2p-network/#comments</comments>
-		<pubDate>Tue, 06 Oct 2015 13:07:36 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[DHT]]></category>
-		<category><![CDATA[Hidden Services]]></category>
-		<category><![CDATA[P2P network]]></category>
-		<category><![CDATA[Tor]]></category>
+            <wfw:commentRss>/blog/beta-version-launched/feed/</wfw:commentRss>
+        <slash:comments>4</slash:comments>
+        </item>
+        <item>
+        <title>New P2P network</title>
+        <link>/blog/new-p2p-network/</link>
+        <comments>/blog/new-p2p-network/#comments</comments>
+        <pubDate>Tue, 06 Oct 2015 13:07:36 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[DHT]]></category>
+        <category><![CDATA[Hidden Services]]></category>
+        <category><![CDATA[P2P network]]></category>
+        <category><![CDATA[Tor]]></category>
 
-		<guid isPermaLink="false">/?p=1157</guid>
-		<description><![CDATA[Some of you might ask what causes the delay of the beta release which was planned for that summer. The reason for the delay is a change in a fundamental part of the application &#8211; the P2P network. The following might be a bit technical. If you are not interested in those details you can [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>Some of you might ask what causes the delay of the beta release which was planned for that summer.<br />
+        <guid isPermaLink="false">/?p=1157</guid>
+        <description><![CDATA[Some of you might ask what causes the delay of the beta release which was planned for that summer. The reason for the delay is a change in a fundamental part of the application &#8211; the P2P network. The following might be a bit technical. If you are not interested in those details you can [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>Some of you might ask what causes the delay of the beta release which was planned for that summer.<br />
 The reason for the delay is a change in a fundamental part of the application &#8211; <strong>the P2P network</strong>.</p>
 <p><em>The following might be a bit technical. If you are not interested in those details you can skip to the last paragraph as well.</em></p>
 <h3>DHT</h3>
@@ -449,27 +449,27 @@ Luckily Bitsquare uses very small amount of short living data and the number of 
 The new network is basically already implemented in the application but it is not completed yet.</p>
 <p>I hope that we can release the Beta version in about 2-6 weeks.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/new-p2p-network/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		</item>
-		<item>
-		<title>The Problem with Crypto Governance is Power</title>
-		<link>/blog/the-problem-with-crypto-governance-is-power/</link>
-		<comments>/blog/the-problem-with-crypto-governance-is-power/#comments</comments>
-		<pubDate>Fri, 21 Aug 2015 21:50:32 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[Discussion]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Opinion]]></category>
-		<category><![CDATA[block size]]></category>
-		<category><![CDATA[competition]]></category>
-		<category><![CDATA[consensus]]></category>
-		<category><![CDATA[cross-chain]]></category>
-		<category><![CDATA[decentralization of currencies]]></category>
+            <wfw:commentRss>/blog/new-p2p-network/feed/</wfw:commentRss>
+        <slash:comments>2</slash:comments>
+        </item>
+        <item>
+        <title>The Problem with Crypto Governance is Power</title>
+        <link>/blog/the-problem-with-crypto-governance-is-power/</link>
+        <comments>/blog/the-problem-with-crypto-governance-is-power/#comments</comments>
+        <pubDate>Fri, 21 Aug 2015 21:50:32 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[Discussion]]></category>
+        <category><![CDATA[News]]></category>
+        <category><![CDATA[Opinion]]></category>
+        <category><![CDATA[block size]]></category>
+        <category><![CDATA[competition]]></category>
+        <category><![CDATA[consensus]]></category>
+        <category><![CDATA[cross-chain]]></category>
+        <category><![CDATA[decentralization of currencies]]></category>
 
-		<guid isPermaLink="false">/?p=1122</guid>
-		<description><![CDATA[The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone agrees that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated. The more interesting [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone <a href="https://scalingbitcoin.org/" target="_blank">agrees</a> that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.</p>
+        <guid isPermaLink="false">/?p=1122</guid>
+        <description><![CDATA[The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone agrees that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated. The more interesting [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone <a href="https://scalingbitcoin.org/" target="_blank">agrees</a> that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.</p>
 <p>The more interesting problem is the little-discussed shift in governance model that some would like to see take place. Bitcoin&#8217;s current governance is based on consensus, but Bitcoin XT proponents would like to see it shift to a <a href="https://bitcoinxt.software/faq.html#who-is-involved" target="_blank">benevolent dictatorship of sorts</a>.</p>
 <p>The benevolent dictatorship model is used in many software projects, is widely accepted, and works well. But Bitcoin is not a usual software project. It&#8217;s a decentralized, censorship-resistant currency with a market capitalization of several billion.</p>
 <h3>How Power Happens</h3>
@@ -503,42 +503,42 @@ The new network is basically already implemented in the application but it is no
 <p>If you are a software developer, you already know this: if a problem is getting too difficult, you try to break it up into several smaller pieces. You divide and conquer. Decouple dependencies. Avoid god classes. Because small is beautiful.</p>
 <p>However you describe this form of problem solving, it&#8217;s nothing new. Only the tools are new. And they&#8217;re more favorable to us now than anyone could have ever imagined.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/the-problem-with-crypto-governance-is-power/feed/</wfw:commentRss>
-		<slash:comments>9</slash:comments>
-		</item>
-		<item>
-		<title>New team members</title>
-		<link>/blog/new-team-members/</link>
-		<comments>/blog/new-team-members/#respond</comments>
-		<pubDate>Mon, 10 Aug 2015 09:54:34 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
+            <wfw:commentRss>/blog/the-problem-with-crypto-governance-is-power/feed/</wfw:commentRss>
+        <slash:comments>9</slash:comments>
+        </item>
+        <item>
+        <title>New team members</title>
+        <link>/blog/new-team-members/</link>
+        <comments>/blog/new-team-members/#respond</comments>
+        <pubDate>Mon, 10 Aug 2015 09:54:34 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
 
-		<guid isPermaLink="false">/?p=1064</guid>
-		<description><![CDATA[Good news! Bitsquare is expanding: Amanda Johnson and Mihail Mihaylov were delighted to join our team. Amanda B. Johnson is well known to readers of Cointelegraph and Bitcoin magazine. She has a strong focus on privacy and fits great to our team with a good taste to cover political topics. She will take care to communicate the ideas of Bitsquare to a wider [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>Good news! Bitsquare is expanding: <strong>Amanda Johnson</strong> and <strong>Mihail Mihaylov</strong> were delighted to join our team.</p>
+        <guid isPermaLink="false">/?p=1064</guid>
+        <description><![CDATA[Good news! Bitsquare is expanding: Amanda Johnson and Mihail Mihaylov were delighted to join our team. Amanda B. Johnson is well known to readers of Cointelegraph and Bitcoin magazine. She has a strong focus on privacy and fits great to our team with a good taste to cover political topics. She will take care to communicate the ideas of Bitsquare to a wider [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>Good news! Bitsquare is expanding: <strong>Amanda Johnson</strong> and <strong>Mihail Mihaylov</strong> were delighted to join our team.</p>
 <p><strong><a href="http://www.voicesofliberty.com/bio/amanda-johnson/">Amanda B. Johnson</a></strong> is well known to readers of <a href="http://cointelegraph.com/authors/amanda_b._johnson">Cointelegraph</a> and <a href="https://bitcoinmagazine.com/author/amandab/">Bitcoin magazine</a>. She has a strong focus on privacy and fits great to our team with a good taste to cover <a href="https://cryptoanarchy.liberty.me/">political topics</a>. She will take care to communicate the ideas of Bitsquare to a wider audience and help us to gain traction once we launch our Beta release.</p>
 <p><strong><a href="https://www.linkedin.com/profile/view?id=119815650">Mihail Mihaylov</a></strong> is a Bitsquare contributor from the very early days on. He is the organizer of <a href="http://www.meetup.com/de/bitcoin-barcelona/">Barcelona Bitcoin Community</a>, which is of the <a href="https://docs.google.com/spreadsheets/d/1FBCAMXzmfNE9bWneQK-Bah5eBS2iq507hVoX-QVN238/edit?pli=1#gid=474425145" target="_blank">fastest growing</a> Bitcoin Meetups worldwide. He is working as a research scientist in the Internet of Things and the Smart Grid environments and his academic research has always circuited around the field of decentalization. He will take care of the arbitration system, help to communicate the concept and guide the arbitrators in the first few months until we have a fully decentralized solution implemented.</p>
 <p>We also want to add a bit of background information about our recently joined team members: <strong>Mats-Erik Pistol</strong> and <strong>Thomas Bocek</strong>.</p>
 <p><strong><a href="http://www.nano.lu.se/mats-erik.pistol">Mats-Erik Pistol</a></strong> is a scientist in the field of Semiconductor physics at the Lund University in Sweden. He followed Bitsquare from the very first days on and is a great advisor for discussing things beyond code and day to day work. He demonstrated great support in the days when the project nearly fell apart after the failed crowndfunding campaign in February.</p>
 <p><strong><a href="http://www.csg.uzh.ch/staff/bocek.html">Thomas Bocek</a></strong> is the author of <a href="http://tomp2p.net/">TomP2P</a>, the P2P network library which serves as backbone of Bitsquare. He teaches distributed and Peer-to-Peer Systems at the University of Zurich. We are happy that we were able to get the best candidate to help us make the P2P network stable and safe for real life usage with the heavy burden of financial transactions.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/new-team-members/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>Killer apps</title>
-		<link>/blog/killer-apps/</link>
-		<comments>/blog/killer-apps/#comments</comments>
-		<pubDate>Sat, 25 Jul 2015 12:25:03 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[Discussion]]></category>
-		<category><![CDATA[News]]></category>
-		<category><![CDATA[Opinion]]></category>
+            <wfw:commentRss>/blog/new-team-members/feed/</wfw:commentRss>
+        <slash:comments>0</slash:comments>
+        </item>
+        <item>
+        <title>Killer apps</title>
+        <link>/blog/killer-apps/</link>
+        <comments>/blog/killer-apps/#comments</comments>
+        <pubDate>Sat, 25 Jul 2015 12:25:03 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[Discussion]]></category>
+        <category><![CDATA[News]]></category>
+        <category><![CDATA[Opinion]]></category>
 
-		<guid isPermaLink="false">/?p=972</guid>
-		<description><![CDATA[Regardless of what you think or whatever you got presented by the media regarding the Greek crisis, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least. Depending on the interpretation of the severity of the problem one might come to the [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>Regardless of what you think or whatever you got presented by the media regarding the <strong><a href="http://yanisvaroufakis.eu/">Greek crisis</a></strong>, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least.<br />
+        <guid isPermaLink="false">/?p=972</guid>
+        <description><![CDATA[Regardless of what you think or whatever you got presented by the media regarding the Greek crisis, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least. Depending on the interpretation of the severity of the problem one might come to the [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>Regardless of what you think or whatever you got presented by the media regarding the <strong><a href="http://yanisvaroufakis.eu/">Greek crisis</a></strong>, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least.<br />
 Depending on the interpretation of the severity of the problem one might come to the conclusion that our political, economic and financial system is just <strong>too broken to get fixed</strong>.<em><br />
 </em></p>
 <blockquote>
@@ -581,8 +581,8 @@ A digital currency or money more generally can be defined as a representation of
 <p>From some of the above (incomplete) list of technologies, tools and concepts we might see new applications changing fundamentally the reality we live in.</p>
 <p>Those are the <strong>killer apps</strong> I am interested in &#8211; they might help us <strong>to not get killed by ourselves.</strong></p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/killer-apps/feed/</wfw:commentRss>
-		<slash:comments>3</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>/blog/killer-apps/feed/</wfw:commentRss>
+        <slash:comments>3</slash:comments>
+        </item>
+    </channel>
 </rss>

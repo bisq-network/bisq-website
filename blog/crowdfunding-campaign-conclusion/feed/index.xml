@@ -1,116 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    
+    >
 <channel>
-	<title>Comments on: Crowdfunding campaign conclusion</title>
-	<atom:link href="/blog/crowdfunding-campaign-conclusion/feed/" rel="self" type="application/rss+xml" />
-	<link>/blog/crowdfunding-campaign-conclusion/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>By: Andres</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-33</link>
-		<dc:creator><![CDATA[Andres]]></dc:creator>
-		<pubDate>Sun, 22 Feb 2015 07:04:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-33</guid>
-		<description><![CDATA[Like beatljuice, I didn&#039;t pledge because the minimum was too high. 
+    <title>Comments on: Crowdfunding campaign conclusion</title>
+    <atom:link href="/blog/crowdfunding-campaign-conclusion/feed/" rel="self" type="application/rss+xml" />
+    <link>/blog/crowdfunding-campaign-conclusion/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>By: Andres</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-33</link>
+        <dc:creator><![CDATA[Andres]]></dc:creator>
+        <pubDate>Sun, 22 Feb 2015 07:04:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-33</guid>
+        <description><![CDATA[Like beatljuice, I didn&#039;t pledge because the minimum was too high. 
 
 Even at the currently low prices, your minimum was around US$ 50.  I&#039;d throw in $10 or maybe 20, but not 50, sorry. Especially after I realized this campaign is not to complete the project, but just a tiny mile... no, yardstone and I&#039;d have been asked for more money many more times.
 
 I understand there are technical difficulties, but as as an end user, frankly, I don&#039;t care. Find a solution. Smaller campaigns. Different platform. Nested sub-pledges to fill some of those 684 main slots - whatever. Just figure it out and I&#039;ll be in.]]></description>
-		<content:encoded><![CDATA[<p>Like beatljuice, I didn&#8217;t pledge because the minimum was too high. </p>
+        <content:encoded><![CDATA[<p>Like beatljuice, I didn&#8217;t pledge because the minimum was too high. </p>
 <p>Even at the currently low prices, your minimum was around US$ 50.  I&#8217;d throw in $10 or maybe 20, but not 50, sorry. Especially after I realized this campaign is not to complete the project, but just a tiny mile&#8230; no, yardstone and I&#8217;d have been asked for more money many more times.</p>
 <p>I understand there are technical difficulties, but as as an end user, frankly, I don&#8217;t care. Find a solution. Smaller campaigns. Different platform. Nested sub-pledges to fill some of those 684 main slots &#8211; whatever. Just figure it out and I&#8217;ll be in.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Manfred Karrer</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-32</link>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-		<pubDate>Thu, 12 Feb 2015 13:32:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-32</guid>
-		<description><![CDATA[Its a technical limitation dictated by the bitcoin protocols max. transaction size, so max. 684 pledges are possibile in a campaign. The min. plexdge size is determined by the funding goal. With smaller targets the min. size is also quite small.]]></description>
-		<content:encoded><![CDATA[<p>Its a technical limitation dictated by the bitcoin protocols max. transaction size, so max. 684 pledges are possibile in a campaign. The min. plexdge size is determined by the funding goal. With smaller targets the min. size is also quite small.</p>
+    </item>
+    <item>
+        <title>By: Manfred Karrer</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-32</link>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+        <pubDate>Thu, 12 Feb 2015 13:32:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-32</guid>
+        <description><![CDATA[Its a technical limitation dictated by the bitcoin protocols max. transaction size, so max. 684 pledges are possibile in a campaign. The min. plexdge size is determined by the funding goal. With smaller targets the min. size is also quite small.]]></description>
+        <content:encoded><![CDATA[<p>Its a technical limitation dictated by the bitcoin protocols max. transaction size, so max. 684 pledges are possibile in a campaign. The min. plexdge size is determined by the funding goal. With smaller targets the min. size is also quite small.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Manfred Karrer</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-31</link>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-		<pubDate>Thu, 12 Feb 2015 13:29:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-31</guid>
-		<description><![CDATA[Thanks. The pledgers need to revoke themself in the Lighthouse application.]]></description>
-		<content:encoded><![CDATA[<p>Thanks. The pledgers need to revoke themself in the Lighthouse application.</p>
+    </item>
+    <item>
+        <title>By: Manfred Karrer</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-31</link>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+        <pubDate>Thu, 12 Feb 2015 13:29:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-31</guid>
+        <description><![CDATA[Thanks. The pledgers need to revoke themself in the Lighthouse application.]]></description>
+        <content:encoded><![CDATA[<p>Thanks. The pledgers need to revoke themself in the Lighthouse application.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Tero Toivola</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-29</link>
-		<dc:creator><![CDATA[Tero Toivola]]></dc:creator>
-		<pubDate>Thu, 12 Feb 2015 08:46:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-29</guid>
-		<description><![CDATA[Sad to hear campaing wasn&#039;t a success. Don&#039;t give up, we really need a decentralized exchange. Isn&#039;t there an option in Lighthouse where campaign manager could revoke the donations automatically?]]></description>
-		<content:encoded><![CDATA[<p>Sad to hear campaing wasn&#8217;t a success. Don&#8217;t give up, we really need a decentralized exchange. Isn&#8217;t there an option in Lighthouse where campaign manager could revoke the donations automatically?</p>
+    </item>
+    <item>
+        <title>By: Tero Toivola</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-29</link>
+        <dc:creator><![CDATA[Tero Toivola]]></dc:creator>
+        <pubDate>Thu, 12 Feb 2015 08:46:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-29</guid>
+        <description><![CDATA[Sad to hear campaing wasn&#039;t a success. Don&#039;t give up, we really need a decentralized exchange. Isn&#039;t there an option in Lighthouse where campaign manager could revoke the donations automatically?]]></description>
+        <content:encoded><![CDATA[<p>Sad to hear campaing wasn&#8217;t a success. Don&#8217;t give up, we really need a decentralized exchange. Isn&#8217;t there an option in Lighthouse where campaign manager could revoke the donations automatically?</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: B1bl3 NEWS &#187; Lighthouse Raises Charity Crowdfunding Target in 24 Hours</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-28</link>
-		<dc:creator><![CDATA[B1bl3 NEWS &#187; Lighthouse Raises Charity Crowdfunding Target in 24 Hours]]></dc:creator>
-		<pubDate>Wed, 11 Feb 2015 22:37:36 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-28</guid>
-		<description><![CDATA[[&#8230;] his blog post, Myers [&#8230;]]]></description>
-		<content:encoded><![CDATA[<p>[&#8230;] his blog post, Myers [&#8230;]</p>
+    </item>
+    <item>
+        <title>By: B1bl3 NEWS &#187; Lighthouse Raises Charity Crowdfunding Target in 24 Hours</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-28</link>
+        <dc:creator><![CDATA[B1bl3 NEWS &#187; Lighthouse Raises Charity Crowdfunding Target in 24 Hours]]></dc:creator>
+        <pubDate>Wed, 11 Feb 2015 22:37:36 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-28</guid>
+        <description><![CDATA[[&#8230;] his blog post, Myers [&#8230;]]]></description>
+        <content:encoded><![CDATA[<p>[&#8230;] his blog post, Myers [&#8230;]</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: beatljuice</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-27</link>
-		<dc:creator><![CDATA[beatljuice]]></dc:creator>
-		<pubDate>Wed, 11 Feb 2015 18:36:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-27</guid>
-		<description><![CDATA[I think the minimum donation issue is a big one. I didn&#039;t donate because of it, and I&#039;m in the US and make more money than most of the rest of the people on earth. Seems to me like only rich westerners can decide what gets developed. This is almost a deal breaker to me. If I don&#039;t find out there is a fix coming I&#039;ll probably uninstall Lighthouse.]]></description>
-		<content:encoded><![CDATA[<p>I think the minimum donation issue is a big one. I didn&#8217;t donate because of it, and I&#8217;m in the US and make more money than most of the rest of the people on earth. Seems to me like only rich westerners can decide what gets developed. This is almost a deal breaker to me. If I don&#8217;t find out there is a fix coming I&#8217;ll probably uninstall Lighthouse.</p>
+    </item>
+    <item>
+        <title>By: beatljuice</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-27</link>
+        <dc:creator><![CDATA[beatljuice]]></dc:creator>
+        <pubDate>Wed, 11 Feb 2015 18:36:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-27</guid>
+        <description><![CDATA[I think the minimum donation issue is a big one. I didn&#039;t donate because of it, and I&#039;m in the US and make more money than most of the rest of the people on earth. Seems to me like only rich westerners can decide what gets developed. This is almost a deal breaker to me. If I don&#039;t find out there is a fix coming I&#039;ll probably uninstall Lighthouse.]]></description>
+        <content:encoded><![CDATA[<p>I think the minimum donation issue is a big one. I didn&#8217;t donate because of it, and I&#8217;m in the US and make more money than most of the rest of the people on earth. Seems to me like only rich westerners can decide what gets developed. This is almost a deal breaker to me. If I don&#8217;t find out there is a fix coming I&#8217;ll probably uninstall Lighthouse.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Lighthouse Raises Charity Crowdfunding Target in 24 Hours &#124; 三个硬币</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-26</link>
-		<dc:creator><![CDATA[Lighthouse Raises Charity Crowdfunding Target in 24 Hours &#124; 三个硬币]]></dc:creator>
-		<pubDate>Wed, 11 Feb 2015 12:58:32 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-26</guid>
-		<description><![CDATA[[&#8230;] his blog post, Myers [&#8230;]]]></description>
-		<content:encoded><![CDATA[<p>[&#8230;] his blog post, Myers [&#8230;]</p>
+    </item>
+    <item>
+        <title>By: Lighthouse Raises Charity Crowdfunding Target in 24 Hours &#124; 三个硬币</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-26</link>
+        <dc:creator><![CDATA[Lighthouse Raises Charity Crowdfunding Target in 24 Hours &#124; 三个硬币]]></dc:creator>
+        <pubDate>Wed, 11 Feb 2015 12:58:32 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-26</guid>
+        <description><![CDATA[[&#8230;] his blog post, Myers [&#8230;]]]></description>
+        <content:encoded><![CDATA[<p>[&#8230;] his blog post, Myers [&#8230;]</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Lighthouse Raises Charity Crowdfunding Target in 24 Hours &#124; Bitcoin Mining Review</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-24</link>
-		<dc:creator><![CDATA[Lighthouse Raises Charity Crowdfunding Target in 24 Hours &#124; Bitcoin Mining Review]]></dc:creator>
-		<pubDate>Wed, 11 Feb 2015 11:50:10 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-24</guid>
-		<description><![CDATA[[&#8230;] his blog post, Myers [&#8230;]]]></description>
-		<content:encoded><![CDATA[<p>[&#8230;] his blog post, Myers [&#8230;]</p>
+    </item>
+    <item>
+        <title>By: Lighthouse Raises Charity Crowdfunding Target in 24 Hours &#124; Bitcoin Mining Review</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-24</link>
+        <dc:creator><![CDATA[Lighthouse Raises Charity Crowdfunding Target in 24 Hours &#124; Bitcoin Mining Review]]></dc:creator>
+        <pubDate>Wed, 11 Feb 2015 11:50:10 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-24</guid>
+        <description><![CDATA[[&#8230;] his blog post, Myers [&#8230;]]]></description>
+        <content:encoded><![CDATA[<p>[&#8230;] his blog post, Myers [&#8230;]</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Mats-Erik Pistol</title>
-		<link>/blog/crowdfunding-campaign-conclusion/#comment-23</link>
-		<dc:creator><![CDATA[Mats-Erik Pistol]]></dc:creator>
-		<pubDate>Tue, 10 Feb 2015 16:50:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=884#comment-23</guid>
-		<description><![CDATA[This was an unfortunate outcome. I think more time and some PR would have made the trick, but reality must always be considered. I recommend that we who pledged on Lighthouse send the revoked BTC to the project without using Lighthouse: /contribute/
+    </item>
+    <item>
+        <title>By: Mats-Erik Pistol</title>
+        <link>/blog/crowdfunding-campaign-conclusion/#comment-23</link>
+        <dc:creator><![CDATA[Mats-Erik Pistol]]></dc:creator>
+        <pubDate>Tue, 10 Feb 2015 16:50:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=884#comment-23</guid>
+        <description><![CDATA[This was an unfortunate outcome. I think more time and some PR would have made the trick, but reality must always be considered. I recommend that we who pledged on Lighthouse send the revoked BTC to the project without using Lighthouse: /contribute/
 In the best of worlds 120 BTC may come in that way, given a week or two. Lesser amounts will also help. My BTC are now on their way.]]></description>
-		<content:encoded><![CDATA[<p>This was an unfortunate outcome. I think more time and some PR would have made the trick, but reality must always be considered. I recommend that we who pledged on Lighthouse send the revoked BTC to the project without using Lighthouse: <a href="/contribute/" rel="nofollow">/contribute/</a><br />
+        <content:encoded><![CDATA[<p>This was an unfortunate outcome. I think more time and some PR would have made the trick, but reality must always be considered. I recommend that we who pledged on Lighthouse send the revoked BTC to the project without using Lighthouse: <a href="/contribute/" rel="nofollow">/contribute/</a><br />
 In the best of worlds 120 BTC may come in that way, given a week or two. Lesser amounts will also help. My BTC are now on their way.</p>
 ]]></content:encoded>
-	</item>
+    </item>
 </channel>
 </rss>

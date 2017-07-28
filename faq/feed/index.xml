@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    
+    >
 <channel>
-	<title>Comments on: FAQ</title>
-	<atom:link href="/faq/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>By: lucianofr</title>
-		<link>/faq/#comment-171</link>
-		<dc:creator><![CDATA[lucianofr]]></dc:creator>
-		<pubDate>Sat, 03 Jun 2017 13:36:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-171</guid>
-		<description><![CDATA[What if I cancel an order? Will I get my fee back or it is lost?]]></description>
-		<content:encoded><![CDATA[<p>What if I cancel an order? Will I get my fee back or it is lost?</p>
+    <title>Comments on: FAQ</title>
+    <atom:link href="/faq/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>By: lucianofr</title>
+        <link>/faq/#comment-171</link>
+        <dc:creator><![CDATA[lucianofr]]></dc:creator>
+        <pubDate>Sat, 03 Jun 2017 13:36:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-171</guid>
+        <description><![CDATA[What if I cancel an order? Will I get my fee back or it is lost?]]></description>
+        <content:encoded><![CDATA[<p>What if I cancel an order? Will I get my fee back or it is lost?</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: NachoG</title>
-		<link>/faq/#comment-170</link>
-		<dc:creator><![CDATA[NachoG]]></dc:creator>
-		<pubDate>Wed, 24 May 2017 08:34:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-170</guid>
-		<description><![CDATA[When buying why do I need to have trading account with the same payment method as the seller if I can just deposit cash or make a wire transfer to the sellers account? For example: If I have the IBAM of the seller I can send to it via a wire transfer from anywhere in Europe. Its obvious that we need to setup a trading account to receive FIAT, but to send FIAT its not clear why its required, its just adding friction and decreasing liquidity.]]></description>
-		<content:encoded><![CDATA[<p>When buying why do I need to have trading account with the same payment method as the seller if I can just deposit cash or make a wire transfer to the sellers account? For example: If I have the IBAM of the seller I can send to it via a wire transfer from anywhere in Europe. Its obvious that we need to setup a trading account to receive FIAT, but to send FIAT its not clear why its required, its just adding friction and decreasing liquidity.</p>
+    </item>
+    <item>
+        <title>By: NachoG</title>
+        <link>/faq/#comment-170</link>
+        <dc:creator><![CDATA[NachoG]]></dc:creator>
+        <pubDate>Wed, 24 May 2017 08:34:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-170</guid>
+        <description><![CDATA[When buying why do I need to have trading account with the same payment method as the seller if I can just deposit cash or make a wire transfer to the sellers account? For example: If I have the IBAM of the seller I can send to it via a wire transfer from anywhere in Europe. Its obvious that we need to setup a trading account to receive FIAT, but to send FIAT its not clear why its required, its just adding friction and decreasing liquidity.]]></description>
+        <content:encoded><![CDATA[<p>When buying why do I need to have trading account with the same payment method as the seller if I can just deposit cash or make a wire transfer to the sellers account? For example: If I have the IBAM of the seller I can send to it via a wire transfer from anywhere in Europe. Its obvious that we need to setup a trading account to receive FIAT, but to send FIAT its not clear why its required, its just adding friction and decreasing liquidity.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: NachoG</title>
-		<link>/faq/#comment-169</link>
-		<dc:creator><![CDATA[NachoG]]></dc:creator>
-		<pubDate>Wed, 24 May 2017 07:49:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-169</guid>
-		<description><![CDATA[What happens to my deposit if nobody takes my offer to buy? How long does an order stay in the system before it expires? 
+    </item>
+    <item>
+        <title>By: NachoG</title>
+        <link>/faq/#comment-169</link>
+        <dc:creator><![CDATA[NachoG]]></dc:creator>
+        <pubDate>Wed, 24 May 2017 07:49:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-169</guid>
+        <description><![CDATA[What happens to my deposit if nobody takes my offer to buy? How long does an order stay in the system before it expires? 
 Good until cancel? but if cancel I lose my deposit.
 Day order? does it expire at the end of the day if there are no takers?]]></description>
-		<content:encoded><![CDATA[<p>What happens to my deposit if nobody takes my offer to buy? How long does an order stay in the system before it expires?<br />
+        <content:encoded><![CDATA[<p>What happens to my deposit if nobody takes my offer to buy? How long does an order stay in the system before it expires?<br />
 Good until cancel? but if cancel I lose my deposit.<br />
 Day order? does it expire at the end of the day if there are no takers?</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Will</title>
-		<link>/faq/#comment-167</link>
-		<dc:creator><![CDATA[Will]]></dc:creator>
-		<pubDate>Sun, 23 Apr 2017 14:50:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-167</guid>
-		<description><![CDATA[Great work!!
+    </item>
+    <item>
+        <title>By: Will</title>
+        <link>/faq/#comment-167</link>
+        <dc:creator><![CDATA[Will]]></dc:creator>
+        <pubDate>Sun, 23 Apr 2017 14:50:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-167</guid>
+        <description><![CDATA[Great work!!
 wondering what sort of time delays are involved in a TOR network. 
 Does any latency attract traders taking advantage of time delays?
 
@@ -65,7 +65,7 @@ Lastly, will Bots or at least some form of automation (stop loss ect??) be in us
 Again.. So appreciative you people are doing this..
 Wish I had skills and time to contribute.. 
 :)]]></description>
-		<content:encoded><![CDATA[<p>Great work!!<br />
+        <content:encoded><![CDATA[<p>Great work!!<br />
 wondering what sort of time delays are involved in a TOR network.<br />
 Does any latency attract traders taking advantage of time delays?</p>
 <p>Is there some information on ideal system setup. Id think that since this pc was going to have private keys on it..Wed want to make sure we had done all we could to make sure it was secure. Sugetseted setup.. pc running now other apps. linux possibly. behind a nat/firewall , in a process, only use gui for setup and monitor activity of trades with seperate client with no access to private keys??no other hardware attached to minimise risk of bots/malware on pc/// that kinda stuff???</p>
@@ -74,62 +74,62 @@ Does any latency attract traders taking advantage of time delays?</p>
 Wish I had skills and time to contribute..<br />
 🙂</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Bayouranch Jones</title>
-		<link>/faq/#comment-166</link>
-		<dc:creator><![CDATA[Bayouranch Jones]]></dc:creator>
-		<pubDate>Tue, 18 Apr 2017 16:09:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-166</guid>
-		<description><![CDATA[More Morons are welcome, they drive the value up and we all win, so dumb it down, get the remedial videos up.]]></description>
-		<content:encoded><![CDATA[<p>More Morons are welcome, they drive the value up and we all win, so dumb it down, get the remedial videos up.</p>
+    </item>
+    <item>
+        <title>By: Bayouranch Jones</title>
+        <link>/faq/#comment-166</link>
+        <dc:creator><![CDATA[Bayouranch Jones]]></dc:creator>
+        <pubDate>Tue, 18 Apr 2017 16:09:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-166</guid>
+        <description><![CDATA[More Morons are welcome, they drive the value up and we all win, so dumb it down, get the remedial videos up.]]></description>
+        <content:encoded><![CDATA[<p>More Morons are welcome, they drive the value up and we all win, so dumb it down, get the remedial videos up.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Bayouranch Jones</title>
-		<link>/faq/#comment-165</link>
-		<dc:creator><![CDATA[Bayouranch Jones]]></dc:creator>
-		<pubDate>Tue, 18 Apr 2017 16:06:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-165</guid>
-		<description><![CDATA[that must be the worst movie EVER, wow  who wrote that script?]]></description>
-		<content:encoded><![CDATA[<p>that must be the worst movie EVER, wow  who wrote that script?</p>
+    </item>
+    <item>
+        <title>By: Bayouranch Jones</title>
+        <link>/faq/#comment-165</link>
+        <dc:creator><![CDATA[Bayouranch Jones]]></dc:creator>
+        <pubDate>Tue, 18 Apr 2017 16:06:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-165</guid>
+        <description><![CDATA[that must be the worst movie EVER, wow  who wrote that script?]]></description>
+        <content:encoded><![CDATA[<p>that must be the worst movie EVER, wow  who wrote that script?</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Tony</title>
-		<link>/faq/#comment-164</link>
-		<dc:creator><![CDATA[Tony]]></dc:creator>
-		<pubDate>Tue, 18 Apr 2017 13:15:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-164</guid>
-		<description><![CDATA[Is there a way to export the private key(s) of the BTC address(es) generated by Bitsquare?]]></description>
-		<content:encoded><![CDATA[<p>Is there a way to export the private key(s) of the BTC address(es) generated by Bitsquare?</p>
+    </item>
+    <item>
+        <title>By: Tony</title>
+        <link>/faq/#comment-164</link>
+        <dc:creator><![CDATA[Tony]]></dc:creator>
+        <pubDate>Tue, 18 Apr 2017 13:15:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-164</guid>
+        <description><![CDATA[Is there a way to export the private key(s) of the BTC address(es) generated by Bitsquare?]]></description>
+        <content:encoded><![CDATA[<p>Is there a way to export the private key(s) of the BTC address(es) generated by Bitsquare?</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Marc Stenzel</title>
-		<link>/faq/#comment-159</link>
-		<dc:creator><![CDATA[Marc Stenzel]]></dc:creator>
-		<pubDate>Sun, 26 Feb 2017 16:02:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-159</guid>
-		<description><![CDATA[Hi, great to have you around. 
+    </item>
+    <item>
+        <title>By: Marc Stenzel</title>
+        <link>/faq/#comment-159</link>
+        <dc:creator><![CDATA[Marc Stenzel]]></dc:creator>
+        <pubDate>Sun, 26 Feb 2017 16:02:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-159</guid>
+        <description><![CDATA[Hi, great to have you around. 
 
 You can&#039;t get your very first bitcoins with Bitsquare. You would need to pay (a low amount of) fees plus you need a security deposit (which you get back after a trade).
 
 For the first coins I&#039;d recommend to ask a friend or family. That would be the easiest approach. 
 A second idea would be to buy a small amount from localbitcoins.]]></description>
-		<content:encoded><![CDATA[<p>Hi, great to have you around. </p>
+        <content:encoded><![CDATA[<p>Hi, great to have you around. </p>
 <p>You can&#8217;t get your very first bitcoins with Bitsquare. You would need to pay (a low amount of) fees plus you need a security deposit (which you get back after a trade).</p>
 <p>For the first coins I&#8217;d recommend to ask a friend or family. That would be the easiest approach.<br />
 A second idea would be to buy a small amount from localbitcoins.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: iLLBeRespawned</title>
-		<link>/faq/#comment-158</link>
-		<dc:creator><![CDATA[iLLBeRespawned]]></dc:creator>
-		<pubDate>Sun, 26 Feb 2017 15:12:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-158</guid>
-		<description><![CDATA[ok here we go. I&#039;m new to bitcoin but i get how important it will be for all of us.
+    </item>
+    <item>
+        <title>By: iLLBeRespawned</title>
+        <link>/faq/#comment-158</link>
+        <dc:creator><![CDATA[iLLBeRespawned]]></dc:creator>
+        <pubDate>Sun, 26 Feb 2017 15:12:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-158</guid>
+        <description><![CDATA[ok here we go. I&#039;m new to bitcoin but i get how important it will be for all of us.
 bitsquare is a fantastic idea you guys are doing soemthing great.
 i want in. i&#039;ll put down some money to get started.
 
@@ -143,7 +143,7 @@ I want to buy my first bitcoins on bitsquare but i need bitcoin to do so.
 
 I&#039;m in a deadlock here.
 how do i get my first bitcoin with bitsquare if i don&#039;t have any.]]></description>
-		<content:encoded><![CDATA[<p>ok here we go. I&#8217;m new to bitcoin but i get how important it will be for all of us.<br />
+        <content:encoded><![CDATA[<p>ok here we go. I&#8217;m new to bitcoin but i get how important it will be for all of us.<br />
 bitsquare is a fantastic idea you guys are doing soemthing great.<br />
 i want in. i&#8217;ll put down some money to get started.</p>
 <p>now here is my question:<br />
@@ -154,16 +154,16 @@ I want to buy my first bitcoins on bitsquare but i need bitcoin to do so.</p>
 <p>I&#8217;m in a deadlock here.<br />
 how do i get my first bitcoin with bitsquare if i don&#8217;t have any.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Marc Stenzel</title>
-		<link>/faq/#comment-157</link>
-		<dc:creator><![CDATA[Marc Stenzel]]></dc:creator>
-		<pubDate>Mon, 13 Feb 2017 13:02:00 +0000</pubDate>
-		<guid isPermaLink="false">/?page_id=292#comment-157</guid>
-		<description><![CDATA[I adjusted the FAQ. Thanks. See my reply above.]]></description>
-		<content:encoded><![CDATA[<p>I adjusted the FAQ. Thanks. See my reply above.</p>
+    </item>
+    <item>
+        <title>By: Marc Stenzel</title>
+        <link>/faq/#comment-157</link>
+        <dc:creator><![CDATA[Marc Stenzel]]></dc:creator>
+        <pubDate>Mon, 13 Feb 2017 13:02:00 +0000</pubDate>
+        <guid isPermaLink="false">/?page_id=292#comment-157</guid>
+        <description><![CDATA[I adjusted the FAQ. Thanks. See my reply above.]]></description>
+        <content:encoded><![CDATA[<p>I adjusted the FAQ. Thanks. See my reply above.</p>
 ]]></content:encoded>
-	</item>
+    </item>
 </channel>
 </rss>

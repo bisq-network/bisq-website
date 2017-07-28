@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    >
 
 <channel>
-	<title>DHT &#8211; Bitsquare</title>
-	<atom:link href="/blog/tag/dht/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
-	<language>en-GB</language>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>New P2P network</title>
-		<link>/blog/new-p2p-network/</link>
-		<comments>/blog/new-p2p-network/#comments</comments>
-		<pubDate>Tue, 06 Oct 2015 13:07:36 +0000</pubDate>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-				<category><![CDATA[News]]></category>
-		<category><![CDATA[DHT]]></category>
-		<category><![CDATA[Hidden Services]]></category>
-		<category><![CDATA[P2P network]]></category>
-		<category><![CDATA[Tor]]></category>
+    <title>DHT &#8211; Bitsquare</title>
+    <atom:link href="/blog/tag/dht/feed/" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 29 May 2017 22:27:33 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>New P2P network</title>
+        <link>/blog/new-p2p-network/</link>
+        <comments>/blog/new-p2p-network/#comments</comments>
+        <pubDate>Tue, 06 Oct 2015 13:07:36 +0000</pubDate>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+                <category><![CDATA[News]]></category>
+        <category><![CDATA[DHT]]></category>
+        <category><![CDATA[Hidden Services]]></category>
+        <category><![CDATA[P2P network]]></category>
+        <category><![CDATA[Tor]]></category>
 
-		<guid isPermaLink="false">/?p=1157</guid>
-		<description><![CDATA[Some of you might ask what causes the delay of the beta release which was planned for that summer. The reason for the delay is a change in a fundamental part of the application &#8211; the P2P network. The following might be a bit technical. If you are not interested in those details you can [&#8230;]]]></description>
-				<content:encoded><![CDATA[<p>Some of you might ask what causes the delay of the beta release which was planned for that summer.<br />
+        <guid isPermaLink="false">/?p=1157</guid>
+        <description><![CDATA[Some of you might ask what causes the delay of the beta release which was planned for that summer. The reason for the delay is a change in a fundamental part of the application &#8211; the P2P network. The following might be a bit technical. If you are not interested in those details you can [&#8230;]]]></description>
+                <content:encoded><![CDATA[<p>Some of you might ask what causes the delay of the beta release which was planned for that summer.<br />
 The reason for the delay is a change in a fundamental part of the application &#8211; <strong>the P2P network</strong>.</p>
 <p><em>The following might be a bit technical. If you are not interested in those details you can skip to the last paragraph as well.</em></p>
 <h3>DHT</h3>
@@ -56,8 +56,8 @@ Luckily Bitsquare uses very small amount of short living data and the number of 
 The new network is basically already implemented in the application but it is not completed yet.</p>
 <p>I hope that we can release the Beta version in about 2-6 weeks.</p>
 ]]></content:encoded>
-			<wfw:commentRss>/blog/new-p2p-network/feed/</wfw:commentRss>
-		<slash:comments>2</slash:comments>
-		</item>
-	</channel>
+            <wfw:commentRss>/blog/new-p2p-network/feed/</wfw:commentRss>
+        <slash:comments>2</slash:comments>
+        </item>
+    </channel>
 </rss>

@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-	xmlns:content="http://purl.org/rss/1.0/modules/content/"
-	xmlns:dc="http://purl.org/dc/elements/1.1/"
-	xmlns:atom="http://www.w3.org/2005/Atom"
-	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-	
-	>
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    
+    >
 <channel>
-	<title>Comments on: Killer apps</title>
-	<atom:link href="/blog/killer-apps/feed/" rel="self" type="application/rss+xml" />
-	<link>/blog/killer-apps/</link>
-	<description>The decentralized bitcoin exchange</description>
-	<lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
-	<sy:updatePeriod>hourly</sy:updatePeriod>
-	<sy:updateFrequency>1</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=4.7.5</generator>
-	<item>
-		<title>By: Jim Whitescarver</title>
-		<link>/blog/killer-apps/#comment-39</link>
-		<dc:creator><![CDATA[Jim Whitescarver]]></dc:creator>
-		<pubDate>Sat, 25 Jul 2015 20:11:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=972#comment-39</guid>
-		<description><![CDATA[Yes!  The evolution of voluntarily trusted currency fits in beautifully with FreeTrust.]]></description>
-		<content:encoded><![CDATA[<p>Yes!  The evolution of voluntarily trusted currency fits in beautifully with FreeTrust.</p>
+    <title>Comments on: Killer apps</title>
+    <atom:link href="/blog/killer-apps/feed/" rel="self" type="application/rss+xml" />
+    <link>/blog/killer-apps/</link>
+    <description>The decentralized bitcoin exchange</description>
+    <lastBuildDate>Mon, 12 Jun 2017 23:37:00 +0000</lastBuildDate>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.7.5</generator>
+    <item>
+        <title>By: Jim Whitescarver</title>
+        <link>/blog/killer-apps/#comment-39</link>
+        <dc:creator><![CDATA[Jim Whitescarver]]></dc:creator>
+        <pubDate>Sat, 25 Jul 2015 20:11:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=972#comment-39</guid>
+        <description><![CDATA[Yes!  The evolution of voluntarily trusted currency fits in beautifully with FreeTrust.]]></description>
+        <content:encoded><![CDATA[<p>Yes!  The evolution of voluntarily trusted currency fits in beautifully with FreeTrust.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Manfred Karrer</title>
-		<link>/blog/killer-apps/#comment-38</link>
-		<dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
-		<pubDate>Sat, 25 Jul 2015 14:08:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=972#comment-38</guid>
-		<description><![CDATA[Fits good to: https://ourbasicincome.wordpress.com/2015/06/18/circles-universal-basic-income/
+    </item>
+    <item>
+        <title>By: Manfred Karrer</title>
+        <link>/blog/killer-apps/#comment-38</link>
+        <dc:creator><![CDATA[Manfred Karrer]]></dc:creator>
+        <pubDate>Sat, 25 Jul 2015 14:08:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=972#comment-38</guid>
+        <description><![CDATA[Fits good to: https://ourbasicincome.wordpress.com/2015/06/18/circles-universal-basic-income/
 Voluntary assigned trust is very different to obligatory needed trust put into trusted 3rd parties which lead to exploitatation and resource control. Web of Trust vs. CAs.]]></description>
-		<content:encoded><![CDATA[<p>Fits good to: <a href="https://ourbasicincome.wordpress.com/2015/06/18/circles-universal-basic-income/" rel="nofollow">https://ourbasicincome.wordpress.com/2015/06/18/circles-universal-basic-income/</a><br />
+        <content:encoded><![CDATA[<p>Fits good to: <a href="https://ourbasicincome.wordpress.com/2015/06/18/circles-universal-basic-income/" rel="nofollow">https://ourbasicincome.wordpress.com/2015/06/18/circles-universal-basic-income/</a><br />
 Voluntary assigned trust is very different to obligatory needed trust put into trusted 3rd parties which lead to exploitatation and resource control. Web of Trust vs. CAs.</p>
 ]]></content:encoded>
-	</item>
-	<item>
-		<title>By: Jim Whitescarver</title>
-		<link>/blog/killer-apps/#comment-37</link>
-		<dc:creator><![CDATA[Jim Whitescarver]]></dc:creator>
-		<pubDate>Sat, 25 Jul 2015 13:54:00 +0000</pubDate>
-		<guid isPermaLink="false">/?p=972#comment-37</guid>
-		<description><![CDATA[Very well put!  Thank you.
+    </item>
+    <item>
+        <title>By: Jim Whitescarver</title>
+        <link>/blog/killer-apps/#comment-37</link>
+        <dc:creator><![CDATA[Jim Whitescarver]]></dc:creator>
+        <pubDate>Sat, 25 Jul 2015 13:54:00 +0000</pubDate>
+        <guid isPermaLink="false">/?p=972#comment-37</guid>
+        <description><![CDATA[Very well put!  Thank you.
 
 Yet there is one more thing needed to not be killed by the app.  We cannot survive or thrive in a trustless environment with ourselves trusting and being trusted by others.  We need to capitalize on trust in a trustless environment.  Trust enables collaboration which enables innovation,  which enables enterprise, which enables a better quality of life to evolve.  FreeTrust.org aims to monitize the real value of trust algorithmecly encouraging trustworty behaviours.]]></description>
-		<content:encoded><![CDATA[<p>Very well put!  Thank you.</p>
+        <content:encoded><![CDATA[<p>Very well put!  Thank you.</p>
 <p>Yet there is one more thing needed to not be killed by the app.  We cannot survive or thrive in a trustless environment with ourselves trusting and being trusted by others.  We need to capitalize on trust in a trustless environment.  Trust enables collaboration which enables innovation,  which enables enterprise, which enables a better quality of life to evolve.  FreeTrust.org aims to monitize the real value of trust algorithmecly encouraging trustworty behaviours.</p>
 ]]></content:encoded>
-	</item>
+    </item>
 </channel>
 </rss>

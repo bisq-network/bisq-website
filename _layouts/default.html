@@ -42,9 +42,11 @@
       </div>
     </div>
 
+    {% unless page.banner == null %}
     <header>
       <img class="size-full" src="{{ page.banner }}" alt=""/>
     </header>
+    {% endunless %}
 
     {% if page.url == '/' %}
     <div id="homeboxes">

@@ -1,348 +1,78 @@
-<!doctype html>  
-<!--[if lt IE 7 ]> <html class="ie6 ie" lang="en-GB"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7 ie" lang="en-GB"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8 ie" lang="en-GB"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en-GB"> <!--<![endif]-->
-<head>
-
-
-    <meta charset="UTF-8" />
-
-    <title>
-
-
-
-    Reality check &lsaquo;  Bisq - The decentralized bitcoin exchange   </title>
-    
-    <link rel="stylesheet" href="/wp-content/themes/pinzolo/style.css" type="text/css" media="screen" />    
-    <link rel="pingback" href="/xmlrpc.php" />
-    
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    
-    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Bisq &raquo; Feed" href="/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Bisq &raquo; Comments Feed" href="/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Bisq &raquo; Reality check Comments Feed" href="/blog/reality-check/feed/" />
-        <script type="text/javascript">
-            window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/bitsquare.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
-            !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-        </script>
-        <style type="text/css">
-img.wp-smiley,
-img.emoji {
-    display: inline !important;
-    border: none !important;
-    box-shadow: none !important;
-    height: 1em !important;
-    width: 1em !important;
-    margin: 0 .07em !important;
-    vertical-align: -0.1em !important;
-    background: none !important;
-    padding: 0 !important;
-}
-</style>
-<link rel='stylesheet' id='opensans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C300%2C600%2C700&#038;ver=4.7.5' type='text/css' media='all' />
-<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' />
-<style id='A2A_SHARE_SAVE-inline-css' type='text/css'>
-@media screen and (max-width:980px){
-.a2a_floating_style.a2a_vertical_style{display:none;}
-}
-@media screen and (min-width:981px){
-.a2a_floating_style.a2a_default_style{display:none;}
-}
-</style>
-<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
-<script type='text/javascript' src='/wp-content/plugins/fd-footnotes/fdfootnotes.js?ver=1.34'></script>
-<script type='text/javascript' src='/wp-content/themes/pinzolo/js/superfish.js?ver=4.7.5'></script>
-<script type='text/javascript' src='/wp-content/themes/pinzolo/js/jquery.formalize.min.js?ver=4.7.5'></script>
-<script type='text/javascript' src='/wp-content/themes/pinzolo/js/tinynav.js?ver=4.7.5'></script>
-<script type='text/javascript' src='/wp-content/themes/pinzolo/js/pinzolo.js?ver=4.7.5'></script>
-<link rel='https://api.w.org/' href='/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
-<link rel='prev' title='Why decentralisation is essential for bitcoin’s utility as money' href='/blog/why-decentralisation-is-essential-for-bitcoins-utility-as-money/' />
-<link rel='next' title='Crowdfunding campaign conclusion' href='/blog/crowdfunding-campaign-conclusion/' />
-<meta name="generator" content="WordPress 4.7.5" />
-<link rel="canonical" href="/blog/reality-check/" />
-<link rel='shortlink' href='/?p=802' />
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Fblog%2Freality-check%2F" />
-
-<script type="text/javascript">
-var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};a2a_localize = {
-    Share: "Share",
-    Save: "Save",
-    Subscribe: "Subscribe",
-    Email: "Email",
-    Bookmark: "Bookmark",
-    ShowAll: "Show all",
-    ShowLess: "Show less",
-    FindServices: "Find service(s)",
-    FindAnyServiceToAddTo: "Instantly find any service to add to",
-    PoweredBy: "Powered by",
-    ShareViaEmail: "Share via email",
-    SubscribeViaEmail: "Subscribe via email",
-    BookmarkInYourBrowser: "Bookmark in your browser",
-    BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
-    AddToYourFavorites: "Add to your favorites",
-    SendFromWebOrProgram: "Send from any email address or email program",
-    EmailProgram: "Email program",
-    More: "More&#8230;"
-};
-
-a2a_config.onclick=1;
-</script>
-<script type="text/javascript" src="https://static.addtoany.com/menu/page.js" async="async"></script>
-
-    <style type="text/css" id="custom-colour-css">
-        .dets ul a, .dets p a, .content a, footer a:hover { color:  #0086c5; } 
-        #logoContainer h1, #logoContainer h1 a, #logoContainer h1 a:hover { color:  #ffffff;  } 
-        #logoContainer p{ color:  #ffffff;  } 
-        article .dets h2 a, h1, h2, h3{ color:  #666666 ;  }            
-    </style>
-            <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-        <style type="text/css" id="custom-background-css">
-body.custom-background { background-color: #ffffff; }
-</style>
-
-</head>
-<body class="post-template-default single single-post postid-802 single-format-standard custom-background">
-
-    <div id="wrapper_border" class="center" style="margin-top: 50px;">
-    
-
-                                
-        <div id="wrapper_bg" class="center" >
-            
-
-            <div id="navwrap">
-            
-                <div id="navwrap2">     
-    
-                    <nav>
-                        <ul id="menuUl" class="menu"><li class="tnskip" >&nbsp;</li><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-40"><a href="/">Home</a></li>
-<li id="menu-item-1427" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1427"><a href="https://market.bitsquare.io/">Markets</a></li>
-<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="/philosophy/">Philosophy</a></li>
-<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="/community/">Community</a></li>
-<li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="/faq/">FAQ</a></li>
-<li id="menu-item-597" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-597"><a href="/blog/category/news/">Blog</a></li>
-<li id="menu-item-1271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1271"><a href="https://forum.bitsquare.io/">Forum</a></li>
-<li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="/downloads/">Downloads</a></li>
-<li class="tnskip">&nbsp;</li><li class="tnskip filler"></li></ul>                  
-                    </nav>
-                    
-                </div>          
-            
-            </div>
-
-
-
-
-
-
-
-                        
-                        
-                
-    <div id="main" class="center">
-        
-        <div id="bcont" >
-            
-            <div id="blog_head">                
-    
-    <div id="searchbox" class="menu">
-        
-        <form action="/" method="get">
-                <input id="Searchform" type="text" class="textfield wpcf7-text" name="s" size="24" value="search" />                    
-            </form>     
-    </div>
-            
-    <select  name='cat' id='cat' class='postform' >
-    <option value='-1'>Select category</option>
-    <option class="level-0" value="4">Video</option>
-    <option class="level-0" value="5">News</option>
-    <option class="level-0" value="6">Discussion</option>
-    <option class="level-0" value="7">Opinion</option>
-    <option class="level-0" value="34">Privacy</option>
-    <option class="level-0" value="35">Technical</option>
-</select>
-    
-    <script type="text/javascript">
-        var dropdown = document.getElementById("cat");
-        function onCatChange() {
-            if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
-                location.href = "https://bitsquare.io/?cat="+dropdown.options[dropdown.selectedIndex].value;
-            }
-        }
-        dropdown.onchange = onCatChange;
-    </script>
-    
-</div>          
-                            
-                <article id="post-802" class="post-802 post type-post status-publish format-standard hentry category-news" >
-                
-                    <div class="dets_wrap">
-
-    <div class="dets">
-        <h2><a href="/blog/reality-check/">Reality check</a></h2>                       
-        
-        <ul>
-            <li><span>By</span> Manfred Karrer </li>
-            
-                        
-                <li><span>In</span> <a href="/blog/category/news/" rel="category tag">News</a></li>
-                                                
-
-            <li><span>On</span> Jan 22nd 2015</li>          
-                        <li class="perm"><a href="/blog/reality-check/"><img src="/wp-content/themes/pinzolo/images/permalink.svg" alt="permalink" /></a></li>
-                            
-        </ul>
-        
-                
-    </div>
-    
-</div>              
-                    <div class="content_wrap">
-                        <div class="content">
-                                        
-                            <p>We are glad to announce that we have started our new approach to iteratively fund the development of our project using <a href="https://www.vinumeris.com/lighthouse%20">Lighthouse</a>. Please find all details about our campaign at the <a href="/crowdfunding/">crowdfunding</a> section on our webpage.</p>
+---
+layout: post
+title: Reality Check &lsaquo; Bisq - The decentralized bitcoin exchange
+banner: null
+---
+<p>We are glad to announce that we have started our new approach to iteratively fund the development of our project using
+  <a href="https://www.vinumeris.com/lighthouse%20">Lighthouse</a>. Please find all details about our campaign at the
+  <a href="/crowdfunding/">crowdfunding</a> section on our webpage.</p>
 <p>In this article I would like to discuss the reasons <strong>why</strong> we have chosen that model.</p>
-<p>To make sure that such a project will work in a fully decentralized way, we are challenged by several constraints &#8211; all leading to a single axiom: <strong>No single point of failure</strong></p>
+<p>To make sure that such a project will work in a fully decentralized way, we are challenged by several constraints &#8211; all leading to a single axiom:
+  <strong>No single point of failure</strong></p>
 <h2>How to avoid single points of failure?</h2>
-<p>While the overall technical and conceptual requirements of Bisq can be found in our <a href="/bitsquare.pdf">whitepaper</a>, the focus of this post is only the aspects related to our funding model.</p>
-<p>A project starts with the people behind the project and the organizational form they use.<br />
-Projects like <a href="https://en.wikipedia.org/wiki/Napster">Napster</a>, <a href="https://en.wikipedia.org/wiki/Ecash">ecash</a> or <a href="https://en.wikipedia.org/wiki/Liberty_Reserve">Liberty Reserve</a>, although different in many aspects, have taught us an important lesson: A company behind the project is a single <a href="http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008%3AComment%3A9493">weak point</a> for bringing the whole project down.</p>
-<p>Bisq is a community centered project. We are not a startup and there is no investor demanding a return of investment or guiding our decisions. In the long term Bisq is aiming to convert into a <a href="https://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/">DAO</a> (sorry for the buzzword), but we first need the <a href="https://ethereum.org/">technology</a> available for building DAOs to mature.</p>
-<p>A further requirement for avoiding single points of failure is that the code follows <a href="https://github.com/bitsquare/bitsquare/blob/master/LICENSE">free and open source software</a> principles, so that even if the project in its current form failed, anyone else could continue to develop it.</p>
-<p>It is important for us to stay within the legal framework because legal pressure is likely to happen and might bring down the project easily. And yes, we don’t like jails :-).<br />
-To run such a project with anonymous identities might be an alluring option, but we decided against operating anonymously for various reasons.</p>
+<p>While the overall technical and conceptual requirements of Bisq can be found in our
+  <a href="/bitsquare.pdf">whitepaper</a>, the focus of this post is only the aspects related to our funding model.</p>
+<p>A project starts with the people behind the project and the organizational form they use.<br/>
+  Projects like <a href="https://en.wikipedia.org/wiki/Napster">Napster</a>,
+  <a href="https://en.wikipedia.org/wiki/Ecash">ecash</a> or
+  <a href="https://en.wikipedia.org/wiki/Liberty_Reserve">Liberty Reserve</a>, although different in many aspects, have taught us an important lesson: A company behind the project is a single
+  <a href="http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source?commentId=2003008%3AComment%3A9493">weak point</a> for bringing the whole project down.
+</p>
+<p>Bisq is a community centered project. We are not a startup and there is no investor demanding a return of investment or guiding our decisions. In the long term Bisq is aiming to convert into a
+  <a href="https://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/">DAO</a> (sorry for the buzzword), but we first need the
+  <a href="https://ethereum.org/">technology</a> available for building DAOs to mature.</p>
+<p>A further requirement for avoiding single points of failure is that the code follows
+  <a href="https://github.com/bitsquare/bitsquare/blob/master/LICENSE">free and open source software</a> principles, so that even if the project in its current form failed, anyone else could continue to develop it.
+</p>
+<p>It is important for us to stay within the legal framework because legal pressure is likely to happen and might bring down the project easily. And yes, we don’t like jails :-).<br/>
+  To run such a project with anonymous identities might be an alluring option, but we decided against operating anonymously for various reasons.
+</p>
 <h2>Where are we now?</h2>
-<p>We published our first <a href="/blog/bitsquare-now-in-alpha/">alpha version</a> funding the development with our own savings and managed to built up a small community of supporters and contributors.</p>
-<p>The strategy to fund development with our own financial resources has met its limitations and therefore we need to reach out for other possibilities.<br />
-We decided to use an <a href="/crowdfunding/#Lighthouse">iterative crowdfunding model</a> with Lighthouse for pushing the project towards a fully functional version 1.0.</p>
-<p>Such a model comes with some difficulties:<br />
-It is not easy today to get attention in the bitcoin media space.<br />
-There is a huge competition for getting the signal above all the noise. We don’t have any marketing budget for hiring PR professionals and it wouldn’t fit into our philosophy and style as well. We have limited time ourselves and already spent way too much time on those non-development tasks!<br />
-So we are highly dependent on our community to support us in our marketing and communication efforts.</p>
+<p>We published our first
+  <a href="/blog/bitsquare-now-in-alpha/">alpha version</a> funding the development with our own savings and managed to built up a small community of supporters and contributors.
+</p>
+<p>The strategy to fund development with our own financial resources has met its limitations and therefore we need to reach out for other possibilities.<br/>
+  We decided to use an
+  <a href="/crowdfunding/#Lighthouse">iterative crowdfunding model</a> with Lighthouse for pushing the project towards a fully functional version 1.0.
+</p>
+<p>Such a model comes with some difficulties:<br/>
+  It is not easy today to get attention in the bitcoin media space.<br/>
+  There is a huge competition for getting the signal above all the noise. We don’t have any marketing budget for hiring PR professionals and it wouldn’t fit into our philosophy and style as well. We have limited time ourselves and already spent way too much time on those non-development tasks!<br/>
+  So we are highly dependent on our community to support us in our marketing and communication efforts.</p>
 <p>The iterative approach does not give us any security for the next funding rounds and it is hard to keep developers in such an uncertain environment. To be in competition with companies in an emerging market like bitcoin, that offer equity and high compensation to key developers, does not make the situation easier. To find and keep developers for open source projects which are struggling to just pay the basic living expenses, seems already to be an incredible difficult task.</p>
 <p>We’re not claiming that our approach is the golden solution, it is just the best that we could come up with after much time of debating and considering and the one which aligns cleanest to our initial motivation why we started to build such kind of project.</p>
 <h2>What are the alternatives?</h2>
-<p>Some people have mentioned that a model where users are able to invest in Bisq would gain more attention.<br />
-That is certainly true but comes with a few difficulties: One basic restriction is that we are committed to stay in the legal framework, so any model which might be interpreted as IPO is outside of our considerations. Also as soon as we are taking money directly from the exchange (e.g. by taking fees) we would trigger licence issues as it could be interpreted in the way that we are operating the exchange.  A more fundamental problem with an investment model is that anyone who invests in Bisq would expect to own something, which creates either a centralization or forking risk.</p>
+<p>Some people have mentioned that a model where users are able to invest in Bisq would gain more attention.<br/>
+  That is certainly true but comes with a few difficulties: One basic restriction is that we are committed to stay in the legal framework, so any model which might be interpreted as IPO is outside of our considerations. Also as soon as we are taking money directly from the exchange (e.g. by taking fees) we would trigger licence issues as it could be interpreted in the way that we are operating the exchange.  A more fundamental problem with an investment model is that anyone who invests in Bisq would expect to own something, which creates either a centralization or forking risk.
+</p>
 <p>Lets have a look at some alternative models:</p>
-<p><strong>Using an App coin</strong><br />
-That approach might be the right solution for the right project. Unfortunately we have already proven that Bisq is working fine without an app coin. So introducing an app coin with the sole purpose for funding would immediately provoke a fork.</p>
-<p><strong>Voting shares DAO</strong><br />
-A model similar to <a href="https://nubits.com/nushares">NuShares</a> is interesting and might be a future alternative. Unfortunately it is not trivial and comes with considerable effort to build or adjust the infrastructure needed for such a solution. Once <a href="https://ethereum.org/">Ethereum</a> is out we might reconsider how we could turn Bisq into a DAO.</p>
-<p><strong>Find another alt coin or platform which is interested in sponsoring the project</strong><br />
-A P2P exchange is an important infrastructure for any platform.<br />
-New emerging platforms might be interested in sponsoring our project to have the possibility that people can trade their currency against a national currency without the intermediary of bitcoin.<br />
-One concern is the extra effort to move to another technology. Also bitcoin is still the most relevant crypto currency today. But to expand to other currencies is definitely a topic we will discuss after our v1.0 release.</p>
+<p><strong>Using an App coin</strong><br/>
+  That approach might be the right solution for the right project. Unfortunately we have already proven that Bisq is working fine without an app coin. So introducing an app coin with the sole purpose for funding would immediately provoke a fork.
+</p>
+<p><strong>Voting shares DAO</strong><br/>
+  A model similar to
+  <a href="https://nubits.com/nushares">NuShares</a> is interesting and might be a future alternative. Unfortunately it is not trivial and comes with considerable effort to build or adjust the infrastructure needed for such a solution. Once
+  <a href="https://ethereum.org/">Ethereum</a> is out we might reconsider how we could turn Bisq into a DAO.</p>
+<p><strong>Find another alt coin or platform which is interested in sponsoring the project</strong><br/>
+  A P2P exchange is an important infrastructure for any platform.<br/>
+  New emerging platforms might be interested in sponsoring our project to have the possibility that people can trade their currency against a national currency without the intermediary of bitcoin.<br/>
+  One concern is the extra effort to move to another technology. Also bitcoin is still the most relevant crypto currency today. But to expand to other currencies is definitely a topic we will discuss after our v1.0 release.
+</p>
 <h2>It&#8217;s not easy</h2>
-<p>It seems the funding opportunities to develop such a project are pretty narrow. Hopefully not too narrow to allow our project to flourish.<br />
-We are struggling with a problem not unique to Bisq. The problem of the <a href="https://en.wikipedia.org/wiki/Tragedy_of_the_commons">tragedy of the commons</a> is shared with many other open source projects. A huge number of open source projects fail to come to completion because it is so hard to find adequate funding models. Being not “venture capital shaped” leaves you often without any alternative funding options.<br />
-The fact that we deal with money makes the situation more difficult as it introduces additional legal constraints, but it also hold some promise that there might be a solution utilizing the accessibility of bitcoin inside an application.</p>
+<p>It seems the funding opportunities to develop such a project are pretty narrow. Hopefully not too narrow to allow our project to flourish.<br/>
+  We are struggling with a problem not unique to Bisq. The problem of the
+  <a href="https://en.wikipedia.org/wiki/Tragedy_of_the_commons">tragedy of the commons</a> is shared with many other open source projects. A huge number of open source projects fail to come to completion because it is so hard to find adequate funding models. Being not “venture capital shaped” leaves you often without any alternative funding options.<br/>
+  The fact that we deal with money makes the situation more difficult as it introduces additional legal constraints, but it also hold some promise that there might be a solution utilizing the accessibility of bitcoin inside an application.
+</p>
 <h2>Open for a reality check</h2>
 <p>We tried hard to find a funding model which is closely aligned to our constitutional ideas of decentralization. Using that iterative crowdfunding model with Lighthouse seemed to be the best fit. We are aware that it is not easy and we need our community to support our efforts to spread the word and to reach our funding goal.</p>
 <p>It is an opportunity for us and for the bitcoin community to evaluate its values, to check where we are and where we are aiming to go. Bitcoin is not just the next PayPal, it has a revolutionary potential and that is the reason why we are in and why we are working hard to make that project a reality.</p>
 <h2>Committed to Satoshis vision of bitcoin</h2>
-<p>In times when big banks and Wall Street giants are entering the bitcoin space with <a href="http://www.coindesk.com/coinbases-75-million-series-c/">investments of 75M USD</a> in exchanges which are representing more or less the opposite of what we are standing for, it is time to act: It is time to bring new infrastructure to bitcoin which is following bitcoins inherent concept of decentralisation and protection of privacy.</p>
+<p>In times when big banks and Wall Street giants are entering the bitcoin space with
+  <a href="http://www.coindesk.com/coinbases-75-million-series-c/">investments of 75M USD</a> in exchanges which are representing more or less the opposite of what we are standing for, it is time to act: It is time to bring new infrastructure to bitcoin which is following bitcoins inherent concept of decentralisation and protection of privacy.
+</p>
 <p>It is in our hands whether bitcoin moves more and more into a direction guided by banks and the existing power elite or if we can keep bitcoin as what it originally stood for us early adopters, for that why we initially got excited about bitcoin: To change the world, to help to distribute the overwhelming wealth of the few to the other 99%. To challenge the century old elites of power and help to make them obsolete. To force governments to redefine themselves in a new model, not based on the creation and control of money, but on the purpose of organizing communities to efficiently produce value for all participants.</p>
 <p>And when already caught in such a solemn mood, lets finish with our favorite quote:</p>
-<p style="text-align: center;"><em>“To change something build a new model that makes the existing model obsolete”</em><br />
-&#8211; Buckminster Fuller</p>
-<div class="addtoany_share_save_container addtoany_content_bottom"><div class="a2a_kit a2a_kit_size_16 addtoany_list" data-a2a-url="https://bitsquare.io/blog/reality-check/" data-a2a-title="Reality check"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Reddit" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_delicious" href="https://www.addtoany.com/add_to/delicious?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Delicious" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_16_16.png" alt="Share"></a></div></div>                         
-                             
-                                                        
-                            <div class="clear"></div>
-                            
-                            <div id="post_nav">
-                            
-                                                                
-                                                                    
-                                    <p id="pn_next" class="pn">
-                                                                            Crowdfunding campaign conclusion <img src="/wp-content/themes/pinzolo/images/arrow-right.svg" alt="arrow-right" /><br/>
-                                        <a class="post-next" href="/blog/crowdfunding-campaign-conclusion/"><span>Next post </span></a>
-                                                                        </p>
-                                    
-                                    <p id="pn_prev" class="pn">
-                                                                            <img src="/wp-content/themes/pinzolo/images/arrow-left.svg" alt="arrow-left" /> Why decentralisation is essential for bitcoin’s utility as money<br/>
-                                        <a class="post-prev" href="/blog/why-decentralisation-is-essential-for-bitcoins-utility-as-money/"><span>Previous post</span></a>
-                                                                        </p>    
-                                
-                                                              
-                                <div id="mline"></div>
-                                
-                            </div>
-                            
-                            <div class="clear"></div>
-                
-                            <div id="comments">
-                                
-<div id="disqus_thread">
-    </div>
-
-                            </div>
-                    
-                        </div>
-                    </div>
-                    
-                    <div class="clear"></div>
-                    
-                </article>          
-                
-                
-                
-        </div>
-            
-    </div>
-    
-
-            
-            <footer class="center copy">
-                        
-<div style="display: none;">
-                <p> <a href="http://thriveweb.com.au/the-lab/pinzolo-a-free-responsive-wordpress-theme/">Pinzolo Theme</a> - Made on the Gold Coast by THRIVE </p>
-                <p> Powered by <a href="http://wordpress.org/" title="WordPress">WordPress</a></p>
-                    
-                <p id="thrive"> <img src="/wp-content/themes/pinzolo/images/thrive.png" title="thrive" width="40" height="40" /></p>    
-</div>                  
-
-<nav class="nav-footer">
-                        <ul id="menuUIfooter" class="menu"><li class="tnskip" >&nbsp;</li><li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="/press/">Press</a></li>
-<li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="/roadmap/">Roadmap</a></li>
-<li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/contribute/">Contribute</a></li>
-<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="/dao/">DAO</a></li>
-<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="/contact/">Contact</a></li>
-<li class="tnskip">&nbsp;</li><li class="tnskip filler"></li></ul>                  
-</nav>
-
-                <br />
-                <p> &copy; 2017 Bisq</p>
-
-            </footer>
-        
-        </div>
-    
-    </div>
-    
-    <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="right:30px;top:750px;"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Reddit" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_delicious" href="https://www.addtoany.com/add_to/delicious?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Delicious" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_16_16.png" alt="Share"></a></div><div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:0px;right:0px;"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Reddit" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_delicious" href="https://www.addtoany.com/add_to/delicious?linkurl=https%3A%2F%2Fbitsquare.io%2Fblog%2Freality-check%2F&amp;linkname=Reality%20check" title="Delicious" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_16_16.png" alt="Share"></a></div><script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var embedVars = {"disqusConfig":{"platform":"wordpress@4.7.5","language":""},"disqusIdentifier":"802 https:\/\/bitsquare.io\/?p=802","disqusShortname":"bitsquaresite","disqusTitle":"Reality check","disqusUrl":"https:\/\/bitsquare.io\/blog\/reality-check\/","options":{"manualSync":false},"postId":"802"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='/wp-content/plugins/disqus-comment-system/media/js/disqus.js?ver=4.7.5'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var countVars = {"disqusShortname":"bitsquaresite"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.7.5'></script>
-    
-</body>
-</html>
+<p style="text-align: center;">
+  <em>“To change something build a new model that makes the existing model obsolete”</em><br/>
+  &#8211; Buckminster Fuller</p>

@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div id="bcont">
+  <div id="blog_head">
+    <div id="searchbox" class="menu">
+      <form action="/" method="get">
+        <input id="Searchform" type="text" class="textfield wpcf7-text" name="s" size="24" value="search"/>
+      </form>
+    </div>
+
+    <select name='cat' id='cat' class='postform'>
+      <option value='-1'>Select category</option>
+      <option class="level-0" value="4">Video</option>
+      <option class="level-0" value="5">News</option>
+      <option class="level-0" value="6">Discussion</option>
+      <option class="level-0" value="7">Opinion</option>
+      <option class="level-0" value="34">Privacy</option>
+      <option class="level-0" value="35">Technical</option>
+    </select>
+
+    <script type="text/javascript">
+        var dropdown = document.getElementById("cat");
+        function onCatChange() {
+            if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+                location.href = "https://bitsquare.io/?cat="+dropdown.options[dropdown.selectedIndex].value;
+            }
+        }
+        dropdown.onchange = onCatChange;
+
+    </script>
+  </div>
+
+  <article id="post-802" class="post-802 post type-post status-publish format-standard hentry category-news">
+    <div class="dets_wrap">
+      <div class="dets">
+        <h2><a href="/blog/reality-check/">Reality check</a></h2>
+        <ul>
+          <li><span>By</span> Manfred Karrer</li>
+          <li><span>In</span> <a href="/blog/category/news/" rel="category tag">News</a></li>
+          <li><span>On</span> Jan 22nd 2015</li>
+          <li class="perm">
+            <a href="/blog/reality-check/"><img src="/wp-content/themes/pinzolo/images/permalink.svg" alt="permalink"/></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content_wrap">
+      <div class="content">
+        <div id="page" class="scol">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </article>
+</div>

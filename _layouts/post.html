@@ -34,13 +34,13 @@ layout: default
   <article id="post-802" class="post-802 post type-post status-publish format-standard hentry category-news">
     <div class="dets_wrap">
       <div class="dets">
-        <h2><a href="/blog/reality-check/">Reality check</a></h2>
+        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
         <ul>
-          <li><span>By</span> Manfred Karrer</li>
+          <li><span>By</span> {{ page.author }}</li>
           <li><span>In</span> <a href="/blog/category/news/" rel="category tag">News</a></li>
-          <li><span>On</span> Jan 22nd 2015</li>
+          <li><span>On</span> {{ page.date }}</li>
           <li class="perm">
-            <a href="/blog/reality-check/"><img src="/wp-content/themes/pinzolo/images/permalink.svg" alt="permalink"/></a>
+            <a href="{{ page.url }}"><img src="/wp-content/themes/pinzolo/images/permalink.svg" alt="permalink"/></a>
           </li>
         </ul>
       </div>

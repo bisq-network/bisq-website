@@ -1,1810 +1,317 @@
+---
+layout: default
+title: FAQ &lsaquo; Bisq - The decentralized bitcoin exchange
+banner: /wp-content/uploads/2014/11/faq.png
+---
+<h1>FAQ</h1>
 
-<!doctype html>  
-<!--[if lt IE 7 ]> <html class="ie6 ie" lang="en-GB"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie7 ie" lang="en-GB"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie8 ie" lang="en-GB"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en-GB"> <!--<![endif]-->
-<head>
+<h3><strong>Core Functions</strong></h3>
+<p><a href="#1">Is Bisq safe and Open Source?</a><br/>
+  <a href="#2">There are already other decentralized exchanges. How is Bisq different?</a><br/>
+  <a href="#paymentmethods">Which payment methods are supported?</a><br/>
+  <a href="#altcoins">Which altcoins are supported?</a><br/>
+  <a href="#add_altcoin">How can I get support for my favorite altcoin?</a></p>
 
-
-    <meta charset="UTF-8" />
-
-    <title>
-
-
-
-    FAQ &lsaquo;    Bisq - The decentralized bitcoin exchange   </title>
-    
-    <link rel="stylesheet" href="/wp-content/themes/pinzolo/style.css" type="text/css" media="screen" />    
-    <link rel="pingback" href="/xmlrpc.php" />
-    
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    
-    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Bisq &raquo; Feed" href="/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Bisq &raquo; Comments Feed" href="/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Bisq &raquo; FAQ Comments Feed" href="/faq/feed/" />
-        <script type="text/javascript">
-            window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/bitsquare.io\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
-            !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-        </script>
-        <style type="text/css">
-img.wp-smiley,
-img.emoji {
-    display: inline !important;
-    border: none !important;
-    box-shadow: none !important;
-    height: 1em !important;
-    width: 1em !important;
-    margin: 0 .07em !important;
-    vertical-align: -0.1em !important;
-    background: none !important;
-    padding: 0 !important;
-}
-</style>
-<link rel='stylesheet' id='opensans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C300%2C600%2C700&#038;ver=4.7.5' type='text/css' media='all' />
-<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' />
-<style id='A2A_SHARE_SAVE-inline-css' type='text/css'>
-@media screen and (max-width:980px){
-.a2a_floating_style.a2a_vertical_style{display:none;}
-}
-@media screen and (min-width:981px){
-.a2a_floating_style.a2a_default_style{display:none;}
-}
-</style>
-<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0'></script>
-<script type='text/javascript' src='/wp-content/plugins/fd-footnotes/fdfootnotes.js?ver=1.34'></script>
-<script type='text/javascript' src='/wp-content/themes/pinzolo/js/superfish.js?ver=4.7.5'></script>
-<script type='text/javascript' src='/wp-content/themes/pinzolo/js/jquery.formalize.min.js?ver=4.7.5'></script>
-<script type='text/javascript' src='/wp-content/themes/pinzolo/js/tinynav.js?ver=4.7.5'></script>
-<script type='text/javascript' src='/wp-content/themes/pinzolo/js/pinzolo.js?ver=4.7.5'></script>
-<link rel='https://api.w.org/' href='/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 4.7.5" />
-<link rel="canonical" href="/faq/" />
-<link rel='shortlink' href='/?p=292' />
-<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2F%2Ffaq%2F" />
-
-<script type="text/javascript">
-var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};a2a_localize = {
-    Share: "Share",
-    Save: "Save",
-    Subscribe: "Subscribe",
-    Email: "Email",
-    Bookmark: "Bookmark",
-    ShowAll: "Show all",
-    ShowLess: "Show less",
-    FindServices: "Find service(s)",
-    FindAnyServiceToAddTo: "Instantly find any service to add to",
-    PoweredBy: "Powered by",
-    ShareViaEmail: "Share via email",
-    SubscribeViaEmail: "Subscribe via email",
-    BookmarkInYourBrowser: "Bookmark in your browser",
-    BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
-    AddToYourFavorites: "Add to your favorites",
-    SendFromWebOrProgram: "Send from any email address or email program",
-    EmailProgram: "Email program",
-    More: "More&#8230;"
-};
-
-a2a_config.onclick=1;
-</script>
-<script type="text/javascript" src="https://static.addtoany.com/menu/page.js" async="async"></script>
-
-    <style type="text/css" id="custom-colour-css">
-        .dets ul a, .dets p a, .content a, footer a:hover { color:  #0086c5; } 
-        #logoContainer h1, #logoContainer h1 a, #logoContainer h1 a:hover { color:  #ffffff;  } 
-        #logoContainer p{ color:  #ffffff;  } 
-        article .dets h2 a, h1, h2, h3{ color:  #666666 ;  }            
-    </style>
-            <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
-        <style type="text/css" id="custom-background-css">
-body.custom-background { background-color: #ffffff; }
-</style>
-
-</head>
-<body class="page-template-default page page-id-292 custom-background">
-
-    <div id="wrapper_border" class="center" style="margin-top: 50px;">
-    
-
-                                
-        <div id="wrapper_bg" class="center" >
-            
-
-            <div id="navwrap">
-            
-                <div id="navwrap2">     
-    
-                    <nav>
-                        <ul id="menuUl" class="menu"><li class="tnskip" >&nbsp;</li><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-40"><a href="/">Home</a></li>
-<li id="menu-item-1427" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1427"><a href="https://market.bitsquare.io/">Markets</a></li>
-<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="/philosophy/">Philosophy</a></li>
-<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="/community/">Community</a></li>
-<li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-292 current_page_item menu-item-468"><a href="/faq/">FAQ</a></li>
-<li id="menu-item-597" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-597"><a href="/blog/category/news/">Blog</a></li>
-<li id="menu-item-1271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1271"><a href="https://forum.bitsquare.io/">Forum</a></li>
-<li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="/downloads/">Downloads</a></li>
-<li class="tnskip">&nbsp;</li><li class="tnskip filler"></li></ul>                  
-                    </nav>
-                    
-                </div>          
-            
-            </div>
-
-
-
-
-
-
-
-                        
-                            <header>
-                                            <a href="/"><img class="size-full" src="/wp-content/uploads/2014/11/faq.png"  alt="" /></a>
-                                    </header>
-                        
-            
-<div id="main" class="center">
-            
-            
-        <div id="page" class="scol">            
-            
-            <div class="content">
-                
-                                <h1>FAQ</h1>
-                                
-                <h3><strong>Core Functions</strong></h3>
-<p><a href="#1">Is Bisq safe and Open Source?</a><br />
-<a href="#2">There are already other decentralized exchanges. How is Bisq different?</a><br />
-<a href="#paymentmethods">Which payment methods are supported?</a><br />
-<a href="#altcoins">Which altcoins are supported?</a><br />
-<a href="#add_altcoin">How can I get support for my favorite altcoin?</a></p>
 <h3><strong>Trading Details</strong></h3>
-<p><a href="#3">When will I be able to buy or sell real bitcoins?</a><br />
-<a href="#4">How does Bisq protect my privacy?</a><br />
-<a href="#5">How long does a trade take?</a><br />
-<a href="#6">How much does it cost to trade on Bisq?</a><br />
-<a href="#openOffer">Why do I need to keep my application online when I have an open offer?</a><br />
-<a href="#editOffer">How can I edit my offer?</a><br />
-<a href="#7">Will my bank know I&#8217;m buying bitcoins?</a></p>
+<p><a href="#3">When will I be able to buy or sell real bitcoins?</a><br/>
+  <a href="#4">How does Bisq protect my privacy?</a><br/>
+  <a href="#5">How long does a trade take?</a><br/>
+  <a href="#6">How much does it cost to trade on Bisq?</a><br/>
+  <a href="#openOffer">Why do I need to keep my application online when I have an open offer?</a><br/>
+  <a href="#editOffer">How can I edit my offer?</a><br/>
+  <a href="#7">Will my bank know I&#8217;m buying bitcoins?</a></p>
+
 <h3><strong>Dispute Resolution</strong></h3>
-<p><a href="#8">What is an arbitrator?</a><br />
-<a href="#9">How does the arbitration process work?</a><br />
-<a href="#10">How is collusion between arbitrators and traders prevented?</a><br />
-<a href="#11">What happens if the person buying bitcoin does a chargeback on their national currency after the bitcoin has been released from the multisig escrow?</a><br />
-<a href="#12">Wouldn&#8217;t a pure reputation system among traders make arbitrators unnecessary?</a><br />
-<a href="#13">Can I be an arbitrator?</a></p>
+<p><a href="#8">What is an arbitrator?</a><br/>
+  <a href="#9">How does the arbitration process work?</a><br/>
+  <a href="#10">How is collusion between arbitrators and traders prevented?</a><br/>
+  <a href="#11">What happens if the person buying bitcoin does a chargeback on their national currency after the bitcoin has been released from the multisig escrow?</a><br/>
+  <a href="#12">Wouldn&#8217;t a pure reputation system among traders make arbitrators unnecessary?</a><br/>
+  <a href="#13">Can I be an arbitrator?</a></p>
+
 <h3><strong>Miscellaneous</strong></h3>
-<p><a href="#14">If I don’t have any bitcoins, how can I obtain enough to pay the security deposit on my first trade?</a><br />
-<a href="#15">Does Bisq support ‘XYZ’ payments?</a><br />
-<a href="#17">What happens in case of software bugs?</a><br />
-<a href="#18">What is a Bitcoin &#8216;multisignature address&#8217;?</a><br />
-<a href="#19">I have a question that isn&#8217;t covered here&#8230;?</a></p>
+<p>
+  <a href="#14">If I don’t have any bitcoins, how can I obtain enough to pay the security deposit on my first trade?</a><br/>
+  <a href="#15">Does Bisq support ‘XYZ’ payments?</a><br/>
+  <a href="#17">What happens in case of software bugs?</a><br/>
+  <a href="#18">What is a Bitcoin &#8216;multisignature address&#8217;?</a><br/>
+  <a href="#19">I have a question that isn&#8217;t covered here&#8230;?</a></p>
+
 <h2>Core Functions</h2>
+
 <p><a name="1"></a><strong>Is Bisq safe and Open Source?</strong></p>
-<p>Yes, Bisq is open source and licensed under Version 3 of the GNU Affero General Public License. Here&#8217;s the <a href="https://github.com/bitsquare/bitsquare/" target="_blank">source code</a> and <a href="https://github.com/bitsquare/bitsquare/blob/master/LICENSE" target="_blank">license</a>.</p>
+<p>Yes, Bisq is open source and licensed under Version 3 of the GNU Affero General Public License. Here&#8217;s the
+  <a href="https://github.com/bitsquare/bitsquare/" target="_blank">source code</a> and
+  <a href="https://github.com/bitsquare/bitsquare/blob/master/LICENSE" target="_blank">license</a>.</p>
 <p>And yes, Bisq is safe. There are several reasons for this. First, using Bisq doesn&#8217;t require you to submit personally identifying information, so no data about you can get hacked. Next, Bisq employs three technical mechanisms of protection:</p>
-<p style="padding-left: 30px;">1. All bitcoins traded with Bisq are secured in a 2-of-3 <a href="https://bitcoinmagazine.com/11108/multisig-future-bitcoin/" target="_blank">multisignature</a> address.</p>
+<p style="padding-left: 30px;">1. All bitcoins traded with Bisq are secured in a 2-of-3
+  <a href="https://bitcoinmagazine.com/11108/multisig-future-bitcoin/" target="_blank">multisignature</a> address.</p>
 <p style="padding-left: 30px;">2. Both traders are required to pay security deposits. These are refunded to them after a trade completes.</p>
 <p style="padding-left: 30px;">3. Bisq features a decentralized and open arbitrator system, to be used in case a trade dispute arises.</p>
 <p>We believe these features make currency trading as secure as possible. This said, use Bisq at your own risk.</p>
+
 <p><a name="2"></a><strong>There are already other decentralized exchanges. How is Bisq different?</strong></p>
-<p>Currently no other project fits our definition of a decentralized Bitcoin exchange. (<a href="https://openbazaar.org/" target="_blank">Open Bazaar</a> and <a href="https://voluntary.net/bitmarkets/" target="_blank">BitMarkets</a> stand alone in mirroring Bisq&#8217;s principles, but they&#8217;re full market places, not specialized currency exchanges.)</p>
+<p>Currently no other project fits our definition of a decentralized Bitcoin exchange. (<a href="https://openbazaar.org/" target="_blank">Open Bazaar</a> and
+  <a href="https://voluntary.net/bitmarkets/" target="_blank">BitMarkets</a> stand alone in mirroring Bisq&#8217;s principles, but they&#8217;re full market places, not specialized currency exchanges.)
+</p>
 <p>To be properly decentralized, one must avoid single points of failure:</p>
 <ul>
+  <ul>
+    <li>Bisq does not hold any bitcoins. All are held in multisignature addresses rather than a Bisq-controlled wallet.</li>
+    <li>Bisq does not hold any national currency. National currency is transferred directly from one trader to the other.</li>
+    <li>Bisq uses a Peer-to-Peer network over Tor. This means there are no servers to be hacked or DDoS&#8217;d.</li>
+    <li>Bisq does not know the traders. No data is stored on who trades with whom.</li>
+    <li>Bisq does not require registration. This means privacy is maintained, there are no “approval” wait times, and identity theft becomes impossible.</li>
+    <li>Bisq does not operate its arbitration system – traders themselves choose from an open and decentralized market of arbitrators.</li>
+    <li>Bisq is not a company. It is an open source project aiming to organize as a Decentralized Autonomous Organization (<a href="https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/" target="_blank">DAO</a>).
+    </li>
+    <li>Bisq is self-funded by the efforts of its volunteers and contributions of donors.</li>
+  </ul>
+</ul>
+
+<p><a name="paymentmethods"></a><strong>Which payment methods are supported?</strong><br/>
+  Here you can see the list of the currently supported payment methods:</p>
 <ul>
-<li>Bisq does not hold any bitcoins. All are held in multisignature addresses rather than a Bisq-controlled wallet.</li>
-<li>Bisq does not hold any national currency. National currency is transferred directly from one trader to the other.</li>
-<li>Bisq uses a Peer-to-Peer network over Tor. This means there are no servers to be hacked or DDoS&#8217;d.</li>
-<li>Bisq does not know the traders. No data is stored on who trades with whom.</li>
-<li>Bisq does not require registration. This means privacy is maintained, there are no “approval” wait times, and identity theft becomes impossible.</li>
-<li>Bisq does not operate its arbitration system – traders themselves choose from an open and decentralized market of arbitrators.</li>
-<li>Bisq is not a company. It is an open source project aiming to organize as a Decentralized Autonomous Organization (<a href="https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/" target="_blank">DAO</a>).</li>
-<li>Bisq is self-funded by the efforts of its volunteers and contributions of donors.</li>
+  <ul>
+    <li>National bank transfer</li>
+    <li>SEPA</li>
+    <li>ClearXchange</li>
+    <li>Faster Payments</li>
+    <li>Swish</li>
+    <li>Chase QuickPay</li>
+    <li>Interac e-Transfer</li>
+    <li>US Postal Money Order</li>
+    <li>Cash Deposit</li>
+    <li>OKPay</li>
+    <li>Perfect Money</li>
+    <li>AliPay</li>
+    <li>Transfer with same bank</li>
+    <li>Transfers with specific banks</li>
+  </ul>
 </ul>
-</ul>
-<p><a name="paymentmethods"></a><strong>Which payment methods are supported?</strong><br />
-Here you can see the list of the currently supported payment methods:</p>
+
+<p><a name="altcoins"></a><strong>Which altcoins are supported?</strong><br/>
+  Here you can see the list of the currently supported 125 altcoins:</p>
 <ul>
-<ul>
-<li>National bank transfer</li>
-<li>SEPA</li>
-<li>ClearXchange</li>
-<li>Faster Payments</li>
-<li>Swish</li>
-<li>Chase QuickPay</li>
-<li>Interac e-Transfer</li>
-<li>US Postal Money Order</li>
-<li>Cash Deposit</li>
-<li>OKPay</li>
-<li>Perfect Money</li>
-<li>AliPay</li>
-<li>Transfer with same bank</li>
-<li>Transfers with specific banks</li>
+  <ul>
+    <li>&#8220;AIB&#8221;, &#8220;Advanced Internet Blocks&#8221;</li>
+    <li>&#8220;ANC&#8221;, &#8220;Anoncoin&#8221;</li>
+    <li>&#8220;ANTI&#8221;, &#8220;Anti&#8221;</li>
+    <li>&#8220;ARCO&#8221;, &#8220;AquariusCoin&#8221;</li>
+    <li>&#8220;ARG&#8221;, &#8220;Argentum&#8221;</li>
+    <li>&#8220;REP&#8221;, &#8220;Augur&#8221;</li>
+    <li>&#8220;BATL&#8221;, &#8220;Battlestars&#8221;</li>
+    <li>&#8220;BIGUP&#8221;, &#8220;BigUp&#8221;</li>
+    <li>&#8220;BITAUD&#8221;, &#8220;BitAUD&#8221;</li>
+    <li>&#8220;BITCHF&#8221;, &#8220;BitCHF&#8221;</li>
+    <li>&#8220;BITCNY&#8221;, &#8220;BitCNY&#8221;</li>
+    <li>&#8220;BITEUR&#8221;, &#8220;BitEUR&#8221;</li>
+    <li>&#8220;BITGBP&#8221;, &#8220;BitGBP&#8221;</li>
+    <li>&#8220;BITHKD&#8221;, &#8220;BitHKD&#8221;</li>
+    <li>&#8220;BITNZD&#8221;, &#8220;BitNZD&#8221;</li>
+    <li>&#8220;BITSEK&#8221;, &#8220;BitSEK&#8221;</li>
+    <li>&#8220;BITSGD&#8221;, &#8220;BitSGD&#8221;</li>
+    <li>&#8220;SYNQ&#8221;, &#8220;BitSYNQ&#8221;</li>
+    <li>&#8220;BTS&#8221;, &#8220;BitShares&#8221;</li>
+    <li>&#8220;BITUSD&#8221;, &#8220;BitUSD&#8221;</li>
+    <li>&#8220;BLK&#8221;, &#8220;Blackcoin&#8221;</li>
+    <li>&#8220;BURST&#8221;, &#8220;Burstcoin&#8221;</li>
+    <li>&#8220;GBYTE&#8221;, &#8220;Byte&#8221;</li>
+    <li>&#8220;CLAM&#8221;, &#8220;Clams&#8221;</li>
+    <li>&#8220;CLOAK&#8221;, &#8220;CloakCoin&#8221;</li>
+    <li>&#8220;CMT&#8221;, &#8220;Comet&#8221;</li>
+    <li>&#8220;XCP&#8221;, &#8220;Counterparty&#8221;</li>
+    <li>&#8220;CRBIT&#8221;, &#8220;Creditbit&#8221;</li>
+    <li>&#8220;CRW&#8221;, &#8220;Crown&#8221;</li>
+    <li>&#8220;CBX&#8221;, &#8220;Crypto Bullion&#8221;</li>
+    <li>&#8220;DIBC&#8221;, &#8220;DIBCOIN&#8221;</li>
+    <li>&#8220;DNET&#8221;, &#8220;DarkNet&#8221;</li>
+    <li>&#8220;DASH&#8221;, &#8220;Dash&#8221;</li>
+    <li>&#8220;DCR&#8221;, &#8220;Decred&#8221;</li>
+    <li>&#8220;DGB&#8221;, &#8220;Digibyte&#8221;</li>
+    <li>&#8220;DRS&#8221;, &#8220;Digital Rupees&#8221;</li>
+    <li>&#8220;DGD&#8221;, &#8220;DigixDAO Tokens&#8221;</li>
+    <li>&#8220;DOGE&#8221;, &#8220;Dogecoin&#8221;</li>
+    <li>&#8220;DMC&#8221;, &#8220;DynamicCoin&#8221;</li>
+    <li>&#8220;EURT&#8221;, &#8220;EUR Tether&#8221;</li>
+    <li>&#8220;EMC&#8221;, &#8220;Emercoin&#8221;</li>
+    <li>&#8220;ESP&#8221;, &#8220;Espers&#8221;</li>
+    <li>&#8220;ENT&#8221;, &#8220;Eternity&#8221;</li>
+    <li>&#8220;ETH&#8221;, &#8220;Ether&#8221;</li>
+    <li>&#8220;ETC&#8221;, &#8220;Ether Classic&#8221;</li>
+    <li>&#8220;ERC&#8221;, &#8220;Europecoin&#8221;</li>
+    <li>&#8220;EGC&#8221;, &#8220;EverGreenCoin&#8221;</li>
+    <li>&#8220;FCT&#8221;, &#8220;Factom&#8221;</li>
+    <li>&#8220;FAIR&#8221;, &#8220;FairCoin&#8221;</li>
+    <li>&#8220;IOP&#8221;, &#8220;Fermat&#8221;</li>
+    <li>&#8220;FLO&#8221;, &#8220;FlorinCoin&#8221;</li>
+    <li>&#8220;GAME&#8221;, &#8220;GameCredits&#8221;</li>
+    <li>&#8220;GEMZ&#8221;, &#8220;Gemz&#8221;</li>
+    <li>&#8220;GRC&#8221;, &#8220;Gridcoin&#8221;</li>
+    <li>&#8220;GRS&#8221;, &#8220;Groestlcoin&#8221;</li>
+    <li>&#8220;NLG&#8221;, &#8220;Gulden&#8221;</li>
+    <li>&#8220;HODL&#8221;, &#8220;HOdlcoin&#8221;</li>
+    <li>&#8220;HNC&#8221;, &#8220;HunCoin&#8221;</li>
+    <li>&#8220;IOC&#8221;, &#8220;I/O Coin&#8221;</li>
+    <li>&#8220;JPYT&#8221;, &#8220;JPY Tether&#8221;</li>
+    <li>&#8220;JNS&#8221;, &#8220;Janus&#8221;</li>
+    <li>&#8220;JBS&#8221;, &#8220;Jumbucks&#8221;</li>
+    <li>&#8220;LBC&#8221;, &#8220;LBRY Credits&#8221;</li>
+    <li>&#8220;LTBC&#8221;, &#8220;LTBcoin&#8221;</li>
+    <li>&#8220;LSK&#8221;, &#8220;Lisk&#8221;</li>
+    <li>&#8220;LTC&#8221;, &#8220;Litecoin&#8221;</li>
+    <li>&#8220;MAID&#8221;, &#8220;MaidSafeCoin&#8221;</li>
+    <li>&#8220;MKR&#8221;, &#8220;Maker&#8221;</li>
+    <li>&#8220;MXT&#8221;, &#8220;MarteXcoin&#8221;</li>
+    <li>&#8220;MOIN&#8221;, &#8220;Moin&#8221;</li>
+    <li>&#8220;XMR&#8221;, &#8220;Monero&#8221;</li>
+    <li>&#8220;MT&#8221;, &#8220;Mycelium Token&#8221;</li>
+    <li>&#8220;XMY&#8221;, &#8220;Myriadcoin&#8221;</li>
+    <li>&#8220;XEM&#8221;, &#8220;NEM&#8221;</li>
+    <li>&#8220;NMC&#8221;, &#8220;Namecoin&#8221;</li>
+    <li>&#8220;NAV&#8221;, &#8220;Nav Coin&#8221;</li>
+    <li>&#8220;NEVA&#8221;, &#8220;Nevacoin&#8221;</li>
+    <li>&#8220;NBT&#8221;, &#8220;NuBits&#8221;</li>
+    <li>&#8220;NSR&#8221;, &#8220;NuShares&#8221;</li>
+    <li>&#8220;NXT&#8221;, &#8220;Nxt&#8221;</li>
+    <li>&#8220;OK&#8221;, &#8220;OKCash&#8221;</li>
+    <li>&#8220;888&#8221;, &#8220;OctoCoin&#8221;</li>
+    <li>&#8220;OMNI&#8221;, &#8220;Omni&#8221;</li>
+    <li>&#8220;OPAL&#8221;, &#8220;Opal&#8221;</li>
+    <li>&#8220;PIVX&#8221;, &#8220;PIVX&#8221;</li>
+    <li>&#8220;PASC&#8221;, &#8220;Pascal Coin&#8221;</li>
+    <li>&#8220;PPC&#8221;, &#8220;Peercoin&#8221;</li>
+    <li>&#8220;PINK&#8221;, &#8220;Pinkcoin&#8221;</li>
+    <li>&#8220;XPTX&#8221;, &#8220;PlatinumBar&#8221;</li>
+    <li>&#8220;PLU&#8221;, &#8220;Plutons&#8221;</li>
+    <li>&#8220;POST&#8221;, &#8220;PostCoin&#8221;</li>
+    <li>&#8220;POT&#8221;, &#8220;PotCoin&#8221;</li>
+    <li>&#8220;XPM&#8221;, &#8220;Primecoin&#8221;</li>
+    <li>&#8220;RADS&#8221;, &#8220;Radium&#8221;</li>
+    <li>&#8220;REALEST&#8221;, &#8220;RealEst. Coin&#8221;</li>
+    <li>&#8220;RDD&#8221;, &#8220;ReddCoin&#8221;</li>
+    <li>&#8220;XRP&#8221;, &#8220;Ripple&#8221;</li>
+    <li>&#8220;STEEM&#8221;, &#8220;STEEM&#8221;</li>
+    <li>&#8220;SFSC&#8221;, &#8220;Safe FileSystem Coin&#8221;</li>
+    <li>&#8220;SDC&#8221;, &#8220;ShadowCash&#8221;</li>
+    <li>&#8220;SHIFT&#8221;, &#8220;Shift&#8221;</li>
+    <li>&#8220;SC&#8221;, &#8220;Siacoin&#8221;</li>
+    <li>&#8220;SF&#8221;, &#8220;Siafund&#8221;</li>
+    <li>&#8220;SIB&#8221;, &#8220;Sibcoin&#8221;</li>
+    <li>&#8220;SMLY&#8221;, &#8220;Smileycoin&#8221;</li>
+    <li>&#8220;SLR&#8221;, &#8220;SolarCoin&#8221;</li>
+    <li>&#8220;STEEMUSD&#8221;, &#8220;Steem Dollars&#8221;</li>
+    <li>&#8220;XLM&#8221;, &#8220;Stellar Lumens&#8221;</li>
+    <li>&#8220;SJCX&#8221;, &#8220;StorjcoinX&#8221;</li>
+    <li>&#8220;STRAT&#8221;, &#8220;Stratis&#8221;</li>
+    <li>&#8220;SWT&#8221;, &#8220;Swarm City Token&#8221;</li>
+    <li>&#8220;SYNX&#8221;, &#8220;Syndicate&#8221;</li>
+    <li>&#8220;AMP&#8221;, &#8220;Synereo&#8221;</li>
+    <li>&#8220;TRI&#8221;, &#8220;Triangles&#8221;</li>
+    <li>&#8220;USDT&#8221;, &#8220;USD Tether&#8221;</li>
+    <li>&#8220;UNO&#8221;, &#8220;Unobtanium&#8221;</li>
+    <li>&#8220;VCN&#8221;, &#8220;VCoin&#8221;</li>
+    <li>&#8220;VPN&#8221;, &#8220;VPNCoin&#8221;</li>
+    <li>&#8220;XVG&#8221;, &#8220;Verge&#8221;</li>
+    <li>&#8220;VRC&#8221;, &#8220;VeriCoin&#8221;</li>
+    <li>&#8220;WAVES&#8221;, &#8220;Waves&#8221;</li>
+    <li>&#8220;WDC&#8221;, &#8220;Worldcoin&#8221;</li>
+    <li>&#8220;XAUR&#8221;, &#8220;Xaurum&#8221;</li>
+    <li>&#8220;YACC&#8221;, &#8220;YACCoin&#8221;</li>
+    <li>&#8220;YBC&#8221;, &#8220;YbCoin&#8221;</li>
+    <li>&#8220;ZEC&#8221;, &#8220;Zcash&#8221;</li>
+    <li>&#8220;XZC&#8221;, &#8220;Zcoin&#8221;</li>
+  </ul>
 </ul>
-</ul>
-<p><a name="altcoins"></a><strong>Which altcoins are supported?</strong><br />
-Here you can see the list of the currently supported 125 altcoins:</p>
-<ul>
-<ul>
-<li>&#8220;AIB&#8221;, &#8220;Advanced Internet Blocks&#8221;</li>
-<li>&#8220;ANC&#8221;, &#8220;Anoncoin&#8221;</li>
-<li>&#8220;ANTI&#8221;, &#8220;Anti&#8221;</li>
-<li>&#8220;ARCO&#8221;, &#8220;AquariusCoin&#8221;</li>
-<li>&#8220;ARG&#8221;, &#8220;Argentum&#8221;</li>
-<li>&#8220;REP&#8221;, &#8220;Augur&#8221;</li>
-<li>&#8220;BATL&#8221;, &#8220;Battlestars&#8221;</li>
-<li>&#8220;BIGUP&#8221;, &#8220;BigUp&#8221;</li>
-<li>&#8220;BITAUD&#8221;, &#8220;BitAUD&#8221;</li>
-<li>&#8220;BITCHF&#8221;, &#8220;BitCHF&#8221;</li>
-<li>&#8220;BITCNY&#8221;, &#8220;BitCNY&#8221;</li>
-<li>&#8220;BITEUR&#8221;, &#8220;BitEUR&#8221;</li>
-<li>&#8220;BITGBP&#8221;, &#8220;BitGBP&#8221;</li>
-<li>&#8220;BITHKD&#8221;, &#8220;BitHKD&#8221;</li>
-<li>&#8220;BITNZD&#8221;, &#8220;BitNZD&#8221;</li>
-<li>&#8220;BITSEK&#8221;, &#8220;BitSEK&#8221;</li>
-<li>&#8220;BITSGD&#8221;, &#8220;BitSGD&#8221;</li>
-<li>&#8220;SYNQ&#8221;, &#8220;BitSYNQ&#8221;</li>
-<li>&#8220;BTS&#8221;, &#8220;BitShares&#8221;</li>
-<li>&#8220;BITUSD&#8221;, &#8220;BitUSD&#8221;</li>
-<li>&#8220;BLK&#8221;, &#8220;Blackcoin&#8221;</li>
-<li>&#8220;BURST&#8221;, &#8220;Burstcoin&#8221;</li>
-<li>&#8220;GBYTE&#8221;, &#8220;Byte&#8221;</li>
-<li>&#8220;CLAM&#8221;, &#8220;Clams&#8221;</li>
-<li>&#8220;CLOAK&#8221;, &#8220;CloakCoin&#8221;</li>
-<li>&#8220;CMT&#8221;, &#8220;Comet&#8221;</li>
-<li>&#8220;XCP&#8221;, &#8220;Counterparty&#8221;</li>
-<li>&#8220;CRBIT&#8221;, &#8220;Creditbit&#8221;</li>
-<li>&#8220;CRW&#8221;, &#8220;Crown&#8221;</li>
-<li>&#8220;CBX&#8221;, &#8220;Crypto Bullion&#8221;</li>
-<li>&#8220;DIBC&#8221;, &#8220;DIBCOIN&#8221;</li>
-<li>&#8220;DNET&#8221;, &#8220;DarkNet&#8221;</li>
-<li>&#8220;DASH&#8221;, &#8220;Dash&#8221;</li>
-<li>&#8220;DCR&#8221;, &#8220;Decred&#8221;</li>
-<li>&#8220;DGB&#8221;, &#8220;Digibyte&#8221;</li>
-<li>&#8220;DRS&#8221;, &#8220;Digital Rupees&#8221;</li>
-<li>&#8220;DGD&#8221;, &#8220;DigixDAO Tokens&#8221;</li>
-<li>&#8220;DOGE&#8221;, &#8220;Dogecoin&#8221;</li>
-<li>&#8220;DMC&#8221;, &#8220;DynamicCoin&#8221;</li>
-<li>&#8220;EURT&#8221;, &#8220;EUR Tether&#8221;</li>
-<li>&#8220;EMC&#8221;, &#8220;Emercoin&#8221;</li>
-<li>&#8220;ESP&#8221;, &#8220;Espers&#8221;</li>
-<li>&#8220;ENT&#8221;, &#8220;Eternity&#8221;</li>
-<li>&#8220;ETH&#8221;, &#8220;Ether&#8221;</li>
-<li>&#8220;ETC&#8221;, &#8220;Ether Classic&#8221;</li>
-<li>&#8220;ERC&#8221;, &#8220;Europecoin&#8221;</li>
-<li>&#8220;EGC&#8221;, &#8220;EverGreenCoin&#8221;</li>
-<li>&#8220;FCT&#8221;, &#8220;Factom&#8221;</li>
-<li>&#8220;FAIR&#8221;, &#8220;FairCoin&#8221;</li>
-<li>&#8220;IOP&#8221;, &#8220;Fermat&#8221;</li>
-<li>&#8220;FLO&#8221;, &#8220;FlorinCoin&#8221;</li>
-<li>&#8220;GAME&#8221;, &#8220;GameCredits&#8221;</li>
-<li>&#8220;GEMZ&#8221;, &#8220;Gemz&#8221;</li>
-<li>&#8220;GRC&#8221;, &#8220;Gridcoin&#8221;</li>
-<li>&#8220;GRS&#8221;, &#8220;Groestlcoin&#8221;</li>
-<li>&#8220;NLG&#8221;, &#8220;Gulden&#8221;</li>
-<li>&#8220;HODL&#8221;, &#8220;HOdlcoin&#8221;</li>
-<li>&#8220;HNC&#8221;, &#8220;HunCoin&#8221;</li>
-<li>&#8220;IOC&#8221;, &#8220;I/O Coin&#8221;</li>
-<li>&#8220;JPYT&#8221;, &#8220;JPY Tether&#8221;</li>
-<li>&#8220;JNS&#8221;, &#8220;Janus&#8221;</li>
-<li>&#8220;JBS&#8221;, &#8220;Jumbucks&#8221;</li>
-<li>&#8220;LBC&#8221;, &#8220;LBRY Credits&#8221;</li>
-<li>&#8220;LTBC&#8221;, &#8220;LTBcoin&#8221;</li>
-<li>&#8220;LSK&#8221;, &#8220;Lisk&#8221;</li>
-<li>&#8220;LTC&#8221;, &#8220;Litecoin&#8221;</li>
-<li>&#8220;MAID&#8221;, &#8220;MaidSafeCoin&#8221;</li>
-<li>&#8220;MKR&#8221;, &#8220;Maker&#8221;</li>
-<li>&#8220;MXT&#8221;, &#8220;MarteXcoin&#8221;</li>
-<li>&#8220;MOIN&#8221;, &#8220;Moin&#8221;</li>
-<li>&#8220;XMR&#8221;, &#8220;Monero&#8221;</li>
-<li>&#8220;MT&#8221;, &#8220;Mycelium Token&#8221;</li>
-<li>&#8220;XMY&#8221;, &#8220;Myriadcoin&#8221;</li>
-<li>&#8220;XEM&#8221;, &#8220;NEM&#8221;</li>
-<li>&#8220;NMC&#8221;, &#8220;Namecoin&#8221;</li>
-<li>&#8220;NAV&#8221;, &#8220;Nav Coin&#8221;</li>
-<li>&#8220;NEVA&#8221;, &#8220;Nevacoin&#8221;</li>
-<li>&#8220;NBT&#8221;, &#8220;NuBits&#8221;</li>
-<li>&#8220;NSR&#8221;, &#8220;NuShares&#8221;</li>
-<li>&#8220;NXT&#8221;, &#8220;Nxt&#8221;</li>
-<li>&#8220;OK&#8221;, &#8220;OKCash&#8221;</li>
-<li>&#8220;888&#8221;, &#8220;OctoCoin&#8221;</li>
-<li>&#8220;OMNI&#8221;, &#8220;Omni&#8221;</li>
-<li>&#8220;OPAL&#8221;, &#8220;Opal&#8221;</li>
-<li>&#8220;PIVX&#8221;, &#8220;PIVX&#8221;</li>
-<li>&#8220;PASC&#8221;, &#8220;Pascal Coin&#8221;</li>
-<li>&#8220;PPC&#8221;, &#8220;Peercoin&#8221;</li>
-<li>&#8220;PINK&#8221;, &#8220;Pinkcoin&#8221;</li>
-<li>&#8220;XPTX&#8221;, &#8220;PlatinumBar&#8221;</li>
-<li>&#8220;PLU&#8221;, &#8220;Plutons&#8221;</li>
-<li>&#8220;POST&#8221;, &#8220;PostCoin&#8221;</li>
-<li>&#8220;POT&#8221;, &#8220;PotCoin&#8221;</li>
-<li>&#8220;XPM&#8221;, &#8220;Primecoin&#8221;</li>
-<li>&#8220;RADS&#8221;, &#8220;Radium&#8221;</li>
-<li>&#8220;REALEST&#8221;, &#8220;RealEst. Coin&#8221;</li>
-<li>&#8220;RDD&#8221;, &#8220;ReddCoin&#8221;</li>
-<li>&#8220;XRP&#8221;, &#8220;Ripple&#8221;</li>
-<li>&#8220;STEEM&#8221;, &#8220;STEEM&#8221;</li>
-<li>&#8220;SFSC&#8221;, &#8220;Safe FileSystem Coin&#8221;</li>
-<li>&#8220;SDC&#8221;, &#8220;ShadowCash&#8221;</li>
-<li>&#8220;SHIFT&#8221;, &#8220;Shift&#8221;</li>
-<li>&#8220;SC&#8221;, &#8220;Siacoin&#8221;</li>
-<li>&#8220;SF&#8221;, &#8220;Siafund&#8221;</li>
-<li>&#8220;SIB&#8221;, &#8220;Sibcoin&#8221;</li>
-<li>&#8220;SMLY&#8221;, &#8220;Smileycoin&#8221;</li>
-<li>&#8220;SLR&#8221;, &#8220;SolarCoin&#8221;</li>
-<li>&#8220;STEEMUSD&#8221;, &#8220;Steem Dollars&#8221;</li>
-<li>&#8220;XLM&#8221;, &#8220;Stellar Lumens&#8221;</li>
-<li>&#8220;SJCX&#8221;, &#8220;StorjcoinX&#8221;</li>
-<li>&#8220;STRAT&#8221;, &#8220;Stratis&#8221;</li>
-<li>&#8220;SWT&#8221;, &#8220;Swarm City Token&#8221;</li>
-<li>&#8220;SYNX&#8221;, &#8220;Syndicate&#8221;</li>
-<li>&#8220;AMP&#8221;, &#8220;Synereo&#8221;</li>
-<li>&#8220;TRI&#8221;, &#8220;Triangles&#8221;</li>
-<li>&#8220;USDT&#8221;, &#8220;USD Tether&#8221;</li>
-<li>&#8220;UNO&#8221;, &#8220;Unobtanium&#8221;</li>
-<li>&#8220;VCN&#8221;, &#8220;VCoin&#8221;</li>
-<li>&#8220;VPN&#8221;, &#8220;VPNCoin&#8221;</li>
-<li>&#8220;XVG&#8221;, &#8220;Verge&#8221;</li>
-<li>&#8220;VRC&#8221;, &#8220;VeriCoin&#8221;</li>
-<li>&#8220;WAVES&#8221;, &#8220;Waves&#8221;</li>
-<li>&#8220;WDC&#8221;, &#8220;Worldcoin&#8221;</li>
-<li>&#8220;XAUR&#8221;, &#8220;Xaurum&#8221;</li>
-<li>&#8220;YACC&#8221;, &#8220;YACCoin&#8221;</li>
-<li>&#8220;YBC&#8221;, &#8220;YbCoin&#8221;</li>
-<li>&#8220;ZEC&#8221;, &#8220;Zcash&#8221;</li>
-<li>&#8220;XZC&#8221;, &#8220;Zcoin&#8221;</li>
-</ul>
-</ul>
+
 <p><a name="add_altcoin"></a><strong>How can I get support for my favorite altcoin?</strong></p>
-<p>Please read about the requirements and process at our <a href="https://forum.bitsquare.io/t/how-to-add-your-favorite-altcoin" target="_blank">Forum</a>.</p>
+<p>Please read about the requirements and process at our
+  <a href="https://forum.bitsquare.io/t/how-to-add-your-favorite-altcoin" target="_blank">Forum</a>.</p>
+
 <h2>Trading Details</h2>
+
 <p><a name="3"></a><strong>When will I be able to buy or sell real bitcoins?</strong></p>
 <p>The mainnet-enabled beta version is live.</p>
 <p>There will initially be a one-bitcoin trade limit for all Bisq users. This limit may be relaxed in the future.</p>
+
 <p><a name="4"></a><strong>How does Bisq protect my privacy?</strong></p>
 <p>Only your trading partner (and your selected arbitrator in case of a dispute) can ever see your payment information details. The data exchanged between users is encrypted and signed. Bisq uses a P2P network built on top of Tors hidden services and provide the high level of anonymity Tor offers. The user doesn&#8217;t need to setup anything &#8211; all is integrated in the application.</p>
+
 <p><a name="5"></a><strong>How long does a trade take?</strong></p>
 <p>Your trade duration will be determined by the transfer times of the currencies you and your trade partner use. National currency transfers can be instant (OkPay) or can take days (SEPA). Bitcoin transactions can take up to 10 minutes, as at least one confirmation from the Bitcoin network is required for a trade to complete.</p>
+
 <p><a name="6"></a><strong>How much does it cost to trade on Bisq?</strong></p>
-<p>
-                
-                Trading fees are based on trade amount and distance to market price. Min. fee (MF) = 0.0002 BTC, default fee (DF) = 0.002 BTC, amount factor (AF) = 1/BTC, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% 0 -> 3, 0.01% -> 0.1). Tradeing fee = max(MF, DF * amount * AF * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance.
-                
-                </p>
+<p>Trading fees are based on trade amount and distance to market price. Min. fee (MF) = 0.0002 BTC, default fee (DF) = 0.002 BTC, amount factor (AF) = 1/BTC, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% 0 -> 3, 0.01% -> 0.1). Tradeing fee = max(MF, DF * amount * AF * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance. </p>
+
 <p><a name="openOffer"></a><strong>Why do I need to keep my application online when I have an open offer?</strong></p>
 <p>If you have published an offer your Bisq application need to stay online so it is able to react in the case when another trader wants to take your offer. The MultiSig depost transaction is created in that take-offer process. Be sure you have deactivated your computers standby mode, otherwise your Bisq application lose the internet connection (monitor standby is not a problem). If you shut down the application your offer gets removed from the distributed offerbook as it would become unavailable for others. After starting Bisq again your offer gets re-published.</p>
+
 <p><a name="editOffer"></a><strong>How can I edit my offer?</strong></p>
 <p>At the moment you cannot edit an offer once it is published. But you can use the percentage based price so your price will stick with the market price (we use BitcoinAverage for fiat and Poloniex for altcoins). E.g. If you set your percentage price to 1% below the market price for a buy offer, the price will update with every market price update (about 90 sec.) and when a trader takes your offer the actual marketprice minus 1% will be used.</p>
+
 <p><a name="7"></a><strong>Will my bank know I&#8217;m buying bitcoins?</strong></p>
 <p>There have been reports that some banks have closed client accounts when they see that there is Bitcoin activity involved.</p>
 <p>The reference text of the bank transfer used to trade with Bisq will include only the Bisq trade ID (which is a random sequence of characters, like many other purchase IDs). Any trader that is not using the exact ID number as reference text of a bank transfer is considered in breach of contract, which will result in dispute resolution.</p>
 <p>To avoid problems we recommend setting up a dedicated bank account for buying and selling bitcoins. If the bank were to block this account, it would cause fewer problems for you than if the bank were to block your primary account.</p>
 <p>Never mention anything else than the trade reference in the subject field.</p>
+
 <h2>Dispute Resolution</h2>
+
 <p><a name="8"></a><strong>What is an arbitrator?</strong></p>
-<p>An arbitrator is a real person who finds solutions to any disputes that may occur during a trade. <a href="/arbitration_system.pdf" target="_blank">Bisq&#8217;s arbitrators</a> must pay high security deposits, which ensure fair evaluations and prevent collusion with traders.</p>
+<p>An arbitrator is a real person who finds solutions to any disputes that may occur during a trade.
+  <a href="/arbitration_system.pdf" target="_blank">Bisq&#8217;s arbitrators</a> must pay high security deposits, which ensure fair evaluations and prevent collusion with traders.
+</p>
 <p>Initially, traders make a list of arbitrators they approve. When a new trade is initiated, an arbitrator is randomly selected from among the traders&#8217; overlapping, approved selections. The more arbitrators a trader accepts, the more trades will be available to him.</p>
 <p>Note: At this time, a fully decentralized arbitration system is not yet developed. The current bootstrapping phase instead uses a closed group of trusted arbitrators. This will change as soon the fully decentralized system is implemented.</p>
+
 <p><a name="9"></a><strong>How does the arbitration process work?</strong></p>
-<p>If Trader A fails to confirm the receipt of a national currency transfer within the allotted time (e.g. six days for SEPA, one day for OKPay, etc.), a button to contact the arbitrator will appear to both traders. Trader B will then be able to submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if Trader B never sent the national currency, Trader A will be able to submit evidence to the arbitrator that the funds were never received. Submitted evidence should be cryptographically secure using either <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be deployed.</p>
+<p>If Trader A fails to confirm the receipt of a national currency transfer within the allotted time (e.g. six days for SEPA, one day for OKPay, etc.), a button to contact the arbitrator will appear to both traders. Trader B will then be able to submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if Trader B never sent the national currency, Trader A will be able to submit evidence to the arbitrator that the funds were never received. Submitted evidence should be cryptographically secure using either
+  <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be deployed.
+</p>
 <p>The arbitrator will side with buyer or seller and sign the 2-of-3 multisignature address in favor of the appropriate party.</p>
+
 <p><a name="10"></a><strong>How is collusion between arbitrators and traders prevented?</strong></p>
 <p>As outlined above, arbitrators must pay a high security deposit to become such – higher than the one-bitcoin trade limit. If an arbitrator&#8217;s dispute resolution is not agreed to by both traders, a second round of arbitration can be requested by either of them.</p>
 <p>The Bisq system in this case will then select an arbitrator from among the highest-rated arbitrators. If collusion is found to have taken place, the misbehaving arbitrator will lose her deposit. This puts the arbitrator at a significant loss, as her security deposit was more than she made by being dishonest.</p>
-<p><a name="11"></a><strong>What happens if the person buying bitcoin does a chargeback on their national currency after the bitcoin has been released from the multisig escrow?</strong></p>
+
+<p><a name="11"></a><strong>What happens if the person buying bitcoin does a chargeback on their national currency after the bitcoin has been released from the multisig escrow?</strong> </p>
 <p>We only support payment methods in which chargebacks are not easy (i.e. we don&#8217;t support Paypal). But there is still certain chargeback risk with banks. If a bank executes a chargeback after the cryptocurrency escrow has released, there is nothing the arbitrator can do.</p>
-<p>Bisq&#8217;s goal is to make this scenario as unattractive as possible, using <a href="/risk_analysis.pdf" target="_blank">three primary mechanisms</a>:</p>
+<p>Bisq&#8217;s goal is to make this scenario as unattractive as possible, using
+  <a href="/risk_analysis.pdf" target="_blank">three primary mechanisms</a>:</p>
 <p style="padding-left: 30px;">1. There is a trade limit of one bitcoin, which is generally too small to attract criminals (though this limit may be lifted in the future).</p>
 <p style="padding-left: 30px;">2. We will remove national currency payment methods which are found to be used for chargebacks.</p>
 <p style="padding-left: 30px;">3. Bisq has support for delayed payouts using the “locktime” feature, which might help if the chargeback is done quickly after the transfer.</p>
-<p><a name="12"></a><strong>Wouldn&#8217;t a pure reputation system among traders make arbitrators unnecessary?</strong></p>
-<p>Pure reputation without the option of arbitration is a weak protection system, as you can never avoid <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> or <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> attacks.</p>
+
+<p><a name="12"></a><strong>Wouldn&#8217;t a pure reputation system among traders make arbitrators unnecessary?</strong>
+</p>
+<p>Pure reputation without the option of arbitration is a weak protection system, as you can never avoid
+  <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> or
+  <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> attacks.</p>
+
 <p><a name="13"></a><strong>Can I be an arbitrator?</strong></p>
 <p>Once the open and decentralized arbitration process is developed anyone can become an arbitrator. At the current state it not closed to trusted developers.</p>
+
 <h2>Miscellaneous</h2>
+
 <p><a name="14"></a><strong> If I don’t have any bitcoins, how can I obtain enough to pay the security deposit on my first trade?</strong></p>
 <p>We recognize that the 0.01 BTC security deposit could be a barrier to entry to bitcoin beginners, but Bisq&#8217;s targeted users have used cryptocurrencies before.</p>
 <p>The security deposit is needed to protect Bisq from fraud and abuse. That said, we will always investigate possible solutions which would allow new users to trade without needing bitcoin first.</p>
 <p>Bitcoin can be purchased via many channels: friends or family, Bitcoin meetups, Bitcoin ATMs, LocalBitcoins, Mycelium LocalTrader, or from any of the centralized exchanges.</p>
+
 <p><a name="15"></a><strong>Does Bisq support ‘XYZ’ payments?</strong></p>
 <p>Bisq will support a wide range of payment methods for national currencies. The criteria for inclusion are that the payment method is safe against chargebacks, and that it allows the arbitrator to view evidence of the transaction (preferably in a way which doesn&#8217;t display the trader&#8217;s personally identifying information).</p>
-<p>We need help from users in different regions to collect data on various payment methods. Contribute your knowledge to our <a href="https://docs.google.com/document/d/1iQHhtAOieu5i6_2rvkvtcLS70A991aZlxkJgzv97XuU" target="_blank">document</a> or <a href="https://docs.google.com/spreadsheets/d/1xiOqcBSInIF7ozWdN3DvM5O-nyZ-397G9MR8LOXs6iA/edit#gid=0" target="_blank">spreadsheet</a> to help Bisq incorporate more payment methods</p>
+<p>We need help from users in different regions to collect data on various payment methods. Contribute your knowledge to our <a href="https://docs.google.com/document/d/1iQHhtAOieu5i6_2rvkvtcLS70A991aZlxkJgzv97XuU" target="_blank">document</a> or <a href="https://docs.google.com/spreadsheets/d/1xiOqcBSInIF7ozWdN3DvM5O-nyZ-397G9MR8LOXs6iA/edit#gid=0" target="_blank">spreadsheet</a> to help Bisq incorporate more payment methods </p>
+
 <p><a name="17"></a><strong>What happens in case of software bugs?</strong></p>
-<p>If the Bisq application recognizes that you&#8217;re having a software problem, it will display a “support ticket” button. Your arbitrator will forward your bug report to the developers, who will begin an investigation of the problem. You may be asked for the <a href="https://github.com/bitsquare/bitsquare/wiki/Guilde-for-testing-Bisq#bug-reports">log file</a> to assist the process.</p>
+<p>If the Bisq application recognizes that you&#8217;re having a software problem, it will display a “support ticket” button. Your arbitrator will forward your bug report to the developers, who will begin an investigation of the problem. You may be asked for the
+  <a href="https://github.com/bitsquare/bitsquare/wiki/Guilde-for-testing-Bisq#bug-reports">log file</a> to assist the process.
+</p>
 <p>If the button does not appear, wait for your trade period to expire. Then submit a standard dispute to your arbitrator, explaining the software problem. No arbitration fees will be charged in the resolution of problems caused by software bugs.</p>
+
 <p><a name="18"></a><strong>What is a Bitcoin &#8216;multisignature address&#8217;?</strong></p>
 <p>“<a href="http://bitcoinmagazine.com/11108/multisig-future-bitcoin/" target="_blank">Multisig</a>,” as it&#8217;s called, is built into Bitcoin as a simple version of a smart contract. A multisig address is generated with multiple public keys and a specification of how many of those keys must sign to release the funds.</p>
 <p>Bisq uses 2-of-3 multisig addresses. This means three public keys are used to create the payment address (the buyer&#8217;s, seller&#8217;s, and arbitrator&#8217;s), and the transaction must be signed by two parties for the funds to be released. A typical trade takes place when the buyer and seller sign the transaction to release the funds to the appropriate party. But in case of a dispute, the arbitrator will side with either the buyer or seller, and these two parties&#8217; keys will release the funds to the appropriate party.</p>
+
 <p><a name="19"></a><strong>I have a question that isn&#8217;t covered here&#8230;?</strong></p>
-<p>Please, add your question in the comments below! Or <a href="/contact/">Contact Us</a> and ask your questions directly.</p>
-                
-                <div class="clear"></div>
-                
-                                
-                <div id="comments">
-                    
-<div id="disqus_thread">
-            <div id="dsq-content">
-
-
-            <ul id="dsq-comments">
-                    <li class="comment even thread-even depth-1" id="dsq-comment-13">
-        <div id="dsq-comment-header-13" class="dsq-comment-header">
-            <cite id="dsq-cite-13">
-                <span id="dsq-author-user-13">itsdsmurrell</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-13" class="dsq-comment-body">
-            <div id="dsq-comment-message-13" class="dsq-comment-message"><p>Hi, I read the FAQ and still have a few questions. I heard about your idea on LetsTalkBitcoin. I currently run <a href="https://coinduit.io/" rel="nofollow">https://coinduit.io</a> which sells bitcoins to UK customers so I&#8217;m very interested in something like this. I think you guys are on exactly the right track.</p>
-<p>1) &#8220;We store the encrypted bank account details in the blockchain with the registration&#8221; &#8211; what if the bank details change slightly but still work i.e. slight name change, or are you only using account number and sort codes that are unique to the account?</p>
-<p>2) If it&#8217;s decentralised who decides which payment options are valid? Does each seller always need to attach themselves to an arbitrator who will decide these things?</p>
-<p>3) How do you handle collusion? i.e. sellers who select arbitrator that they know.</p>
-<p>4) What about a reputation system initiated using proof of burn as OpenBazaar are planning? Wouldn&#8217;t this make it possible to trade solely on reputation, without the need for an arbitrator and thus be more efficient fee wise? (0 fee essentially).</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-14">
-        <div id="dsq-comment-header-14" class="dsq-comment-header">
-            <cite id="dsq-cite-14">
-                <a id="dsq-author-user-14" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-14" class="dsq-comment-body">
-            <div id="dsq-comment-message-14" class="dsq-comment-message"><p>Sorry for the late reply. Here are my answers&#8230;</p>
-<p>1: We will use the mandatory and identifying fields of the payment account (will be very different depending on bank, payment processor, mobile payment solutions&#8230;). You can also create multiple payment accounts. All require a separate registration, but the fee very low and the registration process is painless. Its only purpose is to protect against sock puppets and we use the payment account as a scarce resource to archieve that. The registration data are only visible to the trading peer in case of a trade (due the bank tx they are disclosed anyway to the trading partner).</p>
-<p>2: The developers need to add new payment methods if requested. We want to support all which are known to be hard to charge back and from which we have enough information (mandatory fields, fees, reputation, tx duration&#8230;). If a user wants to get a new payment method added he can simply provide enough info to the team and if it fulfills our requirements we will add it. The payment method is displayed next to the offer, so the taker can decide if he can or want to take the deal with that payment method.</p>
-<p>3: Both traders select a set of accepted arbitrators. You can only trade with otheres if at least 1 arbitrator is matching from boths sets (the more arbitrators you accept the more trades are available for you). Collusion is protected due a high security deposit of the arbitrators and a second arbitration round if one of the traders request that. If in that second round (arbitrator is selected by the system among the highest rated arbitrators) collusion is detected, the misbehaving arbitrator will lose his deposit and lose much more money as he can earn from cheating (trade volume is limited, security deposit is &gt; 2x max. trade volume). </p>
-<p>4: Reputation is a weak protection as you can never avoid sybil and long con attacks, so we don&#8217;t use it, but a voluntarily higher security deposit (and maybe also registration fee) payment might be used as possibility to increase ones reputation. But it would not be enough to replace an arbitration system (also Open Bazaar use arbitration).<br />
-For a marketplace like Open Bazaar reputation system is more important as the outcome of a deal is not binary like in a currency exchange.</p>
-<p>Hope I could answer your questions. Feel free to check out our whitepaper for more details.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-20">
-        <div id="dsq-comment-header-20" class="dsq-comment-header">
-            <cite id="dsq-cite-20">
-                <span id="dsq-author-user-20">BtoC</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-20" class="dsq-comment-body">
-            <div id="dsq-comment-message-20" class="dsq-comment-message"><p>Who has the keys for the multisig accounts?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-21">
-        <div id="dsq-comment-header-21" class="dsq-comment-header">
-            <cite id="dsq-cite-21">
-                <a id="dsq-author-user-21" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-21" class="dsq-comment-body">
-            <div id="dsq-comment-message-21" class="dsq-comment-message"><p>The 2 traders and the arbitrator selected for that trade. Note that we use a decentralized arbitration system. All the details how the arbitrator gets selected and how it is secured you can find in the Whitepaper and the dedicated paper about the arbitration system.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-34">
-        <div id="dsq-comment-header-34" class="dsq-comment-header">
-            <cite id="dsq-cite-34">
-                <span id="dsq-author-user-34">Giovanni Luca Silvestri</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-34" class="dsq-comment-body">
-            <div id="dsq-comment-message-34" class="dsq-comment-message"><p>Question: is it possible to choose the arbitrator or does the network chooses for me?</p>
-<p>Thanks.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-35">
-        <div id="dsq-comment-header-35" class="dsq-comment-header">
-            <cite id="dsq-cite-35">
-                <a id="dsq-author-user-35" href="/" target="_blank" rel="nofollow">Richard Myers</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-35" class="dsq-comment-body">
-            <div id="dsq-comment-message-35" class="dsq-comment-message"><p>As Manfred said, details are in the whitepaper, but essentially the arbitrator is chosen randomly from the overlapping set of arbitrators selected by the two parties to the trade.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-51">
-        <div id="dsq-comment-header-51" class="dsq-comment-header">
-            <cite id="dsq-cite-51">
-                <span id="dsq-author-user-51">Otto Meier</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-51" class="dsq-comment-body">
-            <div id="dsq-comment-message-51" class="dsq-comment-message"><p>Hi Manfred, Great tool!!!!<br />
-I have to send bitcoin to fund an order. Thats ok. But its rather funny that there is an additional minimum network fee requirement to satisfy within this transaction to get my order listed. If not no order listed. Here is the point, some wallets don&#8217;t even offer the option to change the network fee for sending funds. If you require that for outgoing transfers fine. but for incoming it limits the user base?!</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-52">
-        <div id="dsq-comment-header-52" class="dsq-comment-header">
-            <cite id="dsq-cite-52">
-                <a id="dsq-author-user-52" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-52" class="dsq-comment-body">
-            <div id="dsq-comment-message-52" class="dsq-comment-message"><p>I am aware of that issue and in the next release we decrease the min. required mining fee to 0.0001 btc. The problem is if the funding tx has a too low fee and does not get into the block chain the following trade tx (based on that funding tx) also don&#8217;t get confirmed, so delaying the trade process and in worst case exceeding the max. allowed trade period. In some bad days there is  backlog of about 1 day with low fees&#8230;<br />
-That there are still wallets which have not updated to the situation to make fees adjustable is a bad sign for that wallet. The fee issue is nothing new, its an issue since at least half a year and adjusting the fee to your need for priority is a must have for a modern wallet&#8230;</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-3" id="dsq-comment-53">
-        <div id="dsq-comment-header-53" class="dsq-comment-header">
-            <cite id="dsq-cite-53">
-                <span id="dsq-author-user-53">Otto Meier</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-53" class="dsq-comment-body">
-            <div id="dsq-comment-message-53" class="dsq-comment-message"><p>Hi Manfred, Thx for quick reply. I see the issue with the backlog but also the high fix cost. Therefore it would desirable to have something more dynamic or a build in kind of timer that cancels the transaction &#8230; Cheaper but still working within the applications condition. Thx</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-4" id="dsq-comment-56">
-        <div id="dsq-comment-header-56" class="dsq-comment-header">
-            <cite id="dsq-cite-56">
-                <a id="dsq-author-user-56" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-56" class="dsq-comment-body">
-            <div id="dsq-comment-message-56" class="dsq-comment-message"><p>Yes with the next verison that will be fixed. If the fee is high enough you can use the funds without waiting for a blockcahin confirmation, if it is too low then you need to wait for at least 1 confirmation before you can use the funds for trading (offer creation, take offer).</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even depth-3" id="dsq-comment-54">
-        <div id="dsq-comment-header-54" class="dsq-comment-header">
-            <cite id="dsq-cite-54">
-                <span id="dsq-author-user-54">Otto Meier</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-54" class="dsq-comment-body">
-            <div id="dsq-comment-message-54" class="dsq-comment-message"><p>Oh, btw. After completing a transaction when I get back the security funds (and whatever crypto one bought) the network fee is also fix, like in the &#8216;bad&#8217; wallets mentioned. If I&#8217;m not in urgent need of the funds or the network doesn&#8217;t have a large backlog it would be appreciated if it was definable/adjustable. Keeps costs lower &#8230; Best</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-4" id="dsq-comment-55">
-        <div id="dsq-comment-header-55" class="dsq-comment-header">
-            <cite id="dsq-cite-55">
-                <a id="dsq-author-user-55" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-55" class="dsq-comment-body">
-            <div id="dsq-comment-message-55" class="dsq-comment-message"><p>Yes to make the non-trade tx fee editable is on the Todo list. Not sure if it will be in the next version but planned for upcoming versions.<br />
-But what wil be for sure is that global &#8220;savings&#8221; wallet so you dont need to transfer out your funds after the trade, just move it internally to the savings wallet.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-5" id="dsq-comment-57">
-        <div id="dsq-comment-header-57" class="dsq-comment-header">
-            <cite id="dsq-cite-57">
-                <span id="dsq-author-user-57">Otto Meier</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-57" class="dsq-comment-body">
-            <div id="dsq-comment-message-57" class="dsq-comment-message"><p>Thats another great cost saver!<br />
-May I offer few more observations.<br />
-First, in the market tab one could provide within a fourth column the payment information to the existing orders (grey depending on setup payment method setup). Otherwise one has to go to the buy/sell tab and search for a specific offer within the different payment methods. Further in the buy tab I can select to see &#8216;all&#8217; payment methods while in the sell tab not. Maybe its related to existing orders&#8230;<br />
-Second, the &#8216;create offer for buying bitcoin&#8217; seems a literal translation from German. &#8216;Angebot zum kaufen von bitcoin&#8217;. Personally its confusing as &#8216;offer&#8217; in English has a different meaning. &#8216;Bid for bitcoin&#8217; or &#8216;offer bitcoin&#8217; should suffice. Its like &#8216;Geld/Brief&#8217; in German.<br />
-Third is regarding bad order book liquidity. Meaning the empty order books. The only way to adjust existing orders is to delete and place new. Orders must be adjustable (manually/electronically via api) or able to be placed in reference to an exchange or index (with a min./max. margin) in order to not &#8216;get picked up&#8217; when supply/demand situation changes. Bisq provides/offers the hassle free and cost effective way to exchange FX for people in demand for btc (e.g. interested individuals) and supply of (e.g. broker/dealer). Both safe cost/time as no additionally regulatory requirement is needed/obeyed!! No ID/bill providing to proof I&#8217;m human and no license conditions for btc dealers/brokers is to be satisfied. What cost savings and rendering bureaucracy once more entirely useless!! This is so awesome/marvelous!! That message needs to be conveyed in bitsquares&#8217; introductory video instead of all the needs bitsquare has. I would like to expand on this but run out of space and maybe you stopped reading already. Anyway, have a good weekend.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt depth-5" id="dsq-comment-58">
-        <div id="dsq-comment-header-58" class="dsq-comment-header">
-            <cite id="dsq-cite-58">
-                <a id="dsq-author-user-58" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-58" class="dsq-comment-body">
-            <div id="dsq-comment-message-58" class="dsq-comment-message"><p>Thanks a lot for your input!<br />
-&#8211; Will consider to add that 4th column. I wanted to keep the overview very simple, but I understand it would make sense.<br />
-&#8211; That the &#8220;show all payment methods&#8221; was not displayed was a bug &#8211; thanks for reporting. Just fixed it for the next release.<br />
-&#8211; Re: wording: I will do a review with a native english speaker over all text used in Bisq for an upcoming release. I think there are more issues like that. I had it initially shorter (Buy Bitcoin) but people did not understand it that it was for creating an offer, so I added more info. I personally don&#8217;t like Bid/Ask so much as it is not so well understood by less experienced traders.<br />
-&#8211; It is planned for a upcoming version to add a percentage price based on Bitcoin average price feed. To change offers will be considered as well.<br />
-&#8211; Re: Transmitting benefits of Bisq/promotion: I would love to talk more about that with you. Can you get in touch with me by email (manfred [at] bitsquare [dot] io?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment even depth-5" id="dsq-comment-59">
-        <div id="dsq-comment-header-59" class="dsq-comment-header">
-            <cite id="dsq-cite-59">
-                <a id="dsq-author-user-59" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-59" class="dsq-comment-body">
-            <div id="dsq-comment-message-59" class="dsq-comment-message"><p>FYI: <a href="https://github.com/bitsquare/bitsquare/commit/a25d089f5588617aa59e2ecb9a081e5913572019" rel="nofollow">https://github.com/bitsquare/bitsquare/commit/a25d089f5588617aa59e2ecb9a081e5913572019</a> (Show payment in market overview offer book tables)</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment odd alt thread-even depth-1" id="dsq-comment-60">
-        <div id="dsq-comment-header-60" class="dsq-comment-header">
-            <cite id="dsq-cite-60">
-                <span id="dsq-author-user-60">JavierAsisB</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-60" class="dsq-comment-body">
-            <div id="dsq-comment-message-60" class="dsq-comment-message"><p>Hi all. Can anyone tell me where can I find the form to apply as an arbitrator?</p>
-<p>Thanks.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-2" id="dsq-comment-61">
-        <div id="dsq-comment-header-61" class="dsq-comment-header">
-            <cite id="dsq-cite-61">
-                <a id="dsq-author-user-61" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-61" class="dsq-comment-body">
-            <div id="dsq-comment-message-61" class="dsq-comment-message"><p>The fully decentralized arbitration system is not implemented yet, so you cannot become an arbitrator at the moment. It also would not make so much sense as atm its primarily software bugs and usability issues causing disputes, so that is easier for me to handle it directly.</p>
-<p>Once the fully decentralized arbitration system is in place (maybe in 3-6 months) you can sign up directly in the application, but there will be a security deposit you need to pay for securing the system (protection against collusion).</p>
-<p>See: <a href="/arbitration_system.pdf" rel="nofollow">https://bitsquare.io/arbitration_system.pdf</a> for more details.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-3" id="dsq-comment-66">
-        <div id="dsq-comment-header-66" class="dsq-comment-header">
-            <cite id="dsq-cite-66">
-                <span id="dsq-author-user-66">JavierAsisB</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-66" class="dsq-comment-body">
-            <div id="dsq-comment-message-66" class="dsq-comment-message"><p>Thanks so much.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment even depth-3" id="dsq-comment-130">
-        <div id="dsq-comment-header-130" class="dsq-comment-header">
-            <cite id="dsq-cite-130">
-                <span id="dsq-author-user-130">ozlanthos</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-130" class="dsq-comment-body">
-            <div id="dsq-comment-message-130" class="dsq-comment-message"><p>Why not do what every other cryptocurrency does and set up a program to mine your transactions (assuming it doesn&#8217;t already). The only differences you would need to do is take out the ability to edit the protocol by miners (meaning &#8220;you want to mine for us, you use our software&#8221; kind of network), and the reward would have to be dispersed to all participants proportional to their contribution (as opposed to a single miner being rewarded at the end of the block). Also you&#8217;re trying to maintain anonymity, so blocks could be pruned every 5 days thus ending the need to worry about block-sizes, hard-drive space&#8230;etc hardware burden. This also eliminates some motivations for collusion, as participation as a node would be incentive enough not to bother cheating. You could also do away with the barrier of having to put up Bitcoin just to buy more Bitcoin. A participant could mine for the network until they&#8217;d accrued enough SATs to cover their trade fees, and then transition funds from fiat to Bitcoin without having to bring other Bitcoin out of savings just to do it. </p>
-<p>All of this is probably covered in your arbitrator details, but I figured I&#8217;d get it out of my system on the just in case it is not 😉 .</p>
-<p>-Oz</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-62">
-        <div id="dsq-comment-header-62" class="dsq-comment-header">
-            <cite id="dsq-cite-62">
-                <span id="dsq-author-user-62">Zed</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-62" class="dsq-comment-body">
-            <div id="dsq-comment-message-62" class="dsq-comment-message"><p>Hello. I have tried last night. Funded few offers, set up password and since then network never connects again. Firewall,VPN off. No matter what I try I got connected to TOR, unlock the wallet, see the peers and start getting connected. Nr. of P2P peers is rising, but after 3 minutes I&#8217;m kicked out. Any idea?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-2" id="dsq-comment-63">
-        <div id="dsq-comment-header-63" class="dsq-comment-header">
-            <cite id="dsq-cite-63">
-                <a id="dsq-author-user-63" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-63" class="dsq-comment-body">
-            <div id="dsq-comment-message-63" class="dsq-comment-message"><p>How do you get kicked out? I just discovered a small bug &#8211; when you dont enter the password in between 3 min. at startup then a warning popup comes (a timeout gets triggered which should come only when there are network problems). But you can close that warning popup it does not has any further consequences.</p>
-<p>Do you use Tor for BitcoinJ?<br />
-Do you get disconnected to all P2P network peers?<br />
-I assume you have the lastest version installed. Have you had installed an earlier version and followed the update instructions (deleted the data dir)?<br />
-Can you send my screenshots of relevant section and more descriptions?<br />
-You find my email under contact.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-3" id="dsq-comment-64">
-        <div id="dsq-comment-header-64" class="dsq-comment-header">
-            <cite id="dsq-cite-64">
-                <span id="dsq-author-user-64">Zed</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-64" class="dsq-comment-body">
-            <div id="dsq-comment-message-64" class="dsq-comment-message"><p>Hello.</p>
-<p>I had beta version installed before and yday I just installed the newest one to see how program work on main net. I have set up the offers and fund them with about 0.25BTC to get them on. Also I have set up the password to protect the wallet. After when I try to login I enter my password, but after that I&#8217;m stuck on the login screen for 3 minutes before I got disconnected. Please find the print screen attached.</p>
-<p>Zdenek</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-4" id="dsq-comment-65">
-        <div id="dsq-comment-header-65" class="dsq-comment-header">
-            <cite id="dsq-cite-65">
-                <a id="dsq-author-user-65" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-65" class="dsq-comment-body">
-            <div id="dsq-comment-message-65" class="dsq-comment-message"><p>Please send me the screenshot by email&#8230;.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment odd alt thread-even depth-1" id="dsq-comment-70">
-        <div id="dsq-comment-header-70" class="dsq-comment-header">
-            <cite id="dsq-cite-70">
-                <a id="dsq-author-user-70" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-70" class="dsq-comment-body">
-            <div id="dsq-comment-message-70" class="dsq-comment-message"><p>Sorry, I did not want to offend. I have nothing against BitHalo was just not taking it too serious if even the download link fails. But anyway good luck with your project. There is space for many!</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-73">
-        <div id="dsq-comment-header-73" class="dsq-comment-header">
-            <cite id="dsq-cite-73">
-                <a id="dsq-author-user-73" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-73" class="dsq-comment-body">
-            <div id="dsq-comment-message-73" class="dsq-comment-message"><p>Stop spreading FUD and wasting my time!</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-74">
-        <div id="dsq-comment-header-74" class="dsq-comment-header">
-            <cite id="dsq-cite-74">
-                <span id="dsq-author-user-74">John Beamer</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-74" class="dsq-comment-body">
-            <div id="dsq-comment-message-74" class="dsq-comment-message"><p>Its not &#8220;FUD&#8221; the arbiters funds are at risk&#8230; change the protocol.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-75">
-        <div id="dsq-comment-header-75" class="dsq-comment-header">
-            <cite id="dsq-cite-75">
-                <span id="dsq-author-user-75">Gizfreak</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-75" class="dsq-comment-body">
-            <div id="dsq-comment-message-75" class="dsq-comment-message"><p>Do I have to keep the client running until a trade is completed?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-76">
-        <div id="dsq-comment-header-76" class="dsq-comment-header">
-            <cite id="dsq-cite-76">
-                <a id="dsq-author-user-76" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-76" class="dsq-comment-body">
-            <div id="dsq-comment-message-76" class="dsq-comment-message"><p>The clinet must run when you have a offer open. When you close your app the offer gets removed and re-added when u go online again. During the trade it is not needed but recommended as well. When your computer is in standby mode the network gets disconnected so, same as shutting down the all (though shutdown removes the offer gracefully, so preferred).</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-3" id="dsq-comment-84">
-        <div id="dsq-comment-header-84" class="dsq-comment-header">
-            <cite id="dsq-cite-84">
-                <span id="dsq-author-user-84">Thomas</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-84" class="dsq-comment-body">
-            <div id="dsq-comment-message-84" class="dsq-comment-message"><p>@Gizfreak &#8216;s question would do well in the FAQ list itself.<br />
-Why is it recommended to have ones computer on during the trade?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-4" id="dsq-comment-85">
-        <div id="dsq-comment-header-85" class="dsq-comment-header">
-            <cite id="dsq-cite-85">
-                <a id="dsq-author-user-85" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-85" class="dsq-comment-body">
-            <div id="dsq-comment-message-85" class="dsq-comment-message"><p>When a taker takes an offer the MultiSig is created and the offerers machine need to be online to create the MS. During the trade it is not required but the trade completes faster when the other trader confirms receipt or fiat sent.  </p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-5" id="dsq-comment-86">
-        <div id="dsq-comment-header-86" class="dsq-comment-header">
-            <cite id="dsq-cite-86">
-                <span id="dsq-author-user-86">Thomas</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-86" class="dsq-comment-body">
-            <div id="dsq-comment-message-86" class="dsq-comment-message"><p>@disqus_1OXMP570fK (Manfred) Thank you. To understand fully: Say I&#8217;m in a trade right now. I want to buy some Bitcoin, I accepted an offer and I SEPA transferred the Euro&#8217;s. The SEPA-tx might take a full day. I can now safely shut the BSQ-app and my computer. Tomorrow the BTC-seller might see Euro&#8217;s in his/her bank and confirm this in his/her BSQ-app. But the BTC is not released to me until I open the app. Which might be on day 3. Is this correct?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt depth-5" id="dsq-comment-87">
-        <div id="dsq-comment-header-87" class="dsq-comment-header">
-            <cite id="dsq-cite-87">
-                <a id="dsq-author-user-87" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-87" class="dsq-comment-body">
-            <div id="dsq-comment-message-87" class="dsq-comment-message"><p>Yes that is correct. During the trade you don&#8217;t need to be online. When you go online again you will receive the messages from the other traders, e.g. the payout transaction.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-81">
-        <div id="dsq-comment-header-81" class="dsq-comment-header">
-            <cite id="dsq-cite-81">
-                <span id="dsq-author-user-81">RichardP</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-81" class="dsq-comment-body">
-            <div id="dsq-comment-message-81" class="dsq-comment-message"><p>Is it only possible to trade in local currency? I&#8217;m in Norway and has only Norwegian bank.<br />
-After registered both SEPA and Bank transfer, I can only make orders in NOK and I get an error message if I try to accept offers in EUR, USD or other major currency.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-82">
-        <div id="dsq-comment-header-82" class="dsq-comment-header">
-            <cite id="dsq-cite-82">
-                <a id="dsq-author-user-82" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-82" class="dsq-comment-body">
-            <div id="dsq-comment-message-82" class="dsq-comment-message"><p>Atm SEPA for non EURO countries only support their national currency, but we know that this need to be changed. Hope I find soon time to change that and then you can use EUR as well. USD will not work as it is not SEPA. You can use PerfectMoney or OKPay for USD. Interantional bank transfer is not supported because of the hight transaction fee.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-83">
-        <div id="dsq-comment-header-83" class="dsq-comment-header">
-            <cite id="dsq-cite-83">
-                <span id="dsq-author-user-83">Mike</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-83" class="dsq-comment-body">
-            <div id="dsq-comment-message-83" class="dsq-comment-message"><p>I am in possession of ZCASH &#8230; it is also decentralized and is a crypto currency &#8230; can they accept this?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-88">
-        <div id="dsq-comment-header-88" class="dsq-comment-header">
-            <cite id="dsq-cite-88">
-                <span id="dsq-author-user-88">Leo Treasure</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-88" class="dsq-comment-body">
-            <div id="dsq-comment-message-88" class="dsq-comment-message"><p>How much is the offer fee if I cancel an open trade?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-2" id="dsq-comment-89">
-        <div id="dsq-comment-header-89" class="dsq-comment-header">
-            <cite id="dsq-cite-89">
-                <a id="dsq-author-user-89" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-89" class="dsq-comment-body">
-            <div id="dsq-comment-message-89" class="dsq-comment-message"><p>The offer fee is 0.0005 BTC (about 0.20 EUR). The offer fee is paid when you create the offer, for removing there is no fee. Be aware that you can also use percentage based prices so you don&#8217;t need to update the offers when the market price moves too much.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-3" id="dsq-comment-90">
-        <div id="dsq-comment-header-90" class="dsq-comment-header">
-            <cite id="dsq-cite-90">
-                <span id="dsq-author-user-90">Leo Treasure</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-90" class="dsq-comment-body">
-            <div id="dsq-comment-message-90" class="dsq-comment-message"><p>Thanks Manfred, that is a very low fee indeed! In my humble opinion, the percentage model should be the default choice as it is easier to leave open and not get a bad deal.</p>
-<p>Also, I found the pricing very confusing to work out because it&#8217;s the complete opposite of Poloniex, which is what I&#8217;m used to. A setting to reverse the pair order would be a very nice feature to have.</p>
-<p>Thanks for this cool decentralised exchange btw!</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-4" id="dsq-comment-91">
-        <div id="dsq-comment-header-91" class="dsq-comment-header">
-            <cite id="dsq-cite-91">
-                <a id="dsq-author-user-91" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-91" class="dsq-comment-body">
-            <div id="dsq-comment-message-91" class="dsq-comment-message"><p>In future it will be a mix probably. But percentage will not be sufficient as spam protection ( you could then offer spam with them min. amount to very low costs).<br />
-The market rate can be inverted by clicking the icon button right to it. But seems people dont recognize that, needs some UI improvment.<br />
-Also will consider to invert it by default , btu then fiat and altcoins has a different model. In fiat it is normally used as it is here.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-5" id="dsq-comment-92">
-        <div id="dsq-comment-header-92" class="dsq-comment-header">
-            <cite id="dsq-cite-92">
-                <span id="dsq-author-user-92">Leo Treasure</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-92" class="dsq-comment-body">
-            <div id="dsq-comment-message-92" class="dsq-comment-message"><p>I think you may have misunderstood my point about the percentage model. I meant that when making buy/sell orders, the default option should be percentage rather than fixed buy/sell rate &#8211; as market moves quickly, percentage offers best value for newbie traders.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment even depth-5" id="dsq-comment-93">
-        <div id="dsq-comment-header-93" class="dsq-comment-header">
-            <cite id="dsq-cite-93">
-                <a id="dsq-author-user-93" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-93" class="dsq-comment-body">
-            <div id="dsq-comment-message-93" class="dsq-comment-message"><p>Ah, sorry for the confusion. Yes that I was already considering for the next version.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment odd alt thread-even depth-1" id="dsq-comment-94">
-        <div id="dsq-comment-header-94" class="dsq-comment-header">
-            <cite id="dsq-cite-94">
-                <span id="dsq-author-user-94">Lorenzo Lucchini</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-94" class="dsq-comment-body">
-            <div id="dsq-comment-message-94" class="dsq-comment-message"><p>He gives out the source&#8230;?<br />
-When I read <a href="https://www.reddit.com/r/blackcoin/comments/26biks/should_bithaloblackhalo_be_open_source/" rel="nofollow">https://www.reddit.com/r/blackcoin/comments/26biks/should_bithaloblackhalo_be_open_source/</a> I find he originally wanted to make it open source but somehow Reddit users made him change his mind.</p>
-<p>When I read the article at <a href="http://bravenewcoin.com/news/bithalo-offers-unbreakable-blockchain-smart-contracts/" rel="nofollow">http://bravenewcoin.com/news/bithalo-offers-unbreakable-blockchain-smart-contracts/</a> I see this very perplexing statement:</p>
-<p>When asked if Halo was open source, Zimbeck said it’s not on Github, but the platform is built on top of BitMessege. “If someone asks to see it, I will likely send it to them, though I would change the name of variables, which is regarded as a form of obfuscation. Nevertheless, someone that knows what they are doing will be able to audit the code”</p>
-<p>This&#8230; cannot be trusted. Right on its face. You don&#8217;t need to dig more into this to realize it does not follow best security practice for something you&#8217;re trusting your money with. At all.</p>
-<p>As to decentralization, it is enough to read <a href="http://motherboard.vice.com/read/this-decentralized-bitcoin-market-is-for-legal-stuff-only" rel="nofollow">http://motherboard.vice.com/read/this-decentralized-bitcoin-market-is-for-legal-stuff-only</a> to realize that his idea of &#8220;decentralized&#8221; has been that he alone would hold a &#8220;moderation key&#8221; to censor certain transactions out.</p>
-<p>I don&#8217;t know about others, but as for me, this is most definitely crossed out of my list.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-2" id="dsq-comment-99">
-        <div id="dsq-comment-header-99" class="dsq-comment-header">
-            <cite id="dsq-cite-99">
-                <span id="dsq-author-user-99">John Beamer</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-99" class="dsq-comment-body">
-            <div id="dsq-comment-message-99" class="dsq-comment-message"><p>Actually just asked David, there is a source link at his site, <a href="http://www.davtonia.com/bithalo/haloobf.zip" rel="nofollow">http://www.davtonia.com/bithalo/haloobf.zip</a></p>
-<p>So yeah, not sure what the big deal is. He will put it on github when he is ready. With all the pump and dump, do you really blame him? Halo has been around for 3 years man, not a single hack. And you can audit his code and build it so yeah.</p>
-<p>Also, the moderation key makes sense. Do you really want him to go to jail like Ross Ulbright?! Come on dude use your head. If you don&#8217;t want the mod key fork it and put your own ass on the line.</p>
-<p>Besides, his mod key is only for what he sees. He cant remove some market he doesnt know about and offers can be sent privately. The private offers don&#8217;t even go to the market so obviously he cant censor those. And honestly from talking to him I&#8217;m pretty sure the only thing he would remove is really screwed up evil contracts posted blatantly on the main market. So you are just fudding senselessly. Talk to David, I&#8217;m sure he would be happy to answer your questions. Hes a very nice and honorable person from every convo ive had with him. The dude codes nonstop like a damn saint.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-3" id="dsq-comment-100">
-        <div id="dsq-comment-header-100" class="dsq-comment-header">
-            <cite id="dsq-cite-100">
-                <span id="dsq-author-user-100">Lorenzo Lucchini</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-100" class="dsq-comment-body">
-            <div id="dsq-comment-message-100" class="dsq-comment-message"><p>You can&#8217;t really go to jail merely for writing a program (not even hosting any content or any links to content) that others use for illegal purposes. It&#8217;s peer-to-peer, and if all you&#8217;re doing is writing and distributing the program, you aren&#8217;t liable unless the program itself is malicious, such as a virus. Claiming otherwise has no legal grounds. If anything, he&#8217;d be trying to protect the program&#8217;s &#8220;reputation&#8221;, which could easily be construed as censorship.</p>
-<p>I cannot audit the code if it&#8217;s obfuscated, like he himself claimed it is on Reddit (see above). He says an expert could audit it, but that&#8217;s nonsense, as the point of obfuscating code is to make it very hard to understand it. That hinders auditing. It&#8217;s obvious.</p>
-<p>Your suggestion to just fork the code to remove the moderation key also makes absolutely no sense. Again, THE CODE IS NOT RELEASED AS OPEN SOURCE. The fact there&#8217;s a link to the source hidden somewhere doesn&#8217;t mean I can legally fork the code, if it&#8217;s not released under a suitable open source license (which it is not, as no license is mentioned or included).</p>
-<p>It would be illegal for me or you to make a fork.</p>
-<p>Yes, maybe I should indeed ask him about these issues, because you don&#8217;t seem to know about them&#8230; which is fine, you don&#8217;t really have to know; but since you don&#8217;t, I feel your level of rudeness (especially towards Manfred, but things like &#8220;use your head&#8221; or &#8220;put your own ass on the line&#8221; aren&#8217;t gems, either) has been excessive for someone who&#8217;s seemingly relatively clueless.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-4" id="dsq-comment-101">
-        <div id="dsq-comment-header-101" class="dsq-comment-header">
-            <cite id="dsq-cite-101">
-                <a id="dsq-author-user-101" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-101" class="dsq-comment-body">
-            <div id="dsq-comment-message-101" class="dsq-comment-message"><p>Thanks for your clear words!</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt depth-4" id="dsq-comment-102">
-        <div id="dsq-comment-header-102" class="dsq-comment-header">
-            <cite id="dsq-cite-102">
-                <span id="dsq-author-user-102">John Beamer</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-102" class="dsq-comment-body">
-            <div id="dsq-comment-message-102" class="dsq-comment-message"><p>of course people can go to jail for open source endeavors. Silk Road was simply a website pirate bay was just a site and also napster was just p2p sharing. The law doesn&#8217;t even need to exist for someone to get prosecuted(who said law was fair? Haven&#8217;t you heard of the patriot act?), we dont live in a fair world. But yeah, he probably just wants the markets clean so the image is clean. You are right, I think changing the moderation key would be a violation of the license but im not sure what license he has on it. However, if you speak of being &#8220;rude&#8221; then perhaps notice your previous comment in caps claiming David can&#8217;t be trusted which is in my opinion extremely rude and not true.</p>
-<p>As for auditing, what would you look for in his code? Just look for any external addresses, calls to external servers, its pretty easy to audit honestly. And I&#8217;m sure if you ask him questions he will answer them. He would probably show you the original source lol.</p>
-<p>Besides, look at the &#8220;DAO&#8221; where Ethereum deliberately allowed their own code to get hacked by a bug they audited and knew existed before the hack and they even published an article on it. So I&#8217;m not sure it matters, besides people usually download binaries. He said he will open source it. Why don&#8217;t you just ask him instead of arguing with me?</p>
-<p>All I did was point out the 2 of 3 arbiter collusion that David has talked about excessively on slack, bitcointalk and reddit over the years. BitSquare should use 2 of 2 instead of putting customer funds at risk with a relatively easy attack. Its not fudding, its a fact. I wasn&#8217;t writing to promote or detract from anyone elses project, I was writing to point out a known flaw and the odd omission of previous smart contracting software. Arbiters are middle men, and decentralization is about removing the middle men.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-5" id="dsq-comment-103">
-        <div id="dsq-comment-header-103" class="dsq-comment-header">
-            <cite id="dsq-cite-103">
-                <span id="dsq-author-user-103">Lorenzo Lucchini</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-103" class="dsq-comment-body">
-            <div id="dsq-comment-message-103" class="dsq-comment-message"><p>&gt; of course people can go to jail for open source endeavors. Silk Road was simply a website pirate bay was just a site and also napster was just p2p sharing</p>
-<p>I didn&#8217;t say &#8220;endeavor&#8221;, I said &#8221; program, and I said that explicitly in contrast with hosting content on websites (Napster also.ran its own servers, the file transfers were P2P but the system wasn&#8217;t distributed, so the server owners could be held responsible for what was exchanged through the servers, just like with websites, but UNLIKE distributed systems where the original author isn&#8217;t running anything).</p>
-<p>In yet other words: you can go to jail for running a server where illegal stuff is exchanged or discussed.<br />
-You cannot go to jail for writing a program that contains no illegal part itself, and then not even necessarily running the program, but only distributing it for others to run.</p>
-<p>I thought I had already clarified this key difference in my previous post, but I guess your deliberate use of the all or compassing word &#8220;endeavor&#8221; shows I had not been clear.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt depth-5" id="dsq-comment-104">
-        <div id="dsq-comment-header-104" class="dsq-comment-header">
-            <cite id="dsq-cite-104">
-                <span id="dsq-author-user-104">John Beamer</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-104" class="dsq-comment-body">
-            <div id="dsq-comment-message-104" class="dsq-comment-message"><p>There isn&#8217;t any reason to dissect each word being used. You knew what I was trying to say. Anyways yeah I realize that Napster ran its own servers.But my point is, that people go to jail for collecting rainwater and other nonsense things. The guy from reddit killed himself for a nonsense charge. Even though there isn&#8217;t a law today governing open source developers doesn&#8217;t mean that a person will not be made a martyr. So I think a moderation key is fine. Wouldn&#8217;t you make a moderation key if you were the dev?! He isn&#8217;t anonymous unlike most of the other devs.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-95">
-        <div id="dsq-comment-header-95" class="dsq-comment-header">
-            <cite id="dsq-cite-95">
-                <span id="dsq-author-user-95">Lorenzo Lucchini</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-95" class="dsq-comment-body">
-            <div id="dsq-comment-message-95" class="dsq-comment-message"><p>I&#8217;d like to double-check whether PageSigner can work with PDF files, which is the only thing my bank&#8217;s online system provides to show wire transfer data. I&#8217;ve tried with a random PDF and it seemed to work, or at least it didn&#8217;t give errors, but will this be accepted by arbitrators?<br />
-PageSigner also warns me that I MUST LOG OUT of my session before sending someone else the signed page. Is there any concrete risk of leaking login information?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-96">
-        <div id="dsq-comment-header-96" class="dsq-comment-header">
-            <cite id="dsq-cite-96">
-                <a id="dsq-author-user-96" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-96" class="dsq-comment-body">
-            <div id="dsq-comment-message-96" class="dsq-comment-message"><p>Any https page should work, but not sure if pdf is supported. u can try it when u page sign it and then open it to verify the downloaded file. From which country is your bank?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-3" id="dsq-comment-97">
-        <div id="dsq-comment-header-97" class="dsq-comment-header">
-            <cite id="dsq-cite-97">
-                <span id="dsq-author-user-97">Lorenzo Lucchini</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-97" class="dsq-comment-body">
-            <div id="dsq-comment-message-97" class="dsq-comment-message"><p>The bank is an online bank in Italy.<br />
-I tried what you said, but not with my bank, with a random PDF that was hosted on HTTPS, and I could open it from the PageSigner list of verified pages&#8230;</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-4" id="dsq-comment-98">
-        <div id="dsq-comment-header-98" class="dsq-comment-header">
-            <cite id="dsq-cite-98">
-                <a id="dsq-author-user-98" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-98" class="dsq-comment-body">
-            <div id="dsq-comment-message-98" class="dsq-comment-message"><p>Ah good to know!</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-105">
-        <div id="dsq-comment-header-105" class="dsq-comment-header">
-            <cite id="dsq-cite-105">
-                <span id="dsq-author-user-105">john m.</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-105" class="dsq-comment-body">
-            <div id="dsq-comment-message-105" class="dsq-comment-message"><p>Can you make it more complicated, please? There&#8217;s not enough text and documents to read in your website. Your f*ng &#8220;video&#8221; explains shit about how it works as it&#8217;s only a bunch of animated screenshots of the app (which you could have done in powerpoint) and explains shit about how the Fiat payment is done or is arbitraged. (Just the most important part). Please hire a real Product Manager that knows how to communicate to the world a full end-to-end use case and leave your developers stick to developer roles.  Thx</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-106">
-        <div id="dsq-comment-header-106" class="dsq-comment-header">
-            <cite id="dsq-cite-106">
-                <a id="dsq-author-user-106" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-106" class="dsq-comment-body">
-            <div id="dsq-comment-message-106" class="dsq-comment-message"><p>How I love constructive and friendly critics! Good to know for whom I work my ass off 🙂</p>
-<p>Btw. have you seen the video button, the big one the left. By clicking on that, you can find tons of explainer videos -explaining nearly every aspect of the project. Also there is a whitepaper, that is for people who take a few minutes more time and are able to read and not only watch videos. ELI5 stuff is also all over the place. So not sure which kind of content you would need, but beyond ELI5 we cannot go, I am sorry. We are aware that we cannot serve all kind of people, and seems you are one of those who we cannot, and to be honest even don&#8217;t want to serve.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-3" id="dsq-comment-121">
-        <div id="dsq-comment-header-121" class="dsq-comment-header">
-            <cite id="dsq-cite-121">
-                <span id="dsq-author-user-121">Filip</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-121" class="dsq-comment-body">
-            <div id="dsq-comment-message-121" class="dsq-comment-message"><p>Nobody cares about your opinon how friendly or qualified are comments. Do your job or leave.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-4" id="dsq-comment-149">
-        <div id="dsq-comment-header-149" class="dsq-comment-header">
-            <cite id="dsq-cite-149">
-                <span id="dsq-author-user-149">milmacrs</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-149" class="dsq-comment-body">
-            <div id="dsq-comment-message-149" class="dsq-comment-message"><p>Yes people do care. Who told you you could speak on behalf of everybody</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even depth-3" id="dsq-comment-123">
-        <div id="dsq-comment-header-123" class="dsq-comment-header">
-            <cite id="dsq-cite-123">
-                <a id="dsq-author-user-123" href="http://pantherleads.com/" target="_blank" rel="nofollow">Midasjohn</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-123" class="dsq-comment-body">
-            <div id="dsq-comment-message-123" class="dsq-comment-message"><p>Don&#8217;t forget Manfred, its their generation. It&#8217;s &#8216;Pity&#8217; we need as reasoning cannot get through. Poor kids &#8230;. or as they would say &#8220;Poor fckwits&#8221; 😛 BTW here is a therapeutic video for the angst-ridden <a href="http://bit.ly/AlbertsPath" rel="nofollow">http://bit.ly/AlbertsPath</a></p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-4" id="dsq-comment-165">
-        <div id="dsq-comment-header-165" class="dsq-comment-header">
-            <cite id="dsq-cite-165">
-                <span id="dsq-author-user-165">Bayouranch Jones</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-165" class="dsq-comment-body">
-            <div id="dsq-comment-message-165" class="dsq-comment-message"><p>that must be the worst movie EVER, wow  who wrote that script?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even depth-3" id="dsq-comment-152">
-        <div id="dsq-comment-header-152" class="dsq-comment-header">
-            <cite id="dsq-cite-152">
-                <span id="dsq-author-user-152">Dean JVR</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-152" class="dsq-comment-body">
-            <div id="dsq-comment-message-152" class="dsq-comment-message"><p>John is probably from a competitive paid service and not very happy with your outstanding service to the public. Just ignore his anger.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment odd alt depth-2" id="dsq-comment-122">
-        <div id="dsq-comment-header-122" class="dsq-comment-header">
-            <cite id="dsq-cite-122">
-                <span id="dsq-author-user-122">Sok Puppette</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-122" class="dsq-comment-body">
-            <div id="dsq-comment-message-122" class="dsq-comment-message"><p>If you need a video to explain stuff to you, then you shouldn&#8217;t be playing around with cryptocurrencies. They&#8217;re only for people who aren&#8217;t morons. We wouldn&#8217;t want you to hurt yourself.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-3" id="dsq-comment-153">
-        <div id="dsq-comment-header-153" class="dsq-comment-header">
-            <cite id="dsq-cite-153">
-                <span id="dsq-author-user-153">Dean JVR</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-153" class="dsq-comment-body">
-            <div id="dsq-comment-message-153" class="dsq-comment-message"><p>Wel put</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt depth-3" id="dsq-comment-166">
-        <div id="dsq-comment-header-166" class="dsq-comment-header">
-            <cite id="dsq-cite-166">
-                <span id="dsq-author-user-166">Bayouranch Jones</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-166" class="dsq-comment-body">
-            <div id="dsq-comment-message-166" class="dsq-comment-message"><p>More Morons are welcome, they drive the value up and we all win, so dumb it down, get the remedial videos up.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even depth-2" id="dsq-comment-124">
-        <div id="dsq-comment-header-124" class="dsq-comment-header">
-            <cite id="dsq-cite-124">
-                <span id="dsq-author-user-124">Eli Mizrachi</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-124" class="dsq-comment-body">
-            <div id="dsq-comment-message-124" class="dsq-comment-message"><p>Amen, I think Ill just stay with trading Stocks this shit is way too complicated, I still can&#8217;t figure out how much the fees are.  10 Bitcoins on Coindesk cost $97 in fees thats crazy.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-107">
-        <div id="dsq-comment-header-107" class="dsq-comment-header">
-            <cite id="dsq-cite-107">
-                <span id="dsq-author-user-107">abest</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-107" class="dsq-comment-body">
-            <div id="dsq-comment-message-107" class="dsq-comment-message"><p>if i buy btc from someone offering to sell btc with national currency. does my name and bank details get transmitted to the seller? i dont understand why i have to fill in those details to make that trade as  a buyer.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-2" id="dsq-comment-108">
-        <div id="dsq-comment-header-108" class="dsq-comment-header">
-            <cite id="dsq-cite-108">
-                <a id="dsq-author-user-108" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-108" class="dsq-comment-body">
-            <div id="dsq-comment-message-108" class="dsq-comment-message"><p>The seller will see you rbank details anyway when receiving the money, at least in most banks. It is also required to avodi social engineering attacks where the seller recieves money form a victim buying fake stuff on ebay like marketplaces, so the seller need to confirm that the senders name and bank details are correct.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-3" id="dsq-comment-109">
-        <div id="dsq-comment-header-109" class="dsq-comment-header">
-            <cite id="dsq-cite-109">
-                <span id="dsq-author-user-109">abest</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-109" class="dsq-comment-body">
-            <div id="dsq-comment-message-109" class="dsq-comment-message"><p>cool, just wanted to confirm. sweet system. im halfway through a transaction.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-110">
-        <div id="dsq-comment-header-110" class="dsq-comment-header">
-            <cite id="dsq-cite-110">
-                <span id="dsq-author-user-110">Homero Garza</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-110" class="dsq-comment-body">
-            <div id="dsq-comment-message-110" class="dsq-comment-message"><p>What about paycoin?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-111">
-        <div id="dsq-comment-header-111" class="dsq-comment-header">
-            <cite id="dsq-cite-111">
-                <span id="dsq-author-user-111">Manuel</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-111" class="dsq-comment-body">
-            <div id="dsq-comment-message-111" class="dsq-comment-message"><p>Your idea is brilliant. This is a very good possibility to trade crypto anonymously. But the fee is way higher than for example trading with Kraken. If i understood it right you got a 0.001 BTC (0.60€) for a trade of max. 0.1 BTC (60€) Taht means a fee of 1%.<br />
-Thats quiet expensive. At Kraken i pay 0.25% Taker fee and 0.09€ for a SEPA withdrawl. Deposit is free. That means if i trade 0.1 BTC i only pay 0.24€ instead of 0.60€. Why should i trade at bitsquare? If i not just want to wash money 🙂</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-2" id="dsq-comment-112">
-        <div id="dsq-comment-header-112" class="dsq-comment-header">
-            <cite id="dsq-cite-112">
-                <a id="dsq-author-user-112" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-112" class="dsq-comment-body">
-            <div id="dsq-comment-message-112" class="dsq-comment-message"><p>The max. trade amount for SEPA is 0.75 BTC and for altcoins 2 BTC.<br />
-With 0.75 BTC the 0.001 BTC is 0.13%. When doing a 2 BTC trade the 0.001 BTC is 0.05%.<br />
-If you are the offerer the fees are the half, so 0.066% when using a SEPA tx and 0.025% when trading altcoins.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment odd alt thread-even depth-1" id="dsq-comment-119">
-        <div id="dsq-comment-header-119" class="dsq-comment-header">
-            <cite id="dsq-cite-119">
-                <span id="dsq-author-user-119">Re</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-119" class="dsq-comment-body">
-            <div id="dsq-comment-message-119" class="dsq-comment-message"><p>I just bought 1 btc in €. As I understand I pay in euro&#8217;s to you (Manfred). So now it depends on how fast the bank transfer is and how fast you will respond to transfer in BTC. Not as easy and trustless as I hoped. But  interesting to experiment.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-2" id="dsq-comment-120">
-        <div id="dsq-comment-header-120" class="dsq-comment-header">
-            <cite id="dsq-cite-120">
-                <a id="dsq-author-user-120" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-120" class="dsq-comment-body">
-            <div id="dsq-comment-message-120" class="dsq-comment-message"><p>No you pay the EUR to the BTC seller (who ever that is, maybe you got a trade with me as seller and got confused by that&#8230;). You get the bank details for transferring the EUR displayed in the app after 1 bockchain confirmation. When the BTC seller has received the EUR on his bank account he will confirm the receipt and then the BTC will get paid our from the Multisig. Bisq is never holding the BTC or the Fiat. The BTC are locked up on a 2of3 MultiSig and the Fiat is transferred direct to the BTC seller.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-125">
-        <div id="dsq-comment-header-125" class="dsq-comment-header">
-            <cite id="dsq-cite-125">
-                <span id="dsq-author-user-125">Coin Trader</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-125" class="dsq-comment-body">
-            <div id="dsq-comment-message-125" class="dsq-comment-message"><p>My first trade with banks when great. Now I&#8217;m trying to do another one with cash/ATM. I have all the bank info for the seller&#8217;s bank account, but I can&#8217;t find an ATM that will let me send funds to someone else&#8217;s account. I&#8217;ve been to two different ATM&#8217;s. One was even the ATM at the seller&#8217;s bank. What am I doing wrong?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-2" id="dsq-comment-126">
-        <div id="dsq-comment-header-126" class="dsq-comment-header">
-            <cite id="dsq-cite-126">
-                <a id="dsq-author-user-126" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-126" class="dsq-comment-body">
-            <div id="dsq-comment-message-126" class="dsq-comment-message"><p>Maybe the bank info of the peer was wrong. If you cannot send the money you can open a dispute with cmd+o or ctrl+o. The arbitrator will then check the case. You will get the btc refunded once the problem is found.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-3" id="dsq-comment-127">
-        <div id="dsq-comment-header-127" class="dsq-comment-header">
-            <cite id="dsq-cite-127">
-                <span id="dsq-author-user-127">Coin Trader</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-127" class="dsq-comment-body">
-            <div id="dsq-comment-message-127" class="dsq-comment-message"><p>I&#8217;m not even getting that far. I don&#8217;t see any option on the ATM to send cash to a bank account that is not attached to the card I put into the ATM.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment even depth-4" id="dsq-comment-128">
-        <div id="dsq-comment-header-128" class="dsq-comment-header">
-            <cite id="dsq-cite-128">
-                <a id="dsq-author-user-128" href="/" target="_blank" rel="nofollow">Manfred Karrer</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-128" class="dsq-comment-body">
-            <div id="dsq-comment-message-128" class="dsq-comment-message"><p>I am not familiar with ATM withdrawals and it is different in all countries. You can open the dispute if you cannot manage to do the withdrawal. Doing it at the bank is another option.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-5" id="dsq-comment-129">
-        <div id="dsq-comment-header-129" class="dsq-comment-header">
-            <cite id="dsq-cite-129">
-                <span id="dsq-author-user-129">Coin Trader</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-129" class="dsq-comment-body">
-            <div id="dsq-comment-message-129" class="dsq-comment-message"><p>I&#8217;m not familiar with ATMs either. I hardly ever use them. But I&#8217;m not trying to make a withdrawal from the ATM. I am buying BTC from someone and the transaction is labeled &#8220;cash/ATM&#8221; so I&#8217;m trying to put cash into the ATM and deposit it into HIS bank account. Both ATMs I went to allow you to deposit cash, but ONLY to an account that&#8217;s tied to the card you put into the ATM. I see no option to send the funds to a different person or account.</p>
-<p>Do I need to find a different type of ATM, or it just can&#8217;t be done in the USA? Or do I have to go to his bank and deposit the cash with a teller?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-145">
-        <div id="dsq-comment-header-145" class="dsq-comment-header">
-            <cite id="dsq-cite-145">
-                <span id="dsq-author-user-145">Richard A Ortiz</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-145" class="dsq-comment-body">
-            <div id="dsq-comment-message-145" class="dsq-comment-message"><p>Will the program ever be ported to mobile devices? I can be more attentive to my mobile than i can to my desk/laptop!<br />
-Or maybe a widget to contact me on my mobile when relevant trade information occurs?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-146">
-        <div id="dsq-comment-header-146" class="dsq-comment-header">
-            <cite id="dsq-cite-146">
-                <span id="dsq-author-user-146">Marc Stenzel</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-146" class="dsq-comment-body">
-            <div id="dsq-comment-message-146" class="dsq-comment-message"><p>Not native and not within a reasonable time frame. There&#8217;s a workaround using a VPS. It&#8217;s experimental and feedback on this is very welcome. See how it works here: <a href="https://github.com/bitsquare/bitsquare/issues/511" rel="nofollow">https://github.com/bitsquare/bitsquare/issues/511</a></p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-147">
-        <div id="dsq-comment-header-147" class="dsq-comment-header">
-            <cite id="dsq-cite-147">
-                <span id="dsq-author-user-147">Ola Nath</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-147" class="dsq-comment-body">
-            <div id="dsq-comment-message-147" class="dsq-comment-message"><p>Can i trade bitcoins for usd paypal?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-148">
-        <div id="dsq-comment-header-148" class="dsq-comment-header">
-            <cite id="dsq-cite-148">
-                <span id="dsq-author-user-148">Marc Stenzel</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-148" class="dsq-comment-body">
-            <div id="dsq-comment-message-148" class="dsq-comment-message"><p>No, the chargeback risk is too high.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-150">
-        <div id="dsq-comment-header-150" class="dsq-comment-header">
-            <cite id="dsq-cite-150">
-                <span id="dsq-author-user-150">Spoonfed nonsense</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-150" class="dsq-comment-body">
-            <div id="dsq-comment-message-150" class="dsq-comment-message"><p>Love the software. Thanks.</p>
-<p>Question, is there a duration to how long an offer will sit in my Open Offers?<br />
-I placed a few orders over the last few weeks, but only one was taken, and now I have 3 open orders way below market price. (820-850)</p>
-<p>Are my deposits forever locked until my offers are accepted?</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-151">
-        <div id="dsq-comment-header-151" class="dsq-comment-header">
-            <cite id="dsq-cite-151">
-                <span id="dsq-author-user-151">Marc Stenzel</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-151" class="dsq-comment-body">
-            <div id="dsq-comment-message-151" class="dsq-comment-message"><p>You can (and I would) simply remove the offer. There should be a remove offer button.</p>
-<p>You&#8217;ll lose your offer fee (0.0005btc) but the rest of your coins will be moved back to your wallet.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-154">
-        <div id="dsq-comment-header-154" class="dsq-comment-header">
-            <cite id="dsq-cite-154">
-                <span id="dsq-author-user-154">antiwarnut</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-154" class="dsq-comment-body">
-            <div id="dsq-comment-message-154" class="dsq-comment-message"><p>Hello, I deposited A security deposit of 0.01 and tried to make a trade, which I understood from the FAQ above, but when trying to set up an offer to buy bitcoins I get a notice saying I need to deposit 0.03BTC&#8230; Just wanted to buy 0.10BTC&#8230;</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-157">
-        <div id="dsq-comment-header-157" class="dsq-comment-header">
-            <cite id="dsq-cite-157">
-                <span id="dsq-author-user-157">Marc Stenzel</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-157" class="dsq-comment-body">
-            <div id="dsq-comment-message-157" class="dsq-comment-message"><p>I adjusted the FAQ. Thanks. See my reply above.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-155">
-        <div id="dsq-comment-header-155" class="dsq-comment-header">
-            <cite id="dsq-cite-155">
-                <span id="dsq-author-user-155">antiwarnut</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-155" class="dsq-comment-body">
-            <div id="dsq-comment-message-155" class="dsq-comment-message"><p>Hi, I have a business to run and it is getting very complicated and expensive for me to buy 0.10 BTC at around market value (EUR) today on your site, hummmm&#8230;. Would love a quick solution. &#8220;A security deposit of 0.01 BTC is required by all traders to participate in a transaction, but the deposits are fully refunded to both parties after a successful trade.&#8221; &#8211;Added more than the required amount 0.0129 BTC then the security amount suddenly jumped to 0.03 BTC when trying to place a trade, I am confused and apparently wasting time and money… If I don&#8217;t get a quick solution I would like to get my 0.0130 BTC back, which also includes the fee for sending it here, thanks in advance.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-156">
-        <div id="dsq-comment-header-156" class="dsq-comment-header">
-            <cite id="dsq-cite-156">
-                <span id="dsq-author-user-156">Marc Stenzel</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-156" class="dsq-comment-body">
-            <div id="dsq-comment-message-156" class="dsq-comment-message"><p>&gt;the security amount suddenly jumped to 0.03 BTC</p>
-<p>It seems you updated the software in the process. There was a popup that told you about the incresed security deposit, it not just suddenly jumped.<br />
-There are no restrictions in the Bisq wallet. You can simply send the money out.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-odd thread-alt depth-1" id="dsq-comment-158">
-        <div id="dsq-comment-header-158" class="dsq-comment-header">
-            <cite id="dsq-cite-158">
-                <span id="dsq-author-user-158">iLLBeRespawned</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-158" class="dsq-comment-body">
-            <div id="dsq-comment-message-158" class="dsq-comment-message"><p>ok here we go. I&#8217;m new to bitcoin but i get how important it will be for all of us.<br />
-bitsquare is a fantastic idea you guys are doing soemthing great.<br />
-i want in. i&#8217;ll put down some money to get started.</p>
-<p>now here is my question:<br />
-i want to buy my first bitcoins (since mining is just not for me with antminers)</p>
-<p>so i try to set up the buying process and I&#8217;m asked to put down a small amount of bitcoin.</p>
-<p>This is were I&#8217;m lost. how would i have the bitcoins to do that.<br />
-I want to buy my first bitcoins on bitsquare but i need bitcoin to do so.</p>
-<p>I&#8217;m in a deadlock here.<br />
-how do i get my first bitcoin with bitsquare if i don&#8217;t have any.</p>
-</div>
-        </div>
-
-    <ul class="children">
-    <li class="comment odd alt depth-2" id="dsq-comment-159">
-        <div id="dsq-comment-header-159" class="dsq-comment-header">
-            <cite id="dsq-cite-159">
-                <span id="dsq-author-user-159">Marc Stenzel</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-159" class="dsq-comment-body">
-            <div id="dsq-comment-message-159" class="dsq-comment-message"><p>Hi, great to have you around. </p>
-<p>You can&#8217;t get your very first bitcoins with Bisq. You would need to pay (a low amount of) fees plus you need a security deposit (which you get back after a trade).</p>
-<p>For the first coins I&#8217;d recommend to ask a friend or family. That would be the easiest approach.<br />
-A second idea would be to buy a small amount from localbitcoins.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-</ul><!-- .children -->
-</li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-164">
-        <div id="dsq-comment-header-164" class="dsq-comment-header">
-            <cite id="dsq-cite-164">
-                <a id="dsq-author-user-164" href="http://BitcoinX.gr/" target="_blank" rel="nofollow">Tony</a>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-164" class="dsq-comment-body">
-            <div id="dsq-comment-message-164" class="dsq-comment-message"><p>Is there a way to export the private key(s) of the BTC address(es) generated by Bisq?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-167">
-        <div id="dsq-comment-header-167" class="dsq-comment-header">
-            <cite id="dsq-cite-167">
-                <span id="dsq-author-user-167">Will</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-167" class="dsq-comment-body">
-            <div id="dsq-comment-message-167" class="dsq-comment-message"><p>Great work!!<br />
-wondering what sort of time delays are involved in a TOR network.<br />
-Does any latency attract traders taking advantage of time delays?</p>
-<p>Is there some information on ideal system setup. Id think that since this pc was going to have private keys on it..Wed want to make sure we had done all we could to make sure it was secure. Sugetseted setup.. pc running now other apps. linux possibly. behind a nat/firewall , in a process, only use gui for setup and monitor activity of trades with seperate client with no access to private keys??no other hardware attached to minimise risk of bots/malware on pc/// that kinda stuff???</p>
-<p>Lastly, will Bots or at least some form of automation (stop loss ect??) be in use at some stage.. Cant imagine Id want to sit at computer all day waiting for a time to trade  🙂 </p>
-<p>Again.. So appreciative you people are doing this..<br />
-Wish I had skills and time to contribute..<br />
-🙂</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-169">
-        <div id="dsq-comment-header-169" class="dsq-comment-header">
-            <cite id="dsq-cite-169">
-                <span id="dsq-author-user-169">NachoG</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-169" class="dsq-comment-body">
-            <div id="dsq-comment-message-169" class="dsq-comment-message"><p>What happens to my deposit if nobody takes my offer to buy? How long does an order stay in the system before it expires?<br />
-Good until cancel? but if cancel I lose my deposit.<br />
-Day order? does it expire at the end of the day if there are no takers?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment odd alt thread-odd thread-alt depth-1" id="dsq-comment-170">
-        <div id="dsq-comment-header-170" class="dsq-comment-header">
-            <cite id="dsq-cite-170">
-                <span id="dsq-author-user-170">NachoG</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-170" class="dsq-comment-body">
-            <div id="dsq-comment-message-170" class="dsq-comment-message"><p>When buying why do I need to have trading account with the same payment method as the seller if I can just deposit cash or make a wire transfer to the sellers account? For example: If I have the IBAM of the seller I can send to it via a wire transfer from anywhere in Europe. Its obvious that we need to setup a trading account to receive FIAT, but to send FIAT its not clear why its required, its just adding friction and decreasing liquidity.</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-    <li class="comment even thread-even depth-1" id="dsq-comment-171">
-        <div id="dsq-comment-header-171" class="dsq-comment-header">
-            <cite id="dsq-cite-171">
-                <span id="dsq-author-user-171">lucianofr</span>
-            </cite>
-        </div>
-        <div id="dsq-comment-body-171" class="dsq-comment-body">
-            <div id="dsq-comment-message-171" class="dsq-comment-message"><p>What if I cancel an order? Will I get my fee back or it is lost?</p>
-</div>
-        </div>
-
-    </li><!-- #comment-## -->
-            </ul>
-
-
-        </div>
-
-    </div>
-
-                </div>
-                    
-            </div>
-            
-        </div>
-    
-        
-    
-    <div class="clear"></div>
-    
-</div>
-
-            
-            <footer class="center copy">
-                        
-<div style="display: none;">
-                <p> <a href="http://thriveweb.com.au/the-lab/pinzolo-a-free-responsive-wordpress-theme/">Pinzolo Theme</a> - Made on the Gold Coast by THRIVE </p>
-                <p> Powered by <a href="http://wordpress.org/" title="WordPress">WordPress</a></p>
-                    
-                <p id="thrive"> <img src="/wp-content/themes/pinzolo/images/thrive.png" title="thrive" width="40" height="40" /></p>    
-</div>                  
-
-<nav class="nav-footer">
-                        <ul id="menuUIfooter" class="menu"><li class="tnskip" >&nbsp;</li><li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="/press/">Press</a></li>
-<li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="/roadmap/">Roadmap</a></li>
-<li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/contribute/">Contribute</a></li>
-<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="/dao/">DAO</a></li>
-<li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="/contact/">Contact</a></li>
-<li class="tnskip">&nbsp;</li><li class="tnskip filler"></li></ul>                  
-</nav>
-
-                <br />
-                <p> &copy; 2017 Bisq</p>
-
-            </footer>
-        
-        </div>
-    
-    </div>
-    
-    <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="right:30px;top:750px;"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fbitsquare.io%2Ffaq%2F&amp;linkname=FAQ" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fbitsquare.io%2Ffaq%2F&amp;linkname=FAQ" title="Reddit" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=https%3A%2F%2Fbitsquare.io%2Ffaq%2F&amp;linkname=FAQ" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_delicious" href="https://www.addtoany.com/add_to/delicious?linkurl=https%3A%2F%2Fbitsquare.io%2Ffaq%2F&amp;linkname=FAQ" title="Delicious" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_16_16.png" alt="Share"></a></div><div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_default_style" style="bottom:0px;right:0px;"><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fbitsquare.io%2Ffaq%2F&amp;linkname=FAQ" title="Twitter" rel="nofollow" target="_blank"></a><a class="a2a_button_reddit" href="https://www.addtoany.com/add_to/reddit?linkurl=https%3A%2F%2Fbitsquare.io%2Ffaq%2F&amp;linkname=FAQ" title="Reddit" rel="nofollow" target="_blank"></a><a class="a2a_button_google_plus" href="https://www.addtoany.com/add_to/google_plus?linkurl=https%3A%2F%2Fbitsquare.io%2Ffaq%2F&amp;linkname=FAQ" title="Google+" rel="nofollow" target="_blank"></a><a class="a2a_button_delicious" href="https://www.addtoany.com/add_to/delicious?linkurl=https%3A%2F%2Fbitsquare.io%2Ffaq%2F&amp;linkname=FAQ" title="Delicious" rel="nofollow" target="_blank"></a><a class="a2a_dd addtoany_share_save" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_16_16.png" alt="Share"></a></div><script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var embedVars = {"disqusConfig":{"platform":"wordpress@4.7.5","language":""},"disqusIdentifier":"292 https:\/\/bitsquare.io\/?page_id=292","disqusShortname":"bitsquaresite","disqusTitle":"FAQ","disqusUrl":"https:\/\/bitsquare.io\/faq\/","options":{"manualSync":false},"postId":"292"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='/wp-content/plugins/disqus-comment-system/media/js/disqus.js?ver=4.7.5'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var countVars = {"disqusShortname":"bitsquaresite"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.7.5'></script>
-    
-</body>
-</html>
+<p>Please, add your question in the comments below! Or
+  <a href="/contact/">Contact Us</a> and ask your questions directly.</p>

@@ -1,3 +1,3 @@
 url: "https://bisq.beams.io"
 markdown: kramdown
-permalink: pretty
+permalink: /blog/:title/

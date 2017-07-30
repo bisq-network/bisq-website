@@ -1,15 +1,15 @@
 /*
 Theme Name: Pinzolo
-Author: Dean Oakley 
+Author: Dean Oakley
 Author URI: http://deanoakley.com/
 Theme URI: http://thriveweb.com.au/the-lab/pinzolo-a-free-responsive-wordpress-theme/
-Description: Minimal responsive WordPress theme. Easy to use theme customisation options in the new Theme Customizer. Responsive layout for mobile and widescreen browsing. Fixed header menu. Ajax loading for blog posts. Designed by Dean Oakley @ Thrive on the Gold Coast, Australia. 
+Description: Minimal responsive WordPress theme. Easy to use theme customisation options in the new Theme Customizer. Responsive layout for mobile and widescreen browsing. Fixed header menu. Ajax loading for blog posts. Designed by Dean Oakley @ Thrive on the Gold Coast, Australia.
 Version: 1.2.7
 Tags:  responsive-layout, custom-background, custom-header, featured-images, fluid-layout, one-column, threaded-comments, white, light, right-sidebar, sticky-post
 
 Copyright (C) 2013 Dean Oakley - Thrive
 License: GNU General Public License
-License URI: license.txt 
+License URI: license.txt
 
 Pinzolo WordPress Theme, Copyright (C) 2012 Dean Oakley
 
@@ -30,23 +30,23 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 @font-face {
     font-family: 'FoundryBold';
-    src: url('/wp-content/themes/pinzolo/foundry-sterling-bold.ttf');
+    src: url('/fonts/foundry-sterling-bold.ttf');
 }
 @font-face {
     font-family: 'FoundryBook';
-    src: url('/wp-content/themes/pinzolo/foundry-sterling-book.ttf');
+    src: url('/fonts/foundry-sterling-book.ttf');
 }
 @font-face {
     font-family: 'FoundryDemi';
-    src: url('/wp-content/themes/pinzolo/foundry-sterling-demi.ttf');
+    src: url('/fonts/foundry-sterling-demi.ttf');
 }
 @font-face {
     font-family: 'FoundryMedium';
-    src: url('/wp-content/themes/pinzolo/foundry-sterling-medium.ttf');
+    src: url('/fonts/foundry-sterling-medium.ttf');
 }
 
 
- 
+
 /*---------------------------- normalize ----------------------------*/
 
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
@@ -113,11 +113,11 @@ td { vertical-align: top; }
 
 h1, h2, h3, h4, h5, h6{
 
-    margin-bottom: 20px; 
-    margin-top: 40px; 
-    
+    margin-bottom: 20px;
+    margin-top: 40px;
+
     color: black;
-    font-weight: 300;   
+    font-weight: 300;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -132,8 +132,8 @@ h6                                  { font-size: 13px; line-height: 18px;}
 h1:first-child,
 h2:first-child,
 h3:first-child,
-h4:first-child{ 
-    margin-top: 0; 
+h4:first-child{
+    margin-top: 0;
 }
 
 p{
@@ -157,8 +157,8 @@ body{
 
 /*---------------------------- Basic ----------------------------*/
 
-body {  
- 
+body {
+
     font-size: 14px;
     line-height: 22px;
     color: #666; /* gray #808080*/
@@ -167,12 +167,12 @@ body {
 
 a{
     color: gray;
-    
+
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
-    
+
     cursor: pointer;
     text-decoration: none;
     outline: none;
@@ -190,8 +190,8 @@ blockquote{
     color: gray;
     margin-left: 0;
     padding-left: 40px;
-    border-left: dotted 2px gray;  
-    
+    border-left: dotted 2px gray;
+
 }
 
 
@@ -200,9 +200,9 @@ blockquote{
 .clear{
     clear:both;
 }
- 
+
 .center{
-    max-width:1400px; 
+    max-width:1400px;
     margin: 0 auto;
     text-align:left;
     position:relative;
@@ -286,7 +286,7 @@ body{
 #wrapper_bg{
     background-color: white;
     position: relative;
-                
+
     -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.3), 0 3px 6px 0px rgba(0,0,0, 0.15);
     -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.3), 0 3px 6px 0px rgba(0,0,0, 0.15);
     box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.3), 0 3px 6px 0px rgba(0,0,0, 0.15);
@@ -301,14 +301,14 @@ body{
 header p.tagline{
     color: #7e7f82;
     float: left;
-    
+
     line-height: 30px;
     margin: 0;
     padding-left:10px;
-    
+
     width: 750px;
     background-color: white;
-    
+
     font-size: 12px;
 }
 
@@ -316,7 +316,7 @@ header p.tagline{
     width: 100%;
     height: 100%;
     text-align: center;
-    
+
     /*margin-top: 65px;*/
     margin-top: 10px;
 }
@@ -327,12 +327,12 @@ header p.tagline{
     line-height: 0.8em;
 
     margin-bottom: 0;
-    
+
     -webkit-transition: none;
     -moz-transition: none;
     -o-transition: none;
     transition: none;
-    
+
     display: block;
     font-weight: 900;
 }
@@ -438,11 +438,11 @@ header p.tagline{
 }
 
 .sticky{
-    
+
 }
 
 .bypostauthor{
-    
+
 }
 
 .wp-caption-text{
@@ -498,18 +498,18 @@ header p.tagline{
 
 
 @media screen and (max-width: 600px) {
-    
+
     nav{
         width: 100%;
     }
-    
+
     #navwrap2{
 /*      padding-left: 5px;
         padding-right: 5px; */
 
     }
-    
-    .js .tinynav { 
+
+    .js .tinynav {
         display: block;
         position: relative;
         top: 5px;
@@ -519,67 +519,67 @@ header p.tagline{
 
     }
     .js #menuUl { display: none }
-    
+
     #blog_head{
         padding-right: 5px !important;
     }
-    
+
     #wrapper_border{
         padding: 5px;
     }
-    
+
     #searchbox {
         margin-right: 5px !important;
     }
-    
+
     .gcol{
         max-width: 100%;
     }
-    
+
     div.photospace ul.thumbs li {
         margin-right: 5px !important;
         margin-bottom: 5px !important;
     }
- 
+
 }
 
 @media screen and (max-width: 780px) {
-        
+
     nav {
         /*margin-top: -80px;*/
     }
-    
+
     .lcol,
     .rcol{
         width: 100%;
     }
-    
+
     .dets_wrap,
-    .content_wrap{          
+    .content_wrap{
         min-width: 100%;
     }
-    
+
     #main{
         padding-left: 0;
         padding-right: 0;
     }
-    
+
     .dets{
         border-right: none !important;
     }
-    
+
     .content{
         padding: 10px;
     }
-    
+
     h1, h2, h3, h4{ margin-bottom: 5px; }
-    
+
     h1{ font-size: 24px; line-height: 30px; }
-    
+
     h2{ font-size: 20px; line-height: 24px; }
-    
+
     h3{ font-size: 16px; line-height: 20px; }
-    
+
     h3{ font-size: 15px; line-height: 18px }
 }
 
@@ -635,9 +635,9 @@ html body #wpadminbar {
 /*  max-width:1400px; */
     height: 41px;
     background-color: white;
-    
+
     margin: auto;
-                    
+
     -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.3), 0 3px 6px 0px rgba(0,0,0, 0.15);
     -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.3), 0 3px 6px 0px rgba(0,0,0, 0.15);
     box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.3), 0 3px 6px 0px rgba(0,0,0, 0.15);
@@ -658,13 +658,13 @@ nav .filler{
 
 nav ul{
     line-height:40px;
-    
-    
+
+
     z-index:400;
-    
+
     margin:0;
     padding:0;
-    
+
     text-align: justify;
 }
 
@@ -672,7 +672,7 @@ nav ul li{
     display: inline;
     list-style:none;
     position:relative;
-    
+
     margin:0;
     padding:0;
 }
@@ -686,7 +686,7 @@ nav ul li{
 nav ul li a{
     color: black;
     /*color: #FF7F00;*/
-    
+
     text-decoration:none;
 
     font-size:12px;
@@ -694,9 +694,9 @@ nav ul li a{
 
     line-height:40px;
     height: 40px;
-    
+
     display: inline-block;
-    
+
     text-transform:uppercase;
     position: relative;
 }
@@ -732,24 +732,24 @@ single-gallery {
 nav ul li ul{
     position:absolute;
     top:17px;
-    
+
     padding-top: 15px !important;
     padding-bottom: 15px !important;
-    
+
     margin:0;
     padding:0;
-    
-    float:left;  
-    
+
+    float:left;
+
     width:170px;
-    
+
     z-index:100;
     height:auto;
     visibility:hidden;
     left:-15px;
 
     background-color: white;
-    
+
     -webkit-box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.3), 0 3px 6px 0px rgba(0,0,0, 0.15);
     -moz-box-shadow: 0 1px 3px 0px rgba(0,0,0, 0.3), 0 3px 6px 0px rgba(0,0,0, 0.15);
     box-shadow: 0 3px 3px 0px rgba(0,0,0, 0.3), 0 5px 6px 0px rgba(0,0,0, 0.15);
@@ -765,7 +765,7 @@ nav ul ul ul{
 
 nav ul li ul li{
     margin:0px;
-    padding:0px;    
+    padding:0px;
     display:block;
 }
 
@@ -775,11 +775,11 @@ nav ul li ul li span{
 
 nav ul li ul li a,
 nav ul li.current_page_item ul li a{
-    
+
     display:inline-block;
     line-height:25px;
     height: auto;
-    
+
     padding-left: 23px;
 
     width:120px;
@@ -811,17 +811,17 @@ nav ul li ul li.current_page_item a:hover{
 .sf-sub-indicator{
     width: 17px;
     height: 13px;
-    
-    background-image: url(/wp-content/themes/pinzolo/images/drop.svg);
+
+    background-image: url(/images/drop.svg);
     background-repeat: no-repeat;
-    
+
     position: absolute;
     right: -19px;
     top: 13px;
 }
 
 nav ul ul .sf-sub-indicator{
-    background-image: url(/wp-content/themes/pinzolo/images/arrow-right.svg);
+    background-image: url(/images/arrow-right.svg);
     top: 2px;
     display: block;
     width: 17px;
@@ -836,7 +836,7 @@ nav ul ul .sf-sub-indicator{
     margin-bottom:20px;
     padding: 5px;
     background:#FFF;
-    background-image: url(/wp-content/themes/pinzolo/images/diag.png);
+    background-image: url(/images/diag.png);
     padding: 10px;
 }
 .description {
@@ -877,7 +877,7 @@ nav ul ul .sf-sub-indicator{
 }
 
 .res_item h2{
-    border-right: none !important;  
+    border-right: none !important;
 }
 
 #s_info{
@@ -903,10 +903,10 @@ nav ul ul .sf-sub-indicator{
 .portfolio_item{
 
     position:relative;
-    
+
     width:250px;
     height: 250px;
-    
+
     display: inline-block;
 
     margin: 5px;
@@ -938,12 +938,12 @@ nav ul ul .sf-sub-indicator{
     position:absolute;
     left:0;
     top:0;
-    
+
     opacity:0;
-    
+
     width:250px;
     height: 250px;
-    
+
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
@@ -956,9 +956,9 @@ nav ul ul .sf-sub-indicator{
 
 .portfolio_item p{
     font-size:22px;
-    
+
     color: gray;
-    
+
     line-height: 235px;
     text-align: center;
 }
@@ -971,7 +971,7 @@ nav ul ul .sf-sub-indicator{
     margin-bottom: 20px !important;
     min-height: 200px; /* space for loader *
 }
- 
+
 .photospace,
 .photospace .thumnail_col,
 .photospace .gal_content,
@@ -982,19 +982,19 @@ nav ul ul .sf-sub-indicator{
     width: 100% !important;
     height: auto !important;
 }
- 
+
 .photospace .slideshow span{
     display: block !important;
 }
- 
+
 .photospace .gal_content{
     float: none !important;
 }
- 
+
 .photospace .slideshow span{
-    position: relative !important; /* Keep the gallery height - Doesn't work with synced transistions 
+    position: relative !important; /* Keep the gallery height - Doesn't work with synced transistions
 }
- 
+
 .photospace .loader{
     width: 100px !important;
     height: 100px !important;
@@ -1002,37 +1002,37 @@ nav ul ul .sf-sub-indicator{
     left: 50% !important;
     margin-left: -50px;
 }
- 
+
 .photospace .thumbs_wrap2{
     min-height:45px; /* space for thumbnails *
     overflow: hidden;
 }
- 
+
 .photospace .thumbs{
      min-height:40px;
 }
- 
+
 .photospace .thumbs_wrap{
     float: left;
     left: 50%;
     position: relative;
 }
- 
+
 .photospace .pageLink.next{
     margin-right:0;
 }
- 
+
 .photospace .thumnail_col {
     float: left;
     left: -50%;
     width:auto  !important;
     position: relative;
 }
- 
+
 .photospace ul.thumbs {
     float:left;
 }
- 
+
 .photospace span.image-caption{
     position: inherit !important;
 }
@@ -1041,14 +1041,14 @@ nav ul ul .sf-sub-indicator{
 
 /*---------------------------- blog header ----------------------------*/
 
-#blog_head{ 
+#blog_head{
     text-align: right;
     padding-bottom: 15px;
     padding-right: 40px;
 }
 
 .sres{
-    font-style: italic; 
+    font-style: italic;
 }
 
 #searchbox{
@@ -1062,18 +1062,18 @@ nav ul ul .sf-sub-indicator{
 }
 
 #Searchform{
-    
+
     display: inline-block;
     position: relative;
-    
+
     width:120px;
-    
+
     padding-left:5px;
     padding-right: 25px;
     padding-top: 3px;
     padding-bottom: 3px;
-    
-    background-image:url(/wp-content/themes/pinzolo/images/search.svg);
+
+    background-image:url(/images/search.svg);
     background-position:right 0px;
     background-repeat:no-repeat;
 }
@@ -1119,10 +1119,10 @@ article h2 a:hover{
 
 .date_box{
     background-color: #E9E9E9;
-    
+
     padding:10px;
     height:18px;
-    
+
     margin-bottom:20px;
     margin-top: 10px;
 }
@@ -1186,7 +1186,7 @@ article h2 a:hover{
 }
 
 .dets ul img:hover{
-    
+
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -1212,7 +1212,7 @@ article h2 a:hover{
 
 .dets li a:hover{
     text-decoration: underline;
-} 
+}
 
 .dets li.perm a:hover{
     background: none;
@@ -1234,18 +1234,18 @@ article .content_wrap{
     width: 70%;
     float: right;
 }
-    
+
 article .content{
-    padding-top: 0 !important; 
+    padding-top: 0 !important;
 }
 
 
 /*---------------------------- paging ----------------------------*/
 
 .navigation,
-.p_navigation {  
-    display: block;  
-    text-align: left;   
+.p_navigation {
+    display: block;
+    text-align: left;
     padding-top:20px;
     padding-bottom: 20px;
     margin-top:10px;
@@ -1260,10 +1260,10 @@ article .content{
 }
 
 .navigation a,
-.p_navigation a{  
-    text-align:center;  
-    padding:5px 20px;  
-    margin:0 2px 0 2px;  
+.p_navigation a{
+    text-align:center;
+    padding:5px 20px;
+    margin:0 2px 0 2px;
     border:1px solid #ECECEC;
     color:#000;
     font-size:14px;
@@ -1278,9 +1278,9 @@ article .content{
 }
 
 .navigation a:hover,
-.p_navigation a:hover{  
-    background:#fff;  
-}  
+.p_navigation a:hover{
+    background:#fff;
+}
 
 .nav-previous{
     float: left;
@@ -1336,7 +1336,7 @@ div#comments{
 #comments .comment,
 #comments .trackback {
     padding-bottom:5px;
-    padding-top: 10px; 
+    padding-top: 10px;
     border-top:solid 1px #ECECEC;
     list-style:none;
 }
@@ -1385,11 +1385,11 @@ textarea#comment{
 
 #comments .children{
     padding-left: 0;
-    
+
 }
 
 #comments .children li{
-    margin-left:60px;   
+    margin-left:60px;
 }
 
 p.author, p.time{
@@ -1408,7 +1408,7 @@ p.form-allowed-tags{
 #comments dt{
     color: black;
     padding-bottom: 5px;
-    padding-top: 5px;   
+    padding-top: 5px;
     clear: left;
     float: left;
     text-align: right;
@@ -1423,7 +1423,7 @@ p.form-allowed-tags{
     padding-top: 5px;
     padding-right: 5px;
     margin-left: 0;
-    
+
     clear: right;
     width: 49%;
     padding-left: 50%;
@@ -1440,7 +1440,7 @@ p.form-allowed-tags{
    padding-top:5px;
    padding-bottom:5px;
    border-radius:5px;
-   text-shadow: none;  
+   text-shadow: none;
    color:black;
    font-size: 12px;
    box-shadow: 2px 2px 1px #ECECEC;
@@ -1453,7 +1453,7 @@ p.form-allowed-tags{
     padding-top:5px;
     padding-bottom:5px;
     border-radius:5px;
-    text-shadow: none;  
+    text-shadow: none;
     color:black;
    font-size: 12px;
    box-shadow: 2px 2px 1px #ECECEC;
@@ -1467,7 +1467,7 @@ p.form-allowed-tags{
     padding-top:5px;
     padding-bottom:5px;
     border-radius:5px;
-    text-shadow: none;  
+    text-shadow: none;
     color:black;
    font-size: 12px;
    box-shadow: 2px 2px 1px #ECECEC;
@@ -1480,7 +1480,7 @@ p.form-allowed-tags{
     padding-top:5px;
     padding-bottom:5px;
     border-radius:5px;
-    text-shadow: none;  
+    text-shadow: none;
     width:180px;
     color:black;
    font-size: 12px;
@@ -1521,7 +1521,7 @@ footer p a:hover{
 
 /*---------------------------- Load posts  ----------------------------*/
 #pbd-alp-load-posts{
-    text-align: center; 
+    text-align: center;
 }
 
 #pbd-alp-load-posts a{
@@ -1530,7 +1530,7 @@ footer p a:hover{
     text-align: center;
     text-decoration: none;
     width: 80%;
-    
+
     display: inline-block;
 }
 
@@ -1579,14 +1579,14 @@ input[type="button"] {
   -moz-border-radius: 11px;
   -webkit-border-radius: 11px;
   border-radius: 11px;
-  background: #ddd url(/wp-content/themes/pinzolo/images/button.png) repeat-x;
+  background: #ddd url(/images/button.png) repeat-x;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
   background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
   border: 1px solid;
   border-color: #ddd #bbb #999;
   cursor: pointer;
   color: #333;
- 
+
   outline: 0;
   overflow: visible;
   padding: 8px 20px 7px !important;
@@ -1713,16 +1713,16 @@ input[type="checkbox"]:active {
 
 .is_webkit select {
   /* Tweaks for Safari + Chrome. */
-  background-image: url(/wp-content/themes/pinzolo/images/drop.svg);
+  background-image: url(/images/drop.svg);
   background-repeat: no-repeat;
   background-position: right 5px;
   padding-right: 40px;
 }
 
 .is_webkit nav select {
-  background-position: right 8px;  
+  background-position: right 8px;
 }
- 
+
 textarea,
 select[multiple] {
   height: auto;
@@ -1797,7 +1797,7 @@ padding:12px;
 
 #page { margin-top: 0; }
 
-/* blue: 0f87c3 orange: #FF7F00 
+/* blue: 0f87c3 orange: #FF7F00
 
 with ogange:
 #page .content h1, #page .content h2, #page .content h3, #page a, #page strong { color: #FF7F00; }

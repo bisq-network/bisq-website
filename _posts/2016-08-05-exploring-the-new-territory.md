@@ -2,11 +2,12 @@
 layout: post
 title: Exploring the new territory
 author: Manfred Karrer
+redirect_from: /blog/explorering-the-new-territory
 banner: null
 ---
 With the recent [Bitfinex heist][1] models for decentralized exchanges have received a bit more attention as usual.
 
-This is a repeating pattern happening every few months after a major incident. And it goes back to _business as usual _after people are entertained by the next soap opera.
+This is a repeating pattern happening every few months after a major incident. And it goes back to _business as usual_ after people are entertained by the next soap opera.
 So I do not expect that the majority of cryptoland citizens will radically change their behavior. And that has several understandable reasons.
 But beside that, **there is lack of awareness for critical problems and lack of visions for possible solutions**.
 
@@ -29,7 +30,7 @@ A P2P exchange has differences and will not perfectly satisfy people who are use
 
 But let's first define the term _exchange_ how we understand it, because many people use it with a different meaning:
 
-* The main feature is to _exchange one currency to another. _
+* The main feature is to _exchange one currency to another._
 * The feature to speculate on price movements, short-selling, hedging or lending are extended features which some centralized exchanges provide, but I think that is outside of the core definition of an exchange.
 * How the exchange is implemented, if it uses automatic order matching or how fast the exchange happens are secondary characteristics.
 * A Fiat exchange means that national currencies are used, not IOUs for representing them.
@@ -101,7 +102,7 @@ Lack of efficiency is not that what causes the most pain in our world. We are pr
 **The blockchain is not good at efficiency but it is very resilient.**
 From an efficiency point of view it is the worst, slowest and most expensive database. Only censorship resistance gives it value and significance.
 
-The fact that Bitcoin's efficiency outperforms the bank's efficiency and that they consider the "blockchain" revolutionary, is just because the banks are so _unbelievable inefficient_ and have slept the last 20 years (or longer). They get woken up now by FinTech companies who are now considered "revolutionary" simply by applying modern IT to the banking world. We are witnessing the cheapest revolution of the century.
+The fact that Bitcoin's efficiency outperforms the bank's efficiency and that they consider the "blockchain" revolutionary, is just because the banks are so _unbelievably inefficient_ and have slept the last 20 years (or longer). They get woken up now by FinTech companies who are now considered "revolutionary" simply by applying modern IT to the banking world. We are witnessing the cheapest revolution of the century.
 
 Bitcoin will remain alien to banks. Bitcoin is a complete contradiction to their concept and culture.
 

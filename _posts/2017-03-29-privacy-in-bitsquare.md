@@ -189,7 +189,7 @@ With all that said we have to emphasize that **Bisq has already archived a very 
 * There will be future improvements to decouple the network ID with an optional reputation key.
 * Once we can use a SPV Bitcoin Core node instead of BitcoinJ we get rid of the bloom filter problem.
 
-Protection of privacy is not only a [core value of Bisq](/blog/explorering-the-new-territory/) but we see it also as a fundamental property of money to achieve [fungibility](https://decentralize.today/bitcoin-fungibility-the-most-important-feature-of-bitcoin-4b87a381f21a#.nj06fezdn).
+Protection of privacy is not only a [core value of Bisq](/blog/exploring-the-new-territory/) but we see it also as a fundamental property of money to achieve [fungibility](https://decentralize.today/bitcoin-fungibility-the-most-important-feature-of-bitcoin-4b87a381f21a#.nj06fezdn).
 Bitcoin and the surrounding infrastructure (like exchanges) need to improve in that area so Bitcoin can develop it's full potential as sound money. Sound money for a sound society. Protection of privacy has to be the default state for all, not just a privilege for techies and geeks.
 
 [America's founding fathers](https://en.wikipedia.org/wiki/First_Amendment_to_the_United_States_Constitution) have been more aware of this than today's [retarded politicians.](http://www.reuters.com/article/us-britain-security-rudd-idUSKBN16X0BE)

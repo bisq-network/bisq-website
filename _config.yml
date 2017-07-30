@@ -1,6 +1,7 @@
 url: "https://bisq.beams.io"
 markdown: kramdown
 permalink: /blog/:title/
+livereload: true
 gems:
   - jekyll-redirect-from
 exclude:

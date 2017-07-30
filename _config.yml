@@ -3,3 +3,7 @@ markdown: kramdown
 permalink: /blog/:title/
 gems:
   - jekyll-redirect-from
+exclude:
+  - CNAME
+  - README
+  - Gemfile

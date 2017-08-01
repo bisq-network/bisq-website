@@ -18,5 +18,3 @@ The paper about the Bisq DAO:
 As soon the DAO has launched the DAO tokens (BSQ) can be traded like any other crypto currency in Bisq.
 
 We distribute the tokens to many contributors who have supported us.
-
-Please apply at our [BSQ Token Distribution Application](https://docs.google.com/forms/d/e/1FAIpQLSctgqdbCY-4WwxIvdFIiOaQE7Gz_DSqUVF6g3ZIaP4g6ouMzA/viewform) for receiving free tokens.

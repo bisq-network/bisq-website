@@ -45,6 +45,7 @@ Writing a story about Bisq? Or looking for an interview? Please contact the Bisq
 
 ## Media coverage
 
+ - July 29, 2017: Interview with Manfred Karrer - [Bitcoin in Europe - Teil 4 Barcelona](https://youtu.be/lpm2tAQLEgc?t=482)
  - April 7, 2017: [Interview at bitcoin-millionaire.com][38]
  - March 30, 2017: [Decentralized Exchange Bisq Aims to Fulfill the Dreams of the Cypherpunks][39]
  - December 23, 2016: [Bisq: Eine echte dezentrale Krypto-Börse][40]

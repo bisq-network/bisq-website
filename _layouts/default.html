@@ -5,14 +5,15 @@
 
   <title>{{ page.title }}</title>
 
+  <link rel="canonical" href="{{ site.url }}" />
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} blog feed" href="{{ site.url }}/{{ site.feed.path }}" />
+
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
   <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"/>
 
   <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
   <link rel='stylesheet' id='opensans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C300%2C600%2C700&#038;ver=4.7.5' type='text/css' media='all'/>
-
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} blog feed" href="{{ site.url }}/{{ site.feed.path }}" />
 
   <script type='text/javascript' src='/js/jquery.js?ver=1.12.4'></script>
   <script type='text/javascript' src='/js/jquery-migrate.min.js?ver=1.4.1'></script>

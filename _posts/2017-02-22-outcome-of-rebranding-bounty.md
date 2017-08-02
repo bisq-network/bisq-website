@@ -26,7 +26,7 @@ The team selected the following winners (listed here in alphabetical order):
  - [dsteam][4] – for offering 9 names the team evaluated as good
  - [FreepWho][5] – for active participation in the forum, for offering constructive feedback and for posting  -good motivation for his/her proposals
  - [mirelo][6] – for offering 6 good names, plus motivating his/her proposals
- - [spoken][7] – for offering 11 names that were very close to being selected
+ - spoken – for offering 11 names that were very close to being selected
  - [vieuxvicq][8] – for offering high-quality constructive feedback and valuable discussion
  [silverback][9] – for proposing Bisqui, for being active in the forum and for motivating his/her proposals
 
@@ -44,6 +44,5 @@ Thank you once again to those who participated in the bounty hunt! Keep an eye o
 [4]: https://forum.bitsquare.io/users/dsteam/activity
 [5]: https://forum.bitsquare.io/users/freepwho/activity
 [6]: https://forum.bitsquare.io/users/mirelo/activity
-[7]: https://forum.bitsquare.io/users/spoken/activity
 [8]: https://forum.bitsquare.io/users/vieuxvicq/activity
 [9]: https://forum.bitsquare.io/users/silverback/activity

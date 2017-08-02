@@ -35,7 +35,7 @@ To keep reading about the Philosophy of Bisq, and how we solve the involved chal
 
  - [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf) by Satoshi Nakamoto
  - [Bitcoin open source implementation of P2P currency](http://p2pfoundation.ning.com/forum/topics/bitcoin-open-source) by Satoshi Nakamoto
- - [Shelling Out &#8212; The Origins of Money](http://szabo.best.vwh.net/shell.html) by Nick Szabo
+ - [Shelling Out &#8212; The Origins of Money](http://web.archive.org/web/20160921140955/http://szabo.best.vwh.net/shell.html) by Nick Szabo
  - [A New Kind of Social Ordering: Self-Sovereignty, Autonomous Trust and P2P Parity](https://idcubed.org/home_page_feature/white-paper-a-new-kind-of-social-ordering-self-sovereignty-autonomous-trust-and-p2p-parity/) by John Clippinger
 
 [1]: http://bisq.beams.io/images/whitepaper-icon1.png

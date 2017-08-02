@@ -71,10 +71,10 @@ From some of the above (incomplete) list of technologies, tools and concepts we 
 Those are the **killer apps** I am interested in – they might help us **to not get killed by ourselves.**
 
 [1]: http://yanisvaroufakis.eu/
-[2]: http://szabo.best.vwh.net/micropayments.html
+[2]: http://web.archive.org/web/20160914084456/http://szabo.best.vwh.net/micropayments.html
 [3]: https://en.wikipedia.org/wiki/Web_of_trust
 [4]: https://en.wikipedia.org/wiki/Free_and_open-source_software
-[5]: http://szabo.best.vwh.net/ttps.html
+[5]: http://web.archive.org/web/20160705000502/http://szabo.best.vwh.net/ttps.html
 [6]: https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
 [7]: https://en.wikipedia.org/wiki/Distributed_hash_table
 [8]: https://www.torproject.org/
@@ -83,8 +83,8 @@ Those are the **killer apps** I am interested in – they might help us **to not
 [11]: https://en.wikipedia.org/wiki/Maker_culture
 [12]: https://en.wikipedia.org/wiki/Internet_of_Things
 [13]: https://namecoin.info/
-[14]: http://szabo.best.vwh.net/securetitle.html
-[15]: http://szabo.best.vwh.net/smart.contracts.html
+[14]: http://web.archive.org/web/20160705000502/http://szabo.best.vwh.net/securetitle.html
+[15]: http://web.archive.org/web/20160705000502/http://szabo.best.vwh.net/smart.contracts.html
 [16]: http://www.iamsatoshi.com/bitcoin-transition-technology/
 [17]: https://books.google.es/books/about/Rethinking_Money.html?id=khsInwEACAAJ&redir_esc=y
 [18]: http://www.augur.net/

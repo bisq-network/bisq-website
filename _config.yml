@@ -1,9 +1,13 @@
+title: Bisq
 url: "https://bisq.beams.io"
 markdown: kramdown
 permalink: /blog/:title/
 livereload: true
 gems:
   - jekyll-redirect-from
+  - jekyll-feed
+feed:
+  path: blog/feed.atom
 exclude:
   - CNAME
   - README

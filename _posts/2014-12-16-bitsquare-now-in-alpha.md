@@ -65,6 +65,6 @@ Bitsquare will exit _beta_ with the release of v1.0, which we're setting a high 
 [16]: /roadmap/
 [17]: http://semver.org/
 [18]: https://github.com/bitsquare/bitsquare/wiki/Bitsquare-WAN-Parties
-[19]: /blog/feed
+[19]: /blog/feed.atom
 [20]: http://bitsquare.us9.list-manage.com/subscribe?u=fee3c64b1504e7835a98b0ed3&id=dc09b9ca64
 [21]: /community/#mailing-list

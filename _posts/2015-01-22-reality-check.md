@@ -91,7 +91,7 @@ And when already caught in such a solemn mood, lets finish with our favorite quo
 _"To change something build a new model that makes the existing model obsolete"_<br>
 —Buckminster Fuller
 
-[1]: https://www.vinumeris.com/lighthouse%20
+[1]: http://web.archive.org/web/20160602153657/http://www.vinumeris.com:80/lighthouse
 [2]: http://bisq.beams.io/crowdfunding/
 [3]: http://bisq.beams.io/docs/bitsquare.pdf
 [4]: https://en.wikipedia.org/wiki/Napster

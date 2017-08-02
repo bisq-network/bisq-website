@@ -30,9 +30,9 @@ Thank you from all of us on the Bisq team!
 
 [1]: /crowdfunding/
 [2]: /funding-voices/
-[3]: https://www.vinumeris.com/
+[3]: http://web.archive.org/web/20160626142143/http://www.vinumeris.com/
 [4]: http://www.reddit.com/r/Bitcoin/comments/2r9qha/im_olivier_janssens_running_for_bitcoin/
 [5]: https://letstalkbitcoin.com/blog/category/beyond-bitcoin
 [6]: /press/
-[7]: https://www.vinumeris.com/lighthouse/faq#max-pledges
-[8]: https://www.vinumeris.com/projects/welcome
+[7]: http://web.archive.org/web/20160624114133/http://www.vinumeris.com/lighthouse/faq#max-pledges
+[8]: http://web.archive.org/web/20160305103048/http://vinumeris.com/projects/welcome

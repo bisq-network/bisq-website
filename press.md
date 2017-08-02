@@ -23,7 +23,7 @@ Writing a story about Bisq? Or looking for an interview? Please contact the Bisq
  - October 19, 2016: [Bitcoin/Bisq workshop in Kosice/Slovakia by Tomas Kanocz][9]
  - September 30 – October 2, 2016: [Hacker Congress Paralelní Polis 2016][10]
  - September 14, 2016: [Thomas Kemmere presents his experience with Bisq][11]
- - June 18, 2016: [Potential of Decentralized Autonomous Organizations for guifi.net's compensation system][12]
+ - June 18, 2016: Potential of Decentralized Autonomous Organizations for guifi.net's compensation system
  - June 7, 2016: [Bisq presentation in Berlin][13]
  - May 31, 2016: [Bisq presentation in Tel Aviv][14] [(Video)][15]
  - May 28, 2016: [Bisq presentation in Arnhem @ Bitcoin City Festival][16] [(Video)][17]
@@ -39,7 +39,7 @@ Writing a story about Bisq? Or looking for an interview? Please contact the Bisq
  - October 04, 2014: [Pre-alpha version presentation @ BCN Meetup][32]
  - October 02, 2014: [Pre-alpha version presentation @ BCN Meetup][33]
  - September 09, 2014: [Ad hoc presentation @ BCN Meetup][34]
- - June 03, 2014: [Proof of concept prototype @ Vienna Metalab][35]
+ - June 03, 2014: Proof of concept prototype @ Vienna Metalab
  - May 16, 2014: [Proof of concept prototype @ BCN Meetup][36]
  - February 02, 2014: [Initial Bisq concept @ BCN Meetup][37]
 
@@ -50,11 +50,11 @@ Writing a story about Bisq? Or looking for an interview? Please contact the Bisq
  - March 30, 2017: [Decentralized Exchange Bisq Aims to Fulfill the Dreams of the Cypherpunks][39]
  - December 23, 2016: [Bisq: Eine echte dezentrale Krypto-Börse][40]
  - December 21, 2016: [How to use Bisq – the Decentralized Exchange][41]
- - November 27, 2016: [ハッキングされない取引所!? Bisq][42]
- - October 29, 2016: [Coinopoly: Bisq – The Decentralized Bitcoin Exchange][43]
+ - November 27, 2016: ハッキングされない取引所!? Bisq
+ - October 29, 2016: Coinopoly: Bisq – The Decentralized Bitcoin Exchange
  - October 20, 2016: [Como usar Bisq para comprar (o vender) Bitcoins ][44]
  - October 20, 2016: [Razor Forex: Decentralized P2P Exchange Bisq Ups Trading Limits; Adds Support for  -Augur, GameCredits and 26 Additional Cryptocurrencies][45]
- - October 4, 2016: [Decentralized Exchanges: Goxed No More!][46]
+ - October 4, 2016: Decentralized Exchanges: Goxed No More!
  - September 23, 2016: [Newbium: BITSQUARE – TOR P2P Exchange][47]
  - September 11, 2016: [Btcnews.jp: 注目が高まる分散型オープンソース・エクスチェンジ「Bisq」とは][48]
  - September 1, 2016: [Bitstaub Interview mit Marc][49]
@@ -70,7 +70,7 @@ Writing a story about Bisq? Or looking for an interview? Please contact the Bisq
  - July 27, 2016: [BitcoinX: Bisq upgrades, adds trading stats, charts, and extended Tor support][59]
  - July 18, 2016: [Epicenter Bitcoin interview: Bisq – The Decentralized Open-Soure Cryptocurrency-Fiat  -Exchange][60]
  - July 6, 2016: [Hamer.cx: Bisq][61]
- - June 17, 2016: [Live interview with Johan Claeys: Discussing Bisq the decentralised exchange][62]
+ - June 17, 2016: Live interview with Johan Claeys: Discussing Bisq the decentralised exchange
  - June 16, 2016: [Btc tip: Bisq – první decentralizovaná bitcoin směnárna][63]
  - June 9, 2016: [Coin report: BITSQUARE: THE DECENTRALIZED BITCOIN EXCHANGE][64]
  - June 5, 2016: [Bitcoin News: BITSQUARE: THE DECENTRALIZED BITCOIN EXCHANGE][65]
@@ -101,7 +101,7 @@ Writing a story about Bisq? Or looking for an interview? Please contact the Bisq
  - January 25, 2016: [8btc.com: 比特币生态链缺失的一环：去中心化交易平台][89]
  - January 20, 2016: [Bitcoin.com: Bisq – The 'Missing Link' for Decentralized Bitcoin Exchange][90]
  - January 18, 2016: [Bitcoin.com: 4 Platforms That Believe the Future is Decentralized][91]
- - February 10, 2015: [BTC Feed: Bisq, The First P2P Bitcoin Exchange?][92]
+ - February 10, 2015: BTC Feed: Bisq, The First P2P Bitcoin Exchange?
  - February 9, 2015: [NewsBTC: BitSquare – A Bitcoin Exchange without Central Authority][93]
  - February 9, 2015: [Crypto Coins News: Decentralized Bitcoin Exchange Bisq Has Only Raised 42% of its Goal  -with Lighthouse][94]
  - February 7, 2015: [Let's Talk Bitcoin: Grant Strac catches up with Richard on the Bisq Decentralized  -Exchange Project][95]
@@ -140,7 +140,6 @@ Do you need image material for an article about Bisq? You can find [here][106] o
 [9]: mailto:tomas.kanocz%40cnl.sk
 [10]: http://hcpp.cz/
 [11]: http://www.meetup.com/de-DE/Bitcoin-The-Hague/events/232260101/
-[12]: https://sax2016.guifi.net/index.php/Programa
 [13]: http://www.meetup.com/de-DE/Blockchain-Meetup-Berlin/events/230221859/?eventId=230221859
 [14]: http://www.meetup.com/bitcoin-il/events/231011433/
 [15]: https://www.youtube.com/watch?v=UQLUEurfHjY
@@ -163,18 +162,14 @@ Do you need image material for an article about Bisq? You can find [here][106] o
 [32]: http://www.meetup.com/bitcoin-barcelona/events/211156922/
 [33]: http://www.meetup.com/bitcoin-barcelona/events/208734292/
 [34]: http://www.meetup.com/bitcoin-barcelona/events/203215982/
-[35]: http://wiki.bitcoin-austria.at/wiki/Treffen/35
 [36]: http://www.meetup.com/bitcoin-barcelona/events/177734352/
 [37]: http://www.meetup.com/bitcoin-barcelona/events/165511282/
 [38]: https://www.bitcoin-millionaire.com/business-bitsquare/
 [39]: https://news.bitcoin.com/bitsquare-aims-fulfill-dreams-cypherpunks/
 [40]: https://www.btc-echo.de/bitsquare-eine-echte-dezentrale-krypto-boerse/
 [41]: https://www.cryptocompare.com/exchanges/guides/how-to-use-bitsquare
-[42]: https://www.coin-portal.net/2016/11/27/15241/
-[43]: https://coinopoly.xyz/bitsquare-review/
 [44]: http://www.criptopedia.com/como-usar-bitsquare-para-comprar-o-vender-bitcoins/
 [45]: http://www.razor-forex.com/2016/10/decentralized-p2p-exchange-bitsquare.html
-[46]: https://electronic-sushi.tumblr.com/post/151324606774/decentralized-exchanges-goxed-no-more
 [47]: https://coins.newbium.com/post/1976-bitsquare-tor-p2p-exchange
 [48]: http://btcnews.jp/bitsquare-decentralized-exchange-what-is/
 [49]: http://bitstaub.diskordia.org/?podcast=bs024-bitsquare
@@ -190,7 +185,6 @@ Do you need image material for an article about Bisq? You can find [here][106] o
 [59]: http://bitcoinx.io/news/articles/bitsquare-upgrades-adds-trading-stats-charts-and-extended-tor-support/
 [60]: https://letstalkbitcoin.com/blog/post/eb140-manfred-kareer-bitsquare-the-decentralized-open-soure-cryptocurrency-fiat-exchange
 [61]: http://www.hamer.cx/bitsquare-io/
-[62]: http://www.johanclaeys.com/bitsquare-decentralised-exchage
 [63]: http://btctip.cz/bitsquare-prvni-decentralizovana-bitcoin-smenarna/
 [64]: https://coinreport.net/guest-post-bitsquare-the-decentralized-bitcoin-exchange/
 [65]: https://www.bitcoinnews.ch/4140/bitsquare-the-decentralized-bitcoin-exchange/
@@ -220,7 +214,6 @@ Do you need image material for an article about Bisq? You can find [here][106] o
 [89]: http://www.8btc.com/decentralized-bitsquare
 [90]: https://news.bitcoin.com/bitsquare-missing-link-decentralized-bitcoin-exchange/
 [91]: https://news.bitcoin.com/4-platforms-believe-future-decentralized/
-[92]: http://www.btcfeed.net/news/bitsquare-first-p2p-bitcoin-exchange/
 [93]: http://newsbtc.com/2015/02/09/bitsquare-bitcoin-exchange-without-central-authority/
 [94]: https://www.cryptocoinsnews.com/decentralized-bitcoin-exchange-bitsquare-raised-42-goal-lighthouse/
 [95]: https://letstalkbitcoin.com/blog/post/lets-talk-bitcoin-185-greece-and-the-joint-bank-account

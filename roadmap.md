@@ -520,8 +520,8 @@ Released [December 20th 2015](https://github.com/bitsquare/bitsquare/releases/ta
  - Charts for market data
  - Changed network layer to a flooding network over Tor and Hidden Services
 
-### Alpha Version 0.2
-Released [May 17th 2015](https://github.com/bitsquare/bitsquare/releases/tag/v0.2)
+### Alpha Version 0.2.1
+Released [May 17th 2015](https://github.com/bitsquare/bitsquare/releases/tag/v0.2.1)
  - Support second trade variant (Offerer is Bitcoin seller)
  - Change UI for trade process to wizard style
  - Encrypt all messages sent over wire

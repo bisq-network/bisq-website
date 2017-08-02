@@ -35,7 +35,7 @@ As mentioned above, Bitsquare is now in _alpha_ with today's release of version 
 
 Sounds pretty good so far, right? Well, here's the _alpha_ part:
 
- - All bitcoin operations take place on the bitcoin [testnet][10] during the alpha phase. This means you can't trade "real" (mainnet) bitcoins yet, and you'll need to get test coins from [a][11] [testnet][12] [faucet][13].
+ - All bitcoin operations take place on the bitcoin [testnet][10] during the alpha phase. This means you can't trade "real" (mainnet) bitcoins yet, and you'll need to get test coins from a [testnet][11] [faucet][12].
  - Because real bitcoins aren't being traded, no real national currency is traded either. We recommend "simulating" this step of the protocol with your trading partner via chat or email.
  - Because the project is still young, Bitsquare's offer book may be empty at any given time, meaning you may need to seek out a trading partner. You might want to ask a friend or find someone in the [#bitsquare-trading][14] IRC channel.
  - Depending on your network configuration and router equipment, you may have issues connecting to the Bitsquare network. For example, you may need to [configure manual port forwarding][15] on your home router.
@@ -60,7 +60,6 @@ Bitsquare will exit _beta_ with the release of v1.0, which we're setting a high 
 [10]: https://en.bitcoin.it/wiki/Testnet
 [11]: http://faucet.xeno-genesis.com/
 [12]: http://tpfaucet.appspot.com/
-[13]: http://faucet.luis.im/
 [14]: http://webchat.freenode.net/?channels=bitsquare-trading
 [15]: https://github.com/bitsquare/bitsquare/wiki/How-to-setup-port-forwarding
 [16]: /roadmap/

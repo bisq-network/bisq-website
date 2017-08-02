@@ -21,7 +21,7 @@ In short, we think the bitcoin ecosystem deserves an exchange option that is as 
 
 ### Who is Bitsquare?
 
-The Bitsquare core [team][6] is Manfred Karrer, Chris Beams, Steve Myers, Richard Myers and Lloyd Johnson. We've been fortunate to have the help of many other [contributors][7] along the way, and we're on the lookout for additional developers and security experts to join us.
+The Bitsquare core team is Manfred Karrer, Chris Beams, Steve Myers, Richard Myers and Lloyd Johnson. We've been fortunate to have the help of many other contributors along the way, and we're on the lookout for additional developers and security experts to join us.
 
 Our team members live in the US, Europe and Australia, and have come together to work on Bitsquare out of mutual passion for bitcoin's potential and the belief that decentralized exchanges are a critical infrastructural element currently missing from the bitcoin ecosystem.
 
@@ -55,8 +55,6 @@ Bitsquare will exit _beta_ with the release of v1.0, which we're setting a high 
 [3]: http://satoshiatx.com/
 [4]: /docs/bitsquare.pdf
 [5]: /faq/
-[6]: /team/
-[7]: /team/#contributors
 [8]: /crowdfunding/
 [9]: /governance/
 [10]: https://en.bitcoin.it/wiki/Testnet

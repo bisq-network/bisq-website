@@ -2,7 +2,6 @@
 layout: post
 title: Concept overview
 author: Lloyd Johnson
-banner: null
 ---
 This video gives a basic overview about the concept behind Bisq:
 

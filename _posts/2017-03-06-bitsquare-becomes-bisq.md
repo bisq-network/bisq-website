@@ -2,7 +2,6 @@
 layout: post
 title: Bitsquare becomes Bisq
 author: Manfred Karrer
-banner: null
 ---
 We [announced](/blog/bitsquare-is-rebranding/) a while ago that we started rebranding as a result of trademark conflicts.
 

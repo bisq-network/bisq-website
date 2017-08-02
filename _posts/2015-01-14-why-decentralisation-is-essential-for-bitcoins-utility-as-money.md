@@ -2,7 +2,6 @@
 layout: post
 title: "Why decentralisation is essential for bitcoin's utility as money"
 author: Manfred Karrer
-banner: null
 ---
 There was recently an important incident in the bitcoin space.
 

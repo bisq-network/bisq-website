@@ -2,7 +2,6 @@
 layout: post
 title: Bisq Website Updated
 author: Lloyd Johnson
-banner: null
 ---
 As the Bisq Application comes closer to a public Alpha we have been working hard towards updating the Bisq website too. The new website went live as of October 26, 2014.
 

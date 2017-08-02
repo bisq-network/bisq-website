@@ -2,7 +2,6 @@
 layout: post
 title: Bisq protection mechanisms
 author: Manfred Karrer
-banner: null
 ---
 A video going into the details of the Protection Mechanisms system for Bisq:
 

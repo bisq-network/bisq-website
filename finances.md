@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Finances &lsaquo; Bisq - The decentralized bitcoin exchange
-banner: null
 ---
 # Finances
 

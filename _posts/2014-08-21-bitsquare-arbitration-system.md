@@ -2,7 +2,6 @@
 layout: post
 title: The Bisq arbitration system
 author: Manfred Karrer
-banner: null
 ---
 A video going into the details of the Arbitration system for Bisq:
 

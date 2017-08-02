@@ -52,7 +52,7 @@ Bitsquare will exit _beta_ with the release of v1.0, which we're setting a high 
 
 [1]: https://github.com/bitsquare/bitsquare/releases/v0.1.0
 [2]: https://vimeo.com/113838717
-[3]: http://satoshiatx.com/
+[3]: https://twitter.com/SatoshiATX
 [4]: /docs/bitsquare.pdf
 [5]: /faq/
 [8]: /crowdfunding/

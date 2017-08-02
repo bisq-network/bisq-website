@@ -103,7 +103,7 @@ _"To change something build a new model that makes the existing model obsolete"_
 [10]: https://github.com/bitsquare/bitsquare/blob/master/LICENSE
 [11]: http://bisq.beams.io/blog/bitsquare-now-in-alpha/
 [12]: http://bisq.beams.io/crowdfunding/#Lighthouse
-[13]: https://nubits.com/nushares
+[13]: https://www.nubits.com/nushares/introduction
 [14]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 [15]: http://www.coindesk.com/coinbases-75-million-series-c/
 

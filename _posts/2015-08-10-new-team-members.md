@@ -15,9 +15,9 @@ We also want to add a bit of background information about our recently joined te
 
 [Thomas Bocek][9] is the author of [TomP2P][10], the P2P network library which serves as backbone of Bitsquare. He teaches distributed and Peer-to-Peer Systems at the University of Zurich. We are happy that we were able to get the best candidate to help us make the P2P network stable and safe for real life usage with the heavy burden of financial transactions.
 
-[1]: http://www.voicesofliberty.com/bio/amanda-johnson/
+[1]: https://web.archive.org/web/20151128141043/http://www.voicesofliberty.com/bio/amanda-johnson/
 [2]: http://cointelegraph.com/authors/amanda_b._johnson
-[3]: https://bitcoinmagazine.com/author/amandab/
+[3]: https://web.archive.org/web/20160603065055/https://bitcoinmagazine.com/authors/amanda-johnson/
 [4]: https://cryptoanarchy.liberty.me/
 [5]: https://www.linkedin.com/profile/view?id=119815650
 [6]: http://www.meetup.com/de/bitcoin-barcelona/

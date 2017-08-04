@@ -8,6 +8,8 @@ gems:
   - jekyll-feed
 feed:
   path: blog/feed.atom
+include:
+  - _redirects
 exclude:
   - CNAME
   - README

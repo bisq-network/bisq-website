@@ -6,6 +6,7 @@ livereload: true
 gems:
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-sitemap
 feed:
   path: blog/feed.atom
 include:

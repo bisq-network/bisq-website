@@ -1,7 +1,2 @@
 http://bisq.io/* https://bisq.io/:splat 301!
 http://bisq.io https://bisq.io 301
-
-https://bitsquare.io https://bisq.io 301
-http://bitsquare.io https://bisq.io 301
-https://bitsquare.io/* https://bisq.io/:splat 301!
-http://bitsquare.io/* https://bisq.io/:splat 301!

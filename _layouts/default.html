@@ -100,7 +100,11 @@
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-104074395-1', 'auto');
+  {% if page.url == '/404.html' %}
+  ga('send', 'pageview', '/404error/?url=' + document.location.pathname + document.location.search + '&ref=' + document.referrer );
+  {% else %}
   ga('send', 'pageview');
+  {% endif %}
 </script>
 </body>
 </html>

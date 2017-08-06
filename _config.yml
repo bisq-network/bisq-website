@@ -7,6 +7,11 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      sitemap: false
 feed:
   path: blog/feed.atom
 include:

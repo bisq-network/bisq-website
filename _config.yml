@@ -3,7 +3,7 @@ url: "https://bisq.io"
 markdown: kramdown
 permalink: /blog/:title/
 livereload: true
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-sitemap

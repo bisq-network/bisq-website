@@ -1,7 +1,5 @@
 # The Bisq website
 
-This site is currently running via GitHub Pages at http://bisq.beams.io.
-
 To run the site locally:
 
 1. Install bundler per instructions at http://bundler.io

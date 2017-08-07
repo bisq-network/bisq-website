@@ -92,8 +92,8 @@ _"To change something build a new model that makes the existing model obsolete"_
 —Buckminster Fuller
 
 [1]: http://web.archive.org/web/20160602153657/http://www.vinumeris.com:80/lighthouse
-[2]: http://bisq.beams.io/crowdfunding/
-[3]: http://bisq.beams.io/docs/bitsquare.pdf
+[2]: /crowdfunding/
+[3]: /docs/bitsquare.pdf
 [4]: https://en.wikipedia.org/wiki/Napster
 [5]: https://en.wikipedia.org/wiki/Ecash
 [6]: https://en.wikipedia.org/wiki/Liberty_Reserve
@@ -101,8 +101,8 @@ _"To change something build a new model that makes the existing model obsolete"_
 [8]: https://bitcoinmagazine.com/7050/bootstrapping-a-decentralized-autonomous-corporation-part-i/
 [9]: https://ethereum.org/
 [10]: https://github.com/bitsquare/bitsquare/blob/master/LICENSE
-[11]: http://bisq.beams.io/blog/bitsquare-now-in-alpha/
-[12]: http://bisq.beams.io/crowdfunding/#Lighthouse
+[11]: /blog/bitsquare-now-in-alpha/
+[12]: /crowdfunding/#Lighthouse
 [13]: https://www.nubits.com/nushares/introduction
 [14]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 [15]: http://www.coindesk.com/coinbases-75-million-series-c/

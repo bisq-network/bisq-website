@@ -17,7 +17,7 @@ Those issues was the source of a constant concern since the project start as for
 
 [Bernd Prünster][5] introduced another idea to me which turned out to not only solve the NAT problematic but also helps to mitigate other open issues I had with a DHT solution: Using a Tor proxy to delegate the network traffic over [Tor][6] and therefore delegate the NAT problematic to Tor, which has solved that to a very satisfying level (they even pass through Chinas great firewall).
 
-But no worry the Bitsquare user don't need to do anything. It is all integrated into the application and no special setup is required. There are also no performance drawbacks with the small amount of data sent by Bisq.
+But no worry the Bitsquare user don't need to do anything. It is all integrated into the application and no special setup is required. There are also no performance drawbacks with the small amount of data sent by Bitsquare.
 
 Using Tor not only solved the network connectivity issues but also adds the high level of anonymity Tor provides to Bitsquare. In fact we use Tors [Hidden Services][7] for every node to make the P2P communication completely anonymous ([as far Tor provides that][8]).
 That solved another open issue with the previous solution: The offerer need to be able to get contacted by a taker and therefore leaked his IP address when publishing an offer.

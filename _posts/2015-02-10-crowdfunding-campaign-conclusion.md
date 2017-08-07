@@ -4,7 +4,7 @@ title: Crowdfunding campaign conclusion
 author: Richard Myers
 ---
 
-The Bisq [crowdfunding][1] campaign has ended without reaching our funding goal.  We are disappointed, but also proud and encouraged by the amount of the support we did receive.   The enthusiasm we have seen from the community confirms we are on the right track and fuels our own passion to make Bisq a reality.
+The Bitsquare [crowdfunding][1] campaign has ended without reaching our funding goal.  We are disappointed, but also proud and encouraged by the amount of the support we did receive.   The enthusiasm we have seen from the community confirms we are on the right track and fuels our own passion to make Bitsquare a reality.
 
 Although the project will lose the full time efforts of Manfred and Chris, we will continue to move forward with a renewed focus on development with out the distraction of raising money.  We may not be able to deliver milestones on our original schedule now, but we will continue to make progress with the part time volunteer efforts of Manfred and the rest of the team.
 
@@ -12,7 +12,7 @@ In summary, the campaign raised 54,03480061 BTC (45%) of our 120 BTC goal from [
 
 We appreciate every pledge, but in particular we would like to thank the community leaders whose public pledges also served as a vote of confidence for what we are doing.  In particular, [Mike Hearn][3] (1 BTC), [Olivier Janssens][4] (10 BTC) and [Arthur Falls][5] (3,03629).
 
-We would also like to thank the members of the bitcoin media who supported our campaign by writing or podcasting about the project.  We encourage you to read or listen to the links on our [press page][6] and pass them on to your friends and followers.  We believe there are many in the bitcoin community who share our vision, but do not know about Bisq and would be excited to learn more about how a truly decentralized bitcoin exchange is becoming a reality.
+We would also like to thank the members of the bitcoin media who supported our campaign by writing or podcasting about the project.  We encourage you to read or listen to the links on our [press page][6] and pass them on to your friends and followers.  We believe there are many in the bitcoin community who share our vision, but do not know about Bitsquare and would be excited to learn more about how a truly decentralized bitcoin exchange is becoming a reality.
 
 **Lessons Learned**
 
@@ -24,9 +24,9 @@ Another lesson learned is that if we had run our campaign longer the publicity a
 
 We will not forget our supporters and look forward to validating your confidence in us.   Please get in touch if you can  contribute some time to the project for development or testing.
 
-You will need to revoke your Bisq pledge from within Lighthouse, but we encourage you to investigate the many other [worthy projects][8] using Lighthouse, especially those that support decentralization and core bitcoin development.
+You will need to revoke your Bitsquare pledge from within Lighthouse, but we encourage you to investigate the many other [worthy projects][8] using Lighthouse, especially those that support decentralization and core bitcoin development.
 
-Thank you from all of us on the Bisq team!
+Thank you from all of us on the Bitsquare team!
 
 [1]: /crowdfunding/
 [2]: /funding-voices/

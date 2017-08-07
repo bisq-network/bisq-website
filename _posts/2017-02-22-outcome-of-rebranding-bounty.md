@@ -9,7 +9,7 @@ The team reviewed all bounty submissions, but there was no single name that clea
 
 ### Background
 
-We recently announced that [Bitsquare is rebranding][1]. Finding a new name is a challenging task, so the team offered a bounty to get some inspiration from the growing community. The [rules of the bounty][2] were introduced in the official forum of Bisq, where community members could make proposals for new brand name. If a given proposal ends up being selected by the team, the respective person will receive 0.5 bitcoin. In case none of the proposed names are selected, there is no winner to claim the bounty of 0.5 BTC. However, due to the active engagement by the community, [we promised][3] that in the event of no winner, the bounty will still be distributed to those who offered the best contributions towards finding a new name.
+We recently announced that [Bitsquare is rebranding][1]. Finding a new name is a challenging task, so the team offered a bounty to get some inspiration from the growing community. The [rules of the bounty][2] were introduced in the official forum of Bitsquare, where community members could make proposals for new brand name. If a given proposal ends up being selected by the team, the respective person will receive 0.5 bitcoin. In case none of the proposed names are selected, there is no winner to claim the bounty of 0.5 BTC. However, due to the active engagement by the community, [we promised][3] that in the event of no winner, the bounty will still be distributed to those who offered the best contributions towards finding a new name.
 
 ### Outcome
 

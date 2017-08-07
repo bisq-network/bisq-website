@@ -11,13 +11,13 @@ To make sure that such a project will work in a fully decentralized way, we are 
 
 ## How to avoid single points of failure?
 
-While the overall technical and conceptual requirements of Bisq can be found in our [whitepaper][3], the focus of this post is only the aspects related to our funding model.
+While the overall technical and conceptual requirements of Bitsquare can be found in our [whitepaper][3], the focus of this post is only the aspects related to our funding model.
 
 A project starts with the people behind the project and the organizational form they use.
 
 Projects like [Napster][4], [ecash][5] or [Liberty Reserve][6], although different in many aspects, have taught us an important lesson: A company behind the project is a single [weak point][7] for bringing the whole project down.
 
-Bisq is a community centered project. We are not a startup and there is no investor demanding a return of investment or guiding our decisions. In the long term Bisq is aiming to convert into a [DAO][8] (sorry for the buzzword), but we first need the [technology][9] available for building DAOs to mature.
+Bitsquare is a community centered project. We are not a startup and there is no investor demanding a return of investment or guiding our decisions. In the long term Bitsquare is aiming to convert into a [DAO][8] (sorry for the buzzword), but we first need the [technology][9] available for building DAOs to mature.
 
 A further requirement for avoiding single points of failure is that the code follows [free and open source software][10] principles, so that even if the project in its current form failed, anyone else could continue to develop it.
 
@@ -47,17 +47,17 @@ We're not claiming that our approach is the golden solution, it is just the best
 
 ## What are the alternatives?
 
-Some people have mentioned that a model where users are able to invest in Bisq would gain more attention.
+Some people have mentioned that a model where users are able to invest in Bitsquare would gain more attention.
 
-That is certainly true but comes with a few difficulties: One basic restriction is that we are committed to stay in the legal framework, so any model which might be interpreted as IPO is outside of our considerations. Also as soon as we are taking money directly from the exchange (e.g. by taking fees) we would trigger licence issues as it could be interpreted in the way that we are operating the exchange.  A more fundamental problem with an investment model is that anyone who invests in Bisq would expect to own something, which creates either a centralization or forking risk.
+That is certainly true but comes with a few difficulties: One basic restriction is that we are committed to stay in the legal framework, so any model which might be interpreted as IPO is outside of our considerations. Also as soon as we are taking money directly from the exchange (e.g. by taking fees) we would trigger licence issues as it could be interpreted in the way that we are operating the exchange.  A more fundamental problem with an investment model is that anyone who invests in Bitsquare would expect to own something, which creates either a centralization or forking risk.
 
 Lets have a look at some alternative models:
 
 **Using an App coin**
-That approach might be the right solution for the right project. Unfortunately we have already proven that Bisq is working fine without an app coin. So introducing an app coin with the sole purpose for funding would immediately provoke a fork.
+That approach might be the right solution for the right project. Unfortunately we have already proven that Bitsquare is working fine without an app coin. So introducing an app coin with the sole purpose for funding would immediately provoke a fork.
 
 **Voting shares DAO**
-A model similar to [NuShares][13] is interesting and might be a future alternative. Unfortunately it is not trivial and comes with considerable effort to build or adjust the infrastructure needed for such a solution. Once [Ethereum][9] is out we might reconsider how we could turn Bisq into a DAO.
+A model similar to [NuShares][13] is interesting and might be a future alternative. Unfortunately it is not trivial and comes with considerable effort to build or adjust the infrastructure needed for such a solution. Once [Ethereum][9] is out we might reconsider how we could turn Bitsquare into a DAO.
 
 **Find another alt coin or platform which is interested in sponsoring the project**
 A P2P exchange is an important infrastructure for any platform.
@@ -70,7 +70,7 @@ One concern is the extra effort to move to another technology. Also bitcoin is s
 
 It seems the funding opportunities to develop such a project are pretty narrow. Hopefully not too narrow to allow our project to flourish.
 
-We are struggling with a problem not unique to Bisq. The problem of the [tragedy of the commons][14] is shared with many other open source projects. A huge number of open source projects fail to come to completion because it is so hard to find adequate funding models. Being not "venture capital shaped" leaves you often without any alternative funding options.
+We are struggling with a problem not unique to Bitsquare. The problem of the [tragedy of the commons][14] is shared with many other open source projects. A huge number of open source projects fail to come to completion because it is so hard to find adequate funding models. Being not "venture capital shaped" leaves you often without any alternative funding options.
 
 The fact that we deal with money makes the situation more difficult as it introduces additional legal constraints, but it also hold some promise that there might be a solution utilizing the accessibility of bitcoin inside an application.
 

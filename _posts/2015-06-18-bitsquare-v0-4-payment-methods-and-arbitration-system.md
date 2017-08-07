@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bisq v0.4 (payment methods and arbitration system)"
+title: "Bitsquare v0.4 (payment methods and arbitration system)"
 author: Manfred Karrer
 redirect_from: /blog/bitsquare-v0-4-payment-methods-and-arbitrtion-system
 ---

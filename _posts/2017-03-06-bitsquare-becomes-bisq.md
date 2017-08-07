@@ -6,7 +6,7 @@ author: Manfred Karrer
 We [announced](/blog/bitsquare-is-rebranding/) a while ago that we started rebranding as a result of trademark conflicts.
 
 That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it.
-We have chosen to replace Bitsquare with Bisq.
+We have chosen to replace Bitsquare with **Bisq**.
 
 ### Thoughts on the old name
 

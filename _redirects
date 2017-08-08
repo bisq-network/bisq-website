@@ -1,4 +1,16 @@
 http://bisq.io/* https://bisq.io/:splat 301!
 http://bisq.io https://bisq.io 301
 
-/arbitration_system.pdf /docs/arbitration-system.pdf
+/arbitration_system.pdf /docs/arbitration-system.pdf 301
+/bitsquare.pdf /docs/bitsquare.pdf 301
+/risk_analysis.pdf /docs/risk-analysis.pdf 301
+/whitepaper.pdf /docs/whitepaper.pdf 301
+
+/blog/tag/ /blog/ 302
+/blog/tag/* /blog/ 302
+/blog/category/ /blog/ 302
+/blog/category/* /blog/ 302
+
+/feed /blog/feed.atom 301
+
+/team / 302

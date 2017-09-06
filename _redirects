@@ -1,5 +1,5 @@
-http://bisq.io/* https://bisq.io/:splat 301!
-http://bisq.io https://bisq.io 301
+http://bisq.io/* https://bisq.network/:splat 301!
+http://bisq.io https://bisq.network 301
 
 /arbitration_system.pdf /docs/arbitration-system.pdf 301
 /bitsquare.pdf /docs/bitsquare.pdf 301

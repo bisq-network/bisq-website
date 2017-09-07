@@ -6,8 +6,10 @@ https://bisq.io https://bisq.network 301
 
 /arbitration_system.pdf /docs/arbitration-system.pdf 301
 /bitsquare.pdf /docs/bitsquare.pdf 301
+/docs/bitsquare.pdf https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc 301
 /risk_analysis.pdf /docs/risk-analysis.pdf 301
 /whitepaper.pdf /docs/whitepaper.pdf 301
+/docs/whitepaper.pdf https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc 301
 
 /blog/tag/ /blog/ 302
 /blog/tag/* /blog/ 302

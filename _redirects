@@ -22,6 +22,7 @@ https://bisq.io https://bisq.network 301
 # docs
 
 /arbitration_system.pdf /docs/exchange/arbitration-system 301
+/docs/arbitration-system.pdf /docs/exchange/arbitration-system 301
 /docs/exchange/arbitration-system https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw/edit 302
 
 https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw
@@ -32,6 +33,7 @@ https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw
 /docs/exchange/whitepaper https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc 302
 
 /risk_analysis.pdf /docs/exchange/risk-analysis 301
+/docs/risk-analysis.pdf /docs/exchange/risk-analysis 301
 /docs/exchange/risk-analysis https://docs.google.com/document/d/1sHwU7K7C8Nl-fS4Z6X88L-NVJ_WBiKnsSpYpYfyqUXA/edit# 302
 
 /docs/dao/overview https://github.com/bisq-network/docs/blob/master/dao/overview.adoc 302

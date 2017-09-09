@@ -11,7 +11,7 @@ Very contrary to the infamous ICO models where people ask for a lot of money for
 
 The paper about the Bisq DAO:
 
- - [Bisq DAO - Overview](https://github.com/bisq-network/docs/blob/master/dao-overview.adoc)
+ - [Bisq DAO - Overview](https://github.com/bisq-network/docs/blob/master/dao/overview.adoc)
  - [Bisq DAO - More details and technical specification](https://docs.google.com/document/d/1jj7bABnf9apjhaa99VQUoRsIHa7I2nlcUu2sNnIReFs)
  - [Bisq arbitration and mediation system](https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw)
 

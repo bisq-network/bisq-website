@@ -11,7 +11,7 @@ To try and preserve the name we all came to know and love, the team sought profe
 
 Although the community has grown attached to the name "Bitsquare", we'd rather focus our limited resources towards building stronger code. To avoid a lengthy and expensive legal process, we will have to **find another name**.
 
-That doesn't sound like good news… until we take a step back. Since it's [conception](https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc) 3 years ago Bitsquare has undergone a **significant transformation**. The project has recently [entered in a new stage](/blog/beta-version-launched/). Bitsquare's distributed governance and funding model is now under full development. Trade volume and liquidity have grown significantly. New members have joined the team. So although finding a new name is inevitable, rebranding right now might not be a bad idea after all.
+That doesn't sound like good news… until we take a step back. Since it's [conception](/docs/exchange/whitepaper) 3 years ago Bitsquare has undergone a **significant transformation**. The project has recently [entered in a new stage](/blog/beta-version-launched/). Bitsquare's distributed governance and funding model is now under full development. Trade volume and liquidity have grown significantly. New members have joined the team. So although finding a new name is inevitable, rebranding right now might not be a bad idea after all.
 
 The project is now seeking a new brand name that will firmly establish its presence in the cryptocurrency space. In the search for a new name, a team brainstorm produced a number of candidates. We are now **turning to the community** for additional proposals. To avoid bias, though, our list will likely not be shown.
 

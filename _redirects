@@ -19,12 +19,26 @@ http://bisq.io https://bisq.network 301
 https://bisq.io/* https://bisq.network/:splat 301!
 https://bisq.io https://bisq.network 301
 
-/arbitration_system.pdf /docs/arbitration-system.pdf 301
-/bitsquare.pdf /docs/bitsquare.pdf 301
-/docs/bitsquare.pdf https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc 301
-/risk_analysis.pdf /docs/risk-analysis.pdf 301
-/whitepaper.pdf /docs/whitepaper.pdf 301
-/docs/whitepaper.pdf https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc 301
+# docs
+
+/arbitration_system.pdf /docs/exchange/arbitration-system 301
+/docs/exchange/arbitration-system https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw/edit 302
+
+https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw
+
+/whitepaper.pdf /docs/exchange/whitepaper 301
+/bitsquare.pdf /docs/exchange/whitepaper 301
+/docs/bitsquare.pdf /docs/exchange/whitepaper 301
+/docs/exchange/whitepaper https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc 302
+
+/risk_analysis.pdf /docs/exchange/risk-analysis 301
+/docs/exchange/risk-analysis https://docs.google.com/document/d/1sHwU7K7C8Nl-fS4Z6X88L-NVJ_WBiKnsSpYpYfyqUXA/edit# 302
+
+/docs/dao/overview https://github.com/bisq-network/docs/blob/master/dao/overview.adoc 302
+
+/docs/dao/specification https://docs.google.com/document/d/1jj7bABnf9apjhaa99VQUoRsIHa7I2nlcUu2sNnIReFs 302
+
+# blog
 
 /blog/tag/ /blog/ 302
 /blog/tag/* /blog/ 302
@@ -32,5 +46,7 @@ https://bisq.io https://bisq.network 301
 /blog/category/* /blog/ 302
 
 /feed /blog/feed.atom 301
+
+# team
 
 /team / 302

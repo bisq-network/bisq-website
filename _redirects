@@ -1,3 +1,18 @@
+#
+# See https://www.netlify.com/docs/redirects/
+#
+
+# bitsquare.io
+
+http://bitsquare.io/* https://bisq.network/:splat 301!
+http://bitsquare.io https://bisq.network 301
+
+https://bitsquare.io/* https://bisq.network/:splat 301!
+https://bitsquare.io https://bisq.network 301
+
+
+# bisq.io
+
 http://bisq.io/* https://bisq.network/:splat 301!
 http://bisq.io https://bisq.network 301
 

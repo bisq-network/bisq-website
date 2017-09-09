@@ -5,7 +5,7 @@ banner: /images/philosophy.png
 ---
 # Philosophy
 
-<a href="https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc"><img class="alignnone wp-image-80 size-full" style="float: right; padding: 20px;" src="/images/whitepaper-icon1.png" alt="" width="253" height="253" srcset="/images/whitepaper-icon1.png 253w, /images/whitepaper-icon1-150x150.png 150w, /images/whitepaper-icon1-250x250.png 250w" sizes="(max-width: 253px) 100vw, 253px"/></a>
+<a href="/docs/exchange/whitepaper"><img class="alignnone wp-image-80 size-full" style="float: right; padding: 20px;" src="/images/whitepaper-icon1.png" alt="" width="253" height="253" srcset="/images/whitepaper-icon1.png 253w, /images/whitepaper-icon1-150x150.png 150w, /images/whitepaper-icon1-250x250.png 250w" sizes="(max-width: 253px) 100vw, 253px"/></a>
 
 [Exchanges][2] play a critical role in the bitcoin ecosystem. Without them, it would be nearly impossible to buy or sell bitcoins for euros, dollars, yen or yuan. Bitcoin would be a market without liquidity; bitcoin would be worthless.
 
@@ -40,4 +40,4 @@ To keep reading about the Philosophy of Bisq, and how we solve the involved chal
 
 [1]: /images/whitepaper-icon1.png
 [2]: https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges
-[3]: https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc
+[3]: /docs/exchange/whitepaper

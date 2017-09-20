@@ -29,7 +29,7 @@ Unlike traditional online exchanges, Bisq is designed to be:
  - **Safe** – Bisq never holds your funds. Decentralized arbitration system and security deposits protect traders.
  - **Private** – no one except trading partners exchange personally identifying data. All personal data is stored locally.
  - **Secure** – end-to-end encrypted communication routed over Tor.
- - **Open** – every aspect of the project is transparent. The code is [open source](https://github.com/bitsquare/bitsquare).
+ - **Open** – every aspect of the project is transparent. The code is [open source](https://github.com/bisq-network/exchange).
  - **Easy** – we take usability seriously.
 
 Bisq is for those who do not want to forfeit control or privacy to a central authority in order to trade with other individuals. We regard financial transactions as a form of private speech that should be protected from surveillance by banks, governments, and other institutions.

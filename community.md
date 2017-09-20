@@ -37,15 +37,15 @@ If you're looking to speak to the team, or hear what they're talking about, then
 
 Bisq is an Open Source project and we use GitHub to manage the open tasks. From features, code changes, bug fixes and website changes – it is all tracked via GitHub. If you would like to lend a hand and join the project:
 
-[» Visit Bisq on GitHub](https://github.com/bitsquare/bitsquare)
+[» Visit Bisq on GitHub](https://github.com/bisq-network/exchange)
 
-[» View issues that could use more help](https://github.com/bitsquare/bitsquare/issues)
+[» View issues that could use more help](https://github.com/bisq-network/exchange/issues)
 
 ### Wiki
 
-The Bisq Wiki is devoted to the day-to-day documentation required for managing the Bisq community. This is where we keep track of the road map, volunteers and so on. Do you want to volunteer to [write a translation](https://github.com/bitsquare/bitsquare/wiki/Internationalization)? Let us know on the Wiki! Want to contribute to the [Bisq User Guide](https://github.com/bitsquare/bitsquare/wiki/User-Guide)? That's on the Wiki too! Check it out and contribute where you can:
+The Bisq Wiki is devoted to the day-to-day documentation required for managing the Bisq community. This is where we keep track of the road map, volunteers and so on. Do you want to volunteer to [write a translation](https://github.com/bisq-network/exchange/wiki/Internationalization)? Let us know on the Wiki! Want to contribute to the [Bisq User Guide](https://github.com/bisq-network/exchange/wiki/User-Guide)? That's on the Wiki too! Check it out and contribute where you can:
 
-[» Bisq Wiki on GitHub](https://github.com/bitsquare/bitsquare/wiki)
+[» Bisq Wiki on GitHub](https://github.com/bisq-network/exchange/wiki)
 
 ### Slack
 

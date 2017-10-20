@@ -1,4 +1,5 @@
 title: Bisq
+baseurl: ""
 url: "https://bisq.network"
 markdown: kramdown
 permalink: /blog/:title/

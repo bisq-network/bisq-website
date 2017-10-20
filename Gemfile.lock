@@ -62,7 +62,6 @@ DEPENDENCIES
   jekyll (~> 3.5.1)
   jekyll-feed
   jekyll-livereload
-  jekyll-multiple-languages-plugin
   jekyll-redirect-from
   jekyll-sitemap
 

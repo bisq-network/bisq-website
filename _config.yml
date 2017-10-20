@@ -7,7 +7,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-sitemap
-gems:
   - jekyll-multiple-languages-plugin
 languages:
   - en

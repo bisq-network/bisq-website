@@ -1,6 +1,6 @@
 ---
 layout: page
-title: titles.home titles.domain
+title: titles.home
 banner: /images/bitsquare-home2.jpg
 ---
 

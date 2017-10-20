@@ -7,6 +7,18 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-sitemap
+gems:
+  - jekyll-multiple-languages-plugin
+languages:
+  - en
+  - cn
+exclude_from_localizations:
+  - javascript
+  - images
+  - css
+  - js
+  - press-material
+  - favicon.ico
 feed:
   path: blog/feed.atom
 include:

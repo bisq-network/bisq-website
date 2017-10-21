@@ -34,19 +34,6 @@ Bisq是一个完全由志愿者提供的开源项目。本着开源的精神，�
 
 _**Note:** 对Bisq的捐款不得抵扣税，因为我们没有在任何政府的管辖区正式注册。 与此同时，我们不接受其他数字货币的捐款。 如果您将它们转换为比特币并以这种方式捐赠，我们将非常感激!_
 
-## 捐赠本站 Donation to Bisq.cn
-
-<div style="float: right; text-align: center;">
-  <a href="https://blockchain.info/address/1Hn8Qst94pFb4CaxdMKLUuWriwRFMHt9GW"><img src="/images/donate-to-bisq-cn.png" alt="通过捐赠给我们的支持基金支持Bisq,地址 1Hn8Qst94pFb4CaxdMKLUuWriwRFMHt9GW"><br>
-    <small>1Hn8Qst94pFb4CaxdMKLUuWriwRFMHt9GW</small>
-  </a>
-</div>
-向我们的比特币地址捐赠,将帮助支付Bisq.cn的网站托管,域名,SSL证书等费用。所以,如果您觉得本站对您有帮助，并能够帮助我们,那将是美好的。
-
-By donating bitcoin to our donation wallet you will be helping Bisq.cn pay for our direct costs like web hosting, domain names, SSL certificates and so on. So if you support this website(bisq.cn) and are in a position to help us out then that would be wonderful.
-
-
-
 <br>
 
 如果您能想到可以帮助Bisq项目的其他方式，请随时[联系]({{ site.baseurl }}/contact/)。

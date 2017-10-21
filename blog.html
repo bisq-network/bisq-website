@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Blog &lsaquo; Bisq - The decentralized bitcoin exchange
+title: titles.blog
+namespace: blog
+permalink:  /blog/
 ---
 
 <ul>
 {% for post in site.posts %}
-  <li>{{ post.date | date: '%Y-%m-%d' }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <li>{{ post.date | date: '%Y-%m-%d' }}: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

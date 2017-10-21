@@ -1,0 +1,24 @@
+titles: &titles
+  home: Home
+  markets: Markets
+  philosophy: Philosophy
+  community: Community
+  faq: FAQ
+  blog: Blog
+  forum: Forum
+  downloads: Downloads
+  press: Press
+  roadmap: Roadmap
+  contribute: Contribute
+  dao: DAO
+  contact: Contact
+
+global:
+  index: Bisq
+  subtitle: The P2P exchange network
+  <<: *titles
+
+langs:
+  cn: 简体中文
+  en: English
+

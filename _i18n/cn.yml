@@ -1,0 +1,24 @@
+titles: &titles
+  home: 首页
+  markets: 行情图
+  philosophy: 信条
+  community: 社区
+  faq: FAQ
+  blog: 博客
+  forum: 论坛
+  downloads: 下载
+  press: 新闻
+  roadmap: 路线图
+  contribute: 贡献
+  dao: DAO
+  contact: 联系
+
+global:
+  index: Bisq
+  subtitle: P2P交易所
+  <<: *titles
+
+langs:
+  cn: 简体中文
+  en: English
+

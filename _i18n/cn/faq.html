@@ -1,0 +1,320 @@
+
+<h1>FAQ</h1>
+
+<h3><strong>核心功能</strong></h3>
+<p><a href="#1">Bisq安全并且开源吗?</a><br/>
+  <a href="#2">Bisq与其他去中心化交易所有哪些不同?</a><br/>
+  <a href="#paymentmethods">支持哪些支付方式?</a><br/>
+  <a href="#altcoins">支持哪些数字货币?</a><br/>
+  <a href="#add_altcoin">如何让我喜欢的数字货币得到支持?</a></p>
+
+<h3><strong>交易细节</strong></h3>
+<p><a href="#3">我什么时候能买卖比特币</a><br/>
+  <a href="#4">Bisq如何保护我的隐私</a><br/>
+  <a href="#5">交易一次需要多久?</a><br/>
+  <a href="#6">在Bisq上交易需要多少费用?</a><br/>
+  <a href="#openOffer">为什么挂单后需要保持应用程序一直保持在线?</a><br/>
+  <a href="#editOffer">如何编辑我的委托单?</a><br/>
+  <a href="#7">银行是否知道我购买比特币?</a></p>
+
+<h3><strong>解决纠纷</strong></h3>
+<p><a href="#8">仲裁员是什么?</a><br/>
+  <a href="#9">仲裁流程如何进行?</a><br/>
+  <a href="#10">如何阻止仲裁员和交易者的勾结?</a><br/>
+  <a href="#11">如果比特币已经发送给买家，但卖家申请国内银行退款将会怎么样?</a><br/>
+  <a href="#12">为什么不弄个交易者信誉系统替代仲裁系统?</a><br/>
+  <a href="#13">我是否能成为仲裁员?</a></p>
+
+<h3><strong>杂项</strong></h3>
+<p>
+  <a href="#14">如果我没有比特币，我怎么才能拥有足够有第一次交易的保证金?</a><br/>
+  <a href="#15">Bisq支持 ‘XXX’ 支付方式吗?</a><br/>
+  <a href="#17">在软件出现错误的情况下会发生什么?</a><br/>
+  <a href="#18">比特币多重签名地址是什么?</a><br/>
+  <a href="#19">我有一个这里没有提到的问题?</a></p>
+
+<h2>核心功能</h2>
+
+<p><a name="1"></a><strong>Bisq安全并且开源吗?</strong></p>
+<p>是的，Bisq 是开源的，使用协议Version 3 of the GNU Affero General Public License. 这里是
+  <a href="https://github.com/bisq-network/exchange/" target="_blank">源代码</a> 和
+  <a href="https://github.com/bisq-network/exchange/blob/master/LICENSE" target="_blank">license</a>.</p>
+<p> Bisq 是安全的. 理由是. 首先, 使用Bisq 不要要求您提供个人识别信息, 所以没有资料可以被窃取. 其次, Bisq 有三个技术保护机制:</p>
+<p style="padding-left: 30px;">1. 所有交易的比特币都保存在一个 2-of-3
+  <a href="https://bitcoinmagazine.com/11108/multisig-future-bitcoin/" target="_blank">多重签名</a> 地址.</p>
+<p style="padding-left: 30px;">2. 交易双方被要求支付保证金. 交易完成后会退回保证金.</p>
+<p style="padding-left: 30px;">3. Bisq 特点去中心化和开放的仲裁系统, 用于处理交易发生纠纷.</p>
+<p>我们相信这些特点让货币交易尽可能地安全. 但是，使用Bisq风险自负</p>
+
+<p><a name="2"></a><strong>Bisq与其他去中心化交易所有哪些不同?</strong></p>
+<p>目前没有其他项目符合我们对去中心化比特币交易所的定义. (<a href="https://openbazaar.org/" target="_blank">Open Bazaar</a> 和
+  <a href="https://voluntary.net/bitmarkets/" target="_blank">BitMarkets</a> 反映了Bisq的原则, 但他们是完整的市场, 不是专门的货币兑换.)
+</p>
+<p>要完全去中心化，必须避免单点故障:</p>
+<ul>
+  <ul>
+    <li>Bisq 不保管任何比特币. 都在多重签名地址里，而不是Bisq控制的钱包里.</li>
+    <li>Bisq 不保管任何法定货币. 法定货币直接从交易者转账到另一个交易者.</li>
+    <li>Bisq 使用建立在Tor网络的点对点网络上.这意味着没有服务器可供攻击或DDos.</li>
+    <li>Bisq 不知道任何关于交易的信息. 没有数据保存谁跟谁交易.</li>
+    <li>Bisq 不需要注册. 这意味着保护隐私, 没有“批准”等待时间,不可能存在身份盗用.</li>
+    <li>Bisq 无法干涉其仲裁系统 – 交易者自己从公开和分散式的仲裁员列表中选择仲裁员.</li>
+    <li>Bisq 不是一家公司. 这是一个旨在组织为权力下放的自治组织的开源项目 (<a href="https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/" target="_blank">DAO</a>).
+    </li>
+    <li>Bisq 的项目资金来源于捐赠和志愿者.</li>
+  </ul>
+</ul>
+
+<p><a name="paymentmethods"></a><strong>支持哪些支付方式?</strong><br/>
+  在这里，您可以看到当前支持的付款方式的列表:</p>
+<ul>
+  <ul>
+    <li>国内银行转账</li>
+    <li>SEPA</li>
+    <li>ClearXchange</li>
+    <li>Faster Payments</li>
+    <li>Swish</li>
+    <li>Chase QuickPay</li>
+    <li>Interac e-Transfer</li>
+    <li>US Postal Money Order</li>
+    <li>Cash Deposit</li>
+    <li>OKPay</li>
+    <li>Perfect Money</li>
+    <li>支付宝</li>
+    <li>相同银行转账</li>
+    <li>指定银行转账</li>
+  </ul>
+</ul>
+
+<p><a name="altcoins"></a><strong>支持哪些数字货币?</strong><br/>
+  在这里，您可以看到当前支持的 125 种数字货币列表:</p>
+<ul>
+  <ul>
+    <li>&#8220;AIB&#8221;, &#8220;Advanced Internet Blocks&#8221;</li>
+    <li>&#8220;ANC&#8221;, &#8220;Anoncoin&#8221;</li>
+    <li>&#8220;ANTI&#8221;, &#8220;Anti&#8221;</li>
+    <li>&#8220;ARCO&#8221;, &#8220;AquariusCoin&#8221;</li>
+    <li>&#8220;ARG&#8221;, &#8220;Argentum&#8221;</li>
+    <li>&#8220;REP&#8221;, &#8220;Augur&#8221;</li>
+    <li>&#8220;BATL&#8221;, &#8220;Battlestars&#8221;</li>
+    <li>&#8220;BIGUP&#8221;, &#8220;BigUp&#8221;</li>
+    <li>&#8220;BITAUD&#8221;, &#8220;BitAUD&#8221;</li>
+    <li>&#8220;BITCHF&#8221;, &#8220;BitCHF&#8221;</li>
+    <li>&#8220;BITCNY&#8221;, &#8220;BitCNY&#8221;</li>
+    <li>&#8220;BITEUR&#8221;, &#8220;BitEUR&#8221;</li>
+    <li>&#8220;BITGBP&#8221;, &#8220;BitGBP&#8221;</li>
+    <li>&#8220;BITHKD&#8221;, &#8220;BitHKD&#8221;</li>
+    <li>&#8220;BITNZD&#8221;, &#8220;BitNZD&#8221;</li>
+    <li>&#8220;BITSEK&#8221;, &#8220;BitSEK&#8221;</li>
+    <li>&#8220;BITSGD&#8221;, &#8220;BitSGD&#8221;</li>
+    <li>&#8220;SYNQ&#8221;, &#8220;BitSYNQ&#8221;</li>
+    <li>&#8220;BTS&#8221;, &#8220;BitShares&#8221;</li>
+    <li>&#8220;BITUSD&#8221;, &#8220;BitUSD&#8221;</li>
+    <li>&#8220;BLK&#8221;, &#8220;Blackcoin&#8221;</li>
+    <li>&#8220;BURST&#8221;, &#8220;Burstcoin&#8221;</li>
+    <li>&#8220;GBYTE&#8221;, &#8220;Byte&#8221;</li>
+    <li>&#8220;CLAM&#8221;, &#8220;Clams&#8221;</li>
+    <li>&#8220;CLOAK&#8221;, &#8220;CloakCoin&#8221;</li>
+    <li>&#8220;CMT&#8221;, &#8220;Comet&#8221;</li>
+    <li>&#8220;XCP&#8221;, &#8220;Counterparty&#8221;</li>
+    <li>&#8220;CRBIT&#8221;, &#8220;Creditbit&#8221;</li>
+    <li>&#8220;CRW&#8221;, &#8220;Crown&#8221;</li>
+    <li>&#8220;CBX&#8221;, &#8220;Crypto Bullion&#8221;</li>
+    <li>&#8220;DIBC&#8221;, &#8220;DIBCOIN&#8221;</li>
+    <li>&#8220;DNET&#8221;, &#8220;DarkNet&#8221;</li>
+    <li>&#8220;DASH&#8221;, &#8220;Dash&#8221;</li>
+    <li>&#8220;DCR&#8221;, &#8220;Decred&#8221;</li>
+    <li>&#8220;DGB&#8221;, &#8220;Digibyte&#8221;</li>
+    <li>&#8220;DRS&#8221;, &#8220;Digital Rupees&#8221;</li>
+    <li>&#8220;DGD&#8221;, &#8220;DigixDAO Tokens&#8221;</li>
+    <li>&#8220;DOGE&#8221;, &#8220;Dogecoin&#8221;</li>
+    <li>&#8220;DMC&#8221;, &#8220;DynamicCoin&#8221;</li>
+    <li>&#8220;EURT&#8221;, &#8220;EUR Tether&#8221;</li>
+    <li>&#8220;EMC&#8221;, &#8220;Emercoin&#8221;</li>
+    <li>&#8220;ESP&#8221;, &#8220;Espers&#8221;</li>
+    <li>&#8220;ENT&#8221;, &#8220;Eternity&#8221;</li>
+    <li>&#8220;ETH&#8221;, &#8220;Ether&#8221;</li>
+    <li>&#8220;ETC&#8221;, &#8220;Ether Classic&#8221;</li>
+    <li>&#8220;ERC&#8221;, &#8220;Europecoin&#8221;</li>
+    <li>&#8220;EGC&#8221;, &#8220;EverGreenCoin&#8221;</li>
+    <li>&#8220;FCT&#8221;, &#8220;Factom&#8221;</li>
+    <li>&#8220;FAIR&#8221;, &#8220;FairCoin&#8221;</li>
+    <li>&#8220;IOP&#8221;, &#8220;Fermat&#8221;</li>
+    <li>&#8220;FLO&#8221;, &#8220;FlorinCoin&#8221;</li>
+    <li>&#8220;GAME&#8221;, &#8220;GameCredits&#8221;</li>
+    <li>&#8220;GEMZ&#8221;, &#8220;Gemz&#8221;</li>
+    <li>&#8220;GRC&#8221;, &#8220;Gridcoin&#8221;</li>
+    <li>&#8220;GRS&#8221;, &#8220;Groestlcoin&#8221;</li>
+    <li>&#8220;NLG&#8221;, &#8220;Gulden&#8221;</li>
+    <li>&#8220;HODL&#8221;, &#8220;HOdlcoin&#8221;</li>
+    <li>&#8220;HNC&#8221;, &#8220;HunCoin&#8221;</li>
+    <li>&#8220;IOC&#8221;, &#8220;I/O Coin&#8221;</li>
+    <li>&#8220;JPYT&#8221;, &#8220;JPY Tether&#8221;</li>
+    <li>&#8220;JNS&#8221;, &#8220;Janus&#8221;</li>
+    <li>&#8220;JBS&#8221;, &#8220;Jumbucks&#8221;</li>
+    <li>&#8220;LBC&#8221;, &#8220;LBRY Credits&#8221;</li>
+    <li>&#8220;LTBC&#8221;, &#8220;LTBcoin&#8221;</li>
+    <li>&#8220;LSK&#8221;, &#8220;Lisk&#8221;</li>
+    <li>&#8220;LTC&#8221;, &#8220;Litecoin&#8221;</li>
+    <li>&#8220;MAID&#8221;, &#8220;MaidSafeCoin&#8221;</li>
+    <li>&#8220;MKR&#8221;, &#8220;Maker&#8221;</li>
+    <li>&#8220;MXT&#8221;, &#8220;MarteXcoin&#8221;</li>
+    <li>&#8220;MOIN&#8221;, &#8220;Moin&#8221;</li>
+    <li>&#8220;XMR&#8221;, &#8220;Monero&#8221;</li>
+    <li>&#8220;MT&#8221;, &#8220;Mycelium Token&#8221;</li>
+    <li>&#8220;XMY&#8221;, &#8220;Myriadcoin&#8221;</li>
+    <li>&#8220;XEM&#8221;, &#8220;NEM&#8221;</li>
+    <li>&#8220;NMC&#8221;, &#8220;Namecoin&#8221;</li>
+    <li>&#8220;NAV&#8221;, &#8220;Nav Coin&#8221;</li>
+    <li>&#8220;NEVA&#8221;, &#8220;Nevacoin&#8221;</li>
+    <li>&#8220;NBT&#8221;, &#8220;NuBits&#8221;</li>
+    <li>&#8220;NSR&#8221;, &#8220;NuShares&#8221;</li>
+    <li>&#8220;NXT&#8221;, &#8220;Nxt&#8221;</li>
+    <li>&#8220;OK&#8221;, &#8220;OKCash&#8221;</li>
+    <li>&#8220;888&#8221;, &#8220;OctoCoin&#8221;</li>
+    <li>&#8220;OMNI&#8221;, &#8220;Omni&#8221;</li>
+    <li>&#8220;OPAL&#8221;, &#8220;Opal&#8221;</li>
+    <li>&#8220;PIVX&#8221;, &#8220;PIVX&#8221;</li>
+    <li>&#8220;PASC&#8221;, &#8220;Pascal Coin&#8221;</li>
+    <li>&#8220;PPC&#8221;, &#8220;Peercoin&#8221;</li>
+    <li>&#8220;PINK&#8221;, &#8220;Pinkcoin&#8221;</li>
+    <li>&#8220;XPTX&#8221;, &#8220;PlatinumBar&#8221;</li>
+    <li>&#8220;PLU&#8221;, &#8220;Plutons&#8221;</li>
+    <li>&#8220;POST&#8221;, &#8220;PostCoin&#8221;</li>
+    <li>&#8220;POT&#8221;, &#8220;PotCoin&#8221;</li>
+    <li>&#8220;XPM&#8221;, &#8220;Primecoin&#8221;</li>
+    <li>&#8220;RADS&#8221;, &#8220;Radium&#8221;</li>
+    <li>&#8220;REALEST&#8221;, &#8220;RealEst. Coin&#8221;</li>
+    <li>&#8220;RDD&#8221;, &#8220;ReddCoin&#8221;</li>
+    <li>&#8220;XRP&#8221;, &#8220;Ripple&#8221;</li>
+    <li>&#8220;STEEM&#8221;, &#8220;STEEM&#8221;</li>
+    <li>&#8220;SFSC&#8221;, &#8220;Safe FileSystem Coin&#8221;</li>
+    <li>&#8220;SDC&#8221;, &#8220;ShadowCash&#8221;</li>
+    <li>&#8220;SHIFT&#8221;, &#8220;Shift&#8221;</li>
+    <li>&#8220;SC&#8221;, &#8220;Siacoin&#8221;</li>
+    <li>&#8220;SF&#8221;, &#8220;Siafund&#8221;</li>
+    <li>&#8220;SIB&#8221;, &#8220;Sibcoin&#8221;</li>
+    <li>&#8220;SMLY&#8221;, &#8220;Smileycoin&#8221;</li>
+    <li>&#8220;SLR&#8221;, &#8220;SolarCoin&#8221;</li>
+    <li>&#8220;STEEMUSD&#8221;, &#8220;Steem Dollars&#8221;</li>
+    <li>&#8220;XLM&#8221;, &#8220;Stellar Lumens&#8221;</li>
+    <li>&#8220;SJCX&#8221;, &#8220;StorjcoinX&#8221;</li>
+    <li>&#8220;STRAT&#8221;, &#8220;Stratis&#8221;</li>
+    <li>&#8220;SWT&#8221;, &#8220;Swarm City Token&#8221;</li>
+    <li>&#8220;SYNX&#8221;, &#8220;Syndicate&#8221;</li>
+    <li>&#8220;AMP&#8221;, &#8220;Synereo&#8221;</li>
+    <li>&#8220;TRI&#8221;, &#8220;Triangles&#8221;</li>
+    <li>&#8220;USDT&#8221;, &#8220;USD Tether&#8221;</li>
+    <li>&#8220;UNO&#8221;, &#8220;Unobtanium&#8221;</li>
+    <li>&#8220;VCN&#8221;, &#8220;VCoin&#8221;</li>
+    <li>&#8220;VPN&#8221;, &#8220;VPNCoin&#8221;</li>
+    <li>&#8220;XVG&#8221;, &#8220;Verge&#8221;</li>
+    <li>&#8220;VRC&#8221;, &#8220;VeriCoin&#8221;</li>
+    <li>&#8220;WAVES&#8221;, &#8220;Waves&#8221;</li>
+    <li>&#8220;WDC&#8221;, &#8220;Worldcoin&#8221;</li>
+    <li>&#8220;XAUR&#8221;, &#8220;Xaurum&#8221;</li>
+    <li>&#8220;YACC&#8221;, &#8220;YACCoin&#8221;</li>
+    <li>&#8220;YBC&#8221;, &#8220;YbCoin&#8221;</li>
+    <li>&#8220;ZEC&#8221;, &#8220;Zcash&#8221;</li>
+    <li>&#8220;XZC&#8221;, &#8220;Zcoin&#8221;</li>
+  </ul>
+</ul>
+
+<p><a name="add_altcoin"></a><strong>如何让我喜欢的数字货币得到支持?</strong></p>
+<p>请到
+  <a href="https://forum.bitsquare.io/t/how-to-add-your-favorite-altcoin" target="_blank">论坛</a>阅读我们的要求和流程.</p>
+
+<h2>交易细节</h2>
+
+<p><a name="3"></a><strong>我什么时候能买卖比特币?</strong></p>
+<p>主干网络测试版本运行中</p>
+<p>所有Bisq用户最初都会有 1 比特币交易限制，这个限制以后会放宽.</p>
+
+<p><a name="4"></a><strong>Bisq如何保护我的隐私?</strong></p>
+<p>只有您的交易对象(和您选定的仲裁员在处理纠纷时) 才能看到您的支付信息详情. 加密并签署的数据交互. Bisq 使用构建在Tor隐匿服务器之上的P2P网络,提供高规格的匿名性. 用户无需设置任何内容，所有这些都集成到应用程序中.</p>
+
+<p><a name="5"></a><strong>交易一次需要多久?</strong></p>
+<p>您的交易期限将由您和您的贸易对象使用的货币转账时间决定. 法定货币转账可能即时到账 (支付宝/Alipay) 也可能需要几天 (SEPA). 比特币交易可能需要10分钟，因为交易完成需要至少从比特币网络确认一次.</p>
+
+<p><a name="6"></a><strong>在Bisq上交易需要多少费用?</strong></p>
+<p>
+发布委托和下单的交易费不同。<br/>
+  发布委托的费用根据交易总额和与交易所价偏差值计算.<br/>
+  最小费用 (MinFee) = 0.0002 BTC, 默认费用 (DefFee) = 0.002 BTC/每个比特币, 市场价格因素（MF）=百分比值的平方根（例如1％ - > 1,9％ - > 3,0.01％ - > 0.1）。<br/>
+  发布委托的费用 = max(MinFee, DefFee * amount * MF). 例如： 交易 1 BTC 交易所价偏差值 1% 费用 0.002 BTC .<br/>
+  下单费用取决于交易金额.<br/>
+  最小费用 (MinFee) = 0.0003 BTC, 默认费用 (DefFee) = 0.003 BTC/每个比特币.<br/>
+  下单费用 = max(MinFee, DefFee * amount). 例如： 交易 1 BTC 费用 0.003 BTC.
+</p>
+
+<p><a name="openOffer"></a><strong>为什么挂单后需要保持应用程序一直保持在线?</strong></p>
+<p>如果您已经发布了一个委托，您的Bisq应用程序需要保持在线状态，以便在另一个交易者想要对您的委托下单的时候做出反应. 多重签名保证金交易是在下单过程中产生的. 确保您已关闭计算机的待机模式, 否则您的Bisq应用程序会丢失互联网连接 (显示器待机不是问题). 如果您关闭了应用程序，那么您的委托将从分发的委托列表中移除，因此其他交易者对它不可下单. 再次启用Bisq后将重新发布.</p>
+
+<p><a name="editOffer"></a><strong>如何编辑我的委托单?</strong></p>
+<p>目前一旦发布您无法编辑委托单. 但您可以使用基于百分比的价格定价，以便您的价格将跟随市场价格 (我们价格引用 BitcoinAverage 作为法定货币，数字货币价格引用 Poloniex ).例如：您设置一个低于市场价1%的购买委托,这个价格会随着交易所价格变动 (大概 90 秒) 当交易者对您的委托下单时，会根据交易所价格减去1%.</p>
+
+<p><a name="7"></a><strong>银行是否知道我购买比特币?</strong></p>
+<p>有报道说，有些银行在看到客户有涉及比特币活动时会关闭账户.</p>
+<p>用于与Bisq进行交易的银行转帐的参考文本将仅包含Bisq交易ID（这是随机的字符序列，如许多其他购买ID）. 交易者不得使用除了交易ID以外的任何转账信息否则将视为违约, 这将导致纠纷.</p>
+<p>为避免出现问题，我们建议您设置专门的银行账户，以购买和销售比特币. 如果银行要阻止这个账户, 您面临的问题相对银行阻止您的主要帐户来说要小很多.</p>
+<p>不要在主题中提及除交易参考之外的其他事项.</p>
+
+<h2>解决纠纷</h2>
+
+<p><a name="8"></a><strong>仲裁员是什么?</strong></p>
+<p>仲裁员是一个真正的人，可以解决在交易中可能发生的任何纠纷。
+  <a href="/docs/exchange/arbitration-system" target="_blank">Bisq的仲裁员</a> 需要支付高保证金, 确保公平的评估，防止与交易者的勾结.
+</p>
+<p>初始, 交易者会列出选定的仲裁员. 当发生交易时,随机选中交易双方的选定的仲裁员列表交叉中的一位仲裁员. 交易者接受的仲裁员越多，他可以获得的交易越多.</p>
+<p>注意: 此时, 完全分散的仲裁制度尚未开发. 当前引导阶段为信赖仲裁员封闭群体接管. 一旦完全去中心化系统实施，这一切将会改变.</p>
+
+<p><a name="9"></a><strong>仲裁流程如何进行?</strong></p>
+<p>如果交易者A未能在规定的时间内确认收到国家货币转账(例如：SEPA 六天内,支付宝 一天内, etc.),联系仲裁员的按钮将会出现在两个交易者界面上. 交易者B就可以向仲裁员提交证据, 实际上, 法定货币已经汇出. 另外, 如果交易者B从未汇出过法定货币,交易人A将能够向仲裁员提交证据，从未收到资金. 提交的证据应使用以下两种方式加密安全
+  <a href="https://tlsnotary.org/" target="_blank">PageSigner</a>或数字签名的银行对账单. 如果这些方法不行,将调用更多传统途径。
+</p>
+<p>仲裁员支持适当的一方与买家或卖家签署2-of-3多重签名地址.</p>
+
+<p><a name="10"></a><strong>如何阻止仲裁员和交易者的勾结?</strong></p>
+<p>如上所述，仲裁人必须支付高额的保证金，高于 1 比特币的交易限额. 如果交易双方不赞同仲裁员纠纷的解决方式, 他们中的任何一方都可以要求进行第二轮仲裁.</p>
+<p>在这种情况下，Bisq系统将从最高评级的仲裁员中选择仲裁员. 如果发现串通事件发生,行为不端的仲裁员将失去保证金. 这使仲裁员造成重大损失, 因为她的保证金比她不诚实的行为更多.</p>
+
+<p><a name="11"></a><strong>如果比特币已经发送给买家，但卖家申请国内银行退款将会怎么样?</strong> </p>
+<p>我们只支持不容易撤回的支付方式 (即 我们不支持 Paypal). 但银行仍然有一定的撤回风险. 如果数字货币发送后对方银行撤回资金, 那仲裁员也对此无济于事.</p>
+<p>Bisq使用
+  <a href="/docs/exchange/risk-analysis" target="_blank">三个主要机制</a>的目的是尽量让它不吸引人:</p>
+<p style="padding-left: 30px;">1. 一个比特币的交易限额通常太小，无法吸引犯罪分子（尽管今后可能会解除这个限制）.</p>
+<p style="padding-left: 30px;">2. 我们将删除被认定可申请撤回资金的国家货币付款方式.</p>
+<p style="padding-left: 30px;">3. Bisq通过“锁定时间”功能支持延迟付款，如果撤回资金在转账后快速完成，可能会有所帮助。</p>
+
+<p><a name="12"></a><strong>为什么不弄个交易者信誉系统替代仲裁系统?</strong>
+</p>
+<p>纯粹的信誉系统没有仲裁选项是脆弱的保护系统,因为您永远无法避免
+  <a href="https://baike.baidu.com/item/Sybil Attack" target="_blank">sybil</a> 或
+  <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">欺诈骗局</a> .</p>
+
+<p><a name="13"></a><strong>我是否能成为仲裁员?</strong></p>
+<p>一旦制定了开放和分散的仲裁程序，任何人都可以成为仲裁员。 在目前的状态下，它只对被信任的开发者开放.</p>
+
+<h2>杂项</h2>
+
+<p><a name="14"></a><strong>如果我没有比特币，我怎么才能拥有足够有第一次交易的保证金?</strong></p>
+<p>我们意识到0.01 BTC的保证金会是比特币新手的一个阻碍，但是Bisq的目标用户群是已经进入币圈的人.</p>
+<p>保证金机制让Bisq远离欺诈和滥用. 我们时刻探索着一个可能的方案,让比特币新手首次交易不需要保证金.</p>
+<p>比特币可以通过许多渠道购买: 朋友或家庭，比特币聚会，比特币ATM机, LocalBitcoins, Mycelium LocalTrader, 或任何一个中心化交易所.</p>
+
+<p><a name="15"></a><strong>Bisq支持 ‘XXX’ 支付方式吗?</strong></p>
+<p>Bisq将支持各种法定货币的付款方式. 标准就是安全并无法撤回的, 并且允许仲裁员查看交易的证据 (优不显示交易者的个人识别信息的方式优先).</p>
+<p>我们需要不同地区用户的帮助来收集各种付款方式的数据. 向我们的 <a href="https://docs.google.com/document/d/1iQHhtAOieu5i6_2rvkvtcLS70A991aZlxkJgzv97XuU" target="_blank">文档</a> 或 <a href="https://docs.google.com/spreadsheets/d/1xiOqcBSInIF7ozWdN3DvM5O-nyZ-397G9MR8LOXs6iA/edit#gid=0" target="_blank">电子表格</a> 贡献您的知识帮助Bisq纳入更多的付款方式 </p>
+
+<p><a name="17"></a><strong>在软件出现错误的情况下会发生什么?</strong></p>
+<p>假如Bisq应用程序意识到出现软件错误,它会显示一个“帮助话题”按钮。. 您的仲裁员会转交您的错误报告给开发人员，他将开始调查问题。 您可能会被索要
+  <a href="https://github.com/bisq-network/exchange/wiki/Guilde-for-testing-Bisq#bug-reports">日志文件</a> 协助调查.
+</p>
+<p>如果按钮没有出现，等待您的交易期到期。届时创建一个纠纷给您的仲裁员, 阐述软件的问题. 解决软件造成的问题不会产生仲裁费.</p>
+
+<p><a name="18"></a><strong>比特币多重签名地址是什么?</strong></p>
+<p>“<a href="http://bitcoinmagazine.com/11108/multisig-future-bitcoin/" target="_blank">多重签名</a>,” 是内置与比特币的一个简单版本的智能合约. 一个多重签名地址会生成多个公钥并指定这些地址有多少必须签署后才能释放的资金.</p>
+<p>Bisq使用 2-of-3 多重签名地址.. 这意味着使用三个公钥去创建支付地址(买家的, 卖家的,仲裁员的), 交易双方必须签署确定才能释放资金.一个典型的交易流程是交易双方都有确定释放资金给对方.  但如果有纠纷, 仲裁员将介入与买方或卖方一起交易，两个公钥将会释放资金给相关方.</p>
+
+<p><a name="19"></a><strong>我有一个这里没有提到的问题?</strong></p>
+<p>请 <a href="{{ site.baseurl }}/contact/">联系我们</a> 并直接提出您的问题.</p>

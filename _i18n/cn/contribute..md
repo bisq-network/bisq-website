@@ -1,8 +1,4 @@
----
-layout: page
-title: 为 Bisq 作贡献&lsaquo; Bisq - 去中心化交易所
-banner: /images/contribute.png
----
+
 # 为 Bisq 作贡献
 
 <img class="alignright size-full wp-image-116" src="/images/bitsquare-donate-icon.png" alt="bitsquare-donate-icon" width="253" height="253" srcset="/images/bitsquare-donate-icon.png 253w, /images/bitsquare-donate-icon-150x150.png 150w, /images/bitsquare-donate-icon-250x250.png 250w" sizes="(max-width: 253px) 100vw, 253px"/>

@@ -1,8 +1,4 @@
----
-layout: page
-title: DAO &lsaquo; Bisq - 去中心化交易所
-banner: /images/community.png
----
+
 # The Bisq DAO
 
 权利下放组织

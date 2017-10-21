@@ -1,8 +1,4 @@
----
-layout: page
-title: Press &lsaquo; Bisq - The decentralized bitcoin exchange
-banner: /images/press.png
----
+
 # Press
 
 Writing a story about Bisq? Or looking for an interview? Please contact the Bisq team directly with a brief overview of your idea so we can put you in touch with the best person:

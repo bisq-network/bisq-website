@@ -1,8 +1,4 @@
----
-layout: page
-title: 信条 &lsaquo; Bisq - 去中心化交易所
-banner: /images/philosophy.png
----
+
 # 信条
 
 <a href="https://github.com/bisq-network/docs/blob/master/exchange/whitepaper.adoc"><img class="alignnone wp-image-80 size-full" style="float: right; padding: 20px;" src="/images/whitepaper-icon1.png" alt="" width="253" height="253" srcset="/images/whitepaper-icon1.png 253w, /images/whitepaper-icon1-150x150.png 150w, /images/whitepaper-icon1-250x250.png 250w" sizes="(max-width: 253px) 100vw, 253px"/></a>

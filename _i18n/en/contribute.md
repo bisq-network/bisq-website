@@ -1,8 +1,4 @@
----
-layout: page
-title: Contribute to Bisq &lsaquo; Bisq - The decentralized bitcoin exchange
-banner: /images/contribute.png
----
+
 # Contribute to Bisq
 
 <img class="alignright size-full wp-image-116" src="/images/bitsquare-donate-icon.png" alt="bitsquare-donate-icon" width="253" height="253" srcset="/images/bitsquare-donate-icon.png 253w, /images/bitsquare-donate-icon-150x150.png 150w, /images/bitsquare-donate-icon-250x250.png 250w" sizes="(max-width: 253px) 100vw, 253px"/>
@@ -41,4 +37,3 @@ _**Note:** Donations to Bisq are not tax deductable as we are not formally regis
 <br>
 
 Please don't hesitate to [get in touch](/contact/) if you can think of other ways you can help with the Bisq project.
-

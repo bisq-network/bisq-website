@@ -1,7 +1,4 @@
----
-layout: page
-title: Finances &lsaquo; Bisq - The decentralized bitcoin exchange
----
+
 # Finances
 
 With Bisq we try to keep our expenses down! Our main expense is the time of our [DAO](/dao/) and that isn't reflected in the figures below but future payments to developers from the crowdfunding fund will be listed here as well. This page keeps track of hard costs that have been incurred to date. Due to the distributed nature of our team the expenses are in various currencies.

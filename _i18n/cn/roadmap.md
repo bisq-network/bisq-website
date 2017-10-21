@@ -1,8 +1,4 @@
----
-layout: page
-title: 路线图 &lsaquo; Bisq - 去中心化交易所
-banner: /images/roadmap1.png
----
+
 # 路线图
 
 Bisq路线图是一个会更新的文件，分享了Bisq团队的愿景和我们当前的发展重点。 该路线图旨在提供某些功能何时可用的想法。

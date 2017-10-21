@@ -1,8 +1,4 @@
----
-layout: page
-title: 新闻 &lsaquo; Bisq - 去中心化交易所
-banner: /images/press.png
----
+
 # 新闻
 
 写一篇关于Bisq的故事？ 还是寻找面试？ 请直接与Bisq团队联系，简要概述您的想法，以便我们能够安排合适的人员联系：

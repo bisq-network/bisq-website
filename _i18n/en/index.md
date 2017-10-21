@@ -1,8 +1,3 @@
----
-layout: page
-title: Bisq - The P2P exchange network
-banner: /images/bitsquare-home2.jpg
----
 
 <iframe src="https://player.vimeo.com/video/113838717" width="704" height="396" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 

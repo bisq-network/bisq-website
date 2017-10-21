@@ -1,8 +1,4 @@
----
-layout: page
-title: 社区 &lsaquo; Bisq - 去中心化交易所
-banner: /images/community.png
----
+
 # 社区
 
 Bisq是[Manfred Karrer](https://plus.google.com/106046176723553419722/posts)于2014年初开始制作验证他概念的原型。 自2014年7月以来，Bisq周围的社区稳步发展。 社区正在帮助分配工作量，加快应用程序开发，并照顾构建本网站等非核心任务。

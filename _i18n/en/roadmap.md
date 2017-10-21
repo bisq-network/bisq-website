@@ -1,8 +1,4 @@
----
-layout: page
-title: Roadmap &lsaquo; Bisq - The decentralized bitcoin exchange
-banner: /images/roadmap1.png
----
+
 # Roadmap
 
 The Bisq Roadmap is a living document that shares the Bisq Team's vision and our current development priorities. This Roadmap is intended to provide an idea of when certain features are likely to become available.

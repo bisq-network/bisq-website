@@ -1,11 +1,4 @@
----
-layout: page
-title: Community &lsaquo; Bisq - The decentralized bitcoin exchange
-namespace: community
-permalink: /community/
-permalink_cn: /community/
-banner: /images/community.png
----
+
 # Community
 
 Bisq started in early 2014 as a proof of concept prototype by [Manfred Karrer](https://plus.google.com/106046176723553419722/posts). Since July 2014 the community around Bisq has steadily been growing. The community is helping to distribute the work load, speed up application development and take care of non-core tasks like building this website.

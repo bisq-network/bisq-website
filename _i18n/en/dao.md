@@ -1,8 +1,4 @@
----
-layout: page
-title: DAO &lsaquo; Bisq - The decentralized bitcoin exchange
-banner: /images/community.png
----
+
 # The Bisq DAO
 
 Decentralized autonomous organization

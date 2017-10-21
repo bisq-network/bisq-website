@@ -1,6 +1,8 @@
 ---
 layout: page
 title: titles.home
+namespace: home
+permalink:  /
 banner: /images/bitsquare-home2.jpg
 ---
 

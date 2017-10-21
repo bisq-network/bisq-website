@@ -2,8 +2,7 @@
 layout: page
 title: titles.community
 namespace: community
-permalink: /community/
-permalink_cn: /community/
+permalink:  /community/
 banner: /images/community.png
 ---
 

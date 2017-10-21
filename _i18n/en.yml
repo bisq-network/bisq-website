@@ -1,6 +1,7 @@
 global:
   subtitle: The P2P exchange network
   home: Home
+  &titles
   markets: Markets
   philosophy: Philosophy
   community: Community
@@ -20,4 +21,4 @@ langs:
 
 titles:
   home: Bisq
-  work: Work
+  <<: *titles

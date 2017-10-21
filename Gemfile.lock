@@ -27,6 +27,8 @@ GEM
     jekyll-livereload (0.2.2)
       em-websocket (~> 0.5)
       jekyll (~> 3.0)
+    jekyll-multiple-languages-plugin (1.5.1)
+      jekyll (>= 2.0, < 4.0)
     jekyll-redirect-from (0.12.1)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
@@ -62,8 +64,9 @@ DEPENDENCIES
   jekyll (~> 3.5.1)
   jekyll-feed
   jekyll-livereload
+  jekyll-multiple-languages-plugin
   jekyll-redirect-from
   jekyll-sitemap
 
 BUNDLED WITH
-   1.15.3
+   1.15.4

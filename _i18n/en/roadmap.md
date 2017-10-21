@@ -3,7 +3,7 @@
 
 The Bisq Roadmap is a living document that shares the Bisq Team's vision and our current development priorities. This Roadmap is intended to provide an idea of when certain features are likely to become available.
 
-This Roadmap might change at any time, especially in response to [Community](/community/) feedback.
+This Roadmap might change at any time, especially in response to [Community]({{ site.baseurl }}/community/) feedback.
 
 ## Planned milestones
 

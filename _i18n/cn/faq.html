@@ -227,64 +227,64 @@
 <h2>交易细节</h2>
 
 <p><a name="3"></a><strong>我什么时候能买卖比特币?</strong></p>
-<p>The mainnet-enabled beta version is live.</p>
-<p>There will initially be a one-bitcoin trade limit for all Bisq users. This limit may be relaxed in the future.</p>
+<p>主干网络测试版本运行中</p>
+<p>所有Bisq用户最初都会有 1 比特币交易限制，这个限制以后会放宽.</p>
 
 <p><a name="4"></a><strong>Bisq如何保护我的隐私?</strong></p>
-<p>Only your trading partner (and your selected arbitrator in case of a dispute) can ever see your payment information details. The data exchanged between users is encrypted and signed. Bisq uses a P2P network built on top of Tors hidden services and provide the high level of anonymity Tor offers. The user doesn&#8217;t need to setup anything &#8211; all is integrated in the application.</p>
+<p>只有您的交易对象(和您选定的仲裁员在处理纠纷时) 才能看到您的支付信息详情. 加密并签署的数据交互. Bisq 使用构建在Tor隐匿服务器之上的P2P网络,提供高规格的匿名性. 用户无需设置任何内容，所有这些都集成到应用程序中.</p>
 
 <p><a name="5"></a><strong>交易一次需要多久?</strong></p>
-<p>Your trade duration will be determined by the transfer times of the currencies you and your trade partner use. National currency transfers can be instant (OkPay) or can take days (SEPA). Bitcoin transactions can take up to 10 minutes, as at least one confirmation from the Bitcoin network is required for a trade to complete.</p>
+<p>您的交易期限将由您和您的贸易对象使用的货币转账时间决定. 法定货币转账可能即时到账 (支付宝/Alipay) 也可能需要几天 (SEPA). 比特币交易可能需要10分钟，因为交易完成需要至少从比特币网络确认一次.</p>
 
 <p><a name="6"></a><strong>在Bisq上交易需要多少费用?</strong></p>
 <p>
-The trading fees for the offer maker and for the taker are calculated differently.<br/>
-  The trading fees for the offer maker is based on trade amount and distance to market price.<br/>
-  Min. fee (MinFee) = 0.0002 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% -> 3, 0.01% -> 0.1).<br/>
-  Makers trading fee = max(MinFee, DefFee * amount * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance.<br/>
-  The trading fees for the offer taker depends only on the the trade amount.<br/>
-  Min. fee (MinFee) = 0.0003 BTC, default fee (DefFee) = 0.003 BTC/per Bitcoin.<br/>
-  Takers trading fee = max(MinFee, DefFee * amount). E.g. 0.003 BTC for 1 BTC trade.
+发布委托和下单的交易费不同。<br/>
+  发布委托的费用根据交易总额和与交易所价偏差值计算.<br/>
+  最小费用 (MinFee) = 0.0002 BTC, 默认费用 (DefFee) = 0.002 BTC/每个比特币, 市场价格因素（MF）=百分比值的平方根（例如1％ - > 1,9％ - > 3,0.01％ - > 0.1）。<br/>
+  发布委托的费用 = max(MinFee, DefFee * amount * MF). 例如： 交易 1 BTC 交易所价偏差值 1% 费用 0.002 BTC .<br/>
+  下单费用取决于交易金额.<br/>
+  最小费用 (MinFee) = 0.0003 BTC, 默认费用 (DefFee) = 0.003 BTC/每个比特币.<br/>
+  下单费用 = max(MinFee, DefFee * amount). 例如： 交易 1 BTC 费用 0.003 BTC.
 </p>
 
 <p><a name="openOffer"></a><strong>为什么挂单后需要保持应用程序一直保持在线?</strong></p>
-<p>If you have published an offer your Bisq application need to stay online so it is able to react in the case when another trader wants to take your offer. The MultiSig depost transaction is created in that take-offer process. Be sure you have deactivated your computers standby mode, otherwise your Bisq application lose the internet connection (monitor standby is not a problem). If you shut down the application your offer gets removed from the distributed offerbook as it would become unavailable for others. After starting Bisq again your offer gets re-published.</p>
+<p>如果您已经发布了一个委托，您的Bisq应用程序需要保持在线状态，以便在另一个交易者想要对您的委托下单的时候做出反应. 多重签名保证金交易是在下单过程中产生的. 确保您已关闭计算机的待机模式, 否则您的Bisq应用程序会丢失互联网连接 (显示器待机不是问题). 如果您关闭了应用程序，那么您的委托将从分发的委托列表中移除，因此其他交易者对它不可下单. 再次启用Bisq后将重新发布.</p>
 
 <p><a name="editOffer"></a><strong>如何编辑我的委托单?</strong></p>
-<p>At the moment you cannot edit an offer once it is published. But you can use the percentage based price so your price will stick with the market price (we use BitcoinAverage for fiat and Poloniex for altcoins). E.g. If you set your percentage price to 1% below the market price for a buy offer, the price will update with every market price update (about 90 sec.) and when a trader takes your offer the actual marketprice minus 1% will be used.</p>
+<p>目前一旦发布您无法编辑委托单. 但您可以使用基于百分比的价格定价，以便您的价格将跟随市场价格 (我们价格引用 BitcoinAverage 作为法定货币，数字货币价格引用 Poloniex ).例如：您设置一个低于市场价1%的购买委托,这个价格会随着交易所价格变动 (大概 90 秒) 当交易者对您的委托下单时，会根据交易所价格减去1%.</p>
 
 <p><a name="7"></a><strong>银行是否知道我购买比特币?</strong></p>
-<p>There have been reports that some banks have closed client accounts when they see that there is Bitcoin activity involved.</p>
-<p>The reference text of the bank transfer used to trade with Bisq will include only the Bisq trade ID (which is a random sequence of characters, like many other purchase IDs). Any trader that is not using the exact ID number as reference text of a bank transfer is considered in breach of contract, which will result in dispute resolution.</p>
-<p>To avoid problems we recommend setting up a dedicated bank account for buying and selling bitcoins. If the bank were to block this account, it would cause fewer problems for you than if the bank were to block your primary account.</p>
-<p>Never mention anything else than the trade reference in the subject field.</p>
+<p>有报道说，有些银行在看到客户有涉及比特币活动时会关闭账户.</p>
+<p>用于与Bisq进行交易的银行转帐的参考文本将仅包含Bisq交易ID（这是随机的字符序列，如许多其他购买ID）. 交易者不得使用除了交易ID以外的任何转账信息否则将视为违约, 这将导致纠纷.</p>
+<p>为避免出现问题，我们建议您设置专门的银行账户，以购买和销售比特币. 如果银行要阻止这个账户, 您面临的问题相对银行阻止您的主要帐户来说要小很多.</p>
+<p>不要在主题中提及除交易参考之外的其他事项.</p>
 
 <h2>解决纠纷</h2>
 
 <p><a name="8"></a><strong>仲裁员是什么?</strong></p>
-<p>An arbitrator is a real person who finds solutions to any disputes that may occur during a trade.
-  <a href="/docs/exchange/arbitration-system" target="_blank">Bisq&#8217;s arbitrators</a> must pay high security deposits, which ensure fair evaluations and prevent collusion with traders.
+<p>仲裁员是一个真正的人，可以解决在交易中可能发生的任何纠纷。
+  <a href="/docs/exchange/arbitration-system" target="_blank">Bisq的仲裁员</a> 需要支付高保证金, 确保公平的评估，防止与交易者的勾结.
 </p>
-<p>Initially, traders make a list of arbitrators they approve. When a new trade is initiated, an arbitrator is randomly selected from among the traders&#8217; overlapping, approved selections. The more arbitrators a trader accepts, the more trades will be available to him.</p>
-<p>Note: At this time, a fully decentralized arbitration system is not yet developed. The current bootstrapping phase instead uses a closed group of trusted arbitrators. This will change as soon the fully decentralized system is implemented.</p>
+<p>初始, 交易者会列出选定的仲裁员. 当发生交易时,随机选中交易双方的选定的仲裁员列表交叉中的一位仲裁员. 交易者接受的仲裁员越多，他可以获得的交易越多.</p>
+<p>注意: 此时, 完全分散的仲裁制度尚未开发. 当前引导阶段为信赖仲裁员封闭群体接管. 一旦完全去中心化系统实施，这一切将会改变.</p>
 
 <p><a name="9"></a><strong>仲裁流程如何进行?</strong></p>
-<p>If Trader A fails to confirm the receipt of a national currency transfer within the allotted time (e.g. six days for SEPA, one day for OKPay, etc.), a button to contact the arbitrator will appear to both traders. Trader B will then be able to submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if Trader B never sent the national currency, Trader A will be able to submit evidence to the arbitrator that the funds were never received. Submitted evidence should be cryptographically secure using either
-  <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be deployed.
+<p>如果交易者A未能在规定的时间内确认收到国家货币转账(例如：SEPA 六天内,支付宝 一天内, etc.),联系仲裁员的按钮将会出现在两个交易者界面上. 交易者B就可以向仲裁员提交证据, 实际上, 法定货币已经汇出. 另外, 如果交易者B从未汇出过法定货币,交易人A将能够向仲裁员提交证据，从未收到资金. 提交的证据应使用以下两种方式加密安全
+  <a href="https://tlsnotary.org/" target="_blank">PageSigner</a>或数字签名的银行对账单. 如果这些方法不行,将调用更多传统途径。
 </p>
-<p>The arbitrator will side with buyer or seller and sign the 2-of-3 multisignature address in favor of the appropriate party.</p>
+<p>仲裁员支持适当的一方与买家或卖家签署2-of-3多重签名地址.</p>
 
 <p><a name="10"></a><strong>如何阻止仲裁员和交易者的勾结?</strong></p>
-<p>As outlined above, arbitrators must pay a high security deposit to become such – higher than the one-bitcoin trade limit. If an arbitrator&#8217;s dispute resolution is not agreed to by both traders, a second round of arbitration can be requested by either of them.</p>
-<p>The Bisq system in this case will then select an arbitrator from among the highest-rated arbitrators. If collusion is found to have taken place, the misbehaving arbitrator will lose her deposit. This puts the arbitrator at a significant loss, as her security deposit was more than she made by being dishonest.</p>
+<p>如上所述，仲裁人必须支付高额的保证金，高于 1 比特币的交易限额. 如果交易双方不赞同仲裁员纠纷的解决方式, 他们中的任何一方都可以要求进行第二轮仲裁.</p>
+<p>在这种情况下，Bisq系统将从最高评级的仲裁员中选择仲裁员. 如果发现串通事件发生,行为不端的仲裁员将失去保证金. 这使仲裁员造成重大损失, 因为她的保证金比她不诚实的行为更多.</p>
 
 <p><a name="11"></a><strong>如果比特币已经发送给买家，但卖家申请国内银行退款将会怎么样?</strong> </p>
 <p>我们只支持不容易撤回的支付方式 (即 我们不支持 Paypal). 但银行仍然有一定的撤回风险. 如果数字货币发送后对方银行撤回资金, 那仲裁员也对此无济于事.</p>
-<p>Bisq&#8217;s goal is to make this scenario as unattractive as possible, using
-  <a href="/docs/exchange/risk-analysis" target="_blank">three primary mechanisms</a>:</p>
-<p style="padding-left: 30px;">1. There is a trade limit of one bitcoin, which is generally too small to attract criminals (though this limit may be lifted in the future).</p>
-<p style="padding-left: 30px;">2. We will remove national currency payment methods which are found to be used for chargebacks.</p>
-<p style="padding-left: 30px;">3. Bisq has support for delayed payouts using the “locktime” feature, which might help if the chargeback is done quickly after the transfer.</p>
+<p>Bisq使用
+  <a href="/docs/exchange/risk-analysis" target="_blank">三个主要机制</a>的目的是尽量让它不吸引人:</p>
+<p style="padding-left: 30px;">1. 一个比特币的交易限额通常太小，无法吸引犯罪分子（尽管今后可能会解除这个限制）.</p>
+<p style="padding-left: 30px;">2. 我们将删除被认定可申请撤回资金的国家货币付款方式.</p>
+<p style="padding-left: 30px;">3. Bisq通过“锁定时间”功能支持延迟付款，如果撤回资金在转账后快速完成，可能会有所帮助。</p>
 
 <p><a name="12"></a><strong>为什么不弄个交易者信誉系统替代仲裁系统?</strong>
 </p>

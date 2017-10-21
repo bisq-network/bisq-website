@@ -1,7 +1,5 @@
-global:
-  subtitle: The P2P exchange network
-  home: Home
-  --&titles
+titles: &titles
+  home: Bisq
   markets: Markets
   philosophy: Philosophy
   community: Community
@@ -15,10 +13,12 @@ global:
   dao: DAO
   contact: Contact
 
+global:
+  subtitle: The P2P exchange network
+  home: Home
+  <<: *titles
+
 langs:
   cn: 简体中文
   en: English
 
-titles:
-  home: Bisq
-  <<: *titles

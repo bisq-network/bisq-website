@@ -562,4 +562,4 @@ Released [December 11th 2014](https://github.com/bitsquare/bitsquare/releases/ta
  - P2P network works with port forwarding (automatic or manual)
  - Binaries for all OS
 
-You can help speed up our progress by [contributing](/contribute/) to Bisq.
+You can help speed up our progress by [contributing]({{ site.baseurl }}/contribute/) to Bisq.

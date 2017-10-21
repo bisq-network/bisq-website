@@ -1,7 +1,7 @@
 
 # Finances
 
-With Bisq we try to keep our expenses down! Our main expense is the time of our [DAO](/dao/) and that isn't reflected in the figures below but future payments to developers from the crowdfunding fund will be listed here as well. This page keeps track of hard costs that have been incurred to date. Due to the distributed nature of our team the expenses are in various currencies.
+With Bisq we try to keep our expenses down! Our main expense is the time of our [DAO]({{ site.baseurl }}/dao/) and that isn't reflected in the figures below but future payments to developers from the crowdfunding fund will be listed here as well. This page keeps track of hard costs that have been incurred to date. Due to the distributed nature of our team the expenses are in various currencies.
 
 ## Expenses
 <table style="margin-top: 0.5em;" width="100%">
@@ -53,7 +53,7 @@ With Bisq we try to keep our expenses down! Our main expense is the time of our 
 
 We have paid out on March 7th, 2015 the funds of all 3 donation addresses to cover expenses and development efforts.
 
-Are you in a position to help us with our expenses? Please consider [contributing](/contribute/) with a donation.
+Are you in a position to help us with our expenses? Please consider [contributing]({{ site.baseurl }}/contribute/) with a donation.
 
 Donation addresses used so far:
 

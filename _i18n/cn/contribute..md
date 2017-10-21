@@ -30,7 +30,7 @@ Bisq是一个完全由志愿者提供的开源项目。本着开源的精神，�
     <small>1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7</small>
   </a>
 </div>
-通过向我们的捐赠钱包捐赠比特币，您将帮助Bisq支付我们的网站托管，域名，SSL证书，Vimeo帐户等[直接费用](/finances/)。 所以，如果您支持这个项目，并能够帮助我们，那将是美好的。
+通过向我们的捐赠钱包捐赠比特币，您将帮助Bisq支付我们的网站托管，域名，SSL证书，Vimeo帐户等[直接费用]({{ site.baseurl }}/finances/)。 所以，如果您支持这个项目，并能够帮助我们，那将是美好的。
 
 _**Note:** 对Bisq的捐款不得抵扣税，因为我们没有在任何政府的管辖区正式注册。 与此同时，我们不接受其他数字货币的捐款。 如果您将它们转换为比特币并以这种方式捐赠，我们将非常感激!_
 
@@ -49,4 +49,4 @@ By donating bitcoin to our donation wallet you will be helping Bisq.cn pay for o
 
 <br>
 
-如果您能想到可以帮助Bisq项目的其他方式，请随时[联系](/contact/)。
+如果您能想到可以帮助Bisq项目的其他方式，请随时[联系]({{ site.baseurl }}/contact/)。

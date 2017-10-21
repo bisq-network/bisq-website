@@ -125,7 +125,7 @@
 
 Do you need image material for an article about Bisq? You can find [here][106] our Logo in different styles and sizes.
 
-[1]: /contact/
+[1]: {{ site.baseurl }}/contact/
 [2]: https://www.meetup.com/de-DE/BlockchainHub-Graz/events/239672640/
 [3]: https://www.youtube.com/watch?v=6XFwBC-KAXE
 [4]: https://www.meetup.com/de-DE/Silicon-Valley-Bitcoin-Users/events/233079545/?eventId=233079545

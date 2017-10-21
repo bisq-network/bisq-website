@@ -1,5 +1,5 @@
 titles: &titles
-  home: Bisq
+  home: Home
   markets: Markets
   philosophy: Philosophy
   community: Community
@@ -14,8 +14,8 @@ titles: &titles
   contact: Contact
 
 global:
+  index: Bisq
   subtitle: The P2P exchange network
-  home: Home
   <<: *titles
 
 langs:

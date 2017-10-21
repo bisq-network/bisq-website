@@ -1,6 +1,6 @@
 ---
 layout: page
-title: titles.home
+title: titles.index
 namespace: home
 permalink:  /
 banner: /images/bitsquare-home2.jpg

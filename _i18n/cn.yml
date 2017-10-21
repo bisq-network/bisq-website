@@ -1,5 +1,5 @@
 titles: &titles
-  home: Bisq
+  home: 首页
   markets: 行情图
   philosophy: 信条
   community: 社区
@@ -14,8 +14,8 @@ titles: &titles
   contact: 联系
 
 global:
+  index: Bisq
   subtitle: P2P交易所
-  home: 首页
   <<: *titles
 
 langs:

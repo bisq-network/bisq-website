@@ -13,7 +13,7 @@ There are two ways you can help support Bisq's development:
 
 If you're reading this then you have probably got skills that would really help Bisq build and grow. We are constantly looking for skilled volunteers who can help us with the development of Bisq and spread the word to the wider Bitcoin community.
 
-**IMPORTANT!** We are currently seeking experienced Java developers. If you have experience with Java please join the [Mailing List](/community/#mailing-list) and let us know!
+**IMPORTANT!** We are currently seeking experienced Java developers. If you have experience with Java please join the [Mailing List]({{ site.baseurl }}/community/#mailing-list) and let us know!
 
 In the meantime there are other ways you can help. Take a read of the list below:
 

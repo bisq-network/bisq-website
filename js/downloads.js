@@ -37,5 +37,11 @@ $(function () {
         default: 
             break;
     }
+
+    // add virtual pageview and event tracking for download attempts
+    $('#dl-win32, #dl-win64, #dl-mac, #dl-deb32, #dl-deb64').click(function(){
+        ga('send','pageview', location.pathname + 'release');
+        ga('send', 'event', 'Release Build', 'download', $(this).attr('id').split('-').pop())
+    })
 });
 

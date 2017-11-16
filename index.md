@@ -13,7 +13,7 @@ Bisq is an open-source desktop application that allows you to buy and sell bitco
 
 Bisq is unique in that it enables you to start trading in less than 10 minutes:
 
- 1. [Download the app](https://github.com/bisq-network/exchange/releases/tag/v0.6.0), or build it from source.
+ 1. [Download the app](/downloads/), or build it from source.
  2. Add your national or crypto currency accounts.
  3. Create new offer or take an existing one.
  4. Follow the user interface to finalize the trade.

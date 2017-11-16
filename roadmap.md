@@ -38,10 +38,7 @@ Released [November 16th 2017](https://github.com/bitsquare/bitsquare/releases/ta
 - Lower miner fees by fee estimation adjustments (using maxDelay 20 instead of 10 and taking average of 12 last fee results)
 - Lower miner fee by transaction size calculation. Instead of using 600 bytes as estimation of trade fee tx we create a dummy tx to get the exact size id funds are on the wallet, otherwise we use 260 bytes for maker and 320 bytes for taker (deposit and payout tx are larger).
 - Reduce security deposit: DEFAULT_BUYER_SECURITY_DEPOSIT from 0.03 BTC to 0.01 BTC; MAX_BUYER_SECURITY_DEPOSIT from 0.2 BTC 0.05 BTC, MIN_BUYER_SECURITY_DEPOSIT from 0.001 BTC to 0.0005 BTC; SELLER_SECURITY_DEPOSIT from 0.01 BTC to 0.003 BTC
-- Use new trade limits to reflect higher BTC price
-      Bank transfers: 0.25 BTC
-      Swish, OKPay, PerfectMoney, AliPay: 0.5 BTC
-      Altcoins 1 BTC (exception SiaFund as their price is about 3 BCT and it is not dividable, so we allow 4 BTC there)
+- Use new trade limits to reflect higher BTC price: Bank transfers: 0.25 BTC; Swish, OKPay, PerfectMoney, AliPay: 0.5 BTC; Altcoins 1 BTC (exception SiaFund as their price is about 3 BCT and it is not dividable, so we allow 4 BTC there)
 - Add Western Union as payment method
 - Show latest trade price in case no price from external market price providers is available. To be used only for informational purpose not for % based offers due price manipulation risks.
 - Enable Bisq DAO phase 1 on Bitcoin Testnet: BSQ genesis distribution, BSQ trading, BSQ used for paying trade fee, BSQ wallet with send, receive and tx list screens, dashboard

@@ -26,13 +26,47 @@ This Roadmap might change at any time, especially in response to [Community](/co
  - Trezor support
  - Windows code signing
 
-### Version 0.6
- - Bisq DAO phase 2
-
-### Version 0.5.4
- - Bisq DAO phase 1
 
 ## Releases
+
+### Version 0.6
+Released [November 16th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.0)
+- Add support for Tor bridges and pluggable transports (https://github.com/bisq-network/exchange/issues/998)
+- Provide Bitcoin full nodes from Bisq developers (https://github.com/bisq-network/roles/issues/39) to protect against BitcoinJ vulnerabilities (BitcoinJ is blindly following longest PoW chain and not checking consensus rule violations). That also avoids the privacy issues with bloom filters. (https://github.com/bisq-network/exchange/issues/999)
+- Add account age verification scheme (https://github.com/bisq-network/proposals/blob/master/payment-account-age-witness.adoc, https://github.com/bisq-network/exchange/issues/1000)
+- Reduce DEFAULT_TAKER_FEE_IN_BASE_CUR from 0.003 BTC to 0.002 BTC (that is the base for a 1 BTC trade)
+- Lower miner fees by fee estimation adjustments (using maxDelay 20 instead of 10 and taking average of 12 last fee results)
+- Lower miner fee by transaction size calculation. Instead of using 600 bytes as estimation of trade fee tx we create a dummy tx to get the exact size id funds are on the wallet, otherwise we use 260 bytes for maker and 320 bytes for taker (deposit and payout tx are larger).
+- Reduce security deposit: DEFAULT_BUYER_SECURITY_DEPOSIT from 0.03 BTC to 0.01 BTC; MAX_BUYER_SECURITY_DEPOSIT from 0.2 BTC 0.05 BTC, MIN_BUYER_SECURITY_DEPOSIT from 0.001 BTC to 0.0005 BTC; SELLER_SECURITY_DEPOSIT from 0.01 BTC to 0.003 BTC
+- Use new trade limits to reflect higher BTC price
+      Bank transfers: 0.25 BTC
+      Swish, OKPay, PerfectMoney, AliPay: 0.5 BTC
+      Altcoins 1 BTC (exception SiaFund as their price is about 3 BCT and it is not dividable, so we allow 4 BTC there)
+- Add Western Union as payment method
+- Show latest trade price in case no price from external market price providers is available. To be used only for informational purpose not for % based offers due price manipulation risks.
+- Enable Bisq DAO phase 1 on Bitcoin Testnet: BSQ genesis distribution, BSQ trading, BSQ used for paying trade fee, BSQ wallet with send, receive and tx list screens, dashboard
+- Add new languages: Chinese, Hungarian, Romanian, Russian, French, Turkish
+- Added new Altcoins: DECENT, Pranacoin, WACoins, ZenCash, Ellaism, Cryptonite, Terracoin, Internext, Particl
+- Add all missing countries (all global countries taken from https://restcountries.eu/rest/v2/all?fields=name;region;subregion;alpha2Code;languages)
+- Add OXT as BTC blockexplorer
+- Use new seed nodes and price relay nodes operated by different Bisq developers and bonded by BSQ
+- Use new more efficient data structure for tradeStatistcs objects
+- Add filter for arbitrators, seed nodes and price relay nodes
+- Change pw length restriction
+- Change name of IOP to "Internet Of People"
+- Remove DOGE as base currency (zero trade activity)
+- Reduce number of seed nodes for LTC and DASH (very low trade activity)
+- Removed never-traded altcoins: Advanced Internet Blocks (AIB), Anoncoin (ANC), Anti (ANTI), AquariusCoin (ARCO), Argentum (ARG), Augur (REP), Battlestars (BATL), BigUp (BIGUP), BitAUD (BITAUD), BitCHF (BITCHF), BitCNY (BITCNY), BitEUR (BITEUR), BitGBP (BITGBP), BitHKD (BITHKD), BitNZD (BITNZD), BitSEK (BITSEK), BitSGD (BITSGD), BitSYNQ (SYNQ), BitShares (BTS), BitUSD (BITUSD), Blackcoin (BLK), Clams (CLAM), CloakCoin (CLOAK), Comet (CMT), Creditbit (CRBIT), Crown (CRW), Crypto Bullion (CBX), DIBCOIN (DIBC), Digibyte (DGB), Digital Rupees (DRS), DigixDAO Tokens (DGD), EOS (EOS), EUR Tether (EURT), Emercoin (EMC), Eternity (ENT), Europecoin (ERC), EverGreenCoin (EGC), Factom (FCT), FairCoin (FAIR), FlorinCoin (FLO), GameCredits (GAME), Gemz (GEMZ), Groestlcoin (GRS), Gulden (NLG), HOdlcoin (HODL), HunCoin (HNC), I/O Coin (IOC), JPY Tether (JPYT), Janus (JNS), Jumbucks (JBS), LTBcoin (LTBC), Maker (MKR), MarteXcoin (MXT), Moin (MOIN), Myriadcoin (XMY), NEM (XEM), Nevacoin (NEVA), NuShares (NSR), OKCash (OK), Omni (OMNI), Opal (OPAL), Peercoin (PPC), Pinkcoin (PINK), PlatinumBar (XPTX), Plutons (PLU), PotCoin (POT), Primecoin (XPM), Radium (RADS), RealEst. Coin (REALEST), Ripple (XRP), Shift (SHIFT), Smileycoin (SMLY), SolarCoin (SLR), Steem Dollars (STEEMUSD), Stellar Lumens (XLM), StorjcoinX (SJCX), Stratis (STRAT), Swarm City Token (SWT), Syndicate (SYNX), Synereo (AMP), Triangles (TRI), USD Tether (USDT), VCoin (VCN), VPNCoin (VPN), Verge (XVG), VeriCoin (VRC), Waves (WAVES), Worldcoin (WDC), Xaurum (XAUR), YACCoin (YACC), YbCoin (YBC)
+- Many smaller improvements in the UI
+- Fix wrong date handling in trade statistics charts
+- Listen to bitcoin network for deposit and payout transaction in case the P2P message did not arrive
+- Support different keys for code signing in download-tool
+- Fix bug with missing MultiSigKey (findKeyFromPubKeyHash call was used instead of findKeyFromPubKey)
+- Fix missing persistence for trade statistic object in seed nodes
+- Fix but with offer sorting
+- Use smaller font and width for TAC window on very small screens
+- Use netlayer Tor library (https://github.com/JesusMcCloud/netlayer/)
+- Improved build system
 
 ### Version 0.5.3
 Released [July 17th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.5.3)

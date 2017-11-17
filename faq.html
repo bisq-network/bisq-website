@@ -13,7 +13,8 @@ banner: /images/faq.png
   <a href="#add_altcoin">How can I get support for my favorite altcoin?</a></p>
 
 <h3><strong>Trading Details</strong></h3>
-<p><a href="#3">When will I be able to buy or sell real bitcoins?</a><br/>
+<p>
+  <a href="#3">What are the trade limits?</a><br/>
   <a href="#4">How does Bisq protect my privacy?</a><br/>
   <a href="#5">How long does a trade take?</a><br/>
   <a href="#6">How much does it cost to trade on Bisq?</a><br/>
@@ -47,11 +48,10 @@ banner: /images/faq.png
 <p style="padding-left: 30px;">1. All bitcoins traded with Bisq are secured in a 2-of-3
   <a href="https://bitcoinmagazine.com/11108/multisig-future-bitcoin/" target="_blank">multisignature</a> address.</p>
 <p style="padding-left: 30px;">2. Both traders are required to pay security deposits. These are refunded to them after a trade completes.</p>
-<p style="padding-left: 30px;">3. Bisq features a decentralized and open arbitrator system, to be used in case a trade dispute arises.</p>
-<p>We believe these features make currency trading as secure as possible. This said, use Bisq at your own risk.</p>
+<p style="padding-left: 30px;">3. Bisq features an arbitrator system, to be used in case a trade dispute arises.</p>
 
 <p><a name="2"></a><strong>There are already other decentralized exchanges. How is Bisq different?</strong></p>
-<p>Currently no other project fits our definition of a decentralized Bitcoin exchange. (<a href="https://openbazaar.org/" target="_blank">Open Bazaar</a> and
+<p>Currently no other project fits our definition of a decentralized Bitcoin-to-Fiat exchange. (<a href="https://openbazaar.org/" target="_blank">Open Bazaar</a> and
   <a href="https://voluntary.net/bitmarkets/" target="_blank">BitMarkets</a> stand alone in mirroring Bisq&#8217;s principles, but they&#8217;re full market places, not specialized currency exchanges.)
 </p>
 <p>To be properly decentralized, one must avoid single points of failure:</p>
@@ -62,10 +62,8 @@ banner: /images/faq.png
     <li>Bisq uses a Peer-to-Peer network over Tor. This means there are no servers to be hacked or DDoS&#8217;d.</li>
     <li>Bisq does not know the traders. No data is stored on who trades with whom.</li>
     <li>Bisq does not require registration. This means privacy is maintained, there are no “approval” wait times, and identity theft becomes impossible.</li>
-    <li>Bisq does not operate its arbitration system – traders themselves choose from an open and decentralized market of arbitrators.</li>
-    <li>Bisq is not a company. It is an open source project aiming to organize as a Decentralized Autonomous Organization (<a href="https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/" target="_blank">DAO</a>).
+    <li>Bisq is not a company. It is an open source project organized as a <a href="https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc" target="_blank">Decentralized Autonomous Organization (DAO)</a>.
     </li>
-    <li>Bisq is self-funded by the efforts of its volunteers and contributions of donors.</li>
   </ul>
 </ul>
 
@@ -73,13 +71,14 @@ banner: /images/faq.png
   Here you can see the list of the currently supported payment methods:</p>
 <ul>
   <ul>
-    <li>National bank transfer</li>
     <li>SEPA</li>
     <li>ClearXchange</li>
     <li>Faster Payments</li>
+    <li>National bank transfer</li>
     <li>Swish</li>
     <li>Chase QuickPay</li>
     <li>Interac e-Transfer</li>
+    <li>Western Union</li>
     <li>US Postal Money Order</li>
     <li>Cash Deposit</li>
     <li>OKPay</li>
@@ -144,36 +143,35 @@ banner: /images/faq.png
 </ul>
 
 <p><a name="add_altcoin"></a><strong>How can I get support for my favorite altcoin?</strong></p>
-<p>Please read about the requirements and process at this
-  <a href="https://github.com/bisq-network/docs/blob/master/exchange/howto/list-token.adoc" target="_blank">document</a>.</p>
+<p>Please read about the requirements and process at <a href="https://github.com/bisq-network/docs/blob/master/exchange/howto/list-token.adoc" target="_blank">this document</a>.</p>
 
 <h2>Trading Details</h2>
 
-<p><a name="3"></a><strong>When will I be able to buy or sell real bitcoins?</strong></p>
-<p>The mainnet-enabled beta version is live.</p>
-<p>There will initially be a one-bitcoin trade limit for all Bisq users. This limit may be relaxed in the future.</p>
+<p><a name="3"></a><strong>What are the trade limits?</strong></p>
+<p>Bisq has a limitation of the trade amount per trade for security reasons. Those limits are based on the payment method. Though on the number of trades there is no limitation. For most bank-based payment methods like SEPA or Zelle the trade limit is 0.25 BTC per trade. For Swish, OKPay, PerfectMoney and AliPay it is 0.5 BTC and for altcoins it is 1 BTC</p>
 
 <p><a name="4"></a><strong>How does Bisq protect my privacy?</strong></p>
-<p>Only your trading partner (and your selected arbitrator in case of a dispute) can ever see your payment information details. The data exchanged between users is encrypted and signed. Bisq uses a P2P network built on top of Tors hidden services and provide the high level of anonymity Tor offers. The user doesn&#8217;t need to setup anything &#8211; all is integrated in the application.</p>
+<p>Only your trading partner (and your selected arbitrator in case of a dispute) can ever see your payment information details. The data exchanged between users is encrypted and signed. Bisq uses a P2P network built on top of Tor hidden services and provide the high level of anonymity Tor offers. The user doesn&#8217;t need to setup anything &#8211; all is integrated in the application.</p>
 
 <p><a name="5"></a><strong>How long does a trade take?</strong></p>
-<p>Your trade duration will be determined by the transfer times of the currencies you and your trade partner use. National currency transfers can be instant (OkPay) or can take days (SEPA). Bitcoin transactions can take up to 10 minutes, as at least one confirmation from the Bitcoin network is required for a trade to complete.</p>
+<p>Your trade duration will be determined by the transfer times of the currencies you and your trade partner use. National currency transfers can be instant (Faster Payment) or can take days (SEPA). Bitcoin transactions take in average 10 minutes to get confirmed. At least one confirmation is required before the buyer can transfer the Fiat or altcoin amount.</p>
 
 <p><a name="6"></a><strong>How much does it cost to trade on Bisq?</strong></p>
 <p>The trading fees for the offer maker and for the taker are calculated differently.<br/>
   The trading fees for the offer maker is based on trade amount and distance to market price.<br/>
   Min. fee (MinFee) = 0.0002 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% -> 3, 0.01% -> 0.1).<br/>
-  Makers trading fee = max(MinFee, DefFee * amount * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance.<br/>
+  Makers trading fee = max(MinFee, DefFee * amount * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance equivalent to 0.2% of the trade amount.<br/>
   The trading fees for the offer taker depends only on the the trade amount.<br/>
-  Min. fee (MinFee) = 0.0003 BTC, default fee (DefFee) = 0.003 BTC/per Bitcoin.<br/>
-  Takers trading fee = max(MinFee, DefFee * amount). E.g. 0.003 BTC for 1 BTC trade.
+  Min. fee (MinFee) = 0.0002 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin.<br/>
+  Takers trading fee = max(MinFee, DefFee * amount). E.g. 0.002 BTC for 1 BTC trade. That is 0.2% of the trade amount.<br/>
+  The maker has to pay the miner fee for the trade fee transaction. The taker has to pay 3 times the miner fee (trade fee transaction, deposit transaction and payout transaction). That is because we use a fee estimation service and the maker cannot know which fee will be required at take-offer-time. The mining fee is taken from the recommendation from a <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">fee estimation service</a> and can vary between 20 Satoshi/byte up to 400 Satoshi/byte. The users can see the actual mining fee when creating or taking an offer.
 </p>
 
 <p><a name="openOffer"></a><strong>Why do I need to keep my application online when I have an open offer?</strong></p>
-<p>If you have published an offer your Bisq application need to stay online so it is able to react in the case when another trader wants to take your offer. The MultiSig depost transaction is created in that take-offer process. Be sure you have deactivated your computers standby mode, otherwise your Bisq application lose the internet connection (monitor standby is not a problem). If you shut down the application your offer gets removed from the distributed offerbook as it would become unavailable for others. After starting Bisq again your offer gets re-published.</p>
+<p>If you have published an offer your Bisq application need to stay online so it is able to react in the case when another trader wants to take your offer. The MultiSig deposit transaction is created in that take-offer process. Be sure you have deactivated your computers standby mode, otherwise your Bisq application lose the internet connection (monitor standby is not a problem). If you shut down the application your offer gets removed from the distributed offerbook as it would become unavailable for others. After starting Bisq again your offer gets re-published. After the offer has been taken and the trade process has started both traders no NOT need to be online. Though they need to check for the status of the trade to see if some action is required from their side (e.g. sending Fiat/altcoin or confirm receipt).</p>
 
 <p><a name="editOffer"></a><strong>How can I edit my offer?</strong></p>
-<p>At the moment you cannot edit an offer once it is published. But you can use the percentage based price so your price will stick with the market price (we use BitcoinAverage for fiat and Poloniex for altcoins). E.g. If you set your percentage price to 1% below the market price for a buy offer, the price will update with every market price update (about 90 sec.) and when a trader takes your offer the actual marketprice minus 1% will be used.</p>
+<p>At the moment you cannot edit an offer once it is published. But you can use the percentage based price so your price will stick with the market price (we use BitcoinAverage for fiat and Poloniex or CoinmarketCap for altcoins). E.g. If you set your percentage price to 1% below the market price for a buy offer, the price will update with every market price update (about 90 sec.) and when a trader takes your offer the actual market price minus 1% will be used.</p>
 
 <p><a name="7"></a><strong>Will my bank know I&#8217;m buying bitcoins?</strong></p>
 <p>There have been reports that some banks have closed client accounts when they see that there is Bitcoin activity involved.</p>
@@ -185,58 +183,56 @@ banner: /images/faq.png
 
 <p><a name="8"></a><strong>What is an arbitrator?</strong></p>
 <p>An arbitrator is a real person who finds solutions to any disputes that may occur during a trade.
-  <a href="/docs/exchange/arbitration-system" target="_blank">Bisq&#8217;s arbitrators</a> must pay high security deposits, which ensure fair evaluations and prevent collusion with traders.
+  <a href="/docs/exchange/arbitration-system" target="_blank">Bisq&#8217;s arbitrators</a> must pay a BSQ bond, which ensure fair evaluations and prevent collusion with traders.
 </p>
 <p>Initially, traders make a list of arbitrators they approve. When a new trade is initiated, an arbitrator is randomly selected from among the traders&#8217; overlapping, approved selections. The more arbitrators a trader accepts, the more trades will be available to him.</p>
-<p>Note: At this time, a fully decentralized arbitration system is not yet developed. The current bootstrapping phase instead uses a closed group of trusted arbitrators. This will change as soon the fully decentralized system is implemented.</p>
 
 <p><a name="9"></a><strong>How does the arbitration process work?</strong></p>
-<p>If Trader A fails to confirm the receipt of a national currency transfer within the allotted time (e.g. six days for SEPA, one day for OKPay, etc.), a button to contact the arbitrator will appear to both traders. Trader B will then be able to submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if Trader B never sent the national currency, Trader A will be able to submit evidence to the arbitrator that the funds were never received. Submitted evidence should be cryptographically secure using either
-  <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be deployed.
+<p>If trader A fails to confirm the receipt of a national currency transfer within the allotted time (e.g. six days for SEPA, four days for Zelle, one day for altcoins, etc.), a button to contact the arbitrator will appear to both traders. Trader B will then be able to submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if trader B never sent the national currency, trader A will be able to submit evidence to the arbitrator that the funds were never received. Submitted evidence should be cryptographically secure using either
+  <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be deployed.<br/>
+  From our experience the huge majority of cases are caused not by any malicious intention but by problems like bugs, bank issues, usability, etc.
 </p>
 <p>The arbitrator will side with buyer or seller and sign the 2-of-3 multisignature address in favor of the appropriate party.</p>
 
 <p><a name="10"></a><strong>How is collusion between arbitrators and traders prevented?</strong></p>
-<p>As outlined above, arbitrators must pay a high security deposit to become such – higher than the one-bitcoin trade limit. If an arbitrator&#8217;s dispute resolution is not agreed to by both traders, a second round of arbitration can be requested by either of them.</p>
-<p>The Bisq system in this case will then select an arbitrator from among the highest-rated arbitrators. If collusion is found to have taken place, the misbehaving arbitrator will lose her deposit. This puts the arbitrator at a significant loss, as her security deposit was more than she made by being dishonest.</p>
+<p>As outlined above, arbitrators must lock in a high BSQ bond to become such – much higher than the trade limit. If an arbitrator&#8217;s dispute resolution is not agreed to by both traders, they can escalate the problem to the DAO community and request a confiscation of the arbitrators bond.</p>
+<p>If collusion is found to have taken place, the misbehaving arbitrator will lose her BSQ bond. This puts the arbitrator at a significant loss, as her BSQ bond was much more than she made by being dishonest.</p>
 
-<p><a name="11"></a><strong>What happens if the person buying bitcoin does a chargeback on their national currency after the bitcoin has been released from the multisig escrow?</strong> </p>
-<p>We only support payment methods in which chargebacks are not easy (i.e. we don&#8217;t support Paypal). But there is still certain chargeback risk with banks. If a bank executes a chargeback after the cryptocurrency escrow has released, there is nothing the arbitrator can do.</p>
-<p>Bisq&#8217;s goal is to make this scenario as unattractive as possible, using
-  <a href="/docs/exchange/risk-analysis" target="_blank">three primary mechanisms</a>:</p>
-<p style="padding-left: 30px;">1. There is a trade limit of one bitcoin, which is generally too small to attract criminals (though this limit may be lifted in the future).</p>
+<p><a name="11"></a><strong>What happens if the person buying bitcoin does a chargeback on their national currency after the bitcoin has been released from the multisig address?</strong> </p>
+<p>We only support payment methods in which chargeback is not easy (i.e. we don&#8217;t support Paypal). But there is still certain chargeback risk with banks. If a bank executes a chargeback after the BTC has been released, there is nothing the arbitrator can do.</p>
+<p>Bisq&#8217;s goal is to make this scenario as unattractive as possible, using three primary mechanisms</a>:</p>
+<p style="padding-left: 30px;">1. There is a trade limit per trade, which is generally too small to attract criminals.</p>
 <p style="padding-left: 30px;">2. We will remove national currency payment methods which are found to be used for chargebacks.</p>
-<p style="padding-left: 30px;">3. Bisq has support for delayed payouts using the “locktime” feature, which might help if the chargeback is done quickly after the transfer.</p>
+<p style="padding-left: 30px;">3. We introduce with version 0.6.0 a new <a href="https://github.com/bisq-network/proposals/blob/master/payment-account-age-witness.adoc" target="_blank">feature</a> for detecting the age when a payment account has been set up. This adds protection against stolen-bank-account-scams.</p>
 
 <p><a name="12"></a><strong>Wouldn&#8217;t a pure reputation system among traders make arbitrators unnecessary?</strong>
 </p>
 <p>Pure reputation without the option of arbitration is a weak protection system, as you can never avoid
   <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> or
   <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> attacks.</p>
+<p>It also problematic for pretecting privacy and apply it in a decenralized way.</p>
 
 <p><a name="13"></a><strong>Can I be an arbitrator?</strong></p>
-<p>Once the open and decentralized arbitration process is developed anyone can become an arbitrator. At the current state it not closed to trusted developers.</p>
+<p>The required bond in BSQ is very high and there are currently only very few people who have contributed that much to Bisq that they have earned so much BSQ.</p>
 
 <h2>Miscellaneous</h2>
 
-<p><a name="14"></a><strong> If I don’t have any bitcoins, how can I obtain enough to pay the security deposit on my first trade?</strong></p>
-<p>We recognize that the 0.01 BTC security deposit could be a barrier to entry to bitcoin beginners, but Bisq&#8217;s targeted users have used cryptocurrencies before.</p>
+<p><a name="14"></a><strong> If I don’t have any bitcoins, how can I obtain enough to pay the security deposit and mining fee on my first trade?</strong></p>
+<p>We recognize that this could be a barrier to entry to bitcoin beginners.</p>
 <p>The security deposit is needed to protect Bisq from fraud and abuse. That said, we will always investigate possible solutions which would allow new users to trade without needing bitcoin first.</p>
-<p>Bitcoin can be purchased via many channels: friends or family, Bitcoin meetups, Bitcoin ATMs, LocalBitcoins, Mycelium LocalTrader, or from any of the centralized exchanges.</p>
+<p>Bitcoin can be purchased via many channels: friends or family, Bitcoin meetups, Bitcoin ATMs, Vouchers, Localbitcoins or from any of the centralized exchanges.</p>
 
 <p><a name="15"></a><strong>Does Bisq support ‘XYZ’ payments?</strong></p>
-<p>Bisq will support a wide range of payment methods for national currencies. The criteria for inclusion are that the payment method is safe against chargebacks, and that it allows the arbitrator to view evidence of the transaction (preferably in a way which doesn&#8217;t display the trader&#8217;s personally identifying information).</p>
-<p>We need help from users in different regions to collect data on various payment methods. Contribute your knowledge to our <a href="https://docs.google.com/document/d/1iQHhtAOieu5i6_2rvkvtcLS70A991aZlxkJgzv97XuU" target="_blank">document</a> or <a href="https://docs.google.com/spreadsheets/d/1xiOqcBSInIF7ozWdN3DvM5O-nyZ-397G9MR8LOXs6iA/edit#gid=0" target="_blank">spreadsheet</a> to help Bisq incorporate more payment methods </p>
+<p>Bisq will support a wide range of payment methods for national currencies. The criteria for inclusion are that the payment method is safe against chargebacks, and that it allows the arbitrator to view evidence of the transaction. National bank transfer is supported in every country (expect the US - but there is Zelle and others).</p>
 
 <p><a name="17"></a><strong>What happens in case of software bugs?</strong></p>
-<p>If the Bisq application recognizes that you&#8217;re having a software problem, it will display a “support ticket” button. Your arbitrator will forward your bug report to the developers, who will begin an investigation of the problem. You may be asked for the
-  <a href="https://github.com/bisq-network/exchange/wiki/Guilde-for-testing-Bisq#bug-reports">log file</a> to assist the process.
+<p>If the Bisq application recognizes that you&#8217;re having a software problem, it will display a “support ticket” button. Your arbitrator will forward your bug report to the developers, who will begin an investigation of the problem. You may be asked for the log file to assist the process.
 </p>
-<p>If the button does not appear, wait for your trade period to expire. Then submit a standard dispute to your arbitrator, explaining the software problem. No arbitration fees will be charged in the resolution of problems caused by software bugs.</p>
+<p>If the button does not appear, you can open a support ticket by the key combination cmd + o (or ctrl + o).</p>
 
 <p><a name="18"></a><strong>What is a Bitcoin &#8216;multisignature address&#8217;?</strong></p>
 <p>“<a href="http://bitcoinmagazine.com/11108/multisig-future-bitcoin/" target="_blank">Multisig</a>,” as it&#8217;s called, is built into Bitcoin as a simple version of a smart contract. A multisig address is generated with multiple public keys and a specification of how many of those keys must sign to release the funds.</p>
 <p>Bisq uses 2-of-3 multisig addresses. This means three public keys are used to create the payment address (the buyer&#8217;s, seller&#8217;s, and arbitrator&#8217;s), and the transaction must be signed by two parties for the funds to be released. A typical trade takes place when the buyer and seller sign the transaction to release the funds to the appropriate party. But in case of a dispute, the arbitrator will side with either the buyer or seller, and these two parties&#8217; keys will release the funds to the appropriate party.</p>
 
 <p><a name="19"></a><strong>I have a question that isn&#8217;t covered here&#8230;?</strong></p>
-<p>Please <a href="/contact/">Contact Us</a> and ask your questions directly.</p>
+<p>Please post your question at the <a href="https://forum.bisq.io/" target="_blank">Bisq forum</a>.</p>

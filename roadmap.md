@@ -29,10 +29,6 @@ This Roadmap might change at any time, especially in response to [Community](/co
 ### Version 0.7
  - UI improvements
 
-### Version 0.6.1
- - Add SEPA Instant Payments
- - UI improvements
-
 ## Releases
 
 ### Version 0.6.1

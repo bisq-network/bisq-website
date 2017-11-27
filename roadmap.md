@@ -35,7 +35,18 @@ This Roadmap might change at any time, especially in response to [Community](/co
 
 ## Releases
 
-### Version 0.6
+### Version 0.6.1
+Released [November 26th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.1)
+- Add SEPA Instant Payments as new payment method
+- Add Madcoin, Bitcoin Cash, Bitcoin Clashic, Bitcoin Gold
+- UI Improvements
+- Reduce default nr. of connections to Bitcoin network from 12 to 10
+- Add new Bitcoin nodes
+- Fix price sorting bug at buy screen when an altcoin was selected
+- Fix layout bug
+- Improve logging
+
+### Version 0.6.0
 Released [November 16th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.0)
 - Add support for Tor bridges and pluggable transports (https://github.com/bisq-network/exchange/issues/998)
 - Provide Bitcoin full nodes from Bisq developers (https://github.com/bisq-network/roles/issues/39) to protect against BitcoinJ vulnerabilities (BitcoinJ is blindly following longest PoW chain and not checking consensus rule violations). That also avoids the privacy issues with bloom filters. (https://github.com/bisq-network/exchange/issues/999)

@@ -42,12 +42,12 @@ Released [December 20th 2017](https://github.com/bitsquare/bitsquare/releases/ta
 - Added new altcoins: Cagecoin, Spectrecoin, Verify
 - Add more provided Bitcoin nodes
 - Add more seed nodes
-- Add more provider nodes (market price, miner fee estiamtion)
+- Add more provider nodes (market price, miner fee estimation)
 - Add second seed node for DASH and LTC
 - Add filter for btc nodes
 - Use domainname instead of IP if both are known for btc nodes
 - Increase connection timeouts
-- Increase timout for offer availability check
+- Increase timeout for offer availability check
 - Increase time for showing Tor settings at startup to 30 sec.
 - Increase offer refresh and republish intervals and offer TTL.
 - Decrease maxConnections for btc network from 10 to 9
@@ -56,10 +56,10 @@ Released [December 20th 2017](https://github.com/bitsquare/bitsquare/releases/ta
 - Fix missing resort after price feed actualization
 - Fix incorrect ordering of available offers
 - Fix wrong sorting of markets column
-- Fix for handling fo modal window closing (some linux windows managers)
+- Fix for handling of modal window closing (some Linux windows managers)
 - Only hide prompt text after user starts typing
 - Use currency name instead of code for compareTo
-- Update docs
+- Update docs 
 
 ### Version 0.6.1
 Released [November 26th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.1)

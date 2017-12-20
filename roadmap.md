@@ -31,6 +31,36 @@ This Roadmap might change at any time, especially in response to [Community](/co
 
 ## Releases
 
+### Version 0.6.2
+Released [December 20th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.2)
+- Improve withdrawal screen: Choose sending or receiving amount. Choose all available inputs or manual input selection.
+- Add "Update later" button to download update window. Make version label clickable and show if new version is available.
+- Only use hidden service btc nodes if Tor is enabled for BitcoinJ and provided nodes are used.
+- Optimize P2P network startup behavior
+- Separate fees in trade complete screen.
+- Show withdrawal btc address only after button click in trade complete screen.
+- Added new altcoins: Cagecoin, Spectrecoin, Verify
+- Add more provided Bitcoin nodes
+- Add more seed nodes
+- Add more provider nodes (market price, miner fee estiamtion)
+- Add second seed node for DASH and LTC
+- Add filter for btc nodes
+- Use domainname instead of IP if both are known for btc nodes
+- Increase connection timeouts
+- Increase timout for offer availability check
+- Increase time for showing Tor settings at startup to 30 sec.
+- Increase offer refresh and republish intervals and offer TTL.
+- Decrease maxConnections for btc network from 10 to 9
+- Remove unneeded broadcast trade fee tx tasks
+- Remove checks for min. trade fee to enable change in upcoming versions
+- Fix missing resort after price feed actualization
+- Fix incorrect ordering of available offers
+- Fix wrong sorting of markets column
+- Fix for handling fo modal window closing (some linux windows managers)
+- Only hide prompt text after user starts typing
+- Use currency name instead of code for compareTo
+- Update docs
+
 ### Version 0.6.1
 Released [November 26th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.1)
 - Add SEPA Instant Payments as new payment method

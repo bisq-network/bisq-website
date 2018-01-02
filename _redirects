@@ -20,7 +20,6 @@ https://bisq.io/* https://bisq.network/:splat 301!
 https://bisq.io https://bisq.network 301
 
 # docs
-/phase-zero#* https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc#:splat
 /phase-zero https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc
 
 /arbitration_system.pdf /docs/exchange/arbitration-system 301

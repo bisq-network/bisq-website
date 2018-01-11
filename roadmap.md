@@ -31,6 +31,23 @@ This Roadmap might change at any time, especially in response to [Community](/co
 
 ## Releases
 
+### Version 0.6.3
+Released [January 11th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.3)
+- Add timeout handler for tx broadcaster
+- Change broadcast policy parameters: Min required connections: 4; broadcast to all connected nodes; wait to hear back from 2 nodes to complete broadcast call (or timeout triggers complete handler).
+- Revert change in 0.6.2 for disconnecting from seed node after reaching 6 connections
+- Request initial data from several seed nodes instead of only one for more redundancy
+- Optimize fee estimation policy for taker
+- Add new altcoins: DeepOnion, WILD Token
+- Deactivate stream isolation (hidden service are stream isolated by default)
+- Fix wrong year at backup file name
+- Fix NullPointer exception at seed word restore if data is not set
+- Suppurt cmd+Enter shortcut for sending a dispute message
+- Fix UI bugs (duplicate currency entries, not filtering edited currency list)
+- Improve logs
+- Improve seed node monitor
+- Use different popup for Zcoin with instruction to only use transparent addresses
+
 ### Version 0.6.2
 Released [December 20th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.2)
 - Improve withdrawal screen: Choose sending or receiving amount. Choose all available inputs or manual input selection.
@@ -59,7 +76,7 @@ Released [December 20th 2017](https://github.com/bitsquare/bitsquare/releases/ta
 - Fix for handling of modal window closing (some Linux windows managers)
 - Only hide prompt text after user starts typing
 - Use currency name instead of code for compareTo
-- Update docs 
+- Update docs
 
 ### Version 0.6.1
 Released [November 26th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.1)

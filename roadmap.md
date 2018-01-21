@@ -31,6 +31,16 @@ This Roadmap might change at any time, especially in response to [Community](/co
 
 ## Releases
 
+### Version 0.6.4
+Released [January 21th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.4)
+- Only allow transaction broadcast if blockchain download is completed and connection to min required bitcoin nodes is done.
+- If connected to localhost Bitcoin node and connection get lost prevent that Bisq connects to public network.
+- Show info in footer and splash screen if localhost Bitcoin node is available
+- Fix issues with price feed requests
+- Fix issue with incorrect display of nr. of offers in spread view
+- Add new altcoins: Creativecoin, Infinity Economics
+- Add onion address to Bitcoin node btc.jochen-hoenicke.de
+
 ### Version 0.6.3
 Released [January 11th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.3)
 - Add timeout handler for tx broadcaster

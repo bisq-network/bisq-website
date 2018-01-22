@@ -21,7 +21,7 @@ UPDATE: here is the video from the launch event:
 
 [1]: https://github.com/bitsquare/bitsquare/releases/tag/v0.4.4
 [2]: https://forum.bitsquare.io/
-[3]: https://bisq-slack.herokuapp.com/
+[3]: https://bisq.network/slack-invite
 [4]: https://bisq.slack.com/
 [5]: /community/
 [6]: http://www.meetup.com/bitcoin-barcelona/events/230228028/

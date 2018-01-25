@@ -32,7 +32,7 @@ This Roadmap might change at any time, especially in response to [Community](/co
 ## Releases
 
 ### Version 0.6.4
-Released [January 21th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.4)
+Released [January 21th 2018](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.4)
 - Only allow transaction broadcast if blockchain download is completed and connection to min required bitcoin nodes is done.
 - If connected to localhost Bitcoin node and connection get lost prevent that Bisq connects to public network.
 - Show info in footer and splash screen if localhost Bitcoin node is available
@@ -42,7 +42,7 @@ Released [January 21th 2017](https://github.com/bitsquare/bitsquare/releases/tag
 - Add onion address to Bitcoin node btc.jochen-hoenicke.de
 
 ### Version 0.6.3
-Released [January 11th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.3)
+Released [January 11th 2018](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.3)
 - Add timeout handler for tx broadcaster
 - Change broadcast policy parameters: Min required connections: 4; broadcast to all connected nodes; wait to hear back from 2 nodes to complete broadcast call (or timeout triggers complete handler).
 - Revert change in 0.6.2 for disconnecting from seed node after reaching 6 connections

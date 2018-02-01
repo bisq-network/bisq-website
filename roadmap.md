@@ -31,6 +31,16 @@ This Roadmap might change at any time, especially in response to [Community](/co
 
 ## Releases
 
+### Version 0.6.5
+Released [January 31th 2018](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.5)
+- Start counting remaining trade period after first blockchain confirmation
+- Fix missing balance in UI after wallet restore from seed words 
+- Change recovery handling if price provider node connection fails
+- Add button to Tor settings popup for deleting outdated Tor files in case of connection problems
+- Fix issue with not being able to delete spv chain file on Windows
+- Change failing provider node and bitcoin node with new onion addresses
+
+
 ### Version 0.6.4
 Released [January 21th 2018](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.4)
 - Only allow transaction broadcast if blockchain download is completed and connection to min required bitcoin nodes is done.

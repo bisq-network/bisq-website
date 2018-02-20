@@ -15,6 +15,7 @@ banner: /images/faq.png
 <h3><strong>Trading Details</strong></h3>
 <p>
   <a href="#3">What are the trade limits?</a><br/>
+  <a href="#20">Why does Bisq require a security deposit?</a><br/>
   <a href="#4">How does Bisq protect my privacy?</a><br/>
   <a href="#5">How long does a trade take?</a><br/>
   <a href="#6">How much does it cost to trade on Bisq?</a><br/>
@@ -163,6 +164,9 @@ banner: /images/faq.png
 
 <p><a name="3"></a><strong>What are the trade limits?</strong></p>
 <p>For security reasons Bisq has a limitation of the trade amount per trade. Those limits are derived from the payment method&#8217;s chargeback risk. For the number of trades there is no limitation. For most bank-based payment methods like SEPA or Zelle the trade limit is 0.25 BTC per trade. For Swish, OKPay, PerfectMoney and AliPay it is 0.5 BTC and for altcoins it is 1 BTC</p>
+
+<p><a name="20"></a><strong>Why does Bisq require a security deposit?</strong></p>
+<p>Security deposits create incentives for both buyer and seller to follow the rules of Bisq's trading protocol. They are locked into multisig escrow along with the bitcoin being traded, and are returned to each user when the trade completes successfully. If a trade goes to arbitration and one party is found to have violated Bisq's trading protocol, some or all of that party's security deposit may be awarded to their counterparty. Examples of protocol violations include a buyer failing to pay a seller, or a seller failing to acknowledge receipt of a buyer's payment. Most Bisq trades complete without any problem thanks in part to the incentives that security deposits create.</p>
 
 <p><a name="4"></a><strong>How does Bisq protect my privacy?</strong></p>
 <p>Only your trading partner (and your selected arbitrator in case of a dispute) can ever see your payment information details. The data exchanged between users is encrypted and signed. Bisq uses a P2P network built on top of Tor hidden services and provide the high level of anonymity Tor offers. The user doesn&#8217;t need to setup anything &#8211; all is integrated in the application. The arbitrator only sees the trade details in case of a dispute.</p>

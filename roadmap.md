@@ -30,6 +30,20 @@ This Roadmap might change at any time, especially in response to [Community](/co
  - UI improvements
 
 ## Releases
+### Version 0.6.6
+Released [February 23th 2018](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.6)
+- Reduce min. trade fee from 0.0002 BTC to 0.00005 BTC 
+- Add option to set an open offer inactive 
+- Add new payment methods: Venmo, Cash App (Square), Popmoney, Revolut, Uphold, MoneyBeam (N26)
+- Re-enable national bank transfer (ACH, WIRE) for US
+- Add TD Bank as Zelle memberbank
+- Add popup for explaining the trade limits at account creation
+- Add new altcoins: Stellite, Dai Stablecoin, Obsidian, BitDaric, Yenten, Cassubian Detk, DigiMoney, SpeedCash, SOS Coin, AchieveCoin, vDinar
+- Change max. deviation of market price to 30% (in settings it can be extended to 50%)
+- Fix wrong fee estimation (#1325)
+- Fix bug with deactivated Cash deposit offers
+- Fix bug with currency selection in create offer screen when a mulit-currency account is used
+
 
 ### Version 0.6.5
 Released [January 31th 2018](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.5)

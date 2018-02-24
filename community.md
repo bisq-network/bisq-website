@@ -7,7 +7,7 @@ banner: /images/community.png
 
  - [@bisq-network on GitHub](https://github.com/bisq-network)
  - [@bisq_network on Twitter](https://twitter.com/bisq_network)
- - [Bisq YouTube channel](https://www.youtube.com/channel/UCDrHtlIlYfdRx4Gr-MV8NrA)
+ - [Bisq YouTube channel](https://www.youtube.com/c/bisq-network)
  - [Bisq Slack workspace](https://bisq.network/slack-invite)
  - [Bisq Forum](https://bisq.community)
  - [Bisq Contributor mailing list](https://lists.bisq.network/listinfo/bisq-contrib)

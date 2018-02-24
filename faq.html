@@ -15,6 +15,7 @@ banner: /images/faq.png
 <h3><strong>Trading Details</strong></h3>
 <p>
   <a href="#3">What are the trade limits?</a><br/>
+  <a href="#20">Why does Bisq require a security deposit?</a><br/>
   <a href="#4">How does Bisq protect my privacy?</a><br/>
   <a href="#5">How long does a trade take?</a><br/>
   <a href="#6">How much does it cost to trade on Bisq?</a><br/>
@@ -72,7 +73,7 @@ banner: /images/faq.png
 <ul>
   <ul>
     <li>SEPA</li>
-    <li>Zelle (formerly known as ClearXchange)</li>
+    <li>Zelle (formerly known as clearXchange)</li>
     <li>Faster Payments</li>
     <li>National bank transfer</li>
     <li>Swish</li>
@@ -83,9 +84,9 @@ banner: /images/faq.png
     <li>Cash Deposit</li>
     <li>OKPay</li>
     <li>Perfect Money</li>
-    <li>AliPay</li>
+    <li>Alipay</li>
     <li>Transfer with same bank</li>
-    <li>Transfers with specific banks</li>
+    <li>Transfer with specific banks</li>
   </ul>
 </ul>
 
@@ -175,11 +176,59 @@ banner: /images/faq.png
 <p><a name="3"></a><strong>What are the trade limits?</strong></p>
 <p>For security reasons Bisq has a limitation of the trade amount per trade. Those limits are derived from the payment method&#8217;s chargeback risk. For the number of trades there is no limitation. For most bank-based payment methods like SEPA or Zelle the trade limit is 0.25 BTC per trade. For Swish, OKPay, PerfectMoney and AliPay it is 0.5 BTC and for altcoins it is 1 BTC</p>
 
+<p><a name="20"></a><strong>Why does Bisq require a security deposit?</strong></p>
+<p>Security deposits create incentives for both buyer and seller to follow the rules of Bisq's trading protocol. They are locked into multisig escrow along with the bitcoin being traded, and are returned to each user when the trade completes successfully. If a trade goes to arbitration and one party is found to have violated Bisq's trading protocol, some or all of that party's security deposit may be awarded to their counterparty. Examples of protocol violations include a buyer failing to pay a seller, or a seller failing to acknowledge receipt of a buyer's payment. Most Bisq trades complete without any problem thanks in part to the incentives that security deposits create.</p>
+
 <p><a name="4"></a><strong>How does Bisq protect my privacy?</strong></p>
 <p>Only your trading partner (and your selected arbitrator in case of a dispute) can ever see your payment information details. The data exchanged between users is encrypted and signed. Bisq uses a P2P network built on top of Tor hidden services and provide the high level of anonymity Tor offers. The user doesn&#8217;t need to setup anything &#8211; all is integrated in the application. The arbitrator only sees the trade details in case of a dispute.</p>
 
 <p><a name="5"></a><strong>How long does a trade take?</strong></p>
 <p>Your trade duration will be determined by the transfer times of the currencies you and your trade partner use. National currency transfers can be instant (Faster Payment) or can take days (SEPA). Bitcoin transactions take in average 10 minutes to get confirmed (at least one confirmation is required before the buyer can transfer the fiat or altcoin amount).</p>
+<p>Following maximum trade periods are allowed before a trade goes automatically into arbitration:</p>
+<strong>EURO</strong>
+<ul>
+  <li>SEPA: 6 days</li>
+  <li>SEPA Instant: 1 day</li>
+</ul>
+<strong>UK</strong>
+<ul>
+  <li>Faster Payments: 1 day</li>
+</ul>
+<strong>Sweden</strong>
+<ul>
+  <li>Swish: 1 day</li>
+</ul>
+<strong>US</strong>
+<ul>
+  <li>Zelle (formerly known as clearXchange): 4 days</li>
+  <li>Chase QuickPay: 1 day</li>
+  <li>US Postal Money Order: 8 days</li>
+</ul>
+<strong>Canada</strong>
+<ul>
+  <li>Interac e-Transfer: 1 day</li>
+</ul>
+<strong>Global</strong>
+<ul>
+  <li>Cash Deposit: 4 days</li>
+  <li>Western Union: 4 days</li>
+  <li>National bank transfer: 4 days</li>
+  <li>Transfer with same bank: 2 days</li>
+  <li>Transfer with specific banks: 4 days</li>
+</ul>
+<strong>Transnational</strong>
+<ul>
+  <li>OKPAY: 1 day</li>
+  <li>Perfect Money: 1 day</li>
+</ul>
+<strong>China</strong>
+<ul>
+  <li>Alipay: 1 day</li>
+</ul>
+<strong>Altcoins</strong>
+<ul>
+  <li>Blockchains: 1 day</li>
+</ul>
 
 <p><a name="6"></a><strong>How much does it cost to trade on Bisq?</strong></p>
 <p>The trading fees for the offer maker and for the taker are calculated differently.<br/>
@@ -248,6 +297,20 @@ banner: /images/faq.png
 <p><a name="14"></a><strong> If I don’t have any bitcoins, how can I obtain enough to pay the security deposit and mining fee on my first trade?</strong></p>
 <p>We recognize that this could be a barrier to entry to bitcoin beginners.</p>
 <p>The security deposit is needed to protect Bisq from fraud and abuse. That said, we will always investigate possible solutions which would allow new users to trade without needing bitcoin first.</p>
+<p>Following security deposit values are set by default for</p>
+<strong>buyer</strong>:
+<ul>
+  <li>0.01 BTC (minimum 0.0005 BTC, maximum 0.05 BTC)</li>
+  <li>2.00 LTC (minimum 0.0600 LTC, maximum 12.00 LTC)</li>
+  <li>0.50 DASH (minimum 0.0150 DASH, maximum 3.00 DASH)</li>
+</ul>
+<strong>seller</strong>:
+<ul>
+  <li>0.003 BTC</li>
+  <li>0.600 LTC</li>
+  <li>0.150 DASH</li>
+</ul>
+
 <p>Bitcoin can be purchased via many channels: friends or family, Bitcoin meetups, Bitcoin ATMs, Vouchers, Localbitcoins or from any of the centralized exchanges.</p>
 
 <p><a name="15"></a><strong>Does Bisq support ‘XYZ’ payments?</strong></p>

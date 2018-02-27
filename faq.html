@@ -72,16 +72,23 @@ banner: /images/faq.png
   Here you can see the list of the currently supported payment methods:</p>
 <ul>
   <ul>
-    <li>SEPA</li>
-    <li>Zelle (formerly known as clearXchange)</li>
-    <li>Faster Payments</li>
     <li>National bank transfer</li>
-    <li>Swish</li>
-    <li>Chase QuickPay</li>
-    <li>Interac e-Transfer</li>
-    <li>Western Union</li>
-    <li>US Postal Money Order</li>
     <li>Cash Deposit</li>
+    <li>SEPA</li>
+    <li>SEPA Instant</li>
+    <li>MoneyBeam (N26)</li>
+    <li>Zelle (formerly known as clearXchange)</li>
+    <li>Chase QuickPay</li>
+    <li>Uphold</li>
+    <li>Cash App</li>
+    <li>Venmo</li>
+    <li>Popmoney</li>
+    <li>Revolut</li>
+    <li>Faster Payments</li>
+    <li>US Postal Money Order</li>
+    <li>Interac e-Transfer</li>
+    <li>Swish</li>
+    <li>Western Union</li>
     <li>OKPay</li>
     <li>Perfect Money</li>
     <li>Alipay</li>
@@ -174,7 +181,7 @@ banner: /images/faq.png
 <h2>Trading Details</h2>
 
 <p><a name="3"></a><strong>What are the trade limits?</strong></p>
-<p>For security reasons Bisq has a limitation of the trade amount per trade. Those limits are derived from the payment method&#8217;s chargeback risk. For the number of trades there is no limitation. For most bank-based payment methods like SEPA or Zelle the trade limit is 0.25 BTC per trade. For Swish, OKPay, PerfectMoney and AliPay it is 0.5 BTC and for altcoins it is 1 BTC</p>
+<p>For security reasons Bisq has a limitation of the trade amount per trade. Those limits are derived from the payment method&#8217;s chargeback risk and the age of the account. For the number of trades there is no limitation. For most bank-based payment methods like SEPA or Zelle the trade limit is 0.25 BTC per trade. For Swish, OKPay, PerfectMoney and AliPay it is 0.5 BTC and for altcoins it is 1 BTC. For the recently added payment methods Venmo, Cash App, Revolut, Popmoney and MoneyBeam (N26) the trade limit is 0.16 BTC. The trade limits in the first month is 25% of the full trade limit.  </p>
 
 <p><a name="20"></a><strong>Why does Bisq require a security deposit?</strong></p>
 <p>Security deposits create incentives for both buyer and seller to follow the rules of Bisq's trading protocol. They are locked into multisig escrow along with the bitcoin being traded, and are returned to each user when the trade completes successfully. If a trade goes to arbitration and one party is found to have violated Bisq's trading protocol, some or all of that party's security deposit may be awarded to their counterparty. Examples of protocol violations include a buyer failing to pay a seller, or a seller failing to acknowledge receipt of a buyer's payment. Most Bisq trades complete without any problem thanks in part to the incentives that security deposits create.</p>

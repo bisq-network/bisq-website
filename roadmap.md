@@ -30,6 +30,13 @@ This Roadmap might change at any time, especially in response to [Community](/co
  - UI improvements
 
 ## Releases
+
+### Version 0.6.7
+Released [February 26th 2018](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.7)
+- Fix bug: Cannot select US national bank transfer in Create offer #1404 
+- Fix bug: Cannot remove deactivated offer #1403
+
+
 ### Version 0.6.6
 Released [February 23th 2018](https://github.com/bitsquare/bitsquare/releases/tag/v0.6.6)
 - Reduce min. trade fee from 0.0002 BTC to 0.00005 BTC 

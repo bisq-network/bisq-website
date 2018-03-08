@@ -240,10 +240,10 @@ banner: /images/faq.png
 <p><a name="6"></a><strong>How much does it cost to trade on Bisq?</strong></p>
 <p>The trading fees for the offer maker and for the taker are calculated differently.<br/>
   The trading fees for the offer maker is based on trade amount and distance to market price.<br/>
-  Min. fee (MinFee) = 0.0002 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% -> 3, 0.01% -> 0.1).<br/>
+  Min. fee (MinFee) = 0.00005 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% -> 3, 0.01% -> 0.1).<br/>
   Makers trading fee = max(MinFee, DefFee * amount * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance equivalent to 0.2% of the trade amount.<br/>
   The trading fees for the offer taker depends only on the the trade amount.<br/>
-  Min. fee (MinFee) = 0.0002 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin.<br/>
+  Min. fee (MinFee) = 0.00005 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin.<br/>
   Takers trading fee = max(MinFee, DefFee * amount). E.g. 0.002 BTC for 1 BTC trade. That is 0.2% of the trade amount.<br/>
   The maker has to pay the miner fee for the trade fee transaction. The taker has to pay 3 times the miner fee (trade fee transaction, deposit transaction and payout transaction). That is because we use a fee estimation service and the maker cannot know which fee will be required at take-offer-time. The mining fee is taken from the recommendation from a <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">fee estimation service</a> and can vary between 20 Satoshi/byte up to 400 Satoshi/byte. The users can see the actual mining fee when creating or taking an offer.
 </p>

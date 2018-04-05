@@ -21,7 +21,8 @@ https://bisq.io https://bisq.network 301
 
 # docs
 /phase-zero https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc
-/list-token https://github.com/bisq-network/docs/blob/master/exchange/howto/list-token.adoc
+/list-token https://bisq.network/list-asset 301
+/list-asset https://github.com/bisq-network/docs/blob/master/exchange/howto/list-asset.adoc 302
 
 /arbitration_system.pdf /docs/exchange/arbitration-system 301
 /docs/arbitration-system.pdf /docs/exchange/arbitration-system 301

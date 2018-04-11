@@ -13,4 +13,4 @@ banner: /images/community.png
  - [Bisq Contributor mailing list](https://lists.bisq.network/listinfo/bisq-contrib)
  - [#bisq on Freenode IRC](https://webchat.freenode.net/?channels=bisq)
  - [r/Bisq Subreddit](https://www.reddit.com/r/bisq)
- - ['bisq' Keybase team](https://keybase.io/cbeams)
+ - ['bisq' Keybase team](https://keybase.io/team/bisq)

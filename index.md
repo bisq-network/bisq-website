@@ -4,7 +4,7 @@ title: Bisq - The P2P exchange network
 banner: /images/bitsquare-home2.jpg
 ---
 
-<iframe src="https://player.vimeo.com/video/113838717" width="704" height="396" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/jj4x4x1OlAY?rel=0&amp;showinfo=0" width="704" height="396" frameborder="0"  allowfullscreen="allowfullscreen" allow="autoplay; encrypted-media"></iframe>
 
 # Welcome to Bisq!
 Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies.

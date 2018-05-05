@@ -39,7 +39,3 @@ Bisq is for those who do not want to forfeit control or privacy to a central aut
 Bisq is always looking for highly-skilled developers, designers and security experts to join our [community](/community/). If you're interested in helping make Bisq a reality, there are many ways to [contribute](/contribute/). We'd love to [hear from you](/contact/)!
 
 Our [roadmap](/roadmap/) provides an overview of high-level features and milestones on the way to Bisq v1.0.
-
-## Stay up-to-date
-
-[Sign up for the Bisq newsletter](http://bitsquare.us9.list-manage.com/subscribe?u=fee3c64b1504e7835a98b0ed3&id=dc09b9ca64) so you never miss an important update! Unlike the [Bisq mailing list](/community/#mailing-list), which can see higher message volumes, the newsletter is reserved for important announcements, such as when we release new milestones. Of course, you can unsubscribe at any time.

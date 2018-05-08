@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Governance &lsaquo; Bisq - The decentralized bitcoin exchange
+title: Governance &lsaquo; Bisq - The decentralized Bitcoin exchange
 ---
 # Governance
 

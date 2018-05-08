@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Roadmap &lsaquo; Bisq - The decentralized bitcoin exchange
+title: Roadmap &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/roadmap1.png
 ---
 # Roadmap
@@ -49,7 +49,7 @@ Released [February 23th 2018](https://github.com/bitsquare/bitsquare/releases/ta
 - Change max. deviation of market price to 30% (in settings it can be extended to 50%)
 - Fix wrong fee estimation (#1325)
 - Fix bug with deactivated Cash deposit offers
-- Fix bug with currency selection in create offer screen when a mulit-currency account is used
+- Fix bug with currency selection in create offer screen when a multi-currency account is used
 
 
 ### Version 0.6.5
@@ -80,7 +80,7 @@ Released [January 11th 2018](https://github.com/bitsquare/bitsquare/releases/tag
 - Request initial data from several seed nodes instead of only one for more redundancy
 - Optimize fee estimation policy for taker
 - Add new altcoins: DeepOnion, WILD Token
-- Deactivate stream isolation (hidden service are stream isolated by default)
+- Deactivate stream isolation (hidden services are stream isolated by default)
 - Fix wrong year at backup file name
 - Fix NullPointer exception at seed word restore if data is not set
 - Suppurt cmd+Enter shortcut for sending a dispute message
@@ -190,7 +190,7 @@ Released [July 1st 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0.
  - Separate resource files for PersistedEntryMap by base currency (separate trade statistics)
  - Move base currency/network selection from network settings to preferences
  - Add btc address validator to last trade step for withdrawal.
- - Remove dont show again option for tx summary popup at withdrawal.
+ - Remove don't show again option for tx summary popup at withdrawal.
  - Add support for different REFERENCE_DEFAULT_MIN_TX_FEE by base currency
  - Fix issue with German as default language if OS is Windows/German
  - Add warning for CXC regrading daily or monthly transfer limits
@@ -200,7 +200,7 @@ Released [June 28th 2017](https://github.com/bitsquare/bitsquare/releases/tag/v0
  - Support multiple base currencies. Beside BTC the user can choose to use LTC or DOGE as base market. More will come in future releases.
  - Use fee estimation service form https://bitcoinfees.21.co to use dynamic mining fees.
  - Use dynamic trading fees. Trading fees are based on trade amount and distance to market price.
-Min. fee (MF) = 0.0002 BTC, default fee (DF) = 0.002 BTC, amount factor (AF) = 1/BTC, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% 0 -> 3, 0.01% -> 0.1). Tradeing fee = max(MF, DF * amount * AF * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance.
+Min. fee (MF) = 0.0002 BTC, default fee (DF) = 0.002 BTC, amount factor (AF) = 1/BTC, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% 0 -> 3, 0.01% -> 0.1). Trading fee = max(MF, DF * amount * AF * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance.
  - Make security deposit for buyer customizable at offer creation (allowed range: 0.001 BTC - 0.2 BTC)
  - Use fixed security deposit for seller (0.01 BTC)
  - Simplify trade process by removing locktime support (removed finalize payout step)
@@ -285,7 +285,7 @@ Released [February 11th 2017](https://github.com/bitsquare/bitsquare/releases/ta
  - Add Georgia, Botswana
  - Add new blockexplores: SoChain, Bitaps
  - Added check for ZEC addresses (only t addresses are permitted) and info popup for ZEC and ZXC
- - Added input validation for altocin addresses: IOP, PIVX, GBYTE
+ - Added input validation for altcoin addresses: IOP, PIVX, GBYTE
  - Added input validation for IBAN, BIC, email
  - Rename Cash/ATM deposit to Cash deposit
  - Increase max. allowed deviation from market price to 30%
@@ -310,7 +310,7 @@ Released [November 19th 2016](https://github.com/bitsquare/bitsquare/releases/ta
  - Add option for setting custom bitcoin nodes in network settings (additional possible via program argument)
  - Add new block explorers to settings
  - Increase max. trade period for US postal money order to 8 days
- - Use default btc format (allow more then 4 decimal places)
+ - Use default btc format (allow more than 4 decimal places)
  - Add tool for exporting wallet data
  - Fix critical bug with BitcoinJ Bloomfilter handling
  - Ignore TTL for persisted data objects (trade statistics) in local data map
@@ -601,11 +601,11 @@ Released [March 11th 2016](https://github.com/bitsquare/bitsquare/releases/tag/v
  - P2P network optimizations (refresh offers)
  - Reconnect and republish offers after inactivity (detect standby/sleep mode)
  - Display detailed info for P2P connections
- - Display inboud and outbound traffic
+ - Display inbound and outbound traffic
  - Measure round trip time
  - Throttle max. traffic
  - Add "Show all currencies" option to the offer book
- - Make market price invertable
+ - Make market price invertible
  - Notifications and advanced popup handling
 
 ### Alpha Version 0.3.4
@@ -675,7 +675,7 @@ Released [March 30th 2015](https://github.com/bitsquare/bitsquare/releases/tag/v
  - Encryption for DHT mailbox
  - Use P2SH for MultiSig
  - Add data protection for DHT storage
- - When trader goes offline his offers get removed from the offer book and will get added again when he goes online again (app should run in background when window gets closed, but that is deactivaed at the moment)
+ - When trader goes offline his offers get removed from the offer book and will get added again when he goes online again (app should run in background when window gets closed, but that is deactivated at the moment)
  - Update to TomP2P Beta 6
  - Update to tag of latest BitcoinJ master
 

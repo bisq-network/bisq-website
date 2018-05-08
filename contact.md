@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact &lsaquo; Bisq - The decentralized bitcoin exchange
+title: Contact &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/contact.png
 ---
 # Contact

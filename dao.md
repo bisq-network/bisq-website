@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DAO &lsaquo; Bisq - The decentralized bitcoin exchange
+title: DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/community.png
 ---
 # The Bisq DAO

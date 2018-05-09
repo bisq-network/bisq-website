@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community &lsaquo; Bisq - The decentralized bitcoin exchange
+title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/community.png
 ---
 # Community

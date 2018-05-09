@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Philosophy &lsaquo; Bisq - The decentralized bitcoin exchange
+title: Philosophy &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/philosophy.png
 ---
 # Philosophy

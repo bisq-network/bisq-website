@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bisq - The P2P exchange network
+title: Bisq - The decentralized Bitcoin exchange
 banner: /images/bitsquare-home2.jpg
 ---
 
@@ -25,7 +25,7 @@ Bisq is unique in that it enables you to start trading in less than 10 minutes:
 Unlike traditional online exchanges, Bisq is designed to be:
 
  - **Instantly accessible** – no need for registration or approval from a central authority.
- - **Decentralized** – there is no single point of failure. The system is peer-to-peer and trading can not be stopped or censored.
+ - **Decentralized** – there is no single point of failure. The system is peer-to-peer and trading cannot be stopped or censored.
  - **Safe** – Bisq never holds your funds. Decentralized arbitration system and security deposits protect traders.
  - **Private** – no one except trading partners exchange personally identifying data. All personal data is stored locally.
  - **Secure** – end-to-end encrypted communication routed over Tor.

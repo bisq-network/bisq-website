@@ -49,6 +49,9 @@ https://bisq.io https://bisq.network 301
 /volume https://docs.google.com/spreadsheets/d/1M8y2cIlHv5Hx5UAt4WZ961Ac8xaNSLiiavjxabNf0qc/edit#gid=1242111088 302
 /release-stats http://www.somsubhra.com/github-release-stats/?username=bisq-network&repository=bisq-desktop 302
 
+/survey http://survey.io/survey/87c4f 302
+
+
 # blog
 
 /blog/tag/ /blog/ 302

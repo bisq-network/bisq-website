@@ -28,6 +28,27 @@ This Roadmap might change at any time, especially in response to [Community](/co
  
 ## Releases
 
+### Version 0.7.1
+Released [July 4th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.7.1)
+- Ack messages for all trade, offer- and dispute messages
+- Show popup if local Bitcoin core is running
+- Lower minimum withdrawal fee to 1 satoshi per byte
+- Add popup for feedback after trade competion
+- Add referrer Id for external Bisq market makers
+- Remove validation for Argentinian account numbers and allow manual edit
+- Deactivate Venmo and CashApp
+- Don’t include assets with diff. network type
+- Don’t treat RBF transactions as risky
+- Ignore “Alert key compromised” message from old nodes in Bitcoinj
+- Add new payment method: MoneyGram
+- Add 28 new assets: 01coin, Aquachain, BitCloud, Bitcoin Core, Bitcoin Instant, Credits, Cryptonodes, CryptoTari, DACash, Diamon, DRIP, FuturoCoin, Graft, LikeCoin, Lobstex, MaxCoin, MegaCoin, MicroCoin, Motion, Myriadcoin, Nano, NewPowerCoin, Nimiq, Pix, PixelPropertyToken, PRiVCY, Triton, Wavi 
+- Fix bug in edit offer screen 
+- Fix bug with Sepa offers and Sepa instant taker
+- Fix reuse of change addresses
+- Fix wrong duration translation in double digit numbers
+- Fix wrong singular word translation in double digit numbers
+- Fix sorting of currencies in market/trades
+
 ### Version 0.7
 Released [May 11th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.7.0)
 - Add feature for editing offers

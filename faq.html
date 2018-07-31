@@ -303,13 +303,13 @@ banner: /images/faq.png
 <strong>Offer maker fees</strong>
 <p>The trading fee for an offer maker is based on the trade amount and distance from the current market price:</p>
 <p><i>0.002 * &lt;amount of BTC being traded&gt; * &lt;square root of percentage distance from current market price&gt;</i><br/><i>(Minimum fee is 0.00005 BTC)</i></p>
-<p>Example 1: offer to sell 1 BTC at current market price results in 0.00005 BTC fee (because 0.002 * 1 * 0 = 0, so minimum fee applies).</p>
-<p>Example 2: offer to sell 0.8 BTC at 4% premium to current market price results in 0.0032 BTC fee (because 0.002 * 0.8 * sqrt(4) = 0.0032).</p>
+<p>Example 1: making an offer to sell 1 BTC at current market price results in a 0.00005 BTC fee (because 0.002 * 1 * 0 = 0, so minimum fee applies).</p>
+<p>Example 2: making an offer to sell 0.8 BTC at 4% premium to current market price results in a 0.0032 BTC fee (because 0.002 * 0.8 * sqrt(4) = 0.0032).</p>
 
 <strong>Offer taker fees</strong>
 <p>The trading fee for an offer taker is based only on the trade amount:</p>
 <p><i>0.002 * &lt;amount of BTC being traded&gt;</i><br/><i>(Minimum fee is 0.00005 BTC)</i></p>
-<p>Example: take offer to buy 0.05 BTC results in 0.001 BTC fee (because 0.002 * 0.05 = 0.001).</p>
+<p>Example: taking an offer to buy 0.05 BTC results in a 0.001 BTC fee (because 0.002 * 0.05 = 0.001).</p>
 
 <strong>Mining fees</strong>
 <p>An offer maker only pays mining fees for the trade fee transaction. An offer taker pays mining fees for the trade fee transaction, deposit transaction, and payout transaction. This is because mining fees fluctuate and it's impossible for the offer maker to know what mining fees will be at the time their offer is taken.</p>

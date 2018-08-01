@@ -295,15 +295,25 @@ banner: /images/faq.png
 </ul>
 
 <p><a name="6"></a><strong>How much does it cost to trade on Bisq?</strong></p>
-<p>The trading fees for the offer maker and for the taker are calculated differently.<br/>
-  The trading fees for the offer maker is based on trade amount and distance to market price.<br/>
-  Min. fee (MinFee) = 0.00005 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin, market price factor (MF) = square root of percent value (e.g. 1% -> 1, 9% -> 3, 0.01% -> 0.1).<br/>
-  Makers trading fee = max(MinFee, DefFee * amount * MF). E.g. 0.002 BTC for 1 BTC trade at 1% market price distance equivalent to 0.2% of the trade amount.<br/>
-  The trading fees for the offer taker depends only on the trade amount.<br/>
-  Min. fee (MinFee) = 0.00005 BTC, default fee (DefFee) = 0.002 BTC/per Bitcoin.<br/>
-  Takers trading fee = max(MinFee, DefFee * amount). E.g. 0.002 BTC for 1 BTC trade. That is 0.2% of the trade amount.<br/>
-  The maker has to pay the miner fee for the trade fee transaction. The taker has to pay 3 times the miner fee (trade fee transaction, deposit transaction and payout transaction). That is because we use a fee estimation service and the maker cannot know which fee will be required at take-offer-time. The mining fee is taken from the recommendation from a <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">fee estimation service</a> and can vary between 20 Satoshi/byte up to 400 Satoshi/byte. The users can see the actual mining fee when creating or taking an offer.
-</p>
+
+<p>To trade on Bisq, users pay (1) trading fees to Bisq and (2) mining fees to miners.</p>
+
+<p>Trading fees for offer makers and offer takers are calculated differently.</p>
+
+<strong>Offer maker fees</strong>
+<p>The trading fee for an offer maker is based on the trade amount and distance from the current market price:</p>
+<p><i>0.002 * &lt;amount of BTC being traded&gt; * &lt;square root of percentage distance from current market price&gt;</i><br/><i>(Minimum fee is 0.00005 BTC)</i></p>
+<p>Example 1: making an offer to sell 0.1 BTC at current market price results in a 0.00005 BTC fee (because 0.002 * 0.1 * 0 = 0, so minimum fee applies).</p>
+<p>Example 2: making an offer to sell 0.1 BTC at a 4% premium to current market price results in a 0.0004 BTC fee (because 0.002 * 0.1 * sqrt(4) = 0.0004).</p>
+
+<strong>Offer taker fees</strong>
+<p>The trading fee for an offer taker is based only on the trade amount:</p>
+<p><i>0.002 * &lt;amount of BTC being traded&gt;</i><br/><i>(Minimum fee is 0.00005 BTC)</i></p>
+<p>Example: taking an offer to buy 0.1 BTC results in a 0.0002 BTC fee (because 0.002 * 0.1 = 0.0002).</p>
+
+<strong>Mining fees</strong>
+<p>An offer maker only pays mining fees for the trade fee transaction. An offer taker pays mining fees for the trade fee transaction, deposit transaction, and payout transaction. This is because mining fees fluctuate and it's impossible for the offer maker to know what mining fees will be at the time their offer is taken.</p>
+<p>Bisq uses <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">this service</a> to estimate fees. Users can see actual mining fees after they've created or taken an offer.</p>
 
 <p><a name="openOffer"></a><strong>Why do I need to keep my application online when I have an open offer?</strong></p>
 <p>If you have published an offer, your Bisq application needs to stay online so it is able to react in the case when another trader wants to take your offer. The MultiSig deposit transaction is created in that take-offer process. Be sure you have deactivated your computers standby mode, otherwise your Bisq application lose the internet connection (monitor standby is not a problem). If you shut down the application your offer gets removed from the distributed offerbook as it would become unavailable for others. After starting Bisq again your offer gets re-published. After the offer has been taken and the trade process has started both traders do NOT need to be online. Though they need to check for the status of the trade to see if some action is required from their side (e.g. sending fiat/altcoin or confirm receipt).</p>

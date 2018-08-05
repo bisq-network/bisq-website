@@ -12,5 +12,5 @@ Note that LiveReload functionality is enabled by default in `_config.yml`.
 This means that if you have the LiveReload browser extension installed,
 you'll see local changes reload into the browser automatically on save.
 
-run jekyll serve --host=0.0.0.0 to change serving IP
-dev: http://port-4000.bisq-website-pedromvpg.codeanyapp.com/
+run -> jekyll serve --host=0.0.0.0 to change serving IP
+dev -> http://port-4000.bisq-website-pedromvpg.codeanyapp.com/

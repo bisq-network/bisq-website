@@ -1,110 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+<head>
+
+  <!-- bind to new IP: jekyll serve --host=0.0.0.0 -->
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="../css/bootstrap.css" rel="stylesheet">
 
   <title>{{ page.title }}</title>
 
-  <link rel="canonical" href="{{ site.url }}" />
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} blog feed" href="{{ site.url }}/{{ site.feed.path }}" />
-
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"/>
-
-  <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-  <link rel='stylesheet' id='opensans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C300%2C600%2C700&#038;ver=4.7.5' type='text/css' media='all'/>
-
-  <script type='text/javascript' src='/js/jquery.js?ver=1.12.4'></script>
-  <script type='text/javascript' src='/js/jquery-migrate.min.js?ver=1.4.1'></script>
-  <script type='text/javascript' src='/js/superfish.js?ver=4.7.5'></script>
-  <script type='text/javascript' src='/js/jquery.formalize.min.js?ver=4.7.5'></script>
-  <script type='text/javascript' src='/js/tinynav.js?ver=4.7.5'></script>
-  <script type='text/javascript' src='/js/pinzolo.js?ver=4.7.5'></script>
 </head>
 
-<body class="home page-template-default page page-id-6 custom-background">
+<body>
 
-<div id="wrapper_border" class="center" style="margin-top: 50px;">
-  <div id="wrapper_bg" class="center">
-    <div id="navwrap">
-      <div id="navwrap2">
-        <nav>
-          <ul id="menuUl" class="menu">
-            <li class="tnskip">&nbsp;</li><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-40"><a href="/">Home</a></li>
-            <li id="menu-item-1427" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1427"><a href="https://markets.bisq.network/">Markets</a></li>
-            <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="/philosophy/">Philosophy</a></li>
-            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="/community/">Community</a></li>
-            <li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="/faq/">FAQ</a></li>
-            <li id="menu-item-597" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-597"><a href="/blog/">Blog</a></li>
-            <li id="menu-item-1271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1271"><a href="https://bisq.community/">Forum</a></li>
-            <li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="/downloads/">Downloads</a></li>
-            <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
-          </ul>
-        </nav>
-      </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="/"><img src="../images/bisq-logo.svg" height="30"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Markets <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/vision/">Vision</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/community/">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/faq/">Support</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Downloads
+        </a>
+          <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+
     </div>
+  </nav>
 
-    {% if page.banner != null %}
-    <header>
-      <img class="size-full" src="{{ page.banner }}" alt=""/>
-    </header>
-    {% endif %}
+
+
+  <div class="container">
+
+
+
 
     {% if page.url == '/' %}
-    <div id="homeboxes">
-      <div class="homebox"><a href="https://www.youtube.com/c/bisq-network">
-        <img src="/images/videos_button.png" alt="Videos"/></a>
+    <main class="bd-masthead" id="content" role="main">
+      <div class="row align-items-center">
+        <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
+          <h1 class="intro text-monospace display-1">Exchange,Decentralized.</h1>
+          <p class="lead">
+            Bisq is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies in exchange for national currencies. No registration required.
+          </p>
+          <div class="d-flex flex-column flex-md-row lead mb-3">
+
+            <div class="btn-group os-selector-home">
+              <button class="btn btn-outline-secondary btn-lg btn-icon" type="button">
+                      <a class="dropdown-item  dropdown-item-main " href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download 0.3.6');">
+                        <img src="images/icon-apple-g.svg" class="os-icon os-icon-g"/>
+                        <img src="images/icon-apple-w.svg" class="os-icon os-icon-w"/>
+                        Download for Mac
+                    </a>
+                    </button>
+              <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+              <div class="dropdown-menu dropdown-menu-right shadow-lg">
+                <div class="dropdown-item btn-icon">
+                  <img src="images/icon-windows-g.svg" class="os-icon os-icon-g" />
+                  <img src="images/icon-windows-w.svg" class="os-icon os-icon-w" /> Download for Windows
+                  <div class="float-right">
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">32 Bit</a> |
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">64 Bit</a></div>
+                </div>
+
+
+                <div class="dropdown-item btn-icon">
+                  <img src="images/icon-ubuntu-g.svg" class="os-icon os-icon-g" />
+                  <img src="images/icon-ubuntu-w.svg" class="os-icon os-icon-w" /> Download for Debian/Ubuntu
+                  <div class="float-right">
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">32 Bit</a> |
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">64 Bit</a></div>
+                </div>
+
+
+                <div class="dropdown-item btn-icon">
+                  <img src="images/icon-linux-g.svg" class="os-icon os-icon-g" />
+                  <img src="images/icon-linux-w.svg" class="os-icon os-icon-w" /> Download for Arch Linux
+                  <div class="float-right">
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">Arch User Repository</a></div>
+                </div>
+
+                <div class="dropdown-item btn-icon">
+                  <img src="images/icon-opensource-g.svg" class="os-icon os-icon-g" />
+                  <img src="images/icon-opensource-w.svg" class="os-icon os-icon-w" /> Source Code
+                  <div class="float-right">
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">zip</a> |
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">tar.gz</a></div>
+                </div>
+
+                <div class="dropdown-item btn-icon">
+                  <img src="images/icon-notes-g.svg" class="os-icon os-icon-g" />
+                  <img src="images/icon-notes-w.svg" class="os-icon os-icon-w" /> Release Notes
+                  <div class="float-right">
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">v0.6.7</a>
+                  </div>
+                </div>
+
+                <div class="dropdown-item btn-icon">
+                  <img src="images/icon-verification-g.svg" class="os-icon os-icon-g" />
+                  <img src="images/icon-verification-w.svg" class="os-icon os-icon-w" /> Verification
+                  <div class="float-right">
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">PGP signatures</a> |
+                    <a href="#" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">PGP Public Key</a></div>
+                </div>
+
+              </div>
+            </div>
+            
+            
+
+            <a href="" class="btn btn-lg btn-outline-secondary btn-icon" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Whitepaper');">
+                  <img src="images/icon-whitepaper-g.svg" class="os-icon os-icon-g"/>
+                  <img src="images/icon-whitepaper-w.svg" class="os-icon os-icon-w"/>
+                  Whitepaper
+            </a>
+            
+            
+          </div>
+          <p class="text-muted mb-0">
+            v0.6.7
+          </p>
+
+        </div>
+        <div class="col-md-12 order-md-1 text-center text-md-left pr-md-5">
+          <img class="img-fluid shadow-lg" alt="bisq" style="width: 100%; display: block;" src="https://www.forexbrokerz.com/userfiles/bisq%20order%20book.png">
+        </div>
       </div>
-      <div class="homebox">
-        <a href="/downloads/"><img src="/images/download_button.png" alt="Download"/></a>
-      </div>
-      <div class="homebox"><a href="https://github.com/bisq-network/exchange">
-        <img src="/images/source_button.png" alt="Source"/></a>
-      </div>
-      <div class="homebox"><a href="/docs/exchange/whitepaper">
-        <img src="/images/whitepaper_button.png" alt="Whitepaper"/></a>
-      </div>
-    </div>
+
+    </main>
     {% endif %}
 
-    <div id="main" class="center">
-      {{ content }}
+
+
+    <div class="row align-items-center">
+      <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
+        {{ content }}
+      </div>
     </div>
 
-    <footer class="center copy">
 
-      <nav class="nav-footer">
-        <ul id="menuUIfooter" class="menu">
-          <li class="tnskip" >&nbsp;</li><li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="/press/">Press</a></li>
-          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="/roadmap/">Roadmap</a></li>
-          <li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/contribute/">Contribute</a></li>
-          <li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="/dao/">DAO</a></li>
-          <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="/contact/">Contact</a></li>
-          <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
-        </ul>
-      </nav>
 
-      <br/>
-
-      <p>&copy; {{ site.time | date: '%Y' }} Bisq</p>
-
-    </footer>
 
   </div>
-</div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-104074395-1', 'auto');
-  {% if page.url == '/404.html' %}
-  ga('send', 'pageview', '/404error/?url=' + document.location.pathname + document.location.search + '&ref=' + document.referrer );
-  {% else %}
-  ga('send', 'pageview');
-  {% endif %}
-</script>
+
+
+
+
+
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark footer">
+
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Markets <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/vision/">Vision</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/community/">Community</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/faq/">Support</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+    </ul>
+
+
+  </nav>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -28,6 +28,27 @@ This Roadmap might change at any time, especially in response to [Community](/co
  
 ## Releases
 
+### Version 0.7.1
+Released [July 4th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.7.1)
+- Ack messages for all trade, offer- and dispute messages
+- Show popup if local Bitcoin core is running
+- Lower minimum withdrawal fee to 1 satoshi per byte
+- Add popup for feedback after trade competion
+- Add referrer Id for external Bisq market makers
+- Remove validation for Argentinian account numbers and allow manual edit
+- Deactivate Venmo and CashApp
+- Don’t include assets with diff. network type
+- Don’t treat RBF transactions as risky
+- Ignore “Alert key compromised” message from old nodes in Bitcoinj
+- Add new payment method: MoneyGram
+- Add 28 new assets: 01coin, Aquachain, BitCloud, Bitcoin Core, Bitcoin Instant, Credits, Cryptonodes, CryptoTari, DACash, Diamon, DRIP, FuturoCoin, Graft, LikeCoin, Lobstex, MaxCoin, MegaCoin, MicroCoin, Motion, Myriadcoin, Nano, NewPowerCoin, Nimiq, Pix, PixelPropertyToken, PRiVCY, Triton, Wavi 
+- Fix bug in edit offer screen 
+- Fix bug with Sepa offers and Sepa instant taker
+- Fix reuse of change addresses
+- Fix wrong duration translation in double digit numbers
+- Fix wrong singular word translation in double digit numbers
+- Fix sorting of currencies in market/trades
+
 ### Version 0.7
 Released [May 11th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.7.0)
 - Add feature for editing offers
@@ -153,9 +174,9 @@ Released [November 26th 2017](https://github.com/bisq-network/bisq-desktop/relea
 
 ### Version 0.6.0
 Released [November 16th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.0)
-- Add support for Tor bridges and pluggable transports (https://github.com/bisq-network/exchange/issues/998)
-- Provide Bitcoin full nodes from Bisq developers (https://github.com/bisq-network/roles/issues/39) to protect against BitcoinJ vulnerabilities (BitcoinJ is blindly following longest PoW chain and not checking consensus rule violations). That also avoids the privacy issues with bloom filters. (https://github.com/bisq-network/exchange/issues/999)
-- Add account age verification scheme (https://github.com/bisq-network/proposals/blob/master/payment-account-age-witness.adoc, https://github.com/bisq-network/exchange/issues/1000)
+- Add support for Tor bridges and pluggable transports (https://github.com/bisq-network/bisq-desktop/issues/998)
+- Provide Bitcoin full nodes from Bisq developers (https://github.com/bisq-network/roles/issues/39) to protect against BitcoinJ vulnerabilities (BitcoinJ is blindly following longest PoW chain and not checking consensus rule violations). That also avoids the privacy issues with bloom filters. (https://github.com/bisq-network/bisq-desktop/issues/999)
+- Add account age verification scheme (https://github.com/bisq-network/proposals/blob/master/payment-account-age-witness.adoc, https://github.com/bisq-network/bisq-desktop/issues/1000)
 - Reduce DEFAULT_TAKER_FEE_IN_BASE_CUR from 0.003 BTC to 0.002 BTC (that is the base for a 1 BTC trade)
 - Lower miner fees by fee estimation adjustments (using maxDelay 20 instead of 10 and taking average of 12 last fee results)
 - Lower miner fee by transaction size calculation. Instead of using 600 bytes as estimation of trade fee tx we create a dummy tx to get the exact size id funds are on the wallet, otherwise we use 260 bytes for maker and 320 bytes for taker (deposit and payout tx are larger).

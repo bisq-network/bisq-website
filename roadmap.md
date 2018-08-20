@@ -12,15 +12,10 @@ This Roadmap might change at any time, especially in response to [Community](/co
 ## Planned milestones
 
 ### Version 1.0
- - Bisq DAO compensation requests
- - Bisq DAO voting
- - Bisq DAO bonding
- - New mediation and arbitration system
- - UI improvements
+ - Bisq DAO
 
 ### Version 0.9
- - Trading features for mobile app
- - UI improvements
+ - Redesign
  
 ## Releases
 

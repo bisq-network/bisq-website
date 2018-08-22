@@ -2,7 +2,7 @@
 layout: page
 title: Bisq Downloads &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/roadmap1.png
-version: 0.7.1
+version: 0.8.0
 ---
 <h1>Bisq Downloads</h1>
 
@@ -24,6 +24,31 @@ a.selected::after {
     display: "";
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#android-badge-img {
+  height: auto;
+  width: 160px;
+}
+
+#apple-badge-img {
+  margin:6%;width:88%;
+}
+
+#app-download td {
+  width:200px;
+}
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* msie */
+}
 </style>
 
 <script src="/js/downloads.js"></script>
@@ -84,3 +109,22 @@ a.selected::after {
 <br>
 
 <p>See <a href="https://docs.bisq.network/getting-started.html">Getting Started with Bisq</a> for instructions how to complete your first trade.</p>
+
+<h2>Bisq Mobile Notifications</h2>
+
+<p>Bisq version {{ page.version }} or higher is required to receive mobile notifications.</p>
+
+<table id="app-download" style="text-align: center;">
+  <tr>
+    <td>
+      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq-notifications&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="not-active"><img id="android-badge-img" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/></a>
+      Currently in Beta <br>(Join <a href="https://bisq.network/slack-invite">#bisq-mobile on Slack</a> for access)
+    </td>
+    <td>
+      <a href="#" id="apple-badge-img" class="not-active" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/de-de/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
+      Waiting for review
+    </td>
+  </tr>
+</table>
+
+

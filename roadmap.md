@@ -12,21 +12,25 @@ This Roadmap might change at any time, especially in response to [Community](/co
 ## Planned milestones
 
 ### Version 1.0
- - Bisq DAO compensation requests
- - Bisq DAO voting
- - Bisq DAO bonding
- - New mediation and arbitration system
- - UI improvements
+ - Bisq DAO
 
 ### Version 0.9
- - Trading features for mobile app
- - UI improvements
-
-### Version 0.8
- - Notifications for mobile app and email
- - UI improvements
+ - Redesign
  
 ## Releases
+
+### Version 0.8
+Released [August 22nd 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.8.0)
+- Rounding of fiat values to improve privacy
+- Add mobile notifications
+- Fix transaction broadcast issue
+- Add HalCash
+- Add Face to Face payment
+- Add warning popup for languages not natively supported by arbitration
+- Reflect new repository structure in issue links
+- Fix reseting of amount column in trade statistics
+- Added DAO code
+- Refactoring of generics
 
 ### Version 0.7.1
 Released [July 4th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.7.1)

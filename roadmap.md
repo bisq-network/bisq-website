@@ -20,7 +20,7 @@ This Roadmap might change at any time, especially in response to [Community](/co
 ## Releases
 
 ### Version 0.8
-Released [August 20th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.8.0)
+Released [August 22nd 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.8.0)
 - Rounding of fiat values to improve privacy
 - Add mobile notifications
 - Add HalCash

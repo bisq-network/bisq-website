@@ -23,6 +23,7 @@ This Roadmap might change at any time, especially in response to [Community](/co
 Released [August 22nd 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.8.0)
 - Rounding of fiat values to improve privacy
 - Add mobile notifications
+- Fix transaction broadcast issue
 - Add HalCash
 - Add Face to Face payment
 - Add warning popup for languages not natively supported by arbitration

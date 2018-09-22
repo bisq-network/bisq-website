@@ -23,7 +23,7 @@ Git push changes
 
 1. Add all files `$ git add --a`
 2. Commit changes `$ git commit -m "Message"`
-3. Push to repo `git push`
+3. Push to repo `$ git push`
 
 
 Git Syncing with master

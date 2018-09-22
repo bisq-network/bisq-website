@@ -1,5 +1,11 @@
 <!doctype html>
 <html lang="en">
+<<<<<<< HEAD
+=======
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+>>>>>>> upstream/master
 
 <head>
 
@@ -19,6 +25,7 @@
 
 </head>
 
+<<<<<<< HEAD
 <body>
 
 
@@ -32,12 +39,71 @@
       {% include homepage_content.html %}
     {% else %}
         {{ content }}
+=======
+<body class="home page-template-default page page-id-6 custom-background">
+
+<div id="wrapper_border" class="center" style="margin-top: 50px;">
+  <div id="wrapper_bg" class="center">
+    <div id="navwrap">
+      <div id="navwrap2">
+        <nav>
+          <ul id="menuUl" class="menu">
+            <li class="tnskip">&nbsp;</li><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-40"><a href="/">Home</a></li>
+            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://docs.bisq.network">Docs <sup>(NEW)</sup></a></li>
+            <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="/philosophy/">Philosophy</a></li>
+            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="/community/">Community</a></li>
+            <li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="/faq/">FAQ</a></li>
+            <li id="menu-item-597" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-597"><a href="/blog/">Blog</a></li>
+            <li id="menu-item-1271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1271"><a href="https://bisq.community/">Forum</a></li>
+            <li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="/downloads/">Downloads</a></li>
+            <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    {% if page.banner != null %}
+    <header>
+      <img class="size-full" src="{{ page.banner }}" alt=""/>
+    </header>
+    {% endif %}
+
+    {% if page.url == '/' %}
+    <div id="homeboxes">
+      <div class="homebox"><a href="https://www.youtube.com/c/bisq-network">
+        <img src="/images/videos_button.png" alt="Videos"/></a>
+      </div>
+      <div class="homebox">
+        <a href="/downloads/"><img src="/images/download_button.png" alt="Download"/></a>
+      </div>
+      <div class="homebox"><a href="https://github.com/bisq-network/exchange">
+        <img src="/images/source_button.png" alt="Source"/></a>
+      </div>
+      <div class="homebox"><a href="https://docs.bisq.network">
+        <img src="/images/whitepaper_button.png" alt="Docs"/></a>
+      </div>
+    </div>
+>>>>>>> upstream/master
     {% endif %}
 
   </div>
 
   {% include footer.html %}
 
+<<<<<<< HEAD
+=======
+      <nav class="nav-footer">
+        <ul id="menuUIfooter" class="menu">
+          <li class="tnskip" >&nbsp;</li><li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="/press/">Press</a></li>
+          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="https://markets.bisq.network">Markets</a></li>
+          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="/roadmap/">Roadmap</a></li>
+          <li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/contribute/">Contribute</a></li>
+          <li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="/dao/">DAO</a></li>
+          <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="/contact/">Contact</a></li>
+          <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
+        </ul>
+      </nav>
+>>>>>>> upstream/master
 
 
 

@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Bisq Downloads &lsaquo; Bisq - The decentralized bitcoin exchange
+title: Bisq Downloads &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/roadmap1.png
+version: 0.8.0
 ---
 <h1>Bisq Downloads</h1>
 
@@ -23,6 +24,24 @@ a.selected::after {
     display: "";
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#android-badge-img {
+  height: auto;
+  width: 160px;
+}
+
+#apple-badge-img {
+  margin:6%;width:88%;
+}
+
+#app-download td {
+  width:200px;
+}
+
 </style>
 
 <script src="/js/downloads.js"></script>
@@ -41,20 +60,20 @@ a.selected::after {
     <tr>
       <td>Windows</td>
       <td>
-        <a id="dl-win32" href="https://github.com/bisq-network/exchange/releases/download/v0.6.7/Bisq-32bit-0.6.7.exe">32 Bit</a> |
-        <a id="dl-win64" href="https://github.com/bisq-network/exchange/releases/download/v0.6.7/Bisq-64bit-0.6.7.exe">64 Bit</a>
+        <a id="dl-win32" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-32bit-{{ page.version }}.exe">32 Bit</a> |
+        <a id="dl-win64" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-64bit-{{ page.version }}.exe">64 Bit</a>
       </td>
     </tr>
     <tr>
       <td>Mac</td>
-      <td><a id="dl-mac" href="https://github.com/bisq-network/exchange/releases/download/v0.6.7/Bisq-0.6.7.dmg">.dmg</a>
+      <td><a id="dl-mac" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-{{ page.version }}.dmg">.dmg</a>
       </td>
     </tr>
     <tr>
       <td>Debian/Ubuntu</td>
       <td>
-        <a id="dl-deb32" href="https://github.com/bisq-network/exchange/releases/download/v0.6.7/Bisq-32bit-0.6.7.deb">32 Bit</a> |
-        <a id="dl-deb64" href="https://github.com/bisq-network/exchange/releases/download/v0.6.7/Bisq-64bit-0.6.7.deb">64 Bit</a>
+        <a id="dl-deb32" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-32bit-{{ page.version }}.deb">32 Bit</a> |
+        <a id="dl-deb64" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-64bit-{{ page.version }}.deb">64 Bit</a>
       </td>
     </tr>
     <p>
@@ -65,17 +84,38 @@ a.selected::after {
     </tr>
     <tr>
       <td>Source Code</td>
-      <td><a href="https://github.com/bisq-network/exchange/archive/v0.6.7.zip">zip</a> |
-        <a href="https://github.com/bisq-network/exchange/archive/v0.6.7.tar.gz">tar.gz</a></td>
+      <td><a href="https://github.com/bisq-network/exchange/archive/v{{ page.version }}.zip">zip</a> |
+        <a href="https://github.com/bisq-network/exchange/archive/v{{ page.version }}.tar.gz">tar.gz</a></td>
     </tr>
     <tr>
       <td>Release Notes</td>
-      <td><a href="https://github.com/bisq-network/exchange/releases/tag/v0.6.7">Release Notes for v0.6.7</a></td>
+      <td><a href="https://github.com/bisq-network/exchange/releases/tag/v{{ page.version }}">Release Notes for v{{ page.version }}</a></td>
     </tr>
     <tr>
       <td>Verification</td>
-      <td><a href="https://github.com/bisq-network/exchange/releases/tag/v0.6.7">PGP signatures</a> |
-        <a href="https://github.com/bisq-network/exchange/releases/download/v0.6.7/F379A1C6.asc">PGP Public Key</a></td>
+      <td><a href="https://github.com/bisq-network/exchange/releases/tag/v{{ page.version }}">PGP signatures</a> |
+        <a href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/29CDFD3B.asc">PGP Public Key</a></td>
     </tr>
   </table>
 </div>
+
+<br>
+
+<p>See <a href="https://docs.bisq.network/getting-started.html">Getting Started with Bisq</a> for instructions how to complete your first trade.</p>
+
+<h2>Bisq Mobile Notifications</h2>
+
+<p>Bisq version {{ page.version }} or higher is required to receive mobile notifications.</p>
+
+<table id="app-download" style="text-align: center;">
+  <tr>
+    <td>
+      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img id="android-badge-img" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/></a>
+    </td>
+    <td>
+      <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" id="apple-badge-img" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
+    </td>
+  </tr>
+</table>
+
+

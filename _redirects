@@ -3,7 +3,6 @@
 #
 
 # bitsquare.io
-
 http://bitsquare.io/* https://bisq.network/:splat 301!
 http://bitsquare.io https://bisq.network 301
 
@@ -12,23 +11,26 @@ https://bitsquare.io https://bisq.network 301
 
 
 # bisq.io
-
 http://bisq.io/* https://bisq.network/:splat 301!
 http://bisq.io https://bisq.network 301
 
 https://bisq.io/* https://bisq.network/:splat 301!
 https://bisq.io https://bisq.network 301
 
-# docs
+
+# docs.bisq.network
 /phase-zero https://docs.bisq.network/dao/phase-zero.html 302
 /list-token https://bisq.network/list-asset 301
 /list-asset https://docs.bisq.network/exchange/howto/list-asset.html 302
+/intro https://docs.bisq.network/intro.html 302
+/contrib-checklist /contributor-checklist 302
+/contributor-checklist https://docs.bisq.network/contributor-checklist.html 302
+/get-started https://docs.bisq.network/getting-started.html 302
+/getting-started https://docs.bisq.network/getting-started.html 302
 
 /arbitration_system.pdf /docs/exchange/arbitration-system 301
 /docs/arbitration-system.pdf /docs/exchange/arbitration-system 301
 /docs/exchange/arbitration-system https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw/edit 302
-
-https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw
 
 /whitepaper.pdf /docs/exchange/whitepaper 301
 /bitsquare.pdf /docs/exchange/whitepaper 301
@@ -43,8 +45,10 @@ https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw
 
 /docs/dao/specification https://docs.bisq.network/dao/specification.html 302
 
-# blog
+/mobile-notifications https://docs.bisq.network/bisq-mobile.html#notifications 302
 
+
+# blog
 /blog/tag/ /blog/ 302
 /blog/tag/* /blog/ 302
 /blog/category/ /blog/ 302
@@ -52,13 +56,17 @@ https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw
 
 /feed /blog/feed.atom 301
 
-# team
-
-/team / 302
 
 # misc
+/team / 302
 
-/slack-invite https://join.slack.com/t/bisq/shared_invite/enQtMzM5OTc4NzU0NDE3LTk3ZDE0ZDljOTc0ZTY0Nzc5MzEyZjlmYzI5ZDAwNTkyMWJlZWRjZjY3OTU4ZjIxMWQ2M2JlNWI0MWZkM2ZhZjI 302
+/slack-invite https://join.slack.com/t/bisq/shared_invite/enQtNDM2MDU4OTMyMzY5LThiMGVlZDZmZjRjM2FhODRlNGNlNzMxYmQwYjFlYzZkYTIwYjZjMGE5NjI0NTBiMTAwMGI3ZDI3ZDk1ZjNmMzI 302
 
 /events https://calendar.google.com/calendar/embed?src=adfiuiokq9jtac8t9keomc00b0%40group.calendar.google.com 302
 /calendar /events 301
+
+/volume https://docs.google.com/spreadsheets/d/1M8y2cIlHv5Hx5UAt4WZ961Ac8xaNSLiiavjxabNf0qc/edit#gid=1242111088 302
+
+/release-stats http://www.somsubhra.com/github-release-stats/?username=bisq-network&repository=bisq-desktop 302
+
+/survey http://survey.io/survey/ddfaa 302

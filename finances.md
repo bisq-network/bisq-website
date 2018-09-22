@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Finances &lsaquo; Bisq - The decentralized bitcoin exchange
+title: Finances &lsaquo; Bisq - The decentralized Bitcoin exchange
 ---
 # Finances
 
@@ -46,7 +46,7 @@ With Bisq we try to keep our expenses down! Our main expense is the time of our 
     <td>24.00 USD</td>
   </tr>
   <tr>
-    <td>Apple OSX developer certificate for code signing (1 year)</td>
+    <td>Apple macOS developer certificate for code signing (1 year)</td>
     <td>99.00 EUR</td>
   </tr>
   <p>

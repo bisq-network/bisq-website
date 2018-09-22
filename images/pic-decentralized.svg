@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-pic-decentralized);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #25b135;
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-pic-decentralized">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="pic-decentralized" class="cls-1">
+    <g id="Ellipse_13" data-name="Ellipse 13" class="cls-2" transform="translate(65.308 14.122)">
+      <circle class="cls-4" cx="5.692" cy="5.692" r="5.692"/>
+      <circle class="cls-5" cx="5.692" cy="5.692" r="4.192"/>
+    </g>
+    <g id="Ellipse_14" data-name="Ellipse 14" class="cls-2" transform="translate(35.308 8.122)">
+      <circle class="cls-4" cx="5.692" cy="5.692" r="5.692"/>
+      <circle class="cls-5" cx="5.692" cy="5.692" r="4.192"/>
+    </g>
+    <g id="Ellipse_15" data-name="Ellipse 15" class="cls-2" transform="translate(1.308 28.122)">
+      <circle class="cls-4" cx="5.692" cy="5.692" r="5.692"/>
+      <circle class="cls-5" cx="5.692" cy="5.692" r="4.192"/>
+    </g>
+    <g id="Ellipse_16" data-name="Ellipse 16" class="cls-2" transform="translate(10.308 87.122)">
+      <circle class="cls-4" cx="5.692" cy="5.692" r="5.692"/>
+      <circle class="cls-5" cx="5.692" cy="5.692" r="4.192"/>
+    </g>
+    <g id="Ellipse_17" data-name="Ellipse 17" class="cls-2" transform="translate(68.308 60.122)">
+      <circle class="cls-4" cx="5.692" cy="5.692" r="5.692"/>
+      <circle class="cls-5" cx="5.692" cy="5.692" r="4.192"/>
+    </g>
+    <g id="Ellipse_18" data-name="Ellipse 18" class="cls-2" transform="translate(17.308 52.122)">
+      <circle class="cls-4" cx="5.692" cy="5.692" r="5.692"/>
+      <circle class="cls-5" cx="5.692" cy="5.692" r="4.192"/>
+    </g>
+    <g id="Ellipse_19" data-name="Ellipse 19" class="cls-2" transform="translate(51.308 78.122)">
+      <circle class="cls-4" cx="5.692" cy="5.692" r="5.692"/>
+      <circle class="cls-5" cx="5.692" cy="5.692" r="4.192"/>
+    </g>
+    <g id="Ellipse_20" data-name="Ellipse 20" class="cls-2" transform="translate(46.308 37.122)">
+      <circle class="cls-4" cx="5.692" cy="5.692" r="5.692"/>
+      <circle class="cls-5" cx="5.692" cy="5.692" r="4.192"/>
+    </g>
+    <path id="Path_150" data-name="Path 150" class="cls-3" d="M17.433,2.188,48.379,7.55" transform="translate(-2.945 32.81)"/>
+    <path id="Path_151" data-name="Path 151" class="cls-3" d="M17.433,21.413,20.769,2.188" transform="translate(0.958 63.401)"/>
+    <path id="Path_153" data-name="Path 153" class="cls-3" d="M11.193,22.428,38.61,16.417" transform="translate(11.777 69.401)"/>
+    <path id="Path_155" data-name="Path 155" class="cls-3" d="M11.193,25.052l15.3-8.634" transform="translate(18.943 29.733)"/>
+    <path id="Path_156" data-name="Path 156" class="cls-3" d="M11.193,29.36l9.96-12.942" transform="translate(45.807 8.56)"/>
+    <path id="Path_154" data-name="Path 154" class="cls-3" d="M34.36,24.264,31.032-2.457" transform="translate(21.777 52.401)"/>
+    <path id="Path_152" data-name="Path 152" class="cls-3" d="M13.711,21.413,7.991-21.952" transform="translate(0.777 63.401)"/>
+    <path id="Path_157" data-name="Path 157" class="cls-3" d="M42.936,10.371,31.032-2.457" transform="translate(25.968 50.263)"/>
+    <path id="Path_158" data-name="Path 158" class="cls-3" d="M36.416,13.52,31.032-2.457" transform="translate(13.021 22.73)"/>
+  </g>
+</svg>

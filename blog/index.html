@@ -3,6 +3,7 @@ layout: page
 title: Blog &lsaquo; Bisq - The decentralized Bitcoin exchange
 ---
 
+<h1 id="community" class="mb-5">Bisq Blog</h1>
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
@@ -33,6 +34,6 @@ title: Blog &lsaquo; Bisq - The decentralized Bitcoin exchange
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">Next</a>
   {% else %}
-    <span class="next ">Next</span>
+    <span class="next">Next</span>
   {% endif %}
 </div>

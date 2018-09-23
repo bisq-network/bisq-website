@@ -5,8 +5,8 @@ layout: default
 
 <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-8 order-md-1 text-center text-md-left pr-md-5">
-        {{ content }}
+      <div class="{% if page.url == '/community/' %}col-md-12{% else %}col-md-8{% endif %} order-md-1 text-center text-md-left pr-md-5">
+         {{ content }}
       </div>
     </div>
 </div>

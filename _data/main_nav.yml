@@ -1,0 +1,20 @@
+links:
+
+- title: Market
+  url: /#
+
+- title: Vision
+  url: /vision/
+
+- title: Documentation
+  url: https://docs.bisq.network/
+  target: _blank
+
+- title: Community
+  url: /community/
+
+- title: FAQ
+  url: /faq/
+
+- title: Blog
+  url: /blog/

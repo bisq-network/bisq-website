@@ -4,32 +4,12 @@ title: Blog &lsaquo; Bisq - The decentralized Bitcoin exchange
 ---
 
 
-{% for post in site.posts %}
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
   <div class="blog-post mb-5 pb-5 border-bottom">
     <div class="blog-post-date grey small mb-2">{{ post.date | date: "%-d %B %Y" }}</div>
     <div>
       <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
-      <div>
-        {{ post.excerpt }}
-        <a href="{{ post.url }}">Read More</a>
-      </div>
-    </div>
-  </div>
-{% endfor %}
-
-
-
-
-
-
-
-
-<!-- This loops through the paginated posts -->
-{% for post in paginator.posts %}
-  <div class="blog-post">
-    <div class="blog-post-date">{{ post.date | date: "%-d %B %Y" }}</div>
-    <div>
-      <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
       <div>
         {{ post.excerpt }}
         <a href="{{ post.url }}">Read More</a>

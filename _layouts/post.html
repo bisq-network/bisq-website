@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 <div id="bcont">
   <article id="post-802" class="post-802 post type-post status-publish format-standard hentry category-news">
@@ -8,7 +8,7 @@ layout: default
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
         <ul>
           <li>{{ page.author }}</li>
-          <li>{{ page.date | date: '%b %d %Y'}}</li>
+          <li>{{ page.date | date: "%-d %B %Y"}}</li>
         </ul>
       </div>
     </div>

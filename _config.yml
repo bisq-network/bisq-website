@@ -7,6 +7,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
 feed:
   path: blog/feed.atom
 include:
@@ -15,3 +16,5 @@ exclude:
   - CNAME
   - README
   - Gemfile
+paginate: 10
+paginate_path: "/blog/page/:num/"

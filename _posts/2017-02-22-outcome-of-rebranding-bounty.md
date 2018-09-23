@@ -4,8 +4,9 @@ title: Outcome of Rebranding Bounty
 author: Manfred Karrer
 ---
 ### TL;DR
-
+<!--more-->
 The team reviewed all bounty submissions, but there was no single name that clearly stood out. The Bitsquare bounty of 0.5 bitcoin will be distributed to those with best contributions.
+
 
 ### Background
 

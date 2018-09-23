@@ -1,122 +1,63 @@
 <!doctype html>
 <html lang="en">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> upstream/master
+
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
->>>>>>> upstream/master
 
-<head>
 
-  <!-- bind to new IP: jekyll serve --host=0.0.0.0 -->
 
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 
   <!-- Bootstrap CSS -->
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="../css/bootstrap.css" rel="stylesheet">
   <link href="../css/styles.css" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/bisq-fav.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/bisq-fav.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#404040">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
 
   <title>{{ page.title }}</title>
 
 </head>
 
-<<<<<<< HEAD
-<body>
 
-
-
- 
-  {% include main_nav.html %}
-
-  <div class="container">
-
-    {% if page.url == '/' %}
-      {% include homepage_content.html %}
-    {% else %}
-        {{ content }}
-=======
 <body class="home page-template-default page page-id-6 custom-background">
 
-<div id="wrapper_border" class="center" style="margin-top: 50px;">
-  <div id="wrapper_bg" class="center">
-    <div id="navwrap">
-      <div id="navwrap2">
-        <nav>
-          <ul id="menuUl" class="menu">
-            <li class="tnskip">&nbsp;</li><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-40"><a href="/">Home</a></li>
-            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://docs.bisq.network">Docs <sup>(NEW)</sup></a></li>
-            <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="/philosophy/">Philosophy</a></li>
-            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="/community/">Community</a></li>
-            <li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="/faq/">FAQ</a></li>
-            <li id="menu-item-597" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-597"><a href="/blog/">Blog</a></li>
-            <li id="menu-item-1271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1271"><a href="https://bisq.community/">Forum</a></li>
-            <li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="/downloads/">Downloads</a></li>
-            <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
 
-    {% if page.banner != null %}
-    <header>
-      <img class="size-full" src="{{ page.banner }}" alt=""/>
-    </header>
-    {% endif %}
+  {% include main_nav.html %}
+
+  
+  
 
     {% if page.url == '/' %}
-    <div id="homeboxes">
-      <div class="homebox"><a href="https://www.youtube.com/c/bisq-network">
-        <img src="/images/videos_button.png" alt="Videos"/></a>
+    
+      <div class="outter">
+        {% include homepage_content.html %}
       </div>
-      <div class="homebox">
-        <a href="/downloads/"><img src="/images/download_button.png" alt="Download"/></a>
+    
+    {% else %}
+    
+      <div class="outter">
+        {{ content }}
       </div>
-      <div class="homebox"><a href="https://github.com/bisq-network/exchange">
-        <img src="/images/source_button.png" alt="Source"/></a>
-      </div>
-      <div class="homebox"><a href="https://docs.bisq.network">
-        <img src="/images/whitepaper_button.png" alt="Docs"/></a>
-      </div>
-    </div>
->>>>>>> upstream/master
+
     {% endif %}
-
-  </div>
-
+    
+  
+  
+  
+  
   {% include footer.html %}
 
-<<<<<<< HEAD
-=======
-      <nav class="nav-footer">
-        <ul id="menuUIfooter" class="menu">
-          <li class="tnskip" >&nbsp;</li><li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="/press/">Press</a></li>
-          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="https://markets.bisq.network">Markets</a></li>
-          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="/roadmap/">Roadmap</a></li>
-          <li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/contribute/">Contribute</a></li>
-          <li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="/dao/">DAO</a></li>
-          <li id="menu-item-44" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44"><a href="/contact/">Contact</a></li>
-          <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
-        </ul>
-      </nav>
->>>>>>> upstream/master
 
 
-
-
-
-
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>

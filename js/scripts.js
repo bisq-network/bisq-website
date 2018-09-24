@@ -73,7 +73,7 @@ $(document).ready(function() {
   
   
   
-  
+  //How to get started
   $('.step').on({
     mouseenter: function () {
       $('.step').css('opacity', 0.5),
@@ -84,7 +84,19 @@ $(document).ready(function() {
     },
     mouseout: function () {}
   });
-
+  
+  
+  
+  
+  
+  
+  //FAQ Accordion
+  $('#accordion').find('.accordion-toggle').click(function(){
+      //Expand or collapse this panel
+      $(this).next().slideToggle('fast');
+      //Hide the other panels
+      $(".accordion-content").not($(this).next()).slideUp('fast');
+   });
 
 
 });

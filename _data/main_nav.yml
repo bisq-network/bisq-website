@@ -1,14 +1,7 @@
 links:
 
-- title: Market
-  url: /#
-
 - title: Vision
   url: /vision/
-
-- title: Documentation
-  url: https://docs.bisq.network/
-  target: _blank
 
 - title: Community
   url: /community/
@@ -18,3 +11,11 @@ links:
 
 - title: Blog
   url: /blog/
+
+- title: Documentation
+  url: https://docs.bisq.network/
+  target: _blank
+  
+- title: Markets
+  url: https://markets.bisq.network/
+  target: _blank

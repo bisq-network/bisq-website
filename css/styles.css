@@ -452,9 +452,15 @@ td {
     padding: 10px;
 }
 
+.navbar-toggler:not(:disabled):not(.disabled) {
+    border: none;
+}
 
 
-@media (max-width: 900px) {  
+
+
+
+@media (max-width: 990px) {  
   
       .container {
         padding-right: 20px;
@@ -487,10 +493,32 @@ td {
         width: 100%;
       }
   
+
+      .display-1 {
+        font-size: 2.5rem;
+      }
+
+      ul.navbar-nav.ml-auto {
+        background: #fff;
+      }
   
-    .display-1 {
-      font-size: 2.5rem;
-    }
+  
+      .navbar {
+        border-bottom: #EBEBEB 1px solid;
+        background: #fff !important;
+        padding: 0.2rem 1rem;
+        height: auto;
+      }
+  
+      .navbar-nav .nav-link {
+        padding-left: 0;
+        margin-left: 0;
+      }
+  
+      .navbar-light .navbar-nav .nav-item .nav-link, .navbar-light .navbar-nav .nav-item .nav-link:hover, .navbar-light .navbar-nav .nav-item.current .nav-link {
+          border-bottom: none;
+      }
+  
 
 }
  

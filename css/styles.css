@@ -199,6 +199,7 @@ h6,
 
 footer .badge-img {
     width: 25%;
+  max-width:150px
 }
 
 #app-download td {

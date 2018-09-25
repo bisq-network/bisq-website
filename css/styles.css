@@ -105,7 +105,7 @@ h6,
 
 .outter {
   padding-top: 10rem;
-  padding-bottom: 20rem;
+  /*padding-bottom: 20rem;*/
   min-height: 100vh;
 }
 
@@ -372,7 +372,8 @@ h6,
 .step{ cursor: pointer}
 
 .step-image {
-  position: absolute;
+    position: absolute;
+    margin-top: -10rem;
 }
 
 
@@ -421,12 +422,12 @@ ul.divide-3col {
   column-gap: 5rem;
 }
 
-ul.divide-3col li {
+.community-links li {
   margin-bottom: 2rem;
   list-style: none
 }
 
-ul.divide-3col li img {
+.community-links li img {
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -434,7 +435,70 @@ ul.divide-3col li img {
   margin-right: 5px;
 }
 
+.community-home li {
+    margin-bottom: 0.5rem;
+    list-style: none;
+}
 
 td {
     padding: 0.6rem 5rem 0.6rem 0;
+}
+
+
+
+
+.navbar-toggler {
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 900px) {  
+  
+      .container {
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      .row-block {
+        padding: 4em 0;
+        position: relative;
+      }
+
+      .os-selector-home{
+        margin-bottom: 10px;
+      }
+      .hero-btn {
+        padding-left: 0px;
+        margin-right: 0px;
+        margin-bottom:10px;
+      }
+      .os-selector-home .btn{
+        margin-bottom: 0px;
+      }
+      .row-block h2 {
+         margin: 2em 0px;
+      }
+      .selected-os-download.btn-icon {
+          width: 100%;
+      }
+  
+      .dropdown-menu{
+        width: 100%;
+      }
+  
+  
+    .display-1 {
+      font-size: 2.5rem;
+    }
+
+}
+ 
+
+
+@media (max-width: 1100px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 0.1rem;
+      padding-left: 0.1em;
+  }
 }

@@ -192,13 +192,13 @@ h6,
   height: auto;
 }
 
-#android-badge-img {
+.badge-img {
   height: auto;
   width: 160px;
 }
 
-#apple-badge-img {
-  margin:6%;width:88%;
+footer .badge-img {
+    width: 25%;
 }
 
 #app-download td {

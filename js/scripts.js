@@ -87,16 +87,45 @@ $(document).ready(function() {
   
   
   
-  
-  
-  
   //FAQ Accordion
-  $('#accordion').find('.accordion-toggle').click(function(){
-      //Expand or collapse this panel
-      $(this).next().slideToggle('fast');
-      //Hide the other panels
-      $(".accordion-content").not($(this).next()).slideUp('fast');
-   });
+  $('.accordion').each(function() {
+
+     $(this).find('.accordion-toggle').click(function(event) {
+       event.preventDefault();
+       
+       $(".accordion-toggle").not($(this)).removeClass('accordion-toggle-active'); 
+
+       if($(this).hasClass('accordion-toggle-active')){
+          $(this).removeClass('accordion-toggle-active');  
+       }else{
+         $(this).addClass('accordion-toggle-active');  
+       }
+       
+       
+       $(this).next().slideToggle('fast');
+       $(".accordion-content").not($(this).next()).slideUp('fast');
+       
+       
+       
+       
+       //add hash to url
+       if(history.pushState) {
+            history.pushState(null, null, '#' + $(this).attr('id'));
+        } else {
+            location.hash = '#' + $(this).attr('id');
+        }
+       
+     });
+
+  });
+  
+  if(window.location.hash) {
+    $("html, body").animate({ scrollTop: ($(window.location.hash).offset().top - 100) }, 1000);
+    $(window.location.hash).addClass('accordion-toggle-active').next().slideToggle('fast');
+  }
+  
+  
+
 
 
 });

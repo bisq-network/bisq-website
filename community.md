@@ -6,23 +6,39 @@ banner: /images/community.png
 # Community
 
 
-##### Join us at
-{: .mt-5}
- 
- - ![github](../images/community/github.svg) [@bisq-network on GitHub](https://github.com/bisq-network)<br/>The main bisq network code repository
- - ![twitter](../images/community/twitter.svg) [@bisq_network on Twitter](https://twitter.com/bisq_network)<br/>Keep up to date with community and development announcements 
- - ![youtube](../images/community/youtube.svg) [Bisq YouTube channel](https://www.youtube.com/c/bisq-network)<br/>View and participate on our weekly growth calls and watch interviews with the developers and other multimedia content
- - ![slack](../images/community/slack.svg) [Bisq Slack workspace](https://bisq.network/slack-invite)<br/>Participate in the conversation on how to make bisq better
- - ![forum](../images/community/forum.svg) [Bisq Forum](https://bisq.community)<br/>Post your opinions and questions on the bisq forum 
- - ![mailinglist](../images/community/mailinglist.svg) [Bisq Contributor mailing list](https://lists.bisq.network/listinfo/bisq-contrib)<br/>Join our newsletter
- - ![irc](../images/community/irc.svg) [#bisq on Freenode IRC](https://webchat.freenode.net/?channels=bisq)<br/>IRC freenode server for more decentralized chat lorem ipsum dolores 
- - ![reddit](../images/community/reddit.svg) [r/Bisq Subreddit](https://www.reddit.com/r/bisq)<br/>Reddit Lorem ipsum dolores 
- {: .divide-3col .mt-5 .mb-5 .community-links .grey}
- 
+### Join us in our community and help build the next generation of cryptocurrency exchanges. No middle man, decentralized organization model TK copy to inpire people to join and contribute.
+{: .mt-5 .col-sm-12 .col-md-10 .pl-0}
+
+
+
+##### Connect
+{: .mt-5 .mb-sm-3 .mb-md-0 }
+
+<div class="row mb-sm-4 mb-md-0">
+
+  <ul class="mt-sm-0 mb-sm-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
+    <li><img src="../images/community/github.svg" alt="github"> <a href="https://github.com/bisq-network">@bisq-network on GitHub</a><br>The main bisq network code repository</li>
+    <li><img src="../images/community/twitter.svg" alt="twitter"> <a href="https://twitter.com/bisq_network">@bisq_network on Twitter</a><br>Keep up to date with community and development announcements</li>
+    <li><img src="../images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">Bisq YouTube channel</a><br>View and participate on our weekly growth calls and watch interviews with the developers and other multimedia content</li>
+  </ul>
+  <ul class="mt-sm-0 mb-sm-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
+    <li><img src="../images/community/slack.svg" alt="slack"> <a href="https://bisq.network/slack-invite">Bisq Slack workspace</a><br>Participate in the conversation on how to make bisq better</li>
+    <li><img src="../images/community/forum.svg" alt="forum"> <a href="https://bisq.community">Bisq Forum</a><br>Post your opinions and questions on the bisq forum</li>
+    <li><img src="../images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">Bisq Contributor mailing list</a><br>Join our newsletter</li>
+  </ul>
+  <ul class="mt-sm-0 mb-sm-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
+    <li><img src="../images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">#bisq on Freenode IRC</a><br>IRC freenode server for more decentralized chat lorem ipsum dolores</li>
+    <li><img src="../images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">r/Bisq Subreddit</a><br>Reddit Lorem ipsum dolores</li>
+  </ul>
+
+</div>
+
+
 ##### Brand files
+{: .mt-5 .mb-sm-3 .mb-md-0 }
  
  - [Logo Package.zip](https://example.com/)
  - [Client Design Sketch.skch](https://example.com/)
  - [Press Release.pdf](https://example.com/)
- {: .mt-5 .mb-5}
+ {: .mt-sm-0 .mb-sm-0 .mt-md-3 .mb-md-5}
 

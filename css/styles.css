@@ -10,7 +10,7 @@ a,
 }
 
 .grey {
-  color: #7E7E7E
+  color: #191919
 }
 
 .dark-grey {
@@ -179,13 +179,13 @@ h6,
   -webkit-transition: .2s;
 }
 
-.dropdown-item.btn-icon a.selected, .all-downloads a.selected {
+.dropdown-item.btn-icon a.selected,
+.all-downloads a.selected {
   background-color: #25B135;
   border-radius: 30px;
   padding: 3px 15px 3px 12px;
   color: #fff;
 }
-
 
 #app-download img {
   max-width: 100%;
@@ -198,15 +198,13 @@ h6,
 }
 
 footer .badge-img {
-    width: 25%;
-  max-width:150px
+  width: 25%;
+  max-width: 150px
 }
 
 #app-download td {
-  width:200px;
+  width: 200px;
 }
-
-
 
 .dropdown-item.btn-icon:hover a.selected,
 .dropdown-item.btn-icon:focus .btn-icon a.selected {
@@ -369,20 +367,26 @@ footer .badge-img {
   clear: left;
 }
 
-
-.step{ cursor: pointer}
-
-.step-image {
-    position: absolute;
-    margin-top: -10rem;
+.step {
+  cursor: pointer
 }
 
+.step-image {
+  position: absolute;
+  margin-top: -10rem;
+}
 
+.accordion-toggle {
+  cursor: pointer;
+}
 
-.accordion-toggle {cursor: pointer;}
-.accordion-content {display: none;}
-.accordion-content.default {display: block;}
+.accordion-content {
+  display: none;
+}
 
+.accordion-content.default {
+  display: block;
+}
 
 ol a {
   display: contents;
@@ -424,8 +428,9 @@ ul.divide-3col {
 }
 
 .community-links li {
-  margin-bottom: 2rem;
-  list-style: none
+    margin-bottom: 2rem;
+    list-style: none;
+    padding-left: 30px;
 }
 
 .community-links li img {
@@ -437,97 +442,78 @@ ul.divide-3col {
 }
 
 .community-home li {
-    margin-bottom: 0.5rem;
-    list-style: none;
+  margin-bottom: 0.5rem;
+  list-style: none;
 }
 
 td {
-    padding: 0.6rem 5rem 0.6rem 0;
+  padding: 0.6rem 5rem 0.6rem 0;
 }
 
-
-
-
 .navbar-toggler {
-    cursor: pointer;
-    padding: 10px;
+  cursor: pointer;
+  padding: 10px;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
-    border: none;
+  border: none;
 }
 
-
-
-
-
-@media (max-width: 990px) {  
-  
-      .container {
-        padding-right: 20px;
-        padding-left: 20px;
-      }
-      .row-block {
-        padding: 4em 0;
-        position: relative;
-      }
-
-      .os-selector-home{
-        margin-bottom: 10px;
-      }
-      .hero-btn {
-        padding-left: 0px;
-        margin-right: 0px;
-        margin-bottom:10px;
-      }
-      .os-selector-home .btn{
-        margin-bottom: 0px;
-      }
-      .row-block h2 {
-         margin: 2em 0px;
-      }
-      .selected-os-download.btn-icon {
-          width: 100%;
-      }
-  
-      .dropdown-menu{
-        width: 100%;
-      }
-  
-
-      .display-1 {
-        font-size: 2.5rem;
-      }
-
-      ul.navbar-nav.ml-auto {
-        background: #fff;
-      }
-  
-  
-      .navbar {
-        border-bottom: #EBEBEB 1px solid;
-        background: #fff !important;
-        padding: 0.2rem 1rem;
-        height: auto;
-      }
-  
-      .navbar-nav .nav-link {
-        padding-left: 0;
-        margin-left: 0;
-      }
-  
-      .navbar-light .navbar-nav .nav-item .nav-link, .navbar-light .navbar-nav .nav-item .nav-link:hover, .navbar-light .navbar-nav .nav-item.current .nav-link {
-          border-bottom: none;
-      }
-  
-
+@media (max-width: 990px) {
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .row-block {
+    padding: 4em 0;
+    position: relative;
+  }
+  .os-selector-home {
+    margin-bottom: 10px;
+  }
+  .hero-btn {
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .os-selector-home .btn {
+    margin-bottom: 0px;
+  }
+  .row-block h2 {
+    margin: 2em 0px;
+  }
+  .selected-os-download.btn-icon {
+    width: 100%;
+  }
+  .dropdown-menu {
+    width: 100%;
+  }
+  .display-1 {
+    font-size: 2.5rem;
+  }
+  ul.navbar-nav.ml-auto {
+    background: #fff;
+  }
+  .navbar {
+    border-bottom: #EBEBEB 1px solid;
+    background: #fff !important;
+    padding: 0.2rem 1rem;
+    height: auto;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .navbar-light .navbar-nav .nav-item .nav-link,
+  .navbar-light .navbar-nav .nav-item .nav-link:hover,
+  .navbar-light .navbar-nav .nav-item.current .nav-link {
+    border-bottom: none;
+  }
 }
- 
-
 
 @media (max-width: 1100px) {
   .navbar-expand-lg .navbar-nav .nav-link {
-      padding-right: 0.1rem;
-      padding-left: 0.1em;
+    padding-right: 0.1rem;
+    padding-left: 0.1em;
   }
 }

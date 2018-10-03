@@ -1,5 +1,5 @@
 title: Bisq
-url: "https://bisq.network"
+url: "http://port-4000.bisq-website-pedromvpg.codeanyapp.com"
 markdown: kramdown
 permalink: /blog/:title/
 livereload: true
@@ -19,3 +19,4 @@ exclude:
 paginate: 10
 paginate_path: "/blog/page/:num/"
 client_version: "0.8.0"
+description: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies."

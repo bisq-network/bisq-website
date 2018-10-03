@@ -4,20 +4,35 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+  
+  <meta name="author" content="Bisq">
 
+  <meta name="description" content="{{ site.description }}">
+  <meta name="image" content="{{ site.url }}/images/bisq-og.jpg">
+  <meta itemprop="name" content="Bisq">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{ site.url }}/images/bisq-og.jpg">
+  <meta name="og:title" content="Bisq - The decentralized Bitcoin exchange">
+  <meta name="og:description" content="{{ site.description }}">
+  <meta name="og:image" content="{{ site.url }}/images/bisq-og.jpg">
+  <meta name="og:site_name" content="Bisq - The decentralized Bitcoin exchange">
+  <meta name="og:type" content="website">
+  <meta property="twitter:title" content="Bisq - The decentralized Bitcoin exchange">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:site" content="@bisq_network">
+  <meta name="twitter:creator" content="@bisq_network">
+  <link rel="canonical" href="{{ site.url }}">
 
-
-
-
-  <!-- Bootstrap CSS -->
+  
+  
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="../css/bootstrap.css" rel="stylesheet">
-  <link href="../css/styles.css" rel="stylesheet">
+  <link href="{{ site.url }}/css/bootstrap.css" rel="stylesheet">
+  <link href="{{ site.url }}/css/styles.css" rel="stylesheet">
   
-  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/bisq-fav.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="../images/bisq-fav.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/images/bisq-fav.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/images/bisq-fav.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#404040">
   <meta name="msapplication-TileColor" content="#ffffff">
@@ -32,10 +47,7 @@
 
 
   {% include main_nav.html %}
-
   
-  
-
     {% if page.url == '/' %}
     
       <div class="outter">
@@ -57,10 +69,10 @@
   {% include footer.html %}
 
 
-  <script src="../js/jquery-3.3.1.min.js"></script>
-  <script src="../js/popper.min.js"></script>
-  <script src="../js/bootstrap.min.js"></script>
-  <script src="../js/scripts.js"></script>
+  <script src="{{ site.url }}/js/jquery-3.3.1.min.js"></script>
+  <script src="{{ site.url }}/js/popper.min.js"></script>
+  <script src="{{ site.url }}/js/bootstrap.min.js"></script>
+  <script src="{{ site.url }}/js/scripts.js"></script>
 
 </body>
 

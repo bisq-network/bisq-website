@@ -34,7 +34,7 @@ Git push changes
 
 4. `git push origin gh-pages`
 5. `git push --set-upstream origin gh-pages`
-
+git checkout gh-pages
 
 Git Syncing with origin and master
 

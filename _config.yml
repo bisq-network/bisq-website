@@ -1,6 +1,5 @@
 title: Bisq
-url: "https://pedromvpg.github.io/bisq-website/"
-baseurl: "https://pedromvpg.github.io/bisq-website/"
+url: "https://bisq.network"
 markdown: kramdown
 permalink: /blog/:title/
 livereload: true
@@ -21,4 +20,3 @@ paginate: 10
 paginate_path: "/blog/page/:num/"
 client_version: "0.8.0"
 description: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies."
-lication that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies."

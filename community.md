@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
-banner: /images/community.png
 ---
 # Community
-
+{: .mb-5}
 
 ### Join us in our community and help build the next generation of cryptocurrency exchanges. No middle man, decentralized organization model TK copy to inpire people to join and contribute.
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
@@ -36,9 +35,8 @@ banner: /images/community.png
 
 ##### Brand files
 {: .mt-5 .mb-sm-3 .mb-md-0 }
- 
+
  - [Logo Package.zip](https://example.com/)
  - [Client Design Sketch.skch](https://example.com/)
  - [Press Release.pdf](https://example.com/)
  {: .mt-sm-0 .mb-sm-0 .mt-md-3 .mb-md-5}
-

@@ -1,16 +1,16 @@
 links:
 
-- title: Visixxxon
-  url: {{ site.url }}/vision/
+- title: Vison
+  url: /vision/
 
 - title: Community
-  url: {{ site.url }}/community/
+  url: /community/
 
 - title: FAQ
-  url: {{ site.url }}/faq/
+  url: /faq/
 
 - title: Blog
-  url: {{ site.url }}/blog/
+  url: /blog/
 
 - title: Documentation
   url: https://docs.bisq.network/

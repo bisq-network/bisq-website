@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-  
+
   <meta name="author" content="Bisq">
 
   <meta name="description" content="{{ site.description }}">
@@ -23,13 +23,16 @@
   <meta name="twitter:creator" content="@bisq_network">
   <link rel="canonical" href="{{ site.url }}">
 
+
+
+
   
-  
+
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="{{ site.url }}/css/bootstrap.css" rel="stylesheet">
   <link href="{{ site.url }}/css/styles.css" rel="stylesheet">
-  
+
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/images/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/images/bisq-fav.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/images/bisq-fav.png">
@@ -47,25 +50,25 @@
 
 
   {% include main_nav.html %}
-  
+
     {% if page.url == '/' %}
-    
+
       <div class="outter">
         {% include homepage_content.html %}
       </div>
-    
+
     {% else %}
-    
+
       <div class="outter">
         {{ content }}
       </div>
 
     {% endif %}
-    
-  
-  
-  
-  
+
+
+
+
+
   {% include footer.html %}
 
 

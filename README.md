@@ -1,14 +1,14 @@
 # The Bisq website
 
-To run the site locally:
+To run the Jekyll site locally:
 
 0. Check Ruby verion `$ ruby -v` (needs to be 2.2.5 or higher)
 1. If needs update run `$ rvm install 2.5.1`)
-1. Install bundler per instructions at http://bundler.io  `gem install bundler`
-2. Clone and cd into this repository
-3. Run `$ bundle install`
-4. Run `$ bundle exec jekyll serve`
-5. Browse the site at http://127.0.0.1:4000/
+2. Install bundler per instructions at http://bundler.io  `gem install bundler`
+3. Clone and cd into this repository
+4. Run `$ bundle install`
+5. Run `$ bundle exec jekyll serve`
+6. Browse the site at http://127.0.0.1:4000/
 
 Note that LiveReload functionality is enabled by default in `_config.yml`.
 This means that if you have the LiveReload browser extension installed,
@@ -30,7 +30,10 @@ Git push changes
 
 1. Add all files `$ git add --a`
 2. Commit changes `$ git commit -m "Message"`
-3. Push to repo `$ git push`
+3. Push to repo `$ git push master`
+
+4. `git push origin gh-pages`
+5. `git push --set-upstream origin gh-pages`
 
 
 Git Syncing with origin and master

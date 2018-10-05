@@ -1,6 +1,5 @@
 title: Bisq
 url: "https://pedromvpg.github.io/bisq-website"
-baseurl: "https://pedromvpg.github.io/bisq-website"
 markdown: kramdown
 permalink: /blog/:title/
 livereload: true

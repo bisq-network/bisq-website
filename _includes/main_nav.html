@@ -13,7 +13,7 @@
             {% if item.target == "_blank" %}
               <a class="nav-link" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
             {% else %}
-              <a class="nav-link" href="{{ site.url }}/{{ item.url }}">{{ item.title }}</a>
+              <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
             {% endif %}
           </li>
         {% endfor %}

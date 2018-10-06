@@ -4,7 +4,11 @@ title: Governance &lsaquo; Bisq - The decentralized Bitcoin exchange
 ---
 # Governance
 
-Bisq is an international volunteer project dedicated to building free and open source software that facilitates decentralized peer-to-peer exchange of bitcoin for other units of exchange, such as national currencies.
+
+### Bisq is an international volunteer project dedicated to building free and open source software that facilitates decentralized peer-to-peer exchange of bitcoin for other units of exchange, such as national currencies.
+{: .mt-5 .col-sm-12 .col-md-10 .pl-0 .mb-3}
+
+
 
 Decisions are made by a core team composed of the people making the most significant and continuous contributions to the project. Core team members are unified by their belief in the project's ideological mission to create technology that decentralizes power and supports individual privacy.
 

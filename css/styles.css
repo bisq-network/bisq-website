@@ -553,7 +553,8 @@ td {
     padding-left: 20px;
   }
   .row-block {
-    padding: 4em 0;
+    padding-top: 4em;
+    padding-bottom: 4em;
     position: relative;
   }
   .os-selector-home {
@@ -603,6 +604,11 @@ td {
   .flex-column {
     -ms-flex-direction: column !important;
     flex-direction: column !important;
+  }
+
+  td {
+    padding: 0.6rem 0.5rem 0.6rem 0;
+    vertical-align: text-top;
   }
 
 }

@@ -1,7 +1,7 @@
- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-2 pr-0">
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
     <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
-    <button class="navbar-toggler collapsed pr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -19,7 +19,14 @@
         {% endfor %}
 
 
-          <li class="nav-item dropdown">
+
+
+          <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
+              <a class="nav-link" href="{{ site.url }}/downloads">Downloads</a>
+          </li>
+
+
+          <li class="downloads-desktop nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Downloads
             </a>

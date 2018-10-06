@@ -4,10 +4,10 @@
 
         <main class="bd-masthead" id="content" role="main">
             <div class="row align-items-center">
-              <div class="col-md-12 order-md-1 text-md-left pr-2 pr-sm-2">
+              <div class="col-md-12 order-md-1 text-md-left px-3 px-md-5">
                 <h1 class="intro text-monospace display-1" style="margin-left: -.3rem;"><span class="animate1">Exchange,</span> <span class="animate2">Decentralized.</span></h1>
 
-                <div class="row-block pl-0 pt-5 pr-0 pr-md-5">
+                <div class="row-block pl-0 pt-4 pt-md-5 pr-0 pr-lg-5">
 
                     <p class="lead col-md-8 col-sm-12 pl-0 pb-5">
                       Bisq is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies in exchange for national currencies. No registration required.
@@ -15,7 +15,7 @@
 
                     <div class="d-flex flex-column flex-md-row lead mb-1">
 
-                      <div class="btn-group os-selector-home col-sm-12 col-md-12 col-lg-5 px-0">
+                      <div class="downloads-desktop btn-group os-selector-home col-sm-12 col-md-12 col-lg-5 px-0">
 
                         <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button">
 
@@ -75,6 +75,35 @@
 
 
                       </div>
+
+
+
+
+
+
+
+
+                      <a href="{{ site.url }}/downlods" target="_blank" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
+                                <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
+                                <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
+                                Downloads
+                      </a>
+
+
+                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Android App');">
+                                <img src="{{ site.url }}/images/icon-android-g.svg" class="os-icon os-icon-g">
+                                <img src="{{ site.url }}/images/icon-android-w.svg" class="os-icon os-icon-w">
+                                Get Android Monotoring App
+                      </a>
+
+
+                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download iOS App');">
+                                <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
+                                <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                                Get iOS Monotoring App
+                      </a>
+
+
 
 
 
@@ -140,37 +169,37 @@
       <h2>Features</h2>
       <div class="row align-items-center text-md-center text-left">
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-5 mx-md-auto" src="{{ site.url }}/images/pic-no-reg.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-no-reg.svg" />
           <h4>No Identity Verification</h4>
           <p class="grey px-md-5">Instantly Accessible. No need for registration or approval from a central authority.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-5 mx-md-auto pr-md-3" src="{{ site.url }}/images/pic-decentralized.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="{{ site.url }}/images/pic-decentralized.svg" />
           <h4>Decentralized</h4>
           <p class="grey px-md-5">There is no single point of failure. The system is peer-to-peer and trading can not be stopped or censored.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-5 mx-md-auto pl-md-4" src="{{ site.url }}/images/pic-padlock.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="{{ site.url }}/images/pic-padlock.svg" />
           <h4>Safe</h4>
           <p class="grey px-md-5">Bisq never holds your funds. Decentralized arbitration system and security deposits protect traders.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-5 mx-md-auto" src="{{ site.url }}/images/pic-private.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-private.svg" />
           <h4>Private</h4>
           <p class="grey px-md-5">No one except trading partners exchange personally identifying data. All personal data is stored locally.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-5 mx-md-auto" src="{{ site.url }}/images/pic-p2p.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-p2p.svg" />
           <h4>Secure and Always On</h4>
           <p class="grey px-md-5">End-to-end encrypted communication routed over Tor and no down time.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-5 mx-md-auto" src="{{ site.url }}/images/pic-open.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-open.svg" />
           <h4>Open</h4>
           <p class="grey px-md-5">Every aspect of the project is transparent. The code is <a href="https://github.com/bisq-network/exchange" target="_blank">open source</a>.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-5 mx-md-auto" src="{{ site.url }}/images/pic-easy.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-easy.svg" />
           <h4>Easy to Use</h4>
           <p class="grey px-md-5">We take usability seriously.</p>
         </div>

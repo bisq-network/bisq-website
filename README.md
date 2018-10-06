@@ -2,7 +2,7 @@
 
 To run the Jekyll site locally:
 
-0. Check Ruby verion `$ ruby -v` (needs to be 2.2.5 or higher)
+0. Check Ruby verion `$ ruby -v` (needs to be 2.2.5 or higher) https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
 1. If needs update run `$ rvm install 2.5.1`)
 2. Install bundler per instructions at http://bundler.io  `gem install bundler`
 3. Clone and cd into this repository

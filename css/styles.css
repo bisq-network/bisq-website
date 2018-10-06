@@ -236,10 +236,10 @@ footer, footer ul li {
 }
 
 #community-footer img{
-    width: 25px;
-    background: #4e4e4e;
+    width: 28px;
+    /* background: #4e4e4e; */
     padding: 5px;
-    border-radius: 400px;
+    /* border-radius: 400px; */
 }
 
 #app-download td {

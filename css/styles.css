@@ -184,6 +184,8 @@ h6,
 
 .os-selector-home .dropdown-menu {
     margin-top: 0;
+    max-height: 225px;
+    overflow-y: scroll;
 }
 
 .dropdown-menu-right {

@@ -10,10 +10,10 @@ title: Blog &lsaquo; Bisq - The decentralized Bitcoin exchange
   <div class="blog-post mb-5 pb-5 border-bottom">
     <div class="blog-post-date grey small mb-2">{{ post.date | date: "%-d %B %Y" }}</div>
     <div>
-      <a href="{{ site.url }}/{{ post.url }}"><h3>{{ post.title }}</h3></a>
+      <a href="{{ site.url }}{{ post.url }}"><h3>{{ post.title }}</h3></a>
       <div class="pb-4 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0">
         {{ post.excerpt }}
-        <a href="{{ site.url }}/{{ post.url }}">Read More</a>
+        <a href="{{ site.url }}{{ post.url }}">Read More</a>
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@ title: Blog &lsaquo; Bisq - The decentralized Bitcoin exchange
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ site.url }}/{{ paginator.previous_page_path }}" class="previous">
+    <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">
       Previous
     </a>
   {% else %}
@@ -32,7 +32,7 @@ title: Blog &lsaquo; Bisq - The decentralized Bitcoin exchange
     &nbsp;{{ paginator.page }} of {{ paginator.total_pages }}&nbsp;
   </span>
   {% if paginator.next_page %}
-    <a href="{{ site.url }}/{{ paginator.next_page_path }}" class="next">Next</a>
+    <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">Next</a>
   {% else %}
 
   {% endif %}

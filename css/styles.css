@@ -47,6 +47,14 @@ h4 {
   font-family: 'IBM Plex Mono', monospace;
 }
 
+.text-sans,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'IBM Plex Sans', monospace;
+}
+
 .hidden {
   display: none
 }
@@ -71,6 +79,16 @@ h6,
   font-weight: 300;
   letter-spacing: 0.05rem;
 }
+
+
+.oversized{
+  font-size: 6.5em;
+  font-weight: 100;
+  letter-spacing: -.5rem;
+  line-height: 0.9em;
+}
+
+
 
 .display-1 {
   font-size: 3.5rem;
@@ -173,6 +191,8 @@ h6,
 
 .os-selector-home .dropdown-menu {
     margin-top: 0;
+    max-height: 225px;
+    overflow-y: scroll;
 }
 
 .dropdown-menu-right {
@@ -629,6 +649,11 @@ td {
   td {
     padding: 0.6rem 0.5rem 0.6rem 0;
     vertical-align: text-top;
+  }
+
+  .oversized{
+    font-size: 3.5em;
+    letter-spacing: -.1rem;
   }
 
 }

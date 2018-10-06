@@ -82,9 +82,10 @@ h6,
 
 
 .oversized{
-  font-size: 10em;
+  font-size: 6.5em;
   font-weight: 100;
-  letter-spacing: -1rem;
+  letter-spacing: -.5rem;
+  line-height: 0.9em;
 }
 
 
@@ -626,6 +627,11 @@ td {
   td {
     padding: 0.6rem 0.5rem 0.6rem 0;
     vertical-align: text-top;
+  }
+
+  .oversized{
+    font-size: 3.5em;
+    letter-spacing: -.1rem;
   }
 
 }

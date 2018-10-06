@@ -141,9 +141,16 @@ h6,
 .btn-secondary,
 .btn-secondary:not(:disabled):not(.disabled):active,
 .btn-secondary:not(:disabled):not(.disabled).active,
-.show>.btn-secondary.dropdown-toggle {
+.show>.btn-secondary.dropdown-toggle,
+.btn-secondary:hover {
   background-color: #25B135;
   border-color: #25B135;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #25B135;
+    border-color: #0b8218;
 }
 
 .btn-outline-secondary {
@@ -421,7 +428,7 @@ footer, footer ul li {
 }
 
 .row-block h2 {
-  margin: 2em -70px;
+  margin: 2em -55px;
 }
 
 .row-block {
@@ -545,9 +552,22 @@ td {
 
 
 
-
+.downloads-desktop {display: inline-flex}
+.downloads-mobile {display: none}
 
 @media (max-width: 990px) {
+
+  .downloads-desktop {display: none}
+  .downloads-mobile {display: block}
+
+  .outter {
+    padding-top: 7rem;
+  }
+
+  .homepage-hero {
+    margin-top: 0;
+  }
+
   .container {
     padding-right: 20px;
     padding-left: 20px;
@@ -630,6 +650,18 @@ td {
 
 
 @media (max-width: 767px) {
+
+  .outter {
+    padding-top: 7rem;
+  }
+
+  .container h3 {
+    font-weight: 200;
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+
+
   .step-image {
       position: relative;
       margin-top: 0rem;

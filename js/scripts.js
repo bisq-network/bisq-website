@@ -41,6 +41,20 @@ $(document).ready(function() {
       break;
   }
 
+
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  if (/windows phone/i.test(userAgent)) {
+    //nothing yet
+  }
+  if (/android/i.test(userAgent)) {
+    $('.downloads-android').removeClass('hidden').addClass('shown');
+  }
+  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    $('.downloads-ios').removeClass('hidden').addClass('shown');
+  }
+
+
+
   console.log(OSName);
 
   // add virtual pageview and event tracking for download attempts
@@ -53,9 +67,9 @@ $(document).ready(function() {
 
 
 
-  
-  
-  
+
+
+
   //Home Video
   $('#play-video').on('click', function(ev) {
     ev.preventDefault();
@@ -70,9 +84,9 @@ $(document).ready(function() {
     $('body').removeClass('no-scroll');
   });
 
-  
-  
-  
+
+
+
   //How to get started
   $('.step').on({
     mouseenter: function () {
@@ -84,47 +98,47 @@ $(document).ready(function() {
     },
     mouseout: function () {}
   });
-  
-  
-  
+
+
+
   //FAQ Accordion
   $('.accordion').each(function() {
 
      $(this).find('.accordion-toggle').click(function(event) {
        event.preventDefault();
-       
-       $(".accordion-toggle").not($(this)).removeClass('accordion-toggle-active'); 
+
+       $(".accordion-toggle").not($(this)).removeClass('accordion-toggle-active');
 
        if($(this).hasClass('accordion-toggle-active')){
-          $(this).removeClass('accordion-toggle-active');  
+          $(this).removeClass('accordion-toggle-active');
        }else{
-         $(this).addClass('accordion-toggle-active');  
+         $(this).addClass('accordion-toggle-active');
        }
-       
-       
+
+
        $(this).next().slideToggle('fast');
        $(".accordion-content").not($(this).next()).slideUp('fast');
-       
-       
-       
-       
+
+
+
+
        //add hash to url
        if(history.pushState) {
             history.pushState(null, null, '#' + $(this).attr('id'));
         } else {
             location.hash = '#' + $(this).attr('id');
         }
-       
+
      });
 
   });
-  
+
   if(window.location.hash) {
     $("html, body").animate({ scrollTop: ($(window.location.hash).offset().top - 100) }, 1000);
     $(window.location.hash).addClass('accordion-toggle-active').next().slideToggle('fast');
   }
-  
-  
+
+
 
 
 

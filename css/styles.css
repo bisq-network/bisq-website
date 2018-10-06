@@ -47,6 +47,14 @@ h4 {
   font-family: 'IBM Plex Mono', monospace;
 }
 
+.text-sans,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'IBM Plex Sans', monospace;
+}
+
 .hidden {
   display: none
 }
@@ -71,6 +79,15 @@ h6,
   font-weight: 300;
   letter-spacing: 0.05rem;
 }
+
+
+.oversized{
+  font-size: 10em;
+  font-weight: 100;
+  letter-spacing: -1rem;
+}
+
+
 
 .display-1 {
   font-size: 3.5rem;

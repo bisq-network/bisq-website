@@ -3,7 +3,7 @@ layout: post
 title: Reality check
 author: Manfred Karrer
 ---
-We are glad to announce that we have started our new approach to iteratively fund the development of our project using [Lighthouse][1]. Please find all details about our campaign at the [crowdfunding][2] section on our webpage.
+We are glad to announce that we have started our new approach to iteratively fund the development of our project using [Lighthouse][1]. Please find all details about our campaign at the crowdfunding[2] section on our webpage.
 
 In this article I would like to discuss the reasons **why** we have chosen that model.
 
@@ -31,7 +31,7 @@ We published our first [alpha version][11] funding the development with our own 
 
 The strategy to fund development with our own financial resources has met its limitations and therefore we need to reach out for other possibilities.
 
-We decided to use an [iterative crowdfunding model][12] with Lighthouse for pushing the project towards a fully functional version 1.0.
+We decided to use an iterative crowdfunding model[12] with Lighthouse for pushing the project towards a fully functional version 1.0.
 
 Such a model comes with some difficulties:
 
@@ -92,7 +92,7 @@ _"To change something build a new model that makes the existing model obsolete"_
 —Buckminster Fuller
 
 [1]: http://web.archive.org/web/20160602153657/http://www.vinumeris.com:80/lighthouse
-[2]: /crowdfunding/
+[2]: /crowdfunding/ (not online anymore)
 [3]: /docs/bitsquare.pdf
 [4]: https://en.wikipedia.org/wiki/Napster
 [5]: https://en.wikipedia.org/wiki/Ecash
@@ -102,7 +102,7 @@ _"To change something build a new model that makes the existing model obsolete"_
 [9]: https://ethereum.org/
 [10]: https://github.com/bitsquare/bitsquare/blob/master/LICENSE
 [11]: /blog/bitsquare-now-in-alpha/
-[12]: /crowdfunding/#Lighthouse
+[12]: /crowdfunding/#Lighthouse (not online anymore)
 [13]: https://www.nubits.com/nushares/introduction
 [14]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 [15]: http://www.coindesk.com/coinbases-75-million-series-c/

@@ -4,8 +4,8 @@
 
       <div class="row mx-0 pb-md-5 pb-sm-5">
 
-        <div class="col-12 col-lg-4 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-4">
-          <h5 class="text-uppercase small grey">Bisq APPs</h5>
+        <div class="col-12 col-lg-4 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-sm-4 px-4">
+          <h5 class="text-uppercase small grey">Mobile Apps</h5>
           <p style="font-weight:200; max-width:400px">Copy About the APPs, a blurb on why download and how to use. WIP</p>
           <a target="_blank" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img" alt="Get it on Google Play" src="{{ site.url }}/images/badge_google_play.svg"/></a>
           &nbsp;
@@ -36,9 +36,6 @@
               <li>
                 <a href="https://markets.bisq.network/api/" target="_blank">Trading API (coming soon)</a>
               </li>
-              <li>
-                <a href="#!">Price Node</a>
-              </li>
             </ul>
           </div>
 
@@ -50,19 +47,13 @@
             <h5 class="text-uppercase small grey">Resources</h5>
             <ul class="list-unstyled divide-3col" style="column-gap: 3rem;">
               <li>
-                <a href="{{ site.url }}/dao">Bisq&nbsp;DAO</a>
+                <a href="https://github.com/bisq-network/bisq-docs/blob/master/dao/phase-zero.adoc" target="_blank">Bisq&nbsp;DAO</a>
               </li>
               <li>
                 <a href="{{ site.url }}/press">Press</a>
               </li>
               <li>
                 <a href="{{ site.url }}/downloads">Downloads</a>
-              </li>
-              <li>
-                <a href="{{ site.url }}/governance">Governance</a>
-              </li>
-              <li>
-                <a href="{{ site.url }}/finances">Finances</a>
               </li>
               <li>
                 <a href="{{ site.url }}/roadmap">Roadmap</a>
@@ -85,7 +76,7 @@
     <div class="darker-grey">
       <div class="footer-copyright py-3 row mx-0">
 
-
+        {% comment %}
         <div class="text-left col-12 mt-md-3 mt-2 mb-md-2 mb-sm-5 small grey px-4 px-md-5">
           <div style="max-width:400px">
           {% assign hours= site.time | date: "%H" | plus:100 %}
@@ -96,7 +87,7 @@
 
 
         <hr class="clearfix w-100 pb-3 mb-3">
-
+        {% endcomment %}
 
 
         <div class="text-left col-12 col-sm-4 mt-md-3 mt-3 mb-md-2 mb-sm-3 small grey px-4 px-md-5 ">

@@ -38,6 +38,7 @@ $(document).ready(function() {
       }
       break;
     default:
+      $('.id-all').removeClass('hidden').addClass('shown');
       break;
   }
 

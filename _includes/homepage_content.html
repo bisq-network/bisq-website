@@ -21,8 +21,8 @@
 
                           <div class="id-win32 hidden">
                             <div class="float-left">
-                                    <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                                    <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                                    <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
+                                    <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
                                     Download for Windows
                             </div>
                             <div class="float-right">
@@ -32,8 +32,8 @@
 
                           <div class="id-win64 hidden">
                             <div class="float-left">
-                                    <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                                    <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                                    <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
+                                    <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
                                     Download for Windows
                             </div>
                             <div class="float-right">
@@ -51,6 +51,52 @@
                               <a href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
                             </div>
                           </div>
+
+
+
+                          <div class="id-deb32 hidden">
+                            <div class="float-left">
+                                    <img src="{{ site.url }}/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
+                                    <img src="{{ site.url }}/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
+                                    Download for Debian/Ubuntu
+                            </div>
+                            <div class="float-right">
+                              <a class="dl-deb32" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">32 Bit</a>
+                            </div>
+                          </div>
+
+
+                          <div class="id-deb64 hidden">
+                            <div class="float-left">
+                                    <img src="{{ site.url }}/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
+                                    <img src="{{ site.url }}/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
+                                    Download for Debian/Ubuntu
+                            </div>
+                            <div class="float-right">
+                              <a class="dl-deb64" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">64 Bit</a>
+                            </div>
+                          </div>
+
+
+
+
+
+                          <div class="id-all hidden">
+                            <div class="float-left">
+                                    <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
+                                    <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
+                                    Downloads
+                            </div>
+                            <div class="float-right">
+                              <a href="{{ site.url }}/downlods" target="_blank">Get Bisq</a>
+                            </div>
+                          </div>
+
+
+
+
+
+
 
 
 
@@ -93,14 +139,14 @@
                       <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Android App');">
                                 <img src="{{ site.url }}/images/icon-android-g.svg" class="os-icon os-icon-g">
                                 <img src="{{ site.url }}/images/icon-android-w.svg" class="os-icon os-icon-w">
-                                Get Android Monotoring App
+                                Get Android Notifications App
                       </a>
 
 
                       <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download iOS App');">
                                 <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
                                 <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
-                                Get iOS Monotoring App
+                                Get iOS Notifications App
                       </a>
 
 
@@ -188,11 +234,13 @@
           <h4>Private</h4>
           <p class="grey px-md-5">No one except trading partners exchange personally identifying data. All personal data is stored locally.</p>
         </div>
+        {% comment %}
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-p2p.svg" />
           <h4>Secure and Always On</h4>
           <p class="grey px-md-5">End-to-end encrypted communication routed over Tor and no down time.</p>
         </div>
+        {% endcomment %}
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-open.svg" />
           <h4>Open</h4>

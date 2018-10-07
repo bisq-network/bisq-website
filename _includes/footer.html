@@ -4,24 +4,37 @@
 
       <div class="row mx-0 pb-md-5 pb-sm-5">
 
-        <div class="col-sm-12 col-md-6 mt-md-0 mt-3 pl-md-5 pl-sm-2 small">
+        <div class="col-12 col-lg-4 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-4">
           <h5 class="text-uppercase small grey">Bisq APPs</h5>
-          <p>Copy About the APPs, a blurb on why download and how to use. WIP</p>
+          <p style="font-weight:200; max-width:400px">Copy About the APPs, a blurb on why download and how to use. WIP</p>
           <a target="_blank" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img" alt="Get it on Google Play" src="{{ site.url }}/images/badge_google_play.svg"/></a>
           &nbsp;
           <a target="_blank" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img" alt="Get it on the App Store" src="{{ site.url }}/images/badge_app_store.svg"/></a>
+
+
+
+
+
+
+
+
+
         </div>
 
-        <hr class="clearfix w-100 d-md-none pb-3">
 
-        <div class="col-sm-6 col-md-2 mb-md-0 mb-3 small">
+
+        <hr class="clearfix w-100 d-lg-none pb-3">
+
+
+
+        <div class="col-12 col-lg-3 mb-md-0 mb-3 small px-4 px-md-5">
             <h5 class="text-uppercase small grey">Integrations</h5>
             <ul class="list-unstyled">
               <li>
                 <a href="https://markets.bisq.network/" target="_blank">Markets</a>
               </li>
               <li>
-                <a href="https://markets.bisq.network/api/" target="_blank">Trading API (Coming soon)</a>
+                <a href="https://markets.bisq.network/api/" target="_blank">Trading API (coming soon)</a>
               </li>
               <li>
                 <a href="#!">Price Node</a>
@@ -29,11 +42,15 @@
             </ul>
           </div>
 
-          <div class="col-sm-6 col-md-4 mb-md-0 mb-3 pr-md-5 pr-sm-2 small">
+
+          <hr class="clearfix w-100 d-lg-none pb-3">
+
+
+          <div class="col-12 col-lg-5 mb-md-0 mb-3 pr-md-5 pr-sm-2 small px-4 px-md-5">
             <h5 class="text-uppercase small grey">Resources</h5>
-            <ul class="list-unstyled divide-3col">
+            <ul class="list-unstyled divide-3col" style="column-gap: 3rem;">
               <li>
-                <a href="{{ site.url }}/dao">Bisq DAO</a>
+                <a href="{{ site.url }}/dao">Bisq&nbsp;DAO</a>
               </li>
               <li>
                 <a href="{{ site.url }}/press">Press</a>
@@ -66,13 +83,27 @@
 
 
     <div class="darker-grey">
-      <div class="footer-copyright py-3  row mx-0">
+      <div class="footer-copyright py-3 row mx-0">
 
-        <div class="text-left col-sm-6 mt-md-3 mt-3 mb-md-2 mb-sm-3 px-lg-5 px-sm-5 small grey">
+
+        <div class="text-left col-12 mt-md-3 mt-2 mb-md-2 mb-sm-5 small grey px-4 px-md-5">
+          <div style="max-width:400px">
+          {% assign hours= site.time | date: "%H" | plus:100 %}
+          {% assign random = page.title.size | plus: hours | modulo: site.data.quotes.size %}
+          {{site.data.quotes[random].text}}<br><br><i>—{{site.data.quotes[random].author}}</i>
+          </div>
+        </div>
+
+
+        <hr class="clearfix w-100 pb-3 mb-3">
+
+
+
+        <div class="text-left col-12 col-sm-4 mt-md-3 mt-3 mb-md-2 mb-sm-3 small grey px-4 px-md-5 ">
           © 2018 Bisq
         </div>
 
-        <div class="text-sm-right text-left col-sm-6 mt-md-2 mt-3 mb-md-0 mb-3 ml-auto px-lg-5 px-sm-5 small grey">
+        <div class="text-sm-right text-left col-12 col-sm-8 mt-md-2 mt-3 mb-md-0 mb-3 ml-auto small grey px-4 px-md-5 ">
 
 
 

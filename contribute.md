@@ -40,5 +40,5 @@ _**Note:** Donations to Bisq are not tax deductible as we are not formally regis
 
 <br>
 
-Please don't hesitate to [get in touch](/contact/) if you can think of other ways you can help with the Bisq project.
+Please don't hesitate to [get in touch](https://bisq.network/community/) if you can think of other ways you can help with the Bisq project.
 

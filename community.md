@@ -33,10 +33,6 @@ title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
 </div>
 
 
-##### Brand files
-{: .mt-5 .mb-sm-3 .mb-md-0 }
 
- - [Logo Package.zip]({{ site.url }}/images/bisq-logo.zip)
- - [Client Design Sketch.skch](https://example.com/)
- - [Press Release.pdf](https://example.com/)
- {: .mt-sm-0 .mb-sm-0 .mt-md-3 .mb-md-5}
+
+{% include resources.html %}

@@ -630,6 +630,7 @@ td {
 
 @media (max-width: 990px) {
 
+
   .downloads-desktop.os-selector-home {display: none}
   .downloads-mobile {display: block}
 

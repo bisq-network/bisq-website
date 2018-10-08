@@ -191,7 +191,7 @@ hr {
 }
 
 .dropdown-menu {
-  width: 400px;
+  width: 440px;
   padding: 0;
   margin-top: 10px;
 }
@@ -330,7 +330,7 @@ footer, footer ul li {
 }
 
 .os-selector-home .selected-os-download {
-  width: 363px;
+  width: 100%;
   font-weight: 200;
 }
 
@@ -620,7 +620,7 @@ td {
 
 .downloads-desktop.os-selector-home {
   display: inline-flex;
-  min-width: 480px
+  min-width: 470px
 }
 
 
@@ -630,7 +630,7 @@ td {
 
 @media (max-width: 990px) {
 
-  .downloads-desktop {display: none}
+  .downloads-desktop.os-selector-home {display: none}
   .downloads-mobile {display: block}
 
   .outter {

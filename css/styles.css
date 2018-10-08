@@ -618,16 +618,11 @@ td {
 
 
 
-<<<<<<< HEAD
 .downloads-desktop.os-selector-home {
   display: inline-flex;
   min-width: 470px
 }
 
-=======
-.downloads-desktop {display: inline-flex}
-.downloads-mobile {display: none}
->>>>>>> General QA
 
 .downloads-mobile {
   display: none
@@ -635,11 +630,8 @@ td {
 
 @media (max-width: 990px) {
 
-<<<<<<< HEAD
+
   .downloads-desktop.os-selector-home {display: none}
-=======
-  .downloads-desktop {display: none}
->>>>>>> General QA
   .downloads-mobile {display: block}
 
   .outter {

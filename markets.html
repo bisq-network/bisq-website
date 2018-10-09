@@ -1,0 +1,45 @@
+---
+layout: page
+title: Bisq Markets &lsaquo; Bisq - The decentralized Bitcoin exchange
+---
+<h1>Bisq Markets</h1>
+
+<link href="{{ site.url }}/css/chosen.css" rel="stylesheet">
+
+
+
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/drag-panes.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+
+
+<script src="{{ site.url }}/js/chosen.jquery.min.js"></script>
+<script src="{{ site.url }}/js/markets.js"></script>
+<div class="mt-5 mb-2">
+
+
+  <select data-placeholder="Select BTC Pair" class="chosen-select" tabindex="10">
+    {% include currencies.html %}
+  </select>
+
+
+  <div id="container" style="height: 500px; min-width: 100%"></div>
+
+
+
+</div>
+
+
+
+
+<style>
+
+
+#container {
+  -webkit-box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.17);
+  -moz-box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.17);
+  box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.17);
+}
+
+
+</style>

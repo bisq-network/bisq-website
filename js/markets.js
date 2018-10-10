@@ -17,19 +17,27 @@ function getUrlParameter(sParam) {
 };
 
 
-function buildTitle(valueFinal, pair){
-  var prefix = '';
-  var suffix = '';
+
+function buildTKR(pair){
+  var ticker = '';
   if (pair == 'BTC'){
     suffix = ' <span class="currencyPair">Volume</span>';
   }else{
-    //prefix = '$';
-    suffix = pair.replace("btc", '');
-    suffix = ' <span class="currencyPair">'+suffix.replace("_", '')+'</span>';
+    ticker = pair.replace("btc", '');
+    ticker = ticker.replace("_", '').toUpperCase();
   }
 
+  return ticker;
+
+}
+
+
+function buildTitle(valueFinal, pair){
+  var suffix = '';
+  suffix = ' <span class="currencyPair">'+buildTKR(pair)+'</span>';;
+
   valueFinal = Math.round(valueFinal * 100) / 100;
-  return prefix+valueFinal+suffix;
+  return valueFinal+suffix;
 
 }
 
@@ -94,6 +102,13 @@ $(document).ready(function() {
 
 var pair = getUrlParameter('currency');
 buildData(pair);
+
+
+
+
+
+
+
 
 function buildData(jsonUrl){
 
@@ -233,8 +248,9 @@ getTrades(pair);
 
 
             chart: {
-                margin: [0,0,50,0],
+                margin: [0,0,45,0],
                 //backgroundColor: '#bbb',
+                backgroundColor:'rgba(255, 255, 255, 0.0)'
             },
 
             plotOptions: {
@@ -274,7 +290,10 @@ getTrades(pair);
                           x: -18,
                           y: -10,
                           style: {
-                              color: '#92d799'
+                              color: '#92d799',
+                              fontWeight: '300',
+                              fontFamily: 'IBM Plex Sans',
+                              fontSize: '10',
                           }
                           //enabled: false
                       },
@@ -289,6 +308,7 @@ getTrades(pair);
                       },
                       height: '100%',
                       lineWidth: 0,
+                      top: '0%',
                       //resize: { enabled: true }
                     },
 
@@ -300,14 +320,14 @@ getTrades(pair);
                             opposite:false,
                             enabled: false,
                             style: {
-                                color: '#CCC'
+                                color: '#CCC',
                             }
                         },
                         visible: false,
                         title: {
                             text: 'Volume'
                         },
-                        //top: '65%',
+                        top: '0%',
                         //height: '35%',
                         offset: 0,
                         lineWidth: 0,
@@ -321,8 +341,11 @@ getTrades(pair);
                       {
                         labels: {
                             style: {
-                                color: '#CCC'
-                            }
+                              color: '#92d799',
+                              fontWeight: '300',
+                              fontFamily: 'IBM Plex Sans',
+                              fontSize: '14',
+                            },
                         },
                         style: {
                             color: '#FF00FF',
@@ -331,8 +354,11 @@ getTrades(pair);
                         gridLineColor: 'transparent',
                         lineWidth: 0,
                         //resize: { enabled: true }
+                        offset: 8,
+                        tickLength: 0,
+                        tickWidth: 0,
+                        backgroundColor: '#bbb',
                       },
-
 
 
 
@@ -344,49 +370,67 @@ getTrades(pair);
 
             series: [
 
+              {
+                  type: 'area',
+                  name: 'Price',
+                  tooltip: {
+                      valueSuffix: ' '+buildTKR(pair)
+                  },
+                  data: avg,
+                  //yAxis: 1,
+                  color: '#25B135',
+                  yAxis: 0,
+                  zIndex: 1,
+
+              },
+
+
+
             {
                 type: 'column',
                 name: 'Volume',
+                tooltip: {
+                    valueSuffix: ' '+buildTKR(pair)
+                },
                 data: volume,
                 color: '#cfcfcf',
                 yAxis: 1,
+                zIndex: 0,
 
             },
 
-            {
-                type: 'area',
-                name: 'USD',
-                data: avg,
-                //yAxis: 1,
-                color: '#25B135',
-                yAxis: 0,
 
-            },
 
 
           ],
 
           tooltip: {
               split: false,
-              crosshairs: false,
-              tooltip: {
-                  shared: true,
-                  useHTML: true,
-                  headerFormat: '<small>'+ Highcharts.dateFormat( '%B %e, %Y - %l:%M %p', this.x) +'</small><br>',
-                  pointFormat: '1 BTC = {point.y} {series.name}</b><br><br/>',
-                  footerFormat: '',
-                  valueDecimals: 2,
-                  borderRadius: 0,
-                  borderWidth: 0,
-                  animation: false
-              },
+              //crosshairs: false,
+              shared: true,
+              useHTML: true,
+              headerFormat: '<small>{point.key}</small><table>',
+              pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>{point.y} {this.series.tooltipOptions.valueSuffix}</b></td></tr>',
+              footerFormat: '</table><div class="tooltip"></div>',
+              valueDecimals: 2,
+              borderRadius: 0,
+              borderWidth: 0,
+              //animation: false,
+              borderRadius: 2,
+              shadow: false,
+              backgroundColor: "rgba(255,255,255,1)",
               style: {
                   color: '#444',
                   fontWeight: '300',
-                  fontFamily: 'IBM Plex Sans'
+                  fontFamily: 'IBM Plex Sans',
+                  width: 400
               }
           },
 
         });
     });
+
+
+    $('#container').append( "<p>Test</p>" );
+
 }

@@ -915,9 +915,13 @@ td {
 }
 
 #container {
-  -webkit-box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.17);
-  -moz-box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.17);
-  box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.17);
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+  box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+  background: url({{ site.url }}/images/green.svg);
+  background-repeat-y: no-repeat;
+  background-position: 0% 109.7%;
+
 }
 
 
@@ -946,6 +950,16 @@ tspan.currencyPair {
 
 .highcharts-range-selector-buttons .highcharts-button
 {}
+
+
+.highcharts-tooltip {
+    -moz-box-shadow: 20px 20px 20px #888;
+    -webkit-box-shadow: 20px 20px 20px #888;
+    box-shadow: 20px 20px 20px #888;
+    min-width: 200px
+}
+
+.xaxis-background {position: absolute; bottom: 0; width: 100%; background: red}
 
 
 

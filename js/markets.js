@@ -191,8 +191,8 @@ getTrades(pair);
                 		y: -40
                 },
                 buttonTheme: { // styles for the buttons
-                    width: 40,
-                    height: 23,
+                    width: 22,
+                    height: 17,
                     fill: 'none',
                     stroke: 'none',
                     'stroke-width': 0,
@@ -201,7 +201,7 @@ getTrades(pair);
                         color: '#25B135',
                         fontWeight: '300',
                         fontFamily: 'IBM Plex Sans',
-                        fontSize:'20px',
+                        fontSize:'14px',
                     },
                     states: {
                         hover: {
@@ -227,7 +227,7 @@ getTrades(pair);
                 {
                     type: 'day',
                     count: 1,
-                    text: '24H'
+                    text: '1D'
                 }, {
                     type: 'week',
                     count: 1,
@@ -255,7 +255,11 @@ getTrades(pair);
 
             plotOptions: {
                 series: {
-                    animation: false
+                    //animation: false
+                    //stickyTracking: true,
+                },
+                series: {
+                    //pointWidth: 15
                 }
             },
 
@@ -396,6 +400,12 @@ getTrades(pair);
                 color: '#cfcfcf',
                 yAxis: 1,
                 zIndex: 0,
+                //maxPointWidth: 50
+                pointPadding: 0,
+                groupPadding: 0,
+                borderWidth: 0,
+                shadow: false,
+                borderColor: '#c5c5c5'
 
             },
 
@@ -406,7 +416,7 @@ getTrades(pair);
 
           tooltip: {
               split: false,
-              //crosshairs: false,
+              crosshairs: false,
               shared: true,
               useHTML: true,
               headerFormat: '<small>{point.key}</small><table>',
@@ -418,13 +428,14 @@ getTrades(pair);
               //animation: false,
               borderRadius: 2,
               shadow: false,
-              backgroundColor: "rgba(255,255,255,1)",
+              backgroundColor: "rgba(246,246,246,1)",
               style: {
                   color: '#444',
                   fontWeight: '300',
                   fontFamily: 'IBM Plex Sans',
                   width: 400
-              }
+              },
+
           },
 
         });

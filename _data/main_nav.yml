@@ -1,21 +1,20 @@
 links:
 
 - title: Vision
-  url: /vision/
+  url: /vision
 
 - title: Community
-  url: /community/
+  url: /community
 
 - title: FAQ
-  url: /faq/
+  url: /faq
 
 - title: Blog
-  url: /blog/
+  url: /blog
 
 - title: Documentation
   url: https://docs.bisq.network/
   target: _blank
 
 - title: Markets
-  url: https://markets.bisq.network/
-  target: _blank
+  url: /markets

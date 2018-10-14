@@ -122,12 +122,13 @@ $(document).ready(function() {
 
 
 
-
-       //add hash to url
-       if(history.pushState) {
-            history.pushState(null, null, '#' + $(this).attr('id'));
-        } else {
-            location.hash = '#' + $(this).attr('id');
+       if($(this).attr('id') !== undefined){
+         //add hash to url
+         if(history.pushState) {
+              history.pushState(null, null, '#' + $(this).attr('id'));
+          } else {
+              location.hash = '#' + $(this).attr('id');
+          }
         }
 
      });

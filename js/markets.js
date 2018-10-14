@@ -34,10 +34,17 @@ function buildTKR(pair){
 
 function buildTitle(valueFinal, pair){
   var suffix = '';
-  suffix = ' <span class="currencyPair">'+buildTKR(pair)+'</span>';;
+  suffix = ' <span class="currency-pair">'+buildTKR(pair)+'</span>';
+
+
+  if(pair.startsWith("btc")){
+    valueFinal = valueFinal;
+  }else{
+    valueFinal = 1 / valueFinal;
+  }
 
   valueFinal = Math.round(valueFinal * 100) / 100;
-  return valueFinal+suffix;
+  return '<span class="btc-note">1 BTC</span>'+'<span class="price">'+valueFinal+'</span>'+suffix;
 
 }
 
@@ -70,7 +77,11 @@ $(document).ready(function() {
          width: "100%"
        });
 
+       var currency = getUrlParameter('currency');
 
+       if(currency !== undefined){
+         $('.chosen-select').val(currency).trigger("chosen:updated");
+       }
 
        $('.chosen-select').change(function(){
 
@@ -81,11 +92,10 @@ $(document).ready(function() {
             url+='currency='+encodeURIComponent($("#currency").val())+'&';
 
           url = url.replace(/\&$/,'');
-          //alert(url);
+          console.log(url);
           window.location.href=url;
 
-          window.history.pushState("object or string", "Title", url);
-
+          //window.history.pushState("object or string", "Title", url);
           //buildData($("#currency").val());
 
         });
@@ -113,25 +123,33 @@ buildData(pair);
 function buildData(jsonUrl){
 
 
-if(pair === undefined || pair === 'all'){
-  //api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=
-  var jsonUrl = 'https://markets.bisq.network/api/volumes?basecurrency=BTC'+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback';
-  pair = 'BTC';
-}else{
-  var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback';
-}
+    if(pair === undefined || pair === 'all'){
+      //api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=
+      var jsonUrl = 'https://markets.bisq.network/api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback&fillgaps=&callback=?';
+      //pair = 'BTC';
+    }else{
+      var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback';
+    }
 
-console.log(pair);
+    console.log(jsonUrl);
 
-getTrades(pair);
-
-
+    getTrades(pair);
 
 
+
+
+    //return 'api/hloc?market=btc_usd&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?';
+    //return 'api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?';
+
+    $.getJSON(jsonUrl+'&callback=?', function (data) {
+      console.log('data');
+      console.log(data);
+    });
 
     $.getJSON(jsonUrl+'&callback=?', function (data) {
 
-
+        console.log('data');
+        console.log(data);
 
         // split the data set into ohlc and volume
         var
@@ -161,10 +179,23 @@ getTrades(pair);
                 data[i][4] // close
             ]);
             */
-            avg.push([
-                data[i][0]*1000, // the date
-                data[i][7]  // the average
-            ]);
+            if(pair.startsWith("btc")){
+              avg.push([
+                  data[i][0]*1000, // the date
+                  data[i][7]  // the average
+              ]);
+            }else if (pair == 'allowed'){
+              avg.push([
+                  data[i][0]*1000, // the date
+                  (1 / data[i][0])  // the average
+              ]);
+            }else{
+              avg.push([
+                  data[i][0]*1000, // the date
+                  (1 / data[i][7])  // the average
+              ]);
+            }
+
 
             volume.push([
                 data[i][0]*1000, // the date
@@ -188,7 +219,7 @@ getTrades(pair);
                 buttonPosition: {
                 		align: 'right',
                 		x: 0,
-                		y: -40
+                		y: -60
                 },
                 buttonTheme: { // styles for the buttons
                     width: 22,
@@ -218,12 +249,12 @@ getTrades(pair);
                 },
                 buttons: [
 
-                /*{
+                {
                     type: 'hour',
                     count: 1,
                     text: '1H'
                 },
-                */
+
                 {
                     type: 'day',
                     count: 1,
@@ -267,8 +298,10 @@ getTrades(pair);
                 text: buildTitle(data[dataLength-1][7], pair),
                 align: 'left',
                 x:20,
-                y:60,
+                y:30,
+                useHTML: true
             },
+
 
 
 
@@ -292,9 +325,9 @@ getTrades(pair);
                       labels: {
                           align: 'right',
                           x: -18,
-                          y: -10,
+                          y: -5,
                           style: {
-                              color: '#92d799',
+                              color: '#25B135',
                               fontWeight: '300',
                               fontFamily: 'IBM Plex Sans',
                               fontSize: '10',
@@ -319,20 +352,27 @@ getTrades(pair);
 
                     {
                         labels: {
-                            align: 'left',
-                            x: -140,
-                            opposite:false,
-                            enabled: false,
+                            y: -5,
+                            x: -48,
+                            //align: 'left',
+                            //x: -140,
+                            //enabled: false,
                             style: {
-                                color: '#CCC',
-                            }
+                                color: '#9c9c9c',
+                                fontWeight: '300',
+                                fontFamily: 'IBM Plex Sans',
+                                fontSize: '10',
+                            },
                         },
-                        visible: false,
+                        opposite: true,
+                        //visible: false,
+
                         title: {
                             text: 'Volume'
                         },
                         top: '0%',
                         //height: '35%',
+                        gridLineColor: 'transparent',
                         offset: 0,
                         lineWidth: 0,
                         height: '100%'
@@ -351,16 +391,13 @@ getTrades(pair);
                               fontSize: '14',
                             },
                         },
-                        style: {
-                            color: '#FF00FF',
-                            fontWeight: 'bold'
-                        },
                         gridLineColor: 'transparent',
                         lineWidth: 0,
                         //resize: { enabled: true }
                         offset: 8,
                         tickLength: 0,
                         tickWidth: 0,
+                        zIndex: -5,
                         backgroundColor: '#bbb',
                       },
 
@@ -381,8 +418,9 @@ getTrades(pair);
                       valueSuffix: ' '+buildTKR(pair)
                   },
                   data: avg,
-                  //yAxis: 1,
+                  yAxis: 1,
                   color: '#25B135',
+                  fillOpacity: 0.6,
                   yAxis: 0,
                   zIndex: 1,
 
@@ -390,24 +428,25 @@ getTrades(pair);
 
 
 
-            {
-                type: 'column',
-                name: 'Volume',
-                tooltip: {
-                    valueSuffix: ' '+buildTKR(pair)
-                },
-                data: volume,
-                color: '#cfcfcf',
-                yAxis: 1,
-                zIndex: 0,
-                //maxPointWidth: 50
-                pointPadding: 0,
-                groupPadding: 0,
-                borderWidth: 0,
-                shadow: false,
-                borderColor: '#c5c5c5'
+              {
+                  type: 'column',
+                  name: 'Volume',
+                  tooltip: {
+                      valueSuffix: ' '+buildTKR(pair)
+                  },
+                  data: volume,
+                  color: '#cfcfcf',
+                  yAxis: 1,
+                  zIndex: -10,
+                  maxPointWidth: 200,
+                  pointPadding: 0,
+                  groupPadding: 0,
+                  borderWidth: 0,
+                  shadow: false,
+                  borderColor: '#c5c5c5'
 
-            },
+              },
+
 
 
 
@@ -416,7 +455,7 @@ getTrades(pair);
 
           tooltip: {
               split: false,
-              crosshairs: false,
+              crosshairs: true,
               shared: true,
               useHTML: true,
               headerFormat: '<small>{point.key}</small><table>',

@@ -34,5 +34,10 @@ title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 
 
+<div class="row mb-sm-4 mb-md-0">
 
-{% include resources.html %}
+  <div class="mt-sm-0 mb-0 mt-md-3 mb-md-5 col-sm-12 col-md-8 pr-5">
+    {% include positions.html %}
+  </div>
+  
+</div>

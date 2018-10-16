@@ -141,9 +141,45 @@ function buildData(jsonUrl){
     //return 'api/hloc?market=btc_usd&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?';
     //return 'api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?';
 
+
+
+$.getJSON(jsonUrl+'&callback=?', function (data) {
+
+    // split the data set into ohlc and volume
+    var ohlc = [],
+        volume = [],
+        dataLength = data.length,
+        // set the allowed units for data grouping
+        groupingUnits = [[
+            'week',                         // unit name
+            [1]                             // allowed multiples
+        ], [
+            'month',
+            [1, 2, 3, 4, 6]
+        ]],
+
+        i = 0;
+
+    for (i; i < dataLength; i += 1) {
+        ohlc.push([
+            data[i][0], // the date
+            data[i][1], // open
+            data[i][2], // high
+            data[i][3], // low
+            data[i][4] // close
+        ]);
+
+        volume.push([
+            data[i][0], // the date
+            data[i][5] // the volume
+        ]);
+    }
+
+
+
     $.getJSON(jsonUrl+'&callback=?', function (data) {
 
-
+        console.log('data');
         console.log(data);
 
         // split the data set into ohlc and volume
@@ -294,8 +330,7 @@ function buildData(jsonUrl){
                 align: 'left',
                 x:20,
                 y:30,
-                useHTML: true,
-                style: { zIndex: 0, },
+                useHTML: true
             },
 
 
@@ -409,7 +444,6 @@ function buildData(jsonUrl){
 
               {
                   type: 'area',
-                  type: 'line',
                   name: 'Price',
                   tooltip: {
                       valueSuffix: ' '+buildTKR(pair)
@@ -417,11 +451,9 @@ function buildData(jsonUrl){
                   data: avg,
                   yAxis: 1,
                   color: '#25B135',
-                  getExtremesFromAll:false,
                   fillOpacity: 0.6,
                   yAxis: 0,
                   zIndex: 1,
-                  lineWidth: 1
 
               },
 
@@ -434,7 +466,7 @@ function buildData(jsonUrl){
                       valueSuffix: ' '+buildTKR(pair)
                   },
                   data: volume,
-                  color: '#dfdfdf',
+                  color: '#cfcfcf',
                   yAxis: 1,
                   zIndex: -10,
                   maxPointWidth: 200,
@@ -453,14 +485,13 @@ function buildData(jsonUrl){
           ],
 
           tooltip: {
-              followPointer: false,
               split: false,
               crosshairs: true,
               shared: true,
               useHTML: true,
               headerFormat: '<small>{point.key}</small><table>',
               pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>{point.y} {this.series.tooltipOptions.valueSuffix}</b></td></tr>',
-              footerFormat: '</table>',
+              footerFormat: '</table><div class="tooltip"></div>',
               valueDecimals: 2,
               borderRadius: 0,
               borderWidth: 0,
@@ -472,8 +503,7 @@ function buildData(jsonUrl){
                   color: '#444',
                   fontWeight: '300',
                   fontFamily: 'IBM Plex Sans',
-                  width: 400,
-                  zIndex: 19999,
+                  width: 400
               },
 
           },
@@ -481,7 +511,5 @@ function buildData(jsonUrl){
         });
     });
 
-
-    $('#container').append( "<p>Test</p>" );
 
 }

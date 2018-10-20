@@ -36,6 +36,6 @@ Bisq is for those who do not want to forfeit control or privacy to a central aut
 
 ## Join the community
 
-Bisq is always looking for highly-skilled developers, designers and security experts to join our [community](/community/). If you're interested in helping make Bisq a reality, there are many ways to [contribute](/contribute/). We'd love to [hear from you](/contact/)!
+Bisq is always looking for highly-skilled developers, designers and security experts to join our [community](/community/). If you're interested in helping make Bisq a reality, there are many ways to [contribute](/contribute/). We'd love to [hear from you](https://bisq.network/community/)!
 
 Our [roadmap](/roadmap/) provides an overview of high-level features and milestones on the way to Bisq v1.0.

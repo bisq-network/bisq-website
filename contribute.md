@@ -34,11 +34,11 @@ Please check out our [forum](https://forum.bitsquare.io/t/bitsquare-bounties-rul
     <small>1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7</small>
   </a>
 </div>
-By donating bitcoin to our donation wallet you will be helping Bisq pay for our [direct costs](/finances/) like web hosting, domain names, SSL certificates, a Vimeo account and so on. So if you support this project and are in a position to help us out then that would be wonderful.
+By donating bitcoin to our donation wallet you will be helping Bisq pay for our direct costs like web hosting, domain names, SSL certificates, a Vimeo account and so on. So if you support this project and are in a position to help us out then that would be wonderful.
 
 _**Note:** Donations to Bisq are not tax deductible as we are not formally registered in the jurisdiction of any Government. We do not accept donations in Altcoins at this point in time. We would be really grateful if you converted them to Bitcoin and donated them that way though!_
 
 <br>
 
-Please don't hesitate to [get in touch](/contact/) if you can think of other ways you can help with the Bisq project.
+Please don't hesitate to [get in touch](https://bisq.network/community/) if you can think of other ways you can help with the Bisq project.
 

@@ -35,7 +35,7 @@ title: FAQ &lsaquo; Bisq - The decentralized Bitcoin exchange
         <li>Bisq uses a Peer-to-Peer network over Tor. This means there are no servers to be hacked or DDoS&#8217;d.</li>
         <li>Bisq does not know the traders. No data is stored on who trades with whom.</li>
         <li>Bisq does not require registration. This means privacy is maintained, there are no “approval” wait times, and identity theft becomes impossible.</li>
-        <li>Bisq is not a company. It is an open source project organized as a <a href="https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc" target="_blank">Decentralized Autonomous Organization (DAO)</a>.
+        <li>Bisq is not a company. It is an open source project organized as a <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank">Decentralized Autonomous Organization (DAO)</a>.
         </li>
       </ul>
     </ul>
@@ -202,6 +202,68 @@ title: FAQ &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 
 
+<h4 class="pt-5 mt-5 pb-3">Dispute Resolution</h4>
+<div class="accordion border-bottom mb-5">
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="What_is_an_arbitrator">What is an arbitrator?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0">
+    <p>An arbitrator is the person who find the solution to a dispute that may occur during a trade. <a href="/docs/exchange/arbitration-system" target="_blank">Bisq&#8217;s arbitrators</a> must pay a <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank">BSQ bond</a>, which ensure fair evaluations and prevent collusion with traders.</p>
+    <p>Initially, traders make a list of arbitrators they approve. When a new trade is initiated, an arbitrator is randomly selected from among the traders&#8217; overlapping, approved selections. The more arbitrators a trader accepts, the more trades will be available to him.</p>
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="How_does_the_arbitration_process_work">How does the arbitration process work?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0">
+    <p>If trader A fails to confirm the receipt of a national currency transfer within the allotted time (e.g. six days for SEPA, four days for Zelle, one day for altcoins, etc.), a button to contact the arbitrator will appear to both traders. Trader B will
+      then be able to submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if trader B never sent the national currency, trader A will be able to submit evidence to the arbitrator that the funds were never received.
+      Submitted evidence should be cryptographically secure using either
+      <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be deployed.<br/> From our experience the huge majority of cases are caused not by any
+      malicious intention but by problems like network issues, bugs, bank issues, usability, etc.
+    </p>
+    <p>The arbitrator will side with buyer or seller and sign the 2-of-3 multisignature address in favor of the appropriate party.</p>
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="How_is_collusion_between_arbitrators_and_traders_prevented">How is collusion between arbitrators and traders prevented?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0">
+    <p>As outlined above, arbitrators must lock in a high <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank">BSQ bond</a> to become such – much higher than the trade limit. If an arbitrator&#8217;s dispute resolution is not agreed to by both traders, they can request confiscation of the arbitrators BSQ bond.</p>
+    <p>If collusion is found to have taken place, the misbehaving arbitrator will lose her BSQ bond. This puts the arbitrator at a significant loss, as her BSQ bond was much more than she made by being dishonest.</p>
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="What_happens_if_the_person_buying_bitcoin_does_a_chargeback_on_their_national_currency_after_the_bitcoin_has_been_released_from_the_multisig_address">What happens if the person buying bitcoin does a chargeback on their national currency after the bitcoin has been released from the multisig address?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0">
+    <p>We only support payment methods in which chargeback is not easy (i.e. we don&#8217;t support Paypal or credit cards). But there is still certain chargeback risk with banks. If a bank executes a chargeback after the BTC has been released, there is nothing
+      the arbitrator can do.</p>
+    <p>Bisq&#8217;s goal is to make this scenario as unattractive as possible, using three primary mechanisms</a>:</p>
+    <p style="padding-left: 30px;">1. There is a trade limit per trade, which is generally too small to attract criminals.</p>
+    <p style="padding-left: 30px;">2. We will remove national currency payment methods which are found to be used for chargebacks.</p>
+    <p style="padding-left: 30px;">3. We introduce with version 0.6.0 a new <a href="https://github.com/bisq-network/proposals/blob/master/payment-account-age-witness.adoc" target="_blank">feature</a> for detecting the age when a payment account has been set up. Recently opened accounts
+      will have lower trade limits. This adds protection against stolen-bank-account-scams.</p>
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="Wouldnt_a_pure_reputation_system_among_traders_make_arbitrators_unnecessary">Wouldn&#8217;t a pure reputation system among traders make arbitrators unnecessary?</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0">
+    <p>Pure reputation without the option of arbitration is a weak protection system, as you can never avoid
+      <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> or
+      <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> attacks.</p>
+    <p>It is also problematic for protecting privacy and apply it in a decentralized way.</p>
+    <p><a name="13"></a><strong>Can I be an arbitrator?</strong></p>
+    <p>The required <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank">BSQ bond</a> is very high and there are currently only very few people who have contributed that much to Bisq that they have earned so much BSQ. But as soon the full DOA is released and more people have allocated higher amounts of BSQ it will be open to anyone.</p>
+    <p><a name="directPeerContact"></a><strong>Can I contact my trading peer?</strong></p>
+    <p>Bisq intentionally does not offer a way to get in direct contact with the trading peer. The security mechanisms does not require any direct contact (other than on reputation based systems like Localbitcoins) and we feel that by offering such a feature we might easily open a can of worms. E.g. malicious users could try to trick the peer into a direct trade without using Bisq and then exploit the lack of security or they use the direct channel for other fraudulent activities (social engineering scams, spam,...). For any problems users can open a dispute and the arbitrator will take care to resolve the issue. Beside that they can use the Bisq forum if they need help or for getting questions answered.</p>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
 
 
 <h4 class="pt-5 mt-5 pb-3">Miscellaneous</h4>
@@ -285,6 +347,9 @@ to the appropriate party.</p>
 
 
 </div>
+
+
+
 
 
 
@@ -388,7 +453,7 @@ to the appropriate party.</p>
     <li>Bisq uses a Peer-to-Peer network over Tor. This means there are no servers to be hacked or DDoS&#8217;d.</li>
     <li>Bisq does not know the traders. No data is stored on who trades with whom.</li>
     <li>Bisq does not require registration. This means privacy is maintained, there are no “approval” wait times, and identity theft becomes impossible.</li>
-    <li>Bisq is not a company. It is an open source project organized as a <a href="https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc" target="_blank">Decentralized Autonomous Organization (DAO)</a>.
+    <li>Bisq is not a company. It is an open source project organized as a <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank">Decentralized Autonomous Organization (DAO)</a>.
     </li>
   </ul>
 </ul>
@@ -667,8 +732,8 @@ to the appropriate party.</p>
 
 <p><a name="8"></a><strong>What is an arbitrator?</strong></p>
 <p>An arbitrator is the person who find the solution to a dispute that may occur during a trade.
-  <a href="/docs/exchange/arbitration-system" target="_blank">Bisq&#8217;s arbitrators</a> must pay a <a href="https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc" target="_blank">BSQ bond</a>, which ensure fair evaluations and prevent
-  collusion with traders.
+
+  <a href="/docs/exchange/arbitration-system" target="_blank">Bisq&#8217;s arbitrators</a> must pay a <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank">BSQ bond</a>, which ensure fair evaluations and prevent collusion with traders.
 </p>
 <p>Initially, traders make a list of arbitrators they approve. When a new trade is initiated, an arbitrator is randomly selected from among the traders&#8217; overlapping, approved selections. The more arbitrators a trader accepts, the more trades will be
   available to him.</p>
@@ -683,8 +748,9 @@ to the appropriate party.</p>
 <p>The arbitrator will side with buyer or seller and sign the 2-of-3 multisignature address in favor of the appropriate party.</p>
 
 <p><a name="10"></a><strong>How is collusion between arbitrators and traders prevented?</strong></p>
-<p>As outlined above, arbitrators must lock in a high <a href="https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc" target="_blank">BSQ bond</a> to become such – much higher than the trade limit. If an arbitrator&#8217;s dispute resolution
-  is not agreed to by both traders, they can request confiscation of the arbitrators BSQ bond.</p>
+
+<p>As outlined above, arbitrators must lock in a high <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank">BSQ bond</a> to become such – much higher than the trade limit. If an arbitrator&#8217;s dispute resolution is not agreed to by both traders, they can request confiscation of the arbitrators BSQ bond.</p>
+
 <p>If collusion is found to have taken place, the misbehaving arbitrator will lose her BSQ bond. This puts the arbitrator at a significant loss, as her BSQ bond was much more than she made by being dishonest.</p>
 
 <p><a name="11"></a><strong>What happens if the person buying bitcoin does a chargeback on their national currency after the bitcoin has been released from the multisig address?</strong> </p>
@@ -704,8 +770,9 @@ to the appropriate party.</p>
 <p>It is also problematic for protecting privacy and apply it in a decentralized way.</p>
 
 <p><a name="13"></a><strong>Can I be an arbitrator?</strong></p>
-<p>The required <a href="https://github.com/bisq-network/docs/blob/master/dao/phase-zero.adoc" target="_blank">BSQ bond</a> is very high and there are currently only very few people who have contributed that much to Bisq that they have earned so much BSQ.
-  But as soon the full DOA is released and more people have allocated higher amounts of BSQ it will be open to anyone.</p>
+
+
+<p>The required <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank">BSQ bond</a> is very high and there are currently only very few people who have contributed that much to Bisq that they have earned so much BSQ. But as soon the full DOA is released and more people have allocated higher amounts of BSQ it will be open to anyone.</p>
 
 <p><a name="directPeerContact"></a><strong>Can I contact my trading peer?</strong></p>
 <p>Bisq intentionally does not offer a way to get in direct contact with the trading peer. The security mechanisms does not require any direct contact (other than on reputation based systems like Localbitcoins) and we feel that by offering such a feature

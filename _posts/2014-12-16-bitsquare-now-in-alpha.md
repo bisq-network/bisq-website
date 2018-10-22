@@ -55,8 +55,8 @@ Bitsquare will exit _beta_ with the release of v1.0, which we're setting a high 
 [3]: https://twitter.com/SatoshiATX
 [4]: /docs/bitsquare.pdf
 [5]: /faq/
-[8]: /crowdfunding/
-[9]: /governance/
+[8]: /crowdfunding/ (not online anymore)
+[9]: /governance/ (not online anymore)
 [10]: https://en.bitcoin.it/wiki/Testnet
 [11]: http://faucet.xeno-genesis.com/
 [12]: http://tpfaucet.appspot.com/

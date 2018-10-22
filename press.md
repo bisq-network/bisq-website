@@ -5,12 +5,18 @@ banner: /images/press.png
 ---
 # Press
 
+<<<<<<< HEAD
 ### Writing a story about Bisq? Or looking for an interview? Please [contact][1] the Bisq team directly with a brief overview of your idea so we can put you in touch with the best person.
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
 [Contact Bisq team][1]<br>
 [Download Press Kit][1]
 {: .mt-4}
+=======
+Writing a story about Bisq? Or looking for an interview? Please contact the Bisq community directly with a brief overview of your idea so we can put you in touch with the best person:
+
+[» Bisq Community][1]
+>>>>>>> upstream/master
 
 ## Upcoming events
 {: .mt-5 .mb-sm-3 .mb-md-3 }
@@ -138,7 +144,7 @@ banner: /images/press.png
 
 Do you need image material for an article about Bisq? You can find [here][106] our Logo in different styles and sizes.
 
-[1]: /contact/
+[1]: https://bisq.network/community/
 [2]: https://www.meetup.com/de-DE/BlockchainHub-Graz/events/239672640/
 [3]: https://www.youtube.com/watch?v=6XFwBC-KAXE
 [4]: https://www.meetup.com/de-DE/Silicon-Valley-Bitcoin-Users/events/233079545/?eventId=233079545

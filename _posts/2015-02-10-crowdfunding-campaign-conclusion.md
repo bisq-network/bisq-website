@@ -4,7 +4,7 @@ title: Crowdfunding campaign conclusion
 author: Richard Myers
 ---
 
-The Bitsquare [crowdfunding][1] campaign has ended without reaching our funding goal.  We are disappointed, but also proud and encouraged by the amount of the support we did receive.   The enthusiasm we have seen from the community confirms we are on the right track and fuels our own passion to make Bitsquare a reality.
+The Bitsquare crowdfunding[1] campaign has ended without reaching our funding goal.  We are disappointed, but also proud and encouraged by the amount of the support we did receive.   The enthusiasm we have seen from the community confirms we are on the right track and fuels our own passion to make Bitsquare a reality.
 
 Although the project will lose the full time efforts of Manfred and Chris, we will continue to move forward with a renewed focus on development with out the distraction of raising money.  We may not be able to deliver milestones on our original schedule now, but we will continue to make progress with the part time volunteer efforts of Manfred and the rest of the team.
 
@@ -28,8 +28,8 @@ You will need to revoke your Bitsquare pledge from within Lighthouse, but we enc
 
 Thank you from all of us on the Bitsquare team!
 
-[1]: /crowdfunding/
-[2]: /funding-voices/
+[1]: /crowdfunding/ (not online anymore)
+[2]: /funding-voices/ (not online anymore)
 [3]: http://web.archive.org/web/20160626142143/http://www.vinumeris.com/
 [4]: http://www.reddit.com/r/Bitcoin/comments/2r9qha/im_olivier_janssens_running_for_bitcoin/
 [5]: https://letstalkbitcoin.com/blog/category/beyond-bitcoin

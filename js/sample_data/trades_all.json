@@ -1,0 +1,1002 @@
+[
+    {
+        "market": "btc_usd",
+        "direction": "SELL",
+        "price": "7058.66910000",
+        "amount": "0.03260000",
+        "volume": "230.11260000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "FYFTP-ba7cb6c2-7a40-4b91-9a70-003ed8823585-080",
+        "trade_date": 1539908123775
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01588499",
+        "amount": "3.77715063",
+        "volume": "0.06000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "49704-7d52b463-1c91-478d-b2e7-f8aebedd4120-080",
+        "trade_date": 1539905886706
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5580.32000000",
+        "amount": "0.04000000",
+        "volume": "223.21280000",
+        "payment_method": "REVOLUT",
+        "trade_id": "46884064-05af8aeb-80ee-433a-ab45-76d318552d92-080",
+        "trade_date": 1539904320117
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01620780",
+        "amount": "47.93988079",
+        "volume": "0.77700000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "Jdge3lt-3b60e7ec-8b6b-461a-915a-1ba44a3d278b-080",
+        "trade_date": 1539902933009
+    },
+    {
+        "market": "btc_usd",
+        "direction": "SELL",
+        "price": "6438.67000000",
+        "amount": "0.03900000",
+        "volume": "251.10810000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "OWJNR-e2ad799a-1337-4f10-a7f3-d62c38b987bb-080",
+        "trade_date": 1539902668491
+    },
+    {
+        "market": "btc_chf",
+        "direction": "BUY",
+        "price": "6281.26100000",
+        "amount": "0.06240000",
+        "volume": "391.95060000",
+        "payment_method": "NATIONAL_BANK",
+        "trade_id": "50986595-7e9db6bd-10eb-48e6-85e6-c15f54e52a85-080",
+        "trade_date": 1539901701465
+    },
+    {
+        "market": "btc_gbp",
+        "direction": "SELL",
+        "price": "4994.66240000",
+        "amount": "0.06250000",
+        "volume": "312.16640000",
+        "payment_method": "FASTER_PAYMENTS",
+        "trade_id": "DXV0Z8RU-9a95d206-dfe8-491d-a6d8-8560b3b1ba0a-080",
+        "trade_date": 1539899055202
+    },
+    {
+        "market": "btc_eur",
+        "direction": "BUY",
+        "price": "5567.11840000",
+        "amount": "0.06250000",
+        "volume": "347.94490000",
+        "payment_method": "SEPA",
+        "trade_id": "51384596-451f9692-b822-4c7c-8fbc-c23a2d1aafb9-080",
+        "trade_date": 1539897149662
+    },
+    {
+        "market": "sf_btc",
+        "direction": "BUY",
+        "price": "0.75000000",
+        "amount": "1.00000000",
+        "volume": "0.75000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "ru26SwYv-0b84f501-bdad-471d-b2a1-2b93d11f0fea-080",
+        "trade_date": 1539893655075
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01642765",
+        "amount": "60.87297939",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "ymotthg-827eb93a-e569-4d98-8742-a839c7fbcf61-080",
+        "trade_date": 1539890567182
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5580.55000000",
+        "amount": "0.06250000",
+        "volume": "348.78430000",
+        "payment_method": "SEPA",
+        "trade_id": "34430557-a7763f42-ac37-4dbe-b542-34af1ab0c04d-080",
+        "trade_date": 1539889669253
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01626249",
+        "amount": "56.63339377",
+        "volume": "0.92100000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "lvhbsqpv-7d95db7b-7de9-44cb-b681-8c20304f35ad-080",
+        "trade_date": 1539887974121
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5593.12000000",
+        "amount": "0.16000000",
+        "volume": "894.89920000",
+        "payment_method": "SEPA",
+        "trade_id": "buvpelt-6112cf0b-6eac-4964-871d-4a7e1ad2893c-080",
+        "trade_date": 1539885386409
+    },
+    {
+        "market": "btc_ghs",
+        "direction": "BUY",
+        "price": "31517.07000000",
+        "amount": "0.01000000",
+        "volume": "315.17070000",
+        "payment_method": "F2F",
+        "trade_id": "24216-aa1303e8-05be-475f-96d6-a758805b511d-080",
+        "trade_date": 1539884720792
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01637950",
+        "amount": "22.46710827",
+        "volume": "0.36800000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "HTFHAEYM-5dd348b3-6da3-47e3-bfee-b63b14bc413c-080",
+        "trade_date": 1539883382456
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5618.65000000",
+        "amount": "0.03990000",
+        "volume": "224.18410000",
+        "payment_method": "REVOLUT",
+        "trade_id": "klbxo2o-cdaa6dc5-6f97-40fa-bdb2-e1bbbd54c2b8-080",
+        "trade_date": 1539883366343
+    },
+    {
+        "market": "btc_brl",
+        "direction": "SELL",
+        "price": "24173.05000000",
+        "amount": "0.25000000",
+        "volume": "6043.26250000",
+        "payment_method": "NATIONAL_BANK",
+        "trade_id": "DbkXcJs-e850594f-f0db-4d01-b1c6-8149063c5290-080",
+        "trade_date": 1539882481760
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5627.40850000",
+        "amount": "0.04010000",
+        "volume": "225.65900000",
+        "payment_method": "SEPA",
+        "trade_id": "HiJZgJ-565084d0-995c-45ed-89bb-95d002c9191a-080",
+        "trade_date": 1539882310688
+    },
+    {
+        "market": "btc_gbp",
+        "direction": "SELL",
+        "price": "5007.15120000",
+        "amount": "0.12490000",
+        "volume": "625.39310000",
+        "payment_method": "FASTER_PAYMENTS",
+        "trade_id": "l6PTvNY-9af7602e-09c3-4ad5-a73e-1152f95b56ce-080",
+        "trade_date": 1539882076024
+    },
+    {
+        "market": "btc_usd",
+        "direction": "SELL",
+        "price": "6525.31710000",
+        "amount": "0.00800000",
+        "volume": "52.20250000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "GKAYNR-d90c1efa-cdaa-46ee-88e4-b003ac341b62-080",
+        "trade_date": 1539881254201
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01624080",
+        "amount": "61.57332151",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "IZLCQ-b93c19e5-efd5-4066-a709-6a3522b08210-080",
+        "trade_date": 1539879929193
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01624241",
+        "amount": "61.56721816",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "03162-f6362e08-38c4-4167-bf2c-a93e5f2b91d7-080",
+        "trade_date": 1539879821064
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01632120",
+        "amount": "61.27000465",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "pOQoaCb-e77a72e9-6684-40ba-a4a7-19c876d46126-080",
+        "trade_date": 1539879173187
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5608.62000000",
+        "amount": "0.01980000",
+        "volume": "111.05060000",
+        "payment_method": "REVOLUT",
+        "trade_id": "LSUEIOKV-e2e625f0-f20f-43af-bcf5-8f536a82a6ad-080",
+        "trade_date": 1539878260243
+    },
+    {
+        "market": "btc_chf",
+        "direction": "BUY",
+        "price": "6486.75720000",
+        "amount": "0.15470000",
+        "volume": "1003.50130000",
+        "payment_method": "NATIONAL_BANK",
+        "trade_id": "WONeoD-4d372639-92b8-4448-8904-6ceee3bc2f5f-080",
+        "trade_date": 1539876780221
+    },
+    {
+        "market": "btc_usd",
+        "direction": "SELL",
+        "price": "6547.82000000",
+        "amount": "0.06250000",
+        "volume": "409.23870000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "2295577-b7230aa1-bcc6-45c6-acaa-6e7fb00e0ce7-080",
+        "trade_date": 1539876718787
+    },
+    {
+        "market": "btc_usd",
+        "direction": "BUY",
+        "price": "6569.33320000",
+        "amount": "0.04020000",
+        "volume": "264.08710000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "RAZHRTX-ce9dce4d-5383-44cb-bb6f-ce99948d0120-080",
+        "trade_date": 1539874505662
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "6998.00000000",
+        "amount": "0.06000000",
+        "volume": "419.88000000",
+        "payment_method": "SEPA",
+        "trade_id": "HqIWQa-42707d83-b643-4902-963f-95c6f0ebd94a-080",
+        "trade_date": 1539873762178
+    },
+    {
+        "market": "btc_eur",
+        "direction": "BUY",
+        "price": "5616.09000000",
+        "amount": "0.25000000",
+        "volume": "1404.02250000",
+        "payment_method": "SEPA",
+        "trade_id": "vpjz6wm9-44cd2db7-88af-4ecf-b257-3d5675815142-080",
+        "trade_date": 1539872667713
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01678146",
+        "amount": "59.58957087",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "CZTHBP-154978f4-dfd0-49d6-bb6c-9448308e7fea-080",
+        "trade_date": 1539866596174
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01678537",
+        "amount": "59.57569002",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "23551402-3a855c1f-3685-4213-bb10-16bb5abd7f27-080",
+        "trade_date": 1539865627970
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01678430",
+        "amount": "59.57948797",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "T0GXZ-422ae5aa-0777-4471-956b-a5ba3c55a37c-080",
+        "trade_date": 1539865515416
+    },
+    {
+        "market": "sf_btc",
+        "direction": "SELL",
+        "price": "0.80000000",
+        "amount": "1.00000000",
+        "volume": "0.80000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "536436-7ea95a57-2e8f-4d97-94b5-fd306deb21a2-080",
+        "trade_date": 1539865446060
+    },
+    {
+        "market": "btc_eur",
+        "direction": "BUY",
+        "price": "5434.34740000",
+        "amount": "0.06250000",
+        "volume": "339.64670000",
+        "payment_method": "SEPA",
+        "trade_id": "eqfjcm-c6711c0c-27c9-4266-9f1d-bad1745745d9-080",
+        "trade_date": 1539864733389
+    },
+    {
+        "market": "btc_eur",
+        "direction": "BUY",
+        "price": "5461.38450000",
+        "amount": "0.10000000",
+        "volume": "546.13840000",
+        "payment_method": "REVOLUT",
+        "trade_id": "Tw0rVX-fc58d4b3-7e16-4b98-8032-bdf70ab34f6a-080",
+        "trade_date": 1539863614364
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01643251",
+        "amount": "2.36725856",
+        "volume": "0.03890000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "35M3XI-da3041ea-8290-4c5c-99e5-466e781e3f1f-080",
+        "trade_date": 1539862136831
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01677287",
+        "amount": "59.62008886",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "GPEXKRR-c9ce7a5b-4210-4dc2-980d-1b814bf40362-080",
+        "trade_date": 1539860074018
+    },
+    {
+        "market": "btc_gbp",
+        "direction": "SELL",
+        "price": "5021.98020000",
+        "amount": "0.07410000",
+        "volume": "372.12870000",
+        "payment_method": "FASTER_PAYMENTS",
+        "trade_id": "hMHVTa3-a5ad77fd-cdd5-4def-bdfc-9ab11b93bfb8-080",
+        "trade_date": 1539859477931
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5608.64000000",
+        "amount": "0.01980000",
+        "volume": "111.05100000",
+        "payment_method": "REVOLUT",
+        "trade_id": "bvjpw-9dcadffd-e32f-4332-8747-94461b56e0cb-080",
+        "trade_date": 1539858307348
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01672287",
+        "amount": "59.79834801",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "wZFRq-140f34eb-c1ac-4f3a-9959-c9e3befcc875-080",
+        "trade_date": 1539855924018
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01685042",
+        "amount": "59.34570176",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "CZeCUbS-5cad4f17-3353-4bd4-928d-31c021940cf5-080",
+        "trade_date": 1539854188974
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5935.51240000",
+        "amount": "0.06250000",
+        "volume": "370.96950000",
+        "payment_method": "SEPA",
+        "trade_id": "01796868-16c15e39-f722-433b-bb58-14085a24cf9d-080",
+        "trade_date": 1539854117803
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01672802",
+        "amount": "59.77993809",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "8cgyf-c8965468-02e2-42e0-a345-201bb4b97d7b-080",
+        "trade_date": 1539854062859
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5911.56590000",
+        "amount": "0.06240000",
+        "volume": "368.88170000",
+        "payment_method": "SEPA",
+        "trade_id": "723070-baeca689-ae96-4127-bd32-480a5729c788-080",
+        "trade_date": 1539854062425
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01661260",
+        "amount": "60.19527346",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "olxnq-4712b5b0-c830-4571-ae0d-cf99a321ead7-080",
+        "trade_date": 1539853315580
+    },
+    {
+        "market": "btc_usd",
+        "direction": "BUY",
+        "price": "6530.33000000",
+        "amount": "0.06250000",
+        "volume": "408.14560000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "CUMUX-7e660ce1-d238-44a5-abf0-480aa7a0fcb2-080",
+        "trade_date": 1539852854335
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01649210",
+        "amount": "60.63509195",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "KJZiqmg-00bc2d05-20d4-43bb-a98e-384f999fcc64-080",
+        "trade_date": 1539852776692
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01650845",
+        "amount": "60.57503884",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "7PZVFMXZ-28c8e47f-9278-4d8a-a25d-b9e686b0d1be-080",
+        "trade_date": 1539852678272
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01651468",
+        "amount": "60.55218750",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "84262909-15dd9651-12f0-485b-bc3c-4f684e74ecde-080",
+        "trade_date": 1539850633978
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01653772",
+        "amount": "60.46782748",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "QEGYSL-c91d0375-a108-46cc-95be-68a407d97974-080",
+        "trade_date": 1539847471774
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5616.75000000",
+        "amount": "0.06240000",
+        "volume": "350.48520000",
+        "payment_method": "SEPA",
+        "trade_id": "096738-ec622ed1-ee35-4a33-aa97-83786335e16f-080",
+        "trade_date": 1539847286259
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01662063",
+        "amount": "1.38382239",
+        "volume": "0.02300000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "zjzbjt-20809ef2-f7f2-4d4d-81fb-9f2a3099a625-080",
+        "trade_date": 1539847251467
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01642304",
+        "amount": "60.89006663",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "IGFVPACY-5243705c-0b98-434c-8766-dae49e08643d-080",
+        "trade_date": 1539845983904
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5616.36000000",
+        "amount": "0.06250000",
+        "volume": "351.02250000",
+        "payment_method": "SEPA",
+        "trade_id": "IsfsHTTA-0c32fe73-a084-4486-b770-84b9e237a7fe-080",
+        "trade_date": 1539845539222
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01672938",
+        "amount": "59.77507833",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "8867525-a92ea25e-34bd-4e53-8e0e-3960c143c80b-080",
+        "trade_date": 1539844994101
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01689456",
+        "amount": "59.19065071",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "38179293-36c794ad-966a-4d2e-8dc8-89429088508d-080",
+        "trade_date": 1539844925495
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01690124",
+        "amount": "59.16725636",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "WFUBLNFN-940f5fce-0789-4ea3-b2eb-d3a37c31ba1e-080",
+        "trade_date": 1539844891951
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01667672",
+        "amount": "59.96382981",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "w00dg-709fea97-2b3e-4c21-bd83-5301ace83f2f-080",
+        "trade_date": 1539844847986
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01643267",
+        "amount": "60.85438337",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "zxqscm-1297f33e-23c9-4e4d-8298-67e0fdde6938-080",
+        "trade_date": 1539844811853
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01662791",
+        "amount": "60.13984920",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "vaXeP-2e3ee10c-1f36-4dae-897b-75364e783aa1-080",
+        "trade_date": 1539844805382
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01657125",
+        "amount": "60.34547786",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "hrwby-0398992d-40c1-4290-846e-48ae0351de2f-080",
+        "trade_date": 1539842788612
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01661980",
+        "amount": "60.16919577",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "HAGNQTE-6d4943aa-c8cc-451c-bd6f-b8408e168aad-080",
+        "trade_date": 1539842080525
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01657115",
+        "amount": "60.34584202",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "1228528-7ffda6f2-7344-4a8b-b85b-4104ea87af34-080",
+        "trade_date": 1539841872826
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01653031",
+        "amount": "60.49493324",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "uwtuaxw-3d6fb2e1-1fd1-4090-854a-ede9749c28fd-080",
+        "trade_date": 1539831563203
+    },
+    {
+        "market": "btc_usd",
+        "direction": "BUY",
+        "price": "6625.33000000",
+        "amount": "0.06250000",
+        "volume": "414.08310000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "39210338-e147d118-c6ac-4331-848c-3a0f35c1ecec-080",
+        "trade_date": 1539828830951
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01643887",
+        "amount": "60.83143184",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "sqzdrsvr-b5c25925-d9f3-44d5-9611-835066af86c6-080",
+        "trade_date": 1539828779258
+    },
+    {
+        "market": "btc_usd",
+        "direction": "BUY",
+        "price": "6605.03080000",
+        "amount": "0.06250000",
+        "volume": "412.81440000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "38415-d8815925-51be-4a78-a1a7-69fdbf382168-080",
+        "trade_date": 1539822703718
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01655575",
+        "amount": "21.92591697",
+        "volume": "0.36300000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "700202-54420c29-475c-423e-aecf-50fba50aba41-080",
+        "trade_date": 1539820722141
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01654964",
+        "amount": "60.42427508",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "XYKheALI-56413943-376b-49eb-98d1-5d6b6943317f-080",
+        "trade_date": 1539819962550
+    },
+    {
+        "market": "btc_gbp",
+        "direction": "BUY",
+        "price": "4958.69190000",
+        "amount": "0.01010000",
+        "volume": "50.08270000",
+        "payment_method": "FASTER_PAYMENTS",
+        "trade_id": "467555-dddc8622-350d-461d-b2ae-12e7bb547ee3-080",
+        "trade_date": 1539817269697
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5615.48000000",
+        "amount": "0.06240000",
+        "volume": "350.40590000",
+        "payment_method": "SEPA",
+        "trade_id": "3078034-9a49dd86-ef51-42ae-bf00-4a089d1be861-080",
+        "trade_date": 1539815154366
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01645591",
+        "amount": "60.76844124",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "kynagbq-3672d4db-3103-4f58-aaa0-23c3fc755ea1-080",
+        "trade_date": 1539810911731
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01654047",
+        "amount": "60.45777417",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "801958-92734e36-7e1e-41e8-bc32-4a1cfc4b68fd-080",
+        "trade_date": 1539810118399
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01641413",
+        "amount": "60.92311928",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "8579350-e5cc4c1a-811c-4a54-9ee6-6c449628745e-080",
+        "trade_date": 1539810028892
+    },
+    {
+        "market": "btc_eur",
+        "direction": "BUY",
+        "price": "5607.27000000",
+        "amount": "0.06250000",
+        "volume": "350.45430000",
+        "payment_method": "SEPA",
+        "trade_id": "DXCMI-917c67c4-e7f7-4fa4-9a45-0e9aa024c29a-080",
+        "trade_date": 1539809549060
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01641743",
+        "amount": "46.10953115",
+        "volume": "0.75700000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "82298264-e6942354-c2fb-406a-8fa9-b37be5f30a5c-080",
+        "trade_date": 1539808085500
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01641447",
+        "amount": "60.92185736",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "ohvgckkn-007390f3-1558-4d99-876e-12222866e3bb-080",
+        "trade_date": 1539807974920
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5604.44000000",
+        "amount": "0.06230000",
+        "volume": "349.15660000",
+        "payment_method": "SEPA",
+        "trade_id": "1y7v5arm-38ea4b89-c01b-4352-a7c1-973a0e40b440-080",
+        "trade_date": 1539806979949
+    },
+    {
+        "market": "btc_eur",
+        "direction": "BUY",
+        "price": "5557.28580000",
+        "amount": "0.06250000",
+        "volume": "347.33030000",
+        "payment_method": "SEPA",
+        "trade_id": "ugnzd-25fd2f57-4f9d-48df-86c8-c1548c433fb6-080",
+        "trade_date": 1539806328641
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01667163",
+        "amount": "59.98213731",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "03001187-692f68d7-2f9f-4ba0-a128-e9e044926c28-080",
+        "trade_date": 1539805751569
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01667675",
+        "amount": "59.96372194",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "2126215-6d155142-ebbb-4630-aca4-7ff966e69db9-080",
+        "trade_date": 1539805667079
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01647929",
+        "amount": "60.68222599",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "ZVIKY-3bd62010-58bf-448c-b142-6b1d82ef94e3-080",
+        "trade_date": 1539804475471
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01661352",
+        "amount": "58.38618185",
+        "volume": "0.97000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "35866498-f890f736-0a7f-49ce-b464-808c334fa0cd-080",
+        "trade_date": 1539803341328
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01676841",
+        "amount": "59.63594640",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "BAFlm-6360c45b-3d93-400f-9f62-e08bf4a25b4a-080",
+        "trade_date": 1539803044133
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01618000",
+        "amount": "0.08034610",
+        "volume": "0.00130000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "92wzl-b5e93edc-baaf-44bb-af35-74665763d5b3-080",
+        "trade_date": 1539802087731
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01652214",
+        "amount": "21.78894501",
+        "volume": "0.36000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "8750390-cf2ed5e4-022f-4180-83ee-e0b317efce1a-080",
+        "trade_date": 1539798954852
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01657001",
+        "amount": "60.34999375",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "26126315-f5306d0d-e540-4d4e-93bf-97344ddc40f6-080",
+        "trade_date": 1539798661384
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01657131",
+        "amount": "60.34525936",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "1068279-afccc4ea-8a20-4d57-afc9-c7b554c389ad-080",
+        "trade_date": 1539798606736
+    },
+    {
+        "market": "btc_eur",
+        "direction": "BUY",
+        "price": "5612.81000000",
+        "amount": "0.06250000",
+        "volume": "350.80060000",
+        "payment_method": "SEPA",
+        "trade_id": "07207428-40a4d99c-28a5-4ad1-854e-4be3c26eb107-080",
+        "trade_date": 1539798435567
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01655135",
+        "amount": "60.41803236",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "80838-bb340324-7e48-4347-8319-aa8cb8498c12-080",
+        "trade_date": 1539798282023
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01656317",
+        "amount": "60.37491615",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "bhdkwsho-adbed167-fe73-434c-b89e-5528fb843d72-080",
+        "trade_date": 1539798189853
+    },
+    {
+        "market": "btc_usd",
+        "direction": "BUY",
+        "price": "6149.06500000",
+        "amount": "0.06240000",
+        "volume": "383.70160000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "095A2SF-c443d158-c7f0-4d54-835d-ab6f089f49d4-080",
+        "trade_date": 1539797728567
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01641754",
+        "amount": "60.91046527",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "WLTXZSSJ-13bb5f65-55af-41f8-a5c1-46f77e0ff85a-080",
+        "trade_date": 1539796231557
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5609.16000000",
+        "amount": "0.05400000",
+        "volume": "302.89460000",
+        "payment_method": "REVOLUT",
+        "trade_id": "6TRf7w-3661e091-3e79-4343-ae16-8e54b72ed85b-080",
+        "trade_date": 1539796049586
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01639687",
+        "amount": "60.98724939",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "31948-0ba2da32-c87d-4439-8caa-2f485bd05318-080",
+        "trade_date": 1539794529595
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01641221",
+        "amount": "60.93024644",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "05424870-ef4ff977-39c8-4a9b-b09f-3b025a9548b9-080",
+        "trade_date": 1539791584964
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "SELL",
+        "price": "0.01669630",
+        "amount": "17.96805280",
+        "volume": "0.30000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "qecjcj-91bde2c9-fbaf-433d-98ec-814c89da6799-080",
+        "trade_date": 1539790621226
+    },
+    {
+        "market": "btc_eur",
+        "direction": "BUY",
+        "price": "5485.63820000",
+        "amount": "0.03970000",
+        "volume": "217.77980000",
+        "payment_method": "REVOLUT",
+        "trade_id": "53190-e9ea88cc-fc97-4fd5-8cdc-e37041ab1f1b-080",
+        "trade_date": 1539789845359
+    },
+    {
+        "market": "btc_eur",
+        "direction": "SELL",
+        "price": "5653.90930000",
+        "amount": "0.02010000",
+        "volume": "113.64350000",
+        "payment_method": "REVOLUT",
+        "trade_id": "75991358-583f3a26-8092-4c44-b015-2a112dda5e78-080",
+        "trade_date": 1539789516430
+    },
+    {
+        "market": "xmr_btc",
+        "direction": "BUY",
+        "price": "0.01640745",
+        "amount": "60.94792304",
+        "volume": "1.00000000",
+        "payment_method": "BLOCK_CHAINS",
+        "trade_id": "cqudj-3adf386a-ce36-45fb-800a-a98e691a3743-080",
+        "trade_date": 1539789132088
+    }
+]

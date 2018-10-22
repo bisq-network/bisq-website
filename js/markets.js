@@ -18,104 +18,241 @@ function getUrlParameter(sParam) {
 
 
 
-function buildTKR(pair){
-  var ticker = '';
-  if (pair == 'BTC'){
-    suffix = ' <span class="currencyPair">Volume</span>';
-  }else{
-    ticker = pair.replace("btc", '');
-    ticker = ticker.replace("_", '').toUpperCase();
+function buildTKR(pair, print){
+  if(pair !== undefined){
+    var ticker = '';
+    if (pair == 'btc'){
+      ticker = 'BTC';
+    }else{
+      ticker = pair.replace("btc", '');
+      ticker = ticker.replace("_", '').toUpperCase();
+    }
+    if(pair === 'btc' && print === false){return ''; }else{ return ticker; }
   }
-
-  return ticker;
-
 }
+
+
+
+
 
 
 function buildTitle(valueFinal, pair){
-  var suffix = '';
-  suffix = ' <span class="currency-pair">'+buildTKR(pair)+'</span>';
-
-
-  if(pair.startsWith("btc")){
-    valueFinal = valueFinal;
+  if(pair !== 'btc'){
+    var suffix = '';
+    suffix = ' <span class="currency-pair">'+buildTKR(pair)+'</span>';
+    if(pair.startsWith("btc")){
+      valueFinal = valueFinal;
+    }else{
+      valueFinal = 1 / valueFinal;
+    }
+    valueFinal = Math.round(valueFinal * 100) / 100;
+    return '<span class="btc-note">1 BTC</span>'+'<span class="price">'+valueFinal+'</span>'+suffix;
   }else{
-    valueFinal = 1 / valueFinal;
+    return '<span class="btc-note">Volume and</span>'+'<span class="price">Trades</span>';
   }
-
-  valueFinal = Math.round(valueFinal * 100) / 100;
-  return '<span class="btc-note">1 BTC</span>'+'<span class="price">'+valueFinal+'</span>'+suffix;
-
 }
+
+
 
 
 
 
 function getTrades(pair){
-  console.log(pair);
-  var jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair+'&format=jscallback'+'&callback=?';
-  console.log(jsonUrl);
-  $.get( jsonUrl, function( data ) {
-    console.log(data);
 
-    var items = [];
-    $.each( data, function( key, val ) {
-      items.push( "<li id='" + key + "'>" + val + "</li>" );
-    });
+        var actionTicker = ' '+buildTKR(pair);
+        var jsonUrl = '';
+        var tradeDate = '';
+        var dateFormat = "yyyy.mm.dd - HH:MM:ss";
 
-    $( "<ul/>", {  "class": "my-new-list",  html: items.join( "" ) }).appendTo( "body" );
-  });
+        if(pair === undefined || pair === 'all'){
 
+                      pair = 'all';
+                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=json'+'&callback=?';
+                      jsonUrl = 'http://localhost:4000/js/sample_data/trades_all.json';
+
+                      console.log(jsonUrl);
+
+                      $.get( jsonUrl, function( data ) {
+
+                        $('<tr>').append(
+                          $('<th>').text('Date'),
+                          $('<th>').text('Action'),
+                          $('<th>').text('Price'),
+                          $('<th>').text('Amount in BTC'),
+                          $('<th>').text('Amount')
+                        ).appendTo('#trade-history-header');
+
+                        $.each( data, function( key, val ) {
+
+                            /*
+                            amount: "0.03260000"
+                            direction: "SELL"
+                            market: "btc_usd"
+                            payment_method: "CLEAR_X_CHANGE"
+                            price: "7058.66910000"
+                            trade_date: 1539908123775
+                            trade_id: "FYFTP-ba7cb6c2-7a40-4b91-9a70-003ed8823585-080"
+                            volume: "230.11260000"
+                            */
+
+                            tradeDate = new Date(val.trade_date);
+
+                            $('<tr>').append(
+                                $('<td>').text(tradeDate.format(dateFormat)),
+                                $('<td>').text(val.direction + ' ' + buildTKR(val.market)),
+                                $('<td>').text(parseFloat(val.price)),
+                                $('<td>').text(parseFloat(val.amount)),
+                                $('<td>').text(parseFloat(val.volume) + ' ' + buildTKR(val.market))
+                            ).appendTo('#trade-history-body');
+
+                        });
+
+                      });
+
+
+        }else{
+
+
+                      jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair+'&format=json'+'&callback=?';
+                      jsonUrl = 'http://localhost:4000/js/sample_data/trades_'+pair+'.json';
+
+                      console.log(jsonUrl);
+
+
+                      $.get( jsonUrl, function( data ) {
+
+                        $('#offers').show();
+
+                        if(pair.startsWith("btc")){
+                          $('<tr>').append(
+                              $('<th>').text('Date'),
+                              $('<th>').text('Action'),
+                              $('<th>').text('Price ('+buildTKR(pair)+')'),
+                              $('<th>').text('Trade Size (BTC)'),
+                              $('<th>').text('Trade Size ('+buildTKR(pair)+')'),
+                            ).appendTo('#trade-history-header');
+
+                        }else{
+                          $('<tr>').append(
+                              $('<th>').text('Date'),
+                              $('<th>').text('Action'),
+                              $('<th>').text('Price (BTC)'),
+                              $('<th>').text('Trade Size ('+buildTKR(pair)+')'),
+                              $('<th>').text('Trade Size (BTC)')
+                          ).appendTo('#trade-history-header');
+                        }
+
+
+                        $.each( data, function( key, val ) {
+
+                            /*
+                            amount: "0.03260000"
+                            direction: "SELL"
+                            market: "btc_usd"
+                            payment_method: "CLEAR_X_CHANGE"
+                            price: "7058.66910000"
+                            trade_date: 1539908123775
+                            trade_id: "FYFTP-ba7cb6c2-7a40-4b91-9a70-003ed8823585-080"
+                            volume: "230.11260000"
+                            */
+
+                            tradeDate = new Date(val.trade_date);
+
+                            $('<tr>').append(
+                                $('<td>').text(tradeDate.format(dateFormat)),
+                                $('<td>').text(val.direction+actionTicker),
+                                $('<td>').text(parseFloat(val.price)),
+                                $('<td>').text(parseFloat(val.amount)),
+                                $('<td>').text(parseFloat(val.volume))
+                            ).appendTo('#trade-history-body');
+
+                        });
+
+                      });
+
+        }
 
 }
 
 
-$(document).ready(function() {
-
-       $(".chosen-select").chosen({
-         no_results_text: "Oops, nothing found!",
-         width: "100%"
-       });
-
-       var currency = getUrlParameter('currency');
-
-       if(currency !== undefined){
-         $('.chosen-select').val(currency).trigger("chosen:updated");
-       }
-
-       $('.chosen-select').change(function(){
-
-          var url = window.location.href.split('?')[0] + '?';
 
 
-          if($("#currency").val()!='Select')
-            url+='currency='+encodeURIComponent($("#currency").val())+'&';
 
-          url = url.replace(/\&$/,'');
-          console.log(url);
-          window.location.href=url;
 
-          //window.history.pushState("object or string", "Title", url);
-          //buildData($("#currency").val());
+
+
+
+
+
+function getOffers(pair){
+
+  if(pair == undefined || pair === 'all'){
+    pair = 'all';
+  }
+
+  var volTotal = 0;
+
+  var jsonUrl = 'https://markets.bisq.network/api/offers?market='+pair+'&format=jsonpretty';
+  jsonUrl = 'http://localhost:4000/js/sample_data/offers_'+pair+'.json';
+
+  console.log(jsonUrl);
+
+      $.get( jsonUrl, function( data ) {
+
+
+        if(pair.startsWith("btc")){
+          $('<tr>').append(
+              $('<th>').text('Price'),
+              $('<th>').text('BTC'),
+              $('<th>').text(buildTKR(pair)),
+              $('<th>').text('Sum ('+buildTKR(pair)+')'),
+            ).appendTo('#buy-offers-header');
+            $('<tr>').append(
+                $('<th>').text('Price'),
+                $('<th>').text('BTC'),
+                $('<th>').text(buildTKR(pair)),
+                $('<th>').text('Sum ('+buildTKR(pair)+')'),
+            ).appendTo('#sell-offers-header');
+        }else{
+            $('<tr>').append(
+              $('<th>').text('Price'),
+              $('<th>').text(buildTKR(pair)),
+              $('<th>').text('BTC'),
+              $('<th>').text('Sum (BTC)'),
+            ).appendTo('#buy-offers-header');
+            $('<tr>').append(
+              $('<th>').text('Price'),
+              $('<th>').text(buildTKR(pair)),
+              $('<th>').text('BTC'),
+              $('<th>').text('Sum (BTC)'),
+            ).appendTo('#sell-offers-header');
+        }
+
+
+        $.each( data[pair].buys, function( key, val ) {
+          volTotal = parseFloat(volTotal) + parseFloat(val.volume);
+          $('<tr>').append(
+              $('<td>').text(parseFloat(val.price)),
+              $('<td>').text(parseFloat(val.amount)),
+              $('<td>').text(parseFloat(val.volume)),
+              $('<td>').text(volTotal)
+          ).appendTo('#buy-offers-body');
 
         });
 
+        $.each( data[pair].sells, function( key, val ) {
+          volTotal = parseFloat(volTotal) + parseFloat(val.volume);
+          $('<tr>').append(
+              $('<td>').text(parseFloat(val.price)),
+              $('<td>').text(parseFloat(val.amount)),
+              $('<td>').text(parseFloat(val.volume)),
+              $('<td>').text(volTotal)
+            ).appendTo('#sell-offers-body');
+        });
 
+    });
 
-
-
-});
-
-
-
-//chart.series[0].setData([129.2, 144.0, 176.0, 135.6, 148.5, 216.4, 194.1, 95.6, 54.4, 29.9, 71.5, 106.4] );
-
-var pair = getUrlParameter('currency');
-buildData(pair);
-
-
-
-
+}
 
 
 
@@ -123,32 +260,34 @@ buildData(pair);
 function buildData(jsonUrl){
 
 
-    if(pair === undefined || pair === 'all'){
+    if(pair == undefined || pair === 'all'){
       //api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=
-      var jsonUrl = 'https://markets.bisq.network/api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback&fillgaps=&callback=?';
-      //pair = 'BTC';
+      pair = 'btc';
+
+      jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=hour";
+      console.log("chart volumes: " + pair);
+      getTrades('all');
+
     }else{
-      var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback';
+      var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback'+'&callback=?';
+      console.log("chart hloc: " + pair);
+      getTrades(pair);
+      getOffers(pair);
     }
+
+
+
 
     console.log(jsonUrl);
 
-    getTrades(pair);
 
+    $.getJSON(jsonUrl, function (data) {
 
-
-
-    //return 'api/hloc?market=btc_usd&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?';
-    //return 'api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?';
-
-    $.getJSON(jsonUrl+'&callback=?', function (data) {
-
-
-        console.log(data);
 
         // split the data set into ohlc and volume
         var
             //ohlc = [],
+            seriesTitle1 = 'Price',
             avg = [],
             volume = [],
             dataLength = data.length,
@@ -164,6 +303,8 @@ function buildData(jsonUrl){
             i = 0;
 
 
+
+
         for (i; i < dataLength; i += 1) {
             /*
             ohlc.push([
@@ -174,28 +315,38 @@ function buildData(jsonUrl){
                 data[i][4] // close
             ]);
             */
-            if(pair.startsWith("btc")){
-              avg.push([
-                  data[i][0]*1000, // the date
-                  data[i][7]  // the average
-              ]);
-            }else if (pair == 'all'){
-              avg.push([
-                  data[i][0]*1000, // the date
-                  (1 / data[i][0])  // the average
-              ]);
+
+            if(pair === 'btc'){
+
+                    avg.push([
+                        data[i][0], // the date
+                        data[i][2]  // the num of trades
+                    ]);
+
+                    volume.push([
+                        data[i][0], // the date
+                        data[i][1]  // the volume_right
+                    ]);
+
+                    seriesTitle1 = 'Num of trades';
+
             }else{
-              avg.push([
-                  data[i][0]*1000, // the date
-                  (1 / data[i][7])  // the average
-              ]);
-            }
-
-
-            volume.push([
-                data[i][0]*1000, // the date
-                data[i][6]  // the volume_right
-            ]);
+                    if(pair.startsWith("btc")){
+                      avg.push([
+                          data[i][0]*1000, // the date
+                          data[i][7]  // the average
+                      ]);
+                    }else{
+                      avg.push([
+                          data[i][0]*1000, // the date
+                          (1 / data[i][7])  // the average
+                      ]);
+                    }
+                    volume.push([
+                        data[i][0]*1000, // the date
+                        data[i][6]  // the volume_right
+                    ]);
+              }
         }
 
 
@@ -316,6 +467,14 @@ function buildData(jsonUrl){
                 enabled: false
             },
 
+            dataGrouping: {
+                enabled: true,
+                forced: true,
+                units: [
+                    ['month', [1, 3, 6]]
+                ]
+            },
+
             yAxis: [
                     {
                       labels: {
@@ -410,9 +569,9 @@ function buildData(jsonUrl){
               {
                   type: 'area',
                   type: 'line',
-                  name: 'Price',
+                  name: seriesTitle1,
                   tooltip: {
-                      valueSuffix: ' '+buildTKR(pair)
+                      valueSuffix: ' '+buildTKR(pair, false)
                   },
                   data: avg,
                   yAxis: 1,
@@ -431,10 +590,11 @@ function buildData(jsonUrl){
                   type: 'column',
                   name: 'Volume',
                   tooltip: {
-                      valueSuffix: ' '+buildTKR(pair)
+                      valueSuffix: ' ' + buildTKR(pair)
                   },
                   data: volume,
-                  color: '#dfdfdf',
+                  color: '#bbb',
+                  states: { hover: { color: '#aaa', duration: 0 } },
                   yAxis: 1,
                   zIndex: -10,
                   maxPointWidth: 200,
@@ -442,7 +602,10 @@ function buildData(jsonUrl){
                   groupPadding: 0,
                   borderWidth: 0,
                   shadow: false,
-                  borderColor: '#c5c5c5'
+                  borderColor: '#c5c5c5',
+                  dataGrouping: {
+                      groupAll: true
+                  }
 
               },
 
@@ -485,3 +648,32 @@ function buildData(jsonUrl){
     $('#container').append( "<p>Test</p>" );
 
 }
+
+
+
+
+
+var pair = getUrlParameter('currency');
+buildData(pair);
+
+
+$(document).ready(function() {
+       $(".chosen-select").chosen({
+         no_results_text: "Oops, nothing found!",
+         width: "100%"
+       });
+       var currency = getUrlParameter('currency');
+       if(currency !== undefined){
+         $('.chosen-select').val(currency).trigger("chosen:updated");
+       }
+       $('.chosen-select').change(function(){
+          var url = window.location.href.split('?')[0] + '?';
+          if($("#currency").val()!='Select')
+          url+='currency='+encodeURIComponent($("#currency").val())+'&';
+          url = url.replace(/\&$/,'');
+          console.log(url);
+          window.location.href=url;
+          //window.history.pushState("object or string", "Title", url);
+          //buildData($("#currency").val());
+        });
+});

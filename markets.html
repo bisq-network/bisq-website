@@ -6,16 +6,16 @@ title: Bisq Markets &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 <link href="{{ site.url }}/css/chosen.css" rel="stylesheet">
 
-
-
-<script src="https://code.highcharts.com/stock/highstock.js"></script>
-<script src="https://code.highcharts.com/stock/modules/drag-panes.js"></script>
-<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
-
+<script src="{{ site.url }}/js/highstock.js"></script>
+<script src="{{ site.url }}/js/drag-panes.js"></script>
+<script src="{{ site.url }}/js/exporting.js"></script>
 
 <script src="{{ site.url }}/js/chosen.jquery.min.js"></script>
 <script src="{{ site.url }}/js/date.format.js"></script>
 <script src="{{ site.url }}/js/markets.js"></script>
+
+
+
 <div class="mt-0 mb-2">
 
   <div class="mb-5 px-0 col-12 col-md-6">
@@ -29,14 +29,6 @@ title: Bisq Markets &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 
 </div>
-
-
-
-
-
-
-
-
 
 
 <div id="tables" class="pt-5 pb-5">
@@ -78,12 +70,7 @@ title: Bisq Markets &lsaquo; Bisq - The decentralized Bitcoin exchange
 </div>
 
 
-
-
-
 <style>
-
-
 
 td {
     padding: 0;
@@ -101,7 +88,6 @@ td {
   */
 }
 
-
 rect.highcharts-plot-background {
     fill: #fff;
 }
@@ -109,7 +95,6 @@ rect.highcharts-plot-background {
 .highcharts-title {
   z-index: 0;
 }
-
 
 .highcharts-tooltip {
   z-index: 9998!important;
@@ -122,8 +107,6 @@ rect.highcharts-plot-background {
   z-index: 9999!important;
   padding: 5px
 }
-
-
 
 .highcharts-title .price, .highcharts-title .currency-pair, .highcharts-title .btc-note{
     fill: #25B135;
@@ -148,11 +131,6 @@ rect.highcharts-plot-background {
   display: block;
 }
 
-
-.highcharts-range-selector-buttons .highcharts-button
-{}
-
-
 .highcharts-tooltip {
     -moz-box-shadow: 20px 20px 20px #888;
     -webkit-box-shadow: 20px 20px 20px #888;
@@ -165,11 +143,9 @@ rect.highcharts-plot-background {
     opacity: .5
 }
 
-.xaxis-background {position: absolute; bottom: 0; width: 100%; background: red}
-
-
-
-
+.xaxis-background {
+  position: absolute; bottom: 0; width: 100%; background: red
+}
 
 #tables tbody tr {
     border-bottom: #ececec 1px solid;
@@ -181,7 +157,6 @@ rect.highcharts-plot-background {
     font-weight: 200;
 }
 
-
 #tables tr:hover{
     background:#ecf9ed
 }
@@ -191,7 +166,9 @@ rect.highcharts-plot-background {
     padding: 10px 0;
 }
 
-#tables td:last-child, #tables th:last-child { text-align:right;}
+#tables td:last-child, #tables th:last-child {
+  text-align:right;
+}
 
 #tables th {
     font-weight: 400;
@@ -205,7 +182,6 @@ rect.highcharts-plot-background {
     box-shadow: none;
     width:100%;
 }
-
 
 
 </style>

@@ -523,6 +523,7 @@ footer, footer ul li {
 
 .accordion-toggle {
   cursor: pointer;
+  padding-right: 30%;
 }
 
 .accordion-toggle-active{
@@ -630,6 +631,11 @@ td {
 
 @media (max-width: 990px) {
 
+
+
+  .accordion-toggle {
+    padding-right: 0%;
+  }
 
   .downloads-desktop.os-selector-home {display: none}
   .downloads-mobile {display: block}

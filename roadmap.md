@@ -19,6 +19,10 @@ This Roadmap might change at any time, especially in response to [Community](/co
  
 ## Releases
 
+### Version 0.8.1
+Released [November 13th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.8.1)
+- Include up-to-date trade statistics and account age witness db in binary to speed up start-up
+
 ### Version 0.8
 Released [August 22nd 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.8.0)
 - Rounding of fiat values to improve privacy

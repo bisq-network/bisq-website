@@ -5,7 +5,6 @@ title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
 # Community
 {: .mb-5}
 
-<<<<<<< HEAD
 ### Join us in our community and help build the next generation of cryptocurrency exchanges. No middle man, decentralized organization model TK copy to inpire people to join and contribute.
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
@@ -40,9 +39,8 @@ title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
   <div class="mt-sm-0 mb-0 mt-md-3 mb-md-5 col-sm-12 col-md-8 pr-5">
     {% include positions.html %}
   </div>
-  
+
 </div>
-=======
  - [@bisq-network on GitHub](https://github.com/bisq-network)
  - [Bisq Slack workspace](https://bisq.network/slack-invite)
  - [Bisq Forum](https://bisq.community)
@@ -51,4 +49,3 @@ title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
  - [Bisq Contributor mailing list](https://lists.bisq.network/listinfo/bisq-contrib)
  - [#bisq on Freenode IRC](https://webchat.freenode.net/?channels=bisq)
  - [r/Bisq Subreddit](https://www.reddit.com/r/bisq)
->>>>>>> upstream/master

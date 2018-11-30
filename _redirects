@@ -46,7 +46,11 @@ https://bisq.io https://bisq.network 301
 /docs/dao/specification https://docs.bisq.network/dao/specification.html 302
 
 # We use the doc file until we have added it to the official docs page
+<<<<<<< HEAD
 /docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/doc/rpc.md 302
+=======
+/docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/docs/dao-setup.md 302
+>>>>>>> upstream/master
 
 /mobile-notifications https://docs.bisq.network/bisq-mobile.html#notifications 302
 

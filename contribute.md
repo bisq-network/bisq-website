@@ -37,8 +37,17 @@ Please check out our [forum](https://forum.bitsquare.io/t/bitsquare-bounties-rul
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Contribute via donation
 {: .mt-5 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
+=======
+<div style="float: right; text-align: center;">
+  <a href="https://blockchain.info/address/1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><img src="/images/donate-to-bitsquare.png" alt="Support Bisq by donating to our support fund at 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><br>
+    <small>1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7</small>
+  </a>
+</div>
+By donating bitcoin to our donation wallet you will be helping Bisq pay for our direct costs like web hosting, domain names, SSL certificates, a Vimeo account and so on. So if you support this project and are in a position to help us out then that would be wonderful.
+>>>>>>> upstream/master
 
 By donating bitcoin to our donation wallet you will be helping Bisq pay for our direct costs like web hosting, domain names, SSL certificates, a Vimeo account and so on. So if you support this project and are in a position to help us out then that would be wonderful.
 <br>
@@ -57,6 +66,10 @@ _**Note:** Donations to Bisq are not tax deductible as we are not formally regis
 <br>
 <br>
 
+<<<<<<< HEAD
+=======
+Please don't hesitate to [get in touch](https://bisq.network/community/) if you can think of other ways you can help with the Bisq project.
+>>>>>>> upstream/master
 
 Please don't hesitate to [get in touch](/contact/) if you can think of other ways you can help with the Bisq project.
 {: .mt-4 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}

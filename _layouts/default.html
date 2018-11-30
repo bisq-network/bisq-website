@@ -75,10 +75,51 @@
 
     {% endif %}
 
+<<<<<<< HEAD
 
   {% include footer.html %}
 
 
+=======
+    <div id="main" class="center">
+      {{ content }}
+    </div>
+
+    <footer class="center copy">
+
+      <nav class="nav-footer">
+        <ul id="menuUIfooter" class="menu">
+          <li class="tnskip" >&nbsp;</li><li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="/press/">Press</a></li>
+          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="https://markets.bisq.network">Markets</a></li>
+          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="/roadmap/">Roadmap</a></li>
+          <li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/contribute/">Contribute</a></li>
+          <li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="https://docs.bisq.network/dao/phase-zero.html">DAO</a></li>
+          <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
+        </ul>
+      </nav>
+
+      <br/>
+
+      <p>&copy; {{ site.time | date: '%Y' }} Bisq</p>
+
+    </footer>
+
+  </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-104074395-1', 'auto');
+  {% if page.url == '/404.html' %}
+  ga('send', 'pageview', '/404error/?url=' + document.location.pathname + document.location.search + '&ref=' + document.referrer );
+  {% else %}
+  ga('send', 'pageview');
+  {% endif %}
+</script>
+>>>>>>> upstream/master
 </body>
   
 

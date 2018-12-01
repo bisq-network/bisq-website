@@ -5,7 +5,7 @@ title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
 # Community
 {: .mb-5}
 
-### Join us in our community and help build the next generation of cryptocurrency exchanges. No middle man, decentralized organization model TK copy to inpire people to join and contribute.
+### Join our community and help build the next generation of cryptocurrency exchanges. 
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
 

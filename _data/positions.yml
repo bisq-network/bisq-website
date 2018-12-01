@@ -1,8 +1,6 @@
 - title: Java Developer
-  description: We’re looking for a versatile and passionate backend developer who will join our team of talented engineers.<br><br>You’ll design and operate the backend services that fuel our decentralised application, develop innovative services on top of Bitcoin nodes, and help continuously improve our engineering practices.
-
-- title: Bitcoin Developer
-  description: Bisq is looking for a passionate and experienced distributed systems engineer to join a team of experts to implement a new blockchain architecture for Bisq apps, decreasing transaction time and cost for the Bisq ecosystem, while enabling new functionality.<br><br>This role is ideal for engineers who are experts in peer-to-peer protocol development, familiar with the bitcoin blockchain, and keen to build a clean-slate system from the ground up.
+  description: We’re always looking for experienced Java developers to help to make Bisq even better.<br><br>
+  If you are familiar with Bitcoin, P2P networks, UI development, protocol design or cryptography we would love if you join our growing team of contributors.
 
 - title: Growth Hacker
-  description: Bisq is looking for a technical Growth Hacker to increase activation, retention, and engagement on Bisq.org and in the Bisq browser product.<br><br>You will be an integral part of our overall growth plans and will lead our strategic efforts to pioneer new and innovative ways to drive performance results.
+  description: Bisq is looking for communication talents helping to spread the word about Bisq.

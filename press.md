@@ -9,7 +9,6 @@ banner: /images/press.png
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
 [Reach out to the Bisq community][1]<br>
-[Download Press Kit][1]
 {: .mt-4}
 
 ## Upcoming events

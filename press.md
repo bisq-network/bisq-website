@@ -5,24 +5,12 @@ banner: /images/press.png
 ---
 # Press
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-### Writing a story about Bisq? Or looking for an interview? Please [contact][1] the Bisq team directly with a brief overview of your idea so we can put you in touch with the best person.
+### Writing a story about Bisq? Or looking for an interview? Please [contact][1] the Bisq community directly with a brief overview of your idea so we can put you in touch with the best person.
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
-[Contact Bisq team][1]<br>
+[Reach out to the Bisq community][1]<br>
 [Download Press Kit][1]
 {: .mt-4}
-=======
-Writing a story about Bisq? Or looking for an interview? Please contact the Bisq community directly with a brief overview of your idea so we can put you in touch with the best person:
-
-[» Bisq Community][1]
->>>>>>> upstream/master
-=======
-Writing a story about Bisq? Or looking for an interview? Please contact the Bisq community directly with a brief overview of your idea so we can put you in touch with the best person:
-
-[» Bisq Community][1]
->>>>>>> upstream/master
 
 ## Upcoming events
 {: .mt-5 .mb-sm-3 .mb-md-3 }

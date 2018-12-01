@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Philosophy &lsaquo; Bisq - The decentralized Bitcoin exchange
+title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 ---
 # Vision
 {: .mb-5}

@@ -5,11 +5,11 @@ title: Stats &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 # Stats
 
-### Lorem ipsum copy about data collection and methodology. Could show growth at a glance and incentivize more users to try it.
+### Data about the Bisq network
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0 .mb-5}
 
 
-for the month of September 2018
+September 2018
 {: .green .mb-5}
 
 # $2.1M

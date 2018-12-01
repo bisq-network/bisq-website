@@ -35,13 +35,14 @@ Please check out our [forum](https://forum.bitsquare.io/t/bitsquare-bounties-rul
 
 #### Contribute via donation
 {: .mt-5 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
-<div style="float: right; text-align: center;">
-  <a href="https://blockchain.info/address/1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><img src="/images/donate-to-bitsquare.png" alt="Support Bisq by donating to our support fund at 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><br>
-    <small>1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7</small>
-  </a>
-</div>
-By donating bitcoin to our donation wallet you will be helping Bisq pay for our direct costs like web hosting, domain names, SSL certificates, a Vimeo account and so on. So if you support this project and are in a position to help us out then that would be wonderful.
 
+By donating bitcoin to our donation wallet you will be helping Bisq pay for our [direct costs](/finances/) like web hosting, domain names, SSL certificates, a Vimeo account and so on. So if you support this project and are in a position to help us out then that would be wonderful.
+<br>
+<a href="https://blockchain.info/address/1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><img src="/images/donate-to-bitsquare.png" alt="Support Bisq by donating to our support fund at 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7">
+<br>
+<small>Bitcoin: 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7</small>
+</a>
+<br><br>
 _**Note:** Donations to Bisq are not tax deductible as we are not formally registered in the jurisdiction of any Government. We do not accept donations in Altcoins at this point in time. We would be really grateful if you converted them to Bitcoin and donated them that way though!_
 {: .mt-4 .pb-4 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
 

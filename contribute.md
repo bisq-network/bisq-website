@@ -35,12 +35,6 @@ Please check out our [forum](https://forum.bitsquare.io/t/bitsquare-bounties-rul
 
 #### Contribute via donation
 {: .mt-5 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
-<div style="float: right; text-align: center;">
-  <a href="https://blockchain.info/address/1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><img src="/images/donate-to-bitsquare.png" alt="Support Bisq by donating to our support fund at 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><br>
-    <small>1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7</small>
-  </a>
-</div>
-<br>
 <a href="https://blockchain.info/address/1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><img src="/images/donate-to-bitsquare.png" alt="Support Bisq by donating to our support fund at 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7">
 <br>
 <small>Bitcoin: 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7</small>

@@ -5,7 +5,7 @@ title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 # Vision
 {: .mb-5}
 
-### [Exchanges](https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges){:target="_blank"} play a critical role in the bitcoin ecosystem. Without them, it would be nearly impossible to buy or sell bitcoins for euros, dollars, yen or yuan. Bitcoin would be a market without liquidity; bitcoin would be worthless.
+### [Exchanges](https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges){:target="_blank"} play a critical role in the bitcoin ecosystem. Without them, it would be nearly impossible to buy or sell bitcoins for euros, dollars, yen or yuan. The Bitcoin market would have no liquidity, and bitcoin would be worthless.
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0 .mb-5}
 
 
@@ -16,7 +16,7 @@ title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 <p>There have been many discussions in the forums about how to build a pure P2P based solution but there is still no real decentralized bitcoin exchange available yet.</p>
 
-<p><br>
+<p>
 <strong>That’s where Bisq comes in.</strong></p>
 
 <p>We have developed a solution which is based on pure P2P infrastructure. While the transfer of national currency requires the involvement of traditional payment channels like banks or payment processors, we are not dependent on any particular one. Their role is limited to what it should be: They transfer national currency. No power of censoring, confiscating, monitoring or controlling your financial interaction.</p>
@@ -34,7 +34,7 @@ title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 <p>To keep reading about the Philosophy of Bisq, and how we solve the involved challenges to make it secure and easy to use please read our White Paper:</p>
 
 <p><br>
-<a href="https://docs.bisq.network/exchange/whitepaper.html" target="_blank">» Download the Bisq White Paper</a></p>
+<a href="https://docs.bisq.network/exchange/whitepaper.html" target="_blank">» Read the Bisq White Paper</a></p>
 
 </div>
 

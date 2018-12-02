@@ -11,6 +11,9 @@ The Bisq Roadmap is a living document that shares the Bisq Team's vision and our
 This Roadmap might change at any time, especially in response to [Community]({{ site.url }}/community/) feedback.
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
+You can help speed up our progress by [contributing](https://docs.bisq.network/contributor-checklist.html) to Bisq.
+{: .mt-5 .col-sm-12 .col-md-10 .pl-0}
+
 ## Planned milestones
 {: .mt-5 .pt-5}
 ##### Version 1.0
@@ -805,5 +808,3 @@ Released [December 11th 2014](https://github.com/bisq-network/bisq/releases/tag/
  - Fund management (withdrawal, Tx history)
  - P2P network works with port forwarding (automatic or manual)
  - Binaries for all OS
-
-You can help speed up our progress by [contributing](/contribute/) to Bisq.

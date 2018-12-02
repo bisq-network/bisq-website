@@ -18,22 +18,18 @@ There are multiple ways you can help support Bisq's development:
 
 If you're reading this then you have probably got skills that would really help Bisq build and grow. We are constantly looking for skilled volunteers who can help us with the development of Bisq and spread the word to the wider Bitcoin community.
 <br><br>
-**IMPORTANT!** We are currently seeking experienced Java developers. If you have experience with Java please join our [Slack channel](https://bisq.network/slack-invite) and let us know!
+**IMPORTANT!** We are always seeking experienced Java developers. If you have experience with Java please join our [Slack channel](https://bisq.network/slack-invite) and let us know!
 <br><br>
-In the meantime there are other ways you can help. Take a read of the list below:
-{: .mt-4 .pb-4 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
 
 
-#### Contribute to a bounty
+#### Work on a bounty
 {: .mt-5 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
 
-We have set up several bounties for development tasks. You can either support an existing bounty by donating to the bounty address or set up your own bounty for a feature you would love to see to get implemented in Bisq.
-<br><br>
-Please check out our [forum](https://forum.bitsquare.io/t/bitsquare-bounties-rule-set-and-overview/220) or [GitHub issue list](https://github.com/bisq-network/bisq/issues?q=is%3Aissue+is%3Aopen+bounty+label%3A%22%24BSQ+bounty%22) for more information.
+Please check out our bounty tasks at [GitHub](https://github.com/bisq-network/bisq/issues?q=is%3Aissue+is%3Aopen+bounty+label%3A%22%24BSQ+bounty%22) if one fits your skill set.
 {: .mt-4 .pb-4 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
 
 
-#### Contribute via donation
+#### Donate to Bisq
 {: .mt-5 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
 <a href="https://blockchain.info/address/1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><img src="/images/donate-to-bitsquare.png" alt="Support Bisq by donating to our support fund at 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7">
 <br>

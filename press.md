@@ -8,7 +8,7 @@ banner: /images/press.png
 ### Writing a story about Bisq? Or looking for an interview? Please [contact][1] the Bisq community directly with a brief overview of your idea so we can put you in touch with the best person.
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
-[Reach out to the Bisq community][1]<br>
+[» Reach out to the Bisq community][1]<br>
 {: .mt-4}
 
 ## Upcoming events

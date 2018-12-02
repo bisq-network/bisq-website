@@ -1,111 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 
+  <meta name="author" content="Bisq">
+
+  <meta name="description" content="{{ site.description }}">
+  <meta name="image" content="{{ site.url }}/images/bisq-og.jpg">
+  <meta itemprop="name" content="Bisq">
+  <meta itemprop="description" content="{{ site.description }}">
+  <meta itemprop="image" content="{{ site.url }}/images/bisq-og.jpg">
+  <meta name="og:title" content="{{ page.title }}">
+  <meta name="og:description" content="{{ site.description }}">
+  <meta name="og:image" content="{{ site.url }}/images/bisq-og.jpg">
+  <meta name="og:site_name" content="Bisq - The decentralized Bitcoin exchange">
+  <meta name="og:type" content="website">
+  <meta property="twitter:title" content="{{ page.title }}">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:site" content="Bisq - The decentralized Bitcoin exchange">
+  <meta name="twitter:creator" content="@bisq_network">
+  <link rel="canonical" href="{{ site.url }}">
+
+
+
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="{{ site.url }}/css/bootstrap.css" rel="stylesheet">
+  <link href="{{ site.url }}/css/styles.css" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/images/bisq-fav.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/images/bisq-fav.png">
+  <link rel="icon" type="image/x-icon" href="{{ site.url }}/favicon.ico" />
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#404040">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
   <title>{{ page.title }}</title>
 
-  <link rel="canonical" href="{{ site.url }}" />
-  <link rel="alternate" type="application/atom+xml" title="{{ site.title }} blog feed" href="{{ site.url }}/{{ site.feed.path }}" />
 
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
-  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"/>
+  <script src="{{ site.url }}/js/jquery-3.3.1.min.js"></script>
+  <script src="{{ site.url }}/js/popper.min.js"></script>
+  <script src="{{ site.url }}/js/bootstrap.min.js"></script>
+  <script src="{{ site.url }}/js/scripts.js"></script>
 
-  <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
-  <link rel='stylesheet' id='opensans-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C300%2C600%2C700&#038;ver=4.7.5' type='text/css' media='all'/>
 
-  <script type='text/javascript' src='/js/jquery.js?ver=1.12.4'></script>
-  <script type='text/javascript' src='/js/jquery-migrate.min.js?ver=1.4.1'></script>
-  <script type='text/javascript' src='/js/superfish.js?ver=4.7.5'></script>
-  <script type='text/javascript' src='/js/jquery.formalize.min.js?ver=4.7.5'></script>
-  <script type='text/javascript' src='/js/tinynav.js?ver=4.7.5'></script>
-  <script type='text/javascript' src='/js/pinzolo.js?ver=4.7.5'></script>
+
+
 </head>
+
 
 <body class="home page-template-default page page-id-6 custom-background">
 
-<div id="wrapper_border" class="center" style="margin-top: 50px;">
-  <div id="wrapper_bg" class="center">
-    <div id="navwrap">
-      <div id="navwrap2">
-        <nav>
-          <ul id="menuUl" class="menu">
-            <li class="tnskip">&nbsp;</li><li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-6 current_page_item menu-item-40"><a href="/">Home</a></li>
-            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="https://docs.bisq.network">Docs <sup>(NEW)</sup></a></li>
-            <li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="/philosophy/">Philosophy</a></li>
-            <li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="/community/">Community</a></li>
-            <li id="menu-item-468" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-468"><a href="/faq/">FAQ</a></li>
-            <li id="menu-item-597" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-597"><a href="/blog/">Blog</a></li>
-            <li id="menu-item-1271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1271"><a href="https://bisq.community/">Forum</a></li>
-            <li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="/downloads/">Downloads</a></li>
-            <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
 
-    {% if page.banner != null %}
-    <header>
-      <img class="size-full" src="{{ page.banner }}" alt=""/>
-    </header>
-    {% endif %}
+  {% include main_nav.html %}
 
     {% if page.url == '/' %}
-    <div id="homeboxes">
-      <div class="homebox"><a href="https://www.youtube.com/c/bisq-network">
-        <img src="/images/videos_button.png" alt="Videos"/></a>
+
+      <div class="outter">
+        {% include homepage_content.html %}
       </div>
-      <div class="homebox">
-        <a href="/downloads/"><img src="/images/download_button.png" alt="Download"/></a>
+
+    {% else %}
+
+      <div class="outter">
+        {{ content }}
       </div>
-      <div class="homebox"><a href="https://github.com/bisq-network/exchange">
-        <img src="/images/source_button.png" alt="Source"/></a>
-      </div>
-      <div class="homebox"><a href="https://docs.bisq.network">
-        <img src="/images/whitepaper_button.png" alt="Docs"/></a>
-      </div>
-    </div>
+
     {% endif %}
 
-    <div id="main" class="center">
-      {{ content }}
-    </div>
 
-    <footer class="center copy">
+  {% include footer.html %}
 
-      <nav class="nav-footer">
-        <ul id="menuUIfooter" class="menu">
-          <li class="tnskip" >&nbsp;</li><li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42"><a href="/press/">Press</a></li>
-          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="https://markets.bisq.network">Markets</a></li>
-          <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="/roadmap/">Roadmap</a></li>
-          <li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1601"><a href="/contribute/">Contribute</a></li>
-          <li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="https://docs.bisq.network/dao/phase-zero.html">DAO</a></li>
-          <li class="tnskip">&nbsp;</li><li class="tnskip filler"></li>
-        </ul>
-      </nav>
 
-      <br/>
-
-      <p>&copy; {{ site.time | date: '%Y' }} Bisq</p>
-
-    </footer>
-
-  </div>
-</div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-104074395-1', 'auto');
-  {% if page.url == '/404.html' %}
-  ga('send', 'pageview', '/404error/?url=' + document.location.pathname + document.location.search + '&ref=' + document.referrer );
-  {% else %}
-  ga('send', 'pageview');
-  {% endif %}
-</script>
 </body>
+
+
 </html>

@@ -31,7 +31,7 @@ Please check out our bounty tasks at [GitHub](https://github.com/bisq-network/bi
 
 #### Donate to Bisq
 {: .mt-5 .col-sm-12 .col-md-8 .pl-0 .pl-md-5}
-<a href="https://blockchain.info/address/1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><img src="/images/donate-to-bitsquare.png" alt="Support Bisq by donating to our support fund at 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7">
+<a href="https://blockchain.info/address/1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7"><img src="{{ site.url }}/images/donate-to-bitsquare.png" alt="Support Bisq by donating to our support fund at 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7">
 <br>
 <small>Bitcoin: 1BVxNn3T12veSK6DgqwU4Hdn7QHcDDRag7</small>
 </a>

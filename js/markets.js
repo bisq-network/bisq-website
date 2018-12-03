@@ -114,7 +114,7 @@ function getTrades(pair){
                               $('<th>').text('Action'),
                               $('<th>').text('Price ('+buildTKR(pair)+')'),
                               $('<th>').text('Trade Size (BTC)'),
-                              $('<th>').text('Trade Size ('+buildTKR(pair)+')')
+                              $('<th>').text('Trade Size ('+buildTKR(pair)+')'),
                             ).appendTo('#trade-history-header');
 
                         }else{
@@ -190,26 +190,26 @@ function getOffers(pair){
               $('<th>').text('Price'),
               $('<th>').text('BTC'),
               $('<th>').text(buildTKR(pair)),
-              $('<th>').text('Sum ('+buildTKR(pair)+')')
+              $('<th>').text('Sum ('+buildTKR(pair)+')'),
             ).appendTo('#buy-offers-header');
             $('<tr>').append(
                 $('<th>').text('Price'),
                 $('<th>').text('BTC'),
                 $('<th>').text(buildTKR(pair)),
-                $('<th>').text('Sum ('+buildTKR(pair)+')')
+                $('<th>').text('Sum ('+buildTKR(pair)+')'),
             ).appendTo('#sell-offers-header');
         }else{
             $('<tr>').append(
               $('<th>').text('Price'),
               $('<th>').text(buildTKR(pair)),
               $('<th>').text('BTC'),
-              $('<th>').text('Sum (BTC)')
+              $('<th>').text('Sum (BTC)'),
             ).appendTo('#buy-offers-header');
             $('<tr>').append(
               $('<th>').text('Price'),
               $('<th>').text(buildTKR(pair)),
               $('<th>').text('BTC'),
-              $('<th>').text('Sum (BTC)')
+              $('<th>').text('Sum (BTC)'),
             ).appendTo('#sell-offers-header');
         }
 

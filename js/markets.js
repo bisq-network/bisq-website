@@ -53,7 +53,7 @@ function getTrades(pair){
 
                       pair = 'all';
                       jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=json';
-                      // jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
+                      //jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
 
                       console.log(jsonUrl);
 
@@ -177,7 +177,7 @@ function getOffers(pair){
 
   var volTotal = 0;
 
-  var jsonUrl = 'https://markets.bisq.network/api/offers?market='+pair+'&format=jsonpretty';
+  var jsonUrl = 'https://markets.bisq.network/api/offers?market='+pair+'&format=json';
   //jsonUrl = baseUrl+'/js/sample_data/offers_'+pair+'.json';
 
   console.log(jsonUrl);
@@ -254,7 +254,8 @@ function buildData(jsonUrl){
       getTrades('all');
 
     }else{
-      var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=json';
+      // https://markets.bisq.network/api/hloc?market=btc_usd&timestamp=no&interval=minute&timestamp_from=&timestamp_to=&format=json
+      var jsonUrl = 'https://markets.bisq.network/api/hloc?market='+pair+'&timestamp=no&interval=minute&timestamp_from=&timestamp_to=&format=json';
       console.log("chart hloc: " + pair);
       getTrades(pair);
       getOffers(pair);

@@ -52,12 +52,13 @@ function getTrades(pair){
         if(pair === undefined || pair === 'all'){
 
                       pair = 'all';
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=json';
+                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=jsonpretty';
                       //jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
 
                       console.log(jsonUrl);
 
                       $.get( jsonUrl, function( data ) {
+
 
                         $('<tr>').append(
                           $('<th>').text('Date'),
@@ -67,8 +68,7 @@ function getTrades(pair){
                           $('<th>').text('Amount')
                         ).appendTo('#trade-history-header');
 
-                        data = JSON.parse(data);
-                        $.each( data, function( key, val ) {
+                        $.each( JSON.parse(data), function( key, val ) {
 
                             /*
                             amount: "0.03260000"
@@ -99,13 +99,14 @@ function getTrades(pair){
         }else{
 
 
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair+'&format=json';
+                      jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair;
                       //jsonUrl = baseUrl+'/js/sample_data/trades_'+pair+'.json';
 
                       console.log(jsonUrl);
 
 
                       $.get( jsonUrl, function( data ) {
+
 
                         $('#offers').show();
 
@@ -128,9 +129,8 @@ function getTrades(pair){
                           ).appendTo('#trade-history-header');
                         }
 
-                        data = JSON.parse(data);
-                        $.each( data, function( key, val ) {
 
+                        $.each( JSON.parse(data) , function( key, val ) {
                             /*
                             amount: "0.03260000"
                             direction: "SELL"
@@ -178,12 +178,12 @@ function getOffers(pair){
 
   var volTotal = 0;
 
-  var jsonUrl = 'https://markets.bisq.network/api/offers?market='+pair+'&format=json';
+  var jsonUrl = 'https://markets.bisq.network/api/offers?market='+pair+'&format=jsonpretty';
   //jsonUrl = baseUrl+'/js/sample_data/offers_'+pair+'.json';
 
   console.log(jsonUrl);
 
-      $.get( jsonUrl, function( data ) {
+      $.getJSON( jsonUrl, function( data ) {
 
 
         if(pair.startsWith("btc")){
@@ -214,7 +214,7 @@ function getOffers(pair){
             ).appendTo('#sell-offers-header');
         }
 
-        data = JSON.parse(data);
+
         $.each( data[pair].buys, function( key, val ) {
           volTotal = parseFloat(volTotal) + parseFloat(val.volume);
           $('<tr>').append(
@@ -235,9 +235,9 @@ function getOffers(pair){
               $('<td>').text(volTotal)
             ).appendTo('#sell-offers-body');
         });
-        
+
         $('#offers').show();
-        
+
     });
 
 }
@@ -252,15 +252,12 @@ function buildData(jsonUrl){
       //api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=
       pair = 'btc';
 
-      jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&interval=day";
-      // jsonUrl = baseUrl+'/js/sample_data/volumes_'+pair+'.json';
+      jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=day";
       console.log("chart volumes: " + pair);
       getTrades('all');
 
     }else{
-      // https://markets.bisq.network/api/hloc?market=btc_usd&timestamp=no&interval=minute&timestamp_from=&timestamp_to=&format=json
-      var jsonUrl = 'https://markets.bisq.network/api/hloc?market='+pair+'&timestamp=no&interval=minute&timestamp_from=&timestamp_to=&format=jscallback';
-      // jsonUrl = baseUrl+'/js/sample_data/hloc_'+pair+'.json';
+      var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback'+'&callback=?';
       console.log("chart hloc: " + pair);
       getTrades(pair);
       getOffers(pair);

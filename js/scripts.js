@@ -14,16 +14,14 @@ $(document).ready(function() {
     case "MacOS":
       $('.dl-mac').addClass('selected');
       $('.id-mac').removeClass('hidden').addClass('shown');
+      $('.id-all').removeClass('shown').addClass('hidden');
       break;
     case "Windows":
-      // if 64-bit
       if (navigator.userAgent.indexOf("WOW64") != -1 || navigator.userAgent.indexOf("Win64") != -1) {
         $('.dl-win64').addClass('selected');
         $('.id-win64').removeClass('hidden').addClass('shown');
-      } else {
-        $('.dl-win32').addClass('selected');
-        $('.id-win32').removeClass('hidden').addClass('shown');
       }
+      $('.id-all').removeClass('shown').addClass('hidden');
       break;
     case "Linux":
       var is64 = navigator.userAgent.indexOf("x86_64") != -1;
@@ -36,9 +34,7 @@ $(document).ready(function() {
         $(is64 ? '.dl-rpm64' : '.dl-rpm32').addClass('selected');
         $(is64 ? '.id-rpm64' : '.id-rpm32').removeClass('hidden').addClass('shown');
       }
-      break;
-    default:
-      $('.id-all').removeClass('hidden').addClass('shown');
+      $('.id-all').removeClass('shown').addClass('hidden');
       break;
   }
 
@@ -56,10 +52,10 @@ $(document).ready(function() {
 
 
 
-  console.log(OSName);
+  //console.log(OSName);
 
   // add virtual pageview and event tracking for download attempts
-  $('.dl-win32, .dl-win64, .dl-mac, .dl-deb32, .dl-deb64').click(function() {
+  $('.dl-win64, .dl-mac, .dl-deb32, .dl-deb64').click(function() {
     ga('send', 'pageview', location.pathname + 'release');
     ga('send', 'event', 'Release Build', 'download', $(this).attr('class').split('-').pop());
   });

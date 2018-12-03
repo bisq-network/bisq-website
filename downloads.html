@@ -20,20 +20,20 @@ version: 0.9.0
     <tr class="border-bottom">
       <td>Windows</td>
       <td>
-        <a class="dl-win32" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.exe">32 Bit</a> |
-        <a class="dl-win64" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">64 Bit</a>
+        <a class="dl-win32" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.exe">32 Bit</a> |
+        <a class="dl-win64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">64 Bit</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>Mac</td>
-      <td><a class="dl-mac" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
+      <td><a class="dl-mac" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>Debian/Ubuntu</td>
       <td>
-        <a class="dl-deb32" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.deb">32 Bit</a> |
-        <a class="dl-deb64" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">64 Bit</a>
+        <a class="dl-deb32" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.deb">32 Bit</a> |
+        <a class="dl-deb64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">64 Bit</a>
       </td>
     </tr>
     <tr class="border-bottom">
@@ -42,17 +42,17 @@ version: 0.9.0
     </tr>
     <tr class="border-bottom">
       <td>Source Code</td>
-      <td><a href="https://github.com/bisq-network/exchange/archive/v{{ site.client_version }}.zip">zip</a> |
-        <a href="https://github.com/bisq-network/exchange/archive/v{{ site.client_version }}.tar.gz">tar.gz</a></td>
+      <td><a href="https://github.com/bisq-network/bisq/archive/v{{ site.client_version }}.zip">zip</a> |
+        <a href="https://github.com/bisq-network/bisq/archive/v{{ site.client_version }}.tar.gz">tar.gz</a></td>
     </tr>
     <tr class="border-bottom">
       <td>Release Notes</td>
-      <td><a href="https://github.com/bisq-network/exchange/releases/tag/v{{ site.client_version }}">Release Notes for v{{ site.client_version }}</a></td>
+      <td><a href="https://github.com/bisq-network/bisq/releases/tag/v{{ site.client_version }}">Release Notes for v{{ site.client_version }}</a></td>
     </tr>
     <tr class="border-bottom">
       <td>Verification</td>
-      <td><a href="https://github.com/bisq-network/exchange/releases/tag/v{{ site.client_version }}">PGP signatures</a> |
-        <a href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/29CDFD3B.asc">PGP Public Key</a></td>
+      <td><a href="https://github.com/bisq-network/bisq/releases/tag/v{{ site.client_version }}">PGP signatures</a> |
+        <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/29CDFD3B.asc">PGP Public Key</a></td>
     </tr>
   </table>
 
@@ -67,15 +67,17 @@ version: 0.9.0
 
 <div class="mt-5">
   <h5>Bisq Mobile Notifications</h5>
-   <p>Stay up to date about your trades and receive notification to your mobile phone.</p>
+   <p>Stay up-to-date on your trades and receive notifications on your mobile phone.</p>
 
         <a target="_blank" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img mb-2" alt="Get it on Google Play" src="{{ site.url }}/images/badge_google_play.svg"/></a>
       &nbsp;
         <a target="_blank" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img mb-2" alt="Get it on the App Store" src="{{ site.url }}/images/badge_app_store.svg"/></a>
-        <p class="small mt-2">Bisq version <strong>{{ site.client_version }}</strong> or higher is required to receive mobile notifications.</p>
+        <p class="small mt-2">Bisq version <strong>0.8.0</strong> or higher is required to receive mobile notifications.</p>
 
   </table>
 </div>
 
 
+{% comment %}
 {% include resources.html %}
+{% endcomment %}

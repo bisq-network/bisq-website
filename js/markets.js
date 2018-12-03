@@ -52,12 +52,13 @@ function getTrades(pair){
         if(pair === undefined || pair === 'all'){
 
                       pair = 'all';
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=json'+'&callback=?';
-                      jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
+                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=jsonpretty';
+                      //jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
 
                       console.log(jsonUrl);
 
                       $.get( jsonUrl, function( data ) {
+
 
                         $('<tr>').append(
                           $('<th>').text('Date'),
@@ -67,7 +68,7 @@ function getTrades(pair){
                           $('<th>').text('Amount')
                         ).appendTo('#trade-history-header');
 
-                        $.each( data, function( key, val ) {
+                        $.each( JSON.parse(data), function( key, val ) {
 
                             /*
                             amount: "0.03260000"
@@ -98,13 +99,14 @@ function getTrades(pair){
         }else{
 
 
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair+'&format=json'+'&callback=?';
-                      jsonUrl = baseUrl+'/js/sample_data/trades_'+pair+'.json';
+                      jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair;
+                      //jsonUrl = baseUrl+'/js/sample_data/trades_'+pair+'.json';
 
                       console.log(jsonUrl);
 
 
                       $.get( jsonUrl, function( data ) {
+
 
                         $('#offers').show();
 
@@ -128,8 +130,7 @@ function getTrades(pair){
                         }
 
 
-                        $.each( data, function( key, val ) {
-
+                        $.each( JSON.parse(data) , function( key, val ) {
                             /*
                             amount: "0.03260000"
                             direction: "SELL"
@@ -178,11 +179,11 @@ function getOffers(pair){
   var volTotal = 0;
 
   var jsonUrl = 'https://markets.bisq.network/api/offers?market='+pair+'&format=jsonpretty';
-  jsonUrl = baseUrl+'/js/sample_data/offers_'+pair+'.json';
+  //jsonUrl = baseUrl+'/js/sample_data/offers_'+pair+'.json';
 
   console.log(jsonUrl);
 
-      $.get( jsonUrl, function( data ) {
+      $.getJSON( jsonUrl, function( data ) {
 
 
         if(pair.startsWith("btc")){
@@ -234,6 +235,8 @@ function getOffers(pair){
               $('<td>').text(volTotal)
             ).appendTo('#sell-offers-body');
         });
+
+        $('#offers').show();
 
     });
 

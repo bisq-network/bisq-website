@@ -27,6 +27,7 @@ https://bisq.io https://bisq.network 301
 /contributor-checklist https://docs.bisq.network/contributor-checklist.html 302
 /get-started https://docs.bisq.network/getting-started.html 302
 /getting-started https://docs.bisq.network/getting-started.html 302
+/contribute https://docs.bisq.network/contributor-checklist.html 301
 
 /arbitration_system.pdf /docs/exchange/arbitration-system 301
 /docs/arbitration-system.pdf /docs/exchange/arbitration-system 301
@@ -70,6 +71,6 @@ https://bisq.io https://bisq.network 301
 
 /volume https://docs.google.com/spreadsheets/d/1M8y2cIlHv5Hx5UAt4WZ961Ac8xaNSLiiavjxabNf0qc/edit#gid=1242111088 302
 
-/release-stats http://www.somsubhra.com/github-release-stats/?username=bisq-network&repository=bisq-desktop 302
+/release-stats http://www.somsubhra.com/github-release-stats/?username=bisq-network&repository=bisq 302
 
 /survey http://survey.io/survey/ddfaa 302

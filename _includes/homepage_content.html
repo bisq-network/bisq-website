@@ -19,17 +19,6 @@
 
                         <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button">
 
-                          <div class="id-win32 hidden">
-                            <div class="float-left">
-                                    <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
-                                    <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
-                                    Download for Windows
-                            </div>
-                            <div class="float-right">
-                              <a href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.exe">32bits</a>
-                            </div>
-                          </div>
-
                           <div class="id-win64 hidden">
                             <div class="float-left">
                                     <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
@@ -37,7 +26,7 @@
                                     Download for Windows
                             </div>
                             <div class="float-right">
-                              <a href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">64bits</a>
+                              <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">64bits</a>
                             </div>
                           </div>
 
@@ -48,7 +37,7 @@
                                     Download for Mac
                             </div>
                             <div class="float-right">
-                              <a href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
+                              <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
                             </div>
                           </div>
 
@@ -61,7 +50,7 @@
                                     Download for Debian/Ubuntu
                             </div>
                             <div class="float-right">
-                              <a class="dl-deb32" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">32 Bit</a>
+                              <a class="dl-deb32" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.9.0');">32 Bit</a>
                             </div>
                           </div>
 
@@ -73,7 +62,7 @@
                                     Download for Debian/Ubuntu
                             </div>
                             <div class="float-right">
-                              <a class="dl-deb64" href="https://github.com/bisq-network/exchange/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.6.7');">64 Bit</a>
+                              <a class="dl-deb64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.9.0');">64 Bit</a>
                             </div>
                           </div>
 
@@ -153,10 +142,9 @@
 
 
 
-                      <a href="https://docs.bisq.network/" target="_blank" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Whitepaper');">
-                                <img src="{{ site.url }}/images/icon-whitepaper-g.svg" class="os-icon os-icon-g">
-                                <img src="{{ site.url }}/images/icon-whitepaper-w.svg" class="os-icon os-icon-w">
-                                Whitepaper
+                      <a href="https://docs.bisq.network/getting-started.html" target="_blank" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Whitepaper');">
+
+                                Get Started »
                       </a>
 
                       {% comment %}
@@ -179,13 +167,13 @@
 
 
                     <p class="text-muted mb-0 mt-1 small" style="opacity: 0.5">
-                      v{{ site.client_version }} — <span class="id-win32 hidden">You appear to be running Windows 32 bit.</span>
-                                                   <span class="id-win64 hidden">You appear to be running Windows 64 bit.</span>
+                      v{{ site.client_version }} — <span class="id-win64 hidden">You appear to be running Windows 64 bit.</span>
                                                    <span class="id-mac hidden">You appear to be using a Mac.</span>
                                                    <span class="id-deb32 hidden">You appear to be using Debian/Ubuntu 32 bit.</span>
                                                    <span class="id-deb64 hidden">You appear to be using Debian/Ubuntu 64 bit.</span>
                                                    <span class="id-rpm32 hidden">You appear to be using Redhat/Fedora/CentOS 32 bit.</span>
                                                    <span class="id-rpm64 hidden">You appear to be using Redhat/Fedora/CentOS 64 bit.</span>
+                                                   <span class="id-all">Current Version</span> <!-- fallback text if no desktop os recognized -->
                     </p>
 
 
@@ -244,7 +232,7 @@
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-open.svg" />
           <h4>Open</h4>
-          <p class="grey px-md-5">Every aspect of the project is transparent. The code is <a href="https://github.com/bisq-network/exchange" target="_blank">open source</a>.</p>
+          <p class="grey px-md-5">Every aspect of the project is transparent. The code is <a href="https://github.com/bisq-network/bisq" target="_blank">open source</a>.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-easy.svg" />
@@ -279,7 +267,7 @@
     <div class="col-12 col-md-4">
 
       <div class="grey">
-        Bisq is unique in that it enables you to start trading in less than 10 minutes
+        With Bisq, you can start trading in less than 10 minutes:
       </div>
       <ol>
         <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="{{ site.url }}/downloads/">Download the app</a>, or build it from source.</li>
@@ -307,7 +295,7 @@
     <div class="row">
 
       <div class="col-12 col-md-6 grey bigger">
-        <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="{{ site.url }}/community/">community</a>. If you’re interested in helping make Bisq a reality, there are many ways to <a href="/contribute/">contribute</a>.
+        <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="{{ site.url }}/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank">contribute</a>.
           We’d love to <a href="{{ site.url }}/community/">hear from you</a>!</p>
         <p>Our <a href="{{ site.url }}/roadmap/">roadmap</a> provides an overview of high-level features and milestones on the way to Bisq v1.0.</p>
       </div>

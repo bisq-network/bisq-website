@@ -266,13 +266,8 @@ hr {
   -webkit-transition: .2s;
 }
 
-.dropdown-item.btn-icon a.selected,
-.all-downloads a.selected {
-  background-color: #25B135;
-  border-radius: 30px;
-  padding: 3px 15px 3px 12px;
-  color: #fff;
-}
+
+
 
 #app-download img {
   max-width: 100%;
@@ -347,7 +342,6 @@ footer, footer ul li {
 
 
 .os-selector-home .btn-icon a {
-  color: #555;
   text-decoration: none;
   -o-transition: .2s;
   -ms-transition: .2s;
@@ -359,10 +353,24 @@ footer, footer ul li {
     cursor: default;
 }
 
-.dropdown-item.btn-icon:hover a, .selected-os-download:hover .float-right a {
+.dropdown-item.btn-icon:hover a:hover, .selected-os-download:hover .float-right a:hover {
   color: #25B135;
   text-decoration: none;
   border-bottom: #25B135 1px solid;
+}
+
+.dropdown-item.btn-icon a.selected,
+.all-downloads a.selected {
+  background-color: #666;
+  border-radius: 30px;
+  padding: 3px 15px 3px 12px;
+  color: #fff;
+}
+
+.dropdown-item.btn-icon a.selected:hover,
+.all-downloads a.selected:hover {
+  background-color: #25B135;
+  color: #fff;
 }
 
 .dropdown-item-main {
@@ -374,6 +382,12 @@ footer, footer ul li {
   color: #25B135;
   text-decoration: none;
   background-color: #f5f5f5;
+}
+
+
+.dropdown-item:hover a,
+.dropdown-item:focus a {
+  text-decoration: none;
 }
 
 
@@ -621,12 +635,12 @@ td {
 
 .downloads-desktop.os-selector-home {
   display: inline-flex;
-  min-width: 470px
+  min-width: 470px;
 }
 
 
 .downloads-mobile {
-  display: none
+  display: none;
 }
 
 @media (max-width: 990px) {
@@ -637,7 +651,7 @@ td {
     padding-right: 0%;
   }
 
-  .downloads-desktop.os-selector-home {display: none}
+  .downloads-desktop, .downloads-desktop.os-selector-home {display: none}
   .downloads-mobile {display: block}
 
   .outter {
@@ -717,6 +731,31 @@ td {
   }
 
 }
+
+/*****************
+blog
+*****************/
+
+.post.type-post .post-meta {
+    margin-bottom: 30px;
+}
+
+.post.type-post .post-meta span {
+    font-weight: 500;
+}
+
+ol li::before {
+    font-size: 1rem;
+    margin: 0 0.75rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+ol li {
+    margin: 1rem 0;
+}
+
+/****************/
 
 @media (max-width: 1100px) {
   .navbar-expand-lg .navbar-nav .nav-link {

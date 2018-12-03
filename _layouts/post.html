@@ -6,10 +6,9 @@ layout: page
     <div class="dets_wrap">
       <div class="dets">
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-        <ul>
-          <li>{{ page.author }}</li>
-          <li>{{ page.date | date: "%-d %B %Y"}}</li>
-        </ul>
+        <p class='post-meta'>
+          Posted by <span>{{ page.author }}</span> on <span>{{ page.date | date: "%-d %B %Y"}}</span>
+        </p>
       </div>
     </div>
     <div class="content_wrap">
@@ -23,5 +22,5 @@ layout: page
   <br>
   <br>
   <br>
-  <a href="{{ site.url }}/blog">Back to Blog</a>
+  <a href="{{ site.url }}/blog">« Back to Blog</a>
 </div>

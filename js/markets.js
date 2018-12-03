@@ -235,7 +235,9 @@ function getOffers(pair){
               $('<td>').text(volTotal)
             ).appendTo('#sell-offers-body');
         });
-
+        
+        $('#offers').show();
+        
     });
 
 }

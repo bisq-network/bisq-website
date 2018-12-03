@@ -268,11 +268,18 @@ hr {
 
 .dropdown-item.btn-icon a.selected,
 .all-downloads a.selected {
-  background-color: #25B135;
+  background-color: #666;
   border-radius: 30px;
   padding: 3px 15px 3px 12px;
   color: #fff;
 }
+
+.dropdown-item.btn-icon a.selected:hover,
+.all-downloads a.selected:hover {
+  background-color: #25B135;
+  color: #fff;
+}
+
 
 #app-download img {
   max-width: 100%;

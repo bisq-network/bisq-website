@@ -52,8 +52,8 @@ function getTrades(pair){
         if(pair === undefined || pair === 'all'){
 
                       pair = 'all';
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=json';
-                      //jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
+                     // jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=json';
+                      jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
 
                       console.log(jsonUrl);
 

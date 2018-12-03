@@ -266,19 +266,7 @@ hr {
   -webkit-transition: .2s;
 }
 
-.dropdown-item.btn-icon a.selected,
-.all-downloads a.selected {
-  background-color: #666;
-  border-radius: 30px;
-  padding: 3px 15px 3px 12px;
-  color: #fff;
-}
 
-.dropdown-item.btn-icon a.selected:hover,
-.all-downloads a.selected:hover {
-  background-color: #25B135;
-  color: #fff;
-}
 
 
 #app-download img {
@@ -354,7 +342,6 @@ footer, footer ul li {
 
 
 .os-selector-home .btn-icon a {
-  color: #555;
   text-decoration: none;
   -o-transition: .2s;
   -ms-transition: .2s;
@@ -370,6 +357,20 @@ footer, footer ul li {
   color: #25B135;
   text-decoration: none;
   border-bottom: #25B135 1px solid;
+}
+
+.dropdown-item.btn-icon a.selected,
+.all-downloads a.selected {
+  background-color: #666;
+  border-radius: 30px;
+  padding: 3px 15px 3px 12px;
+  color: #fff;
+}
+
+.dropdown-item.btn-icon a.selected:hover,
+.all-downloads a.selected:hover {
+  background-color: #25B135;
+  color: #fff;
 }
 
 .dropdown-item-main {

@@ -21,26 +21,24 @@ $(document).ready(function() {
       if (navigator.userAgent.indexOf("WOW64") != -1 || navigator.userAgent.indexOf("Win64") != -1) {
         $('.dl-win64').addClass('selected');
         $('.id-win64').removeClass('hidden').addClass('shown');
-        $('.id-all').removeClass('shown').addClass('hidden');
       } else {
         $('.dl-win32').addClass('selected');
         $('.id-win32').removeClass('hidden').addClass('shown');
-        $('.id-all').removeClass('shown').addClass('hidden');
       }
+      $('.id-all').removeClass('shown').addClass('hidden');
       break;
     case "Linux":
       var is64 = navigator.userAgent.indexOf("x86_64") != -1;
       if (navigator.userAgent.indexOf("Ubuntu") != -1 || navigator.userAgent.indexOf("Debian") != -1) {
         $(is64 ? '.dl-deb64' : '.dl-deb32').addClass('selected');
         $(is64 ? '.id-deb64' : '.id-deb32').removeClass('hidden').addClass('shown');
-        $('.id-all').removeClass('shown').addClass('hidden');
       } else if (navigator.userAgent.indexOf("Redhat") != -1 ||
         navigator.userAgent.indexOf("CentOS") != -1 ||
         navigator.userAgent.indexOf("Fedora") != -1) {
         $(is64 ? '.dl-rpm64' : '.dl-rpm32').addClass('selected');
         $(is64 ? '.id-rpm64' : '.id-rpm32').removeClass('hidden').addClass('shown');
-        $('.id-all').removeClass('shown').addClass('hidden');
       }
+      $('.id-all').removeClass('shown').addClass('hidden');
       break;
   }
 

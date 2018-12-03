@@ -1,5 +1,5 @@
 title: Bisq
-url: "https://bisq.network/"
+url: "https://bisq.network"
 markdown: kramdown
 permalink: /blog/:title/
 livereload: true

@@ -52,7 +52,7 @@ function getTrades(pair){
         if(pair === undefined || pair === 'all'){
 
                       pair = 'all';
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=json'+'&callback=?';
+                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=json';
                       // jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
 
                       console.log(jsonUrl);
@@ -98,7 +98,7 @@ function getTrades(pair){
         }else{
 
 
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair+'&format=json'+'&callback=?';
+                      jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair+'&format=json';
                       //jsonUrl = baseUrl+'/js/sample_data/trades_'+pair+'.json';
 
                       console.log(jsonUrl);

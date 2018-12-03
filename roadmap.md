@@ -6,20 +6,20 @@ banner: /images/roadmap1.png
 # Roadmap
 
 The Bisq Roadmap is a living document that shares the Bisq Team's vision and our current development priorities. This Roadmap is intended to provide an idea of when certain features are likely to become available.
-{: .mt-5 .col-sm-12 .col-md-10 .pl-0}
+{: .mt-4 .col-sm-12 .col-md-10 .pl-0}
 
 This Roadmap might change at any time, especially in response to [Community]({{ site.url }}/community/) feedback.
-{: .mt-5 .col-sm-12 .col-md-10 .pl-0}
+{: .mt-4 .col-sm-12 .col-md-10 .pl-0}
 
 You can help speed up our progress by [contributing](https://docs.bisq.network/contributor-checklist.html) to Bisq.
-{: .mt-5 .col-sm-12 .col-md-10 .pl-0}
+{: .mt-4 .col-sm-12 .col-md-10 .pl-0}
 
 ## Planned milestones
 {: .mt-5 .pt-5}
 ##### Version 1.1
 {: .mt-5 .mb-2}
  - New trade protocol
- 
+
 ##### Version 1.0
  {: .mt-5 .mb-2}
   - Bisq DAO
@@ -62,7 +62,7 @@ Released [December 3rd 2018](https://github.com/bisq-network/bisq/releases/tag/v
 ###### UI
 - Redesign: Bisq in a fresh new green look including lots of minor UI improvements and bug fixes
 - Improved text in various places (by @arunasurya)
-- New locales (Thai and Vietnamese) by @initCCG  
+- New locales (Thai and Vietnamese) by @initCCG
 - [Avoid standby mode](https://github.com/bisq-network/bisq/pull/1712)
 - [Optimize initial data load](https://github.com/bisq-network/bisq/pull/1905)
 - [Increase display time of notifications](https://github.com/bisq-network/bisq/pull/1711)
@@ -84,7 +84,7 @@ Released [December 3rd 2018](https://github.com/bisq-network/bisq/releases/tag/v
 - [Add Java 10 support](https://github.com/bisq-network/bisq/pull/1660)
 
 ###### Assets
-- Add 25 new assets: 
+- Add 25 new assets:
 Actinium (ACM), Bitcoin 2 (BTC2), Bitcoin Rhodium (XRC), Blur (BLUR), Chaucha (CHA), Croat (CROAT), Dragonglass (DRGL), EtherStone (ETHS), GreenBlockCoin (GBK), Kekcoin (KEK), Loki (LOKI), Mask (MASK), MoX (MOX), MobitGlobal (MBGL), MonetaryUnit (MUE), Neos (NEOS), PZDC (PZDC), QMCoin (QMCoin), Quantum Resistant Ledger (QRL), Radium (RADS), Ryo (RYO), SUB1X (SUB1X), Starwels (MAI), TurtleCoin (TRTL), Zero (ZER)
 - Remove not traded assets.
 

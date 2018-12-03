@@ -6,25 +6,97 @@ banner: /images/roadmap1.png
 # Roadmap
 
 The Bisq Roadmap is a living document that shares the Bisq Team's vision and our current development priorities. This Roadmap is intended to provide an idea of when certain features are likely to become available.
+{: .mt-4 .col-sm-12 .col-md-10 .pl-0}
 
-This Roadmap might change at any time, especially in response to [Community](/community/) feedback.
+This Roadmap might change at any time, especially in response to [Community]({{ site.url }}/community/) feedback.
+{: .mt-4 .col-sm-12 .col-md-10 .pl-0}
+
+You can help speed up our progress by [contributing](https://docs.bisq.network/contributor-checklist.html) to Bisq.
+{: .mt-4 .col-sm-12 .col-md-10 .pl-0}
 
 ## Planned milestones
+{: .mt-5 .pt-5}
+##### Version 1.1
+{: .mt-5 .mb-2}
+ - New trade protocol
 
-### Version 1.0
- - Bisq DAO
+##### Version 1.0
+ {: .mt-5 .mb-2}
+  - Bisq DAO
 
-### Version 0.9
- - Redesign
- 
 ## Releases
+{: .mt-5 .pt-5}
 
-### Version 0.8.1
-Released [November 13th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.8.1)
+
+##### Version 0.9.0
+{: .mt-5 .mb-2}
+Released [December 3rd 2018](https://github.com/bisq-network/bisq/releases/tag/v0.9.0)
+
+###### Bisq DAO (on Testnet)
+- BSQ wallet (Send/Receive BSQ)
+- Governance (Make and vote on proposals, create compensation requests, change DAO parameters, issue BSQ)
+- Bonding (Create bonded roles/bonded reputation)
+- Pay asset listing fee with BSQ
+- Proof of burn with BSQ
+- Pay trading fees with BSQ
+
+###### Trading
+- [Warn users when closing the app with open offers](https://github.com/bisq-network/bisq/pull/1716)
+- [Wait for offer availability check before allowing funding of wallet](https://github.com/bisq-network/bisq/pull/1775)
+- [Add buyers payment account name to trade screen (if multiple payment accounts of the same type exist)](https://github.com/bisq-network/bisq/pull/1735)
+- [Fix last request timestamp in price feed service](https://github.com/bisq-network/bisq/pull/1730)
+- [Fix transaction broadcaster issue](https://github.com/bisq-network/bisq/pull/1763)
+
+###### Payment methods
+- [Add Monero address validation](https://github.com/bisq-network/bisq/pull/1683)
+- [Improve Monero trade info popup](https://github.com/bisq-network/bisq/pull/1720/files)
+- [Update instructions for Monero transaction proof](https://github.com/bisq-network/bisq/pull/1902)
+- [Add Citibank to Zelle](https://github.com/bisq-network/bisq/pull/1688)
+- [Add info for Faster Payment that the receivers name is not required](https://github.com/bisq-network/bisq/pull/1694)
+- [Add Contact info for F2F](https://github.com/bisq-network/bisq/pull/1713)
+- [Add warning popup for Cash Deposit](https://github.com/bisq-network/bisq/pull/1822)
+- [Add PromptPay (Thailand)](https://github.com/bisq-network/bisq/pull/1831)
+- [Add Interac E-transfer question/answer validation](https://github.com/bisq-network/bisq/pull/1845)
+- [Remove account age from limitations of altcoin accounts](https://github.com/bisq-network/bisq/pull/1747)
+
+###### UI
+- Redesign: Bisq in a fresh new green look including lots of minor UI improvements and bug fixes
+- Improved text in various places (by @arunasurya)
+- New locales (Thai and Vietnamese) by @initCCG
+- [Avoid standby mode](https://github.com/bisq-network/bisq/pull/1712)
+- [Optimize initial data load](https://github.com/bisq-network/bisq/pull/1905)
+- [Increase display time of notifications](https://github.com/bisq-network/bisq/pull/1711)
+- [Convert long dash to short dash for minus values](https://github.com/bisq-network/bisq/pull/1936)
+- [Add blockstream.info as default explorer](https://github.com/bisq-network/bisq/pull/1919)
+- [Limit initial window size on application launch](https://github.com/bisq-network/bisq/pull/1945)
+- [Save "Show all" state in currency selector (Trade Charts) ](https://github.com/bisq-network/bisq/pull/1727)
+- [Add arrow key support for preferences currency selection](https://github.com/bisq-network/bisq/pull/1774)
+- [Add arrow key support for arbitrator language selection](https://github.com/bisq-network/bisq/pull/1774)
+- [Fix truncation issue when using display scaling levels](https://github.com/bisq-network/bisq/pull/1767)
+- [Fix issues with wrong base currency](https://github.com/bisq-network/bisq/pull/1913)
+
+###### Privacy/Security
+- [Make torrc "editable" via system properties](https://github.com/bisq-network/bisq/pull/1893)
+- [Use tor binaries from TorBrowser 8.0.3](https://github.com/bisq-network/bisq/pull/1928)
+
+###### Development
+- [Move all repositories into one mono repository](https://github.com/bisq-network/bisq/pull/1650)
+- [Add Java 10 support](https://github.com/bisq-network/bisq/pull/1660)
+
+###### Assets
+- Add 25 new assets:
+Actinium (ACM), Bitcoin 2 (BTC2), Bitcoin Rhodium (XRC), Blur (BLUR), Chaucha (CHA), Croat (CROAT), Dragonglass (DRGL), EtherStone (ETHS), GreenBlockCoin (GBK), Kekcoin (KEK), Loki (LOKI), Mask (MASK), MoX (MOX), MobitGlobal (MBGL), MonetaryUnit (MUE), Neos (NEOS), PZDC (PZDC), QMCoin (QMCoin), Quantum Resistant Ledger (QRL), Radium (RADS), Ryo (RYO), SUB1X (SUB1X), Starwels (MAI), TurtleCoin (TRTL), Zero (ZER)
+- Remove not traded assets.
+
+
+##### Version 0.8.1
+{: .mt-5 .mb-2}
+Released [November 13th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.8.1)
 - Include up-to-date trade statistics and account age witness db in binary to speed up start-up
 
-### Version 0.8
-Released [August 22nd 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.8.0)
+##### Version 0.8
+{: .mt-5 .mb-2}
+Released [August 22nd 2018](https://github.com/bisq-network/bisq/releases/tag/v0.8.0)
 - Rounding of fiat values to improve privacy
 - Add mobile notifications
 - Fix transaction broadcast issue
@@ -36,8 +108,9 @@ Released [August 22nd 2018](https://github.com/bisq-network/bisq-desktop/release
 - Added DAO code
 - Refactoring of generics
 
-### Version 0.7.1
-Released [July 4th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.7.1)
+##### Version 0.7.1
+{: .mt-5 .mb-2}
+Released [July 4th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.7.1)
 - Ack messages for all trade, offer- and dispute messages
 - Show popup if local Bitcoin core is running
 - Lower minimum withdrawal fee to 1 satoshi per byte
@@ -49,21 +122,22 @@ Released [July 4th 2018](https://github.com/bisq-network/bisq-desktop/releases/t
 - Don’t treat RBF transactions as risky
 - Ignore “Alert key compromised” message from old nodes in Bitcoinj
 - Add new payment method: MoneyGram
-- Add 28 new assets: 01coin, Aquachain, BitCloud, Bitcoin Core, Bitcoin Instant, Credits, Cryptonodes, CryptoTari, DACash, Diamon, DRIP, FuturoCoin, Graft, LikeCoin, Lobstex, MaxCoin, MegaCoin, MicroCoin, Motion, Myriadcoin, Nano, NewPowerCoin, Nimiq, Pix, PixelPropertyToken, PRiVCY, Triton, Wavi 
-- Fix bug in edit offer screen 
+- Add 28 new assets: 01coin, Aquachain, BitCloud, Bitcoin Core, Bitcoin Instant, Credits, Cryptonodes, CryptoTari, DACash, Diamon, DRIP, FuturoCoin, Graft, LikeCoin, Lobstex, MaxCoin, MegaCoin, MicroCoin, Motion, Myriadcoin, Nano, NewPowerCoin, Nimiq, Pix, PixelPropertyToken, PRiVCY, Triton, Wavi
+- Fix bug in edit offer screen
 - Fix bug with Sepa offers and Sepa instant taker
 - Fix reuse of change addresses
 - Fix wrong duration translation in double digit numbers
 - Fix wrong singular word translation in double digit numbers
 - Fix sorting of currencies in market/trades
 
-### Version 0.7
-Released [May 11th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.7.0)
+##### Version 0.7
+{: .mt-5 .mb-2}
+Released [May 11th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.7.0)
 - Add feature for editing offers
 - Add new payment method: WeChat Pay
 - Add additional nationalAccountId field to enable national bank transfers in Argentina
 - Show Bank ID (BIC/SWIFT) for cash deposit in offer detaisl window and show popup when taking the offer to make sure the taker has a local bank branch in his area
-- Do not allow Sepa account for Revolut SEPA BICs (many banks did nto accept that BIC) 
+- Do not allow Sepa account for Revolut SEPA BICs (many banks did nto accept that BIC)
 - Add new altcoins: Pied Piper Coin, 10grans, Angelcoin, Arto, BitZeny, Bitcore, DSTRA, Dinero, Exceed, GeoCoin, Instacash, Koto, Kumacoin, LitecoinExtreme, MFCoin, Madbyte, Mazacoin, NEETCOIN, Phore, Qwark, ROIcoin, Ringo, Semux, Strayacoin, Tamadcoin, Ubiq, WorldMobileCoin, Xuez
 - Improve UI at create offer screen
 - Improve UI at offerbook screen
@@ -78,19 +152,21 @@ Released [May 11th 2018](https://github.com/bisq-network/bisq-desktop/releases/t
 - Make arbitration chat messages selectable
 - Fix bug with sorting in spread view
 - Migrate build from Maven to Gradle
-- Break up project in several sub projects 
+- Break up project in several sub projects
 - Extract asset (altcoins) handling to own project
 
-### Version 0.6.7
-Released [February 26th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.7)
-- Fix bug: Cannot select US national bank transfer in Create offer #1404 
+##### Version 0.6.7
+{: .mt-5 .mb-2}
+Released [February 26th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.6.7)
+- Fix bug: Cannot select US national bank transfer in Create offer #1404
 - Fix bug: Cannot remove deactivated offer #1403
 
 
-### Version 0.6.6
-Released [February 23th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.6)
-- Reduce min. trade fee from 0.0002 BTC to 0.00005 BTC 
-- Add option to set an open offer inactive 
+##### Version 0.6.6
+{: .mt-5 .mb-2}
+Released [February 23th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.6.6)
+- Reduce min. trade fee from 0.0002 BTC to 0.00005 BTC
+- Add option to set an open offer inactive
 - Add new payment methods: Venmo, Cash App (Square), Popmoney, Revolut, Uphold, MoneyBeam (N26)
 - Re-enable national bank transfer (ACH, WIRE) for US
 - Add TD Bank as Zelle memberbank
@@ -102,18 +178,20 @@ Released [February 23th 2018](https://github.com/bisq-network/bisq-desktop/relea
 - Fix bug with currency selection in create offer screen when a multi-currency account is used
 
 
-### Version 0.6.5
-Released [January 31th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.5)
+##### Version 0.6.5
+{: .mt-5 .mb-2}
+Released [January 31th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.6.5)
 - Start counting remaining trade period after first blockchain confirmation
-- Fix missing balance in UI after wallet restore from seed words 
+- Fix missing balance in UI after wallet restore from seed words
 - Change recovery handling if price provider node connection fails
 - Add button to Tor settings popup for deleting outdated Tor files in case of connection problems
 - Fix issue with not being able to delete spv chain file on Windows
 - Change failing provider node and bitcoin node with new onion addresses
 
 
-### Version 0.6.4
-Released [January 21th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.4)
+##### Version 0.6.4
+{: .mt-5 .mb-2}
+Released [January 21th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.6.4)
 - Only allow transaction broadcast if blockchain download is completed and connection to min required bitcoin nodes is done.
 - If connected to localhost Bitcoin node and connection get lost prevent that Bisq connects to public network.
 - Show info in footer and splash screen if localhost Bitcoin node is available
@@ -122,8 +200,9 @@ Released [January 21th 2018](https://github.com/bisq-network/bisq-desktop/releas
 - Add new altcoins: Creativecoin, Infinity Economics
 - Add onion address to Bitcoin node btc.jochen-hoenicke.de
 
-### Version 0.6.3
-Released [January 11th 2018](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.3)
+##### Version 0.6.3
+{: .mt-5 .mb-2}
+Released [January 11th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.6.3)
 - Add timeout handler for tx broadcaster
 - Change broadcast policy parameters: Min required connections: 4; broadcast to all connected nodes; wait to hear back from 2 nodes to complete broadcast call (or timeout triggers complete handler).
 - Revert change in 0.6.2 for disconnecting from seed node after reaching 6 connections
@@ -139,8 +218,9 @@ Released [January 11th 2018](https://github.com/bisq-network/bisq-desktop/releas
 - Improve seed node monitor
 - Use different popup for Zcoin with instruction to only use transparent addresses
 
-### Version 0.6.2
-Released [December 20th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.2)
+##### Version 0.6.2
+{: .mt-5 .mb-2}
+Released [December 20th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.6.2)
 - Improve withdrawal screen: Choose sending or receiving amount. Choose all available inputs or manual input selection.
 - Add "Update later" button to download update window. Make version label clickable and show if new version is available.
 - Only use hidden service btc nodes if Tor is enabled for BitcoinJ and provided nodes are used.
@@ -169,8 +249,9 @@ Released [December 20th 2017](https://github.com/bisq-network/bisq-desktop/relea
 - Use currency name instead of code for compareTo
 - Update docs
 
-### Version 0.6.1
-Released [November 26th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.1)
+##### Version 0.6.1
+{: .mt-5 .mb-2}
+Released [November 26th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.6.1)
 - Add SEPA Instant Payments as new payment method
 - Add Madcoin, Bitcoin Cash, Bitcoin Clashic, Bitcoin Gold
 - UI Improvements
@@ -180,11 +261,12 @@ Released [November 26th 2017](https://github.com/bisq-network/bisq-desktop/relea
 - Fix layout bug
 - Improve logging
 
-### Version 0.6.0
-Released [November 16th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.6.0)
-- Add support for Tor bridges and pluggable transports (https://github.com/bisq-network/bisq-desktop/issues/998)
-- Provide Bitcoin full nodes from Bisq developers (https://github.com/bisq-network/roles/issues/39) to protect against BitcoinJ vulnerabilities (BitcoinJ is blindly following longest PoW chain and not checking consensus rule violations). That also avoids the privacy issues with bloom filters. (https://github.com/bisq-network/bisq-desktop/issues/999)
-- Add account age verification scheme (https://github.com/bisq-network/proposals/blob/master/payment-account-age-witness.adoc, https://github.com/bisq-network/bisq-desktop/issues/1000)
+##### Version 0.6.0
+{: .mt-5 .mb-2}
+Released [November 16th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.6.0)
+- Add support for Tor bridges and pluggable transports (https://github.com/bisq-network/bisq/issues/998)
+- Provide Bitcoin full nodes from Bisq developers (https://github.com/bisq-network/roles/issues/39) to protect against BitcoinJ vulnerabilities (BitcoinJ is blindly following longest PoW chain and not checking consensus rule violations). That also avoids the privacy issues with bloom filters. (https://github.com/bisq-network/bisq/issues/999)
+- Add account age verification scheme (https://github.com/bisq-network/proposals/blob/master/payment-account-age-witness.adoc, https://github.com/bisq-network/bisq/issues/1000)
 - Reduce DEFAULT_TAKER_FEE_IN_BASE_CUR from 0.003 BTC to 0.002 BTC (that is the base for a 1 BTC trade)
 - Lower miner fees by fee estimation adjustments (using maxDelay 20 instead of 10 and taking average of 12 last fee results)
 - Lower miner fee by transaction size calculation. Instead of using 600 bytes as estimation of trade fee tx we create a dummy tx to get the exact size id funds are on the wallet, otherwise we use 260 bytes for maker and 320 bytes for taker (deposit and payout tx are larger).
@@ -216,12 +298,14 @@ Released [November 16th 2017](https://github.com/bisq-network/bisq-desktop/relea
 - Use netlayer Tor library (https://github.com/JesusMcCloud/netlayer/)
 - Improved build system
 
-### Version 0.5.3
-Released [July 17th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.5.3)
+##### Version 0.5.3
+{: .mt-5 .mb-2}
+Released [July 17th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.5.3)
  - The change of the application name from "bisq" to "Bisq" caused a change of the application directory as well. That caused on Linux that users wallet and data have been in the "bisq" and the app creates a new "Bisq" folder. To fix that we rename the application directory from "bisq" to "Bisq" if "Bisq" did not exist. If both already existed (if user has run 0.5.2.) we rename "Bisq" to "Bisq_backup" and "bisq" to "Bisq" assuming that the app dir with the current wallet and data was"bisq" from version 0.5.1. If case the user used the wallet and data now in "Bisq_backup" he has to move the folders content manually to the "Bisq" folder.
 
-### Version 0.5.2
-Released [July 17th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.5.2)
+##### Version 0.5.2
+{: .mt-5 .mb-2}
+Released [July 17th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.5.2)
  - Remove requirement for exchanging the email address and to do an ID check with the trading peer when using payment methods with bank transfer
  - Add in-app downloader for installer of a new release with integrated signature check
  - Increase trade limits to 2 BTC for OK_PAY and Altcoins
@@ -234,8 +318,9 @@ Released [July 17th 2017](https://github.com/bisq-network/bisq-desktop/releases/
  - Only request restart at base currency selection if it has changed from default.
  - Remove popup at startup for selecting base currency
 
-### Version 0.5.1
-Released [July 1st 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.5.1)
+##### Version 0.5.1
+{: .mt-5 .mb-2}
+Released [July 1st 2017](https://github.com/bisq-network/bisq/releases/tag/v0.5.1)
  - Add callback for tradeFee tx once seen in the network to avoid errors at take offer.
  - Separate resource files for PersistedEntryMap by base currency (separate trade statistics)
  - Move base currency/network selection from network settings to preferences
@@ -245,8 +330,9 @@ Released [July 1st 2017](https://github.com/bisq-network/bisq-desktop/releases/t
  - Fix issue with German as default language if OS is Windows/German
  - Add warning for CXC regrading daily or monthly transfer limits
 
-### Version 0.5.0
-Released [June 28th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.5.0)
+##### Version 0.5.0
+{: .mt-5 .mb-2}
+Released [June 28th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.5.0)
  - Support multiple base currencies. Beside BTC the user can choose to use LTC or DOGE as base market. More will come in future releases.
  - Use fee estimation service form https://bitcoinfees.21.co to use dynamic mining fees.
  - Use dynamic trading fees. Trading fees are based on trade amount and distance to market price.
@@ -294,18 +380,21 @@ Not implemented yet in the UI, so mediator is at the moment identical with arbit
  - Don't provide market price for Venezuelan currency (VEF) as official exchange rate is not reflecting reality
  - Add -BjvmOptions=-Xss1280k for Linux builds to avoid SegFault problem with latest Ubuntu update
 
-### Version 0.4.9.9.3
-Released [May 18th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.9.3)
+##### Version 0.4.9.9.3
+{: .mt-5 .mb-2}
+Released [May 18th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.9.3)
  - Adopt trading fee value to match new tx fee
 
-### Version 0.4.9.9.2
-Released [May 18th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.9.2)
+##### Version 0.4.9.9.2
+{: .mt-5 .mb-2}
+Released [May 18th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.9.2)
  - Increase tx fee for trades to 0.0015 BTC
  - Increase default tx fee for non-trade txs to 0.0015 BTC
  - Add Janus and OctoCoin
 
-### Version 0.4.9.9.1
-Released [March 22th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.9.1)
+##### Version 0.4.9.9.1
+{: .mt-5 .mb-2}
+Released [March 22th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.9.1)
  - Fix protobuffer serialization issue with transaction version used in transaction hash at Bitcoin Core 14, causing UnreadableWalletException. For more details see: https://groups.google.com/forum/#!topic/bitcoinj/mhV9BvoSYMo
  - Add info popups for requirements for ClearXchange
  - Add scroll pane support to all screens.
@@ -317,8 +406,9 @@ Released [March 22th 2017](https://github.com/bisq-network/bisq-desktop/releases
  - Update MIN_NONDUST_OUTPUT from 546 to 2730 satoshis
  - Fix missing persistence calls when internal wallet structure has changed, possibly causing bugs with
 
-### Version 0.4.9.9
-Released [February 11th 2017](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.9)
+##### Version 0.4.9.9
+{: .mt-5 .mb-2}
+Released [February 11th 2017](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.9)
  - Changed trade transaction fee from 0.0002 BTC to 0.0005 BTC
  - Change protocol version for offers to support higher transaction fee
  - Change Create-Offer-Fee from 0.0005 BTC to 0.0008 BTC (includes the 0.0005 tx fee, so the net fee to the arbitrator is same as before -> 0.0003 BTC)
@@ -346,8 +436,9 @@ Released [February 11th 2017](https://github.com/bisq-network/bisq-desktop/relea
  - Update to JDK 8u121
  - Enable again the Apple developer certificate for code signing on OSX
 
-### Version 0.4.9.8
-Released [November 19th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.8)
+##### Version 0.4.9.8
+{: .mt-5 .mb-2}
+Released [November 19th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.8)
  - Added Crown, Pascal Coin, Smileycoin, RealEst. Coin
  - Now all traffic is going over Tor (price requests from Poloniex could not be routed over Tor because they use Cloudflare)
  - Added request to CoinMarketCap to get more prices for altcoins not listed at Poloniex
@@ -365,8 +456,9 @@ Released [November 19th 2016](https://github.com/bisq-network/bisq-desktop/relea
  - Fix critical bug with BitcoinJ Bloomfilter handling
  - Ignore TTL for persisted data objects (trade statistics) in local data map
 
-### Version 0.4.9.7
-Released [October 20th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.7)
+##### Version 0.4.9.7
+{: .mt-5 .mb-2}
+Released [October 20th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.7)
  - Added new payment methods: Chase QuickPay, Interac e-Transfer
  - Increase trade limits for Altcoins to 3 BTC, OKPay, Swish and AliPay to 2 BTC, ClearXChange, Cash deposit and US postal money order to 1 BTC
  - Added now altcoins: Zcash, Zcoin, Augur, Siafund, Gulden, Stellar Lumens, Emercoin, Plutons, GameCredits, PotCoin, Omni, Stratis, ReddCoin, VeriCoin, Radium
@@ -385,8 +477,9 @@ Digital Rupees, Vcash, Waves, HOdlcoin, Burstcoin, Triangles, Argentum, DIBCOIN,
  - Fix and improve build doc and scripts
  - Update to latest jdk version with bugfix for SortedList (remove our jdkfix module)
 
-### Version 0.4.9.6
-Released [September 4th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.6)
+##### Version 0.4.9.6
+{: .mt-5 .mb-2}
+Released [September 4th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.6)
  - Added new altcoins: Opal, Synereo
  - Fixed bug with invalid offer ID causing wrong balance display and duplicate trade statistic items
  - Added new payment method: Faster payments
@@ -401,8 +494,9 @@ Released [September 4th 2016](https://github.com/bisq-network/bisq-desktop/relea
  - Decrease interval for sending keep alive messages
  - Delay result handler for mailbox message storage
 
-### Version 0.4.9.5
-Released [August 29th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.5)
+##### Version 0.4.9.5
+{: .mt-5 .mb-2}
+Released [August 29th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.5)
  - Add new payment methods: Cash deposit, US Postal money order, ClearXchange
  - Remove support for bank transfers in US (ACH has high chargeback risk and WIRE is too expensive)
  - Added new altcoins: LBRY Credits, Syndicate, HunCoin, Unobtanium, Digibyte, VCoin, Decred, Crypto Bullion, 1CRedit, YACCoin, Advanced Internet Blocks
@@ -423,12 +517,14 @@ Released [August 29th 2016](https://github.com/bisq-network/bisq-desktop/release
  - Store arbitrator pubKey in trade object to avoid null pointer when the arbitrator is not available in the trade process
  - Set flag to connection at initial data request so the peer does not get disconnected from seed node if max connections are reached at seed node.
 
-### Version 0.4.9.4
-Released [August 26th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.4)
+##### Version 0.4.9.4
+{: .mt-5 .mb-2}
+Released [August 26th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.4)
  - Add fix for unsupported payment methods
 
-### Version 0.4.9.3
-Released [August 8th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.3)
+##### Version 0.4.9.3
+{: .mt-5 .mb-2}
+Released [August 8th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.3)
  - Increase trade limits (Altcoins: 2 BTC, Banks: 1 BTC, Others: 1.5 BTC)
  - Added new coins: Mycelium Token, BitUSD, Steem Dollars, STEEMUSD, BitCNY, BitEUR, BitCHF, BitGBP, BitNZD, BitAUD, BitSGD, BitHKD, BitSEK, Comet, BitSYNQ
  - Removed deprecated ETHC (was replaced by ETC)
@@ -444,8 +540,9 @@ Released [August 8th 2016](https://github.com/bisq-network/bisq-desktop/releases
  - Add precision to currency json file
  - Improve wording
 
-### Version 0.4.9.2
-Released [July 30th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.2)
+##### Version 0.4.9.2
+{: .mt-5 .mb-2}
+Released [July 30th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.2)
  - Bugfix with repeated publication of trade statistics data
  - Add "Show all currencies" to trade statistics view to see total volume of all currencies
  - Add warning popup if Tor is enabled for http and user clicks a button to open a webpage
@@ -455,8 +552,9 @@ Released [July 30th 2016](https://github.com/bisq-network/bisq-desktop/releases/
  - Use info as default log level, improve logging
  - Other minor bug fixes
 
-### Version 0.4.9.1
-Released [July 27th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9.1)
+##### Version 0.4.9.1
+{: .mt-5 .mb-2}
+Released [July 27th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9.1)
  - Add trade statistics. Price chart, volume chart and table for trades.
  - Add tor support for http request (excluding Poloniex because of problems with Couldflare captcha)
  - Add tor support for BitcoinJ (experimental)
@@ -469,8 +567,9 @@ Released [July 27th 2016](https://github.com/bisq-network/bisq-desktop/releases/
  - Bugfix with missing bank name field when payment method same bank account was used
  - Display offerers bank name or bank ID in offer details
 
-### Version 0.4.9
-Released [July 17th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.9)
+##### Version 0.4.9
+{: .mt-5 .mb-2}
+Released [July 17th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.9)
  - Added EtherClassic, USD Tether, EUR Tether, JPY Tether, Lisk, DigixDAO Tokens, Worldcoin, FlorinCoin
  - Support for Tor bridges
  - Use embedded font to have same layout in all OS versions
@@ -504,17 +603,20 @@ Released [July 17th 2016](https://github.com/bisq-network/bisq-desktop/releases/
  - Fixed bug with dangling trades and disputes
  - Fixed bug with cases of missing complete state at trades when users are offline
 
-### Version 0.4.8.1
-Released [July 5th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.8.1)
+##### Version 0.4.8.1
+{: .mt-5 .mb-2}
+Released [July 5th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.8.1)
  - Hotfix: Fix bug with support for multiple arbitrators
 
-### Version 0.4.8
-Released [May 25th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.8)
+##### Version 0.4.8
+{: .mt-5 .mb-2}
+Released [May 25th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.8)
  - Bugfix: Removed Payment ID from trade contract for Monero
  - Fix NullPointer at Bank account setup
 
-### Version 0.4.7
-Released [May 25th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.7)
+##### Version 0.4.7
+{: .mt-5 .mb-2}
+Released [May 25th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.7)
  - Added Monero, Maker, DAO, STEEM, BigUp, PlatinumBar, Jumbucks, Pinkcoin, OKCash, GridCoin, Moin, SolarCoin, Shift, Europecoin, PostCoin
  - Increase trade limits (Altcoins: 2 BTC, OKPay: 1.5 BTC, Banks: 0.75 BTC, Others: 1 BTC)
  - Support EUR option for SEPA countries which have a non-EUR currency
@@ -531,13 +633,15 @@ Released [May 25th 2016](https://github.com/bisq-network/bisq-desktop/releases/t
  - Fix validation bug for inputs at create offer screen
  - Add network stress tests
 
-### Version 0.4.6
-Released [April 29th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.6)
+##### Version 0.4.6
+{: .mt-5 .mb-2}
+Released [April 29th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.6)
  - Bugfix for fee calculation when using password protection
  - Added Sibcoin, Creditbit
 
-### Version 0.4.5
-Released [April 29th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.5)
+##### Version 0.4.5
+{: .mt-5 .mb-2}
+Released [April 29th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.5)
  - Bugfix for rounding amount which caused issues at withdrawal
  - Display exact bitcoin amount (without rounding)
  - Change Myriadcoin ticker symbol as it conflicts with Malaysian ringgit
@@ -545,8 +649,9 @@ Released [April 29th 2016](https://github.com/bisq-network/bisq-desktop/releases
  - Added I/O Coin, Groestlcoin, MarteXcoin
  - Change name of Anti.cash to Anti (on their request)
 
-### Version 0.4.4
-Released [April 27th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.4)
+##### Version 0.4.4
+{: .mt-5 .mb-2}
+Released [April 27th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.4)
  - GPG signed hashes of all binaries (never run binaries which are not signed by Bisq!)
  - Add new seed node
  - Added new coins: Myriadcoin, Verge
@@ -554,8 +659,9 @@ Released [April 27th 2016](https://github.com/bisq-network/bisq-desktop/releases
  - Fix wrong fee calculation
  - Fix update popup handling
 
-### Beta Preview Version 0.4.3
-Released [April 23th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.3)
+##### Beta Preview Version 0.4.3
+{: .mt-5 .mb-2}
+Released [April 23th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.3)
  - Check if BC provider is defined
  - Ignore stupid oracle limited security permissing by reflection
  - Add check if correct architecture version is installed (32/64 bit)
@@ -569,15 +675,17 @@ Released [April 23th 2016](https://github.com/bisq-network/bisq-desktop/releases
  - Update to latest java version
  - Fix bug at exit from system tray
 
-### Beta Preview Version 0.4.2
-Released [April 17th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.2)
+##### Beta Preview Version 0.4.2
+{: .mt-5 .mb-2}
+Released [April 17th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.2)
  - Add percentage based price for offers (distance from market price).
  - Fix bloom filter privacy vulnerabilities in BitcoinJ
  - UI improvements
  - Bug fixes
 
-### Beta Preview Version 0.4.1
-Released [April 14th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.1)
+##### Beta Preview Version 0.4.1
+{: .mt-5 .mb-2}
+Released [April 14th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.1)
  - Fix bug when trader is offline and use password protection signing payout tx fails
  - Add wallet restore from seed words option at enter password popup at startup
  - Fix bug with pressing enter closing wallet password popup at startup
@@ -592,8 +700,9 @@ Released [April 14th 2016](https://github.com/bisq-network/bisq-desktop/releases
  - Add informational popups
  - Improve wordings
 
-### Beta Preview Version 0.4.0
-Released [April 08th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.4.0)
+##### Beta Preview Version 0.4.0
+{: .mt-5 .mb-2}
+Released [April 08th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.4.0)
  - Support usage of a global Bisq wallet for funding multiple offers/trades
  - Alternatively support of trading wallets for separating trades and getting higher privacy protection
  - Add screens for deposit funds and locked funds
@@ -618,8 +727,9 @@ Released [April 08th 2016](https://github.com/bisq-network/bisq-desktop/releases
  - Use system time instead of blocks for remaining trade time
  - Add "About Bisq" screen
 
-### Alpha Version 0.3.6
-Released [March 20th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.3.6)
+##### Alpha Version 0.3.6
+{: .mt-5 .mb-2}
+Released [March 20th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.3.6)
  - Increase trade limits (Banks: 0.3 BTC, Payment processors: 0.4 BTC, Altcoins: 0.5 BTC)
  - Reduce min. required mining fee for funding tx to 0.0001 BTC
  - Reduce create offer fee to 0.0005 BTC
@@ -637,8 +747,9 @@ Released [March 20th 2016](https://github.com/bisq-network/bisq-desktop/releases
  - Resend confirmation at startup if peer has not continued trade process
  - Add check if unlimited Strength for cryptographic keys is enabled in case the user has compiled the binary on his own
 
-### Alpha Version 0.3.5
-Released [March 11th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.3.5)
+##### Alpha Version 0.3.5
+{: .mt-5 .mb-2}
+Released [March 11th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.3.5)
  - New payment methods: National bank transfer, Transfer with same bank, Transfer with specific bank
  - Support 75 global currencies and 18 alternative crypto currencies
  - Price feed for all major currencies and all alternative crypto currencies
@@ -658,35 +769,40 @@ Released [March 11th 2016](https://github.com/bisq-network/bisq-desktop/releases
  - Make market price invertible
  - Notifications and advanced popup handling
 
-### Alpha Version 0.3.4
-Released [February 9th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.3.4)
+##### Alpha Version 0.3.4
+{: .mt-5 .mb-2}
+Released [February 9th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.3.4)
  - P2P network improvements
  - Use Tor for BitcoinJ
  - UI improvements
  - Bugfixes
 
-### Alpha Version 0.3.3
-Released [January 27th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.3.3)
+##### Alpha Version 0.3.3
+{: .mt-5 .mb-2}
+Released [January 27th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.3.3)
  - Remove initial confirmation handshake in P2P network
  - Add spread overview to markets screen
  - Make mainnet default network
  - UI improvements
  - Bugfixes
 
-### Alpha Version 0.3.2.3
-Released [January 19th 2016](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.3.2.3)
+##### Alpha Version 0.3.2.3
+{: .mt-5 .mb-2}
+Released [January 19th 2016](https://github.com/bisq-network/bisq/releases/tag/v0.3.2.3)
  - P2P network improvements
  - UI improvements
  - Bugfixes
  - Enable mainnet
 
-### Alpha Version 0.3.2.2
-Released [December 28th 2015](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.3.2.2)
+##### Alpha Version 0.3.2.2
+{: .mt-5 .mb-2}
+Released [December 28th 2015](https://github.com/bisq-network/bisq/releases/tag/v0.3.2.2)
  - Bug fixes
  - P2P network stability improvements
 
-### Alpha Version 0.3.2.1
-Released [December 20th 2015](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.3.2.1)
+##### Alpha Version 0.3.2.1
+{: .mt-5 .mb-2}
+Released [December 20th 2015](https://github.com/bisq-network/bisq/releases/tag/v0.3.2.1)
  - Support for several payment methods (Sepa, OkPay, PerfectMoney,…)
  - Support for Altcoins
  - Arbitrator registration
@@ -702,8 +818,9 @@ Released [December 20th 2015](https://github.com/bisq-network/bisq-desktop/relea
  - Charts for market data
  - Changed network layer to a flooding network over Tor and Hidden Services
 
-### Alpha Version 0.2.1
-Released [May 17th 2015](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.2.1)
+##### Alpha Version 0.2.1
+{: .mt-5 .mb-2}
+Released [May 17th 2015](https://github.com/bisq-network/bisq/releases/tag/v0.2.1)
  - Support second trade variant (Offerer is Bitcoin seller)
  - Change UI for trade process to wizard style
  - Encrypt all messages sent over wire
@@ -719,8 +836,9 @@ Released [May 17th 2015](https://github.com/bisq-network/bisq-desktop/releases/t
  - Synchronizing bitcoin network not blocking startup anymore
  - Connection loss not terminating app
 
-### Alpha Version 0.1.3
-Released [March 30th 2015](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.1.3)
+##### Alpha Version 0.1.3
+{: .mt-5 .mb-2}
+Released [March 30th 2015](https://github.com/bisq-network/bisq/releases/tag/v0.1.3)
  - Traders can quit application during the trade process and continue later
  - Encryption for DHT mailbox
  - Use P2SH for MultiSig
@@ -729,15 +847,17 @@ Released [March 30th 2015](https://github.com/bisq-network/bisq-desktop/releases
  - Update to TomP2P Beta 6
  - Update to tag of latest BitcoinJ master
 
-### Alpha Version 0.1.1
-Released [March 7th 2015](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.1.1)
+##### Alpha Version 0.1.1
+{: .mt-5 .mb-2}
+Released [March 7th 2015](https://github.com/bisq-network/bisq/releases/tag/v0.1.1)
  - Support for UpdateFX
  - Update to TomP2P beta3
  - Relay mode for P2P network
  - Use maven instead of Gradle
 
-### Alpha Version 0.1.0
-Released [December 11th 2014](https://github.com/bisq-network/bisq-desktop/releases/tag/v0.1.0)
+##### Alpha Version 0.1.0
+{: .mt-5 .mb-2}
+Released [December 11th 2014](https://github.com/bisq-network/bisq/releases/tag/v0.1.0)
  - Fully functional UI for executing a trade in one of 2 variants (BTC buyer makes offer, seller takes offer)
  - Offer book
  - Create an offer
@@ -747,5 +867,3 @@ Released [December 11th 2014](https://github.com/bisq-network/bisq-desktop/relea
  - Fund management (withdrawal, Tx history)
  - P2P network works with port forwarding (automatic or manual)
  - Binaries for all OS
-
-You can help speed up our progress by [contributing](/contribute/) to Bisq.

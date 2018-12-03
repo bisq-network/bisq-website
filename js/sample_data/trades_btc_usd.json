@@ -1,0 +1,902 @@
+[
+    {
+        "direction": "SELL",
+        "price": "7058.66910000",
+        "amount": "0.03260000",
+        "volume": "230.11260000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "FYFTP-ba7cb6c2-7a40-4b91-9a70-003ed8823585-080",
+        "trade_date": 1539908123775
+    },
+    {
+        "direction": "SELL",
+        "price": "6438.67000000",
+        "amount": "0.03900000",
+        "volume": "251.10810000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "OWJNR-e2ad799a-1337-4f10-a7f3-d62c38b987bb-080",
+        "trade_date": 1539902668491
+    },
+    {
+        "direction": "SELL",
+        "price": "6525.31710000",
+        "amount": "0.00800000",
+        "volume": "52.20250000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "GKAYNR-d90c1efa-cdaa-46ee-88e4-b003ac341b62-080",
+        "trade_date": 1539881254201
+    },
+    {
+        "direction": "SELL",
+        "price": "6547.82000000",
+        "amount": "0.06250000",
+        "volume": "409.23870000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "2295577-b7230aa1-bcc6-45c6-acaa-6e7fb00e0ce7-080",
+        "trade_date": 1539876718787
+    },
+    {
+        "direction": "BUY",
+        "price": "6569.33320000",
+        "amount": "0.04020000",
+        "volume": "264.08710000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "RAZHRTX-ce9dce4d-5383-44cb-bb6f-ce99948d0120-080",
+        "trade_date": 1539874505662
+    },
+    {
+        "direction": "BUY",
+        "price": "6530.33000000",
+        "amount": "0.06250000",
+        "volume": "408.14560000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "CUMUX-7e660ce1-d238-44a5-abf0-480aa7a0fcb2-080",
+        "trade_date": 1539852854335
+    },
+    {
+        "direction": "BUY",
+        "price": "6625.33000000",
+        "amount": "0.06250000",
+        "volume": "414.08310000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "39210338-e147d118-c6ac-4331-848c-3a0f35c1ecec-080",
+        "trade_date": 1539828830951
+    },
+    {
+        "direction": "BUY",
+        "price": "6605.03080000",
+        "amount": "0.06250000",
+        "volume": "412.81440000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "38415-d8815925-51be-4a78-a1a7-69fdbf382168-080",
+        "trade_date": 1539822703718
+    },
+    {
+        "direction": "BUY",
+        "price": "6149.06500000",
+        "amount": "0.06240000",
+        "volume": "383.70160000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "095A2SF-c443d158-c7f0-4d54-835d-ab6f089f49d4-080",
+        "trade_date": 1539797728567
+    },
+    {
+        "direction": "SELL",
+        "price": "6418.82460000",
+        "amount": "0.06250000",
+        "volume": "401.17650000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "iempckq-dbe35cdc-9bd1-4e99-a4e4-e765c5dd004a-080",
+        "trade_date": 1539786555222
+    },
+    {
+        "direction": "SELL",
+        "price": "6454.14000000",
+        "amount": "0.06250000",
+        "volume": "403.38370000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "tmiqplb-fea66187-cc90-4571-a79c-41f0c3e47402-080",
+        "trade_date": 1539783610456
+    },
+    {
+        "direction": "BUY",
+        "price": "6502.59120000",
+        "amount": "0.06010000",
+        "volume": "390.80570000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "nwgxijm-c1cc80e6-011f-4d5e-860a-0e448318e9be-080",
+        "trade_date": 1539778774990
+    },
+    {
+        "direction": "SELL",
+        "price": "6489.29000000",
+        "amount": "0.06240000",
+        "volume": "404.93160000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "8971787-b8ebd2bb-7192-44fb-9a89-f865799ca1de-080",
+        "trade_date": 1539764485575
+    },
+    {
+        "direction": "SELL",
+        "price": "6539.10360000",
+        "amount": "0.06250000",
+        "volume": "408.69390000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "360230-241586c8-0f92-4106-a244-a5a9b0e3857c-080",
+        "trade_date": 1539747729252
+    },
+    {
+        "direction": "SELL",
+        "price": "6474.64000000",
+        "amount": "0.03120000",
+        "volume": "202.00870000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "lnAndS-09e8e79c-bc39-4318-8281-bfb67b20e1f8-080",
+        "trade_date": 1539747384804
+    },
+    {
+        "direction": "BUY",
+        "price": "6551.00200000",
+        "amount": "0.06250000",
+        "volume": "409.43760000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "432328-368a44eb-ea33-4a23-b09d-49400d2bba7d-080",
+        "trade_date": 1539738482769
+    },
+    {
+        "direction": "SELL",
+        "price": "6518.87000000",
+        "amount": "0.04160000",
+        "volume": "271.18490000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "25152371-e9d219be-0e7e-4ee9-a535-addca6f75e3a-080",
+        "trade_date": 1539734975027
+    },
+    {
+        "direction": "SELL",
+        "price": "6723.23230000",
+        "amount": "0.02200000",
+        "volume": "147.91110000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "2ELU6VDE-6904bd5e-90a3-4447-989e-aab06e6b5241-080",
+        "trade_date": 1539721394741
+    },
+    {
+        "direction": "BUY",
+        "price": "6485.49960000",
+        "amount": "0.06250000",
+        "volume": "405.34370000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "913857-40cecb8a-cfa2-4512-9dc7-41afd879a9b4-080",
+        "trade_date": 1539716229420
+    },
+    {
+        "direction": "BUY",
+        "price": "6494.61000000",
+        "amount": "0.06250000",
+        "volume": "405.91310000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "7BCQJVV-8c0dd57b-1d29-450a-8293-50bf9d56aadf-080",
+        "trade_date": 1539693560946
+    },
+    {
+        "direction": "BUY",
+        "price": "6505.24440000",
+        "amount": "0.06250000",
+        "volume": "406.57770000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "KHMHCR-fab67df0-e609-478d-9357-cd1fa273b639-080",
+        "trade_date": 1539650671332
+    },
+    {
+        "direction": "SELL",
+        "price": "6510.56000000",
+        "amount": "0.01550000",
+        "volume": "100.91360000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "15293-39cfee84-4e27-407b-8428-251e99f17f03-080",
+        "trade_date": 1539648136867
+    },
+    {
+        "direction": "BUY",
+        "price": "6609.62000000",
+        "amount": "0.06240000",
+        "volume": "412.44020000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "86248-5074fbac-92b6-4ef7-be15-b756efa5bf94-080",
+        "trade_date": 1539623227722
+    },
+    {
+        "direction": "BUY",
+        "price": "6580.19000000",
+        "amount": "0.06250000",
+        "volume": "411.26180000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "353006-df53821b-41ce-4621-9b98-689e3358ff03-080",
+        "trade_date": 1539604555144
+    },
+    {
+        "direction": "BUY",
+        "price": "6549.60000000",
+        "amount": "0.06250000",
+        "volume": "409.35000000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "10758556-f8f00841-e204-4847-bacf-3954b49dc622-080",
+        "trade_date": 1539596390970
+    },
+    {
+        "direction": "SELL",
+        "price": "6822.63000000",
+        "amount": "0.03810000",
+        "volume": "259.94220000",
+        "payment_method": "CASH_DEPOSIT",
+        "trade_id": "09142605-63a3b25d-c89c-4b43-ab4b-617dffd01b0e-080",
+        "trade_date": 1539583729181
+    },
+    {
+        "direction": "BUY",
+        "price": "6508.39010000",
+        "amount": "0.06240000",
+        "volume": "406.12350000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "68383266-4a282fa9-6d6d-463a-8a03-c44addf545bf-080",
+        "trade_date": 1539583328930
+    },
+    {
+        "direction": "SELL",
+        "price": "6296.59340000",
+        "amount": "0.02400000",
+        "volume": "151.11820000",
+        "payment_method": "US_POSTAL_MONEY_ORDER",
+        "trade_id": "bSLLh-c21971cf-8298-4163-a485-397430ae3a78-063",
+        "trade_date": 1539566234177
+    },
+    {
+        "direction": "SELL",
+        "price": "6322.33600000",
+        "amount": "0.06040000",
+        "volume": "381.86900000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "LFF8YG-5e9f2dbe-f772-4214-946f-dc8aa2762395-080",
+        "trade_date": 1539551612796
+    },
+    {
+        "direction": "SELL",
+        "price": "6988.77380000",
+        "amount": "0.03260000",
+        "volume": "227.83400000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "nmocq-c86662f1-6abb-4b61-a739-36b58f719b19-080",
+        "trade_date": 1539545504436
+    },
+    {
+        "direction": "SELL",
+        "price": "6905.90450000",
+        "amount": "0.03270000",
+        "volume": "225.82300000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "491049-77a30d6d-ec15-4e6d-84ad-bc58cdf50f49-080",
+        "trade_date": 1539528990463
+    },
+    {
+        "direction": "BUY",
+        "price": "6217.27000000",
+        "amount": "0.07600000",
+        "volume": "472.51250000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "K2U9ANV-1cf851d9-7a69-4c1b-a26b-7c7f5be2798e-080",
+        "trade_date": 1539485198246
+    },
+    {
+        "direction": "SELL",
+        "price": "6311.22940000",
+        "amount": "0.15900000",
+        "volume": "1003.48540000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "422632-5016306f-2036-401b-a709-58fef80696d0-080",
+        "trade_date": 1539481522396
+    },
+    {
+        "direction": "BUY",
+        "price": "6222.10000000",
+        "amount": "0.04000000",
+        "volume": "248.88400000",
+        "payment_method": "US_POSTAL_MONEY_ORDER",
+        "trade_id": "LqrzSUn-2923e7f1-a5a9-421f-bd62-57ffb72e8d5c-080",
+        "trade_date": 1539449745097
+    },
+    {
+        "direction": "BUY",
+        "price": "6194.24320000",
+        "amount": "0.04600000",
+        "volume": "284.93510000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "fsvkqnsk-cebd25a4-7c32-439a-a31c-31a51c954a13-080",
+        "trade_date": 1539444122175
+    },
+    {
+        "direction": "SELL",
+        "price": "6293.78470000",
+        "amount": "0.06240000",
+        "volume": "392.73210000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "380547-4cc0af34-d83f-494c-8976-c776fac1b29c-080",
+        "trade_date": 1539430466858
+    },
+    {
+        "direction": "BUY",
+        "price": "6208.67610000",
+        "amount": "0.06250000",
+        "volume": "388.04220000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "28ZeuTM-23914d2a-32f2-4b2c-9679-627dae4eca66-080",
+        "trade_date": 1539398545220
+    },
+    {
+        "direction": "SELL",
+        "price": "6274.57000000",
+        "amount": "0.05800000",
+        "volume": "363.92500000",
+        "payment_method": "CASH_DEPOSIT",
+        "trade_id": "fwKSH-dee9545c-5957-4e7f-9133-c14db131ea1f-080",
+        "trade_date": 1539373595690
+    },
+    {
+        "direction": "SELL",
+        "price": "6268.98000000",
+        "amount": "0.04700000",
+        "volume": "294.64200000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "WaEPjWYJ-013eb645-42ad-48ac-9e6f-034b9aab830d-080",
+        "trade_date": 1539351647367
+    },
+    {
+        "direction": "BUY",
+        "price": "6248.71000000",
+        "amount": "0.06250000",
+        "volume": "390.54430000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "dEgOuCa-2d7ce7eb-4bb6-436b-a437-2611fd7fa67c-080",
+        "trade_date": 1539347205473
+    },
+    {
+        "direction": "BUY",
+        "price": "6055.54510000",
+        "amount": "0.05800000",
+        "volume": "351.22160000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "80281-30d47d0d-c66d-4311-9928-43e03eace1c7-066",
+        "trade_date": 1539326625638
+    },
+    {
+        "direction": "SELL",
+        "price": "6203.88470000",
+        "amount": "0.06250000",
+        "volume": "387.74270000",
+        "payment_method": "NATIONAL_BANK",
+        "trade_id": "CRJYQ-e3ad79c0-c6f2-4fec-aed6-f7a947f485bb-080",
+        "trade_date": 1539314443046
+    },
+    {
+        "direction": "SELL",
+        "price": "6186.28320000",
+        "amount": "0.06250000",
+        "volume": "386.64270000",
+        "payment_method": "NATIONAL_BANK",
+        "trade_id": "XWBFAQ-55edf217-9ee4-431b-b033-1bd0f222e84e-080",
+        "trade_date": 1539312519848
+    },
+    {
+        "direction": "BUY",
+        "price": "6220.90000000",
+        "amount": "0.07510000",
+        "volume": "467.18950000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "tdic8k-c56fb928-263e-4e78-9019-16476adf74f8-080",
+        "trade_date": 1539307111504
+    },
+    {
+        "direction": "BUY",
+        "price": "6300.00000000",
+        "amount": "0.07140000",
+        "volume": "449.82000000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "dMDLkhfn-88b30821-fc5e-42f5-b3cb-838355f50248-080",
+        "trade_date": 1539299614857
+    },
+    {
+        "direction": "SELL",
+        "price": "6530.60730000",
+        "amount": "0.03270000",
+        "volume": "213.55080000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "PRKDBXEA-20115df8-e00f-4b39-a160-f253e4fdabfd-080",
+        "trade_date": 1539294857052
+    },
+    {
+        "direction": "SELL",
+        "price": "6196.23320000",
+        "amount": "0.06250000",
+        "volume": "387.26450000",
+        "payment_method": "NATIONAL_BANK",
+        "trade_id": "LCNCRZH5-36103b85-10f0-4dbe-90e1-d9608029e779-080",
+        "trade_date": 1539284347783
+    },
+    {
+        "direction": "SELL",
+        "price": "6444.15380000",
+        "amount": "0.01600000",
+        "volume": "103.10640000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "SoLEqu-1268e80f-ccc5-4a2d-be86-d9ddb3209a2d-080",
+        "trade_date": 1539283957073
+    },
+    {
+        "direction": "BUY",
+        "price": "6060.42000000",
+        "amount": "0.05790000",
+        "volume": "350.89830000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "HCZSbdB-68197341-b982-4dd1-96e5-bec1a1ec0457-080",
+        "trade_date": 1539274279633
+    },
+    {
+        "direction": "SELL",
+        "price": "6225.60000000",
+        "amount": "0.03000000",
+        "volume": "186.76800000",
+        "payment_method": "NATIONAL_BANK",
+        "trade_id": "w4vhd-3847b265-929c-494c-9a62-1028f0ea7f97-080",
+        "trade_date": 1539272657751
+    },
+    {
+        "direction": "SELL",
+        "price": "6188.34150000",
+        "amount": "0.06060000",
+        "volume": "375.01340000",
+        "payment_method": "CASH_DEPOSIT",
+        "trade_id": "mCG4qnLS-3479e642-ff1e-403b-af2a-94f418de50c3-080",
+        "trade_date": 1539262567769
+    },
+    {
+        "direction": "BUY",
+        "price": "6204.27630000",
+        "amount": "0.06250000",
+        "volume": "387.76720000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "yblczk-8826386d-c0f8-4a81-8df9-06d9711a2388-080",
+        "trade_date": 1539257896924
+    },
+    {
+        "direction": "BUY",
+        "price": "6275.00000000",
+        "amount": "0.07590000",
+        "volume": "476.27250000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "WCFEFDS-f99b8987-99f7-4a01-806b-8cf57c148ee1-080",
+        "trade_date": 1539257606713
+    },
+    {
+        "direction": "BUY",
+        "price": "6250.92080000",
+        "amount": "0.06000000",
+        "volume": "375.05520000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "181155-eea210fc-1386-4b32-95d8-7f846c85fbf5-080",
+        "trade_date": 1539248105040
+    },
+    {
+        "direction": "SELL",
+        "price": "6100.00000000",
+        "amount": "0.04100000",
+        "volume": "250.10000000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "DDXYNO-512c612d-bd92-41e6-8f8d-274caed966b0-080",
+        "trade_date": 1539247968952
+    },
+    {
+        "direction": "BUY",
+        "price": "6252.22030000",
+        "amount": "0.06250000",
+        "volume": "390.76370000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "412255-d0aadd95-1089-4e49-9ffe-5caa5dd19b62-080",
+        "trade_date": 1539247195281
+    },
+    {
+        "direction": "BUY",
+        "price": "6257.63000000",
+        "amount": "0.06250000",
+        "volume": "391.10180000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "vacYub-ad177b3e-83c1-4a59-91f7-d1cb1c6d91f0-080",
+        "trade_date": 1539244670361
+    },
+    {
+        "direction": "SELL",
+        "price": "6412.26060000",
+        "amount": "0.10000000",
+        "volume": "641.22600000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "QULLNO-36f7b4a9-b473-4636-9559-0b8638dde079-080",
+        "trade_date": 1539232609072
+    },
+    {
+        "direction": "SELL",
+        "price": "6337.79040000",
+        "amount": "0.04000000",
+        "volume": "253.51160000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "3674215-1ed33b00-4b78-4c40-871b-57cdf54a3287-080",
+        "trade_date": 1539221651262
+    },
+    {
+        "direction": "SELL",
+        "price": "6348.17000000",
+        "amount": "0.05750000",
+        "volume": "365.01970000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "DPBukfY-1d5e57d0-7eca-4946-b104-280d5f080c23-080",
+        "trade_date": 1539220431534
+    },
+    {
+        "direction": "BUY",
+        "price": "6541.29920000",
+        "amount": "0.06250000",
+        "volume": "408.83120000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "x7D9Gm6B-57677999-ac1b-4403-a44f-6d1178b5e31a-080",
+        "trade_date": 1539211860368
+    },
+    {
+        "direction": "BUY",
+        "price": "6572.92000000",
+        "amount": "0.03080000",
+        "volume": "202.44590000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "79d95-fa3e46d2-554e-4ec7-bb1c-24521367cfe2-080",
+        "trade_date": 1539210174168
+    },
+    {
+        "direction": "SELL",
+        "price": "6637.06880000",
+        "amount": "0.04520000",
+        "volume": "299.99550000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "fzyyw-f74ae9ce-80a2-4ca7-b24c-a2219f51dca5-080",
+        "trade_date": 1539205299269
+    },
+    {
+        "direction": "SELL",
+        "price": "6597.92000000",
+        "amount": "0.06000000",
+        "volume": "395.87520000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "ljup21-d76a953f-34d4-4592-b6cd-ce52012e7579-080",
+        "trade_date": 1539197812496
+    },
+    {
+        "direction": "SELL",
+        "price": "6437.66450000",
+        "amount": "0.06210000",
+        "volume": "399.77890000",
+        "payment_method": "CASH_DEPOSIT",
+        "trade_id": "5QB46OYT-8e189319-14cc-4991-952c-2842b067d59c-080",
+        "trade_date": 1539190730717
+    },
+    {
+        "direction": "SELL",
+        "price": "6534.58000000",
+        "amount": "0.03460000",
+        "volume": "226.09640000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "uilhbo-bcdfb463-10b8-449a-ab09-0b10af0358e3-080",
+        "trade_date": 1539181516301
+    },
+    {
+        "direction": "BUY",
+        "price": "6600.00000000",
+        "amount": "0.06150000",
+        "volume": "405.90000000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "kompjwz-00623257-fd3b-4c43-8657-9d84bd2dbe6e-080",
+        "trade_date": 1539181307171
+    },
+    {
+        "direction": "SELL",
+        "price": "6409.89580000",
+        "amount": "0.02030000",
+        "volume": "130.12080000",
+        "payment_method": "CASH_DEPOSIT",
+        "trade_id": "wCp5JV-f27e3b2e-86b9-477d-a745-53becbd20978-080",
+        "trade_date": 1539180127140
+    },
+    {
+        "direction": "SELL",
+        "price": "6619.44910000",
+        "amount": "0.05000000",
+        "volume": "330.97240000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "zzjrwao-66c946e7-abfc-4d8a-80ca-2e91e8746476-080",
+        "trade_date": 1539172324288
+    },
+    {
+        "direction": "SELL",
+        "price": "6646.77740000",
+        "amount": "0.04490000",
+        "volume": "298.44030000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "mvrmiyl-e9536513-b17d-4ff0-920b-9dba110ac188-080",
+        "trade_date": 1539143631497
+    },
+    {
+        "direction": "SELL",
+        "price": "6642.26340000",
+        "amount": "0.06250000",
+        "volume": "415.14140000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "CYFVL-632af83f-9c5b-4f16-910a-13865bffd498-080",
+        "trade_date": 1539143480988
+    },
+    {
+        "direction": "SELL",
+        "price": "6688.62400000",
+        "amount": "0.02900000",
+        "volume": "193.97000000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "cagwnaf-10d44bda-87ab-4032-88b1-947a8be7eecf-080",
+        "trade_date": 1539120694980
+    },
+    {
+        "direction": "SELL",
+        "price": "6688.43280000",
+        "amount": "0.05010000",
+        "volume": "335.09040000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "CYSFWDS-ef6743fc-ef7a-4c2f-835f-463fae8c3d6d-080",
+        "trade_date": 1539115076347
+    },
+    {
+        "direction": "SELL",
+        "price": "6952.09200000",
+        "amount": "0.03010000",
+        "volume": "209.25790000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "H1ZHA-e9df555a-c3c4-44ba-b215-28a5d8ba1c6e-080",
+        "trade_date": 1539085495417
+    },
+    {
+        "direction": "SELL",
+        "price": "6706.74340000",
+        "amount": "0.03000000",
+        "volume": "201.20230000",
+        "payment_method": "US_POSTAL_MONEY_ORDER",
+        "trade_id": "ZRUBOQ-2ccd30b3-8afa-4c70-b203-c0f34cf1390d-080",
+        "trade_date": 1539056486761
+    },
+    {
+        "direction": "SELL",
+        "price": "6754.40940000",
+        "amount": "0.01500000",
+        "volume": "101.31610000",
+        "payment_method": "CHASE_QUICK_PAY",
+        "trade_id": "stvlu-22233b51-faee-4ec0-a1d6-c1a5a587ca94-080",
+        "trade_date": 1539051435836
+    },
+    {
+        "direction": "BUY",
+        "price": "6608.02770000",
+        "amount": "0.04600000",
+        "volume": "303.96920000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "MNBBIWW-923dc4dc-dd46-4501-aa36-be183d43f53a-080",
+        "trade_date": 1539038379638
+    },
+    {
+        "direction": "BUY",
+        "price": "6685.58160000",
+        "amount": "0.06210000",
+        "volume": "415.17460000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "BIPFY-f07b0ae3-1387-41c1-9439-132ae7f42b00-080",
+        "trade_date": 1539021219076
+    },
+    {
+        "direction": "SELL",
+        "price": "6638.85120000",
+        "amount": "0.02400000",
+        "volume": "159.33240000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "WfloZFLu-f7f6e134-00dc-463a-85d8-e55e20173a90-080",
+        "trade_date": 1538982407919
+    },
+    {
+        "direction": "BUY",
+        "price": "6588.72000000",
+        "amount": "0.06240000",
+        "volume": "411.13610000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "ZQGUoxL-2b35e68c-c7fc-408b-aada-01f0a3c2ade6-080",
+        "trade_date": 1538966609197
+    },
+    {
+        "direction": "BUY",
+        "price": "6593.95570000",
+        "amount": "0.06200000",
+        "volume": "408.82520000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "63890-dd4e7681-1d6f-4394-a852-fbbae39c3d7d-080",
+        "trade_date": 1538949595641
+    },
+    {
+        "direction": "SELL",
+        "price": "6551.76000000",
+        "amount": "0.12000000",
+        "volume": "786.21120000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "ev96ngc6-9eae183a-cea3-4616-864e-3c12b84b4021-080",
+        "trade_date": 1538943851457
+    },
+    {
+        "direction": "SELL",
+        "price": "6546.86000000",
+        "amount": "0.03260000",
+        "volume": "213.42760000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "WFWRGS-1075a67a-e294-44d0-8f37-41b90bf151ec-080",
+        "trade_date": 1538939269972
+    },
+    {
+        "direction": "SELL",
+        "price": "6406.25020000",
+        "amount": "0.06500000",
+        "volume": "416.40620000",
+        "payment_method": "CASH_DEPOSIT",
+        "trade_id": "4633314-ae9a4507-5c6c-495b-bcc4-f85cab97a523-080",
+        "trade_date": 1538904643907
+    },
+    {
+        "direction": "BUY",
+        "price": "6533.90630000",
+        "amount": "0.06240000",
+        "volume": "407.71570000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "debcmk-31e808fa-aec0-4868-bb4f-22e8890ea769-080",
+        "trade_date": 1538899201552
+    },
+    {
+        "direction": "BUY",
+        "price": "6594.36780000",
+        "amount": "0.06000000",
+        "volume": "395.66200000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "trfwkhp-ec6ea61d-4c7d-4254-9375-529ab362fc52-080",
+        "trade_date": 1538889069587
+    },
+    {
+        "direction": "BUY",
+        "price": "6600.00000000",
+        "amount": "0.03330000",
+        "volume": "219.78000000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "IY7F8T-236156d5-6826-4c96-9b78-84674afff0a9-080",
+        "trade_date": 1538800974923
+    },
+    {
+        "direction": "BUY",
+        "price": "6700.00000000",
+        "amount": "0.07100000",
+        "volume": "475.70000000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "41124-047ce6f3-729f-4bb6-bb78-766c5d2a8bdf-080",
+        "trade_date": 1538789334682
+    },
+    {
+        "direction": "SELL",
+        "price": "6540.38550000",
+        "amount": "0.01000000",
+        "volume": "65.40380000",
+        "payment_method": "NATIONAL_BANK",
+        "trade_id": "GGDVK-55151895-6e61-4c9c-944b-07e46411989a-080",
+        "trade_date": 1538787444989
+    },
+    {
+        "direction": "SELL",
+        "price": "6655.37130000",
+        "amount": "0.05000000",
+        "volume": "332.76850000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "ltulvv-e5439837-2320-457d-9901-63ef5b3e0e8e-080",
+        "trade_date": 1538784976058
+    },
+    {
+        "direction": "SELL",
+        "price": "6940.61550000",
+        "amount": "0.05760000",
+        "volume": "399.77940000",
+        "payment_method": "US_POSTAL_MONEY_ORDER",
+        "trade_id": "OJT4E-b75e8b78-aca0-452b-85ec-dc25816fbcd8-080",
+        "trade_date": 1538783432647
+    },
+    {
+        "direction": "SELL",
+        "price": "6643.74970000",
+        "amount": "0.20010000",
+        "volume": "1329.41430000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "rmjzbRL-376f6803-67d9-4ae9-994e-dc14a3296de8-080",
+        "trade_date": 1538767506861
+    },
+    {
+        "direction": "BUY",
+        "price": "6561.78000000",
+        "amount": "0.00300000",
+        "volume": "19.68530000",
+        "payment_method": "REVOLUT",
+        "trade_id": "dgozhqw-aeba15b8-63c0-4e89-aad9-d341cb64dc6f-080",
+        "trade_date": 1538758603904
+    },
+    {
+        "direction": "BUY",
+        "price": "6624.15570000",
+        "amount": "0.08000000",
+        "volume": "529.93240000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "OGG6C-3526d89f-45d6-475f-b15f-d383ea97b8eb-080",
+        "trade_date": 1538726183992
+    },
+    {
+        "direction": "SELL",
+        "price": "6608.62920000",
+        "amount": "0.02000000",
+        "volume": "132.17250000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "dkuht-fda595b6-7912-4719-99b3-d45ed2ebf7f1-080",
+        "trade_date": 1538668969351
+    },
+    {
+        "direction": "BUY",
+        "price": "6526.41510000",
+        "amount": "0.06240000",
+        "volume": "407.24830000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "4038883-047c105f-bb07-4bf8-8d54-5cbc3549a656-080",
+        "trade_date": 1538666425543
+    },
+    {
+        "direction": "SELL",
+        "price": "7253.55390000",
+        "amount": "0.01000000",
+        "volume": "72.53550000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "YAlUB-bccaaf6e-fdd5-4693-ba15-c0ecdabd5e8e-080",
+        "trade_date": 1538616683334
+    },
+    {
+        "direction": "SELL",
+        "price": "6497.76410000",
+        "amount": "0.06250000",
+        "volume": "406.11020000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "QCDHAA-8ea59a06-4abc-4cd8-90a0-219eb6f2c14e-080",
+        "trade_date": 1538596584239
+    },
+    {
+        "direction": "BUY",
+        "price": "6438.12810000",
+        "amount": "0.04000000",
+        "volume": "257.52510000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "1uyxi-91a623ca-f170-433d-a9e1-9deb3e5860a7-080",
+        "trade_date": 1538591182402
+    },
+    {
+        "direction": "SELL",
+        "price": "6511.69670000",
+        "amount": "0.06250000",
+        "volume": "406.98100000",
+        "payment_method": "CLEAR_X_CHANGE",
+        "trade_id": "13528635-19ecb95d-095a-41a5-9e3a-167ce7dfe6cb-080",
+        "trade_date": 1538587227391
+    }
+]

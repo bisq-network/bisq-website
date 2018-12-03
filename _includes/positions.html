@@ -1,0 +1,15 @@
+<h5 class="mt-5 mb-sm-3 mb-5" id="brand-files">Contribute to Bisq</h5>
+
+  <p class="mb-5 pr-5">
+    We are always looking to grow our community of developers, designers and communication talents.<br><br>
+    Your contributions, if implemented and accepted by BSQ stakeholders, will be rewarded with BSQ. Read more <a href="https://docs.bisq.network/contributor-checklist.html" targe="_blank">here</a>.
+  </p>
+
+    <div class="accordion border-bottom mb-5">
+    {% for item in site.data.positions %}
+        <h6 class="accordion-toggle border-top pt-3 pb-2 green">{{ item.title }}</h6>
+        <div class="accordion-content pb-5 col-sm-12 col-md-10 ml-0 pl-sm-0 pl-md-0">
+          {{ item.description }}
+        </div>
+    {% endfor %}
+    </div>

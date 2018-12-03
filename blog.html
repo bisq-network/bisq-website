@@ -3,8 +3,56 @@ layout: page
 title: Blog &lsaquo; Bisq - The decentralized Bitcoin exchange
 ---
 
-<ul>
+
 {% for post in site.posts %}
-  <li>{{ post.date | date: '%Y-%m-%d' }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <div class="blog-post mb-5 pb-5 border-bottom">
+    <div class="blog-post-date grey small mb-2">{{ post.date | date: "%-d %B %Y" }}</div>
+    <div>
+      <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+      <div>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">Read More</a>
+      </div>
+    </div>
+  </div>
 {% endfor %}
-</ul>
+
+
+
+
+
+
+
+
+<!-- This loops through the paginated posts -->
+{% for post in paginator.posts %}
+  <div class="blog-post">
+    <div class="blog-post-date">{{ post.date | date: "%-d %B %Y" }}</div>
+    <div>
+      <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+      <div>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">Read More</a>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>

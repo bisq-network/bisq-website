@@ -1,15 +1,14 @@
 ---
-layout: default
+layout: page
 ---
-<div id="bcont">
+<div id="bcont" class="pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0">
   <article id="post-802" class="post-802 post type-post status-publish format-standard hentry category-news">
     <div class="dets_wrap">
       <div class="dets">
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
-        <ul>
-          <li>{{ page.author }}</li>
-          <li>{{ page.date | date: '%b %d %Y'}}</li>
-        </ul>
+        <p class='post-meta'>
+          Posted by <span>{{ page.author }}</span> on <span>{{ page.date | date: "%-d %B %Y"}}</span>
+        </p>
       </div>
     </div>
     <div class="content_wrap">
@@ -20,4 +19,8 @@ layout: default
       </div>
     </div>
   </article>
+  <br>
+  <br>
+  <br>
+  <a href="{{ site.url }}/blog">« Back to Blog</a>
 </div>

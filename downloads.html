@@ -1,121 +1,83 @@
 ---
 layout: page
 title: Bisq Downloads &lsaquo; Bisq - The decentralized Bitcoin exchange
-banner: /images/roadmap1.png
-version: 0.8.1
+version: 0.9.0
 ---
 <h1>Bisq Downloads</h1>
 
-<style>
-a.selected {
-    font-weight: bold;
-    font-size: 24px;
-}
-a.selected::before {
-    content: " \2192   ";
-}
-a.selected::after {
-    content: " \2190 ";
-}
-.hidden {
-    display: none;
-}
-.shown {
-    display: "";
-}
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
-#android-badge-img {
-  height: auto;
-  width: 160px;
-}
+<div class="mt-5 mb-2">
+  <div class="id-win32 hidden">You appear to be running Windows 32 bit.</div>
+  <div class="id-win64 hidden">You appear to be running Windows 64 bit.</div>
+  <div class="id-mac hidden">You appear to be using a Mac.</div>
+  <div class="id-deb32 hidden">You appear to be using Debian/Ubuntu 32 bit.</div>
+  <div class="id-deb64 hidden">You appear to be using Debian/Ubuntu 64 bit.</div>
+  <div class="id-rpm32 hidden">You appear to be using Redhat/Fedora/CentOS 32 bit.</div>
+  <div class="id-rpm64 hidden">You appear to be using Redhat/Fedora/CentOS 64 bit.</div>
 
-#apple-badge-img {
-  margin:6%;width:88%;
-}
-
-#app-download td {
-  width:200px;
-}
-
-</style>
-
-<script src="/js/downloads.js"></script>
-
-<div style="text-align: left; font-size: 18px;">
-  <div id="id-win32" class="hidden">You appear to be running Windows 32 bit.</div>
-  <div id="id-win64" class="hidden">You appear to be running Windows 64 bit.</div>
-  <div id="id-mac" class="hidden">You appear to be using a Mac.</div>
-  <div id="id-deb32" class="hidden">You appear to be using Debian/Ubuntu 32 bit.</div>
-  <div id="id-deb64" class="hidden">You appear to be using Debian/Ubuntu 64 bit.</div>
-  <div id="id-rpm32" class="hidden">You appear to be using Redhat/Fedora/CentOS 32 bit.</div>
-  <div id="id-rpm64" class="hidden">You appear to be using Redhat/Fedora/CentOS 64 bit.</div>
-  <p>
-  </p>
-  <table style="text-align: center;">
-    <tr>
+  <table class="all-downloads mt-5">
+    <tr class="border-bottom">
       <td>Windows</td>
       <td>
-        <a id="dl-win32" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-32bit-{{ page.version }}.exe">32 Bit</a> |
-        <a id="dl-win64" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-64bit-{{ page.version }}.exe">64 Bit</a>
+        <a class="dl-win32" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.exe">32 Bit</a> |
+        <a class="dl-win64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">64 Bit</a>
       </td>
     </tr>
-    <tr>
+    <tr class="border-bottom">
       <td>Mac</td>
-      <td><a id="dl-mac" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-{{ page.version }}.dmg">.dmg</a>
+      <td><a class="dl-mac" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
       </td>
     </tr>
-    <tr>
+    <tr class="border-bottom">
       <td>Debian/Ubuntu</td>
       <td>
-        <a id="dl-deb32" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-32bit-{{ page.version }}.deb">32 Bit</a> |
-        <a id="dl-deb64" href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/Bisq-64bit-{{ page.version }}.deb">64 Bit</a>
+        <a class="dl-deb32" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.deb">32 Bit</a> |
+        <a class="dl-deb64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">64 Bit</a>
       </td>
     </tr>
-    <p>
-    </p>
-    <tr>
+    <tr class="border-bottom">
       <td>Arch Linux</td>
       <td><a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bisq-git">Arch User Repository</a></td>
     </tr>
-    <tr>
+    <tr class="border-bottom">
       <td>Source Code</td>
-      <td><a href="https://github.com/bisq-network/exchange/archive/v{{ page.version }}.zip">zip</a> |
-        <a href="https://github.com/bisq-network/exchange/archive/v{{ page.version }}.tar.gz">tar.gz</a></td>
+      <td><a href="https://github.com/bisq-network/bisq/archive/v{{ site.client_version }}.zip">zip</a> |
+        <a href="https://github.com/bisq-network/bisq/archive/v{{ site.client_version }}.tar.gz">tar.gz</a></td>
     </tr>
-    <tr>
+    <tr class="border-bottom">
       <td>Release Notes</td>
-      <td><a href="https://github.com/bisq-network/exchange/releases/tag/v{{ page.version }}">Release Notes for v{{ page.version }}</a></td>
+      <td><a href="https://github.com/bisq-network/bisq/releases/tag/v{{ site.client_version }}">Release Notes for v{{ site.client_version }}</a></td>
     </tr>
-    <tr>
+    <tr class="border-bottom">
       <td>Verification</td>
-      <td><a href="https://github.com/bisq-network/exchange/releases/tag/v{{ page.version }}">PGP signatures</a> |
-        <a href="https://github.com/bisq-network/exchange/releases/download/v{{ page.version }}/29CDFD3B.asc">PGP Public Key</a></td>
+      <td><a href="https://github.com/bisq-network/bisq/releases/tag/v{{ site.client_version }}">PGP signatures</a> |
+        <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/29CDFD3B.asc">PGP Public Key</a></td>
     </tr>
+  </table>
+
+  <br>
+
+  <p class="small">See <a href="https://docs.bisq.network/getting-started.html">Getting Started with Bisq</a> for instructions how to complete your first trade.</p>
+
+
+</div>
+
+
+
+<div class="mt-5">
+  <h5>Bisq Mobile Notifications</h5>
+   <p>Stay up-to-date on your trades and receive notifications on your mobile phone.</p>
+
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img mb-2" alt="Get it on Google Play" src="{{ site.url }}/images/badge_google_play.svg"/></a>
+      &nbsp;
+        <a target="_blank" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img mb-2" alt="Get it on the App Store" src="{{ site.url }}/images/badge_app_store.svg"/></a>
+        <p class="small mt-2">Bisq version <strong>0.8.0</strong> or higher is required to receive mobile notifications.</p>
+
   </table>
 </div>
 
-<br>
 
-<p>See <a href="https://docs.bisq.network/getting-started.html">Getting Started with Bisq</a> for instructions how to complete your first trade.</p>
-
-<h2>Bisq Mobile Notifications</h2>
-
-<p>Bisq version {{ page.version }} or higher is required to receive mobile notifications.</p>
-
-<table id="app-download" style="text-align: center;">
-  <tr>
-    <td>
-      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img id="android-badge-img" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"/></a>
-    </td>
-    <td>
-      <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" id="apple-badge-img" style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
-    </td>
-  </tr>
-</table>
-
-
+{% comment %}
+{% include resources.html %}
+{% endcomment %}

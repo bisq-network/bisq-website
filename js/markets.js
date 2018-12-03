@@ -67,6 +67,7 @@ function getTrades(pair){
                           $('<th>').text('Amount')
                         ).appendTo('#trade-history-header');
 
+                        data = JSON.parse(data);
                         $.each( data, function( key, val ) {
 
                             /*
@@ -127,7 +128,7 @@ function getTrades(pair){
                           ).appendTo('#trade-history-header');
                         }
 
-
+                        data = JSON.parse(data);
                         $.each( data, function( key, val ) {
 
                             /*
@@ -213,7 +214,7 @@ function getOffers(pair){
             ).appendTo('#sell-offers-header');
         }
 
-
+        data = JSON.parse(data);
         $.each( data[pair].buys, function( key, val ) {
           volTotal = parseFloat(volTotal) + parseFloat(val.volume);
           $('<tr>').append(

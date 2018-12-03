@@ -16,19 +16,78 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 
 ## Planned milestones
 {: .mt-5 .pt-5}
-##### Version 1.0
+##### Version 1.1
 {: .mt-5 .mb-2}
- - Bisq DAO
  - New trade protocol
-
-##### Version 0.9
-{: .mt-5 .mb-2}
- - Redesign
- - DAO on testnet
-
+ 
+##### Version 1.0
+ {: .mt-5 .mb-2}
+  - Bisq DAO
 
 ## Releases
 {: .mt-5 .pt-5}
+
+
+##### Version 0.9.0
+{: .mt-5 .mb-2}
+Released [December 3rd 2018](https://github.com/bisq-network/bisq/releases/tag/v0.9.0)
+
+###### Bisq DAO (on Testnet)
+- BSQ wallet (Send/Receive BSQ)
+- Governance (Make and vote on proposals, create compensation requests, change DAO parameters, issue BSQ)
+- Bonding (Create bonded roles/bonded reputation)
+- Pay asset listing fee with BSQ
+- Proof of burn with BSQ
+- Pay trading fees with BSQ
+
+###### Trading
+- [Warn users when closing the app with open offers](https://github.com/bisq-network/bisq/pull/1716)
+- [Wait for offer availability check before allowing funding of wallet](https://github.com/bisq-network/bisq/pull/1775)
+- [Add buyers payment account name to trade screen (if multiple payment accounts of the same type exist)](https://github.com/bisq-network/bisq/pull/1735)
+- [Fix last request timestamp in price feed service](https://github.com/bisq-network/bisq/pull/1730)
+- [Fix transaction broadcaster issue](https://github.com/bisq-network/bisq/pull/1763)
+
+###### Payment methods
+- [Add Monero address validation](https://github.com/bisq-network/bisq/pull/1683)
+- [Improve Monero trade info popup](https://github.com/bisq-network/bisq/pull/1720/files)
+- [Update instructions for Monero transaction proof](https://github.com/bisq-network/bisq/pull/1902)
+- [Add Citibank to Zelle](https://github.com/bisq-network/bisq/pull/1688)
+- [Add info for Faster Payment that the receivers name is not required](https://github.com/bisq-network/bisq/pull/1694)
+- [Add Contact info for F2F](https://github.com/bisq-network/bisq/pull/1713)
+- [Add warning popup for Cash Deposit](https://github.com/bisq-network/bisq/pull/1822)
+- [Add PromptPay (Thailand)](https://github.com/bisq-network/bisq/pull/1831)
+- [Add Interac E-transfer question/answer validation](https://github.com/bisq-network/bisq/pull/1845)
+- [Remove account age from limitations of altcoin accounts](https://github.com/bisq-network/bisq/pull/1747)
+
+###### UI
+- Redesign: Bisq in a fresh new green look including lots of minor UI improvements and bug fixes
+- Improved text in various places (by @arunasurya)
+- New locales (Thai and Vietnamese) by @initCCG  
+- [Avoid standby mode](https://github.com/bisq-network/bisq/pull/1712)
+- [Optimize initial data load](https://github.com/bisq-network/bisq/pull/1905)
+- [Increase display time of notifications](https://github.com/bisq-network/bisq/pull/1711)
+- [Convert long dash to short dash for minus values](https://github.com/bisq-network/bisq/pull/1936)
+- [Add blockstream.info as default explorer](https://github.com/bisq-network/bisq/pull/1919)
+- [Limit initial window size on application launch](https://github.com/bisq-network/bisq/pull/1945)
+- [Save "Show all" state in currency selector (Trade Charts) ](https://github.com/bisq-network/bisq/pull/1727)
+- [Add arrow key support for preferences currency selection](https://github.com/bisq-network/bisq/pull/1774)
+- [Add arrow key support for arbitrator language selection](https://github.com/bisq-network/bisq/pull/1774)
+- [Fix truncation issue when using display scaling levels](https://github.com/bisq-network/bisq/pull/1767)
+- [Fix issues with wrong base currency](https://github.com/bisq-network/bisq/pull/1913)
+
+###### Privacy/Security
+- [Make torrc "editable" via system properties](https://github.com/bisq-network/bisq/pull/1893)
+- [Use tor binaries from TorBrowser 8.0.3](https://github.com/bisq-network/bisq/pull/1928)
+
+###### Development
+- [Move all repositories into one mono repository](https://github.com/bisq-network/bisq/pull/1650)
+- [Add Java 10 support](https://github.com/bisq-network/bisq/pull/1660)
+
+###### Assets
+- Add 25 new assets: 
+Actinium (ACM), Bitcoin 2 (BTC2), Bitcoin Rhodium (XRC), Blur (BLUR), Chaucha (CHA), Croat (CROAT), Dragonglass (DRGL), EtherStone (ETHS), GreenBlockCoin (GBK), Kekcoin (KEK), Loki (LOKI), Mask (MASK), MoX (MOX), MobitGlobal (MBGL), MonetaryUnit (MUE), Neos (NEOS), PZDC (PZDC), QMCoin (QMCoin), Quantum Resistant Ledger (QRL), Radium (RADS), Ryo (RYO), SUB1X (SUB1X), Starwels (MAI), TurtleCoin (TRTL), Zero (ZER)
+- Remove not traded assets.
+
 
 ##### Version 0.8.1
 {: .mt-5 .mb-2}

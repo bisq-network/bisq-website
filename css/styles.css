@@ -621,12 +621,12 @@ td {
 
 .downloads-desktop.os-selector-home {
   display: inline-flex;
-  min-width: 470px
+  min-width: 470px;
 }
 
 
 .downloads-mobile {
-  display: none
+  display: none;
 }
 
 @media (max-width: 990px) {
@@ -637,7 +637,7 @@ td {
     padding-right: 0%;
   }
 
-  .downloads-desktop.os-selector-home {display: none}
+  .downloads-desktop, .downloads-desktop.os-selector-home {display: none}
   .downloads-mobile {display: block}
 
   .outter {

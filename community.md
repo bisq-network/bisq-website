@@ -29,15 +29,4 @@ title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
     <li><img src="../images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">#bisq on Freenode IRC</a><br>IRC freenode server for more decentralized chat</li>
     <li><img src="../images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">r/Bisq Subreddit</a><br>Get support and mingle with the community in Bisq's subreddit</li>
   </ul>
-
-</div>
-
-
-
-<div class="row mb-sm-4 mb-md-0">
-
-  <div class="mt-sm-0 mb-0 mt-md-3 mb-md-5 col-sm-12 col-md-8 pr-5">
-    {% include positions.html %}
-  </div>
-
 </div>

@@ -24,11 +24,8 @@ $( document ).ready( function() {
             showOSDownloads( 'win64' );
             break;
         case "Linux":
-            if( uAgent.indexOf( "Ubuntu" ) > -1 || uAgent.indexOf( "Debian" ) > -1) {
+            if( uAgent.indexOf( "Ubuntu" ) > -1 || uAgent.indexOf( "Debian" ) > -1 ) {
                 showOSDownloads( 'deb64' );
-            } else if( uAgent.indexOf( "Redhat" ) > -1 || uAgent.indexOf( "CentOS" ) > -1 ||
-              uAgent.indexOf( "Fedora" ) > -1 ) {
-                showOSDownloads( 'rpm64' );
             } else {
                 $( '.id-all').removeClass('hidden').addClass('shown');
             }

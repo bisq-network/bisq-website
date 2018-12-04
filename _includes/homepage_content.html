@@ -20,7 +20,7 @@
                         <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button">
 
                           <div class="id-win64 hidden">
-                            <div class="float-left">
+                            <div class="float-left" onclick="location.href='https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe';">
                                     <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
                                     <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
                                     Download for Windows
@@ -31,7 +31,7 @@
                           </div>
 
                           <div class="id-mac hidden">
-                            <div class="float-left">
+                            <div class="float-left" onclick="location.href='https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg';">
                                     <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
                                     <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
                                     Download for Mac
@@ -42,7 +42,7 @@
                           </div>
 
                           <div class="id-deb64 hidden">
-                            <div class="float-left">
+                            <div class="float-left" onclick="location.href='https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb';">
                                     <img src="{{ site.url }}/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
                                     <img src="{{ site.url }}/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
                                     Download for Debian/Ubuntu
@@ -53,7 +53,7 @@
                           </div>
 
                           <div class="id-all hidden">
-                            <div class="float-left">
+                            <div class="float-left" onclick="location.href='{{ site.url }}/downloads';">
                                     <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
                                     <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
                                     Downloads

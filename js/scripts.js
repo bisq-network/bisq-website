@@ -29,6 +29,8 @@ $(document).ready(function() {
         navigator.userAgent.indexOf("Fedora") != -1) {
         $('.dl-rpm64').addClass('selected');
         $('.id-rpm64').removeClass('hidden').addClass('shown');
+      } else {
+        $('.id-all').removeClass('hidden').addClass('shown');
       }
       break;
   }

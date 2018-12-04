@@ -1,64 +1,62 @@
-$(document).ready(function() {
+$( document ).ready( function() {
 
+    /**************************************************
+    detect os to show correct download links
+    **************************************************/
 
+    var uAgent = navigator.userAgent || navigator.vendor || window.opera;
+    var OSName = "Unknown OS";
 
+    if( uAgent.indexOf( "Win" ) > -1 ) {
+        OSName = "Windows";
+    } else if( uAgent.indexOf( "Mac" ) > -1 ) {
+        OSName = "MacOS";
+    } else if( uAgent.indexOf( "Linux" ) > -1 ) {
+        OSName = "Linux";
+    }
 
-  //OS detection
-  var OSName = "Unknown OS";
-  if (navigator.userAgent.indexOf("Win") != -1) OSName = "Windows";
-  else if (navigator.userAgent.indexOf("Mac") != -1) OSName = "MacOS";
-  else if (navigator.userAgent.indexOf("Linux") != -1) OSName = "Linux";
-  else if (navigator.userAgent.indexOf("X11") != -1) OSName = "UNIX";
+    //desktop
+    switch( OSName ) {
+        case "MacOS":
+            showOSDownloads( 'mac' );
+            break;
+        case "Windows":
+            showOSDownloads( 'win64' );
+            break;
+        case "Linux":
+            if( uAgent.indexOf( "Ubuntu" ) > -1 || uAgent.indexOf( "Debian" ) > -1) {
+                showOSDownloads( 'deb64' );
+            } else if( uAgent.indexOf( "Redhat" ) > -1 || uAgent.indexOf( "CentOS" ) > -1 ||
+              uAgent.indexOf( "Fedora" ) > -1 ) {
+                showOSDownloads( 'rpm64' );
+            } else {
+                $( '.id-all').removeClass('hidden').addClass('shown');
+            }
+            break;
+    }
 
-  switch (OSName) {
-    case "MacOS":
-      $('.dl-mac').addClass('selected');
-      $('.id-mac').removeClass('hidden').addClass('shown');
-      break;
-    case "Windows":
-      $('.dl-win64').addClass('selected');
-      $('.id-win64').removeClass('hidden').addClass('shown');
-      break;
-    case "Linux":
-      var is64 = navigator.userAgent.indexOf("x86_64") != -1;
-      if (navigator.userAgent.indexOf("Ubuntu") != -1 || navigator.userAgent.indexOf("Debian") != -1) {
-        $('.dl-deb64').addClass('selected');
-        $('.id-deb64').removeClass('hidden').addClass('shown');
-      } else if (navigator.userAgent.indexOf("Redhat") != -1 ||
-        navigator.userAgent.indexOf("CentOS") != -1 ||
-        navigator.userAgent.indexOf("Fedora") != -1) {
-        $('.dl-rpm64').addClass('selected');
-        $('.id-rpm64').removeClass('hidden').addClass('shown');
-      } else {
-        $('.id-all').removeClass('hidden').addClass('shown');
-      }
-      break;
-  }
+    //mobile
+    if( /android/i.test( uAgent ) ) {
+        $( '.downloads-android' ).removeClass( 'hidden' ).addClass( 'shown' );
+        $( '.id-all').removeClass( 'hidden' ).addClass( 'shown' );
+    }
+    if( /iPad|iPhone|iPod/.test( uAgent ) && !window.MSStream ) {
+        $( '.downloads-ios' ).removeClass('hidden').addClass( 'shown' );
+        $( '.id-all' ).removeClass( 'hidden' ).addClass( 'shown' );
+    }
 
+    //add virtual pageview and event tracking for download attempts
+    $( '.dl-win64, .dl-mac, .dl-deb64' ).on( 'click', function() {
+        ga( 'send', 'pageview', location.pathname + 'release' );
+        ga( 'send', 'event', 'Release Build', 'download', $(this).attr('class').split('-').pop() );
+    });
 
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-  if (/windows phone/i.test(userAgent)) {
-    //nothing yet
-  }
-  if (/android/i.test(userAgent)) {
-    $('.downloads-android').removeClass('hidden').addClass('shown');
-    $('.id-all').removeClass('hidden').addClass('shown');
-  }
-  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-    $('.downloads-ios').removeClass('hidden').addClass('shown');
-    $('.id-all').removeClass('hidden').addClass('shown');
-  }
-
-
-
-  //console.log(OSName);
-
-  // add virtual pageview and event tracking for download attempts
-  $('.dl-win64, .dl-mac, .dl-deb64').click(function() {
-    ga('send', 'pageview', location.pathname + 'release');
-    ga('send', 'event', 'Release Build', 'download', $(this).attr('class').split('-').pop());
-  });
-
+    //change dom to show downloads for the specific os
+    function showOSDownloads( os ) {
+        $( '.dl-' + os ).addClass( 'selected' );
+        $( '.id-' + os ).removeClass( 'hidden' ).addClass( 'shown' );
+        return;
+    }
 
 
 

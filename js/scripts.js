@@ -14,14 +14,12 @@ $(document).ready(function() {
     case "MacOS":
       $('.dl-mac').addClass('selected');
       $('.id-mac').removeClass('hidden').addClass('shown');
-      $('.id-all').removeClass('shown').addClass('hidden');
       break;
     case "Windows":
       if (navigator.userAgent.indexOf("WOW64") != -1 || navigator.userAgent.indexOf("Win64") != -1) {
         $('.dl-win64').addClass('selected');
         $('.id-win64').removeClass('hidden').addClass('shown');
       }
-      $('.id-all').removeClass('shown').addClass('hidden');
       break;
     case "Linux":
       var is64 = navigator.userAgent.indexOf("x86_64") != -1;
@@ -34,7 +32,6 @@ $(document).ready(function() {
         $(is64 ? '.dl-rpm64' : '.dl-rpm32').addClass('selected');
         $(is64 ? '.id-rpm64' : '.id-rpm32').removeClass('hidden').addClass('shown');
       }
-      $('.id-all').removeClass('shown').addClass('hidden');
       break;
   }
 
@@ -45,9 +42,11 @@ $(document).ready(function() {
   }
   if (/android/i.test(userAgent)) {
     $('.downloads-android').removeClass('hidden').addClass('shown');
+    $('.id-all').removeClass('hidden').addClass('shown');
   }
   if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
     $('.downloads-ios').removeClass('hidden').addClass('shown');
+    $('.id-all').removeClass('hidden').addClass('shown');
   }
 
 

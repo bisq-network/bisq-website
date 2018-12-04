@@ -19,6 +19,17 @@
 
                         <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button">
 
+                          <div class="id-win32 hidden">
+                            <div class="float-left">
+                                    <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
+                                    <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
+                                    Download for Windows
+                            </div>
+                            <div class="float-right">
+                              <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.exe">32bits</a>
+                            </div>
+                          </div>
+
                           <div class="id-win64 hidden">
                             <div class="float-left">
                                     <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
@@ -167,7 +178,8 @@
 
 
                     <p class="text-muted mb-0 mt-1 small" style="opacity: 0.5">
-                      v{{ site.client_version }} — <span class="id-win64 hidden">You appear to be running Windows 64 bit.</span>
+                      v{{ site.client_version }} — <span class="id-win32 hidden">You appear to be running Windows 32 bit.</span>
+                                                   <span class="id-win64 hidden">You appear to be running Windows 64 bit.</span>
                                                    <span class="id-mac hidden">You appear to be using a Mac.</span>
                                                    <span class="id-deb32 hidden">You appear to be using Debian/Ubuntu 32 bit.</span>
                                                    <span class="id-deb64 hidden">You appear to be using Debian/Ubuntu 64 bit.</span>

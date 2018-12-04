@@ -85,7 +85,7 @@ Released [December 3rd 2018](https://github.com/bisq-network/bisq/releases/tag/v
 
 ###### Assets
 - Add 25 new assets:
-Actinium (ACM), Bitcoin 2 (BTC2), Bitcoin Rhodium (XRC), Blur (BLUR), Chaucha (CHA), Croat (CROAT), Dragonglass (DRGL), EtherStone (ETHS), GreenBlockCoin (GBK), Kekcoin (KEK), Loki (LOKI), Mask (MASK), MoX (MOX), MobitGlobal (MBGL), MonetaryUnit (MUE), Neos (NEOS), PZDC (PZDC), QMCoin (QMCoin), Quantum Resistant Ledger (QRL), Radium (RADS), Ryo (RYO), SUB1X (SUB1X), Starwels (MAI), TurtleCoin (TRTL), Zero (ZER)
+Actinium (ACM), Bitcoin 2 (BTC2), Bitcoin Rhodium (XRC), Blur (BLUR), Chaucha (CHA), Croat (CROAT), Dragonglass (DRGL), EtherStone (ETHS), Kekcoin (KEK),  Mask (MASK), MoX (MOX), MobitGlobal (MBGL), MonetaryUnit (MUE), Neos (NEOS), PZDC (PZDC), QMCoin (QMCoin), Radium (RADS), Ryo (RYO), SUB1X (SUB1X), Starwels (MAI), TurtleCoin (TRTL), Zero (ZER)
 - Remove not traded assets.
 
 

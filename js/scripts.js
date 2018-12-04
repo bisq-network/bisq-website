@@ -16,25 +16,19 @@ $(document).ready(function() {
       $('.id-mac').removeClass('hidden').addClass('shown');
       break;
     case "Windows":
-      // if 64-bit
-      if (navigator.userAgent.indexOf("WOW64") != -1 || navigator.userAgent.indexOf("Win64") != -1) {
-        $('.dl-win64').addClass('selected');
-        $('.id-win64').removeClass('hidden').addClass('shown');
-      } else {
-        $('.dl-win32').addClass('selected');
-        $('.id-win32').removeClass('hidden').addClass('shown');
-      }
+      $('.dl-win64').addClass('selected');
+      $('.id-win64').removeClass('hidden').addClass('shown');
       break;
     case "Linux":
       var is64 = navigator.userAgent.indexOf("x86_64") != -1;
       if (navigator.userAgent.indexOf("Ubuntu") != -1 || navigator.userAgent.indexOf("Debian") != -1) {
-        $(is64 ? '.dl-deb64' : '.dl-deb32').addClass('selected');
-        $(is64 ? '.id-deb64' : '.id-deb32').removeClass('hidden').addClass('shown');
+        $('.dl-deb64').addClass('selected');
+        $('.id-deb64').removeClass('hidden').addClass('shown');
       } else if (navigator.userAgent.indexOf("Redhat") != -1 ||
         navigator.userAgent.indexOf("CentOS") != -1 ||
         navigator.userAgent.indexOf("Fedora") != -1) {
-        $(is64 ? '.dl-rpm64' : '.dl-rpm32').addClass('selected');
-        $(is64 ? '.id-rpm64' : '.id-rpm32').removeClass('hidden').addClass('shown');
+        $('.dl-rpm64').addClass('selected');
+        $('.id-rpm64').removeClass('hidden').addClass('shown');
       }
       break;
   }
@@ -58,7 +52,7 @@ $(document).ready(function() {
   //console.log(OSName);
 
   // add virtual pageview and event tracking for download attempts
-  $('.dl-win32, .dl-win64, .dl-mac, .dl-deb32, .dl-deb64').click(function() {
+  $('.dl-win64, .dl-mac, .dl-deb64').click(function() {
     ga('send', 'pageview', location.pathname + 'release');
     ga('send', 'event', 'Release Build', 'download', $(this).attr('class').split('-').pop());
   });

@@ -1,46 +1,65 @@
 $( document ).ready( function() {
 
+
     /**************************************************
     detect os to show correct download links
     **************************************************/
 
+    var desktop = true;
     var uAgent = navigator.userAgent || navigator.vendor || window.opera;
-    var OSName = "Unknown OS";
+    var osName = "unknown";
+    var downloadLink = "<site_url_placeholder>/downloads";
 
     if( uAgent.indexOf( "Win" ) > -1 ) {
-        OSName = "Windows";
+        osName = "Windows";
+        downloadLink = "https://github.com/bisq-network/bisq/releases/download/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.exe";
     } else if( uAgent.indexOf( "Mac" ) > -1 ) {
-        OSName = "MacOS";
-    } else if( uAgent.indexOf( "Linux" ) > -1 ) {
-        OSName = "Linux";
-    }
-
-    //desktop
-    switch( OSName ) {
-        case "MacOS":
-            showOSDownloads( 'mac' );
-            break;
-        case "Windows":
-            showOSDownloads( 'win64' );
-            break;
-        case "Linux":
-            if( uAgent.indexOf( "Ubuntu" ) > -1 || uAgent.indexOf( "Debian" ) > -1 ) {
-                showOSDownloads( 'deb64' );
-            } else {
-                $( '.id-all').removeClass('hidden').addClass('shown');
-            }
-            break;
+        osName = "MacOS";
+        downloadLink = "https://github.com/bisq-network/bisq/releases/download/v<bisq_version_placeholder>/Bisq-<bisq_version_placeholder>.dmg";
+    } else if( uAgent.indexOf( "Linux" ) > -1 && ( uAgent.indexOf( "Ubuntu" ) > -1 || uAgent.indexOf( "Debian" ) > -1 ) ) {
+        osName = "Linux";
+        downloadLink = "https://github.com/bisq-network/bisq/releases/download/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.deb";
     }
 
     //mobile
     if( /android/i.test( uAgent ) ) {
+        desktop = false;
         $( '.downloads-android' ).removeClass( 'hidden' ).addClass( 'shown' );
         $( '.id-all').removeClass( 'hidden' ).addClass( 'shown' );
     }
     if( /iPad|iPhone|iPod/.test( uAgent ) && !window.MSStream ) {
+        desktop = false;
         $( '.downloads-ios' ).removeClass('hidden').addClass( 'shown' );
         $( '.id-all' ).removeClass( 'hidden' ).addClass( 'shown' );
     }
+
+    //desktop
+    if( desktop ) {
+        switch( osName ) {
+            case "MacOS":
+                showOSDownloads( 'mac' );
+                break;
+            case "Windows":
+                showOSDownloads( 'win64' );
+                break;
+            case "Linux":
+                showOSDownloads( 'deb64' );
+                break;
+            default:
+                $( '.id-all').removeClass('hidden').addClass('shown');
+                break;
+        }
+    }
+
+    //capture click on currently-selected value in dropdown (otherwise
+    //link click event doesn't register on firefox)
+    $( 'button.selected-os-download' ).on( 'click', function(e) {
+        if( ( e.target.className ).indexOf( 'dl-' ) > -1 ) {
+            return;
+        } else {
+            serveDownload( $( e.currentTarget ).attr( 'data-bisq-version' ), $( e.currentTarget ).attr( 'data-site-url' ) );
+        }
+    });
 
     //add virtual pageview and event tracking for download attempts
     $( '.dl-win64, .dl-mac, .dl-deb64' ).on( 'click', function() {
@@ -55,6 +74,15 @@ $( document ).ready( function() {
         return;
     }
 
+    function serveDownload( bisqVersion, siteURL ) {
+        if( osName === 'unknown' ) {
+            downloadLink = downloadLink.replace( /<site_url_placeholder>/g, siteURL );
+        } else {
+            downloadLink = downloadLink.replace( /<bisq_version_placeholder>/g, bisqVersion );
+        }
+        location.href = downloadLink;
+        return;
+    }
 
 
 

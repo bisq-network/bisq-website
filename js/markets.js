@@ -252,12 +252,12 @@ function buildData(jsonUrl){
       //api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=
       pair = 'btc';
 
-      jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&interval=day";
+      jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=day";
       console.log("chart volumes: " + pair);
       getTrades('all');
 
     }else{
-      var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback';
+      var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback'+'&callback=?';
       console.log("chart hloc: " + pair);
       getTrades(pair);
       getOffers(pair);

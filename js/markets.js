@@ -55,8 +55,6 @@ function getTrades(pair){
                       jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=jsonpretty';
                       //jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
 
-                      console.log(jsonUrl);
-
                       $.get( jsonUrl, function( data ) {
 
 
@@ -253,7 +251,7 @@ function buildData(jsonUrl){
       pair = 'btc';
 
       jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=day";
-      console.log("chart volumes: " + pair);
+      //console.log("chart volumes: " + pair);
       getTrades('all');
 
     }else{
@@ -262,12 +260,6 @@ function buildData(jsonUrl){
       getTrades(pair);
       getOffers(pair);
     }
-
-
-
-
-    console.log(jsonUrl);
-
 
     $.getJSON(jsonUrl, function (data) {
 

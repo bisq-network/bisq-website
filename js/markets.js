@@ -116,7 +116,7 @@ function getTrades(pair){
                               $('<th>').text('Action'),
                               $('<th>').text('Price ('+buildTKR(pair)+')'),
                               $('<th>').text('Trade Size (BTC)'),
-                              $('<th>').text('Trade Size ('+buildTKR(pair)+')'),
+                              $('<th>').text('Trade Size ('+buildTKR(pair)+')')
                             ).appendTo('#trade-history-header');
 
                         }else{

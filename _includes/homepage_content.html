@@ -24,7 +24,7 @@
                                       Download for Windows
                                   </div>
                                   <div class="float-right">
-                                      <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a>
+                                      <a class="dl-win64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a>
                                   </div>
                               </div>
 
@@ -35,7 +35,7 @@
                                       Download for Mac
                                   </div>
                                   <div class="float-right">
-                                      <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
+                                      <a class="dl-mac" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
                                   </div>
                               </div>
 
@@ -46,7 +46,7 @@
                                       Download for Debian/Ubuntu
                                   </div>
                                   <div class="float-right">
-                                      <a class="dl-deb64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.9.0');">.deb</a>
+                                      <a class="dl-deb64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">.deb</a>
                                   </div>
                               </div>
 
@@ -73,39 +73,29 @@
                       </div>
 
 
-
-
-
-
-
-
                       <a href="{{ site.url }}/downloads" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                                <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
-                                <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
-                                Downloads
+                          <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
+                          <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
+                          Downloads
                       </a>
 
 
-                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Android App');">
-                                <img src="{{ site.url }}/images/icon-android-g.svg" class="os-icon os-icon-g">
-                                <img src="{{ site.url }}/images/icon-android-w.svg" class="os-icon os-icon-w">
-                                Get Android Notifications App
+                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
+                          <img src="{{ site.url }}/images/icon-android-g.svg" class="os-icon os-icon-g">
+                          <img src="{{ site.url }}/images/icon-android-w.svg" class="os-icon os-icon-w">
+                          Get Android Notifications App
                       </a>
 
 
-                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download iOS App');">
-                                <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                                <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
-                                Get iOS Notifications App
+                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
+                          <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
+                          <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                          Get iOS Notifications App
                       </a>
 
 
-
-
-
-                      <a href="https://docs.bisq.network/getting-started.html" target="_blank" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Whitepaper');">
-
-                                Get Started »
+                      <a href="https://docs.bisq.network/getting-started.html" target="_blank" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn">
+                          Get Started »
                       </a>
 
                       {% comment %}

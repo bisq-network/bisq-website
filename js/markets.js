@@ -4,7 +4,7 @@ buildData(pair);
 $( document ).ready( function() {
     $(".chosen-select").chosen( { width: "100%" } );
 
-    $('.chosen-select').change(function(){
+    $( '.chosen-select').change(function(){
         var url = window.location.href.split( '?' )[0];
 
         if( $( "#currency" ).val() !== 'Select' ) {
@@ -30,15 +30,15 @@ function getUrlParameter( requestedParam ) {
 };
 
 function buildTicker( pair, print ){
-  if( pair ) {
-      var ticker = '';
-      if( pair !== 'btc' ){
-          ticker = pair.replace( "btc", '' ).replace( "_", '' );
-      } else if( print === false ) {
-          return '';
-      }
-      return ticker.toUpperCase();
-  }
+    if( pair ) {
+        var ticker = '';
+        if( pair !== 'btc' ){
+            ticker = pair.replace( "btc", '' ).replace( "_", '' );
+        } else if( print === false ) {
+            return '';
+        }
+        return ticker.toUpperCase();
+    }
 }
 
 function buildChartTitle( valueFinal, pair ) {
@@ -54,119 +54,123 @@ function buildChartTitle( valueFinal, pair ) {
     }
 }
 
-function getTrades(pair){
+//keep all numbers to constant significant figures
+function roundToSigFigs( num ) {
 
-        var actionTicker = ' '+buildTicker(pair);
-        var jsonUrl = '';
-        var tradeDate = '';
-        var dateFormat = "mmm d, yyyy - HH:MM:ss";
+    var precision = 0;
+    num = parseFloat( num );
 
-        if(pair === undefined || pair === 'all'){
+    if( num < parseFloat( .1 ) ) {
+        precision = Math.floor( Math.log10( num ) ) + 1;
+        return num.toPrecision( 5 + precision );
+    } else {
+        precision = Math.floor( Math.log10( num/.0001 ) ) - 1;
+        return num.toPrecision( precision );
+    }
+}
 
-                      pair = 'all';
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=jsonpretty';
-                      //jsonUrl = baseUrl+'/js/sample_data/trades_all.json';
+//fill table
+function getTrades( pair ) {
 
-                      $.get( jsonUrl, function( data ) {
+    var actionTicker = buildTicker( pair );
+    var jsonUrl = '';
+    var tradeDate = '';
+    var dateFormat = "mmm d, yyyy - HH:MM:ss";
+
+    if( !pair || pair === 'all' ) {
+
+        pair = 'all';
+        jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=jsonpretty';
+
+        $.get( jsonUrl, function( data ) {
 
 
-                        $('<tr>').append(
-                          $('<th>').text('Date'),
-                          $('<th>').text('Action'),
-                          $('<th>').text('Price'),
-                          $('<th>').text('Amount in BTC'),
-                          $('<th>').text('Amount')
+            $( '<tr>' ).append(
+                $( '<th>' ).text( 'Date' ),
+                $( '<th>' ).text( 'Action' ),
+                $( '<th>' ).text( 'Price' ),
+                $( '<th>' ).text( 'Amount in BTC' ),
+                $( '<th>' ).text( 'Trade Amount')
+            ).appendTo( '#trade-history-header' );
+
+            data = JSON.parse(data); console.log( data );
+            $.each( data, function( key, val ) {
+
+                tradeDate = new Date( val.trade_date );
+
+                $( '<tr>' ).append(
+                    $( '<td>' ).html( tradeDate.format( dateFormat ) ),
+                    $( '<td>' ).text( val.direction + ' ' + buildTicker( val.market ) ),
+                    $( '<td>' ).text( roundToSigFigs( val.price ) + ( val.payment_method === 'BLOCK_CHAINS' ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
+                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? '—' : roundToSigFigs( val.amount ) ) ),
+                    $( '<td>' ).text( roundToSigFigs( val.volume ) + ' ' + buildTicker( val.market ) )
+                ).appendTo( '#trade-history-body' );
+
+            });
+
+        });
+
+    } else{
+
+
+                  jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair;
+                  //jsonUrl = baseUrl+'/js/sample_data/trades_'+pair+'.json';
+
+                  console.log(jsonUrl);
+
+
+                  $.get( jsonUrl, function( data ) {
+
+
+                    $( '#offers').show();
+
+                    if(pair.startsWith("btc")){
+                      $( '<tr>' ).append(
+                          $( '<th>' ).text( 'Date' ),
+                          $( '<th>' ).text( 'Action' ),
+                          $( '<th>' ).text( 'Price ('+buildTicker(pair)+')' ),
+                          $( '<th>' ).text( 'Trade Size (BTC)' ),
+                          $( '<th>' ).text( 'Trade Size ('+buildTicker(pair)+')')
                         ).appendTo('#trade-history-header');
 
-                        $.each( JSON.parse(data), function( key, val ) {
-
-                            /*
-                            amount: "0.03260000"
-                            direction: "SELL"
-                            market: "btc_usd"
-                            payment_method: "CLEAR_X_CHANGE"
-                            price: "7058.66910000"
-                            trade_date: 1539908123775
-                            trade_id: "FYFTP-ba7cb6c2-7a40-4b91-9a70-003ed8823585-080"
-                            volume: "230.11260000"
-                            */
-
-                            tradeDate = new Date(val.trade_date);
-
-                            $('<tr>').append(
-                                $('<td>').html(tradeDate.format(dateFormat)),
-                                $('<td>').text(val.direction + ' ' + buildTicker(val.market)),
-                                $('<td>').text(parseFloat(val.price)),
-                                $('<td>').text(parseFloat(val.amount)),
-                                $('<td>').text(parseFloat(val.volume) + ' ' + buildTicker(val.market))
-                            ).appendTo('#trade-history-body');
-
-                        });
-
-                      });
+                    }else{
+                      $( '<tr>' ).append(
+                          $( '<th>' ).text( 'Date' ),
+                          $( '<th>' ).text( 'Action' ),
+                          $( '<th>' ).text( 'Price (BTC)' ),
+                          $( '<th>' ).text( 'Trade Size ('+buildTicker(pair)+')' ),
+                          $( '<th>' ).text( 'Trade Size (BTC)')
+                      ).appendTo('#trade-history-header');
+                    }
 
 
-        }else{
+                    $.each( JSON.parse(data) , function( key, val ) {
+                        /*
+                        amount: "0.03260000"
+                        direction: "SELL"
+                        market: "btc_usd"
+                        payment_method: "CLEAR_X_CHANGE"
+                        price: "7058.66910000"
+                        trade_date: 1539908123775
+                        trade_id: "FYFTP-ba7cb6c2-7a40-4b91-9a70-003ed8823585-080"
+                        volume: "230.11260000"
+                        */
 
+                        tradeDate = new Date(val.trade_date);
 
-                      jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair;
-                      //jsonUrl = baseUrl+'/js/sample_data/trades_'+pair+'.json';
+                        $( '<tr>' ).append(
+                            $( '<td>' ).text(tradeDate.format(dateFormat)),
+                            $( '<td>' ).text(val.direction + ' ' + actionTicker),
+                            $( '<td>' ).text( parseFloat(val.price)),
+                            $( '<td>' ).text( parseFloat(val.amount)),
+                            $( '<td>' ).text( parseFloat(val.volume))
+                        ).appendTo('#trade-history-body');
 
-                      console.log(jsonUrl);
+                    });
 
+                  });
 
-                      $.get( jsonUrl, function( data ) {
-
-
-                        $('#offers').show();
-
-                        if(pair.startsWith("btc")){
-                          $('<tr>').append(
-                              $('<th>').text('Date'),
-                              $('<th>').text('Action'),
-                              $('<th>').text('Price ('+buildTicker(pair)+')'),
-                              $('<th>').text('Trade Size (BTC)'),
-                              $('<th>').text('Trade Size ('+buildTicker(pair)+')')
-                            ).appendTo('#trade-history-header');
-
-                        }else{
-                          $('<tr>').append(
-                              $('<th>').text('Date'),
-                              $('<th>').text('Action'),
-                              $('<th>').text('Price (BTC)'),
-                              $('<th>').text('Trade Size ('+buildTicker(pair)+')'),
-                              $('<th>').text('Trade Size (BTC)')
-                          ).appendTo('#trade-history-header');
-                        }
-
-
-                        $.each( JSON.parse(data) , function( key, val ) {
-                            /*
-                            amount: "0.03260000"
-                            direction: "SELL"
-                            market: "btc_usd"
-                            payment_method: "CLEAR_X_CHANGE"
-                            price: "7058.66910000"
-                            trade_date: 1539908123775
-                            trade_id: "FYFTP-ba7cb6c2-7a40-4b91-9a70-003ed8823585-080"
-                            volume: "230.11260000"
-                            */
-
-                            tradeDate = new Date(val.trade_date);
-
-                            $('<tr>').append(
-                                $('<td>').text(tradeDate.format(dateFormat)),
-                                $('<td>').text(val.direction+actionTicker),
-                                $('<td>').text(parseFloat(val.price)),
-                                $('<td>').text(parseFloat(val.amount)),
-                                $('<td>').text(parseFloat(val.volume))
-                            ).appendTo('#trade-history-body');
-
-                        });
-
-                      });
-
-        }
+    }
 
 }
 
@@ -197,56 +201,56 @@ function getOffers(pair){
 
 
         if(pair.startsWith("btc")){
-          $('<tr>').append(
-              $('<th>').text('Price'),
-              $('<th>').text('BTC'),
-              $('<th>').text(buildTicker(pair)),
-              $('<th>').text('Sum ('+buildTicker(pair)+')'),
+          $( '<tr>' ).append(
+              $( '<th>' ).text( 'Price' ),
+              $( '<th>' ).text( 'BTC' ),
+              $( '<th>' ).text(buildTicker(pair)),
+              $( '<th>' ).text( 'Sum ('+buildTicker(pair)+')' ),
             ).appendTo('#buy-offers-header');
-            $('<tr>').append(
-                $('<th>').text('Price'),
-                $('<th>').text('BTC'),
-                $('<th>').text(buildTicker(pair)),
-                $('<th>').text('Sum ('+buildTicker(pair)+')'),
+            $( '<tr>' ).append(
+                $( '<th>' ).text( 'Price' ),
+                $( '<th>' ).text( 'BTC' ),
+                $( '<th>' ).text(buildTicker(pair)),
+                $( '<th>' ).text( 'Sum ('+buildTicker(pair)+')' ),
             ).appendTo('#sell-offers-header');
         }else{
-            $('<tr>').append(
-              $('<th>').text('Price'),
-              $('<th>').text(buildTicker(pair)),
-              $('<th>').text('BTC'),
-              $('<th>').text('Sum (BTC)'),
+            $( '<tr>' ).append(
+              $( '<th>' ).text( 'Price' ),
+              $( '<th>' ).text(buildTicker(pair)),
+              $( '<th>' ).text( 'BTC' ),
+              $( '<th>' ).text( 'Sum (BTC)' ),
             ).appendTo('#buy-offers-header');
-            $('<tr>').append(
-              $('<th>').text('Price'),
-              $('<th>').text(buildTicker(pair)),
-              $('<th>').text('BTC'),
-              $('<th>').text('Sum (BTC)'),
+            $( '<tr>' ).append(
+              $( '<th>' ).text( 'Price' ),
+              $( '<th>' ).text(buildTicker(pair)),
+              $( '<th>' ).text( 'BTC' ),
+              $( '<th>' ).text( 'Sum (BTC)' ),
             ).appendTo('#sell-offers-header');
         }
 
 
         $.each( data[pair].buys, function( key, val ) {
           volTotal = parseFloat(volTotal) + parseFloat(val.volume);
-          $('<tr>').append(
-              $('<td>').text(parseFloat(val.price)),
-              $('<td>').text(parseFloat(val.amount)),
-              $('<td>').text(parseFloat(val.volume)),
-              $('<td>').text(volTotal)
+          $( '<tr>' ).append(
+              $( '<td>' ).text( parseFloat(val.price)),
+              $( '<td>' ).text( parseFloat(val.amount)),
+              $( '<td>' ).text( parseFloat(val.volume)),
+              $( '<td>' ).text(volTotal)
           ).appendTo('#buy-offers-body');
 
         });
 
         $.each( data[pair].sells, function( key, val ) {
           volTotal = parseFloat(volTotal) + parseFloat(val.volume);
-          $('<tr>').append(
-              $('<td>').text(parseFloat(val.price)),
-              $('<td>').text(parseFloat(val.amount)),
-              $('<td>').text(parseFloat(val.volume)),
-              $('<td>').text(volTotal)
+          $( '<tr>' ).append(
+              $( '<td>' ).text( parseFloat(val.price)),
+              $( '<td>' ).text( parseFloat(val.amount)),
+              $( '<td>' ).text( parseFloat(val.volume)),
+              $( '<td>' ).text(volTotal)
             ).appendTo('#sell-offers-body');
         });
 
-        $('#offers').show();
+        $( '#offers').show();
 
     });
 

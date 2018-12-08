@@ -29,38 +29,34 @@ function getUrlParameter( requestedParam ) {
     }
 };
 
-function buildTKR(pair, print){
-  if(pair !== undefined){
-    var ticker = '';
-    if (pair == 'btc'){
-      ticker = 'BTC';
-    }else{
-      ticker = pair.replace("btc", '');
-      ticker = ticker.replace("_", '').toUpperCase();
-    }
-    if(pair === 'btc' && print === false){return ''; }else{ return ticker; }
+function buildTicker( pair, print ){
+  if( pair ) {
+      var ticker = '';
+      if( pair !== 'btc' ){
+          ticker = pair.replace( "btc", '' ).replace( "_", '' );
+      } else if( print === false ) {
+          return '';
+      }
+      return ticker.toUpperCase();
   }
 }
 
-function buildTitle(valueFinal, pair){
-  if(pair !== 'btc'){
-    var suffix = '';
-    suffix = ' <span class="currency-pair">'+buildTKR(pair)+'</span>';
-    if(pair.startsWith("btc")){
-      valueFinal = valueFinal;
-    }else{
-      valueFinal = 1 / valueFinal;
+function buildChartTitle( valueFinal, pair ) {
+    if( pair !== 'btc' ) {
+        var suffix = '';
+        suffix = ' <span class="currency-pair">' + buildTicker( pair ) + '</span>';
+        if( !pair.startsWith( "btc" ) ) {
+            valueFinal = Math.round( ( 1 / valueFinal ) * 100 ) / 100;
+        }
+        return '<span class="btc-note">1 BTC</span>' + '<span class="price">' + valueFinal + '</span>' + suffix;
+    } else {
+        return '<span class="btc-note">Volume and</span>' + '<span class="price">Trades</span>';
     }
-    valueFinal = Math.round(valueFinal * 100) / 100;
-    return '<span class="btc-note">1 BTC</span>'+'<span class="price">'+valueFinal+'</span>'+suffix;
-  }else{
-    return '<span class="btc-note">Volume and</span>'+'<span class="price">Trades</span>';
-  }
 }
 
 function getTrades(pair){
 
-        var actionTicker = ' '+buildTKR(pair);
+        var actionTicker = ' '+buildTicker(pair);
         var jsonUrl = '';
         var tradeDate = '';
         var dateFormat = "mmm d, yyyy - HH:MM:ss";
@@ -99,10 +95,10 @@ function getTrades(pair){
 
                             $('<tr>').append(
                                 $('<td>').html(tradeDate.format(dateFormat)),
-                                $('<td>').text(val.direction + ' ' + buildTKR(val.market)),
+                                $('<td>').text(val.direction + ' ' + buildTicker(val.market)),
                                 $('<td>').text(parseFloat(val.price)),
                                 $('<td>').text(parseFloat(val.amount)),
-                                $('<td>').text(parseFloat(val.volume) + ' ' + buildTKR(val.market))
+                                $('<td>').text(parseFloat(val.volume) + ' ' + buildTicker(val.market))
                             ).appendTo('#trade-history-body');
 
                         });
@@ -128,9 +124,9 @@ function getTrades(pair){
                           $('<tr>').append(
                               $('<th>').text('Date'),
                               $('<th>').text('Action'),
-                              $('<th>').text('Price ('+buildTKR(pair)+')'),
+                              $('<th>').text('Price ('+buildTicker(pair)+')'),
                               $('<th>').text('Trade Size (BTC)'),
-                              $('<th>').text('Trade Size ('+buildTKR(pair)+')')
+                              $('<th>').text('Trade Size ('+buildTicker(pair)+')')
                             ).appendTo('#trade-history-header');
 
                         }else{
@@ -138,7 +134,7 @@ function getTrades(pair){
                               $('<th>').text('Date'),
                               $('<th>').text('Action'),
                               $('<th>').text('Price (BTC)'),
-                              $('<th>').text('Trade Size ('+buildTKR(pair)+')'),
+                              $('<th>').text('Trade Size ('+buildTicker(pair)+')'),
                               $('<th>').text('Trade Size (BTC)')
                           ).appendTo('#trade-history-header');
                         }
@@ -204,25 +200,25 @@ function getOffers(pair){
           $('<tr>').append(
               $('<th>').text('Price'),
               $('<th>').text('BTC'),
-              $('<th>').text(buildTKR(pair)),
-              $('<th>').text('Sum ('+buildTKR(pair)+')'),
+              $('<th>').text(buildTicker(pair)),
+              $('<th>').text('Sum ('+buildTicker(pair)+')'),
             ).appendTo('#buy-offers-header');
             $('<tr>').append(
                 $('<th>').text('Price'),
                 $('<th>').text('BTC'),
-                $('<th>').text(buildTKR(pair)),
-                $('<th>').text('Sum ('+buildTKR(pair)+')'),
+                $('<th>').text(buildTicker(pair)),
+                $('<th>').text('Sum ('+buildTicker(pair)+')'),
             ).appendTo('#sell-offers-header');
         }else{
             $('<tr>').append(
               $('<th>').text('Price'),
-              $('<th>').text(buildTKR(pair)),
+              $('<th>').text(buildTicker(pair)),
               $('<th>').text('BTC'),
               $('<th>').text('Sum (BTC)'),
             ).appendTo('#buy-offers-header');
             $('<tr>').append(
               $('<th>').text('Price'),
-              $('<th>').text(buildTKR(pair)),
+              $('<th>').text(buildTicker(pair)),
               $('<th>').text('BTC'),
               $('<th>').text('Sum (BTC)'),
             ).appendTo('#sell-offers-header');
@@ -437,7 +433,7 @@ function buildData(jsonUrl){
             },
 
             title: {
-                text: buildTitle(data[dataLength-1][7], pair),
+                text: buildChartTitle(data[dataLength-1][7], pair),
                 align: 'left',
                 x:20,
                 y:30,
@@ -567,7 +563,7 @@ function buildData(jsonUrl){
                   type: 'line',
                   name: seriesTitle1,
                   tooltip: {
-                      valueSuffix: ' '+buildTKR(pair, false)
+                      valueSuffix: ' '+buildTicker(pair, false)
                   },
                   data: avg,
                   yAxis: 1,
@@ -586,7 +582,7 @@ function buildData(jsonUrl){
                   type: 'column',
                   name: 'Volume',
                   tooltip: {
-                      valueSuffix: ' ' + buildTKR(pair)
+                      valueSuffix: ' ' + buildTicker(pair)
                   },
                   data: volume,
                   color: '#bbb',

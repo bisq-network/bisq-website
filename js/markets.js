@@ -1,14 +1,30 @@
-function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-        sURLVariables = sPageURL.split('&'),
-        sParameterName,
-        i;
+var pair = getUrlParameter( "currency" );
+buildData(pair);
 
-    for (i = 0; i < sURLVariables.length; i++) {
-        sParameterName = sURLVariables[i].split('=');
+$( document ).ready( function() {
+    $(".chosen-select").chosen( { width: "100%" } );
 
-        if (sParameterName[0] === sParam) {
-            return sParameterName[1] === undefined ? true : sParameterName[1];
+    $('.chosen-select').change(function(){
+        var url = window.location.href.split( '?' )[0];
+
+        if( $( "#currency" ).val() !== 'Select' ) {
+            url += "?currency=" + encodeURIComponent( $( "#currency" ).val() );
+        }
+
+        window.location.href = url;
+    });
+});
+
+function getUrlParameter( requestedParam ) {
+    var queryString = decodeURIComponent( window.location.search.substring(1) );
+    var queryVars = queryString.split('&');
+    var queryParam = "";
+
+    for( var i = 0; i < queryVars.length; i++ ) {
+        queryParam = queryVars[i].split( '=' );
+
+        if ( queryParam[0] === requestedParam ) {
+            return queryParam[1];
         }
     }
 };
@@ -624,36 +640,4 @@ function buildData(jsonUrl){
         });
     });
 
-
-    $('#container').append( "<p>Test</p>" );
-
 }
-
-
-
-
-
-var pair = getUrlParameter('currency');
-buildData(pair);
-
-
-$(document).ready(function() {
-       $(".chosen-select").chosen({
-         no_results_text: "Oops, nothing found!",
-         width: "100%"
-       });
-       var currency = getUrlParameter('currency');
-       if(currency !== undefined){
-         $('.chosen-select').val(currency).trigger("chosen:updated");
-       }
-       $('.chosen-select').change(function(){
-          var url = window.location.href.split('?')[0] + '?';
-          if($("#currency").val()!='Select')
-          url+='currency='+encodeURIComponent($("#currency").val())+'&';
-          url = url.replace(/\&$/,'');
-          console.log(url);
-          window.location.href=url;
-          //window.history.pushState("object or string", "Title", url);
-          //buildData($("#currency").val());
-        });
-});

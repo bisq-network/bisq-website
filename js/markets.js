@@ -1,5 +1,5 @@
 var pair = getUrlParameter( "currency" );
-buildData(pair);
+buildData( pair );
 
 $( document ).ready( function() {
     $(".chosen-select").chosen( { width: "100%" } );
@@ -93,7 +93,7 @@ function getTrades( pair ) {
                 $( '<th>' ).text( 'Trade Amount')
             ).appendTo( '#trade-history-header' );
 
-            data = JSON.parse(data); console.log( data );
+            data = JSON.parse(data);
             $.each( data, function( key, val ) {
 
                 tradeDate = new Date( val.trade_date );
@@ -102,7 +102,7 @@ function getTrades( pair ) {
                     $( '<td>' ).html( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + buildTicker( val.market ) ),
                     $( '<td>' ).text( roundToSigFigs( val.price ) + ( val.payment_method === 'BLOCK_CHAINS' ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
-                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? '—' : roundToSigFigs( val.amount ) ) ),
+                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.price * val.volume ) : roundToSigFigs( val.amount ) ) ),
                     $( '<td>' ).text( roundToSigFigs( val.volume ) + ' ' + buildTicker( val.market ) )
                 ).appendTo( '#trade-history-body' );
 
@@ -110,65 +110,48 @@ function getTrades( pair ) {
 
         });
 
-    } else{
+    } else {
 
+        jsonUrl = 'https://markets.bisq.network/api/trades?market=' + pair;
 
-                  jsonUrl = 'https://markets.bisq.network/api/trades?market='+pair;
-                  //jsonUrl = baseUrl+'/js/sample_data/trades_'+pair+'.json';
+        $.get( jsonUrl, function( data ) {
 
-                  console.log(jsonUrl);
+            $( '#offers').show();
 
+            if( pair.startsWith( "btc" ) ){
+                $( '<tr>' ).append(
+                    $( '<th>' ).text( 'Date' ),
+                    $( '<th>' ).text( 'Action' ),
+                    $( '<th>' ).text( 'Price (' + buildTicker( pair ) + ')' ),
+                    $( '<th>' ).text( 'Trade Size (BTC)' ),
+                    $( '<th>' ).text( 'Trade Size (' + buildTicker( pair ) + ')' )
+                ).appendTo( '#trade-history-header' );
 
-                  $.get( jsonUrl, function( data ) {
+            } else {
+                $( '<tr>' ).append(
+                    $( '<th>' ).text( 'Date' ),
+                    $( '<th>' ).text( 'Action' ),
+                    $( '<th>' ).text( 'Price (BTC)' ),
+                    $( '<th>' ).text( 'Trade Size (BTC)' ),
+                    $( '<th>' ).text( 'Trade Size (' + buildTicker( pair ) + ')' )
+                ).appendTo( '#trade-history-header' );
+            }
 
+            data = JSON.parse( data );
+            $.each( data , function( key, val ) {
 
-                    $( '#offers').show();
+                tradeDate = new Date(val.trade_date);
+                $( '<tr>' ).append(
+                    $( '<td>' ).text( tradeDate.format( dateFormat ) ),
+                    $( '<td>' ).text( val.direction + ' ' + actionTicker ),
+                    $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.price * val.volume ) : roundToSigFigs( val.amount ) ) ),
+                    $( '<td>' ).text( roundToSigFigs( parseFloat( val.volume ) ) )
+                ).appendTo('#trade-history-body' );
 
-                    if(pair.startsWith("btc")){
-                      $( '<tr>' ).append(
-                          $( '<th>' ).text( 'Date' ),
-                          $( '<th>' ).text( 'Action' ),
-                          $( '<th>' ).text( 'Price ('+buildTicker(pair)+')' ),
-                          $( '<th>' ).text( 'Trade Size (BTC)' ),
-                          $( '<th>' ).text( 'Trade Size ('+buildTicker(pair)+')')
-                        ).appendTo('#trade-history-header');
+            });
 
-                    }else{
-                      $( '<tr>' ).append(
-                          $( '<th>' ).text( 'Date' ),
-                          $( '<th>' ).text( 'Action' ),
-                          $( '<th>' ).text( 'Price (BTC)' ),
-                          $( '<th>' ).text( 'Trade Size ('+buildTicker(pair)+')' ),
-                          $( '<th>' ).text( 'Trade Size (BTC)')
-                      ).appendTo('#trade-history-header');
-                    }
-
-
-                    $.each( JSON.parse(data) , function( key, val ) {
-                        /*
-                        amount: "0.03260000"
-                        direction: "SELL"
-                        market: "btc_usd"
-                        payment_method: "CLEAR_X_CHANGE"
-                        price: "7058.66910000"
-                        trade_date: 1539908123775
-                        trade_id: "FYFTP-ba7cb6c2-7a40-4b91-9a70-003ed8823585-080"
-                        volume: "230.11260000"
-                        */
-
-                        tradeDate = new Date(val.trade_date);
-
-                        $( '<tr>' ).append(
-                            $( '<td>' ).text(tradeDate.format(dateFormat)),
-                            $( '<td>' ).text(val.direction + ' ' + actionTicker),
-                            $( '<td>' ).text( parseFloat(val.price)),
-                            $( '<td>' ).text( parseFloat(val.amount)),
-                            $( '<td>' ).text( parseFloat(val.volume))
-                        ).appendTo('#trade-history-body');
-
-                    });
-
-                  });
+        });
 
     }
 
@@ -184,7 +167,7 @@ function getTrades( pair ) {
 
 
 
-function getOffers(pair){
+function getOffers( pair ){
 
   if(pair == undefined || pair === 'all'){
     pair = 'all';
@@ -204,25 +187,25 @@ function getOffers(pair){
           $( '<tr>' ).append(
               $( '<th>' ).text( 'Price' ),
               $( '<th>' ).text( 'BTC' ),
-              $( '<th>' ).text(buildTicker(pair)),
-              $( '<th>' ).text( 'Sum ('+buildTicker(pair)+')' ),
+              $( '<th>' ).text(buildTicker( pair )),
+              $( '<th>' ).text( 'Sum ('+buildTicker( pair )+')' ),
             ).appendTo('#buy-offers-header');
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
                 $( '<th>' ).text( 'BTC' ),
-                $( '<th>' ).text(buildTicker(pair)),
-                $( '<th>' ).text( 'Sum ('+buildTicker(pair)+')' ),
+                $( '<th>' ).text(buildTicker( pair )),
+                $( '<th>' ).text( 'Sum ('+buildTicker( pair )+')' ),
             ).appendTo('#sell-offers-header');
         }else{
             $( '<tr>' ).append(
               $( '<th>' ).text( 'Price' ),
-              $( '<th>' ).text(buildTicker(pair)),
+              $( '<th>' ).text(buildTicker( pair )),
               $( '<th>' ).text( 'BTC' ),
               $( '<th>' ).text( 'Sum (BTC)' ),
             ).appendTo('#buy-offers-header');
             $( '<tr>' ).append(
               $( '<th>' ).text( 'Price' ),
-              $( '<th>' ).text(buildTicker(pair)),
+              $( '<th>' ).text(buildTicker( pair )),
               $( '<th>' ).text( 'BTC' ),
               $( '<th>' ).text( 'Sum (BTC)' ),
             ).appendTo('#sell-offers-header');
@@ -273,8 +256,8 @@ function buildData(jsonUrl){
     }else{
       var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback'+'&callback=?';
       console.log("chart hloc: " + pair);
-      getTrades(pair);
-      getOffers(pair);
+      getTrades( pair );
+      getOffers( pair );
     }
 
     $.getJSON(jsonUrl, function (data) {
@@ -586,7 +569,7 @@ function buildData(jsonUrl){
                   type: 'column',
                   name: 'Volume',
                   tooltip: {
-                      valueSuffix: ' ' + buildTicker(pair)
+                      valueSuffix: ' ' + buildTicker( pair )
                   },
                   data: volume,
                   color: '#bbb',

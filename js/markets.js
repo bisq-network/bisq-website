@@ -157,80 +157,56 @@ function getTrades( pair ) {
 
 }
 
-
-
-
-
-
-
-
-
-
-
 function getOffers( pair ){
 
-  if(pair == undefined || pair === 'all'){
-    pair = 'all';
-  }
+    if( !pair || pair === 'all' ){
+        return;
+    }
 
-  var volTotal = 0;
+    var jsonUrl = 'https://markets.bisq.network/api/offers?market=' + pair + '&format=jsonpretty';
 
-  var jsonUrl = 'https://markets.bisq.network/api/offers?market='+pair+'&format=jsonpretty';
-  //jsonUrl = baseUrl+'/js/sample_data/offers_'+pair+'.json';
+    $.getJSON( jsonUrl, function( data ) {
 
-  console.log(jsonUrl);
-
-      $.getJSON( jsonUrl, function( data ) {
-
-
-        if(pair.startsWith("btc")){
-          $( '<tr>' ).append(
-              $( '<th>' ).text( 'Price' ),
-              $( '<th>' ).text( 'BTC' ),
-              $( '<th>' ).text(buildTicker( pair )),
-              $( '<th>' ).text( 'Sum ('+buildTicker( pair )+')' ),
-            ).appendTo('#buy-offers-header');
+        if( pair.startsWith( "btc" ) ) {
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'BTC' ),
-                $( '<th>' ).text(buildTicker( pair )),
-                $( '<th>' ).text( 'Sum ('+buildTicker( pair )+')' ),
-            ).appendTo('#sell-offers-header');
-        }else{
-            $( '<tr>' ).append(
-              $( '<th>' ).text( 'Price' ),
-              $( '<th>' ).text(buildTicker( pair )),
-              $( '<th>' ).text( 'BTC' ),
-              $( '<th>' ).text( 'Sum (BTC)' ),
+                $( '<th>' ).text( 'Offer Amount (BTC)' ),
+                $( '<th>' ).text( 'Offer Price (' + ( buildTicker( pair ) + ')' ) ),
             ).appendTo('#buy-offers-header');
+
             $( '<tr>' ).append(
-              $( '<th>' ).text( 'Price' ),
-              $( '<th>' ).text(buildTicker( pair )),
-              $( '<th>' ).text( 'BTC' ),
-              $( '<th>' ).text( 'Sum (BTC)' ),
-            ).appendTo('#sell-offers-header');
+                $( '<th>' ).text( 'Price' ),
+                $( '<th>' ).text( 'Offer Amount (BTC)' ),
+                $( '<th>' ).text( 'Offer Price (' + ( buildTicker( pair ) + ')' ) ),
+            ).appendTo( '#sell-offers-header' );
+        } else {
+            $( '<tr>' ).append(
+                $( '<th>' ).text( 'Price' ),
+                $( '<th>' ).text( 'Offer Amount (' + buildTicker( pair ) + ')' ),
+                $( '<th>' ).text( 'Offer Price (BTC)' ),
+            ).appendTo('#buy-offers-header');
+
+            $( '<tr>' ).append(
+                $( '<th>' ).text( 'Price' ),
+                $( '<th>' ).text( 'Offer Amount (' + buildTicker( pair ) + ')' ),
+                $( '<th>' ).text( 'Offer Price (BTC)' ),
+            ).appendTo( '#sell-offers-header' );
         }
 
-
         $.each( data[pair].buys, function( key, val ) {
-          volTotal = parseFloat(volTotal) + parseFloat(val.volume);
-          $( '<tr>' ).append(
-              $( '<td>' ).text( parseFloat(val.price)),
-              $( '<td>' ).text( parseFloat(val.amount)),
-              $( '<td>' ).text( parseFloat(val.volume)),
-              $( '<td>' ).text(volTotal)
-          ).appendTo('#buy-offers-body');
-
+            $( '<tr>' ).append(
+                $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                $( '<td>' ).text( roundToSigFigs( val.payment_method === 'BLOCK_CHAINS' ? parseFloat( val.volume ) : parseFloat( val.amount ) ) ),
+                $( '<td>' ).text( roundToSigFigs( val.payment_method === 'BLOCK_CHAINS' ? parseFloat( val.volume * val.price ) : parseFloat( val.volume ) ) ),
+            ).appendTo('#buy-offers-body');
         });
 
         $.each( data[pair].sells, function( key, val ) {
-          volTotal = parseFloat(volTotal) + parseFloat(val.volume);
-          $( '<tr>' ).append(
-              $( '<td>' ).text( parseFloat(val.price)),
-              $( '<td>' ).text( parseFloat(val.amount)),
-              $( '<td>' ).text( parseFloat(val.volume)),
-              $( '<td>' ).text(volTotal)
-            ).appendTo('#sell-offers-body');
+            $( '<tr>' ).append(
+                $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                $( '<td>' ).text( roundToSigFigs( val.payment_method === 'BLOCK_CHAINS' ? parseFloat( val.volume ) : parseFloat( val.amount ) ) ),
+                $( '<td>' ).text( roundToSigFigs( val.payment_method === 'BLOCK_CHAINS' ? parseFloat( val.volume * val.price ) : parseFloat( val.volume ) ) ),
+            ).appendTo( '#sell-offers-body' );
         });
 
         $( '#offers').show();
@@ -245,7 +221,7 @@ function getOffers( pair ){
 function buildData(jsonUrl){
 
 
-    if(pair == undefined || pair === 'all'){
+    if( !pair || pair === 'all' ) {
       //api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=
       pair = 'btc';
 

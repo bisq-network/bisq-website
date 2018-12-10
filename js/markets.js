@@ -32,14 +32,12 @@ function getUrlParameter( requestedParam ) {
 };
 
 
-function buildTicker( pair, print ){
-    if( pair ) {
-        var ticker = '';
-        if( pair !== 'btc' ){
-            ticker = pair.replace( "btc", '' ).replace( "_", '' );
-        } else if( print === false ) {
-            return '';
-        }
+function buildTicker( pair ) {
+    var ticker = '';
+    if( !pair || pair === 'all' || pair === 'btc' ) {
+        return "BTC";
+    } else {
+        ticker = pair.replace( "btc", '' ).replace( "_", '' );
         return ticker.toUpperCase();
     }
 }
@@ -83,7 +81,7 @@ function getTrades( pair ) {
     var tradeDate = '';
     var dateFormat = "mmm d, yyyy - HH:MM:ss";
 
-    if( !pair || pair === 'all' ) {
+    if( !pair ) {
 
         pair = 'all';
         jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=jsonpretty';
@@ -225,7 +223,7 @@ function getOffers( pair ){
 
 
 //call table functions and build the chart
-function buildData(jsonUrl){
+function buildData( jsonUrl ){
 
     var jsonUrl = "";
 
@@ -233,7 +231,7 @@ function buildData(jsonUrl){
 
         pair = 'btc';
         jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=day";
-        getTrades( 'all' );
+        getTrades();
 
     } else {
 
@@ -264,36 +262,36 @@ function buildData(jsonUrl){
                     data[i][1]  // the volume_right
                 ]);
 
-                seriesTitle1 = 'Num of trades';
+                seriesTitle1 = '# of trades';
 
             } else {
-                    if(pair.startsWith("btc")){
-                      avg.push([
-                          data[i][0]*1000, // the date
-                          data[i][7]  // the average
-                      ]);
-                    }else{
-                      avg.push([
-                          data[i][0]*1000, // the date
-                          (1 / data[i][7])  // the average
-                      ]);
-                    }
-                    volume.push([
-                        data[i][0]*1000, // the date
-                        data[i][6]  // the volume_right
+                if( pair.startsWith( "btc" ) ) {
+                  avg.push([
+                      data[i][0] * 1000, // the date
+                      data[i][7]  // the average
+                  ]);
+                } else {
+                  avg.push([
+                      data[i][0] * 1000, // the date
+                      ( 1 / data[i][7] )  // the average
                     ]);
+                  }
+                  volume.push([
+                      data[i][0] * 1000, // the date
+                      data[i][6]  // the volume_right
+                  ]);
               }
         }
 
 
 
         Highcharts.setOptions({
-          lang: {
-                  rangeSelectorZoom: ''
-              }
+            lang: {
+                rangeSelectorZoom: ''
+            }
         });
         // create the chart
-        Highcharts.stockChart('container', {
+        Highcharts.stockChart( 'container', {
 
             rangeSelector: {
                 selected: 5,
@@ -330,26 +328,7 @@ function buildData(jsonUrl){
                     }
                 },
                 buttons: [
-
                 {
-                    type: 'hour',
-                    count: 1,
-                    text: '1H'
-                },
-
-                {
-                    type: 'day',
-                    count: 1,
-                    text: '1D'
-                }, {
-                    type: 'week',
-                    count: 1,
-                    text: '1W'
-                }, {
-                    type: 'month',
-                    count: 1,
-                    text: '1M'
-                }, {
                     type: 'year',
                     count: 1,
                     text: '1Y'
@@ -396,14 +375,6 @@ function buildData(jsonUrl){
             },
             scrollbar: {
                 enabled: false
-            },
-
-            dataGrouping: {
-                enabled: true,
-                forced: true,
-                units: [
-                    ['month', [1, 3, 6]]
-                ]
             },
 
             yAxis: [
@@ -502,7 +473,7 @@ function buildData(jsonUrl){
                   type: 'line',
                   name: seriesTitle1,
                   tooltip: {
-                      valueSuffix: ' '+buildTicker(pair, false)
+                      pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>' + ( pair === 'btc' ? '{point.y:.0f}' : '{point.y:.2f}' ) + '</b></td></tr>',
                   },
                   data: avg,
                   yAxis: 1,
@@ -511,7 +482,12 @@ function buildData(jsonUrl){
                   fillOpacity: 0.6,
                   yAxis: 0,
                   zIndex: 1,
-                  lineWidth: 1
+                  lineWidth: 1,
+                  dataGrouping: {
+                      approximation: ( pair === 'btc' ) ? 'sum' : 'average',
+                      enabled: true,
+                      forced: true
+                  },
 
               },
 
@@ -521,7 +497,9 @@ function buildData(jsonUrl){
                   type: 'column',
                   name: 'Volume',
                   tooltip: {
-                      valueSuffix: ' ' + buildTicker( pair )
+                      pointFormatter: function() {
+                          return '<tr style="color: ' + this.series.color + '" ><td>' + this.series.name + ': </td><td style="text-align: right"> <b>' + Highcharts.numberFormat(this.y, 2, '.', ',') + ' ' + buildTicker( pair ) + '</b></td></tr>';
+                      }
                   },
                   data: volume,
                   color: '#bbb',
@@ -535,6 +513,8 @@ function buildData(jsonUrl){
                   shadow: false,
                   borderColor: '#c5c5c5',
                   dataGrouping: {
+                      enabled: true,
+                      forced: true,
                       groupAll: true
                   }
 
@@ -553,7 +533,6 @@ function buildData(jsonUrl){
               shared: true,
               useHTML: true,
               headerFormat: '<small>{point.key}</small><table>',
-              pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>{point.y} {this.series.tooltipOptions.valueSuffix}</b></td></tr>',
               footerFormat: '</table>',
               valueDecimals: 2,
               borderRadius: 0,

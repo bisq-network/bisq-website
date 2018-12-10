@@ -1,6 +1,7 @@
 var pair = getUrlParameter( "currency" );
 buildData( pair );
 
+
 $( document ).ready( function() {
     $(".chosen-select").chosen( { width: "100%" } );
 
@@ -14,6 +15,7 @@ $( document ).ready( function() {
         window.location.href = url;
     });
 });
+
 
 function getUrlParameter( requestedParam ) {
     var queryString = decodeURIComponent( window.location.search.substring(1) );
@@ -29,6 +31,7 @@ function getUrlParameter( requestedParam ) {
     }
 };
 
+
 function buildTicker( pair, print ){
     if( pair ) {
         var ticker = '';
@@ -41,6 +44,7 @@ function buildTicker( pair, print ){
     }
 }
 
+
 function buildChartTitle( valueFinal, pair ) {
     if( pair !== 'btc' ) {
         var suffix = '';
@@ -48,11 +52,12 @@ function buildChartTitle( valueFinal, pair ) {
         if( !pair.startsWith( "btc" ) ) {
             valueFinal = Math.round( ( 1 / valueFinal ) * 100 ) / 100;
         }
-        return '<span class="btc-note">1 BTC</span>' + '<span class="price">' + valueFinal + '</span>' + suffix;
+        return '<span class="btc-note">1 BTC</span>' + '<span class="price">' + roundToSigFigs( valueFinal ) + '</span>' + suffix;
     } else {
         return '<span class="btc-note">Volume and</span>' + '<span class="price">Trades</span>';
     }
 }
+
 
 //keep all numbers to constant significant figures
 function roundToSigFigs( num ) {
@@ -62,14 +67,15 @@ function roundToSigFigs( num ) {
 
     if( num < parseFloat( .1 ) ) {
         precision = Math.floor( Math.log10( num ) ) + 1;
-        return num.toPrecision( 5 + precision );
+        return num.toPrecision( ( 5 + precision ) < 1 ? 1 : ( 5 + precision ) );
     } else {
         precision = Math.floor( Math.log10( num/.0001 ) ) - 1;
         return num.toPrecision( precision );
     }
 }
 
-//fill table
+
+//fill past trades table
 function getTrades( pair ) {
 
     var actionTicker = buildTicker( pair );
@@ -83,7 +89,6 @@ function getTrades( pair ) {
         jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=jsonpretty';
 
         $.get( jsonUrl, function( data ) {
-
 
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Date' ),
@@ -102,8 +107,9 @@ function getTrades( pair ) {
                     $( '<td>' ).html( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + buildTicker( val.market ) ),
                     $( '<td>' ).text( roundToSigFigs( val.price ) + ( val.payment_method === 'BLOCK_CHAINS' ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
-                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.price * val.volume ) : roundToSigFigs( val.amount ) ) ),
-                    $( '<td>' ).text( roundToSigFigs( val.volume ) + ' ' + buildTicker( val.market ) )
+                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
+                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) + ' ' + buildTicker( val.market ) )
+
                 ).appendTo( '#trade-history-body' );
 
             });
@@ -145,8 +151,8 @@ function getTrades( pair ) {
                     $( '<td>' ).text( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + actionTicker ),
                     $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
-                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.price * val.volume ) : roundToSigFigs( val.amount ) ) ),
-                    $( '<td>' ).text( roundToSigFigs( parseFloat( val.volume ) ) )
+                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
+                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) )
                 ).appendTo('#trade-history-body' );
 
             });
@@ -157,6 +163,8 @@ function getTrades( pair ) {
 
 }
 
+
+//fill current offers table
 function getOffers( pair ){
 
     if( !pair || pair === 'all' ){
@@ -196,16 +204,16 @@ function getOffers( pair ){
         $.each( data[pair].buys, function( key, val ) {
             $( '<tr>' ).append(
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
-                $( '<td>' ).text( roundToSigFigs( val.payment_method === 'BLOCK_CHAINS' ? parseFloat( val.volume ) : parseFloat( val.amount ) ) ),
-                $( '<td>' ).text( roundToSigFigs( val.payment_method === 'BLOCK_CHAINS' ? parseFloat( val.volume * val.price ) : parseFloat( val.volume ) ) ),
+                $( '<td>' ).text( roundToSigFigs( parseFloat( val.amount ) ) ),
+                $( '<td>' ).text( roundToSigFigs( parseFloat( val.volume ) ) ),
             ).appendTo('#buy-offers-body');
         });
 
         $.each( data[pair].sells, function( key, val ) {
             $( '<tr>' ).append(
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
-                $( '<td>' ).text( roundToSigFigs( val.payment_method === 'BLOCK_CHAINS' ? parseFloat( val.volume ) : parseFloat( val.amount ) ) ),
-                $( '<td>' ).text( roundToSigFigs( val.payment_method === 'BLOCK_CHAINS' ? parseFloat( val.volume * val.price ) : parseFloat( val.volume ) ) ),
+                $( '<td>' ).text( roundToSigFigs( parseFloat( val.amount ) ) ),
+                $( '<td>' ).text( roundToSigFigs( parseFloat( val.volume ) ) ),
             ).appendTo( '#sell-offers-body' );
         });
 
@@ -216,76 +224,49 @@ function getOffers( pair ){
 }
 
 
-
-
+//call table functions and build the chart
 function buildData(jsonUrl){
 
+    var jsonUrl = "";
 
     if( !pair || pair === 'all' ) {
-      //api/volumes?basecurrency=BTC&milliseconds=true&timestamp=no&format=jscallback&fillgaps=
-      pair = 'btc';
 
-      jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=day";
-      //console.log("chart volumes: " + pair);
-      getTrades('all');
+        pair = 'btc';
+        jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=day";
+        getTrades( 'all' );
 
-    }else{
-      var jsonUrl = 'https://markets.bisq.network/api/hloc'+'?market='+pair+'&timestamp=no'+'&interval=minute'+'&timestamp_from='+'&timestamp_to='+'&format=jscallback'+'&callback=?';
-      console.log("chart hloc: " + pair);
-      getTrades( pair );
-      getOffers( pair );
+    } else {
+
+        jsonUrl = 'https://markets.bisq.network/api/hloc' + '?market=' + pair + '&timestamp=no' + '&interval=minute' + '&timestamp_from=' + '&timestamp_to=' + '&format=jscallback'+'&callback=?';
+        getTrades( pair );
+        getOffers( pair );
+
     }
 
-    $.getJSON(jsonUrl, function (data) {
+    $.getJSON( jsonUrl, function( data ) {
 
+        //split the data set into hloc and volume
+        var seriesTitle1 = 'Price';
+        var dataLength = data.length;
+        var avg = []; var volume = [];
 
-        // split the data set into ohlc and volume
-        var
-            //ohlc = [],
-            seriesTitle1 = 'Price',
-            avg = [],
-            volume = [],
-            dataLength = data.length,
-            // set the allowed units for data grouping
-            groupingUnits = [[
-                'week',                         // unit name
-                [1]                             // allowed multiples
-            ], [
-                'month',
-                [1, 2, 3, 4, 6]
-            ]],
+        for( var i = 0; i < dataLength; i += 1 ) {
 
-            i = 0;
+            if( pair === 'btc' ) {
 
+                avg.push([
+                    data[i][0], // the date
+                    data[i][2]  // the num of trades
+                ]);
 
+                volume.push([
+                    data[i][0], // the date
+                    data[i][1]  // the volume_right
+                ]);
 
+                seriesTitle1 = 'Num of trades';
 
-        for (i; i < dataLength; i += 1) {
-            /*
-            ohlc.push([
-                data[i][0], // the date
-                data[i][1], // open
-                data[i][2], // high
-                data[i][3], // low
-                data[i][4] // close
-            ]);
-            */
-
-            if(pair === 'btc'){
-
-                    avg.push([
-                        data[i][0], // the date
-                        data[i][2]  // the num of trades
-                    ]);
-
-                    volume.push([
-                        data[i][0], // the date
-                        data[i][1]  // the volume_right
-                    ]);
-
-                    seriesTitle1 = 'Num of trades';
-
-            }else{
+            } else {
                     if(pair.startsWith("btc")){
                       avg.push([
                           data[i][0]*1000, // the date
@@ -403,11 +384,6 @@ function buildData(jsonUrl){
                 useHTML: true,
                 style: { zIndex: 0, },
             },
-
-
-
-
-
 
             navigator: {
                 enabled: false

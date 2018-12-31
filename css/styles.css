@@ -512,7 +512,7 @@ footer, footer ul li {
 }
 
 .row-block {
-  padding: 4em 70px;
+  padding: 4em 70px 0 70px;
   position: relative
 }
 
@@ -753,6 +753,19 @@ ol li::before {
 
 ol li {
     margin: 1rem 0;
+}
+
+/****************/
+
+/*****************front page*****************/
+
+#dao-coming-soon {
+    text-align: center;
+    margin: 4em auto 0 auto;
+}
+
+#dao-coming-soon p {
+    margin-bottom: 0;
 }
 
 /****************/

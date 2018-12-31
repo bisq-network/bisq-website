@@ -4,11 +4,11 @@ title: Bisq DAO now on testnet
 author: Steve Jain
 ---
 
-Bisq version 0.9.0 is one of the biggest updates to Bisq ever: it brings the Bisq DAO to testnet, as well as a striking new visual design (among a host of other improvements and bug fixes).
+Bisq v0.9 is one of the biggest updates to Bisq ever: it brings the Bisq DAO to testnet, as well as a striking new visual design (among a host of other improvements and bug fixes).
 
 The Bisq DAO—the mechanism that will enable decentralized governance of the Bisq exchange—will soon be going live on mainnet. To prepare for that launch, core DAO functionality is enabled on testnet in this new release. You can buy BSQ tokens, use them to make a compensation request, and vote on other requests.
 
-For a walkthrough on how to explore the Bisq DAO on testnet, check out our [User's Introduction to the Bisq DAO](https://docs.bisq.network/user-dao-intro.html) doc. 
+For a walkthrough on how to explore the Bisq DAO on testnet, check out our [User's Introduction to the Bisq DAO](https://docs.bisq.network/user-dao-intro.html) doc.
 
 For a conceptual overview of the Bisq DAO, check out our [Getting Started with the Bisq DAO](https://docs.bisq.network/getting-started-dao.html) doc.
 

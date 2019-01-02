@@ -27,6 +27,51 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.1
+{: .mt-5 .mb-2}
+Released [December 13th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.9.1)
+
+###### Bisq DAO (on Testnet)
+- [Fix selection of BTC testnet in Settings](https://github.com/bisq-network/bisq/pull/2063)
+- [Fix reorg issues](https://github.com/bisq-network/bisq/pull/2056)
+- [Improve handling of reorgs](https://github.com/bisq-network/bisq/pull/2067)
+- [Handle RPC errors](https://github.com/bisq-network/bisq/pull/2098)
+- [UI improvements in Voting screen](https://github.com/bisq-network/bisq/pull/2094)
+- [Fix validatation of display fields in proposal display](https://github.com/bisq-network/bisq/pull/2074)
+- [Use animation for vote button](https://github.com/bisq-network/bisq/pull/2099)
+- [Use uppercase in submenu items](https://github.com/bisq-network/bisq/pull/2109)
+
+###### Trading
+- [Decrease the price tolerance window in offers](https://github.com/bisq-network/bisq/pull/2079)
+- [Remove testnet and regtest for DASH and LTC](https://github.com/bisq-network/bisq/pull/2095)
+- [Remove BCH](https://github.com/bisq-network/bisq/pull/2096)
+- [Show rounded trade volume in contracts](https://github.com/bisq-network/bisq/pull/2111)
+
+###### Payment methods
+- [Fix wrong positioning of requirements field in CashDeposit](https://github.com/bisq-network/bisq/pull/2060)
+
+###### UI
+- [Improve startup time by updating checkpoint files](https://github.com/bisq-network/bisq/pull/2070)
+- [Left align table columns to improve readability](https://github.com/bisq-network/bisq/pull/2062)
+- [Refine various UI strings](https://github.com/bisq-network/bisq/pull/2104)
+- [Bug fix: Close window without triggering action on ESC](https://github.com/bisq-network/bisq/pull/2077)
+- [Bug fix: Views are sometimes not updated when switching quickly between sub sections](https://github.com/bisq-network/bisq/pull/2108)
+- [Bug fix: Prevent duplicate popup windows](https://github.com/bisq-network/bisq/pull/2111)
+- [Bug fix: Update validation of volume when percentage price is set](https://github.com/bisq-network/bisq/pull/2111)
+
+###### Privacy/Security
+- [Stream isolation for Tor](https://github.com/bisq-network/bisq/pull/2081)
+
+###### Development
+- [Consolidate install_java.sh scripts](https://github.com/bisq-network/bisq/pull/2055)
+- [Update install_java.bat](https://github.com/bisq-network/bisq/pull/2085)
+- [Bug fix: Surgical fix to default command line parameters](https://github.com/bisq-network/bisq/pull/2090)
+
+###### Installation
+- [Bug fix: Windows installer issues](https://github.com/bisq-network/bisq/pull/2103)
+
+###### Assets
+- Removed Bitcoin Cash (BCH) based on [stakeholder voting](https://github.com/bisq-network/proposals/issues/61)
 
 ##### Version 0.9.0
 {: .mt-5 .mb-2}

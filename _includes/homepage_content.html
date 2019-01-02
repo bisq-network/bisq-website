@@ -1,5 +1,3 @@
-
-
 <div class="container fadeIn">
 
         <main class="bd-masthead" id="content" role="main">
@@ -17,134 +15,87 @@
 
                       <div class="downloads-desktop btn-group os-selector-home col-sm-12 col-md-12 col-lg-5 px-0">
 
-                        <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button">
+                          <!-- This what displays on the dropdown in collapsed state -->
+                          <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button" data-bisq-version="{{ site.client_version }}" data-site-url="{{ site.url }}">
+                              <div class="id-win64 hidden">
+                                  <div class="float-left">
+                                      <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
+                                      <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
+                                      Download for Windows
+                                  </div>
+                                  <div class="float-right">
+                                      <a class="dl-win64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a>
+                                  </div>
+                              </div>
 
-                          <div class="id-win64 hidden">
-                            <div class="float-left">
-                                    <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
-                                    <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
-                                    Download for Windows
-                            </div>
-                            <div class="float-right">
-                              <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">64bits</a>
-                            </div>
+                              <div class="id-mac hidden">
+                                  <div class="float-left">
+                                      <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
+                                      <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                                      Download for Mac
+                                  </div>
+                                  <div class="float-right">
+                                      <a class="dl-mac" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
+                                  </div>
+                              </div>
+
+                              <div class="id-deb64 hidden">
+                                  <div class="float-left">
+                                      <img src="{{ site.url }}/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
+                                      <img src="{{ site.url }}/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
+                                      Download for Debian/Ubuntu
+                                  </div>
+                                  <div class="float-right">
+                                      <a class="dl-deb64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">.deb</a>
+                                  </div>
+                              </div>
+
+                              <div class="id-all hidden">
+                                  <div class="float-left">
+                                      <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
+                                      <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
+                                      Downloads
+                                  </div>
+                                  <div class="float-right">
+                                      <a href="{{ site.url }}/downloads">Get Bisq</a>
+                                  </div>
+                              </div>
+                          </button>
+
+                          <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split hero-btn shadow-btn " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="sr-only">Toggle Dropdown</span>
+                          </button>
+
+                          <div class="dropdown-menu dropdown-menu-right shadow-lg">
+                              {% include os_selector_options.html %}
                           </div>
-
-                          <div class="id-mac hidden">
-                            <div class="float-left">
-                                    <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                                    <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
-                                    Download for Mac
-                            </div>
-                            <div class="float-right">
-                              <a href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
-                            </div>
-                          </div>
-
-
-
-                          <div class="id-deb32 hidden">
-                            <div class="float-left">
-                                    <img src="{{ site.url }}/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
-                                    <img src="{{ site.url }}/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
-                                    Download for Debian/Ubuntu
-                            </div>
-                            <div class="float-right">
-                              <a class="dl-deb32" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-32bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.9.0');">32 Bit</a>
-                            </div>
-                          </div>
-
-
-                          <div class="id-deb64 hidden">
-                            <div class="float-left">
-                                    <img src="{{ site.url }}/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
-                                    <img src="{{ site.url }}/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
-                                    Download for Debian/Ubuntu
-                            </div>
-                            <div class="float-right">
-                              <a class="dl-deb64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download v0.9.0');">64 Bit</a>
-                            </div>
-                          </div>
-
-
-
-
-
-                          <div class="id-all hidden">
-                            <div class="float-left">
-                                    <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
-                                    <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
-                                    Downloads
-                            </div>
-                            <div class="float-right">
-                              <a href="{{ site.url }}/downloads" target="_blank">Get Bisq</a>
-                            </div>
-                          </div>
-
-
-
-
-
-
-
-
-
-
-                        </button>
-
-
-
-
-
-
-
-
-                        <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split hero-btn shadow-btn " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="sr-only">Toggle Dropdown</span>
-                            </button>
-
-                        <div class="dropdown-menu dropdown-menu-right shadow-lg">
-                            {% include os_selector_options.html %}
-                        </div>
-
-
 
                       </div>
 
 
-
-
-
-
-
-
                       <a href="{{ site.url }}/downloads" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                                <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
-                                <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
-                                Downloads
+                          <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
+                          <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
+                          Downloads
                       </a>
 
 
-                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Android App');">
-                                <img src="{{ site.url }}/images/icon-android-g.svg" class="os-icon os-icon-g">
-                                <img src="{{ site.url }}/images/icon-android-w.svg" class="os-icon os-icon-w">
-                                Get Android Notifications App
+                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
+                          <img src="{{ site.url }}/images/icon-android-g.svg" class="os-icon os-icon-g">
+                          <img src="{{ site.url }}/images/icon-android-w.svg" class="os-icon os-icon-w">
+                          Get Android Notifications App
                       </a>
 
 
-                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download iOS App');">
-                                <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                                <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
-                                Get iOS Notifications App
+                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
+                          <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
+                          <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                          Get iOS Notifications App
                       </a>
 
 
-
-
-
-                      <a href="https://docs.bisq.network/getting-started.html" target="_blank" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn " onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download Whitepaper');">
-
-                                Get Started »
+                      <a href="https://docs.bisq.network/getting-started.html" target="_blank" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn">
+                          Get Started »
                       </a>
 
                       {% comment %}
@@ -167,12 +118,9 @@
 
 
                     <p class="text-muted mb-0 mt-1 small" style="opacity: 0.5">
-                      v{{ site.client_version }} — <span class="id-win64 hidden">You appear to be running Windows 64 bit.</span>
+                      v{{ site.client_version }} — <span class="id-win64 hidden">You appear to be running Windows.</span>
                                                    <span class="id-mac hidden">You appear to be using a Mac.</span>
-                                                   <span class="id-deb32 hidden">You appear to be using Debian/Ubuntu 32 bit.</span>
-                                                   <span class="id-deb64 hidden">You appear to be using Debian/Ubuntu 64 bit.</span>
-                                                   <span class="id-rpm32 hidden">You appear to be using Redhat/Fedora/CentOS 32 bit.</span>
-                                                   <span class="id-rpm64 hidden">You appear to be using Redhat/Fedora/CentOS 64 bit.</span>
+                                                   <span class="id-deb64 hidden">You appear to be using Debian/Ubuntu.</span>
                                                    <span class="id-all hidden">Current Version</span> <!-- fallback text if no desktop os recognized -->
                     </p>
 
@@ -210,12 +158,12 @@
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="{{ site.url }}/images/pic-decentralized.svg" />
           <h4>Decentralized</h4>
-          <p class="grey px-md-5">There is no single point of failure. The system is peer-to-peer and trading can not be stopped or censored.</p>
+          <p class="grey px-md-5">Trading takes place on a global P2P network of users running Bisq on their own machines.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="{{ site.url }}/images/pic-padlock.svg" />
           <h4>Safe</h4>
-          <p class="grey px-md-5">Bisq never holds your funds. Decentralized arbitration system and security deposits protect traders.</p>
+          <p class="grey px-md-5">Bisq never holds your funds. Security deposits and multisig trade wallets encourage safe, successful trades.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-private.svg" />
@@ -232,12 +180,12 @@
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-open.svg" />
           <h4>Open</h4>
-          <p class="grey px-md-5">Every aspect of the project is transparent. The code is <a href="https://github.com/bisq-network/bisq" target="_blank">open source</a>.</p>
+          <p class="grey px-md-5">Code is <a href="https://github.com/bisq-network/bisq" target="_blank">open source</a>, and project strategy is discussed openly on <a href="https://bisq.network/slack-invite" target="_blank">Slack</a> and <a href="https://github.com/bisq-network/bisq" target="_blank">GitHub</a>.</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-easy.svg" />
           <h4>Easy to Use</h4>
-          <p class="grey px-md-5">We take usability seriously.</p>
+          <p class="grey px-md-5">We've made all this sophistication simple—<a href='https://docs.bisq.network/getting-started' target='_blank'>make your first trade</a> in under 10 minutes!</p>
         </div>
         <div id='dao-coming-soon'><h3>Coming Soon: The Bisq DAO</h3><p>Decentralized governance for a decentralized exchange. <a href='https://docs.bisq.network/user-dao-intro.html'>Learn more here</a>.</p></div>
       </div>

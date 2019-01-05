@@ -512,7 +512,7 @@ footer, footer ul li {
 }
 
 .row-block {
-  padding: 4em 70px;
+  padding: 4em 70px 0 70px;
   position: relative
 }
 
@@ -757,17 +757,18 @@ ol li {
 
 /****************/
 
+/*****************front page*****************/
 
-/*****************
-highcharts chart
-*****************/
+#dao-coming-soon {
+    text-align: center;
+    margin: 4em auto 0 auto;
+}
 
-.highcharts-tooltip table {
-    width: 100%;
+#dao-coming-soon p {
+    margin-bottom: 0;
 }
 
 /****************/
-
 
 @media (max-width: 1100px) {
   .navbar-expand-lg .navbar-nav .nav-link {

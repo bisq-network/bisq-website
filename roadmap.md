@@ -27,6 +27,12 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.3
+{: .mt-5 .mb-2}
+Released [January 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.3)
+
+This is a hot fix release as an empty trade object causes the trades statistic screen to fail right now.
+
 ##### Version 0.9.2
 {: .mt-5 .mb-2}
 Released [January 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.2)

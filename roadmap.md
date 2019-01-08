@@ -27,6 +27,58 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.2
+{: .mt-5 .mb-2}
+Released [January 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.2)
+
+With this release the fee model of Bisq was simplified and the maker fee reduced. The Bisq trading fee for the offer maker is now a fixed percentage of 0.1% and for the taker it was increased from 0.2% to 0.3%. This should reflect the higher burden on the maker side and incentivize market makers.
+Besides that we squashed some bugs in the Bisq DAO and improved the UI on multiple places. This release adds 19 new assets including the 2 Mimblewimble implementations Beam and Grin (Grin will be enabled as soon as it goes live on Mainnet).
+
+###### Bisq DAO (on Testnet)
+- [Fix icon handling in vote result table](https://github.com/bisq-network/bisq/pull/2172)
+- [Fix late proposals processing](https://github.com/bisq-network/bisq/pull/2191)
+- [Fix vote reveal transaction publishing](https://github.com/bisq-network/bisq/pull/2195)
+- [Fix performance issue at parsing](https://github.com/bisq-network/bisq/pull/2199)
+
+###### Trading
+- [Simplify fee model by using fixed percentage](https://github.com/bisq-network/bisq/pull/2212)
+- [Reduce maker fee to 0.1%](https://github.com/bisq-network/bisq/pull/2213)
+
+###### UI
+- Updated existing translations and added Persian as new supported language
+- Fix multiple typos and minor grammatical mistakes: [1](https://github.com/bisq-network/bisq/pull/2138), [2](https://github.com/bisq-network/bisq/pull/2148), [3](https://github.com/bisq-network/bisq/pull/2162), [4](https://github.com/bisq-network/bisq/pull/2185)
+- [Reduce line height in certain tables](https://github.com/bisq-network/bisq/pull/2215)
+- [Show more verbose label when taking an existing offer](https://github.com/bisq-network/bisq/pull/2215)
+- [Show warning popup if multiple valid payment accounts are available for offer](https://github.com/bisq-network/bisq/pull/2215)
+- [Improve padding of password input window](https://github.com/bisq-network/bisq/pull/2215)
+- [Disable payment accounts combobox in pay funds screen when taking an offer](https://github.com/bisq-network/bisq/pull/2215)
+- [Improve button hover effect, so it is not mistaken as disabled](https://github.com/bisq-network/bisq/pull/2187)
+- [Update "Next"-button on account change, when creating an offer](https://github.com/bisq-network/bisq/pull/2205)
+
+###### Privacy/Security
+- Update to netlayer 0.6.3: [1](https://github.com/bisq-network/bisq/pull/2192), [2](https://github.com/bisq-network/bisq/pull/2194)
+
+###### Development
+- [Improve Windows packaging process](https://github.com/bisq-network/bisq/pull/2163)
+- [Improve Linux packaging process](https://github.com/bisq-network/bisq/pull/2190)
+- Improve install_java.bat for Windows: [1](https://github.com/bisq-network/bisq/pull/2131), [2](https://github.com/bisq-network/bisq/pull/2165)
+- [Configure default system JDK for Linux](https://github.com/bisq-network/bisq/pull/2211)
+- [Remove pricenode direct dependency on assets](https://github.com/bisq-network/bisq/pull/2197)
+- [Be able to upgrade bitcoinj without upgrading libdohj](https://github.com/bisq-network/bisq/pull/2198)
+- [Preparations for http api](https://github.com/bisq-network/bisq/pull/2207)
+
+###### Installation
+- [Improve Windows install experience](https://github.com/bisq-network/bisq/pull/2164)
+
+###### Infrastructure
+- [Don't show filtered currencies](https://github.com/bisq-network/bisq/pull/2220)
+- [Bisq Network Monitor: Milestone Babysteps](https://github.com/bisq-network/bisq/pull/2181)
+
+###### Assets
+- Added 19 new assets:
+Aeon (AEON), Beam (BEAM), Bitmark (BTM), Dextro (DXO), FourtyTwo (FRTY), GambleCoin (GMCN), Grin (GRIN) (will be enabled on Mainnet release), Horizen (ZEN), IdaPay (IDA), Iridium (IRD), Noir (NOR), Pinkcoin (PINK), Qbase (QBS), Remix (RMX), SiaPrimeCoin (SCP), SpaceCash (SPACE), UnitedCommunityCoin (UCC), Webchain (WEB), WrkzCoin (WRKZ)
+- Removed not traded assets.
+
 ##### Version 0.9.1
 {: .mt-5 .mb-2}
 Released [December 13th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.9.1)

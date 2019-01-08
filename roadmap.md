@@ -31,6 +31,9 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 {: .mt-5 .mb-2}
 Released [January 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.2)
 
+With this release the fee model of Bisq was simplified and the maker fee reduced. The Bisq trading fee for the offer maker is now a fixed percentage of 0.1% and for the taker it was increased from 0.2% to 0.3%. This should reflect the higher burden on the maker side and incentivize market makers.
+Besides that we squashed some bugs in the Bisq DAO and improved the UI on multiple places. This release adds 19 new assets including the 2 Mimblewimble implementations Beam and Grin (Grin will be enabled as soon as it goes live on Mainnet).
+
 ###### Bisq DAO (on Testnet)
 - [Fix icon handling in vote result table](https://github.com/bisq-network/bisq/pull/2172)
 - [Fix late proposals processing](https://github.com/bisq-network/bisq/pull/2191)

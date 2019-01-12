@@ -9,7 +9,7 @@
       <ul class="navbar-nav ml-auto">
 
         {% for item in site.data.main_nav.links %}
-          <li class="nav-item {% if page.url == item.url %}current{% endif %}">
+          <li class="nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
             {% if item.target == "_blank" %}
               <a class="nav-link" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
             {% else %}

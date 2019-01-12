@@ -11,6 +11,11 @@ a,
   color: #25B135
 }
 
+
+.white {
+  color: #ffffff
+}
+
 .grey {
   color: #7E7E7E
 }
@@ -24,6 +29,16 @@ a,
   background: #191919;
   color: #fff
 }
+
+
+.green-bg{
+  background: #25B135
+}
+
+.grey-bg{
+  background: #f3f3f3
+}
+
 
 .dark-grey a,
 .darker-grey a {

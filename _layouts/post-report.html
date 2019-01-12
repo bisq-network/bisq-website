@@ -1,0 +1,213 @@
+---
+layout: page
+---
+
+
+
+
+
+
+
+<div id="bcont" class="pb-5 col-sm-12 col-md-12 ml-0 pl-sm-0 pl-md-0">
+  <article id="post" class="post type-post status-publish format-standard hentry category-news">
+    <div class="dets_wrap">
+      <div class="dets">
+        <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+        <p class='post-meta grey'>
+          Posted by <span>{{ page.author }}</span> on <span>{{ page.date | date: "%-d %B %Y"}}</span>
+        </p>
+      </div>
+    </div>
+    <div class="content_wrap" id="stats-container">
+
+      <div class="w-100 clearfix p-4 green-bg">
+        <h1 class="float-left display-1 white">{{ page.title }}</h1>
+        <img class="float-right" src="{{ site.url }}/images/bisq-logo-w.svg" height="50"/>
+      </div>
+
+      <div class="w-100 clearfix p-4">
+        <h1 class="float-left display-1">{{ page.title }}</h1>
+        <img class="float-right" src="{{ site.url }}/images/bisq-logo.svg" height="50"/>
+      </div>
+
+      <div id="report-intro">
+      </div>
+
+      <div id="report-content">
+        {{ content }}
+
+
+        <link href="{{ site.url }}/css/chosen.css" rel="stylesheet">
+
+        <script src="{{ site.url }}/js/highstock.js"></script>
+        <script src="{{ site.url }}/js/drag-panes.js"></script>
+        <script src="{{ site.url }}/js/exporting.js"></script>
+
+        <script src="{{ site.url }}/js/chosen.jquery.min.js"></script>
+        <script src="{{ site.url }}/js/date.format.js"></script>
+
+        <script>
+        var baseUrl="{{ site.url }}";
+        </script>
+        <script src="{{ site.url }}/js/markets.js"></script>
+
+
+
+        <div class="mt-0 mb-2">
+
+          <div class="mb-5 px-0 col-12 col-md-6">
+            <select id="currency" data-placeholder="Select BTC Pair" class="chosen-select" tabindex="10">
+              {% include market_currency_selector.html %}
+            </select>
+          </div>
+
+          <div id="container" style="height: 500px; min-width: 100%"></div>
+
+
+
+        </div>
+
+
+      
+
+
+        <style>
+
+        td {
+            padding: 0;
+        }
+
+        #container {
+          -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+          -moz-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+          box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.14);
+          /*
+          background: url({{ site.url }}/images/green.svg);
+          background-repeat-y: no-repeat;
+          background-position: 0% 109.7%;
+          background-repeat: repeat-x;
+          */
+        }
+
+        rect.highcharts-plot-background {
+            fill: #fff;
+        }
+
+        .highcharts-title {
+          z-index: 0;
+        }
+
+        .highcharts-tooltip {
+          z-index: 9998!important;
+        }
+
+        .highcharts-tooltip div {
+          background-color: white;
+          border: 1px solid #E2E2E2;
+          opacity: 1;
+          z-index: 9999!important;
+          padding: 5px
+        }
+
+        .highcharts-title .price, .highcharts-title .currency-pair, .highcharts-title .btc-note{
+            fill: #25B135;
+            color: #25B135;
+            font-weight: 300;
+            font-size: 40px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            overflow-x: hidden;
+            letter-spacing: 0.03rem;
+        }
+
+        .highcharts-title .currency-pair {
+            font-size: 25px;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+
+        .highcharts-title .btc-note {
+          fill: #a5a5a5;
+          color: #a5a5a5;
+          font-size: 16px;
+          display: block;
+        }
+
+        .highcharts-tooltip {
+            -moz-box-shadow: 20px 20px 20px #888;
+            -webkit-box-shadow: 20px 20px 20px #888;
+            box-shadow: 20px 20px 20px #888;
+            min-width: 200px;
+            z-index: 1000000;
+        }
+
+        .highcharts-column-series rect{
+            opacity: .5
+        }
+
+        .xaxis-background {
+          position: absolute; bottom: 0; width: 100%; background: red
+        }
+
+
+
+
+        </style>
+
+
+      </div>
+
+    </div>
+  </article>
+  <br>
+  <div id="imagesave" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn">Save Image</div>
+  <br>
+  <br>
+  <br>
+  <a href="{{ site.url }}/blog">« Back to Blog</a>
+</div>
+
+
+
+<style>
+  #stats-container{
+    border: #ececec 1px solid;
+  }
+</style>
+
+
+
+
+
+
+
+
+<script src="{{ site.url }}/js/html2canvas.js"></script>
+
+
+
+
+<script>
+
+
+document.getElementById("imagesave").addEventListener("click", function() {
+    html2canvas(document.querySelector('#stats-container')).then(function(canvas) {
+        console.log(canvas);
+        saveAs(canvas.toDataURL(), 'bisq - {{ page.title }}.png');
+    });
+});
+function saveAs(uri, filename) {
+    var link = document.createElement('a');
+    if (typeof link.download === 'string') {
+        link.href = uri;
+        link.download = filename;
+        //Firefox requires the link to be in the body
+        document.body.appendChild(link);
+        //simulate click
+        link.click();
+        //remove the link when done
+        document.body.removeChild(link);
+    } else {
+        window.open(uri);
+    }
+}
+</script>

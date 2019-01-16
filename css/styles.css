@@ -643,6 +643,22 @@ td {
   display: none;
 }
 
+.learn-more-links div.dropdown-menu {
+    width: 240px;
+}
+
+.learn-more-links div.dropdown-menu a.nav-link {
+    padding: 0;
+    border-bottom: 1px solid transparent !important;
+    color: #25B135;
+    display: inline-block;
+}
+
+.learn-more-links div.dropdown-menu a.nav-link:hover {
+    color: #25B135 !important;
+    border-bottom: 1px solid #25B135 !important;
+}
+
 @media (max-width: 990px) {
 
 

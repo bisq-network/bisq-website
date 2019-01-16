@@ -9,6 +9,11 @@ links:
 - title: Community
   url: /community
 
+- title: Markets
+  url: /markets
+
+learn_more_links:
+
 - title: FAQ
   url: /faq
 
@@ -18,6 +23,3 @@ links:
 - title: Documentation
   url: https://docs.bisq.network/
   target: _blank
-
-- title: Markets
-  url: /markets

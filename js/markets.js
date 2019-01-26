@@ -1,11 +1,9 @@
 var pair = getUrlParameter( "currency" );
-buildData( pair );
-
 
 $( document ).ready( function() {
-    $(".chosen-select").chosen( { width: "100%" } );
+    $( ".chosen-select" ).chosen( { width: "100%" } );
 
-    $( '.chosen-select').change(function(){
+    $( ".chosen-select" ).change(function(){
         var url = window.location.href.split( '?' )[0];
 
         if( $( "#currency" ).val() !== 'Select' ) {
@@ -14,6 +12,14 @@ $( document ).ready( function() {
 
         window.location.href = url;
     });
+
+    if( pair ) {
+        $( ".chosen-select" ).val( pair ).trigger( "chosen:updated" );
+    } else {
+        $( ".chosen-select" ).val( "all" ).trigger( "chosen:updated" );
+    }
+
+    buildData( pair );
 });
 
 

@@ -5,10 +5,12 @@ body {
   letter-spacing: 0.03rem;
 }
 
-.green,
-a,
-.navbar-light .navbar-nav .nav-item.current .nav-link {
+.green, a {
   color: #25B135
+}
+
+.navbar-light .navbar-nav .nav-item.current .nav-link  {
+    color: #000;
 }
 
 .grey {

@@ -1,24 +1,24 @@
 links:
 
 - title: Vision
-  url: /vision
+  url: /vision/
 
 - title: Bisq DAO
-  url: /dao
+  url: /dao/
 
 - title: Community
-  url: /community
+  url: /community/
 
 - title: Markets
-  url: /markets
+  url: /markets/
 
 learn_more_links:
 
 - title: FAQ
-  url: /faq
+  url: /faq/
 
 - title: Blog
-  url: /blog
+  url: /blog/
 
 - title: Documentation
   url: https://docs.bisq.network/

@@ -5,6 +5,18 @@ body {
   letter-spacing: 0.03rem;
 }
 
+.strong {
+    font-weight: 700;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
 .green, a {
   color: #25B135
 }
@@ -198,7 +210,24 @@ hr {
   margin-top: 10px;
 }
 
+.responsive-youtube-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 175px;
 
+}
+
+.responsive-youtube-container iframe,
+.responsive-youtube-container object,
+.responsive-youtube-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -773,9 +802,10 @@ ol li {
     margin: 1rem 0;
 }
 
-/****************/
 
-/*****************front page*****************/
+/*****************
+front page
+*****************/
 
 #dao-coming-soon {
     text-align: center;
@@ -785,6 +815,74 @@ ol li {
 #dao-coming-soon p {
     margin-bottom: 0;
 }
+
+
+/*****************
+dao page
+*****************/
+
+#dao-explainer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#dao-explainer .panel { /* :not(:last-child) */
+    min-height: 50vh;
+    position: relative;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#dao-explainer .panel:not(:first-of-type) {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#dao-explainer .panel h3 {
+    font-weight: 300;
+    font-family: 'IBM Plex Sans', monospace;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+#dao-explainer .panel h4 {
+    font-weight: 200;
+    font-family: 'IBM Plex Sans', monospace;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+}
+
+#dao-explainer .panel .panel-intro {
+    text-align: left;
+    margin: 50px auto;
+}
+
+#dao-explainer .panel-interlude {
+    background-color: #f3f3f3;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    padding: 45px;
+}
+
+#dao-explainer .panel-interlude p:last-child {
+    margin-bottom: 0;
+}
+
+#dao-explainer .faqs .question-answer-group {
+    text-align: left;
+    margin: 25px auto;
+}
+
+#dao-explainer .faqs .question-answer-group .question {
+    font-weight: 700;
+}
+
 
 /****************/
 
@@ -837,6 +935,29 @@ ol li {
     column-gap: 0;
   }
 
+    /*****************
+    dao page
+    *****************/
+
+    .responsive-youtube-container {
+        margin-bottom: 80px;
+    }
+
+    #dao-explainer .panel {
+        border-bottom: none;
+    }
+
+    #dao-explainer .panel:not(:first-of-type) {
+        padding-top: 80px;
+    }
+
+    #dao-explainer .panel-interlude {
+        position: relative;
+        bottom: initial;
+        width: 100%;
+        max-width: initial;
+        height: auto;
+    }
 
 }
 

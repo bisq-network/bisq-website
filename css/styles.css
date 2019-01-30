@@ -827,7 +827,7 @@ dao page
 }
 
 #dao-explainer .panel { /* :not(:last-child) */
-    min-height: 50vh;
+    /* min-height: 50vh; */
     position: relative;
     border-bottom: 1px solid #f3f3f3;
 }
@@ -854,6 +854,58 @@ dao page
 #dao-explainer .panel .panel-intro {
     text-align: left;
     margin: 50px auto;
+}
+
+#dao-explainer .panel .image-pair {
+    margin: 0 auto 75px auto;
+}
+
+#dao-explainer .panel .image-pair img {
+    margin-top: 75px;
+}
+
+#dao-explainer .panel object {
+    height: 65vh;
+    max-width: 100%;
+    margin: 0 auto 50px auto;
+    padding: 25px;
+    border: 4px solid #f3f3f3;
+}
+
+#dao-explainer .panel object.voting {
+    background-color: #f3f3f3;
+}
+
+#dao-sim-dashboard {
+    background-color: #f3f3f3;
+    margin: 40px auto 0 auto;
+    text-align: left;
+    position: relative;
+    padding: 12px 16px 8px 16px;
+    width: calc(65vh * 1.36969546096);
+    max-width: 100%;
+}
+
+#dao-sim-dashboard p {
+    margin-bottom: 0
+}
+
+#dao-sim-dashboard .stage-indicator {
+    width: 100%;
+}
+
+#dao-sim-dashboard .stage-indicator .main {
+    font-size: 22px;
+}
+
+#dao-sim-dashboard p.dao-voting-countdown {
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    bottom: -60px;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
 }
 
 #dao-explainer .panel-interlude {
@@ -884,7 +936,22 @@ dao page
 }
 
 
+/*****************
+dao simulation
+*****************/
+
+.animated-blinker {
+    animation: blinker 1.0s cubic-bezier(.5, 0, 1, 1) infinite alternate;
+    /* color: #e74c3c; */
+}
+
+@keyframes blinker {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
 /****************/
+
 
 @media (max-width: 1100px) {
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -949,6 +1016,10 @@ dao page
 
     #dao-explainer .panel:not(:first-of-type) {
         padding-top: 80px;
+    }
+
+    #dao-explainer .panel .image-pair img {
+        width: 100%;
     }
 
     #dao-explainer .panel-interlude {

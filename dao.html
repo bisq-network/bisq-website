@@ -21,7 +21,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 
         <div class='panel-interlude'>
-            <p>Usually, tokens aren't useful because the entities issuing them could accomplish the same goals without a token.</p>
+            <p>Usually, tokens aren't useful because the entities issuing them can accomplish the same goals without a token.</p>
             <p><span class='strong'>But Bisq is not an entity</span>, so it needs a token to do what an entity would otherwise do.</p>
         </div>
 
@@ -35,6 +35,13 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
     <div class='panel'>
         <h3>Why a DAO?</h3>
         <h4>Bisq seems to work just fine right now...?</h4>
+
+        <p class='panel-intro'>Bisq's core trading service is not changing a whole lot. The major changes are in how it's controlled: how trading fees are handled and how decisions are made.</p>
+
+        <div class='image-pair'>
+            <img src='{{ site.url }}/images/why-dao-1.svg'>
+            <img src='{{ site.url }}/images/why-dao-2.svg'>
+        </div>
 
         <div class='panel-interlude'>
             <p>Bisq trading is currently decentralized, but management is not.</p>
@@ -52,13 +59,433 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
     <div class='panel'>
         <h3>Okay...But Why a Token?</h3>
-        <h4>"Just use plain bitcoin"</h4>
+        <h4>A simulation to show why plain bitcoin doesn't work</h4>
+
+        <p class='panel-intro'>Play with the simulation below to get a practical feel for how BSQ trading fees differ from BTC trading fees. As with the real Bisq, <span class='strong'>you're the trader and you ultimately decide how you want to pay fees</span>.</p>
+        <p class='panel-intro'>Every few seconds, you'll notice that contributors will deliver work and ask for compensation. Periodically, DAO voting converts those requests into BSQ tokens you can buy to place a trade.</p>
+        <p class='panel-intro'>This is just a simulation. Trading fees are exaggerated for clarity, but the point is that BTC fees will be higher than BSQ fees to incentivize traders to compensate contributors.</p>
+
+        <div id='dao-sim-dashboard'>
+            <div class='stage-indicator'>
+                <p class='main strong'>Click on a contributor to buy BSQ</p>
+                <p class='sub'>Or click on a trader to trade without BSQ (see what happens!)</p>
+            </div>
+            <p class='dao-voting-countdown'>Next DAO Vote in <span>0:31</span></p>
+        </div>
+        <object id='dao-sim' data="{{ site.url }}/images/dao-sim.svg" type="image/svg+xml">
+            <img src="{{ site.url }}/images/dao-sim.svg" />
+        </object>
+        <p class='emphasis'>Who actually votes? Any trader and contributor who wants to. Contributor compensation is just one aspect of voting. Virtually every facet of the Bisq project's policy can be altered by making a proposal in the DAO.</p>
 
         <div class='panel-interlude'>
-            <p>To make a Bitcoin transaction, you need a recipient's address. As Bisq itself is decentralized, that address won't be known.</p>
-            <p>Thus sending trading fees with a <span class='strong'>plain Bitcoin transaction is impossible</span>, and a token is needed as a placeholder.</p>
+            <p>When Bisq governance is decentralized, the destination for trading fees will no longer be known at the time of the transaction.</p>
+            <p>Thus paying trading fees with a <span class='strong'>plain Bitcoin transaction will be impossible</span>, and a token is needed as a placeholder.</p>
         </div>
     </div>
+
+    <script>
+
+        /*********************
+        initialize simulator variables
+        *********************/
+
+        //contributors
+        var contributors = [
+            {
+                name: 'Tom',
+                btc: 0,
+                bsq: 0,
+                bsq_req: 0,
+                btc_display_element: "g:nth-child(39) > switch > foreignObject > div > div > div:nth-child(1) > font",
+                bsq_display_element: "g:nth-child(39) > switch > foreignObject > div > div > div:nth-child(2) > font",
+                bsq_req_display_element: "g:nth-child(39) > switch > foreignObject > div > div > div:nth-child(3) > font"
+            },
+            {
+                name: 'Kim',
+                btc: 0,
+                bsq: 4,
+                bsq_req: 0,
+                btc_display_element: "g:nth-child(38) > switch > foreignObject > div > div > div:nth-child(1) > font",
+                bsq_display_element: "g:nth-child(38) > switch > foreignObject > div > div > div:nth-child(2) > font",
+                bsq_req_display_element: "g:nth-child(38) > switch > foreignObject > div > div > div:nth-child(3) > font"
+            },
+            {
+                name: 'Jon',
+                btc: 0,
+                bsq: 0,
+                bsq_req: 0,
+                btc_display_element: "g:nth-child(37) > switch > foreignObject > div > div > div:nth-child(1) > font",
+                bsq_display_element: "g:nth-child(37) > switch > foreignObject > div > div > div:nth-child(2) > font",
+                bsq_req_display_element: "g:nth-child(37) > switch > foreignObject > div > div > div:nth-child(3) > font"
+            }
+        ];
+
+        //contributions
+        var contributions = [
+            { task: "delivered code to Bisq", amount: "6" },
+            { task: "wrote a doc for Bisq", amount: "4" },
+            { task: "provided support to Bisq users", amount: "2" }
+        ];
+
+        //user
+        var user = {
+            btc: 2,
+            bsq: 0
+        }
+
+        //donation address
+        var donationAddressBalance = 0;
+
+        //simulation stages
+        var stages = {
+            buyBSQ: {
+                main: "Make a trade by hitting the green or orange button below.",
+                sub: "You can choose to pay trading fees with BSQ or BTC. Try both to see how they're different!"
+            },
+            bsqTradeFinished: {
+                main: "Trade finished! BSQ was burned.",
+                sub: "'Burning' just means the colored bitcoin is uncolored back to plain bitcoin. BSQ supply is reduced."
+            },
+            btcTradeFinished: {
+                main: "Trade finished. Your BTC fees went to the donation address.",
+                sub: "No contributor was paid, similar to the way Bisq worked without the DAO."
+            },
+            daoVotingHappening: {
+                main: "DAO Voting in Progress—Wait Just a Second.",
+                sub: "DAO stakeholders are evaluating each contributor's requested compensation."
+            }
+        };
+
+        /*********************
+        manage svg
+        *********************/
+
+        $( window ).on( 'load', function () {
+
+            //get the svg element
+            var daoSim = document.getElementById( "dao-sim" );
+            var daoSimDOM = daoSim.contentDocument;
+
+            /*
+            set commonly-accessed nodes
+            */
+
+            var alertBoxTextNode = 'g:nth-child(41) > switch > foreignObject > div > div';
+
+            /*
+            load custom css for the svg
+            */
+
+            var styleElement = daoSimDOM.createElementNS( "http://www.w3.org/2000/svg", "style" );
+            styleElement.textContent =
+            `
+            div {
+                white-space: initial !important;
+            }
+
+            g:nth-child(3), g:nth-child(5), g:nth-child(16), g:nth-child(43), g:nth-child(45) {
+                cursor: pointer;
+            }
+
+            .attention-grabber.highlight {
+                animation: blinker-highlight 1s infinite;
+            }
+
+            @keyframes blinker-highlight {
+                from { background-color: #fff; }
+                to { background-color: #ffff00; }
+            }
+
+           `;
+            daoSimDOM.documentElement.appendChild( styleElement );
+
+            /*
+            set stage and related event listener
+            */
+
+            setCurrentStage( 'buyBSQ' );
+
+            function setCurrentStage( stage ) {
+                $( '#dao-sim-dashboard .stage-indicator .main' ).text( stages[stage]['main'] );
+                $( '#dao-sim-dashboard .stage-indicator .sub' ).text( stages[stage]['sub'] );
+
+                toggleEventListeners( true );
+
+                if( stage === 'daoVotingHappening' ) {
+                    toggleEventListeners( false );  //disable clicks in simulation
+                }
+
+                return;
+            }
+
+            function toggleEventListeners( turnOn ) {
+                if( turnOn ) {
+                    //tom
+                    $( $( daoSimDOM ).find( 'g:nth-child(16)' ) ).on( "click", function() { showBSQSale(0); } );
+                    $( $( daoSimDOM ).find( 'g:nth-child(16)' ) ).on( "mouseenter", function() { $(this).prev().attr( 'fill', 'rgb(108, 142, 191)' ); } );
+                    $( $( daoSimDOM ).find( 'g:nth-child(16)' ) ).on( "mouseleave", function() { $(this).prev().attr( 'fill', 'rgb(218, 232, 252)' ); } );
+
+                    //kim
+                    $( $( daoSimDOM ).find( 'g:nth-child(5)' ) ).on( "click", function() { showBSQSale(1); } );
+                    $( $( daoSimDOM ).find( 'g:nth-child(5)' ) ).on( "mouseenter", function() { $(this).prev().attr( 'fill', 'rgb(108, 142, 191)' ); } );
+                    $( $( daoSimDOM ).find( 'g:nth-child(5)' ) ).on( "mouseleave", function() { $(this).prev().attr( 'fill', 'rgb(218, 232, 252)' ); } );
+
+                    //jon
+                    $( $( daoSimDOM ).find( 'g:nth-child(3)' ) ).on( "click", function() { showBSQSale(2); } );
+                    $( $( daoSimDOM ).find( 'g:nth-child(3)' ) ).on( "mouseenter", function() { $(this).prev().attr( 'fill', 'rgb(108, 142, 191)' ); } );
+                    $( $( daoSimDOM ).find( 'g:nth-child(3)' ) ).on( "mouseleave", function() { $(this).prev().attr( 'fill', 'rgb(218, 232, 252)' ); } );
+
+                    //trade with bsq
+                    $( $( daoSimDOM ).find( 'g:nth-child(45)' ) ).on( "click", tradeWithBSQ );
+                    $( $( daoSimDOM ).find( 'g:nth-child(45)' ) ).on( "mouseenter", function() { $(this).prev().attr( 'fill', 'rgb(0, 102, 0)' ); } );
+                    $( $( daoSimDOM ).find( 'g:nth-child(45)' ) ).on( "mouseleave", function() { $(this).prev().attr( 'fill', 'rgb(37, 177, 53)' ); } );
+
+                    //trade with btc
+                    $( $( daoSimDOM ).find( 'g:nth-child(43)' ) ).on( "click", tradeWithBTC );
+                    $( $( daoSimDOM ).find( 'g:nth-child(43)' ) ).on( "mouseenter", function() { $(this).prev().attr( 'fill', 'rgb(204, 102, 0)' ); } );
+                    $( $( daoSimDOM ).find( 'g:nth-child(43)' ) ).on( "mouseleave", function() { $(this).prev().attr( 'fill', 'rgb(247, 147, 26)' ); } );
+
+                } else {
+                    $( $( daoSimDOM ).find( '*' ) ).unbind();
+                }
+
+                return;
+            }
+
+            /*
+            handle trading actions
+            */
+
+            function tradeWithBSQ() {
+
+                clearInterval(daoVoteTimer);
+
+                if( user.bsq > 0 ) {
+
+                    //adjust balances
+                    user.bsq -= 2;
+
+                    //display info
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "Trade placed. You paid 2 BSQ (.05 BTC) in fees. Much cheaper than BTC, and a contributor was paid! Bravo." );
+                    $( $( daoSimDOM ).find( 'g:nth-child(28) > switch > foreignObject > div > div > div > span' )[0] ).text( ( user.bsq ).toFixed(1) + " BSQ" );
+
+                    //grab attention
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( 'g:nth-child(28) > switch > foreignObject > div > div > div > span' ) ).addClass( 'attention-grabber highlight' );
+
+                } else {
+
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "You don't have any BSQ! Click on a contributor to buy BSQ from them." );
+
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( 'g:nth-child(28) > switch > foreignObject > div > div > div > span' ) ).addClass( 'attention-grabber highlight' );
+
+                }
+
+                setTimeout( function() {
+                    removeAttentionGrabbers();
+                    startVotingInterval();
+                }, 4000 );
+
+                return;
+            }
+
+            function tradeWithBTC() {
+
+                clearInterval(daoVoteTimer);
+
+                if( user.btc >= 0.8 ) {
+
+                    //adjust balances
+                    user.btc -= 0.8;
+                    donationAddressBalance += 0.8;
+
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "Trade placed. You paid 0.8 BTC in fees. No contributors were compensated :(" );
+                    $( $( daoSimDOM ).find( 'g:nth-child(46) > switch > foreignObject > div > div > div > span' )[0] ).text( ( user.btc ).toFixed(1) + " BTC" );
+                    $( $( daoSimDOM ).find( 'g:nth-child(36) > switch > foreignObject > div > div > div > font' )[0] ).text( ( donationAddressBalance ).toFixed(1) + " BTC" );
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( 'g:nth-child(46) > switch > foreignObject > div > div > div > span' ) ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( 'g:nth-child(36) > switch > foreignObject > div > div > div > font' ) ).addClass( 'attention-grabber highlight' );
+
+                } else {
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "Sorry, you need more BTC to pay BTC trading fees. Maybe try BSQ? It's cheaper and helps sustain the project." );
+
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( 'g:nth-child(46) > switch > foreignObject > div > div > div > span' ) ).addClass( 'attention-grabber highlight' );
+                }
+
+                setTimeout( function() {
+                    removeAttentionGrabbers();
+                    startVotingInterval();
+                }, 4000 );
+
+                return;
+            }
+
+            /*
+            handle bsq buying
+            */
+            function showBSQSale( i ) {
+
+                clearInterval(daoVoteTimer);
+
+                if( contributors[i]['bsq'] < 4 ) {
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "This contributor doesn't have any BSQ yet. Try another contributor." );
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                } else {
+
+                    user.btc -= 0.1;
+                    user.bsq += 4;
+                    contributors[i]['btc'] += 0.1;
+                    contributors[i]['bsq'] -= 4;
+
+                    //display info
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "You bought 4 BSQ from " + contributors[i]['name'] + " for 0.1 BTC. Contributor is paid, and you can trade :)" );
+                    //contributor balances
+                    $( $( daoSimDOM ).find( contributors[i]['btc_display_element'] )[0] ).text( ( contributors[i]['btc'] ).toFixed(1) + " BTC" );
+                    $( $( daoSimDOM ).find( contributors[i]['bsq_display_element'] )[0] ).text( ( contributors[i]['bsq'] ).toFixed(1) + " BSQ" );
+                    //trader balances
+                    $( $( daoSimDOM ).find( 'g:nth-child(46) > switch > foreignObject > div > div > div > span' )[0] ).text( ( user.btc ).toFixed(1) + " BTC" );
+                    $( $( daoSimDOM ).find( 'g:nth-child(28) > switch > foreignObject > div > div > div > span' )[0] ).text( ( user.bsq ).toFixed(1) + " BSQ" );
+
+                    //highlight the changes
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( 'g:nth-child(28) > switch > foreignObject > div > div > div > span' )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( 'g:nth-child(46) > switch > foreignObject > div > div > div > span' )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( contributors[i]['btc_display_element'] )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( contributors[i]['bsq_display_element'] )[0] ).addClass( 'attention-grabber highlight' );
+                }
+
+                setTimeout( function() {
+                    removeAttentionGrabbers();
+                    startVotingInterval();
+                }, 4000 );
+
+                return;
+            }
+
+            /*
+            handle dao voting
+            */
+
+            var DAO_VOTE_PERIOD = 32;
+            var daoVoteCounter = DAO_VOTE_PERIOD;
+            var daoVoteTimer = undefined;
+            startVotingInterval();
+            function startVotingInterval() {
+                daoVoteTimer = setInterval( function() {
+
+                    daoVoteCounter--;
+                    $( '#dao-sim-dashboard p.dao-voting-countdown span' ).text( '0:' + ( daoVoteCounter < 10 ? '0' : '' ) + daoVoteCounter );
+
+                    if( daoVoteCounter !== 0 && ( daoVoteCounter % 10 === 0 ) ) {
+                        showWorkCompleted();
+                    }
+
+                    if( daoVoteCounter === 0 ) {
+                        daoVoteCounter = DAO_VOTE_PERIOD;
+                        clearInterval(daoVoteTimer);
+                        doVoting();
+                    }
+
+                }, 1000 );
+            }
+
+            function doVoting() {
+                setCurrentStage( 'daoVotingHappening' );
+
+                //set background to grey
+                $( '#dao-explainer .panel object' ).addClass( 'voting' );
+                //fade out all elements to focus on contributors and alert box
+                $( $( daoSimDOM ).find( 'svg >' ) ).attr( "opacity", "0.1" );
+                //alert box
+                $( $( daoSimDOM ).find( 'rect:nth-child(40)' ) ).attr( "opacity", "1.0" );
+                $( $( daoSimDOM ).find( 'g:nth-child(41)' ) ).attr( "opacity", "1.0" );
+                //contributor bubbles
+                $( $( daoSimDOM ).find( 'g:nth-child(16)' ) ).attr( "opacity", "1.0" );
+                $( $( daoSimDOM ).find( 'g:nth-child(5)' ) ).attr( "opacity", "1.0" );
+                $( $( daoSimDOM ).find( 'g:nth-child(3)' ) ).attr( "opacity", "1.0" );
+                $( $( daoSimDOM ).find( 'ellipse:nth-child(2)' ) ).attr( "opacity", "1.0" );
+                $( $( daoSimDOM ).find( 'ellipse:nth-child(4)' ) ).attr( "opacity", "1.0" );
+                $( $( daoSimDOM ).find( 'ellipse:nth-child(15)' ) ).attr( "opacity", "1.0" );
+                //contributor text
+                $( $( daoSimDOM ).find( 'g:nth-child(37)' ) ).attr( "opacity", "1.0" );
+                $( $( daoSimDOM ).find( 'g:nth-child(38)' ) ).attr( "opacity", "1.0" );
+                $( $( daoSimDOM ).find( 'g:nth-child(39)' ) ).attr( "opacity", "1.0" );
+
+                for( var i = 0; i <= contributors.length; i++ ) {
+                    intervalFunc( showVotingResult, i, contributors.length, i * 4000 );
+                }
+
+                return;
+            }
+
+            function intervalFunc( f, contrib, allContrib, timeout ) {
+                timeout = (timeout === 0 ? 1000 : timeout);
+                setTimeout( function() {
+                    f( contrib, allContrib );
+                }, timeout );
+            }
+
+            function showVotingResult( i, alli ) {
+                removeAttentionGrabbers();
+                if( i === alli ) {
+                  //$( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "DAO voting is complete. Now back to trading..." );
+                  $( '#dao-explainer .panel object' ).removeClass( 'voting' );
+                  $( $( daoSimDOM ).find( 'svg >' ) ).attr( "opacity", "1.0" );
+                  setCurrentStage( 'buyBSQ' );
+                  startVotingInterval();
+                } else {
+                    if( contributors[i]['bsq_req'] > 0 ) {
+                        $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( contributors[i]['name'] + "'s request is approved—they're issued " + contributors[i]['bsq_req'] + " new BSQ." );
+                        contributors[i]['bsq'] += contributors[i]['bsq_req'];
+                        contributors[i]['bsq_req'] = 0;
+                        $( $( daoSimDOM ).find( contributors[i]['bsq_req_display_element'] )[0] ).text( ( contributors[i]['bsq_req'] ).toFixed(1) + " BSQ Requested" );
+                        $( $( daoSimDOM ).find( contributors[i]['bsq_display_element'] )[0] ).text( ( contributors[i]['bsq'] ).toFixed(1) + " BSQ" );
+                    } else {
+                        $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( contributors[i]['name'] + " didn't request compensation; no BSQ issued." );
+                    }
+
+                    //grab attention so user knows what's happening
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                    $( $( daoSimDOM ).find( contributors[i]['bsq_display_element'] )[0] ).addClass( 'attention-grabber highlight' );
+                }
+                return;
+            }
+
+            function showWorkCompleted() {
+
+                //pick random contributor
+                var prolificContributor = Math.round(Math.random() * 2 );
+
+                //pick random contribution
+                var newWork = contributions[ Math.round(Math.random() * 2 ) ];
+
+                //make compensation request
+                contributors[ prolificContributor ]['bsq_req'] += parseInt( newWork.amount );
+
+                //show on screen
+                $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( contributors[ prolificContributor ]['name'] + " " + newWork.task + ", and requests " + newWork.amount + " BSQ." );
+                $( $( daoSimDOM ).find( contributors[ prolificContributor ]['bsq_req_display_element'] )[0] ).text( ( contributors[ prolificContributor ]['bsq_req'] ).toFixed(1) + " BSQ Requested" );
+
+                //grab attention so user knows what's happening
+                $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                $( $( daoSimDOM ).find( contributors[ prolificContributor ]['bsq_req_display_element'] )[0] ).addClass( 'attention-grabber highlight' );
+                setTimeout( function() {
+                    removeAttentionGrabbers();
+                }, 2000 );
+
+                return;
+            }
+
+            function removeAttentionGrabbers() {
+                $( $( daoSimDOM ).find( '*' ) ).removeClass( 'attention-grabber' );
+                return;
+            }
+
+        });
+
+    </script>
 
 
     <!--
@@ -73,7 +500,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
             <div class='question-answer-group'>
                 <p class='question'>Is Bisq doing this because it needs money?</p>
                 <p>No. Bisq has bootstrapped itself to facilitate 20,000+ total trades since in the 2.5 years since April 2016. It makes real revenue <span class='emphasis'>right now</span>.</p>
-                <p>The goal is to remove central points of authority from Bisq's governance.</p>
+                <p>The goal is to remove central points of authority from Bisq's control structure.</p>
             </div>
 
             <div class='question-answer-group'>
@@ -84,6 +511,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
             <div class='question-answer-group'>
                 <p class='question'>Explain to this to me, simply. Please.</p>
+                <p>Here's a concrete example with round numbers for simplicity.</p>
                 <p>Developer does $1000 of work on Bisq software. He requests $1000 of BSQ, and includes 1000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1000 satoshis into BSQ worth $1000. Traders buy this BSQ with $1000 of BTC and redeem the BSQ as trading fees.</p>
                 <p>BSQ is just a placeholder for a BTC payment until the other party is known. The DAO is just a mechanism for collective decision-making in the absence of a CEO.</p>
             </div>
@@ -100,7 +528,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
             <div class='question-answer-group'>
                 <p class='question'>Even 1 extra step is more work. Why would I do that?</p>
-                <p>BSQ trading fees will be dramatically cheaper than plain BTC trading fees. Also, BSQ fees actually help sustain the project and BTC fees do not.</p>
+                <p>BSQ trading fees will be dramatically cheaper than plain BTC trading fees. Also, BSQ fees actually help sustain the project—BTC fees do not. See the simulation above.</p>
             </div>
 
             <div class='question-answer-group'>
@@ -111,8 +539,8 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
             <div class='question-answer-group'>
                 <p class='question'>But...Bisq works just fine without a token right now. Why do a token?</p>
-                <p>Because Bisq is changing its governance model. It's going from a centralized control structure (funding and policy determined by founders) to a decentralized control structure (funding and policy collectively by users and contibutors).</p>
-                <p>With the old model, all fees went to the founders. The new model enables fees to be distributed meritocratically to all contributors, and a token is needed to make it work.</p>
+                <p>Because Bisq is changing its governance model. It's going from a centralized control structure (funding and policy determined by founders) to a decentralized control structure (funding and policy determined collectively by users and contibutors).</p>
+                <p>With the old model, all fees went to arbitrators. The new model enables fees to be distributed meritocratically to all contributors, and a token is needed to make it work.</p>
             </div>
 
             <div class='question-answer-group'>
@@ -162,18 +590,18 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
         <div class='faqs'>
             <div class='question-answer-group'>
 
-                <h5>Video</h5>
+                <h5>Videos</h5>
                 <ul>
                     <li>
                         <div class='question-answer-group'>
                             <p class='question'><a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYOLdYJj3nQ6-DekbjMTVhCS' target='_blank'>Bisq DAO Basics</a></p>
-                            <p>This playlist, by Bisq founder Manfred Karrer and contributor Aruna Surya, covers everything from the basics of bitcoin transactions and colored coins to the economic and technical roots of the BSQ token and how it powers the Bisq DAO. The videos are long, but done in question-answer interview format, so they're easy to follow.</p>
+                            <p>This playlist, by Bisq founder Manfred Karrer and contributor Aruna Surya, covers everything from the basics of bitcoin transactions and colored coins to the economic and technical roots of the BSQ token and how it powers the Bisq DAO. The videos are each about an hour long, but done in question-answer interview format, so they're easy to follow.</p>
                         </div>
                     </li>
                     <li>
                         <div class='question-answer-group'>
                             <p class='question'><a href='https://www.youtube.com/watch?v=CL2dCRnqLc0' target='_blank'>BSQ Token in Bisq</a></p>
-                            <p>Outspoken Bitcoin maximalist Max Hillebrand discusses the BSQ token and why, in his opinion, "it's not a shitcoin." This video is one from a <a href='https://www.youtube.com/playlist?list=PLPj3KCksGbSZR33X7kJmDMwIEH-wrrpCJ' target='_blank'>series of videos</a> by Max posted on the World Crypto Network YouTube channel that covers everything from installing Bisq, setting up payment accounts and settings, making offers, taking offers, and beyond.</p>
+                            <p>Outspoken Bitcoin maximalist Max Hillebrand discusses the BSQ token and why, in his opinion, "it's not a shitcoin." This video is one from a <a href='https://www.youtube.com/playlist?list=PLPj3KCksGbSZR33X7kJmDMwIEH-wrrpCJ' target='_blank'>series of videos</a> by Max posted on the World Crypto Network YouTube channel that covers everything from installing Bisq, setting up payment accounts and settings, making offers, taking offers, and more.</p>
                         </div>
                     </li>
                     <li>
@@ -232,7 +660,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
         <div class='panel-interlude'>
             <p>Like any social organization, the Bisq DAO is not perfect. But it's an <span class='strong'>ever-adapting mechanism</span> that will continually improve with time.</p>
-            <p>Feel free to connect with us on <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a> and <a href='https://twitter.com/bisq_network' target='_blank'>Twitter</a>, and check out our code on <a href='https://github.com/bisq-network/' target='_blank'>GitHub</a>.</p>
+            <p>Feel free to connect with us on <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a> and <a href='https://twitter.com/bisq_network' target='_blank'>Twitter</a>, and browse our code on <a href='https://github.com/bisq-network/' target='_blank'>GitHub</a>.</p>
             <!-- <p>The DAO makes the consumption and production elements of Bisq a network of nodes.</p> -->
         </div>
 

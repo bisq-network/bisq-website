@@ -154,18 +154,8 @@ title: FAQ &lsaquo; Bisq - The decentralized Bitcoin exchange
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
     <p>To trade on Bisq, users pay (1) trading fees to Bisq and (2) mining fees to miners.</p>
 
-    <p>Trading fees for offer makers and offer takers are calculated differently.</p>
-
-    <strong>Offer maker fees</strong>
-    <p>The trading fee for an offer maker is based on the trade amount and distance from the current market price:</p>
-    <p><i>0.002 * &lt;amount of BTC being traded&gt; * &lt;square root of percentage distance from current market price&gt;</i><br/><i>(Minimum fee is 0.00005 BTC)</i></p>
-    <p>Example 1: making an offer to sell 0.1 BTC at current market price results in a 0.00005 BTC fee (because 0.002 * 0.1 * 0 = 0, so minimum fee applies).</p>
-    <p>Example 2: making an offer to sell 0.1 BTC at a 4% premium to current market price results in a 0.0004 BTC fee (because 0.002 * 0.1 * sqrt(4) = 0.0004).</p>
-
-    <strong>Offer taker fees</strong>
-    <p>The trading fee for an offer taker is based only on the trade amount:</p>
-    <p><i>0.002 * &lt;amount of BTC being traded&gt;</i><br/><i>(Minimum fee is 0.00005 BTC)</i></p>
-    <p>Example: taking an offer to buy 0.1 BTC results in a 0.0002 BTC fee (because 0.002 * 0.1 = 0.0002).</p>
+    <strong>Trading fees</strong>
+    <p>Offer makers pay 0.1% of the trade amount, and offer takers pay 0.3% of the trade amount. The minimum in both cases is 0.00005 BTC to avoid dust limits.</p>
 
     <strong>Mining fees</strong>
     <p>An offer maker only pays mining fees for the trade fee transaction. An offer taker pays mining fees for the trade fee transaction, deposit transaction, and payout transaction. This is because mining fees fluctuate and it's impossible for the offer

@@ -27,6 +27,109 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.3
+{: .mt-5 .mb-2}
+Released [January 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.3)
+
+This is a hot fix release as an empty trade object causes the trades statistic screen to fail right now.
+
+##### Version 0.9.2
+{: .mt-5 .mb-2}
+Released [January 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.2)
+
+With this release the fee model of Bisq was simplified and the maker fee reduced. The Bisq trading fee for the offer maker is now a fixed percentage of 0.1% and for the taker it was increased from 0.2% to 0.3%. This should reflect the higher burden on the maker side and incentivize market makers.
+Besides that we squashed some bugs in the Bisq DAO and improved the UI on multiple places. This release adds 19 new assets including the 2 Mimblewimble implementations Beam and Grin (Grin will be enabled as soon as it goes live on Mainnet).
+
+###### Bisq DAO (on Testnet)
+- [Fix icon handling in vote result table](https://github.com/bisq-network/bisq/pull/2172)
+- [Fix late proposals processing](https://github.com/bisq-network/bisq/pull/2191)
+- [Fix vote reveal transaction publishing](https://github.com/bisq-network/bisq/pull/2195)
+- [Fix performance issue at parsing](https://github.com/bisq-network/bisq/pull/2199)
+
+###### Trading
+- [Simplify fee model by using fixed percentage](https://github.com/bisq-network/bisq/pull/2212)
+- [Reduce maker fee to 0.1%](https://github.com/bisq-network/bisq/pull/2213)
+
+###### UI
+- Updated existing translations and added Persian as new supported language
+- Fix multiple typos and minor grammatical mistakes: [1](https://github.com/bisq-network/bisq/pull/2138), [2](https://github.com/bisq-network/bisq/pull/2148), [3](https://github.com/bisq-network/bisq/pull/2162), [4](https://github.com/bisq-network/bisq/pull/2185)
+- [Reduce line height in certain tables](https://github.com/bisq-network/bisq/pull/2215)
+- [Show more verbose label when taking an existing offer](https://github.com/bisq-network/bisq/pull/2215)
+- [Show warning popup if multiple valid payment accounts are available for offer](https://github.com/bisq-network/bisq/pull/2215)
+- [Improve padding of password input window](https://github.com/bisq-network/bisq/pull/2215)
+- [Disable payment accounts combobox in pay funds screen when taking an offer](https://github.com/bisq-network/bisq/pull/2215)
+- [Improve button hover effect, so it is not mistaken as disabled](https://github.com/bisq-network/bisq/pull/2187)
+- [Update "Next"-button on account change, when creating an offer](https://github.com/bisq-network/bisq/pull/2205)
+
+###### Privacy/Security
+- Update to netlayer 0.6.3: [1](https://github.com/bisq-network/bisq/pull/2192), [2](https://github.com/bisq-network/bisq/pull/2194)
+
+###### Development
+- [Improve Windows packaging process](https://github.com/bisq-network/bisq/pull/2163)
+- [Improve Linux packaging process](https://github.com/bisq-network/bisq/pull/2190)
+- Improve install_java.bat for Windows: [1](https://github.com/bisq-network/bisq/pull/2131), [2](https://github.com/bisq-network/bisq/pull/2165)
+- [Configure default system JDK for Linux](https://github.com/bisq-network/bisq/pull/2211)
+- [Remove pricenode direct dependency on assets](https://github.com/bisq-network/bisq/pull/2197)
+- [Be able to upgrade bitcoinj without upgrading libdohj](https://github.com/bisq-network/bisq/pull/2198)
+- [Preparations for http api](https://github.com/bisq-network/bisq/pull/2207)
+
+###### Installation
+- [Improve Windows install experience](https://github.com/bisq-network/bisq/pull/2164)
+
+###### Infrastructure
+- [Don't show filtered currencies](https://github.com/bisq-network/bisq/pull/2220)
+- [Bisq Network Monitor: Milestone Babysteps](https://github.com/bisq-network/bisq/pull/2181)
+
+###### Assets
+- Added 19 new assets:
+Aeon (AEON), Beam (BEAM), Bitmark (BTM), Dextro (DXO), FourtyTwo (FRTY), GambleCoin (GMCN), Grin (GRIN) (will be enabled on Mainnet release), Horizen (ZEN), IdaPay (IDA), Iridium (IRD), Noir (NOR), Pinkcoin (PINK), Qbase (QBS), Remix (RMX), SiaPrimeCoin (SCP), SpaceCash (SPACE), UnitedCommunityCoin (UCC), Webchain (WEB), WrkzCoin (WRKZ)
+- Removed not traded assets.
+
+##### Version 0.9.1
+{: .mt-5 .mb-2}
+Released [December 13th 2018](https://github.com/bisq-network/bisq/releases/tag/v0.9.1)
+
+###### Bisq DAO (on Testnet)
+- [Fix selection of BTC testnet in Settings](https://github.com/bisq-network/bisq/pull/2063)
+- [Fix reorg issues](https://github.com/bisq-network/bisq/pull/2056)
+- [Improve handling of reorgs](https://github.com/bisq-network/bisq/pull/2067)
+- [Handle RPC errors](https://github.com/bisq-network/bisq/pull/2098)
+- [UI improvements in Voting screen](https://github.com/bisq-network/bisq/pull/2094)
+- [Fix validatation of display fields in proposal display](https://github.com/bisq-network/bisq/pull/2074)
+- [Use animation for vote button](https://github.com/bisq-network/bisq/pull/2099)
+- [Use uppercase in submenu items](https://github.com/bisq-network/bisq/pull/2109)
+
+###### Trading
+- [Decrease the price tolerance window in offers](https://github.com/bisq-network/bisq/pull/2079)
+- [Remove testnet and regtest for DASH and LTC](https://github.com/bisq-network/bisq/pull/2095)
+- [Remove BCH](https://github.com/bisq-network/bisq/pull/2096)
+- [Show rounded trade volume in contracts](https://github.com/bisq-network/bisq/pull/2111)
+
+###### Payment methods
+- [Fix wrong positioning of requirements field in CashDeposit](https://github.com/bisq-network/bisq/pull/2060)
+
+###### UI
+- [Improve startup time by updating checkpoint files](https://github.com/bisq-network/bisq/pull/2070)
+- [Left align table columns to improve readability](https://github.com/bisq-network/bisq/pull/2062)
+- [Refine various UI strings](https://github.com/bisq-network/bisq/pull/2104)
+- [Bug fix: Close window without triggering action on ESC](https://github.com/bisq-network/bisq/pull/2077)
+- [Bug fix: Views are sometimes not updated when switching quickly between sub sections](https://github.com/bisq-network/bisq/pull/2108)
+- [Bug fix: Prevent duplicate popup windows](https://github.com/bisq-network/bisq/pull/2111)
+- [Bug fix: Update validation of volume when percentage price is set](https://github.com/bisq-network/bisq/pull/2111)
+
+###### Privacy/Security
+- [Stream isolation for Tor](https://github.com/bisq-network/bisq/pull/2081)
+
+###### Development
+- [Consolidate install_java.sh scripts](https://github.com/bisq-network/bisq/pull/2055)
+- [Update install_java.bat](https://github.com/bisq-network/bisq/pull/2085)
+- [Bug fix: Surgical fix to default command line parameters](https://github.com/bisq-network/bisq/pull/2090)
+
+###### Installation
+- [Bug fix: Windows installer issues](https://github.com/bisq-network/bisq/pull/2103)
+
+###### Assets
+- Removed Bitcoin Cash (BCH) based on [stakeholder voting](https://github.com/bisq-network/proposals/issues/61)
 
 ##### Version 0.9.0
 {: .mt-5 .mb-2}

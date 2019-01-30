@@ -5,10 +5,12 @@ body {
   letter-spacing: 0.03rem;
 }
 
-.green,
-a,
-.navbar-light .navbar-nav .nav-item.current .nav-link {
+.green, a {
   color: #25B135
+}
+
+.navbar-light .navbar-nav .nav-item.current .nav-link  {
+    color: #000;
 }
 
 .grey {
@@ -512,7 +514,7 @@ footer, footer ul li {
 }
 
 .row-block {
-  padding: 4em 70px;
+  padding: 4em 70px 0 70px;
   position: relative
 }
 
@@ -753,6 +755,19 @@ ol li::before {
 
 ol li {
     margin: 1rem 0;
+}
+
+/****************/
+
+/*****************front page*****************/
+
+#dao-coming-soon {
+    text-align: center;
+    margin: 4em auto 0 auto;
+}
+
+#dao-coming-soon p {
+    margin-bottom: 0;
 }
 
 /****************/

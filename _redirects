@@ -20,7 +20,7 @@ https://bisq.io https://bisq.network 301
 
 # docs.bisq.network
 /phase-zero https://docs.bisq.network/dao/phase-zero.html 302
-/dao https://docs.bisq.network/dao/phase-zero.html#the-bisq-dao-and-bsq-token 302
+/dao https://docs.bisq.network/user-dao-intro.html 302
 /list-token https://bisq.network/list-asset 301
 /list-asset https://docs.bisq.network/exchange/howto/list-asset.html 302
 /intro https://docs.bisq.network/intro.html 302

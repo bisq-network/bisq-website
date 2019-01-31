@@ -124,7 +124,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
         var contributions = [
             { task: "delivered code to Bisq", amount: "6" },
             { task: "wrote a doc for Bisq", amount: "4" },
-            { task: "provided support to Bisq users", amount: "2" }
+            { task: "provided support to Bisq users", amount: "4" }
         ];
 
         //user
@@ -161,6 +161,8 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
         *********************/
 
         $( window ).on( 'load', function () {
+
+            var tradingActionTimer = undefined;
 
             //get the svg element
             var daoSim = document.getElementById( "dao-sim" );
@@ -258,6 +260,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
             function tradeWithBSQ() {
 
+                clearTimeout( tradingActionTimer );
                 clearInterval(daoVoteTimer);
 
                 if( user.bsq > 0 ) {
@@ -266,7 +269,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
                     user.bsq -= 2;
 
                     //display info
-                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "Trade placed. You paid 2 BSQ (.05 BTC) in fees. Much cheaper than BTC, and a contributor was paid! Bravo." );
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "Trade placed. You paid 2 BSQ (.05 BTC) in fees. Much cheaper than BTC fees, and a contributor was paid! Bravo." );
                     $( $( daoSimDOM ).find( 'g:nth-child(28) > switch > foreignObject > div > div > div > span' )[0] ).text( ( user.bsq ).toFixed(1) + " BSQ" );
 
                     //grab attention
@@ -282,7 +285,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
                 }
 
-                setTimeout( function() {
+                tradingActionTimer = setTimeout( function() {
                     removeAttentionGrabbers();
                     startVotingInterval();
                 }, 4000 );
@@ -292,6 +295,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
             function tradeWithBTC() {
 
+                clearTimeout( tradingActionTimer );
                 clearInterval(daoVoteTimer);
 
                 if( user.btc >= 0.8 ) {
@@ -314,7 +318,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
                     $( $( daoSimDOM ).find( 'g:nth-child(46) > switch > foreignObject > div > div > div > span' ) ).addClass( 'attention-grabber highlight' );
                 }
 
-                setTimeout( function() {
+                tradingActionTimer = setTimeout( function() {
                     removeAttentionGrabbers();
                     startVotingInterval();
                 }, 4000 );
@@ -327,20 +331,24 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
             */
             function showBSQSale( i ) {
 
+                clearTimeout( tradingActionTimer );
                 clearInterval(daoVoteTimer);
 
-                if( contributors[i]['bsq'] < 4 ) {
+                if( contributors[i]['bsq'] < 2 ) {
                     $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "This contributor doesn't have any BSQ yet. Try another contributor." );
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
+                } else if( user.btc <= 0 ) {
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "Not enough BTC to buy BSQ." );
                     $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).addClass( 'attention-grabber highlight' );
                 } else {
 
                     user.btc -= 0.1;
-                    user.bsq += 4;
+                    user.bsq += 2;
                     contributors[i]['btc'] += 0.1;
-                    contributors[i]['bsq'] -= 4;
+                    contributors[i]['bsq'] -= 2;
 
                     //display info
-                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "You bought 4 BSQ from " + contributors[i]['name'] + " for 0.1 BTC. Contributor is paid, and you can trade :)" );
+                    $( $( daoSimDOM ).find( alertBoxTextNode )[0] ).text( "You bought 2 BSQ from " + contributors[i]['name'] + " for 0.1 BTC. Contributor is paid, and you can trade :)" );
                     //contributor balances
                     $( $( daoSimDOM ).find( contributors[i]['btc_display_element'] )[0] ).text( ( contributors[i]['btc'] ).toFixed(1) + " BTC" );
                     $( $( daoSimDOM ).find( contributors[i]['bsq_display_element'] )[0] ).text( ( contributors[i]['bsq'] ).toFixed(1) + " BSQ" );
@@ -356,7 +364,7 @@ title: Bisq DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
                     $( $( daoSimDOM ).find( contributors[i]['bsq_display_element'] )[0] ).addClass( 'attention-grabber highlight' );
                 }
 
-                setTimeout( function() {
+                tradingActionTimer = setTimeout( function() {
                     removeAttentionGrabbers();
                     startVotingInterval();
                 }, 4000 );

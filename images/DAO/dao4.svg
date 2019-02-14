@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="475.297" height="458.534" viewBox="0 0 475.297 458.534">
+  <g id="dao4" transform="translate(-89.501 -2301.354)">
+    <path id="Path_23" data-name="Path 23" d="M5018.256,2867.513l236.232-415.752,237.344,415.752Z" transform="translate(-4927.896 -149.396)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(188.963 2442.159)" fill="#26b036" stroke="#fff" stroke-width="1">
+      <circle cx="138.034" cy="138.034" r="138.034" stroke="none"/>
+      <circle cx="138.034" cy="138.034" r="137.534" fill="none"/>
+    </g>
+    <text id="Save_Money" data-name="Save Money" transform="translate(323.221 2756.889)" fill="#fff" font-size="12" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200" letter-spacing="0.01em"><tspan x="-31.404" y="0">Save Money</tspan></text>
+    <text id="Bisq" transform="translate(325.938 2590.888)" fill="#fff" font-size="12" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200" letter-spacing="0.01em"><tspan x="-11.418" y="0">Bisq</tspan></text>
+    <text id="Support_the_Network" data-name="Support the Network" transform="matrix(0.485, 0.875, -0.875, 0.485, 468.144, 2499.896)" fill="#fff" font-size="12" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200" letter-spacing="0.01em"><tspan x="-54.726" y="0">Support the Network</tspan></text>
+    <text id="Request_Compensation" data-name="Request Compensation" transform="translate(181.135 2503.611) rotate(-59)" fill="#fff" font-size="12" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200" letter-spacing="0.01em"><tspan x="-61.836" y="0">Request Compensation</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,138 @@
+---
+layout: default
+title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
+---
+
+
+
+<style>
+
+
+.split-text{
+  max-width:500px;
+  line-height: 2em;
+}
+
+.split-cointainer-main {
+  min-height: calc(100vh - 70px);
+
+}
+
+.split-container-main .title{
+  font-size: 5em;
+  font-weight: 100;
+  margin-left:-0.5rem;
+  line-height: 1em;
+}
+
+.split-container-main .intro{
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: 1.2em;
+  padding-top: 2rem;
+}
+
+.split-cointainer {
+  min-height: calc(100vh - 70px);
+}
+
+.split-container .title{
+  font-size: 1em;
+  font-weight: 300;
+  margin-bottom:1em;
+  color: #25B135;
+  text-transform: uppercase;
+}
+
+.split-container .intro{
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.split-container .subtitle{
+  font-size: 0.65em;
+  font-weight: 500;
+  padding-top:0.5em;
+}
+
+.split-container .small{
+  font-size: 0.65em;
+  font-weight: 300;
+  padding-bottom:1em;
+  line-height: 1.5em;
+}
+
+
+.split-container p {
+    margin-bottom: 0.8rem;
+}
+
+.split{ text-align:left; }
+
+
+.split img { width: 100%;}
+
+.split-last { background: #25B135; }
+.split-first { background: #fff; }
+/*
+.split-invert .split-last { background: #25B135; }
+.split-invert .split-first { background: #fff; }
+*/
+
+.split-invert {
+    flex-direction: row-reverse;
+}
+
+.outter {
+    padding-top: 70px;
+    min-height: 100vh;
+}
+
+
+.split-container ul{margin:0; padding-top:1rem;}
+
+
+@media (min-width: 768px) {
+  .h-md-100 { height: calc(100vh - 70px); }
+}
+
+@media (max-width: 767px)
+  .outter {
+      padding-top: 70px;
+  }
+}
+@media (max-width: 990px)
+.outter {
+    padding-top: 70px;
+}
+
+
+
+</style>
+
+
+
+{% for entry in site.data.dao_content %}
+<div class="d-md-flex h-md-100 align-items-center split-container{{ entry.class }} {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}{% if thecycle == 'even' %}split-invert{% endif %}">
+    <div class="col-md-6 p-0 h-md-100 split split-first">
+        <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
+            <div class="pt-5 pb-5 split-text">
+                <div class="title">
+                  {{ entry.title }}
+                </div>
+                <div class="intro">
+                  {{ entry.intro }}
+                </div>
+                <a href="{{ entry.href }}" class="btn btn-lg btn-outline-secondary mt-3">{{ entry.href_text }}</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 p-0 h-md-100 split split-last">
+        <div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
+            <img src="{{ entry.img }}" />
+        </div>
+    </div>
+
+</div>
+{% endfor %}

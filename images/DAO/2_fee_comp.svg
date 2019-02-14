@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="495" height="447" viewBox="0 0 495 447">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="-1.535" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="_2_fee_comp" data-name="2_fee_comp" transform="translate(-93.5 -977)">
+    <text id="BSQ" transform="translate(443.5 1069)" fill="#fff" font-size="70" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200"><tspan x="-64.47" y="0">BSQ</tspan></text>
+    <text id="_" data-name="₿" transform="translate(212.5 1069)" fill="#fff" font-size="70" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200"><tspan x="0" y="0">₿</tspan></text>
+    <text id="_of_trade" data-name="##% of trade" transform="translate(284 1152)" fill="#fff" font-size="16" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="0" y="0">##% of trade</tspan></text>
+    <text id="_of_trade-2" data-name="#% of trade" transform="translate(486 1377)" fill="#fff" font-size="16" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="0" y="0">#% of trade</tspan></text>
+    <text id="Pay_with" data-name="Pay with" transform="translate(235 993)" fill="#fff" font-size="16" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-29.784" y="0">Pay with</tspan></text>
+    <text id="Pay_with-2" data-name="Pay with" transform="translate(445 993)" fill="#fff" font-size="16" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-29.784" y="0">Pay with</tspan></text>
+    <line id="Line_2" data-name="Line 2" x2="495" transform="translate(93.5 1423.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g id="Rectangle_9" data-name="Rectangle 9" transform="translate(201.5 1146)" stroke="rgba(255,255,255,0.5)" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="67" height="278" stroke="none"/>
+      <rect x="0.5" y="0.5" width="66" height="277" fill="none"/>
+    </g>
+    <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(407.5 1371)" stroke="rgba(255,255,255,0.5)" stroke-width="1" fill="url(#linear-gradient-2)">
+      <rect width="67" height="53" stroke="none"/>
+      <rect x="0.5" y="0.5" width="66" height="52" fill="none"/>
+    </g>
+  </g>
+</svg>

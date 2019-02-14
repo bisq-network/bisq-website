@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="583" height="625" viewBox="0 0 583 625">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="823" height="759" viewBox="0 0 823 759">
   <defs>
-    <filter id="Pays_trading_fees_w_BSQ" x="1" y="361" width="172" height="73" filterUnits="userSpaceOnUse">
+    <filter id="Pays_trading_fees_w_BSQ" x="121" y="428" width="172" height="73" filterUnits="userSpaceOnUse">
       <feOffset input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="10" result="blur"/>
       <feFlood flood-color="#26b036"/>
@@ -8,7 +8,8 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="dao3" transform="translate(-795 -1568)">
+  <g id="dao3" transform="translate(-675 -1501)">
+    <rect id="Rectangle_34" data-name="Rectangle 34" width="823" height="759" transform="translate(675 1501)" fill="#fff" opacity="0"/>
     <g id="Group_15" data-name="Group 15" transform="translate(-29 -2)">
       <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(889 1627)" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1">
         <circle cx="230" cy="230" r="230" stroke="none"/>
@@ -63,8 +64,8 @@ based on contributions" transform="translate(1322 1971)" fill="#fff" font-size="
 based on contributions" transform="translate(1303 1704)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-70.025" y="0">Voting protocol distributes BSQ </tspan><tspan x="-50.605" y="13">based on contributions</tspan></text>
       <text id="Contributors_sell_directly_to_traders" data-name="Contributors
 sell directly to traders" transform="translate(1210 1813)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="2.415" y="10">Contributors</tspan><tspan x="4.715" y="23">sell directly </tspan><tspan x="8.575" y="36">to traders</tspan></text>
-      <g transform="matrix(1, 0, 0, 1, 824, 1570)" filter="url(#Pays_trading_fees_w_BSQ)">
-        <text id="Pays_trading_fees_w_BSQ-2" data-name="Pays trading fees w/ BSQ" transform="translate(87 401)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-55.09" y="0">Pays trading fees w/ BSQ</tspan></text>
+      <g transform="matrix(1, 0, 0, 1, 704, 1503)" filter="url(#Pays_trading_fees_w_BSQ)">
+        <text id="Pays_trading_fees_w_BSQ-2" data-name="Pays trading fees w/ BSQ" transform="translate(207 468)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-55.09" y="0">Pays trading fees w/ BSQ</tspan></text>
       </g>
       <path id="Path_16" data-name="Path 16" d="M4596.828,610.088h13.531v13.534" transform="translate(-2953.187 3678.521) rotate(-30)" fill="none" stroke="#fff" stroke-width="1"/>
       <path id="Path_19" data-name="Path 19" d="M4596.827,610.088h16.433v16.437" transform="translate(5171.476 -72.492) rotate(149)" fill="none" stroke="#fff" stroke-width="1"/>

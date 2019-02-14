@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="443.36" height="443.36" viewBox="0 0 443.36 443.36">
-  <g id="dao6" transform="translate(-6758 -2388)">
+<svg xmlns="http://www.w3.org/2000/svg" width="681" height="627" viewBox="0 0 681 627">
+  <g id="dao6" transform="translate(-6639 -2296)">
     <g id="Ellipse_28" data-name="Ellipse 28" transform="translate(6758 2388)" fill="none" stroke="#fff" stroke-width="1">
       <circle cx="221.68" cy="221.68" r="221.68" stroke="none"/>
       <circle cx="221.68" cy="221.68" r="221.18" fill="none"/>
@@ -7,5 +7,6 @@
     <text id="Voting" transform="translate(6980 2515.542)" fill="#fff" font-size="12" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200"><tspan x="-16.224" y="0">Voting</tspan></text>
     <text id="Proposals" transform="translate(6980 2714.083)" fill="#fff" font-size="12" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200"><tspan x="-25.584" y="0">Proposals</tspan></text>
     <line id="Line_19" data-name="Line 19" x2="390.157" transform="translate(6784.5 2610.313)" fill="none" stroke="#fff" stroke-width="1"/>
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="681" height="627" transform="translate(6639 2296)" fill="#fff" opacity="0"/>
   </g>
 </svg>

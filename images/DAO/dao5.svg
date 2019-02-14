@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="464.159" height="357" viewBox="0 0 464.159 357">
+  <g id="dao5" transform="translate(-834.862 -3083)">
+    <g id="Group_21" data-name="Group 21" transform="translate(709 688)">
+      <text id="Trading_fees" data-name="Trading
+fees" transform="translate(460.063 2534)" fill="#fff" font-size="11" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200"><tspan x="0" y="0">Trading</tspan><tspan x="0" y="14">fees</tspan></text>
+      <text id="deficit" transform="translate(331.063 2419)" fill="#fff" font-size="10" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200"><tspan x="-13.18" y="0">deficit</tspan></text>
+      <text id="profit" transform="translate(386.063 2419)" fill="#fff" font-size="10" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200"><tspan x="-11.33" y="0">profit</tspan></text>
+      <text id="BSQ_issued_for_compensations" data-name="BSQ issued 
+for compensations" transform="translate(426.063 2685)" fill="#fff" font-size="11" font-family="IBMPlexSans-Thin, IBM Plex Sans" font-weight="200"><tspan x="0" y="0">BSQ issued </tspan><tspan x="0" y="14">for compensations</tspan></text>
+      <line id="Line_7" data-name="Line 7" x2="463.125" transform="translate(125.938 2751.5)" fill="none" stroke="#fff" stroke-width="1"/>
+      <line id="Line_8" data-name="Line 8" x2="463.125" transform="translate(125.938 2662.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.251"/>
+      <line id="Line_9" data-name="Line 9" x2="463.125" transform="translate(125.938 2573.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.251"/>
+      <line id="Line_10" data-name="Line 10" x2="463.125" transform="translate(125.938 2484.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.251"/>
+      <line id="Line_11" data-name="Line 11" x2="463.125" transform="translate(125.938 2395.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.251"/>
+      <path id="Path_11" data-name="Path 11" d="M5003,2873.258c375.924-28.344,463.125-325.431,463.125-325.431" transform="translate(-4877.063 -134.258)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="Path_10" data-name="Path 10" d="M5005.522,2669.917c358.311,0,460.6-122.089,460.6-122.089" transform="translate(-4877.063 25.672)" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="3"/>
+      <line id="Line_18" data-name="Line 18" y2="356" transform="translate(357.5 2395.5)" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="10 10" opacity="0.269"/>
+    </g>
+  </g>
+</svg>

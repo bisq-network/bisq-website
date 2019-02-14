@@ -2,7 +2,7 @@
   intro: Bitcoin-style governance to make Bisq as unstoppable as Bitcoin itself.
   href_text: top
   href: "#top"
-  img: /images/DAO/1_intro.svg
+  img: ../images/DAO/dao1.svg
   class: -main
 
 
@@ -10,7 +10,7 @@
   intro: The Bisq DAO enables Bisq to manage funding and decision-making without the confines of a corporation or other legal entity, keeping Bisq stateless & sovereign.
   href_text: Learn more about the DAO
   href: "#top"
-  img: /images/DAO/2_fee_comp.svg
+  img: ../images/DAO/dao2.svg
 
 
 - title: What the Bisq DAO is not
@@ -21,7 +21,7 @@
           Right now, they only go to arbitrators. With the DAO, they can be distributed to all project contributors, on merit, without any central authorities."
   href_text: jfhhftop
   href: "#top"
-  img: /images/DAO/3_distribution.svg
+  img: ../images/DAO/dao3.svg
 
 
 - title: "Benefits"
@@ -46,7 +46,7 @@
     </div>"
   href_text: jfhhftop
   href: "#top"
-  img: /images/DAO/4_network.svg
+  img: ../images/DAO/dao4.svg
 
 
 - title: Why?
@@ -57,7 +57,7 @@
           What about Bisq's developers? Project decision-making and funding is still centralized, and this creates vulnerabilities."
   href_text: jfhhftop
   href: "#top"
-  img: /images/DAO/5_chart.svg
+  img: ../images/DAO/dao5.svg
 
 
 - title: How does it work?
@@ -84,4 +84,4 @@
           </div>"
   href_text: jfhhftop
   href: "#top"
-  img: /images/DAO/5_chart.svg
+  img: ../images/DAO/dao6.svg

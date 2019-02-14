@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="583" height="625" viewBox="0 0 583 625">
+  <defs>
+    <filter id="Holders_vote_to_color_more_itcoins_with_BSQ_tag_to_compensate_contributions" x="197" y="110" width="197" height="108" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#26b036"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="BSQ_holders_sell_BSQ_for_Bitcoin_for_low_fee_trading" x="23" y="94" width="188" height="86" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#26b036"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Voting_protocol_distributes_SQ_based_on_contributions" x="423.5" y="386.5" width="149" height="35" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-3"/>
+      <feFlood flood-color="#26b036"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Voting_protocol_distributes_BSQ_based_on_contributions" x="403.5" y="119.5" width="151" height="35" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-4"/>
+      <feFlood flood-color="#26b036"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Contributors_sell_directly_to_traders" x="381.5" y="238.5" width="69" height="58" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-5"/>
+      <feFlood flood-color="#26b036"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Pays_trading_fees_w_BSQ" x="1" y="361" width="172" height="73" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-6"/>
+      <feFlood flood-color="#26b036"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_3_distribution" data-name="3_distribution" transform="translate(-795 -1568)">
+    <g id="Group_15" data-name="Group 15" transform="translate(-29 -2)">
+      <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(889 1627)" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1">
+        <circle cx="230" cy="230" r="230" stroke="none"/>
+        <circle cx="230" cy="230" r="229.5" fill="none"/>
+      </g>
+      <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(1029 1981)" fill="#21be34" stroke="#fff" stroke-width="1">
+        <circle cx="90" cy="90" r="90" stroke="none"/>
+        <circle cx="90" cy="90" r="89.5" fill="none"/>
+      </g>
+      <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(1083 1966)" fill="#21be34" stroke="#26b036" stroke-width="1" stroke-dasharray="5">
+        <ellipse cx="36" cy="35.5" rx="36" ry="35.5" stroke="none"/>
+        <ellipse cx="36" cy="35.5" rx="36.5" ry="36" fill="none"/>
+      </g>
+      <text id="Bisq_Network_DAO_Protocol" data-name="Bisq Network 
+DAO Protocol" transform="translate(1119 2073)" fill="#fff" font-size="16" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-49.216" y="0">Bisq Network </tspan><tspan x="-46.96" y="20">DAO Protocol</tspan></text>
+      <text id="Voting_Protocol" data-name="Voting 
+Protocol" transform="translate(1119 1997)" fill="#fff" font-size="13" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-19.63" y="0">Voting </tspan><tspan x="-23.907" y="17">Protocol</tspan></text>
+      <text id="BSQ_colored_itcoins_are_untagged_and_destroyed" data-name="BSQ colored ₿itcoins
+are untagged and destroyed" transform="translate(1119 2179)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-46.11" y="0">BSQ colored ₿itcoins</tspan><tspan x="-61.835" y="13">are untagged and destroyed</tspan></text>
+      <path id="Path_8" data-name="Path 8" d="M4596.828,610.088h9.257l-.2,9.257" transform="translate(4807.338 -916.636) rotate(135)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Path_13" data-name="Path 13" d="M-42.545-.331H-172.583" transform="translate(1118.669 1950.557) rotate(90)" fill="none" stroke="#fff" stroke-width="1"/>
+      <g transform="matrix(1, 0, 0, 1, 824, 1570)" filter="url(#Holders_vote_to_color_more_itcoins_with_BSQ_tag_to_compensate_contributions)">
+        <text id="Holders_vote_to_color_more_itcoins_with_BSQ_tag_to_compensate_contributions-2" data-name="Holders vote to color more
+₿itcoins with BSQ tag to compensate contributions" transform="translate(227 140)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="9.92" y="10">Holders vote to color more</tspan><tspan x="15.82" y="23">₿itcoins with BSQ tag to </tspan><tspan x="10.745" y="36">compensate contributions</tspan></text>
+      </g>
+      <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(1277 1772)" fill="#26b036" stroke="#fff" stroke-width="1">
+        <circle cx="65" cy="65" r="65" stroke="none"/>
+        <circle cx="65" cy="65" r="64.5" fill="none"/>
+      </g>
+      <text id="Contributor" transform="translate(1342 1845)" fill="#fff" font-size="16" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-40.32" y="0">Contributor</tspan></text>
+      <g id="Group_13" data-name="Group 13" transform="translate(36 -49)">
+        <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(1018 1619)" fill="#26b036" stroke="#fff" stroke-width="1">
+          <circle cx="65" cy="65" r="65" stroke="none"/>
+          <circle cx="65" cy="65" r="64.5" fill="none"/>
+        </g>
+        <text id="BSQ_Holders" data-name="BSQ Holders" transform="translate(1083 1690)" fill="#fff" font-size="16" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-44.84" y="0">BSQ Holders</tspan></text>
+      </g>
+      <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(824 1779)" fill="#26b036" stroke="#fff" stroke-width="1">
+        <circle cx="65" cy="65" r="65" stroke="none"/>
+        <circle cx="65" cy="65" r="64.5" fill="none"/>
+      </g>
+      <text id="Trader" transform="translate(889 1850)" fill="#fff" font-size="16" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-23.032" y="0">Trader</tspan></text>
+      <path id="Path_14" data-name="Path 14" d="M0,0H10.453l-.226,10.456" transform="translate(1052.136 1847.759) rotate(-135)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Path_15" data-name="Path 15" d="M142.823,0H0" transform="translate(1189 1840.433) rotate(180)" fill="none" stroke="#fff" stroke-width="1" stroke-dasharray="5"/>
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="149" height="37" transform="translate(866 1689)" fill="#26b036"/>
+      <rect id="Rectangle_13" data-name="Rectangle 13" width="149" height="37" transform="translate(1228 1689)" fill="#26b036"/>
+      <rect id="Rectangle_14" data-name="Rectangle 14" width="149" height="37" transform="translate(1252 1956)" fill="#26b036"/>
+      <rect id="Rectangle_15" data-name="Rectangle 15" width="149" height="23" transform="translate(844 1956)" fill="#26b036"/>
+      <g transform="matrix(1, 0, 0, 1, 824, 1570)" filter="url(#BSQ_holders_sell_BSQ_for_Bitcoin_for_low_fee_trading)">
+        <text id="BSQ_holders_sell_BSQ_for_Bitcoin_for_low_fee_trading-2" data-name="BSQ holders sell BSQ
+for Bitcoin for low fee trading" transform="translate(117 134)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-46.915" y="0">BSQ holders sell BSQ</tspan><tspan x="-63.7" y="13">for Bitcoin for low fee trading</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 824, 1570)" filter="url(#Voting_protocol_distributes_SQ_based_on_contributions)">
+        <text id="Voting_protocol_distributes_SQ_based_on_contributions-2" data-name="Voting protocol distributes ₿SQ 
+based on contributions" transform="translate(498 401)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-69.98" y="0">Voting protocol distributes ₿SQ </tspan><tspan x="-50.605" y="13">based on contributions</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 824, 1570)" filter="url(#Voting_protocol_distributes_BSQ_based_on_contributions)">
+        <text id="Voting_protocol_distributes_BSQ_based_on_contributions-2" data-name="Voting protocol distributes BSQ 
+based on contributions" transform="translate(479 134)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-70.025" y="0">Voting protocol distributes BSQ </tspan><tspan x="-50.605" y="13">based on contributions</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 824, 1570)" filter="url(#Contributors_sell_directly_to_traders)">
+        <text id="Contributors_sell_directly_to_traders-2" data-name="Contributors
+sell directly to traders" transform="translate(386 243)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="2.415" y="10">Contributors</tspan><tspan x="4.715" y="23">sell directly </tspan><tspan x="8.575" y="36">to traders</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 824, 1570)" filter="url(#Pays_trading_fees_w_BSQ)">
+        <text id="Pays_trading_fees_w_BSQ-2" data-name="Pays trading fees w/ BSQ" transform="translate(87 401)" fill="#fff" font-size="10" font-family="IBMPlexSans-Light, IBM Plex Sans" font-weight="300"><tspan x="-55.09" y="0">Pays trading fees w/ BSQ</tspan></text>
+      </g>
+      <path id="Path_16" data-name="Path 16" d="M4596.828,610.088h13.531v13.534" transform="translate(-2953.187 3678.521) rotate(-30)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Path_19" data-name="Path 19" d="M4596.827,610.088h16.433v16.437" transform="translate(5171.476 -72.492) rotate(149)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Path_17" data-name="Path 17" d="M4596.828,610.088h11.847v11.85" transform="matrix(-0.469, -0.883, 0.883, -0.469, 2809.067, 5992.263)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Path_18" data-name="Path 18" d="M4596.828,610.088h11.87v11.873" transform="translate(-671.778 -2258.76) rotate(61)" fill="none" stroke="#fff" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

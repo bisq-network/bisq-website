@@ -18,13 +18,38 @@ https://bisq.io/* https://bisq.network/:splat 301!
 https://bisq.io https://bisq.network 301
 
 
-# docs.bisq.network
-/phase-zero https://docs.bisq.network/dao/phase-zero.html 302
+# DAO
+//TODO once the landing page on bisq.network is out remove that redirect
 /dao https://docs.bisq.network/user-dao-intro.html 302
+
+# main page on docs for dao with links to further content
+/docs/dao https://docs.bisq.network/dao.html 302
+
+# main dao overview on docs
+/docs/dao/intro https://docs.bisq.network/user-dao-intro.html 302
+
+# dao user guide
+/docs/dao/user-guide https://docs.bisq.network/getting-started-dao.html 302
+
+# in depth concept overview
+/phase-zero https://docs.bisq.network/dao/phase-zero.html 302
+
+# tech spec
+/docs/dao/specification https://docs.bisq.network/dao/specification.html 302
+
+# for genesis distribution
+/docs/dao/genesis https://docs.bisq.network/user-dao-intro.html#get-added-to-genesis 302
+
+# setup full node docs
+/docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/docs/dao-setup.md 302
+
+# not sure where it is used (not in app), keep it just in case.
 /dao-testnet https://docs.bisq.network/user-dao-intro.html#now-you-try 302
 
-# TODO no dedicated doc yet
-/dao-genesis https://docs.bisq.network/user-dao-intro.html 302
+# Overview about Bisq and the DAO (written by Chris), superseded by phase zero doc. Keep it for archive
+/docs/dao/overview https://docs.bisq.network/dao/overview.html 302
+
+
 
 /list-token https://bisq.network/list-asset 301
 /list-asset https://docs.bisq.network/exchange/howto/list-asset.html 302
@@ -47,13 +72,6 @@ https://bisq.io https://bisq.network 301
 /risk_analysis.pdf /docs/exchange/risk-analysis 301
 /docs/risk-analysis.pdf /docs/exchange/risk-analysis 301
 /docs/exchange/risk-analysis https://docs.google.com/document/d/1sHwU7K7C8Nl-fS4Z6X88L-NVJ_WBiKnsSpYpYfyqUXA/edit# 302
-
-/docs/dao/overview https://docs.bisq.network/dao/overview.html 302
-
-/docs/dao/specification https://docs.bisq.network/dao/specification.html 302
-
-# We use the doc file until we have added it to the official docs page
-/docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/docs/dao-setup.md 302
 
 /mobile-notifications https://docs.bisq.network/bisq-mobile.html#notifications 302
 

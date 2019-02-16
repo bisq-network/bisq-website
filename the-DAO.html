@@ -23,6 +23,7 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
   font-weight: 100;
   margin-left:-0.5rem;
   line-height: 1em;
+  max-width: 400px;
 }
 
 .split-container-main .intro{
@@ -32,6 +33,19 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
   padding-top: 2rem;
 }
 
+span.asterisk {
+    font-size: 0.5em;
+    vertical-align: text-top;
+}
+
+.footnote {
+    font-size: 13px;
+    display: block;
+    font-weight: 300;
+    line-height: 1em;
+    margin: 2em 0 5em 0;
+}
+
 .split-cointainer {
   min-height: calc(100vh - 70px);
 }
@@ -39,7 +53,6 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 .split-container .title{
   font-size: 1em;
   font-weight: 300;
-  margin-bottom:1em;
   color: #25B135;
   text-transform: uppercase;
 }
@@ -52,19 +65,23 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 .split-container .subtitle{
   font-size: 0.65em;
   font-weight: 500;
-  padding-top:0.5em;
+  padding-bottom: 1em;
 }
 
 .split-container .small{
   font-size: 0.65em;
   font-weight: 300;
-  padding-bottom:1em;
   line-height: 1.5em;
 }
 
+.disclaimer {
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
 
 .split-container p {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.85rem;
 }
 
 .split{ text-align:left; }
@@ -92,8 +109,16 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 }
 
 
-.split-container ul{margin:0; padding-top:1rem;}
+.split-container ul {
+    margin: 0;
+    padding-left: 1em;
+}
 
+
+.conclusion{
+  background: #2f2f2f; color: #fff;
+  font-weight:200;
+}
 
 @media (min-width: 768px) {
   .h-md-100 { height: calc(100vh - 70px); }
@@ -116,7 +141,7 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 
 {% for entry in site.data.dao_content %}
-<div class="d-md-flex h-md-100 align-items-center split-container{{ entry.class }} {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}{% if thecycle == 'even' %}split-invert{% endif %}">
+<div id="{{ entry.id }}" class="d-md-flex h-md-100 align-items-center split-container{{ entry.class }} {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}{% if thecycle == 'even' %}split-invert{% endif %}">
     <div class="col-md-6 p-0 h-md-100 split split-first">
         <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
             <div class="pt-5 pb-5 split-text">
@@ -126,7 +151,7 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
                 <div class="intro">
                   {{ entry.intro }}
                 </div>
-                <a href="{{ entry.href }}" class="btn btn-lg btn-outline-secondary mt-3">{{ entry.href_text }}</a>
+                <a href="{{ entry.href }}" target="_blank">{{ entry.href_text }}</a>
             </div>
         </div>
     </div>
@@ -142,48 +167,78 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 
 
-<div class="grey-back m-0 p-5" style="margin-bottom:0">
-  <div class="container">
-    <div class="row-block row p-4">
-      <h2>The Bisq DAO implements the core values of Bitcoin into a human organization to deliver a decentralized, permissionless, sovereign, merit-based, and stateless force for good.</h2>
-    </div>
-  </div>
-</div>
-
-<div class="m-0" style="background: #737373; color: #fff;">
+<div class="conclusion m-0 pb-5">
   <div class="row-block container">
-    <h2 id="">Not convinced a token is required?</h2>
-    <div class="row">
+    <h2 style="margin: 2em 0;">Want to learn more?</h2>
 
-      <div class="col-12 col-md-6 bigger">
-          <p>
-            Tokens so far are useless because they're all issued by legal entities like companies and foundations. These entities could easily accomplish their goals without tokens.
-          </p>
-          <p>
-            Many tokens seem to lack utility since they're issued by legal entities like companies and foundations. Often, these entities could accomplish their goals without tokens.
-          </p>
-          <p>
-            However, when there is no entity, as in Bisq's case, things change. New tools are needed to collect revenue and make policy. Where can revenue be collected if there is no central wallet? Who determines policy if there is no leadership team?
-          </p>
+
+      <div class="row">
+
+        <div class="col-12 col-md-8 pb-5">
+          <div class="subtitle">
+            You can learn more about the Bisq DAO from the resources below, from high-level ELI5-style docs and videos to the technical specification for developers.
+          </div>
+        </div>
+
       </div>
 
+      <div class="row pb-5">
 
-
-      <div class="col-12 col-md-6 bigger">
-          <h3 class="small">Introduction to the Bisq DAO - Doc</h3>
-            <p>
-              Plain-language description of the DAO and BSQ token, and how it enables decentralized funding and decision-making for the Bisq Network.
+          <div class="col-12 col-md-6 pb-5 pr-5">
+            <div class="text-uppercase grey">
+              Conceptual Overview - Doc
+            </div>
+            <p class="bigger">
+              Plain-language <a href="#" target="_blank">description</a> of the DAO.
             </p>
+          </div>
 
-          <h3 class="small">Bisq DAO in Brief - Videos</h3>
-          <p>
-            Short video series on what the Bisq DAO is, what it accomplishes, and why it's needed.
-          </p>
+
+          <div class="col-12 col-md-6 pb-5 pr-5">
+            <div class="text-uppercase grey">
+              Bisq DAO in Brief - Videos
+            </div>
+            <p class="bigger">
+              Quick, short <a href="#" target="_blank">video series</a> on the Bisq DAO.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 pb-5 pr-5">
+            <div class="text-uppercase grey">
+              Technical Overview - Doc
+            </div>
+            <p class="bigger">
+              <a href="#" target="_blank">Specification</a> of the workings of the Bisq DAO and BSQ token.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 pb-5 pr-5">
+            <div class="text-uppercase grey">
+              Not convinced a token is required?
+            </div>
+            <p class="bigger">
+              We’ve got a <a href="#" target="_blank">post</a> just for you.
+            </p>
+          </div>
+
+
       </div>
 
 
+
+      <div class="row">
+
+        <div class="col-12 col-md-8 pb-5 grey">
+            <p>See all resources on our All About the Bisq DAO doc.</p>
+            <p>If you’ve made contributions in the past, check the All About the Bisq DAO page for instructions on requesting compensation.</p>
+        </div>
+
+      </div>
 
 
     </div>
+
+
+
   </div>
 </div>

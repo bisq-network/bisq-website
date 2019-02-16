@@ -4,7 +4,7 @@
           <span class=\"footnote\">* DAO stands for Decentralized Autonomous Organisation</span>
           <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-3 animate-scroll\">Discover</a>
         "
-  img: ../images/DAO/dao1.svg
+  img: ../images/DAO/dao_intro.svg
   class: -main
   id: intro
 
@@ -23,7 +23,7 @@
   href_text: Learn more about the DAO
   href: "https://docs.bisq.network/"
   target: "_blank"
-  img: ../images/DAO/dao2.svg
+  img: ../images/DAO/dao_why.svg
   id: why
 
 
@@ -39,7 +39,7 @@
   href_text: Learn more about the DAO
   href: "https://docs.bisq.network/"
   target: "_blank"
-  img: ../images/DAO/dao3.svg
+  img: ../images/DAO/dao_what.svg
   id: what
 
 
@@ -47,9 +47,9 @@
 
 
 
-- title: How Does It Work?
+- title: How It Works?
   intro: "
-          The Bisq DAO has 2 primary purposes:
+          The Bisq DAO works by enforcing 2 main protocols:
 
           <div class=\"subtitle pt-4\">
             1. Revenue-distribution
@@ -57,10 +57,10 @@
 
           <div class=\"small\">
             <p>
-              To distribute revenue from trading fees to contributors, we use BSQ - a Bitcoin-based colored coin. New BSQ is issued by contributors (“colored”) if they get support from stakeholders in the voting process, and BSQ gets “uncolored” when traders use it for trading fees.
+              To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. New BSQ is issued by contributors (“colored Bitcoin”) if they get support from stakeholders in the voting process, and BSQ gets “uncolored” when traders use it for trading fees.
             </p>
             <p>
-              There is no central entity collecting or creating BSQ. BSQ stakeholders are collectively in charge of the issuance process.
+              There is no central entity collecting or creating BSQ. Bisq stakeholders are collectively in charge of the issuance process.
             </p>
             <p class=\"disclaimer\">
               NOTE: This is not an ICO. No BSQ is sold to raise capital.
@@ -87,7 +87,7 @@
   href_text: Learn more about the DAO
   href: "https://docs.bisq.network/"
   target: "_blank"
-  img: ../images/DAO/dao6.svg
+  img: ../images/DAO/dao_how.svg
   id: how
 
 
@@ -111,5 +111,5 @@
   href_text: Learn more about the DAO
   href: "https://docs.bisq.network/"
   target: "_blank"
-  img: ../images/DAO/dao4.svg
+  img: ../images/DAO/dao_benefits.svg
   id: benefits

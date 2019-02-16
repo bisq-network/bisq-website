@@ -311,13 +311,24 @@ footer, footer ul li {
 }
 
 
-#community-footer a{
+.page-footer a{
   opacity:0.7;
 }
 
-#community-footer a:hover{
+.page-footer a:hover{
   opacity:1;
 }
+
+.page-footer a.app-link{
+  opacity:1;
+}
+
+
+
+#community-footer a{
+  margin-left: -5px;
+}
+
 
 #community-footer img{
     width: 28px;

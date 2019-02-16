@@ -1,4 +1,4 @@
-<footer class="page-footer font-small blue pt-4 dark-grey">
+<footer class="page-footer font-small blue pt-5 dark-grey">
 
     <div class="container-fluid text-md-left px-0">
 
@@ -6,12 +6,14 @@
 
         <div class="col-12 col-lg-4 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-sm-4 px-4">
           <h5 class="text-uppercase small grey">Bisq mobile notification App</h5>
-          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img" alt="Get it on Google Play" src="{{ site.url }}/images/badge_google_play.svg"/></a>
+          <a target="_blank" class="app-link" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img" alt="Get it on Google Play" src="{{ site.url }}/images/badge_google_play.svg"/></a>
           &nbsp;
-          <a target="_blank" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img" alt="Get it on the App Store" src="{{ site.url }}/images/badge_app_store.svg"/></a>
+          <a target="_blank" class="app-link" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img" alt="Get it on the App Store" src="{{ site.url }}/images/badge_app_store.svg"/></a>
 
 
-
+          <div class="text-left small grey pt-4">
+            © 2018 Bisq
+          </div>
 
 
 
@@ -40,6 +42,9 @@
             <li>
               <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank">Contribute</a>
             </li>
+            <li>
+              <a href="https://markets.bisq.network/api/" target="_blank">Market Data API</a>
+            </li>
             <!--
             lets activate it once we have a dynamic content
             <li>
@@ -51,52 +56,8 @@
         <hr class="clearfix w-100 d-lg-none pb-3">
 
         <div class="col-12 col-lg-3 mb-md-0 mb-3 small px-4 px-md-5">
-            <h5 class="text-uppercase small grey">Integrations</h5>
-            <ul class="list-unstyled">
-              <li>
-                <a href="https://markets.bisq.network/api/" target="_blank">Market Data API</a>
-              </li>
-              <!--
-              <li>
-                <a href="https://explorer.bisq.network/" target="_blank">DAO Explorer</a>
-              </li>
-              <li>
-                <a href="https://explorer.bisq.network/API.html" target="_blank">DAO Explorer API</a>
-              </li>
-              <li>
-                <a href="https://markets.bisq.network/api/" target="_blank">Trading API (coming soon)</a>
-              </li>-->
-            </ul>
-          </div>
-      </div>
-    </div>
 
-
-
-    <div class="darker-grey">
-      <div class="footer-copyright py-3 row mx-0">
-
-        {% comment %}
-        <div class="text-left col-12 mt-md-3 mt-2 mb-md-2 mb-sm-5 small grey px-4 px-md-5">
-          <div style="max-width:400px">
-          {% assign hours= site.time | date: "%H" | plus:100 %}
-          {% assign random = page.title.size | plus: hours | modulo: site.data.quotes.size %}
-          {{site.data.quotes[random].text}}<br><br><i>—{{site.data.quotes[random].author}}</i>
-          </div>
-        </div>
-
-
-        <hr class="clearfix w-100 pb-3 mb-3">
-        {% endcomment %}
-
-
-        <div class="text-left col-12 col-sm-4 mt-md-3 mt-3 mb-md-2 mb-sm-3 small grey px-4 px-md-5 ">
-          © 2018 Bisq
-        </div>
-
-        <div class="text-sm-right text-left col-12 col-sm-8 mt-md-2 mt-3 mb-md-0 mb-3 ml-auto small grey px-4 px-md-5 ">
-
-
+          <h5 class="text-uppercase small grey">Join Bisq</h5>
 
           <span id="community-footer">
             <a target="_blank" title="GitHub" href="https://github.com/bisq-network"> <img src="{{ site.url }}/images/community/github_w.svg" alt="github"> </a>
@@ -109,16 +70,10 @@
             <a target="_blank" title="Reddit" href="https://www.reddit.com/r/bisq"><img src="{{ site.url }}/images/community/reddit_w.svg" alt="reddit"> </a>
           </span>
 
-
-
-
-
-
-
-
-        </div>
-
+          </div>
       </div>
     </div>
+
+
 
   </footer>

@@ -34,7 +34,7 @@ The Bisq DAO and BSQ token are answers to these questions. They've been devised 
 
 ## Common Misconceptions
 
-We've explained how the Bisq DAO works elsewhere ([here's a write-up](https://docs.bisq.network/user-dao-intro.html) and [here's a short video-series](https://www.youtube.com/watch?v=Brg2Hc2Be9w)), so we won't cover those details here.
+We've explained how the Bisq DAO works elsewhere ([here's a write-up](https://docs.bisq.network/user-dao-intro.html) and [here's a short video-series](https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e)), so we won't cover those details here.
 
 Instead, we'll cover common questions and misconceptions:
 
@@ -54,7 +54,7 @@ However, when there is no entity, as in Bisq's case, things change. New tools ar
 
 Here's a concrete example of how this mechanism allows traders to pay contributors without any central wallets. We use round numbers for simplicity.
 
-Developer does $1000 of work on Bisq software. He requests $1000 of BSQ, and includes 1000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1000 satoshis into BSQ worth $1000. Traders buy this BSQ with $1000 of BTC, and then pay trading fees with it.
+Developer does $1000 of work on Bisq software. He requests $1000 of BSQ, and includes 1000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1000 satoshis into BSQ worth $1000. Traders buy this BSQ with $1000 of BTC, and then use the BSQ to pay trading fees.
 
 BSQ is just a placeholder for a BTC payment until the other party is known. The DAO is just a mechanism for collective decision-making in the absence of a CEO.
 
@@ -76,7 +76,7 @@ Not much. You can choose to continue paying trading fees with BTC, or you can ch
 
 **Why would I go to the trouble of buying BSQ?**
 
-BSQ trading fees will be dramatically cheaper than plain BTC trading fees. Also, the BTC you pay to buy BSQ actually goes to Bisq contributors and helps sustain the project.
+BSQ trading fees will be dramatically cheaper than plain BTC trading fees, at first. Also, the BTC you pay to buy BSQ actually goes to Bisq contributors and helps sustain the project.
 
 **Will I be required to use BSQ to trade on Bisq?**
 
@@ -106,7 +106,7 @@ This issuance and burning creates a scarcity dynamic for the BSQ token.
 
 Good question. Theory cannot be tested until it's put into practice. However, quite a few aspects of the token and DAO have already been put into practice. People have been paying real bitcoin to use Bisq for almost 3 years now, so the token must have value at launch.
 
-As for the DAO, Bisq contributors have approximated DAO functions with low-tech tools like GitHub and Google Sheets for several months. The DAO merely formalizes these processes.
+As for the DAO, Bisq contributors have approximated DAO functions with 'low-tech' tools like GitHub and Google Sheets for several months. The DAO merely formalizes these processes.
 
 ## Learn More
 

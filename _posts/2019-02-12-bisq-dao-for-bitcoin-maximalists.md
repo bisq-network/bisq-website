@@ -54,9 +54,15 @@ However, when there is no entity, as in Bisq's case, things change. New tools ar
 
 Here's a concrete example of how this mechanism allows traders to pay contributors without any central wallets. We use round numbers for simplicity.
 
-Developer does $1000 of work on Bisq software. He requests $1000 of BSQ, and includes 1000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1000 satoshis into BSQ worth $1000. Traders buy this BSQ with $1000 of BTC and redeem the BSQ as trading fees.
+Developer does $1000 of work on Bisq software. He requests $1000 of BSQ, and includes 1000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1000 satoshis into BSQ worth $1000. Traders buy this BSQ with $1000 of BTC, and then pay trading fees with it.
 
 BSQ is just a placeholder for a BTC payment until the other party is known. The DAO is just a mechanism for collective decision-making in the absence of a CEO.
+
+**Isn't that just creating money out of thin air? That's sketchy.**
+
+BSQ token issuance mirrors the act of human labor: the very act of human labor is creating something out of nothing. Take a developer, for instance. When they implement a feature, they'll add code where there wasn't any before. If they do it right, the code they added will result in new functionality. Voilà! They've just created something out of nothing.
+
+The BSQ token is a tool to capture this newly-created value in an exchangeable medium. Bitcoin miners create money out of thin air too, right? This is no different, just with human labor and subjective validation instead of machine labor and automated validation.
 
 **Why can't you just do this with plain bitcoin?**
 
@@ -88,17 +94,11 @@ Because decentralized software is not good enough. What's the point, if the team
 
 This is why we call it the Bisq Network and not the Bisq Project. This has been the plan from the beginning.
 
-**The BSQ token bothers me because it creates money out of thin air. That's sketchy.**
-
-BSQ token issuance mirrors the act of human labor: the very act of human labor is creating something out of nothing. Take a developer, for instance. When they implement a feature, they'll add code where there wasn't any before. If they do it right, the code they added will result in new functionality. Voilà! They've just created something out of nothing.
-
-The BSQ token is a tool to capture this newly-created value in an exchangeable medium. Bitcoin miners create money out of thin air too, right? This is no different, just with human labor and subjective validation instead of machine labor and automated validation.
-
 **What is the issuance schedule for BSQ tokens?**
 
-New BSQ is issued every time a contributor's request is approved through DAO voting. BSQ issuance is not a 1-time event. Issuance is not a capital raise like an ICO—it happens continually as contributors do work.
+New BSQ is issued every time a contributor's request is approved through DAO voting. BSQ issuance is not a one-time event. Issuance is not a capital raise like an ICO—it happens continually as contributors do work.
 
-BSQ is also burned out of existance continually as traders redeem them for trading fees.
+BSQ is also burned out of existance continually as traders use it to pay trading fees.
 
 This issuance and burning creates a scarcity dynamic for the BSQ token.
 

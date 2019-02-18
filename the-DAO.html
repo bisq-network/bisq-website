@@ -5,6 +5,21 @@ title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 
 
+<script>
+    $(document).ready(function (){
+        $(".animate-scroll").click(function (){
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top - 70
+            }, 500);
+        });
+    });
+</script>
+
+
+
+
 <style>
 
 
@@ -42,7 +57,7 @@ span.asterisk {
     font-size: 13px;
     display: block;
     font-weight: 300;
-    line-height: 1em;
+    line-height: 1.3em;
     margin: 2em 0 5em 0;
 }
 
@@ -87,10 +102,6 @@ span.asterisk {
 .split{ text-align:left; }
 
 
-.split img {
-  width: 100%;
-  max-height: 100%;
-}
 
 .split-last { background: #25B135; }
 .split-first { background: #fff; }
@@ -103,10 +114,19 @@ span.asterisk {
     flex-direction: row-reverse;
 }
 
-.outter {
-    padding-top: 70px;
-    min-height: 100vh;
+.split img {
+  width: 100%;
+  max-height: 100%;
+  padding-left: 2em;
+  padding-right: 0em;
 }
+
+.split-invert img{
+  padding-right: 2em;
+  padding-left: 0em;
+}
+
+
 
 
 .split-container ul {
@@ -120,18 +140,78 @@ span.asterisk {
   font-weight:200;
 }
 
-@media (min-width: 768px) {
-  .h-md-100 { height: calc(100vh - 70px); }
+
+.outter {
+    padding-top: 0px;
 }
 
-@media (max-width: 767px)
+
+
+
+
+
+
+
+
+
+@media (min-width: 990px) {
+
+
+
+  .h-md-100 {
+    height: calc(100vh - 70px);
+    min-height: 740px;
+  }
+
   .outter {
       padding-top: 70px;
   }
+
 }
-@media (max-width: 990px)
-.outter {
-    padding-top: 70px;
+
+
+
+
+
+
+@media (max-width: 990px) {
+
+
+  .outter {
+      padding-top: 50px;
+  }
+
+
+  .split-container-main .title {
+      font-size: 4em;
+  }
+
+  .split-container-main .intro {
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+
+  .split img {
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .split-invert img {
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  .h-md-100 {
+    height: auto;
+    min-height: auto;
+  }
+
+  .footnote {
+      margin: 1em 0 2em 0;
+      padding-right: 6em;
+  }
+
+
 }
 
 
@@ -141,10 +221,10 @@ span.asterisk {
 
 
 {% for entry in site.data.dao_content %}
-<div id="{{ entry.id }}" class="d-md-flex h-md-100 align-items-center split-container{{ entry.class }} {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}{% if thecycle == 'even' %}split-invert{% endif %}">
-    <div class="col-md-6 p-0 h-md-100 split split-first">
+<div id="{{ entry.id }}" class="d-lg-flex h-md-100 align-items-center split-container{{ entry.class }} {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}{% if thecycle == 'even' %}split-invert{% endif %}">
+    <div class="col-lg-6 p-0 h-md-100 split split-first">
         <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
-            <div class="pt-5 pb-5 split-text">
+            <div class="pt-sm-0 pt-md-5 pb-5 split-text">
                 <div class="title">
                   {{ entry.title }}
                 </div>
@@ -156,8 +236,8 @@ span.asterisk {
         </div>
     </div>
 
-    <div class="col-md-6 p-0 h-md-100 split split-last">
-        <div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
+    <div class="col-lg-6 p-0 h-md-100 split split-last">
+        <div class="d-md-flex align-items-center h-md-100 p-1 p-lg-5 pt-5 pb-5 justify-content-center">
             <img src="{{ entry.img }}" />
         </div>
     </div>

@@ -113,7 +113,7 @@ As for the DAO, Bisq contributors have approximated DAO functions with low-tech 
 And here's the first of a series of short videos we made on the Bisq DAO:
 
 <div class='responsive-youtube-container'>
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Brg2Hc2Be9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
 It's fair to question whether Bisq needs to avoid organizing itself under a legal entity, but if you can accept that doing so could have benefits, then a DAO and token are the only reasonable ways to make it work.

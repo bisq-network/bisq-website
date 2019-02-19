@@ -1,8 +1,14 @@
 - title: "The Bisq DAO"
   intro: "
+<<<<<<< HEAD
           Decentralizing revenue distribution and decision-making to make Bisq self-sustaining and censorship-resistant.
           <span class=\"footnote\">DAO stands for Decentralized Autonomous Organisation</span>
           <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">See more &darr;</a>
+=======
+          Decentralizing revenue distribution and decision-making to make Bisq sustainable and censorship-resistant.
+          <span class=\"footnote\">* DAO stands for Decentralized Autonomous Organisation</span>
+          <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Discover <img class=\"arrow_down\" src=\"../images/icon_arrow_down.svg\" /></a>
+>>>>>>> origin/master
         "
   img: ../images/DAO/dao_intro.svg
   class: -main
@@ -20,8 +26,13 @@
           <p>It is critical that Bisq be resistant to censorship, and the trade protocol and P2P network achieve this—for traders.</p>
           <p>What about Bisq's developers? Project decision-making and revenue distribution is still centralized, and this creates vulnerabilities.</p>
           "
+<<<<<<< HEAD
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/"
+=======
+  href_text: Learn more about the DAO
+  href: "https://docs.bisq.network/dao.html"
+>>>>>>> origin/master
   target: "_blank"
   img: ../images/DAO/dao_why.svg
   id: why
@@ -84,8 +95,13 @@
             </p>
           </div>
           "
+<<<<<<< HEAD
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/"
+=======
+  href_text: Learn more about the DAO
+  href: "https://docs.bisq.network/dao.html"
+>>>>>>> origin/master
   target: "_blank"
   img: ../images/DAO/dao_how.svg
   id: how
@@ -108,8 +124,13 @@
       <li>Vote on compensation requests of other contributors</li>
       <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid.</li>
     </ul>"
+<<<<<<< HEAD
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/"
+=======
+  href_text: Learn more about the DAO
+  href: "https://docs.bisq.network/dao.html"
+>>>>>>> origin/master
   target: "_blank"
   img: ../images/DAO/dao_benefits.svg
   id: benefits

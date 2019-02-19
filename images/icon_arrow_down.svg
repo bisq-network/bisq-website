@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="13" viewBox="0 0 10 13">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-icon_arrow_down);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #26b036;
+        stroke-width: 0.8px;
+      }
+    </style>
+    <clipPath id="clip-icon_arrow_down">
+      <rect width="10" height="13"/>
+    </clipPath>
+  </defs>
+  <g id="icon_arrow_down" class="cls-1">
+    <g id="Group_47" data-name="Group 47" transform="translate(-260.522 -655)">
+      <path id="Path_1" data-name="Path 1" class="cls-2" d="M3670.7,694v11.561" transform="translate(-3404.988 -38.637)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-2" d="M3657.262,703.62l4.155,4.155,4.155-4.155" transform="translate(-3395.74 -40.663)"/>
+    </g>
+  </g>
+</svg>

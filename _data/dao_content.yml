@@ -16,11 +16,11 @@
 
 - title: Why?
   intro: "
-          <p>Bisq trading is currently decentralized, but its revenue distribution and decision-making is not.</p>
+          <p>Bisq trading is currently decentralized, but its revenue distribution and decision-making are not.</p>
           <p>It is critical that Bisq be resistant to censorship, and the trade protocol and P2P network achieve this—for traders.</p>
           <p>What about Bisq's developers? Project decision-making and revenue distribution is still centralized, and this creates vulnerabilities.</p>
           "
-  href_text: Learn more about the DAO
+  href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/"
   target: "_blank"
   img: ../images/DAO/dao_why.svg
@@ -33,10 +33,10 @@
 
 - title: What Is The Bisq DAO?
   intro: "
-          <p>The Bisq DAO is the solution for distributing the profits from trading fees to contributors and BSQ stakeholders in a censorship-resistant way—without the confines of a corporation or other legal entity, keeping Bisq stateless & sovereign.</p>
           <p>The Bisq DAO enables value transfer from traders to contributors. The BSQ token makes this possible in a decentralized way.</p>
+          <p>Profits from trading fees are distributed to contributors and BSQ stakeholders without the confines of a corporation or other legal entity, keeping Bisq stateless & sovereign.</p>
           "
-  href_text: Learn more about the DAO
+  href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/"
   target: "_blank"
   img: ../images/DAO/dao_what.svg
@@ -47,29 +47,29 @@
 
 
 
-- title: How It Works?
+- title: How Does It Work?
   intro: "
           The Bisq DAO works by enforcing 2 main protocols:
 
           <div class=\"subtitle pt-4\">
-            1. Revenue-distribution
+            Revenue distribution
           </div>
 
           <div class=\"small\">
             <p>
-              To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. New BSQ is issued by contributors (“colored Bitcoin”) if they get support from stakeholders in the voting process, and BSQ gets “uncolored” when traders use it for trading fees.
+              To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. New BSQ is issued by contributors if they get support from stakeholders in the voting process, and BSQ gets “uncolored” when traders use it to pay trading fees.
             </p>
             <p>
-              There is no central entity collecting or creating BSQ. Bisq stakeholders are collectively in charge of the issuance process.
+              There is no central entity collecting or creating BSQ—Bisq stakeholders are collectively in charge of the issuance process.
             </p>
             <p class=\"disclaimer\">
-              NOTE: This is not an ICO. No BSQ is sold to raise capital.
+              This is not an ICO. No BSQ is sold to raise capital.
             </p>
           </div>
 
 
           <div class=\"subtitle pt-3\">
-            2. Decision-making
+            Decision-making
           </div>
 
           <div class=\"small\">
@@ -84,7 +84,7 @@
             </p>
           </div>
           "
-  href_text: Learn more about the DAO
+  href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/"
   target: "_blank"
   img: ../images/DAO/dao_how.svg
@@ -108,7 +108,7 @@
       <li>Vote on compensation requests of other contributors</li>
       <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid.</li>
     </ul>"
-  href_text: Learn more about the DAO
+  href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/"
   target: "_blank"
   img: ../images/DAO/dao_benefits.svg

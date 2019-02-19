@@ -2,7 +2,7 @@
   intro: "
           Decentralizing revenue distribution and decision-making to make Bisq sustainable and censorship-resistant.
           <span class=\"footnote\">* DAO stands for Decentralized Autonomous Organisation</span>
-          <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Discover</a>
+          <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Discover <img class=\"arrow_down\" src=\"../images/icon_arrow_down.svg\" /></a>
         "
   img: ../images/DAO/dao_intro.svg
   class: -main

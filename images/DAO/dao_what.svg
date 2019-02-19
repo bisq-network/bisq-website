@@ -29,7 +29,7 @@
       }
 
       .cls-4 {
-        font-family: IBMPlexSans-LightItalic, IBM Plex Sans;
+        font-family: 'IBM Plex Sans', sans-serif;
         font-style: italic;
       }
 
@@ -43,7 +43,7 @@
 
       .cls-7 {
         font-size: 40px;
-        font-family: IBMPlexSans-Thin, IBM Plex Sans;
+        font-family: 'IBM Plex Sans', sans-serif;
         font-weight: 200;
       }
 

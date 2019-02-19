@@ -21,7 +21,7 @@
           <p>What about Bisq's developers? Project decision-making and revenue distribution is still centralized, and this creates vulnerabilities.</p>
           "
   href_text: Learn more about the DAO
-  href: "https://docs.bisq.network/"
+  href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   img: ../images/DAO/dao_why.svg
   id: why
@@ -37,7 +37,7 @@
           <p>The Bisq DAO enables value transfer from traders to contributors. The BSQ token makes this possible in a decentralized way.</p>
           "
   href_text: Learn more about the DAO
-  href: "https://docs.bisq.network/"
+  href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   img: ../images/DAO/dao_what.svg
   id: what
@@ -85,7 +85,7 @@
           </div>
           "
   href_text: Learn more about the DAO
-  href: "https://docs.bisq.network/"
+  href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   img: ../images/DAO/dao_how.svg
   id: how
@@ -109,7 +109,7 @@
       <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid.</li>
     </ul>"
   href_text: Learn more about the DAO
-  href: "https://docs.bisq.network/"
+  href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   img: ../images/DAO/dao_benefits.svg
   id: benefits

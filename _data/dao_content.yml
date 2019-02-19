@@ -18,7 +18,7 @@
   intro: "
           <p>Bisq trading is currently decentralized, but its revenue distribution and decision-making are not.</p>
           <p>It is critical that Bisq be resistant to censorship, and the trade protocol and P2P network achieve this—for traders.</p>
-          <p>What about Bisq's developers? Project decision-making and revenue distribution is still centralized, and this creates vulnerabilities.</p>
+          <p>What about Bisq's developers? Project decision-making and revenue distribution are still centralized, and this creates vulnerabilities.</p>
           "
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/dao.html"
@@ -94,7 +94,7 @@
     <ul class=\"small pb-5\">
       <li>Help Bisq deliver consistent professional development and support by buying BSQ from contributors</li>
       <li>Help make Bisq the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li>
-      <li>Enjoy a discount if you use BSQ to pay trade fees</li>
+      <li>Enjoy a discount if you use BSQ to pay trading fees</li>
       <li>You can still pay trading fees with plain BTC if you like</li>
     </ul>
     <div class=\"subtitle\">Contributors: Earn BSQ</div>

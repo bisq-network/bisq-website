@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="681" height="264" viewBox="0 0 681 264">
   <defs>
+
     <style type="text/css">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
+
 
     <style>
       .cls-1 {
@@ -42,7 +44,7 @@
       }
 
       .cls-7 {
-        font-size: 40px;
+        font-size: 30px;
         font-family: 'IBM Plex Sans', sans-serif;
         font-weight: 200;
       }
@@ -66,8 +68,8 @@
         <circle class="cls-9" cx="119.912" cy="119.912" r="119.412"/>
       </g>
       <text id="Contributors" class="cls-3" transform="translate(552.211 352.601)"><tspan x="-33.102" y="0">Contributors</tspan></text>
-      <text id="Contributions" class="cls-4" transform="translate(348.219 408.35)"><tspan x="-35.25" y="0">Contributions</tspan></text>
-      <text id="Fees" class="cls-4" transform="translate(349.412 296.853)"><tspan x="-11.934" y="0">Fees</tspan></text>
+      <text id="Contributions" class="cls-4" transform="translate(348.835 408.35)"><tspan x="-35.25" y="0">Contributions</tspan></text>
+      <text id="Fees" class="cls-4" transform="translate(348.835 296.853)"><tspan x="-11.934" y="0">Fees</tspan></text>
       <text id="Traders" class="cls-3" transform="translate(143.71 352.601)"><tspan x="-20.136" y="0">Traders</tspan></text>
       <g id="Group_43" data-name="Group 43" transform="translate(236.433 304.838)">
         <path id="Path_4" data-name="Path 4" class="cls-5" d="M0,0H6.279V6.279" transform="translate(221.626 0) rotate(45)"/>
@@ -75,7 +77,7 @@
         <line id="Line_46" data-name="Line 46" class="cls-6" x2="226.151" transform="translate(0.483 4.454)"/>
         <line id="Line_47" data-name="Line 47" class="cls-6" x2="226.151" transform="translate(226.634 80.16) rotate(180)"/>
       </g>
-      <text id="BSQ" class="cls-7" transform="translate(349.167 359.233)"><tspan x="-36.84" y="0">BSQ</tspan></text>
+      <text id="BSQ" class="cls-7" transform="translate(348.835 357)"><tspan x="-27.63" y="0">BSQ</tspan></text>
     </g>
   </g>
 </svg>

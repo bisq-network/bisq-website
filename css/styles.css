@@ -848,7 +848,7 @@ ol li {
 .fadeIn {
   -moz-animation: fadeIn 1s ease-out forwards;
   animation: fadeIn 1s ease-out forwards;
-  -webkit-
+  -webkit-animation: fadeIn 1s ease-out forwards;
 }
 
 @keyframes fadeIn {

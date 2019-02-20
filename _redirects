@@ -98,3 +98,12 @@ https://bisq.io https://bisq.network 301
 /release-stats http://www.somsubhra.com/github-release-stats/?username=bisq-network&repository=bisq 302
 
 /survey https://survey.io/survey/ddfaa 302
+
+/proposals/:id https://github.com/bisq-network/proposals/issues/:id 302
+/compensation/:id https://github.com/bisq-network/compensation/issues/:id 302
+
+/downloads/:version https://github.com/bisq-network/bisq/releases/tag/:version 302
+/downloads/:version/:filename https://github.com/bisq-network/bisq/releases/download/:version/:filename 302
+
+/downloads/archive/:version.zip https://github.com/bisq-network/bisq/archive/:version.zip 302
+/downloads/archive/:version.tar.gz https://github.com/bisq-network/bisq/archive/:version.tar.gz 302

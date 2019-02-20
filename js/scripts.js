@@ -12,13 +12,13 @@ $( document ).ready( function() {
 
     if( uAgent.indexOf( "Win" ) > -1 ) {
         osName = "win64";
-        downloadLink = "https://github.com/bisq-network/bisq/releases/download/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.exe";
+        downloadLink = "https://bisq.network/downloads/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.exe";
     } else if( uAgent.indexOf( "Mac" ) > -1 ) {
         osName = "mac";
-        downloadLink = "https://github.com/bisq-network/bisq/releases/download/v<bisq_version_placeholder>/Bisq-<bisq_version_placeholder>.dmg";
+        downloadLink = "https://bisq.network/downloads/v<bisq_version_placeholder>/Bisq-<bisq_version_placeholder>.dmg";
     } else if( uAgent.indexOf( "Linux" ) > -1 && ( uAgent.indexOf( "Ubuntu" ) > -1 || uAgent.indexOf( "Debian" ) > -1 ) ) {
         osName = "deb64";
-        downloadLink = "https://github.com/bisq-network/bisq/releases/download/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.deb";
+        downloadLink = "https://bisq.network/downloads/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.deb";
     }
 
     //mobile

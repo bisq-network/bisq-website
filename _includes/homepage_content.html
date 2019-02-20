@@ -50,6 +50,17 @@
                                   </div>
                               </div>
 
+                              <div class="id-rpm64 hidden">
+                                  <div class="float-left">
+                                      <img src="{{ site.url }}/images/icon-linux-g.svg" class="os-icon os-icon-g">
+                                      <img src="{{ site.url }}/images/icon-linux-w.svg" class="os-icon os-icon-w">
+                                      Download for Red Hat/Fedora
+                                  </div>
+                                  <div class="float-right">
+                                      <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">.rpm</a>
+                                  </div>
+                              </div>
+
                               <div class="id-all hidden">
                                   <div class="float-left">
                                       <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
@@ -121,6 +132,7 @@
                       v{{ site.client_version }} — <span class="id-win64 hidden">You appear to be running Windows.</span>
                                                    <span class="id-mac hidden">You appear to be using a Mac.</span>
                                                    <span class="id-deb64 hidden">You appear to be using Debian/Ubuntu.</span>
+                                                   <span class="id-rpm64 hidden">You appear to be using Red Hat/Fedora.</span>
                                                    <span class="id-all hidden">Current Version</span> <!-- fallback text if no desktop os recognized -->
                     </p>
 

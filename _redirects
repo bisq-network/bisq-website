@@ -107,3 +107,6 @@ https://bisq.io https://bisq.network 301
 
 /downloads/archive/:version.zip https://github.com/bisq-network/bisq/archive/:version.zip 302
 /downloads/archive/:version.tar.gz https://github.com/bisq-network/bisq/archive/:version.tar.gz 302
+
+/source https://github.com/bisq-network 302
+/source/* https://github.com/bisq-network/:splat 302

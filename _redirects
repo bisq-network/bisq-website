@@ -101,6 +101,7 @@ https://bisq.io https://bisq.network 301
 
 /proposals/:id https://github.com/bisq-network/proposals/issues/:id 302
 /compensation/:id https://github.com/bisq-network/compensation/issues/:id 302
+/roles/:id https://github.com/bisq-network/roles/issues/:id 302
 
 /downloads/:version https://github.com/bisq-network/bisq/releases/tag/:version 302
 /downloads/:version/:filename https://github.com/bisq-network/bisq/releases/download/:version/:filename 302

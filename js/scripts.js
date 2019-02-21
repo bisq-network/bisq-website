@@ -19,6 +19,9 @@ $( document ).ready( function() {
     } else if( uAgent.indexOf( "Linux" ) > -1 && ( uAgent.indexOf( "Ubuntu" ) > -1 || uAgent.indexOf( "Debian" ) > -1 ) ) {
         osName = "deb64";
         downloadLink = "https://github.com/bisq-network/bisq/releases/download/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.deb";
+    } else if( uAgent.indexOf( "Linux" ) > -1 && ( uAgent.indexOf( "Fedora" ) > -1 || uAgent.indexOf( "Red Hat" ) > -1 ) ) {
+        osName = "rpm64";
+        downloadLink = "https://github.com/bisq-network/bisq/releases/download/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.rpm";
     }
 
     //mobile
@@ -52,7 +55,7 @@ $( document ).ready( function() {
         }
     });
 
-    $( '.dl-win64, .dl-mac, .dl-deb64' ).on( 'click', function() {
+    $( '.dl-win64, .dl-mac, .dl-deb64, .dl-rpm64' ).on( 'click', function() {
         sendAnalytic( $(this).attr('class').split('-').pop().split(" ").shift() );
     });
 

@@ -55,7 +55,7 @@ $( document ).ready( function() {
         }
     });
 
-    $( '.dl-win64, .dl-mac, .dl-deb64' ).on( 'click', function() {
+    $( '.dl-win64, .dl-mac, .dl-deb64, .dl-rpm64' ).on( 'click', function() {
         sendAnalytic( $(this).attr('class').split('-').pop().split(" ").shift() );
     });
 

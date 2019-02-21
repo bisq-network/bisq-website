@@ -27,6 +27,84 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.4
+{: .mt-5 .mb-2}
+Released [February 21st 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.4)
+
+This release is featuring a 2x increase of the current trade limits for fiat and altcoins, lots of improvements for the Bisq DAO on Testnet and includes bug fixes across the app. You should update to this release especially if you had problems restoring your wallet or tor related startup issues.
+
+###### Bisq DAO (on Testnet)
+- [Enable DAO menu item for Mainnet](https://github.com/bisq-network/bisq/pull/2342)
+- [Show DAO news badge](https://github.com/bisq-network/bisq/pull/2394)
+- [Add additional information on DAO](https://github.com/bisq-network/bisq/pull/2421)
+- [Show warning for bonded role if user has insufficient funds](https://github.com/bisq-network/bisq/pull/2386)
+- [Show information while DAO is synchronized](https://github.com/bisq-network/bisq/pull/2388)
+- [Show information if no proposal can be created right now](https://github.com/bisq-network/bisq/pull/2372)
+- [Adjust length of DAO phases depending on network](https://github.com/bisq-network/bisq/pull/2277)
+- [Show BSQ trading fee more explicitly when funding your offer](https://github.com/bisq-network/bisq/pull/2379)
+- [Wait until proposal is published before resetting the form](https://github.com/bisq-network/bisq/pull/2384)
+- [Add link from confiscation proposal to bond view](https://github.com/bisq-network/bisq/pull/2366)
+- [Filter out blind votes not included in majority hash](https://github.com/bisq-network/bisq/pull/2371)
+- [Handle republishing of all DAO governance data](https://github.com/bisq-network/bisq/pull/2363)
+- [Handle properly burn cases](https://github.com/bisq-network/bisq/pull/2365)
+- [Avoid BSQ burn by mistake](https://github.com/bisq-network/bisq/pull/2242)
+- [Fix issues with majority hash](https://github.com/bisq-network/bisq/pull/2360)
+- [Fix incorrect time shown in phase duration](https://github.com/bisq-network/bisq/pull/2313)
+- [Fix snapshot issue](https://github.com/bisq-network/bisq/pull/2329)
+- [Fix incorrect phase display](https://github.com/bisq-network/bisq/pull/2333)
+- [Fix missing removal of old or invalid proposals](https://github.com/bisq-network/bisq/pull/2377)
+- [Fix roll over behaviour of highlighted table titles](https://github.com/bisq-network/bisq/pull/2370)
+
+###### Trading
+- [Increase trade limit. Make trade limit a DAO parameter](https://github.com/bisq-network/bisq/pull/2413)
+- [Show all offers in offer book dashboard](https://github.com/bisq-network/bisq/pull/2318)
+- [Improve Monero and Cryptonote address validator](https://github.com/bisq-network/bisq/pull/2422)
+- [Add info popup for BEAM accounts. Improve GRIN info popup text.](https://github.com/bisq-network/bisq/pull/2423)
+- [Remove email for Revolut account](https://github.com/bisq-network/bisq/pull/2426)
+- [Add more instructions at dispute system message](https://github.com/bisq-network/bisq/pull/2428)
+- [Improve handling of removed assets](https://github.com/bisq-network/bisq/pull/2306)
+- [Allow payment account selection in fund offer screen](https://github.com/bisq-network/bisq/pull/2315)
+- [Fix trade currency handling for multiple currency payment accounts](https://github.com/bisq-network/bisq/pull/2310)
+
+###### UI
+- [Improve resizing of buy and sell tables](https://github.com/bisq-network/bisq/pull/2317)
+- [Not show warning popup for imported payment accounts](https://github.com/bisq-network/bisq/pull/2316)
+- [Add Altcoin disclaimer](https://github.com/bisq-network/bisq/pull/2233)
+- [Fix grammatical mistakes and errors in display strings](https://github.com/bisq-network/bisq/pull/2314)
+- [Fix offer book chart is not updated](https://github.com/bisq-network/bisq/pull/2237)
+
+###### Privacy/Security
+- [Delete tor files at startup](https://github.com/bisq-network/bisq/pull/2344)
+- [Improve handling when unable to connect to tor](https://github.com/bisq-network/bisq/pull/2399)
+
+###### Wallet
+- [Fix wallet restore issue on Windows](https://github.com/bisq-network/bisq/pull/2403)
+
+###### Development
+- [Allow host as bitcoinRegtestHost parameter](https://github.com/bisq-network/bisq/pull/2312)
+- [Allow tor to be used with regtest](https://github.com/bisq-network/bisq/pull/2346)
+- [Remove libdohj dependency](https://github.com/bisq-network/bisq/pull/2368)
+- [Add scripts to autosetup dao on regtest](https://github.com/bisq-network/bisq/pull/2405)
+- [Add application launchers for UI test files](https://github.com/bisq-network/bisq/pull/2389)
+
+###### Build
+- [Improve JAVA_HOME override](https://github.com/bisq-network/bisq/pull/2248)
+- [Add execute permission for shell scripts](https://github.com/bisq-network/bisq/pull/2350)
+
+###### Installation
+- [Fix windows install custom translations](https://github.com/bisq-network/bisq/pull/2247)
+- [Update macOS installer background image](https://github.com/bisq-network/bisq/pull/2265)
+
+###### Infrastructure
+- [First milestone of new monitoring](https://github.com/bisq-network/bisq/pull/2348)
+Check it out at https://monitor.bisq.network
+
+###### Assets
+- Added 19 new assets: Adeptio (ADE),  Askcoin (ASK), Augmint Euro (AEUR), AustraliaCash (AUS), BitDaric (DARX), Cash2 (CASH2), Credits (CRDS), CRowdCLassic (CRCL), DAI Stablecoin (DAI), DeepOnion (ONION), Fujicoin (FJC), LitecoinZ (LTZ), Lytix (LYTX), Mile (MILE), Persona (PRSN), TrueUSD (TUSD), USD Coin (USDC), VectorspaceAI (VXV), ZelCash (ZEL)
+
+- Removed assets: Gridcoin (GRC) and ZeroOneCoin (ZOC)
+
+
 ##### Version 0.9.3
 {: .mt-5 .mb-2}
 Released [January 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.3)

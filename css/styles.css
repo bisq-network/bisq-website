@@ -5,6 +5,10 @@ body {
   letter-spacing: 0.03rem;
 }
 
+strong {
+    font-weight: 700;
+}
+
 .green, a {
   color: #25B135
 }
@@ -212,7 +216,24 @@ hr {
   margin-top: 10px;
 }
 
+.responsive-youtube-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
+}
+
+.responsive-youtube-container iframe,
+.responsive-youtube-container object,
+.responsive-youtube-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -769,6 +790,10 @@ blog
 
 .post.type-post .post-meta span {
     font-weight: 500;
+}
+
+.post.type-post img {
+    max-width: 100%;
 }
 
 ol li::before {

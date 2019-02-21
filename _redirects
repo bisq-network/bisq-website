@@ -51,6 +51,9 @@ https://bisq.io https://bisq.network 301
 
 # Explorer for BTC on DAO testnet
 /explorer/btc/dao_testnet http://bisq.ispol.sk 302
+/explorer/btc/dao_testnet/tx http://bisq.ispol.sk/tx 302
+/explorer/btc/dao_testnet/address http://bisq.ispol.sk/address 302
+
 
 /list-token https://bisq.network/list-asset 301
 /list-asset https://docs.bisq.network/exchange/howto/list-asset.html 302

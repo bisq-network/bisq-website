@@ -50,7 +50,7 @@ https://bisq.io https://bisq.network 301
 /docs/dao/overview https://docs.bisq.network/dao/overview.html 302
 
 # Explorer for BTC on DAO testnet
-/explorer/btc/dao_testnet/dao_testnet http://bisq.info 302
+/explorer/btc/dao_testnet/dao_testnet http://bisq.ispol.sk 302
 
 
 /list-token https://bisq.network/list-asset 301

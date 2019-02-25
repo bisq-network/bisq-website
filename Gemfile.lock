@@ -67,7 +67,8 @@ DEPENDENCIES
   jekyll-livereload
   jekyll-paginate
   jekyll-redirect-from
+  jekyll-sass-converter
   jekyll-sitemap
 
 BUNDLED WITH
-   1.16.1
+   1.17.2

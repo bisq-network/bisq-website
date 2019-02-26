@@ -1,4 +1,8 @@
-# An Overview of the Bisq Network
+---
+layout: post
+title: An Overview of the Bisq Network
+author: Aruna Surya
+---
 
 ## Introduction
 If you are into cryptocurrencies, you may be interested in Bisq, a decentralized exchange that enables you to trade bitcoin for fiat currencies and other cryptocurrencies. 

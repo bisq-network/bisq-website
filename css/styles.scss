@@ -120,7 +120,6 @@ h6,
 
 .display-1 {
   font-size: 3.5rem;
-  font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.1rem;
   font-weight: 200;
@@ -260,7 +259,7 @@ hr {
 
 .os-selector-home .dropdown-menu::-webkit-scrollbar-button {
     background: #ececec;
-    height: 0px;
+    height: 0;
 }
 
 .os-selector-home .dropdown-menu::-webkit-scrollbar-track {
@@ -489,7 +488,7 @@ footer, footer ul li {
 .navbar {
   border-bottom: #EBEBEB 1px solid;
   background-color: #fff !important;
-  padding: 0rem 1rem;
+  padding: 0 1rem;
   height: 70px;
 }
 
@@ -517,7 +516,7 @@ footer, footer ul li {
 }
 
 .footer {
-  bottom: 0px;
+  bottom: 0;
 }
 
 .hero-btn {
@@ -525,7 +524,7 @@ footer, footer ul li {
 }
 
 .shadow-btn {
-  box-shadow: 0px 1px 0px 0px rgba(123, 123, 123, 0.2);
+  box-shadow: 0 1px 0 0 rgba(123, 123, 123, 0.2);
 }
 
 .homepage-hero {
@@ -703,7 +702,7 @@ td {
 
 
   .accordion-toggle {
-    padding-right: 0%;
+    padding-right: 0;
   }
 
   .downloads-desktop, .downloads-desktop.os-selector-home {display: none}
@@ -730,15 +729,15 @@ td {
     margin-bottom: 10px;
   }
   .hero-btn {
-    padding-left: 0px;
-    margin-right: 0px;
+    padding-left: 0;
+    margin-right: 0;
     margin-bottom: 10px;
   }
   .os-selector-home .btn {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   .row-block h2 {
-    margin: 2em 0px;
+    margin: 2em 0;
   }
   .selected-os-download.btn-icon {
     width: 100%;
@@ -872,7 +871,7 @@ ol li {
 
   .step-image {
       position: relative;
-      margin-top: 0rem;
+      margin-top: 0;
       width: 100%;
   }
 
@@ -944,13 +943,13 @@ ol li {
 
 @keyframes fadeMove {
   from { top: 30px; opacity: 0; }
-  to { top: 0px; opacity: 1 }
+  to { top: 0; opacity: 1 }
 }
 
 @-webkit-keyframes fadeMove{
 /* Safari and Chrome */
   from { top: 30px; opacity: 0; }
-  to { top: 0px;  opacity: 1; }
+  to { top: 0;  opacity: 1; }
 }
 
 
@@ -965,11 +964,11 @@ ol li {
 
 @keyframes fadeMove {
   from { top: 50px; opacity: 0; }
-  to { top: 0px; opacity: 1 }
+  to { top: 0; opacity: 1 }
 }
 
 @-webkit-keyframes fadeMove{
 /* Safari and Chrome */
   from { top: 50px; opacity: 0; }
-  to { top: 0px;  opacity: 1; }
+  to { top: 0;  opacity: 1; }
 }

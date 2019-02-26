@@ -36,8 +36,7 @@ layout: page
       <div id="report-content">
         {{ content }}
 
-
-        <link href="{{ site.url }}/css/chosen.css" rel="stylesheet">
+        <link href="{{ '/css/chosen.css' | relative_url }}" rel="stylesheet">
 
         <script defer src="{{ site.url }}/js/highstock.js"></script>
         <script defer src="{{ site.url }}/js/drag-panes.js"></script>

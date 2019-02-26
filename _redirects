@@ -100,11 +100,11 @@ https://bisq.io https://bisq.network 301
 /compensation/:id https://github.com/bisq-network/compensation/issues/:id 302
 /roles/:id https://github.com/bisq-network/roles/issues/:id 302
 
-/downloads/:version https://github.com/bisq-network/bisq/releases/tag/:version 302
-/downloads/:version/:filename https://github.com/bisq-network/bisq/releases/download/:version/:filename 302
-
 /downloads/archive/:version.zip https://github.com/bisq-network/bisq/archive/:version.zip 302
 /downloads/archive/:version.tar.gz https://github.com/bisq-network/bisq/archive/:version.tar.gz 302
+
+/downloads/:version https://github.com/bisq-network/bisq/releases/tag/:version 302
+/downloads/:version/:filename https://github.com/bisq-network/bisq/releases/download/:version/:filename 302
 
 /source https://github.com/bisq-network 302
 /source/* https://github.com/bisq-network/:splat 302

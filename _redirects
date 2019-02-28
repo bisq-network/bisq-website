@@ -94,7 +94,7 @@ https://bisq.io https://bisq.network 301
 
 /release-stats http://www.somsubhra.com/github-release-stats/?username=bisq-network&repository=bisq 302
 
-/survey https://survey.io/survey/ddfaa 302
+/survey https://goo.gl/forms/UcKr2D7WNYUZl3Cf1 302
 
 /proposals/:id https://github.com/bisq-network/proposals/issues/:id 302
 /compensation/:id https://github.com/bisq-network/compensation/issues/:id 302

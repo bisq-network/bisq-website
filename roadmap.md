@@ -27,6 +27,47 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.5
+{: .mt-5 .mb-2}
+Released [March 6th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.5)
+
+This release introduces  **instant trading** for altcoins (trade duration < 1 hour), **percentage based security deposits** to better match the traded amount and other bug fixes across the board. Especially the problem with lost trading fees should be a thing of the past from now on.
+
+One important feature for the Bisq DAO is now also included in this version: Spending of unconfirmed BSQ change outputs.
+
+So there are many reasons to update to this version including 13 new assets.
+
+###### Bisq DAO (on our DAO Testnet)
+- [Allow spending of unconfirmed BSQ change outputs](https://github.com/bisq-network/bisq/pull/2482)
+- [Show valuation in BTC balance tooltips](https://github.com/bisq-network/bisq/pull/2481)
+- [Update bond lockup prompt](https://github.com/bisq-network/bisq/pull/2487)
+- [Fix incorrect available balance for voting](https://github.com/bisq-network/bisq/pull/2462)
+
+###### Trading
+- [Add altcoin payment method for live trading](https://github.com/bisq-network/bisq/pull/2490)
+- [Use percentage based value for security deposit](https://github.com/bisq-network/bisq/pull/2498)
+- [Fix lost taker fee problem by delaying broadcasting of taker fee tx](https://github.com/bisq-network/bisq/pull/2488)
+- [Fix memory leak in message throttle mechanism](https://github.com/bisq-network/bisq/pull/2475)
+
+###### UI
+- [Fix system tray visibility for macOS in dark mode](https://github.com/bisq-network/bisq/pull/2492)
+- [Fix issue in multi-screen environment on Linux](https://github.com/bisq-network/bisq/pull/2460)
+- [Fix Windows system tray icon resolution](https://github.com/bisq-network/bisq/pull/2467)
+
+###### Development
+- [Seed node repo refactoring](https://github.com/bisq-network/bisq/pull/2464)
+- [Add program arguments for p2p network config](https://github.com/bisq-network/bisq/pull/2494)
+- [Remove Log.traceCall methods to improve performance](https://github.com/bisq-network/bisq/pull/2500)
+
+###### Build
+- [Add MacOS support in install_java.sh script](https://github.com/bisq-network/bisq/pull/2483)
+
+###### Installation
+- [Update installer background for macOS](https://github.com/bisq-network/bisq/pull/2471)
+
+###### Assets
+- Added 13 new assets: Arqma (ARQ), Bitzec (BZC), CloakCoin (CLOAK), Doichain (DOI), DSTRA (DST), Galilel (GALI), Hatch (HATCH), Helium (HLM), LitecoinPlus (LCP), MirQuiX (MQX), Plenteum (PLE), Veil (VEIL), XDR (XDR)
+
 ##### Version 0.9.4
 {: .mt-5 .mb-2}
 Released [February 21st 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.4)

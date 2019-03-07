@@ -53,7 +53,7 @@ Here’s a sample of what your compensation request may look like:
 
 ![Compensation Request](../../images/github-compensation-request-example.png)
 
-This compensation request is from @arunasurya. Aruna launched the blog initiative for Bisq and has contributed to the editing of blog posts as well as the organization of the blogging process.
+This compensation request is from Aruna Surya. Aruna launched the blog initiative for Bisq and has contributed to the editing of blog posts as well as the organization of the blogging process.
 
 Refer to the actual compensation request [here on GitHub](https://github.com/bisq-network/compensation/issues/233).
 

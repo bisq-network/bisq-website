@@ -23,6 +23,7 @@
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
+  rel: "noopener"
   img: ../images/DAO/dao_why.svg
   id: why
 
@@ -39,6 +40,7 @@
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
+  rel: "noopener"
   img: ../images/DAO/dao_what.svg
   id: what
 
@@ -83,6 +85,7 @@
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
+  rel: "noopener"
   img: ../images/DAO/dao_how.svg
   id: how
 
@@ -107,5 +110,6 @@
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
+  rel: "noopener"
   img: ../images/DAO/dao_benefits.svg
   id: benefits

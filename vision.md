@@ -34,7 +34,7 @@ title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 <p>To keep reading about the Philosophy of Bisq, and how we solve the involved challenges to make it secure and easy to use please read our White Paper:</p>
 
 <p><br>
-<a href="https://docs.bisq.network/exchange/whitepaper.html" target="_blank">» Read the Bisq White Paper</a></p>
+<a href="https://docs.bisq.network/exchange/whitepaper.html" target="_blank" rel="noopener">» Read the Bisq White Paper</a></p>
 
 </div>
 

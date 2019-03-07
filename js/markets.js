@@ -71,7 +71,7 @@ function roundToSigFigs( num ) {
 
     if( num < parseFloat( .1 ) ) {
         precision = Math.floor( Math.log10( num ) ) + 1;
-        return num.toPrecision( ( 5 + precision ) < 1 ? 1 : ( 5 + precision ) );
+        return Number( num.toPrecision( ( 5 + precision ) < 1 ? 1 : ( 5 + precision ) ) ).toFixed( Math.abs(precision) + 1 );
     } else {
         precision = Math.floor( Math.log10( num/.0001 ) ) - 1;
         return num.toPrecision( precision );

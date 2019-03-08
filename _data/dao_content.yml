@@ -35,7 +35,7 @@
 - title: What Is The Bisq DAO?
   intro: "
           <p>The Bisq DAO enables value transfer from traders to contributors. The BSQ token makes this possible in a decentralized way.</p>
-          <p>Profits from trading fees are distributed to contributors and BSQ stakeholders without the confines of a corporation or other legal entity, keeping Bisq stateless & sovereign.</p>
+          <p>Trading fees are distributed to contributors without the confines of a corporation or other legal entity, keeping Bisq stateless & sovereign.</p>
           "
   href_text: Learn more about the DAO ›
   href: "https://docs.bisq.network/dao.html"
@@ -57,7 +57,7 @@
 
           <div class=\"small\">
             <p>
-              To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. New BSQ is issued by contributors if they get support from stakeholders in the voting process, and BSQ gets “uncolored” when traders use it to pay trading fees.
+              To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. Contributors are issued new BSQ when stakeholders approve their compensation requests through voting, and BSQ gets “uncolored” when traders use it to pay trading fees.
             </p>
             <p>
               There is no central entity collecting or creating BSQ—Bisq stakeholders are collectively in charge of the issuance process.

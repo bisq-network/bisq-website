@@ -12,6 +12,7 @@ feed:
   path: blog/feed.atom
 include:
   - _redirects
+  - _headers
 exclude:
   - CNAME
   - README
@@ -22,3 +23,9 @@ client_version: "0.9.5"
 description: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative crypto currencies."
 sass:
   style: compressed
+webrick:
+  headers:
+    Strict-Transport-Security: "max-age=31536000"
+    X-XSS-Protection: "1; mode=block"
+    X-Content-Type-Options: "nosniff"
+    X-Frame-Options: "SAMEORIGIN"

@@ -94,7 +94,7 @@ Furthermore, and perhaps even more profound: an integrated revenue model can pow
 
 This new dynamic: protecting user privacy by design. Whereas most other ventures are incentivized to exploit user privacy, Bisq is actually incentivized to protect user privacy—by design, through its financial structure.
 
-Let's see take a look at how this works.
+Let's see how this works.
 
 #### Background: Data-Gathering
 
@@ -114,7 +114,7 @@ For these modern digital services, collecting data is just a part of smart busin
 
 Gathering data may be a perfectly fine business practice with a perfectly good business case, but the result is rather odd: **accumulated data becomes a hugely valuable asset**.
 
-This is a peculiar dynamic that only became possible in recent years: companies gradually accumulate a productive asset through the normal course of their business operations.
+This is a rather peculiar dynamic: a company can gradually accumulate a productive asset through the normal course of its business operations.
 
 It’s almost like a non-financial form of interest earned through the day-to-day operation of a company, as if Amazon earned a commission from the Internet Gods every time it sold you toilet paper. Odd, but that’s kinda what’s happening.
 
@@ -122,7 +122,7 @@ Anyway, what should a company do with this big data asset? Should they just disr
 
 This is where the issues start.
 
-While companies are not required by law to make a profit, in practice, the incentives for company executives to maximize profits are strong. Investors need returns, executives want big paydays, media vies for attention, and everyone is hungry for power and status—and the result is whatever can be monetized will be monetized, and so, data is sold.
+While companies are not required by law to make a profit, in practice, the incentives for company executives to maximize profits are overwhelming. Investors need returns, executives want big paydays, media vies for attention, and everyone is hungry for power and status—and the result is whatever can be monetized will be monetized, and so, data is sold.
 
 #### A Better Way: Beyond the Corporation
 
@@ -132,13 +132,13 @@ Generally I agree, but I’ll counter that there may be a way to better align in
 
 The issue, I contend, is not the pursuit of profits. Profits are powerful indicators of progress and essential to enabling innovation for further progress. The issue is with how profits are incentivized.
 
-With a company, you see, all benefits are centralized in one place. The more resources a company gathers for itself, the more capable it becomes to generate profits: more people, more capital, more sales, more partnerships, more brand prestige, more data.
+With a company, you see, all resources (and returns on those resources) are centralized in one place. The more resources a company gathers for itself, the more capable it becomes to generate profits: more people, more capital, more sales, more partnerships, more brand prestige, more data.
 
 This is why every company has entire functions dedicated to maximize the accumulation of these resources—more of all these things generates more profits for the mothership.
 
 **But what if there were no mothership? What if a profit-generating operation had no central entity to accumulate assets and collect profits?**
 
-Is there a way to maintain the benefits of having a company (i.e., low costs to coordinate professional cooperation<sup>2</sup>), and maintain the profit motive, but do away with the centralization of profits? Perhaps create some hybrid of an operation that coordinates the efforts of a group of people, but decentralizes the effort's assets its revenue collection?
+Is there a way to maintain the benefits of having a company (i.e., low costs to coordinate professional cooperation<sup>2</sup>), and maintain the profit motive, but do away with the centralization of profits? Perhaps create some hybrid of an operation that coordinates the efforts of a group of people, but decentralizes the operation's assets and revenue collection?
 
 The Bisq DAO offers a mechanism for achieving this, and the result is a huge win for user privacy.
 
@@ -153,17 +153,19 @@ This means its financial structure is very different from that of a company. Com
 
 But Bisq doesn’t have a balance sheet, since it’s not an entity, so it doesn’t have assets.
 
-And because it’s free/libre software, no one owns its intellectual property, and it can get away with not having any common assets beyond accounts for GitHub, Twitter, and various servers which are owned by various contributors to fulfill their assigned functions.
+And because it’s free/libre software, no one owns its intellectual property, and it can get away with not having any common assets beyond accounts for GitHub, Twitter, and various servers which are owned by its network of contributors to fulfill their assigned functions.
 
 The result: there is no shared pool of resources for the project to accumulate and exploit.
 
 So whereas accumulated assets (i.e., data) are the primary enablers of revenue for businesses like Facebook, accumulated assets don’t even exist for Bisq. Instead, the labor of Bisq’s contributors is the primary enabler of its revenue: contributors maintain the software, traders pay fees to use the software, those fees are distributed to contributors for their work, and contributors are incentivized to make the software better to increase fee revenue.
 
-**The incentive structure is based solely on producing and consuming software**. Having a big honeypot of data makes no sense. Hypothetically, even if a contributor on the network did start to collect data through their own means for the whole network to leverage, such an activity would add a point of reliance to the system and degrade its resilience. This directly clashes with the [core principles of the project](https://docs.bisq.network/intro.html#why-bisq-exists), and the community would probably reject integrating such activities into the system (furthermore, it's worth noting that [the software](https://github.com/bisq-network/bisq) makes it technically impossible to collect very much data in the first place).
+**The incentive structure is based solely on producing and consuming software**. Having a big honeypot of data makes no sense. 
 
-In this way, data gathering is prevented by design. People maintain continuous relationships to coordinate their work with low cost, and the profit motive is high. But with no mothership, profits go directly to the people who earned them, so there is no pressure to accumulate a common base of assets.
+Indeed, it's actually counter-productive. Even if a contributor on the network did start to collect data through their own means for the whole network to leverage, such an activity would add a point of reliance to the system and degrade its resilience. This directly clashes with the [core principles of the project](https://docs.bisq.network/intro.html#why-bisq-exists), and the community would probably reject integrating such activities into the system (furthermore, it's worth noting that [the software](https://github.com/bisq-network/bisq) makes it technically impossible to collect very much data in the first place).
 
-Of course, free/libre software is a crucial part of this dynamic: as a user, you can verify you’re not sending any data by inspecting the code yourself. But it’s nice to know that the collection of data doesn’t fit the incentive structure of the system.
+In this way, Bisq disincentivizes data gathering by design. Through the Bisq DAO, people maintain continuous relationships to coordinate their work with low cost, and the profit motive is high. But with no mothership, profits go directly to the people who earned them, so there is no pressure to accumulate a common base of assets.
+
+Of course, open-source software is a crucial part of this dynamic: as a user, you can verify you’re not sending any data by inspecting the code yourself. But it’s nice to know that the collection of data doesn’t fit the incentive structure of the system.
 
 ## 3. Conclusion
 
@@ -173,7 +175,7 @@ As long as companies operating digital services are traditionally capitalistic (
 
 Profit-seeking on its own is not bad, but incentives that encourage immoral profit-seeking are bad.
 
-The Bisq DAO endeavors to maintain the positive aspects of a company to efficiently coordinate productivity while discarding the negative aspects that encourage privacy problems.
+The Bisq DAO endeavors to maintain the positive elements of a company to efficiently coordinate productivity while discarding the negative elements that encourage privacy problems.
 
 In the next part in this series, we will discuss how the Bisq DAO's incentive structure discourages exploitation of its workers and users—another common tendency of traditional companies.
 

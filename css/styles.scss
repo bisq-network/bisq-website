@@ -802,6 +802,12 @@ blog
     max-width: 100%;
 }
 
+.post.type-post hr {
+    border-top: 1px solid #ecf0f1;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 ol li::before {
     font-size: 1rem;
     margin: 0 0.75rem;

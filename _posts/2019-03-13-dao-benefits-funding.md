@@ -5,15 +5,19 @@ author: Steve Jain
 excerpt: "The Bisq DAO enables value transfer and decision-making for the Bisq network. But it has several additional benefits too, which we'll focus on in this series.<br><br>In this post, Part I of this series, we'll discuss how Bisq's revenue model offers a new approach to funding open-source software development that, by design, avoids incentives to exploit user privacy altogether.<br><br>"
 ---
 
+<hr>
+
 _This is an essay which contains some subjective statements. Steve contributes documentation, copywriting, speaking, media correspondence, and more to the Bisq network. Follow him [here](https://jain.io)._
 
 _If you'd like to contribute a post, please reach out on [Slack](https://bisq.network/slack-invite) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
+
+<hr>
 
 At the [MIT Bitcoin Expo](https://mitbitcoinexpo.org/) this past weekend, funding open-source software development was a topic of high interest. Arjun Balaji's whole talk was focused on the topic, and a number of people approached me after my panel discussion wondering how the Bisq DAO worked to fund the project without any kind of external fundraising.
 
 The Bisq network's approaches to the challenges of funding open-source software and governing a revenue-earning operation are novel, and I had a great time discussing them with people at the event.
 
-In this post, we'll cover the practical _results_ of these approaches from a financial perspective: how an integrated revenue model—coupled with decentralized governance—result in an open-source software project that can grow and prosper on its own, while actually being _financially incentivized_ to protect its users' privacy.
+In this post, we'll cover the practical _results_ of these approaches from a financial perspective: how an integrated revenue model—coupled with decentralized governance—results in an open-source software project that can grow and prosper on its own, while actually being _financially incentivized_ to protect its users' privacy.
 
 Future posts in this series will compare the dynamics among users and contributors in the Bisq network to their counterparts in the regular business world, and show how the Bisq DAO discourages
 
@@ -60,7 +64,7 @@ Bisq takes a different approach: it looks inward. It charges a small fee for usi
 
 These fees bring in the funds to sustain the various functions of the Bisq project: development, design, documentation, etc.
 
-Of course, there are 3 critical advantages Bisq has here that most software projects don't have:
+Of course, there are 3 critical advantages Bisq has here that many software projects don't have:
 
 * users perceive paying trading fees as a natural occurrence when using a digital marketplace
 * the means to make payments are neatly weaved in to the natural experience of using the software
@@ -78,7 +82,7 @@ Over time, many developers have just resorted to giving their software away for 
 
 Hence the prevalence of external funding models.
 
-Hopefully Bitcoin and emerging technologies like Lightning can help reverse this dynamic and reduce the friction of integrating revenue models directly into software. Specific ideas and approaches are beyond the scope of this article, but I really hope developers take the liberty to experiment. Bitcoin is sound money, sure, but it’s also natively digital money that might be able to help us monetize good, well-intentioned software more gracefully.
+Hopefully Bitcoin and emerging technologies like Lightning can help reverse this dynamic and reduce the friction of integrating revenue models directly into software. Specific ideas and approaches to achieve this are beyond the scope of this article, but I really hope developers take the liberty to experiment. Bitcoin is sound money, sure, but it’s also natively digital money that might be able to help us monetize good, well-intentioned software more gracefully.
 
 Bisq proves it’s possible.
 
@@ -106,7 +110,7 @@ In the past few years, however, that’s all changed. Almost every service you i
 
 For these modern digital services, collecting data is just a part of smart business. Businesses gain deep insights to help them optimize their services, strike partnerships, and develop new products. Rational profit-maximizing business owners have no reason _not_ to collect as much data as they can.
 
-#### The Privacy Predicament
+#### Result: Privacy Predicament
 
 Gathering data may be a perfectly fine business practice with a perfectly good business case, but the result is rather odd: **accumulated data becomes a hugely valuable asset**.
 
@@ -138,7 +142,7 @@ Is there a way to maintain the benefits of having a company (i.e., low costs to 
 
 The Bisq DAO offers a mechanism for achieving this, and the result is a huge win for user privacy.
 
-#### A Capitalistic Model that Encourages Privacy Protection
+#### The Bisq DAO: Capitalistic Model that Encourages Privacy Protection
 
 As we’ve mentioned elsewhere, Bisq is not a company or legal entity of any kind. It’s a network composed of:
 
@@ -163,11 +167,13 @@ Of course, free/libre software is a crucial part of this dynamic: as a user, you
 
 ## 3. Conclusion
 
-From a purely financial perspective, Bisq is built to protect its users' privacy. It has a viable means of earning revenue integrated into its software, and it has no way to accumulate common assets (i.e., user data) to exploit later.
+From a financial perspective, Bisq is built to protect its users' privacy. It has a viable means of earning revenue integrated into its software, and it has no way to accumulate common assets (i.e., user data) to exploit later.
 
 As long as companies operating digital services are traditionally capitalistic (i.e., with a common balance sheet, incentivized to maximize returns for investors and executives), they will continue to exploit user data for profit.
 
 Profit-seeking on its own is not bad, but incentives that encourage immoral profit-seeking are bad.
+
+The Bisq DAO endeavors to maintain the positive aspects of a company to efficiently coordinate productivity while discarding the negative aspects that encourage privacy problems.
 
 In the next part in this series, we will discuss how the Bisq DAO's incentive structure discourages exploitation of its workers and users—another common tendency of traditional companies.
 

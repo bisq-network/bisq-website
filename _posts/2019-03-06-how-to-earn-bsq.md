@@ -5,9 +5,13 @@ author: John Forsyth
 excerpt: Bisq is an open-source software project, but it has a built-in revenue model to compensate its contributors—and anyone is welcome to contribute!<br><br>
 ---
 
+<hr>
+
 _This post is by John Forsyth. John is a non-technical enthusiast for cryptocurrencies and decentralized autonomous organizations. [Follow him here](https://www.instagram.com/daokid1/) for more content about DAOs and cryptocurrencies._
 
 _If you'd like to contribute a post, please reach out on [Slack](https://bisq.network/slack-invite) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
+
+<hr>
 
 ## Introduction
 

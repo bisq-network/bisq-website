@@ -17,9 +17,7 @@ At the [MIT Bitcoin Expo](https://mitbitcoinexpo.org/) this past weekend, fundin
 
 The Bisq network's approaches to the challenges of funding open-source software and governing a revenue-earning operation are novel, and I had a great time discussing them with people at the event.
 
-In this post, we'll cover the practical _results_ of these approaches from a financial perspective: how an integrated revenue model—coupled with decentralized governance—results in an open-source software project that can grow and prosper on its own, while actually being _financially incentivized_ to protect its users' privacy.
-
-Future posts in this series will compare the dynamics among users and contributors in the Bisq network to their counterparts in the regular business world, and show how the Bisq DAO discourages
+In this post, we'll cover the practical _results_ of these approaches from a financial perspective: how an integrated revenue model—coupled with decentralized governance—results in an open-source software project that can grow and prosper on its own, while actually being _incentivized_ to protect its users' privacy.
 
 _Since we’ll be discussing the benefits of the Bisq DAO, this post assumes you already know a little bit about it. You can learn the basics with [this video series](https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e) or [this doc](https://docs.bisq.network/user-dao-intro.html)._
 
@@ -31,7 +29,7 @@ A DAO can be made for any purpose, just like a company can be: DASH uses a DAO t
 
 Bisq, on the other hand, will soon use a DAO to manage the funding and governance of its bitcoin exchange software: a business-like service with day-to-day operations, revenue, strategy, etc.
 
-As a result, it's a different challenge with a different set of complexities from the other examples above.
+Bisq's DAO is designed to conquer a different challenge with a different set of complexities from the other examples above.
 
 ## 1. Funding the Project
 
@@ -50,13 +48,15 @@ In his writings, Stallman points out that the 'free' in 'free software' refers t
 
 #### Typical Approaches to Funding: External
 
-Practically, however, charging for free software (and really, any software) is difficult. In the past, when software was distributed on floppy disks and CDs, one could charge for the convenience of obtaining the software on physical media. But nowadays, the internet makes copying and distributing software trivial and almost free.
+Practically, however, charging for free software (and really, any software) is difficult. In the past, when software was distributed on floppy disks and CDs, one could charge for the convenience of obtaining the software on physical media.
 
-As a result, many software projects rely on donations to fund development: donations of time from developers who maintain software as a labor of love, and donations of money from users who are particularly fond of the software.  [Other models exist](https://en.wikipedia.org/wiki/Business_models_for_open-source_software) to fund free software development such as sponsorships, selling professional services, selling the software as a service, etc.
+But nowadays, the internet makes copying and distributing software trivial and almost free. In addition, software is expected to be maintained in perpetuity, so one-time payments aren't enough.
+
+As a result, many software projects rely on donations to fund development: donations of time from developers who maintain software as a labor of love, and donations of money from users who are particularly fond of the software.  [Other models exist](https://en.wikipedia.org/wiki/Business_models_for_open-source_software) to fund software development such as sponsorships, selling professional services, selling the software as a service, etc.
 
 These can all be fine means of sustaining software projects, and some projects have used them quite successfully.
 
-But most of these conventional models for monetizing software have one thing in common: they’re all external to the software itself. On one hand, there’s the code, and on the other hand, there’s a scheme to make improving the code worthwhile.
+But most of these conventional models for monetizing software have one thing in common: they’re all external to the software itself. On one hand, there’s the code, and on the other hand, there’s some kind of a scheme to make improving the code worthwhile.
 
 #### Bisq's Approach to Funding: Integrated
 
@@ -76,7 +76,7 @@ The third advantage is one that anyone can replicate—just start accepting bitc
 
 The first item in that list is perhaps the biggest obstacle for other software projects, as it’s a product of social conditioning: people just don’t ever expect to pay for software. Opportunities to charge users fees in the natural flow of an application are exceedingly rare.
 
-In my opinion, this is partly because developers have been too generous over the years. Consumers don’t think twice about paying for food in a restaurant or buying goods in a store. Yet we balk at paying a one-time 1 USD fee for an app that we expect to work perfectly for the rest of time.
+In my opinion, this is partly because developers have been too generous over the years. Consumers don’t think twice about paying for food in a restaurant or buying goods in a store. Yet they'll balk at paying a one-time 1 USD fee for an app that we expect to work perfectly for the rest of time.
 
 Over time, many developers have just resorted to giving their software away for free for the attention, resume boost, and other ancillary benefits. The situation is even worse in the open-source world, such that many people now act as if “open-source” means “it magically appeared out of nowhere” and are often disgusted with requests to support software they appreciate. Ask me how I know.
 
@@ -86,13 +86,13 @@ Hopefully Bitcoin and emerging technologies like Lightning can help reverse this
 
 Bisq proves it’s possible.
 
-And if you can conquer the sociological and psychological challenges to integrating a revenue model into your software, the result can be elegant and empowering: no need to worry about consulting clients, appeasing sponsors, or anything else—just focus on the software!
+If you can conquer the sociological and psychological challenges to integrating a revenue model into your software, the result can be elegant and empowering: no need to worry about consulting clients, appeasing sponsors, or anything else—just focus on the software!
 
 ## 2. Ensuring User Privacy
 
-Furthermore, and perhaps even more profound: an integrated revenue model can power a totally new business dynamic.
+Furthermore, and perhaps even more profound is that an integrated revenue model can power a totally new business dynamic—one that protects user privacy by design.
 
-This new dynamic: protecting user privacy by design. Whereas most other ventures are incentivized to exploit user privacy, Bisq is actually incentivized to protect user privacy—by design, through its financial structure.
+Whereas most other ventures are incentivized to exploit user privacy, Bisq is actually incentivized to protect user privacy.
 
 Let's see how this works.
 
@@ -100,11 +100,13 @@ Let's see how this works.
 
 Most digital services are operated by for-profit companies. You’ve probably heard of some of the more notable ones like Facebook, Twitter, and Google.
 
-Lately, the pathetic privacy policies (along with the practical consequences) of these companies have gone mainstream. People are realizing that these big technology companies are unscrupulous mercenaries, and that their most personal data is actually stored to sell (not for their convenience, or whatever pretty marketing-speak they give you).
+Lately, awareness of these companies' pathetic privacy practices has gone mainstream. People are realizing that these big technology companies are unscrupulous mercenaries, and that their most personal data is actually stored to sell (not for their convenience, or whatever pretty marketing-speak they give you).
 
-But how did we get here? Why is it that we’re dealing with these egregious user privacy violations now?
+But how did we get here? Why is it that we’re dealing with these egregious privacy violations now?
 
-In the not-so-distant past, our most sensitive personal data could only be accessed by select institutions: those in government, healthcare, finance, etc. While these sectors surely sold customer data for profit, such activity was probably relatively minimal, because (1) these sectors are highly regulated and (2) technology to collect and store data was relatively primitive and expensive, so there was a practical limit on the extent of data that could be collected, stored, and leveraged in the first place.
+In the not-so-distant past, our most sensitive personal data could only be accessed by select institutions: those in government, healthcare, finance, etc. While these sectors surely sold customer data for profit, such activity was relatively minimal. Regulation probably had something to do with it, but the technology to collect and store data was relatively primitive and expensive.
+
+There was a practical limit on the extent of data that could be collected, stored, and leveraged in the first place.
 
 In the past few years, however, that’s all changed. Almost every service you interact with can (and probably does) collect vast amounts of data on you with minimal cost, whether through mobile apps, website analytics, or through other (often more nefarious) means.
 
@@ -114,25 +116,25 @@ For these modern digital services, collecting data is just a part of smart busin
 
 Gathering data may be a perfectly fine business practice with a perfectly good business case, but the result is rather odd: **accumulated data becomes a hugely valuable asset**.
 
-This is a rather peculiar dynamic: a company can gradually accumulate a productive asset through the normal course of its business operations.
+It's a rather peculiar dynamic: a company can gradually accumulate a productive asset _merely_ through the normal course of its business operations.
 
-It’s almost like a non-financial form of interest earned through the day-to-day operation of a company, as if Amazon earned a commission from the Internet Gods every time it sold you toilet paper. Odd, but that’s kinda what’s happening.
+That would be like me earning a bonus at my job purely because I ate, slept, and breathed on a regular basis...
 
-Anyway, what should a company do with this big data asset? Should they just disregard it in the name of moral superiority? Act as if it doesn't exist? Let their investors' returns dwindle? Ha! Fat chance.
+So, what should a company do with all this data? Should they just disregard it in the name of moral superiority? Act as if it doesn't exist? Miss Wall Street's profit expectations? Ha! Fat chance.
 
 This is where the issues start.
 
-While companies are not required by law to make a profit, in practice, the incentives for company executives to maximize profits are overwhelming. Investors need returns, executives want big paydays, media vies for attention, and everyone is hungry for power and status—and the result is whatever can be monetized will be monetized, and so, data is sold.
+While companies are not required by law to maximize profit, in practice, the incentives for company executives to do so are overwhelming. Investors need returns, executives want big paydays, media vies for attention, and everyone is hungry for power and status—and the result is whatever can be monetized will be monetized, and so, data collected is data sold.
 
 #### A Better Way: Beyond the Corporation
 
-_But that's capitalism_, you retort. Companies exist to offer services and earn money, and they’ve always been exploitive, but the market will eventually react and handle them. It’s not a great economic system, but it’s the least worst of the alternatives.
+_But that's capitalism_, you retort. Companies exist to offer services and earn money, and they’ve always been exploitive, but the market will eventually react and handle them. It’s not a great economic system, but it’s the least worst alternative.
 
-Generally I agree, but I’ll counter that there may be a way to better align incentives to discourage such activity in the first place.
+Sure, but what if we could align incentives better to discourage such activity in the first place?
 
 The issue, I contend, is not the pursuit of profits. Profits are powerful indicators of progress and essential to enabling innovation for further progress. The issue is with how profits are incentivized.
 
-With a company, you see, all resources (and returns on those resources) are centralized in one place. The more resources a company gathers for itself, the more capable it becomes to generate profits: more people, more capital, more sales, more partnerships, more brand prestige, more data.
+With a company, you see, all resources (and returns on those resources) are centralized in one place. The more resources a company gathers for itself, the more capable it becomes to generate profits: more people, more capital, more sales, more partnerships, more brand prestige, and more data all lead to more profits.
 
 This is why every company has entire functions dedicated to maximize the accumulation of these resources—more of all these things generates more profits for the mothership.
 
@@ -142,14 +144,14 @@ Is there a way to maintain the benefits of having a company (i.e., low costs to 
 
 The Bisq DAO offers a mechanism for achieving this, and the result is a huge win for user privacy.
 
-#### The Bisq DAO: Capitalistic Model that Encourages Privacy Protection
+#### The Bisq DAO: A Capitalistic Model that Encourages Privacy Protection
 
 As we’ve mentioned elsewhere, Bisq is not a company or legal entity of any kind. It’s a network composed of:
 
 1. users running the Bisq software and interacting over its peer-to-peer network
 2. contributors who build and maintain the Bisq software
 
-This means its financial structure is very different from that of a company. Companies have assets, liabilities, and equity—assets are leveraged to produce profits, profits boost equity, and higher equity value is what makes investors (and executives) happy. Generally, more assets means more firepower to produce more profits, so maximizing assets (like data!) is a core objective.
+This means its financial structure is very different from that of a company. Companies have common pools of assets, liabilities, and equity—assets are leveraged to produce profits, profits boost equity, and higher equity value is what makes investors (and executives) happy. Generally, more assets means more firepower to produce more profits, so maximizing assets (like data!) is a core objective.
 
 But Bisq doesn’t have a balance sheet, since it’s not an entity, so it doesn’t have assets.
 
@@ -159,17 +161,17 @@ The result: there is no shared pool of resources for the project to accumulate a
 
 So whereas accumulated assets (i.e., data) are the primary enablers of revenue for businesses like Facebook, accumulated assets don’t even exist for Bisq. Instead, the labor of Bisq’s contributors is the primary enabler of its revenue: contributors maintain the software, traders pay fees to use the software, those fees are distributed to contributors for their work, and contributors are incentivized to make the software better to increase fee revenue.
 
-**The incentive structure is based solely on producing and consuming software**. Having a big honeypot of data makes no sense. 
+**The incentive structure is based solely on producing and consuming software**. Having a big honeypot of data makes no sense.
 
-Indeed, it's actually counter-productive. Even if a contributor on the network did start to collect data through their own means for the whole network to leverage, such an activity would add a point of reliance to the system and degrade its resilience. This directly clashes with the [core principles of the project](https://docs.bisq.network/intro.html#why-bisq-exists), and the community would probably reject integrating such activities into the system (furthermore, it's worth noting that [the software](https://github.com/bisq-network/bisq) makes it technically impossible to collect very much data in the first place).
+Indeed, it's actually counter-productive. Even if a contributor on the network did start to collect data through their own means for the whole network to leverage, such an activity would add a point of reliance to the system and degrade its resilience. This directly clashes with the [core principles of the project](https://docs.bisq.network/intro.html#why-bisq-exists), and the community would probably reject integrating such activities into the system.<sup>3</sup>
 
-In this way, Bisq disincentivizes data gathering by design. Through the Bisq DAO, people maintain continuous relationships to coordinate their work with low cost, and the profit motive is high. But with no mothership, profits go directly to the people who earned them, so there is no pressure to accumulate a common base of assets.
+In this way, Bisq discourages data gathering by design. Through the Bisq DAO, people maintain continuous relationships to coordinate their work with low cost, and the profit motive is high. But with no mothership, profits go directly to the people who earned them, so there is no pressure to accumulate a common base of assets.
 
 Of course, open-source software is a crucial part of this dynamic: as a user, you can verify you’re not sending any data by inspecting the code yourself. But it’s nice to know that the collection of data doesn’t fit the incentive structure of the system.
 
 ## 3. Conclusion
 
-From a financial perspective, Bisq is built to protect its users' privacy. It has a viable means of earning revenue integrated into its software, and it has no way to accumulate common assets (i.e., user data) to exploit later.
+Bisq is built to operate its software while protecting its users' privacy. It's done this by integrating a viable means of earning revenue right into its software, and its decentralized governance structure ensures there can be no way to accumulate common assets (i.e., user data) to exploit later.
 
 As long as companies operating digital services are traditionally capitalistic (i.e., with a common balance sheet, incentivized to maximize returns for investors and executives), they will continue to exploit user data for profit.
 
@@ -182,6 +184,8 @@ In the next part in this series, we will discuss how the Bisq DAO's incentive st
 <hr>
 
 <br>
-<sup>1</sup> Specifically, Bisq software is licensed under the GNU Affero General Public License v3.0
+<sup>1</sup> Specifically, Bisq software is licensed under the GNU Affero General Public License v3.0.
 <br><br>
 <sup>2</sup> The company is a hugely beneficial entity. As Ronald Coase articulated in his article _The Nature of the Firm_ in 1937, companies dramatically lower transaction and coordination costs in the pursuit of business. The advent of the modern limited-liability joint-stock company has been a drastically under-appreciated enabler of modern progress.
+<br><br>
+<sup>3</sup> Furthermore, it's worth noting that [the software](https://github.com/bisq-network/bisq) makes it technically impossible to collect very much data in the first place.

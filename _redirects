@@ -33,7 +33,7 @@ https://bisq.io https://bisq.network 301
 /docs/dao/specification https://docs.bisq.network/dao/specification.html 302
 
 # for genesis distribution
-/docs/dao/genesis https://docs.bisq.network/dao.html#get-added-to-genesis 302
+/docs/dao/genesis https://docs.bisq.network/compensation.html#get-added-to-genesis 302
 
 # setup full node docs
 /docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/docs/dao-setup.md 302

@@ -2,7 +2,7 @@
 layout: post
 title: "How to Set Up a Bitcoin Regtest Environment"
 author: Tomáš Kanócz
-excerpt: "The Bisq DAO enables value transfer and decision-making for the Bisq network. But it has several additional benefits too, which we'll focus on in this series.<br><br>In this post, Part I of this series, we'll discuss how Bisq's revenue model offers a new approach to funding open-source software development that, by design, avoids incentives to exploit user privacy altogether.<br><br>"
+excerpt: "In this post, Tomáš shows you how to set up your very own Bitcoin regtest environment with bitcoin-qt and make your own blocks! <br><br>"
 ---
 
 <hr>

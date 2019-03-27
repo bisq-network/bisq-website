@@ -274,7 +274,13 @@ hr {
 
 
 
+.more-info-desktop .dropdown-menu {
+    width: 200px;
+}
 
+.more-info-desktop .dropdown-menu .dropdown-item{
+    height: 49px;
+}
 
 
 
@@ -782,6 +788,10 @@ td {
   .oversized{
     font-size: 3.5em;
     letter-spacing: -.1rem;
+  }
+
+  .nav-link {
+      padding: 14px 1rem;
   }
 
 }

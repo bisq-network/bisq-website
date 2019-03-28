@@ -833,7 +833,44 @@ ul.blog-content-list ul {
     margin-bottom: 1rem;
 }
 
-/****************/
+
+/*****************
+stats
+*****************/
+
+.chart-stat-container {
+    margin: 4em 0;
+}
+
+.chart-stat-container .stat-box-header {
+    width: 300px;
+    height: 300px;
+    background-color: #25B135;
+    color: #fff;
+    padding: 25px;
+}
+
+.plain-stat-container {
+    background-color: #f3f3f3;
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+    position: relative;
+    float: left;
+    margin: 3em 3em 0 0;
+}
+
+.plain-stat-container h4, .plain-stat-container .fake-figure {
+    position: absolute;
+    margin: 0;
+    bottom: 25px;
+    font-size: 36px;
+}
+
+.plain-stat-container .fake-figure {
+    font-size: 18px;
+}
+
 
 /*****************front page*****************/
 

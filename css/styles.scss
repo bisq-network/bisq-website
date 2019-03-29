@@ -720,6 +720,14 @@ blog
     max-width: 100%;
 }
 
+.post.type-post span.caption {
+    margin-bottom: 2em;
+}
+
+.post.type-post span.caption {
+    font-style: italic;
+}
+
 .post.type-post hr {
     border-top: 1px solid #ecf0f1;
     margin-top: 2em;

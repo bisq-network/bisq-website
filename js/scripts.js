@@ -85,81 +85,69 @@ $( document ).ready( function() {
         return;
     }
 
+    //How to get started
+    $('.step').on({
+        mouseenter: function () {
+            $('.step').css('opacity', 0.5),
+            $(this).css('opacity', 1),
+            $('.step-image').addClass('d-none').removeClass('d-block');
+            $('.'+$(this).attr('data-image')).addClass('d-block').removeClass('d-none');
+        },
+        mouseout: function () {}
+    });
 
 
+    //FAQ Accordion
+    $('.accordion').each(function() {
 
+        $(this).find('.accordion-toggle').click(function(event) {
+            event.preventDefault();
 
-  //Home Video
-  $('#play-video').on('click', function(ev) {
-    ev.preventDefault();
-    //$("#video")[0].src += "&autoplay=1";
-    $("#video-overlay").fadeIn('fast');
-    $('body').addClass('no-scroll');
+            $(".accordion-toggle").not($(this)).removeClass('accordion-toggle-active');
 
-  });
+            if($(this).hasClass('accordion-toggle-active')){
+                $(this).removeClass('accordion-toggle-active');
+            }else{
+                $(this).addClass('accordion-toggle-active');
+            }
 
-  $(document).keyup(function(e) {
-    if (e.keyCode === 27) $("#video-overlay").fadeOut('fast');
-    $('body').removeClass('no-scroll');
-  });
+            $(this).next().slideToggle('fast');
+            $(".accordion-content").not($(this).next()).slideUp('fast');
 
+            if($(this).attr('id') !== undefined) {
+                //add hash to url
+                if(history.pushState) {
+                    history.pushState(null, null, '#' + $(this).attr('id'));
+                } else {
+                    location.hash = '#' + $(this).attr('id');
+                }
+            }
+        });
+    });
 
+    if( window.location.hash ) {
+        showAccordionItem();
+    }
 
+    $( ".accordion-content a" ).on( "click", function() {
+        var address = $(this).attr('href');
+        if( address.charAt(0) === '#' ) {
+            showAccordionItem( address );
+        };
+        return;
+    });
 
-  //How to get started
-  $('.step').on({
-    mouseenter: function () {
-      $('.step').css('opacity', 0.5),
-      $(this).css('opacity', 1),
-      $('.step-image').addClass('d-none').removeClass('d-block');
-      $('.'+$(this).attr('data-image')).addClass('d-block').removeClass('d-none');
-      console.log($(this).attr('data-image'));
-    },
-    mouseout: function () {}
-  });
+    function showAccordionItem( anchorAddress ) {
 
+        var address = anchorAddress ? anchorAddress : window.location.hash;
 
+        $("html, body").animate( {
+            scrollTop: ( $( address ).offset().top - 100 )
+        }, 1000 );
 
-  //FAQ Accordion
-  $('.accordion').each(function() {
+        $( address ).addClass( 'accordion-toggle-active' ).next().slideToggle( 'fast' );
 
-     $(this).find('.accordion-toggle').click(function(event) {
-       event.preventDefault();
-
-       $(".accordion-toggle").not($(this)).removeClass('accordion-toggle-active');
-
-       if($(this).hasClass('accordion-toggle-active')){
-          $(this).removeClass('accordion-toggle-active');
-       }else{
-         $(this).addClass('accordion-toggle-active');
-       }
-
-
-       $(this).next().slideToggle('fast');
-       $(".accordion-content").not($(this).next()).slideUp('fast');
-
-
-
-       if($(this).attr('id') !== undefined){
-         //add hash to url
-         if(history.pushState) {
-              history.pushState(null, null, '#' + $(this).attr('id'));
-          } else {
-              location.hash = '#' + $(this).attr('id');
-          }
-        }
-
-     });
-
-  });
-
-  if(window.location.hash) {
-    $("html, body").animate({ scrollTop: ($(window.location.hash).offset().top - 100) }, 1000);
-    $(window.location.hash).addClass('accordion-toggle-active').next().slideToggle('fast');
-  }
-
-
-
-
+        return;
+    }
 
 });

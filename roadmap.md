@@ -27,9 +27,15 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.7
+{: .mt-5 .mb-2}
+Released [April 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.7)
+
+This is a hotfix release to fix a rounding issue for market based price offers introduced in v0.9.6.
+
 ##### Version 0.9.6
 {: .mt-5 .mb-2}
-Released [April 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.5)
+Released [April 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.6)
 
 This will be the last feature release before the Bisq DAO goes live on Mainnet! It is not only packed with updates around the Bisq DAO, but also includes bug fixes for Tor startup, improvements in message handling and many more minor bug fixes.
 

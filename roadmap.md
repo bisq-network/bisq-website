@@ -27,6 +27,62 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.6
+{: .mt-5 .mb-2}
+Released [April 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.5)
+
+This will be the last feature release before the Bisq DAO goes live on Mainnet! It is not only packed with updates around the Bisq DAO, but also includes bug fixes for Tor startup, improvements in message handling and many more minor bug fixes.
+
+###### Bisq DAO (on our DAO Testnet)
+- Lots of UI improvements [1](https://github.com/bisq-network/bisq/pull/2566), [2](https://github.com/bisq-network/bisq/pull/2595)
+- [Show the correct BSQ or BTC trading fee if it is maker or taker](https://github.com/bisq-network/bisq/pull/2512)
+- [Add Facts & Figures section](https://github.com/bisq-network/bisq/pull/2513)
+- [Make vote result JSON deterministic](https://github.com/bisq-network/bisq/pull/2515)
+- [Add transaction id to proposal display](https://github.com/bisq-network/bisq/pull/2519)
+- [Add feedback popup for DAO test users](https://github.com/bisq-network/bisq/pull/2521)
+- [Add hash of DAO state](https://github.com/bisq-network/bisq/pull/2532)
+- [Don't show locally rejected proposals as accepted in UI](https://github.com/bisq-network/bisq/pull/2528)
+- [Improve data structure, validation and performance](https://github.com/bisq-network/bisq/pull/2556)
+- [Add mining fee to un/lock bond popup](https://github.com/bisq-network/bisq/pull/2577)
+- [Add ISSUANCE_LIMIT param and check for max issuance per cycle](https://github.com/bisq-network/bisq/pull/2584)
+- [Prevent BSQ offers below dust limit](https://github.com/bisq-network/bisq/pull/2592)
+- [Add irregular txType, add check for total balance, prevent proposal withhold attack](https://github.com/bisq-network/bisq/pull/2587)
+- [Add missing check for mandatory BSQ output](https://github.com/bisq-network/bisq/pull/2614)
+- [Fix get all bonds not returning not active bonds](https://github.com/bisq-network/bisq/pull/2576)
+
+###### Trading
+- [Add removed deprecated payment methods again as it would break trade history](https://github.com/bisq-network/bisq/pull/2505)
+- [Set max buyer's security deposit to 20% instead of 10%](https://github.com/bisq-network/bisq/pull/2575)
+- [Improve broadcasting of transactions](https://github.com/bisq-network/bisq/pull/2536)
+- [Suppress popup at shutdown when open offers are disabled](https://github.com/bisq-network/bisq/pull/2569)
+- [Increase request timeouts](https://github.com/bisq-network/bisq/pull/2583)
+
+###### Wallet
+- [Improve restore wallet from seed process](https://github.com/bisq-network/bisq/pull/2524)
+- [Fix missing balance at restore from seed words](https://github.com/bisq-network/bisq/pull/2517)
+
+###### UI
+- Lots of typos and grammar mistakes fixed [1](https://github.com/bisq-network/bisq/pull/2582), [2](https://github.com/bisq-network/bisq/pull/2531), [3](https://github.com/bisq-network/bisq/pull/2565)
+- [Show close button when creating offer without required account](https://github.com/bisq-network/bisq/pull/2590)
+- [Show fiat rounding info popup also when switching between payment accounts](https://github.com/bisq-network/bisq/pull/2598)
+- [Fix error and improve wording for security deposit](https://github.com/bisq-network/bisq/pull/2511)
+- [Fix BTC status incorrectly hidden on splash screen](https://github.com/bisq-network/bisq/pull/2567)
+- [Make create offer label cases easier to translate](https://github.com/bisq-network/bisq/pull/2606)
+
+###### Development
+- [Use the latest bitcoinj version](https://github.com/bisq-network/bisq/pull/2602)
+- [Move clear blockstore feature to bitcoinj](https://github.com/bisq-network/bisq/pull/2563)
+
+###### Privacy
+- [Fix exception handling during Tor setup](https://github.com/bisq-network/bisq/pull/2538)
+- [Update Netlayer to 0.6.5](https://github.com/bisq-network/bisq/pull/2581)
+
+###### Monitoring
+- [Added market metric](https://github.com/bisq-network/bisq/pull/2507)
+
+###### Assets
+- Added 4 new assets: Amitycoin (AMIT), Navcoin (NAV), Qwertycoin (QWC), XDR (XDR0)
+
 ##### Version 0.9.5
 {: .mt-5 .mb-2}
 Released [March 6th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.5)

@@ -66,32 +66,32 @@ Congrats, you are now prepared to look into Bitcoin internals!
 
 Bitcoin-qt makes it really easy to interact with the Bitcoin daemon. The console is easily accessible in the GUI. You can find it under Help -> Debug window -> Console.
 
-<img src="../../images/blog/bitcoin-qt-infopage.png" alt="Fig. 4. Information page in debug window">
+<img src="../../images/blog/bitcoin-qt-infopage.png" alt="Fig. 4. Information page in debug window.">
 <span class="caption">Fig. 4. Information page in debug window</span>
 
 As you can see, a new window will appear with various information about bitcoin-qt and the network mode it is running in. Note the network name is regtest. Make sure yours is as well.
 
 Let's click on the console tab as seen in Figure 5.
 
-<img src="../../images/blog/bitcoin-qt-infopage-debug.png" alt="Fig. 5. Information page in debug window">
+<img src="../../images/blog/bitcoin-qt-infopage-debug.png" alt="Fig. 5. Information page in debug window.">
 <span class="caption">Fig. 5 Information page in debug window</span>
 
 There are several commands that can be used to interact with the Bitcoin daemon. To see them, type `help` in the bottom of the window and press Enter. You can scroll up to view the full list of commands. If you want help on a particular command, type in `help <command name>`.
 
 <img src="../../images/blog/bitcoin-qt-help.png" alt="Fig. 6. partial output of the `help` command">
-<span class="caption">Fig. 6. Partial output of the `help` command</span>
+<span class="caption">Fig. 6. Partial output of the `help` command.</span>
 
 If you look closely, the third command is called `getblockchaininfo`. How about finding out what it does? The command `help` is our friend here :)
 
 Type in `help getblockchaininfo`. As the help system states, this command will give us information about the blockchain.
 
 <img src="../../images/blog/bitcoin-qt-getblockchaininfo.png" alt="Fig. 7. getblockchaininfo help">
-<span class="caption">Fig. 7. getblockchaininfo help</span>
+<span class="caption">Fig. 7. getblockchaininfo help.</span>
 
 Enter the `blockchaininfo` command into the console (RPC) window and examine the output. The output is in a strange (at least to non-programmers) format called JSON (JavaScript Object Notation). It is a format that can be easily understood by computers and, with a small effort, by humans as well. The `help getblockchaininfo` command describes what each key means.
 
 <img src="../../images/blog/bitcoin-qt-getblockchaininfo-json.png" alt="Fig. 8. JSON output of `getblockchaininfo`">
-<span class="caption">Fig. 8. JSON output of `getblockchaininfo`</span>
+<span class="caption">Fig. 8. JSON output of `getblockchaininfo`.</span>
 
 ## Generating our own blocks
 
@@ -108,7 +108,7 @@ generate 101
 ```
 
 <img src="../../images/blog/bitcoin-qt-generate.png" alt="Fig. 9. `generate` command output">
-<span class="caption">Fig. 9. `generate` command output</span>
+<span class="caption">Fig. 9. `generate` command output.</span>
 
 You will see a lot of popup windows saying “incoming transaction”. Just wait a few seconds until they disappear. The weird numbers and letters are the hashes of the blocks that were generated.
 

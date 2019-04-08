@@ -27,6 +27,34 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 0.9.8
+{: .mt-5 .mb-2}
+Released [April 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.8)
+
+This is a release focused on issues within the Bisq DAO on our DAO Testnet. Everyone who participates in testing please update to this release to continue with testing!
+
+###### Bisq DAO (on our DAO Testnet)
+- [Protect against late blind vote publishing](https://github.com/bisq-network/bisq/pull/2667)
+- [Use cryptographic hash from protobuffer serialized data instead of hashCode](https://github.com/bisq-network/bisq/pull/2665)
+- [Add information of Satoshis needed for coloring](https://github.com/bisq-network/bisq/pull/2638)
+- [Improve transaction display for BTC withdrawal from BSQ wallet](https://github.com/bisq-network/bisq/pull/2655)
+- [Add filter for min required version for DAO](https://github.com/bisq-network/bisq/pull/2670)
+- [Handle selected proposal popup state when new block is parsed](https://github.com/bisq-network/bisq/pull/2636)
+- [Update insufficient BTC warning for issuance proposals](https://github.com/bisq-network/bisq/pull/2643)
+- [Close printWriter before renaming temp file](https://github.com/bisq-network/bisq/pull/2669)
+- [Reword text in proposal fee pop-up](https://github.com/bisq-network/bisq/pull/2656)
+- [Reduce transaction broadcast timeout](https://github.com/bisq-network/bisq/pull/2657)
+- [Fix max available stake for voting showing negative](https://github.com/bisq-network/bisq/pull/2622)
+- [Fix incorrect required BSQ amount in warning text](https://github.com/bisq-network/bisq/pull/2630)
+- [Fix incorrect transaction size shown for bonding](https://github.com/bisq-network/bisq/pull/2652)
+- [Fix typo](https://github.com/bisq-network/bisq/pull/2647)
+
+###### Trading
+- [Change wrong name for Siacoin in removed crypto list](https://github.com/bisq-network/bisq/pull/2635)
+
+###### Development
+- [Add handling for bitcoinRegtestHost=none](https://github.com/bisq-network/bisq/pull/2646)
+
 ##### Version 0.9.7
 {: .mt-5 .mb-2}
 Released [April 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v0.9.7)

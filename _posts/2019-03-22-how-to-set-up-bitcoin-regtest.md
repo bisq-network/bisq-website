@@ -67,14 +67,14 @@ Congrats, you are now prepared to look into Bitcoin internals!
 Bitcoin-qt makes it really easy to interact with the Bitcoin daemon. The console is easily accessible in the GUI. You can find it under Help -> Debug window -> Console.
 
 <img src="../../images/blog/bitcoin-qt-infopage.png" alt="Fig. 4. Information page in debug window.">
-<span class="caption">Fig. 4. Information page in debug window</span>
+<span class="caption">Fig. 4. Information page in debug window.</span>
 
 As you can see, a new window will appear with various information about bitcoin-qt and the network mode it is running in. Note the network name is regtest. Make sure yours is as well.
 
 Let's click on the console tab as seen in Figure 5.
 
 <img src="../../images/blog/bitcoin-qt-infopage-debug.png" alt="Fig. 5. Information page in debug window.">
-<span class="caption">Fig. 5 Information page in debug window</span>
+<span class="caption">Fig. 5. Information page in debug window.</span>
 
 There are several commands that can be used to interact with the Bitcoin daemon. To see them, type `help` in the bottom of the window and press Enter. You can scroll up to view the full list of commands. If you want help on a particular command, type in `help <command name>`.
 

@@ -774,24 +774,32 @@ stats
 }
 
 .plain-stat-container {
-    background-color: #f3f3f3;
-    width: 275px;
-    height: 275px;
+    background-color: #fff;
+    min-width: 275px;
+    width: 33%;
+    height: 200px;
     padding: 25px;
     position: relative;
     float: left;
-    margin: 3em 3em 0 0;
-}
-
-.plain-stat-container h4, .plain-stat-container .fake-figure {
-    position: absolute;
     margin: 0;
-    bottom: 25px;
-    font-size: 36px;
 }
 
-.plain-stat-container .fake-figure {
+.plain-stat-container .stat-label {
+    color: #333333;
     font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    /* font-weight: 400; */
+}
+
+.plain-stat-container .stat-figure {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 200;
+}
+
+p.monitor-note {
+    clear: both;
 }
 
 .highcharts-credits {

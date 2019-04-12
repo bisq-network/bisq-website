@@ -747,7 +747,7 @@ stats
 *****************/
 
 .chart-stat-container {
-    margin: 4em 0;
+    margin: 3em 0 5em 0;
     height: 275px;
 }
 
@@ -764,9 +764,13 @@ stats
     display: none;
 }
 
+.chart-stat-container > p {
+    margin-top: 8px;
+}
+
 .chart-stat-container .stat-chart {
-    float: left;
-    height: 275px; width: calc(100% - 275px);
+    box-shadow: 0px 0px 10px #ecf0f1;
+    height: 100%;
 }
 
 .plain-stat-container {

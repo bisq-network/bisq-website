@@ -6,11 +6,19 @@ links:
 - title: Bisq DAO
   url: /dao/
 
-- title: Community
-  url: /community/
+- title: Statistics
+  url: /stats/
 
 - title: FAQ
   url: /faq/
+
+- title: Markets
+  url: /markets/
+
+mobile_links:
+
+- title: Community
+  url: /community/
 
 - title: Blog
   url: /blog/
@@ -18,6 +26,3 @@ links:
 - title: Documentation
   url: https://docs.bisq.network/
   target: _blank
-
-- title: Markets
-  url: /markets/

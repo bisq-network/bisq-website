@@ -18,11 +18,46 @@
           </li>
         {% endfor %}
 
+        {% for item in site.data.main_nav.mobile_links %}
+          <li class="downloads-mobile nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
+            {% if item.target == "_blank" %}
+              <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
+            {% else %}
+              <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+
 
 
 
           <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
               <a class="nav-link" href="{{ site.url }}/downloads">Downloads</a>
+          </li>
+
+          <li class="downloads-desktop more-info-desktop nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Learn More
+            </a>
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="https://docs.bisq.network/" target='_blank'>Documentation</a>
+                </div>
+              </div>
+
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="{{ site.url }}/blog/">Blog</a>
+                </div>
+              </div>
+
+              <div class="dropdown-item btn-icon">
+                <div class="float-right">
+                  <a href="{{ site.url }}/community/">Community</a>
+                </div>
+              </div>
+            </div>
           </li>
 
 

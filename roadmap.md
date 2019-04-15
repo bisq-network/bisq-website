@@ -20,12 +20,29 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 {: .mt-5 .mb-2}
  - New trade protocol
 
-##### Version 1.0
- {: .mt-5 .mb-2}
-  - Bisq DAO
-
 ## Releases
 {: .mt-5 .pt-5}
+
+##### Version 1.0
+ {: .mt-5 .mb-2}
+Released [April 15th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.0.0)
+
+This is probably the most important release since the launch of Bisq as it includes the **Bisq DAO for Mainnet**!
+- Bisq’s trading network was already decentralized. With the Bisq DAO, Bisq’s leadership is now decentralized too, making Bisq exceptionally resistant to censorship.
+- Trade BSQ (colored bitcoin) to participate in Bisq governance. You can buy and sell BSQ just like any other asset on Bisq.
+- Get a 90% discount on trading fees when you use BSQ. Save money and support the project at the same time!
+
+###### Bisq DAO
+- [Add genesis transaction and changes required for v1.0.0](https://github.com/bisq-network/bisq/pull/2648)
+- [Improve handling of DAO state conflicts](https://github.com/bisq-network/bisq/pull/2674)
+- Add DAO launch popup [1](https://github.com/bisq-network/bisq/pull/2688), [2](https://github.com/bisq-network/bisq/pull/2689), [3](https://github.com/bisq-network/bisq/pull/2696), [3](https://github.com/bisq-network/bisq/pull/2701), [4](https://github.com/bisq-network/bisq/pull/2703)
+- [Add missing check to prevent re-selection of proposal](https://github.com/bisq-network/bisq/pull/2700)
+
+###### UI
+- [Update list of removed assets](https://github.com/bisq-network/bisq/pull/2680)
+- [Left align hyperlinks](https://github.com/bisq-network/bisq/pull/2690)
+- [Remove non-core languages (ro, hu, sr)](https://github.com/bisq-network/bisq/pull/2697)
+- [Prevent text overlapping in popups](https://github.com/bisq-network/bisq/pull/2699)
 
 ##### Version 0.9.8
 {: .mt-5 .mb-2}

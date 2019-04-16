@@ -23,6 +23,14 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.0.1
+{: .mt-5 .mb-2}
+Released [April 16th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.0.1)
+
+This is a hotfix release mainly covering following two issues:
+- [Rebroadcast new blocks at lite nodes to improve DAO synchronization](https://github.com/bisq-network/bisq/pull/2719)
+- [Fix wrong calculation of percentage based security deposit in edit offer screen](https://github.com/bisq-network/bisq/pull/2723)
+
 ##### Version 1.0
  {: .mt-5 .mb-2}
 Released [April 15th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.0.0)

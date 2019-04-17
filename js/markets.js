@@ -110,9 +110,9 @@ function getTrades( pair ) {
                 $( '<tr>' ).append(
                     $( '<td>' ).html( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + buildTicker( val.market ) ),
-                    $( '<td>' ).text( roundToSigFigs( val.price ) + ( val.payment_method === 'BLOCK_CHAINS' ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
-                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
-                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) + ' ' + buildTicker( val.market ) )
+                    $( '<td>' ).text( roundToSigFigs( val.price ) + ( val.payment_method.startsWith('BLOCK_CHAINS') ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
+                    $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
+                    $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) + ' ' + buildTicker( val.market ) )
 
                 ).appendTo( '#trade-history-body' );
 
@@ -155,8 +155,8 @@ function getTrades( pair ) {
                     $( '<td>' ).text( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + actionTicker ),
                     $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
-                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
-                    $( '<td>' ).text( ( val.payment_method === 'BLOCK_CHAINS' ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) )
+                    $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
+                    $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) )
                 ).appendTo('#trade-history-body' );
 
             });

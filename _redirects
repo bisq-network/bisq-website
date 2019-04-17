@@ -44,9 +44,6 @@ https://bisq.io https://bisq.network 301
 # Overview about Bisq and the DAO (written by Chris), superseded by phase zero doc. Keep it for archive
 /docs/dao/overview https://docs.bisq.network/dao/overview.html 302
 
-# Explorer for BTC on DAO testnet
-/explorer/btc/dao_testnet/* http://bisq.ispol.sk/:splat 302
-
 
 /list-token https://bisq.network/list-asset 301
 /list-asset https://docs.bisq.network/exchange/howto/list-asset.html 302

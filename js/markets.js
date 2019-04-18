@@ -78,6 +78,22 @@ function roundToSigFigs( num ) {
     }
 }
 
+//get btc price
+function getAssetBTCPrice( price, ticker ) {
+
+    var assetBTCPrice = parseFloat( price );
+    if( ticker.startsWith( 'btc' ) ) {
+        return assetBTCPrice.toFixed(2);
+    } else {
+        if( assetBTCPrice < 1 ) {
+            return assetBTCPrice.toFixed(8);
+        } else {
+            return assetBTCPrice.toFixed(2);
+        }
+    }
+
+}
+
 
 //fill past trades table
 function getTrades( pair ) {
@@ -110,10 +126,9 @@ function getTrades( pair ) {
                 $( '<tr>' ).append(
                     $( '<td>' ).html( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + buildTicker( val.market ) ),
-                    $( '<td>' ).text( roundToSigFigs( val.price ) + ( val.payment_method.startsWith('BLOCK_CHAINS') ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
+                    $( '<td>' ).text( getAssetBTCPrice( val.price, val.market ) + ( val.payment_method.startsWith('BLOCK_CHAINS') ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) + ' ' + buildTicker( val.market ) )
-
                 ).appendTo( '#trade-history-body' );
 
             });
@@ -296,6 +311,7 @@ function buildData( jsonUrl ){
                 rangeSelectorZoom: ''
             }
         });
+
         // create the chart
         Highcharts.stockChart( 'container', {
 

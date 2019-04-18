@@ -197,32 +197,32 @@ function getOffers( pair ){
         if( pair.startsWith( "btc" ) ) {
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'Offer Amount (BTC)' ),
-                $( '<th>' ).text( 'Offer Price (' + ( buildTicker( pair ) + ')' ) ),
+                $( '<th>' ).text( 'Amount (BTC)' ),
+                $( '<th>' ).text( 'Amount (' + ( buildTicker( pair ) + ')' ) ),
             ).appendTo('#buy-offers-header');
 
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'Offer Amount (BTC)' ),
-                $( '<th>' ).text( 'Offer Price (' + ( buildTicker( pair ) + ')' ) ),
+                $( '<th>' ).text( 'Amount (BTC)' ),
+                $( '<th>' ).text( 'Amount (' + ( buildTicker( pair ) + ')' ) ),
             ).appendTo( '#sell-offers-header' );
         } else {
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'Offer Amount (' + buildTicker( pair ) + ')' ),
-                $( '<th>' ).text( 'Offer Price (BTC)' ),
+                $( '<th>' ).text( 'Amount (' + buildTicker( pair ) + ')' ),
+                $( '<th>' ).text( 'Amount (BTC)' ),
             ).appendTo('#buy-offers-header');
 
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'Offer Amount (' + buildTicker( pair ) + ')' ),
-                $( '<th>' ).text( 'Offer Price (BTC)' ),
+                $( '<th>' ).text( 'Amount (' + buildTicker( pair ) + ')' ),
+                $( '<th>' ).text( 'Amount (BTC)' ),
             ).appendTo( '#sell-offers-header' );
         }
 
         $.each( data[pair].buys, function( key, val ) {
             $( '<tr>' ).append(
-                $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                $( '<td>' ).text( pair.startsWith( "btc" ) ? parseFloat( val.price ).toFixed(2) : parseFloat( val.price ).toFixed(8) ),
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.amount ) ) ),
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.volume ) ) ),
             ).appendTo('#buy-offers-body');
@@ -230,7 +230,7 @@ function getOffers( pair ){
 
         $.each( data[pair].sells, function( key, val ) {
             $( '<tr>' ).append(
-                $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                $( '<td>' ).text( pair.startsWith( "btc" ) ? parseFloat( val.price ).toFixed(2) : parseFloat( val.price ).toFixed(8) ),
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.amount ) ) ),
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.volume ) ) ),
             ).appendTo( '#sell-offers-body' );

@@ -537,7 +537,7 @@ function buildData( jsonUrl ){
                           return '<tr style="color: ' + this.series.color + '" ><td>' + this.series.name + ': </td><td style="text-align: right"> <b>' + Highcharts.numberFormat(this.y, 2, '.', ',') + ( pair.startsWith('btc') ? ' ' + buildTicker(pair) : ' BTC' ) + '</b></td></tr>';
                       }
                   },
-                  data: ( pair.startsWith('btc') ? volumeFiat: volume ),
+                  data: ( pair === 'btc' ? volume : ( pair.startsWith('btc') ? volumeFiat : volume ) ),
                   color: '#bbb',
                   states: { hover: { color: '#aaa', duration: 0 } },
                   yAxis: 1,

@@ -254,6 +254,10 @@ function getOffers( pair ){
 function buildData( jsonUrl ){
 
     var jsonUrl = "";
+    var seriesTitle1 = 'Price';
+    var avg = [];
+    var volume = [];
+    var volumeFiat = [];
 
     if( !pair || pair === 'all' ) {
 
@@ -272,11 +276,8 @@ function buildData( jsonUrl ){
     $.getJSON( jsonUrl, function( data ) {
 
         //split the data set into hloc and volume
-        var seriesTitle1 = 'Price';
-        var dataLength = data.length;
-        var avg = []; var volume = [];
 
-        for( var i = 0; i < dataLength; i += 1 ) {
+        for( var i = 0; i < data.length; i += 1 ) {
 
             if( pair === 'btc' ) {
 
@@ -293,25 +294,32 @@ function buildData( jsonUrl ){
                 seriesTitle1 = '# of trades';
 
             } else {
+
                 if( pair.startsWith( "btc" ) ) {
                   avg.push([
                       data[i][0] * 1000, // the date
                       data[i][7]  // the average
                   ]);
+
+                  volumeFiat.push([
+                      data[i][0] * 1000, // the date
+                      data[i][6]  // the volume_left
+                  ]);
+
                 } else {
+
                   avg.push([
                       data[i][0] * 1000, // the date
-                      ( 1 / data[i][7] )  // the average
+                      ( data[i][7] )  // the average
                     ]);
                   }
+
                   volume.push([
                       data[i][0] * 1000, // the date
                       data[i][6]  // the volume_right
                   ]);
               }
         }
-
-
 
         Highcharts.setOptions({
             lang: {
@@ -385,7 +393,7 @@ function buildData( jsonUrl ){
             },
 
             title: {
-                text: buildChartTitle(data[dataLength-1][7], pair),
+                text: buildChartTitle(data[data.length-1][7], pair),
                 align: 'left',
                 x:20,
                 y:30,
@@ -439,7 +447,7 @@ function buildData( jsonUrl ){
                     {
                         labels: {
                             y: -5,
-                            x: -48,
+                            x: -58,
                             //align: 'left',
                             //x: -140,
                             //enabled: false,
@@ -498,11 +506,10 @@ function buildData( jsonUrl ){
             series: [
 
               {
-                  type: 'area',
                   type: 'line',
                   name: seriesTitle1,
                   tooltip: {
-                      pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>' + ( pair === 'btc' ? '{point.y:.0f}' : '{point.y:.2f}' ) + '</b></td></tr>',
+                      pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>' + ( pair === 'btc' ? '{point.y:.0f}' : ( pair.startsWith('btc') ? '{point.y:.2f}' : '{point.y:.8f}' ) ) + '</b></td></tr>',
                   },
                   data: avg,
                   yAxis: 1,
@@ -527,10 +534,10 @@ function buildData( jsonUrl ){
                   name: 'Volume',
                   tooltip: {
                       pointFormatter: function() {
-                          return '<tr style="color: ' + this.series.color + '" ><td>' + this.series.name + ': </td><td style="text-align: right"> <b>' + Highcharts.numberFormat(this.y, 2, '.', ',') + ' ' + buildTicker( pair ) + '</b></td></tr>';
+                          return '<tr style="color: ' + this.series.color + '" ><td>' + this.series.name + ': </td><td style="text-align: right"> <b>' + Highcharts.numberFormat(this.y, 2, '.', ',') + ( pair.startsWith('btc') ? ' ' + buildTicker(pair) : ' BTC' ) + '</b></td></tr>';
                       }
                   },
-                  data: volume,
+                  data: ( pair.startsWith('btc') ? volumeFiat: volume ),
                   color: '#bbb',
                   states: { hover: { color: '#aaa', duration: 0 } },
                   yAxis: 1,

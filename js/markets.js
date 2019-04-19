@@ -169,7 +169,7 @@ function getTrades( pair ) {
                 $( '<tr>' ).append(
                     $( '<td>' ).text( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + actionTicker ),
-                    $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                    $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ?  parseFloat( val.price ).toFixed(8) : roundToSigFigs( parseFloat( val.price ) ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) )
                 ).appendTo('#trade-history-body' );

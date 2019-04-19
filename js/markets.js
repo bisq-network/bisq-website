@@ -50,16 +50,23 @@ function buildTicker( pair ) {
 
 
 function buildChartTitle( valueFinal, pair ) {
+
+    var chartTitle = '';
+
     if( pair !== 'btc' ) {
-        var suffix = '';
-        suffix = ' <span class="currency-pair">' + buildTicker( pair ) + '</span>';
-        if( !pair.startsWith( "btc" ) ) {
-            valueFinal = Math.round( ( 1 / valueFinal ) * 100 ) / 100;
+
+        if( pair.startsWith( "btc" ) ) {
+            suffix = '<span class="currency-pair"> ' + buildTicker( pair ) + '</span>';
+            chartTitle = '<span class="btc-note">1 BTC</span>' + '<span class="price">' + valueFinal.toFixed(2) + '</span><span class="currency-pair"> ' + buildTicker( pair ) + '</span>';
+        } else {
+            chartTitle = '<span class="btc-note">1 ' + buildTicker( pair ) + '</span>' + '<span class="price">' + valueFinal.toFixed(8) + ' BTC</span>';
         }
-        return '<span class="btc-note">1 BTC</span>' + '<span class="price">' + roundToSigFigs( valueFinal ) + '</span>' + suffix;
+
     } else {
-        return '<span class="btc-note">Volume and</span>' + '<span class="price">Trades</span>';
+        chartTitle = '<span class="btc-note">Volume and</span>' + '<span class="price">Trades</span>';
     }
+
+    return chartTitle;
 }
 
 

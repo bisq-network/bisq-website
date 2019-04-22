@@ -5,6 +5,11 @@ $( document ).ready( function() {
         lang: {
             thousandsSep: ",",
             decimalPoint: '.'
+        },
+        chart: {
+            style: {
+                fontFamily: "'IBM Plex Sans', sans-serif"
+            }
         }
     });
 

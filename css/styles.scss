@@ -619,8 +619,8 @@ ol a {
 ol {
   list-style: none;
   counter-reset: li-counter;
-  display: flex;
-  flex-wrap: wrap;
+  display: initial;
+  flex-wrap: initial;
   margin: 1rem 0;
   padding: 0;
 }

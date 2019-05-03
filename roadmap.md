@@ -16,12 +16,51 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 
 ## Planned milestones
 {: .mt-5 .pt-5}
-##### Version 1.1
+##### Version 2.0
 {: .mt-5 .mb-2}
  - New trade protocol
 
 ## Releases
 {: .mt-5 .pt-5}
+
+##### Version 1.1.0
+{: .mt-5 .mb-2}
+Released [May 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.0)
+
+As there is hardly any scam risk for crypto-to-crypto trades, this release decreases the security deposit amount for these trades back to the pre-DAO state. Also with this release, the time to synchronize the Bisq DAO state should be reduced a lot, and there are many smaller bug fixes and improvements.
+
+Most importantly, this release also includes a temporary restriction that blocks accounts that were created recently to trade in certain markets where we had scammers. **Users running older clients (< 1.1.0) will be completely blocked from trading**, so it is critical that you update as soon as possible! The upcoming release 1.2.0 will include a more robust set of features that should make it nearly impossible to scam traders on Bisq anymore. 
+
+###### DAO
+- [Request blocks in case we have not received it](https://github.com/bisq-network/bisq/pull/2730)
+- [Add node address and capabilities to prevent timeout](https://github.com/bisq-network/bisq/pull/2732)
+- [Fix issues with DAO full mode in preferences](https://github.com/bisq-network/bisq/pull/2736)
+- [Count cycles correctly](https://github.com/bisq-network/bisq/pull/2757)
+
+###### UI
+- [Add UTF8 for getBytes calls](https://github.com/bisq-network/bisq/pull/2737)
+- [Use existing styling for developer alert message](https://github.com/bisq-network/bisq/pull/2746)
+- [Use same precision for all x-axis labels](https://github.com/bisq-network/bisq/pull/2763)
+
+###### Trading
+- [Add check for account age to apply restrictions](https://github.com/bisq-network/bisq/pull/2801)
+- [Improve ignore list](https://github.com/bisq-network/bisq/pull/2733)
+- [Improve handling of editing of offers with invalid security deposit](https://github.com/bisq-network/bisq/pull/2740)
+- [Use different security deposit for fiat-crypto and crypto-crypto trades](https://github.com/bisq-network/bisq/pull/2742)
+- [Add filter to trade history](https://github.com/bisq-network/bisq/pull/2752)
+- [Fix account age display of peer](https://github.com/bisq-network/bisq/pull/2753)
+- [Don't disable confirm buttons](https://github.com/bisq-network/bisq/pull/2764)
+
+###### Wallet
+- [Set p2shHeader to fix address validation issues](https://github.com/bisq-network/bisq/pull/2728)
+
+###### Development
+- [Remove BSQ filter for crypto currencies](https://github.com/bisq-network/bisq/pull/2734)
+- [Reflect pricenode operator change in ProvidersRepository](https://github.com/bisq-network/bisq/pull/2769)
+- [Update mobile notification relay node DEV_URL IP address](https://github.com/bisq-network/bisq/pull/2770)
+
+### Assets
+Added two new asset: List Trust Eth reOrigin (TEO) and ParsiCoin (PARS)
 
 ##### Version 1.0.1
 {: .mt-5 .mb-2}

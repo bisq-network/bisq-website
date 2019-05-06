@@ -23,6 +23,14 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.1.1
+{: .mt-5 .mb-2}
+Released [May 6th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.1)
+
+This is a hotfix release mainly covering following issue:
+- [Allow seller to take any offers](https://github.com/bisq-network/bisq/pull/2813)
+
+
 ##### Version 1.1.0
 {: .mt-5 .mb-2}
 Released [May 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.0)

@@ -50,16 +50,23 @@ function buildTicker( pair ) {
 
 
 function buildChartTitle( valueFinal, pair ) {
+
+    var chartTitle = '';
+
     if( pair !== 'btc' ) {
-        var suffix = '';
-        suffix = ' <span class="currency-pair">' + buildTicker( pair ) + '</span>';
-        if( !pair.startsWith( "btc" ) ) {
-            valueFinal = Math.round( ( 1 / valueFinal ) * 100 ) / 100;
+
+        if( pair.startsWith( "btc" ) ) {
+            suffix = '<span class="currency-pair"> ' + buildTicker( pair ) + '</span>';
+            chartTitle = '<span class="btc-note">1 BTC</span>' + '<span class="price">' + valueFinal.toFixed(2) + '</span><span class="currency-pair"> ' + buildTicker( pair ) + '</span>';
+        } else {
+            chartTitle = '<span class="btc-note">1 ' + buildTicker( pair ) + '</span>' + '<span class="price">' + valueFinal.toFixed(8) + ' BTC</span>';
         }
-        return '<span class="btc-note">1 BTC</span>' + '<span class="price">' + roundToSigFigs( valueFinal ) + '</span>' + suffix;
+
     } else {
-        return '<span class="btc-note">Volume and</span>' + '<span class="price">Trades</span>';
+        chartTitle = '<span class="btc-note">Volume and</span>' + '<span class="price">Trades</span>';
     }
+
+    return chartTitle;
 }
 
 
@@ -76,6 +83,22 @@ function roundToSigFigs( num ) {
         precision = Math.floor( Math.log10( num/.0001 ) ) - 1;
         return num.toPrecision( precision );
     }
+}
+
+//get btc price
+function getAssetBTCPrice( price, ticker ) {
+
+    var assetBTCPrice = parseFloat( price );
+    if( ticker.startsWith( 'btc' ) ) {
+        return assetBTCPrice.toFixed(2);
+    } else {
+        if( assetBTCPrice < 1 ) {
+            return assetBTCPrice.toFixed(8);
+        } else {
+            return assetBTCPrice.toFixed(2);
+        }
+    }
+
 }
 
 
@@ -110,10 +133,9 @@ function getTrades( pair ) {
                 $( '<tr>' ).append(
                     $( '<td>' ).html( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + buildTicker( val.market ) ),
-                    $( '<td>' ).text( roundToSigFigs( val.price ) + ( val.payment_method.startsWith('BLOCK_CHAINS') ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
+                    $( '<td>' ).text( getAssetBTCPrice( val.price, val.market ) + ( val.payment_method.startsWith('BLOCK_CHAINS') ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) + ' ' + buildTicker( val.market ) )
-
                 ).appendTo( '#trade-history-body' );
 
             });
@@ -154,7 +176,7 @@ function getTrades( pair ) {
                 $( '<tr>' ).append(
                     $( '<td>' ).text( tradeDate.format( dateFormat ) ),
                     $( '<td>' ).text( val.direction + ' ' + actionTicker ),
-                    $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                    $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ?  parseFloat( val.price ).toFixed(8) : roundToSigFigs( parseFloat( val.price ) ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) )
                 ).appendTo('#trade-history-body' );
@@ -182,32 +204,32 @@ function getOffers( pair ){
         if( pair.startsWith( "btc" ) ) {
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'Offer Amount (BTC)' ),
-                $( '<th>' ).text( 'Offer Price (' + ( buildTicker( pair ) + ')' ) ),
+                $( '<th>' ).text( 'Amount (BTC)' ),
+                $( '<th>' ).text( 'Amount (' + ( buildTicker( pair ) + ')' ) ),
             ).appendTo('#buy-offers-header');
 
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'Offer Amount (BTC)' ),
-                $( '<th>' ).text( 'Offer Price (' + ( buildTicker( pair ) + ')' ) ),
+                $( '<th>' ).text( 'Amount (BTC)' ),
+                $( '<th>' ).text( 'Amount (' + ( buildTicker( pair ) + ')' ) ),
             ).appendTo( '#sell-offers-header' );
         } else {
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'Offer Amount (' + buildTicker( pair ) + ')' ),
-                $( '<th>' ).text( 'Offer Price (BTC)' ),
+                $( '<th>' ).text( 'Amount (' + buildTicker( pair ) + ')' ),
+                $( '<th>' ).text( 'Amount (BTC)' ),
             ).appendTo('#buy-offers-header');
 
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Price' ),
-                $( '<th>' ).text( 'Offer Amount (' + buildTicker( pair ) + ')' ),
-                $( '<th>' ).text( 'Offer Price (BTC)' ),
+                $( '<th>' ).text( 'Amount (' + buildTicker( pair ) + ')' ),
+                $( '<th>' ).text( 'Amount (BTC)' ),
             ).appendTo( '#sell-offers-header' );
         }
 
         $.each( data[pair].buys, function( key, val ) {
             $( '<tr>' ).append(
-                $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                $( '<td>' ).text( pair.startsWith( "btc" ) ? parseFloat( val.price ).toFixed(2) : parseFloat( val.price ).toFixed(8) ),
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.amount ) ) ),
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.volume ) ) ),
             ).appendTo('#buy-offers-body');
@@ -215,7 +237,7 @@ function getOffers( pair ){
 
         $.each( data[pair].sells, function( key, val ) {
             $( '<tr>' ).append(
-                $( '<td>' ).text( roundToSigFigs( parseFloat( val.price ) ) ),
+                $( '<td>' ).text( pair.startsWith( "btc" ) ? parseFloat( val.price ).toFixed(2) : parseFloat( val.price ).toFixed(8) ),
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.amount ) ) ),
                 $( '<td>' ).text( roundToSigFigs( parseFloat( val.volume ) ) ),
             ).appendTo( '#sell-offers-body' );
@@ -232,6 +254,10 @@ function getOffers( pair ){
 function buildData( jsonUrl ){
 
     var jsonUrl = "";
+    var seriesTitle1 = 'Price';
+    var avg = [];
+    var volume = [];
+    var volumeFiat = [];
 
     if( !pair || pair === 'all' ) {
 
@@ -250,11 +276,8 @@ function buildData( jsonUrl ){
     $.getJSON( jsonUrl, function( data ) {
 
         //split the data set into hloc and volume
-        var seriesTitle1 = 'Price';
-        var dataLength = data.length;
-        var avg = []; var volume = [];
 
-        for( var i = 0; i < dataLength; i += 1 ) {
+        for( var i = 0; i < data.length; i += 1 ) {
 
             if( pair === 'btc' ) {
 
@@ -271,17 +294,26 @@ function buildData( jsonUrl ){
                 seriesTitle1 = '# of trades';
 
             } else {
+
                 if( pair.startsWith( "btc" ) ) {
                   avg.push([
                       data[i][0] * 1000, // the date
                       data[i][7]  // the average
                   ]);
+
+                  volumeFiat.push([
+                      data[i][0] * 1000, // the date
+                      data[i][6]  // the volume_left
+                  ]);
+
                 } else {
+
                   avg.push([
                       data[i][0] * 1000, // the date
-                      ( 1 / data[i][7] )  // the average
+                      ( data[i][7] )  // the average
                     ]);
                   }
+
                   volume.push([
                       data[i][0] * 1000, // the date
                       data[i][6]  // the volume_right
@@ -289,13 +321,12 @@ function buildData( jsonUrl ){
               }
         }
 
-
-
         Highcharts.setOptions({
             lang: {
                 rangeSelectorZoom: ''
             }
         });
+
         // create the chart
         Highcharts.stockChart( 'container', {
 
@@ -362,7 +393,7 @@ function buildData( jsonUrl ){
             },
 
             title: {
-                text: buildChartTitle(data[dataLength-1][7], pair),
+                text: buildChartTitle(data[data.length-1][7], pair),
                 align: 'left',
                 x:20,
                 y:30,
@@ -416,7 +447,7 @@ function buildData( jsonUrl ){
                     {
                         labels: {
                             y: -5,
-                            x: -48,
+                            x: -58,
                             //align: 'left',
                             //x: -140,
                             //enabled: false,
@@ -475,11 +506,10 @@ function buildData( jsonUrl ){
             series: [
 
               {
-                  type: 'area',
                   type: 'line',
                   name: seriesTitle1,
                   tooltip: {
-                      pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>' + ( pair === 'btc' ? '{point.y:.0f}' : '{point.y:.2f}' ) + '</b></td></tr>',
+                      pointFormat: '<tr style="color: {series.color}" ><td>{series.name}: </td>' + '<td style="text-align: right"> <b>' + ( pair === 'btc' ? '{point.y:.0f}' : ( pair.startsWith('btc') ? '{point.y:.2f}' : '{point.y:.8f}' ) ) + '</b></td></tr>',
                   },
                   data: avg,
                   yAxis: 1,
@@ -504,10 +534,10 @@ function buildData( jsonUrl ){
                   name: 'Volume',
                   tooltip: {
                       pointFormatter: function() {
-                          return '<tr style="color: ' + this.series.color + '" ><td>' + this.series.name + ': </td><td style="text-align: right"> <b>' + Highcharts.numberFormat(this.y, 2, '.', ',') + ' ' + buildTicker( pair ) + '</b></td></tr>';
+                          return '<tr style="color: ' + this.series.color + '" ><td>' + this.series.name + ': </td><td style="text-align: right"> <b>' + Highcharts.numberFormat(this.y, 2, '.', ',') + ( pair.startsWith('btc') ? ' ' + buildTicker(pair) : ' BTC' ) + '</b></td></tr>';
                       }
                   },
-                  data: volume,
+                  data: ( pair === 'btc' ? volume : ( pair.startsWith('btc') ? volumeFiat : volume ) ),
                   color: '#bbb',
                   states: { hover: { color: '#aaa', duration: 0 } },
                   yAxis: 1,

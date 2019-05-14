@@ -93,9 +93,14 @@ https://bisq.io https://bisq.network 301
 
 /survey https://goo.gl/forms/UcKr2D7WNYUZl3Cf1 302
 
-/proposals/:id https://github.com/bisq-network/proposals/issues/:id 302
-/compensation/:id https://github.com/bisq-network/compensation/issues/:id 302
+/dao-proposals/:id https://github.com/bisq-network/proposals/issues/:id 302
+/dao-proposals https://github.com/bisq-network/proposals/issues 302
+/dao-compensation/:id https://github.com/bisq-network/compensation/issues/:id 302
+/dao-compensation https://github.com/bisq-network/compensation/issues 302
 /roles/:id https://github.com/bisq-network/roles/issues/:id 302
+/roles https://github.com/bisq-network/roles/issues 302
+/dao-reimbursement/:id https://github.com/bisq-network/support/issues/:id 302
+/dao-reimbursement https://github.com/bisq-network/support/issues 302
 
 /downloads/archive/:version.zip https://github.com/bisq-network/bisq/archive/:version.zip 302
 /downloads/archive/:version.tar.gz https://github.com/bisq-network/bisq/archive/:version.tar.gz 302

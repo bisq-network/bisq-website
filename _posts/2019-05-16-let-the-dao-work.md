@@ -20,7 +20,7 @@ So this moment might be a good occasion to look back to what we have achieved an
 - Already more than 50% of Bisq traders are using BSQ after just a few weeks. So the DAO is not only working on the contributors' side but is also accepted by our traders.
 
 But there is more. Many interesting ideas and proposals are out and waiting for developers to set them into reality:
-- New [innovative]((https://github.com/bisq-network/proposals/issues/78)) [protection]((https://github.com/bisq-network/proposals/issues/79)) [tools]((https://github.com/bisq-network/proposals/issues/83)) against chargeback scam
+- New [innovative](https://github.com/bisq-network/proposals/issues/78) [protection](https://github.com/bisq-network/proposals/issues/79) [tools](https://github.com/bisq-network/proposals/issues/83) against chargeback scam
 - [New trade protocol](https://github.com/bisq-network/proposals/issues/52) based on direct communication and mediators instead of arbitrators
 - Ideas for an [off-chain](https://github.com/bisq-network/proposals/issues/32) [trade protocol](https://github.com/bisq-network/proposals/issues/76)
 - [Decentralised CFD](https://github.com/bisq-network/proposals/issues/85) for those who are primarily interested in speculative trading

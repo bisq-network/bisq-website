@@ -23,6 +23,30 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.1.2
+{: .mt-5 .mb-2}
+Released [June 3rd 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.2)
+
+This version fixes DAO synchronization issues with seed nodes on startup and also includes additional bug fixes and improvements.
+
+###### DAO
+- [Add missing dust check](https://github.com/bisq-network/bisq/pull/2827)
+- [Fix synchronization issue with seed nodes on startup](https://github.com/bisq-network/bisq/pull/2821)
+- [Fix DAO sync text after restore from seed](https://github.com/bisq-network/bisq/pull/2836)
+- [Fix confirm lockup transaction prompt showing incorrect estimated time](https://github.com/bisq-network/bisq/pull/2844)
+- [Fix peer handling for address display and signing](https://github.com/bisq-network/bisq/pull/2854)
+
+###### UI
+- [Fix linguistic issues in the English version](https://github.com/bisq-network/bisq/pull/2858)
+- [Fix issue with label width in contract window and add deposits in dispute summary](https://github.com/bisq-network/bisq/pull/2830)
+
+###### Trading
+- [Use minTakerFee when calculating taker fee](https://github.com/bisq-network/bisq/pull/2846)
+
+###### Privacy
+- [Fix useless use of IPv6 (Tails interop issue)](https://github.com/bisq-network/bisq/issues/2840)
+
+
 ##### Version 1.1.1
 {: .mt-5 .mb-2}
 Released [May 6th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.1)

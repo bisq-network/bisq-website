@@ -12,7 +12,7 @@ title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 
 <div class="row mb-sm-4 mb-md-0 col-sm-12 col-md-8">
 
-<p>Satoshi Nakamoto created Bitcoin to solve the problems of centralized payment systems, so it seems inconsistent for centralized Bitcoin exchanges to be the the primary way to acquire bitcoin. It often seems the dominance and vulnerability of centralized exchanges is the Achilles heel in the current Bitcoin ecosystem.</p>
+<p>Satoshi Nakamoto created Bitcoin to solve the problems of centralized payment systems, so it seems inconsistent for centralized Bitcoin exchanges to be the primary way to acquire bitcoin. It often seems the dominance and vulnerability of centralized exchanges is the Achilles heel in the current Bitcoin ecosystem.</p>
 
 <p>There is much talk about decentralization in the Bitcoin space, and various attempts at creating decentralized exchanges to address this weakness.</p>
 

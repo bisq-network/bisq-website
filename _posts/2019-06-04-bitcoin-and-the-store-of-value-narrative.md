@@ -2,9 +2,16 @@
 layout: post
 title: "Bitcoin and the Store of Value Narrative"
 author: Manuel Polavieja
-excerpt: "Since Bitcoin’s inception, there has been an endless debate about the explanation of its value. What backs Bitcoin? Does Bitcoin have intrinsic value? Why is Bitcoin demanded? To answer these questions, many Bitcoin advocates refer to the principles established by the Austrian School of Economics which concludes that Bitcoin’s main source of value is being a store of value.<br><br>"
+excerpt: "Manuel posits that Bitcoin's value cannot be explained with a store-of-value approach. <br><br>"
 ---
 
+<hr>
+
+_Manuel writes at juandemariana.org, is a perpetual student of monetary theory, and is a Bitcoin quasi-maximalist (he is almost there)._
+
+_If you'd like to contribute a post, please reach out on [Slack](https://bisq.network/slack-invite)!_
+
+<hr>
 
 Since Bitcoin’s inception, there has been an endless debate about the explanation of its value. What backs Bitcoin? Does Bitcoin have intrinsic value? Why is Bitcoin demanded? To answer these questions many Bitcoin advocates refer to the principles established by the Austrian School of Economics concluding that Bitcoin’s main source of value is being a store of value. I believe this conclusion is the result of the toxic block size debate by which both sides of the debate wrongly narrowed the concept of a medium of exchange to money (cash). 
 
@@ -20,10 +27,10 @@ I shall not spend much time rebutting the claim that Bitcoin’s source of value
 
 A popular [narrative amongst Bitcoin supporters](https://medium.com/@vijayboyapati/the-bullish-case-for-bitcoin-6ecc8bdecc1) that apply Szabo’s views claim that money **always** evolves through the following stages:
 
-**Collectible<br><br>
-Store of Value<br><br>
-Medium of exchange<br><br>
-Unit of account**
+1. Collectible<br><br>
+2. Store of Value<br><br>
+3. Medium of exchange<br><br>
+4. Unit of account
 
 In my view, the above narrative is scientifically inconsistent and as such, it could be easily utilized against Bitcoin by academia and governments to spread negative propaganda like accusing Bitcoin of being a reckless speculative bubble and that there is no scientific support of its value other than “It’s valuable because people value it”. It’s not that I fear too much that they can stop anything - I believe Bitcoin will thrive or not regardless of what haters and supporters claim - though, they might be able to slow down the adoption process a bit.
 
@@ -53,7 +60,7 @@ If something arises (bitcoin) that can fulfill the sole use case of a medium of 
 
 Mises had the following concern regarding new monetary goods that have no other use than a medium of exchange: (Human Action - Chapter 17 section 4 – “The determination of purchasing power of money”)
 
-	*“A value judgment is, with reference to money, only possible if it can be based on appraisement. The acceptance of a new kind of money presupposes that the thing in question already has previous exchange value on account of the services it can render directly to consumption or production. Neither a buyer nor a seller could judge the value of a monetary unit if he had no information about its exchange value--its purchasing power--in the immediate past.”*
+*"A value judgment is, with reference to money, only possible if it can be based on appraisement. The acceptance of a new kind of money presupposes that the thing in question already has previous exchange value on account of the services it can render directly to consumption or production. Neither a buyer nor a seller could judge the value of a monetary unit if he had no information about its exchange value--its purchasing power--in the immediate past.”*
 
 So, how is it that a completely new monetary good’s price is discovered? That is the least of the problems. The owner of Bitcoin might arbitrarily ask for a price and buyers can accept it or bid at a lower price until they agree on the same price. At that point, the first exchange takes place. In the beginning, the price might be totally erratic, but as more market participants are interested, demand and supply builds and the price stabilizes. This continuous auction process is indeed how prices of goods have always been discovered and it is nothing special for money nor anything new that Bitcoin brought. The fact that many other speculators join in later just for the “lambos” without caring about Bitcoin’s monetary utility is completely irrelevant in relation to Bitcoin’s primary source of value. A subject for another blog post is whether or not speculators and traders are beneficial for Bitcoin.
 

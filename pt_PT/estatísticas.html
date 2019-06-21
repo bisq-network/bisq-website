@@ -1,0 +1,52 @@
+---
+layout: page
+title: Network Stats &lsaquo; Bisq - The decentralized Bitcoin exchange
+ref: stats
+lang: pt_PT
+language: Português (PT)
+---
+
+<link href="{{ '/css/chosen.css' | relative_url }}" rel="stylesheet">
+
+<script defer src="{{ site.url }}/js/highstock.js"></script>
+<script defer src="{{ site.url }}/js/stats.js"></script>
+
+{% assign item = site.data[page.lang].stats %}
+<h1>{{ item.hNetworkStats }}</h1>
+
+<div class='chart-stat-container'>
+    <div class='stat-chart' id="volume-container"></div>
+    {{ item.pSeeMarkets }}
+</div>
+
+<div class='chart-stat-container'>
+    <div class='stat-chart' id="bsq-container"></div>
+    <p>{{ item.pBSQDistribution }}</p>
+</div>
+
+<div class='plain-stat-container'>
+    {{ item.pTotalTrades }}
+</div>
+
+<div class='plain-stat-container'>
+    {{ item.pDailyAverage }}
+</div>
+
+<div class='plain-stat-container'>
+    {{ item.pSoftwareDownloads }}
+</div>
+
+<div class='plain-stat-container'>
+    {{ item.pGithubContributors }}
+</div>
+
+<div class='plain-stat-container'>
+    {{ item.pTwitterFollowers }}
+</div>
+
+<div class='plain-stat-container'>
+    {{ item.pSlackUsers }}
+</div>
+
+<br>
+{{ item.pNetworkLoad }}

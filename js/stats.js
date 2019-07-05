@@ -26,7 +26,7 @@ $( document ).ready( function() {
               y: 15
           },
           subtitle: {
-              text: 'As of March 2019',
+              text: 'Aggregate trading activity on the network',
               align: 'left'
           },
           xAxis: {
@@ -129,7 +129,7 @@ $( document ).ready( function() {
             y: 15
         },
         subtitle: {
-            text: 'As of March 2019',
+            text: 'Total BSQ issued net of BSQ burned for fees',
             align: 'left'
         },
         xAxis: {

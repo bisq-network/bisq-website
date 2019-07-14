@@ -61,7 +61,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Add your national or crypto currency accounts.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Create new offer or take an existing one.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Follow the user interface to finalize the trade.</li>
   hJoin: Join the Community
   pJoin: >
-    <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="localhost:4001/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribute</a>. We’d love to <a href="localhost:4001/community/">hear from you</a>!</p> <p>Our <a href="localhost:4001/roadmap/">roadmap</a> provides an overview of high-level features and milestones on the way to Bisq v1.0.</p>
+    <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="https://bisq.network/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribute</a>. We’d love to <a href="https://bisq.network/community/">hear from you</a>!</p> <p>Our <a href="https://bisq.network/roadmap/">roadmap</a> provides an overview of high-level features and milestones on the way to Bisq v1.0.</p>
   liGithub: "@bisq-network on GitHub"
   liTwitter: "@bisq-network on Twitter"
   liYoutube: Bisq YouTube channel
@@ -307,7 +307,7 @@ markets:
 
 stats:
   hNetworkStats: Network Stats
-  pSeeMarkets: "<p>See <a href='localhost:4001/markets'>Markets page</a> for volume by currency.</p>"
+  pSeeMarkets: "<p>See <a href='https://bisq.network/markets'>Markets page</a> for volume by currency.</p>"
   pBSQDistribution: Mainnet BSQ distribution is slated for April 2019.
   pTotalTrades: >
     <p class='stat-label'>Total Trades</p>

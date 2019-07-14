@@ -1,25 +1,25 @@
-pt_PT:
+pt-PT:
   links:
 
     - title: Visão
-      url: /pt_PT/visão/
+      url: /pt-PT/vision/
 
     - title: OAD do Bisq
-      url: /pt_PT/oad/
+      url: /pt-PT/dao/
 
     - title: Estatísticas
-      url: /pt_PT/estatísticas/
+      url: /pt-PT/stats/
 
     - title: FAQ
-      url: /pt_PT/faq/
+      url: /pt-PT/faq/
 
     - title: Mercados
-      url: /pt_PT/mercados/
+      url: /pt-PT/markets/
 
   mobile_links:
 
     - title: Comunidade
-      url: /pt_PT/comunidade/
+      url: /pt-PT/community/
 
     - title: Blog
       url: /blog/

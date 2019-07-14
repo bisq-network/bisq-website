@@ -1,3 +1,11 @@
+0_urls_name:
+  community: comunidade
+  dao: oad
+  faq: faq
+  markets: mercados
+  stats: estatísticas
+  vision: visão
+
 footer:
   notificationApp: App de notificação móvel do Bisq
   siteYear: © 2019 Bisq
@@ -33,7 +41,7 @@ homepage_content:
   hDecentralized: Descentralizado
   pDecentralized: A negociação ocorre numa rede P2P global de usuários que executam o Bisq nas suas próprias máquinas.
   hSafe: Seguro
-  pSafe: Bisq nunca possui os seus fundos. Os depósitos de segurança e carteiras de negócio multi-assinatura promovem negociações seguras e bem-sucedidas.
+  pSafe: "Bisq nunca possui os seus fundos. Os depósitos de segurança e carteiras de negócio multi-assinatura promovem negociações seguras e bem-sucedidas."
   hPrivate: Privado
   pPrivate: "Ninguém, exceto parceiros de negociação trocam dados de identificação pessoal. Todos os dados pessoais são armazenados localmente."
   hSecure: Seguro e sempre Online
@@ -53,7 +61,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Adicionar a sua conta de moeda nacional ou criptomoedas.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Criar uma nova oferta ou aceitar uma existente.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Siga a interface do usuário para finalizar a negociação.</li>
   hJoin: Junte-se à Comunidade
   pJoin: >
-    <p>A Bisq está sempre procurando desenvolvedores altamente qualificados, designers e especialistas em segurança para se juntarem à nossa <a href="https://bisq.network/community/">comunidade</a>. Se está interssado em ajudar a melhorar o Bisq, há muitas maneiras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>. Adoraríamos <a href="https://bisq.network/community/">ouvir da sua parte</a>!</p> <p>O nosso <a href="https://bisq.network/roadmap/">roadmap</a> fornece uma visão geral de recursos de alto nível e marcos no caminho para o Bisq v1.0.</p>
+    <p>A Bisq está sempre procurando desenvolvedores altamente qualificados, designers e especialistas em segurança para se juntarem à nossa <a href="localhost:4001/community/">comunidade</a>. Se está interssado em ajudar a melhorar o Bisq, há muitas maneiras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.  Adoraríamos <a href="localhost:4001/community/">ouvir da sua parte</a>!</p><p>O nosso <a href="localhost:4001/roadmap/">roadmap</a> fornece uma visão geral de recursos de alto nível e marcos no caminho para o Bisq v1.0.</p>
   liGithub: "@bisq-network no GitHub"
   liTwitter: "@bisq_network no Twitter"
   liYoutube: Canal Youtube do Bisq
@@ -68,7 +76,6 @@ main_nav:
   liLearnMore: Aprender Mais
   liDocumentation: Documentação
   liBlog: Blog
-  aCommunity: comunidade
   liCommunity: Comunidade
   buttonDownloads: Downloads
 
@@ -219,13 +226,9 @@ faq:
     </ul>
   hTradeCost: "Quanto custa para fazer trocas no Bisq?"
   pTradeCost: >
-    <p>Para negociar no Bisq, os utilizadores pagam (1) taxas de negociação para o Bisq e (2) taxas de mineração para mineradores.</p>
+    <p>Para negociar no Bisq, os usuários pagam (1) taxas de negociação para o Bisq e (2) taxas de mineração para mineradores.</p><strong>Taxas de negociação</strong> <p>Os criadores de ofertas pagam 0,1% da quantia de negociação e os aceitadores da oferta pagam 0,3% da quantia de negociação. O mínimo em ambos os casos é 0,00005 BTC para evitar limites de poeira.</p>
 
-    <strong>Taxas de negociação</strong> <p>Os criadores de ofertas pagam 0,1% da quantia de negócio e os aceitadores da oferta pagam 0,3% da quantia de negócio. O mínimo em ambos os casos é 0,00005 BTC para evitar limites de poeira. As taxas pagas com BSQ podem ser 90% mais baratas.</p>
-
-    <strong>Taxas de mineração</strong> <p>Um criador de ofertas só paga taxas de mineração para a transação de taxas de negócio. Um aceitador de oferta paga taxas de mineração para a transação de taxa de negócio, transação de depósito e transação de pagamento. Isso porque as taxas de mineração flutuam e é impossível para o criador da oferta saber quais taxas de mineração serão pagas no momento em que a oferta for aceite.</p>
-
-    <p>O Bisq usa <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">este serviço</a> para estimar as taxas. Os utilizadores podem ver as taxas reais de mineração depois de criar ou aceitar uma oferta.</p>
+    <strong>Taxas de mineração</strong> <p>Um criador de ofertas só paga taxas de mineração para a transação de taxas de negociação. Um aceitador de oferta paga taxas de mineração para a transação de taxa de negociação, transação de depósito e transação de pagamento. Isso porque as taxas de mineração flutuam e é impossível para o criador da oferta saber quais taxas de mineração serão pagas no momento em que a oferta for aceite.</p><p>O Bisq usa <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">este serviço</a> para estimar as taxas. Os utilizadores podem ver as taxas reais de mineração depois de criar ou aceitar uma oferta.</p>
   hOpenOffer: "Por que é que preciso manter o meu programa online quando tenho uma oferta aberta?"
   pOpenOffer: >
     <p>Se você publicou uma oferta, o seu programa Bisq precisa ficar online para que ele possa reagir quando um outro negociante quiser aceitar sua oferta (a transação de depósito de multi-assinatura é criada no processo aceitação da oferta). Certifique-se de ter desativado o modo de espera do seu computador para que o seu programa Bisq possa permanecer online (o modo de espera do monitor não é um problema).</p> <p>Se o seu programa Bisq ficar offline, a sua oferta será removida do livro de ofertas distribuído. Ela será publicada novamente na próxima vez que você iniciar o seu programa Bisq.</p> <p>Após uma oferta ter sido aceite e o processo de troca ter iniciado, nenhum dos negociantes precisa estar online continuamente, mas cada negociante precisará estar online periodicamente para verificar se alguma ação é necessária do seu lado (por exemplo, enviando moeda fiduciária/altcoin, confirmar a receção de pagamento, etc).</p>
@@ -311,18 +314,18 @@ markets:
 
 stats:
   hNetworkStats: Estatisticas da Rede
-  pSeeMarkets: "<p>Confira a <a href='https://bisq.network/markets'>página de Mercados</a> para ver volume por moeda.</p>"
+  pSeeMarkets: "<p>Confira a <a href='localhost:4001/markets'>página de Mercados</a> para ver volume por moeda.</p>"
   pBSQDistribution: A distribuição de BSQ na Mainnet está prevista para Abril 2019
   pTotalTrades: >
-    <p class='stat-label'>Todos os Negócios</p> <p class='stat-figure'>25,585</p> <p class='stat-note'>Durante Março 2019</p>
+    <p class='stat-label'>Todos os Negócios</p> <p class='stat-figure'>32,318</p> <p class='stat-note'>Durante Junho 2019</p>
   pDailyAverage: >
-    <p class='stat-label'>Média de negócios por dia</p> <p class='stat-figure'>52</p> <p class='stat-note'>Durante Março 2019</p>
+    <p class='stat-label'>Média de negócios por dia</p> <p class='stat-figure'>94</p> <p class='stat-note'>Durante Junho 2019</p>
   pSoftwareDownloads: >
-    <p class='stat-label'>Downloads do Software</p> <p class='stat-figure'>9,286</p> <p class='stat-note'>Para v0.9.5 (aproximativa)</p>
+    <p class='stat-label'>Downloads do Software</p> <p class='stat-figure'>13,723</p> <p class='stat-note'>Para v1.1.2 (aproximativa)</p>
   pGithubContributors: >
-    <p class='stat-label'>Contribuintes no Github</p> <p class='stat-figure'>164</p> <p class='stat-note'>Em Março 2019</p>
+    <p class='stat-label'>Contribuintes no GitHub</p> <p class='stat-figure'>172</p> <p class='stat-note'>Em Junho 2019</p>
   pTwitterFollowers: >
-    <p class='stat-label'>Seguidores no Twitter</p> <p class='stat-figure'>16,908</p> <p class='stat-note'>Em Março 2019</p>
+    <p class='stat-label'>Seguidores no Twitter</p> <p class='stat-figure'>17,588</p> <p class='stat-note'>Em Junho  2019</p>
   pSlackUsers: >
-    <p class='stat-label'>Utilizadores do Slack</p> <p class='stat-figure'>1,050</p> <p class='stat-note'>Em Março 2019</p>
+    <p class='stat-label'>Utilizadores do Slack </p> <p class='stat-figure'>1,183</p> <p class='stat-note'>Em Junho  2019</p>
   pNetworkLoad: "<p class='monitor-note'>Para a carga da rede P2P, métricas do Tor, e outros dados da rede, por favor visite o <a href='https://monitor.bisq.network' target='_blank'>Monitor da Rede do Bisq</a>.</p>"

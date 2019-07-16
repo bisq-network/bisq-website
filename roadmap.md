@@ -29,7 +29,7 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 
 ##### Version 1.1.3
 {: .mt-5 .mb-2}
-Released [July 15th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.3)
+Released [July 16th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.3)
 
 This is a bug fix and network improvement release. You'll see faster startup and synchronization times and it includes lots of smaller bug fixes and improvements as well.
 

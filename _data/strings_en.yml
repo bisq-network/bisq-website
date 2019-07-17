@@ -1,0 +1,336 @@
+0_urls_name:
+  community: community
+  dao: dao
+  faq: faq
+  markets: markets
+  stats: stats
+  vision: vision
+
+footer:
+  notificationApp: Bisq mobile notification App
+  siteYear: © 2019 Bisq
+  ulResources: Resources
+  liDownloads: Downloads
+  liRoadmap: Roadmap
+  liContribute: Contribute
+  liMarketData: Market Data API
+  joinBisq: Join Bisq
+
+homepage_content:
+  title: "<span class=\"animate1\">Exchange,</span> <span class=\"animate2\">Decentralized.</span>"
+  intro: "Bisq is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies in exchange for national currencies. No registration required."
+  buttonWindows: Download for windows
+  buttonMac: Download for Mac
+  buttonDebian: Download for Debian/ubuntu
+  buttonRedHat: Download for Red Hat/Fedora
+  buttonDownloads: Downloads
+  buttonGetBisq: Get Bisq
+  buttonToggle: Toggle Dropdown
+  downloads: Downloads
+  androidNotificationsApp: Get Android Notifications App
+  iosNotificationApp: Get iOS Notification app
+  getStarted: Get Started »
+  runningWindows: You appear to be running Windows.
+  runningMac: You appear to be using a Mac.
+  runnigDebian: You appear to be using Debian/Ubuntu.
+  runningRedHat: You appear to be using Red Hat/Fedora.
+  currentVersion: Current Version
+  hFeatures: Features
+  hIdentityVerifications: No Identity Verification
+  pIdentityVerifications: Instantly Accessible. No need for registration or approval from a central authority.
+  hDecentralized: Decentralized
+  pDecentralized: Trading takes place on a global P2P network of users running Bisq on their own machines.
+  hSafe: Safe
+  pSafe: "Bisq never holds your funds. Security deposits and multisig trade wallets encourage safe, successful trades."
+  hPrivate: private
+  pPrivate: No one except trading partners exchange personally identifying data. All personal data is stored locally.
+  hSecure: Secure and Always On
+  pSecure: End-to-end encrypted communication routed over Tor and no down time.
+  hOpen: Open
+  pOpen: "<p class=\"grey px-md-5\">Code is <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, and project strategy is discussed openly on <a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a> and <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  hEasy: Easy to Use
+  pEasy: "<p class=\"grey px-md-5\">We've made all this sophistication simple—<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">make your first trade</a> in under 10 minutes!</p>"
+  hBisqDao: The Bisq DAO
+  pBisqDao1: Decentralized governance for a decentralized exchange.
+  pBisqDao2: Learn more here
+  hGetStarted: How to Get Started
+  divGetStarted: "With Bisq, you can start trading in less than 10 minutes:"
+  liGetStarted1: Download the app
+  liGetStarted2: ", or build it from source."
+  liGetStarted3: >
+    <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Add your national or crypto currency accounts.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Create new offer or take an existing one.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Follow the user interface to finalize the trade.</li>
+  hJoin: Join the Community
+  pJoin: >
+    <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="https://bisq.network/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribute</a>. We’d love to <a href="https://bisq.network/community/">hear from you</a>!</p> <p>Our <a href="https://bisq.network/roadmap/">roadmap</a> provides an overview of high-level features and milestones on the way to Bisq v1.0.</p>
+  liGithub: "@bisq-network on GitHub"
+  liTwitter: "@bisq-network on Twitter"
+  liYoutube: Bisq YouTube channel
+  liSlack: Bisq Slack workspace
+  liForum: Bisq Forum
+  liMailingList: Bisq Contributor mailing list
+  liFreenodeIRC: "#bisq on Freenode IRC"
+  liSubreddit: r/Bisq Subreddit
+
+main_nav:
+  liDownloads: Downloads
+  liLearnMore: Learn More
+  liDocumentation: Documentation
+  liBlog: Blog
+  liCommunity: Community
+  buttonDownloads: Downloads
+
+os_selector_options:
+  liAllDownloads: All Downloads
+  liAllDownloadsText: Go to Downloads Page
+  liWindows: Download for windows
+  liMac: Download for Mac
+  liDebian: Download for Debian/ubuntu
+  liRedHat: Download for Red Hat/Fedora
+  liArch: Download for Arch Linux
+  liArchText: Arch User Repo
+  liSourceCode: Source Code
+  liReleaseNotes: Release Notes
+  liVerfication: Verfication
+  liVerficationText1: PGP signatures
+  liVerficationText2: PGP Public Key
+
+dao:
+  hLearnMore: "Want to learn more?"
+  pLearnMore: "You can learn more about the Bisq DAO from the resources below, from high-level ELI5-style docs and videos to the technical specification for developers."
+  conceptualOverview: Conceptual Overview Doc
+  pConceptualOverview: "<p class=\"bigger\">Plain-language <a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">description</a> of the DAO.</p>"
+  bisqDaoBrief: Bisq DAO in Brief Videos
+  pBisqDaoBrief: "<p class=\"bigger\">Quick, short <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">video series</a> on the Bisq DAO.</p>"
+  technicalOverview: Technical Overview - Doc
+  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">Specification</a> of the workings of the Bisq DAO and BSQ token.</p>"
+  notConvinced: "Not convinced a token is required?"
+  pNotConvinced: "<p class=\"bigger\">We’ve got a <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">post</a> just for you.</p>"
+  seeMore: >
+    <p>See more resources on our <a href='https://docs.bisq.network/dao.html'>All About the Bisq DAO</a> doc.</p> <p>Past contributors, check <a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>this link</a> for instructions on being added to the genesis BSQ distribution.</p>
+downloads:
+  hBisqDownloads: Bisq Downloads
+  runningWindows: You appear to be running Windows.
+  runningMac: You appear to be using a Mac.
+  runnigDebian: You appear to be using Debian/Ubuntu.
+  runningRedHat: You appear to be using Red Hat/Fedora.
+  tdWindows: Windows
+  tdMac: Mac
+  tdDebian: Debian/Ubuntu
+  tdRedHat: Red Hat/Fedora
+  tdArchLinux: Arch Linux
+  tdArchLinuxText: Arch User Repository
+  tdSourceCode: Source Code
+  tdReleaseNotes: Release Notes
+  tdReleaseNotesText: Release Notes for
+  tdVerification: Verification
+  tdVerificationText1: PGP signatures
+  tdVerificationText2: PGP Public Key
+  pSeeInstructions: "<p class=\"small\">See <a href=\"https://docs.bisq.network/getting-started.html\">Getting Started with Bisq</a> for instructions how to complete your first trade.</p>"
+  hMobileNotifications: Bisq Mobile Notifications
+  pMobileNotifications: Stay up-to-date on your trades and receive notifications on your mobile phone.
+  p2MobileNotifications: <p class="small mt-2">Bisq version <strong>0.8.0</strong> or higher is required to receive mobile notifications.</p>
+
+faq:
+  hFAQ: FAQ
+  hCoreFunctions: Core Functions
+  hSafeOpenSource: "Is Bisq safe and open-source?"
+  pSafeOpenSource: >
+    <p>Yes, Bisq's software is open-source and licensed under Version 3 of the GNU Affero General Public License. Here's the
+      <a href="https://github.com/bisq-network/bisq/" target="_blank">source code</a> and
+      <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">license</a>.</p>
+    <p>Bisq employs three primary mechanisms to achieve security:</p> <ol>
+      <li>All bitcoins traded with Bisq are secured in a 2-of-3
+        <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multisignature</a> address.</li>
+      <li>Both traders are required to pay security deposits. These are refunded after trades are completed.</li>
+      <li>Bisq uses an arbitrator system to handle trade disputes.</li>
+    </ol> <p>When trading fiat currency for bitcoin, there is always some chargeback risk, as fiat transactions can technically be reversed. To mitigate this risk, Bisq only supports payment methods which are known to make chargebacks difficult—this is why Bisq does not support PayPal and credit cards, for example.</p> <p>Read <a href="#chargeback-details">here</a> for more on chargeback risks.</p>
+  hDifferent: "There are already other decentralized exchanges. How is Bisq different?"
+  pDifferent: >
+    <p>Currently no other project fits our definition of a decentralized bitcoin-to-fiat exchange. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> is one project that comes close to mirroring Bisq's principles, but it's a general-purpose marketplace,not a specialized currency exchange.</p> <p>Most exchanges claiming to be decentralized either do not support fiat exchange, or operate with a client-server architecture and do not fit our definition. And of course there are a lot of ICO projects with whitepapers but they have not proven yet that they can deliver any working software.</p> <p>To be properly decentralized, one must avoid single points of failure:</p> <ul>
+      <li>Bisq does not hold any bitcoins. All are held in multisignature addresses rather than a Bisq-controlled wallet.</li>
+      <li>Bisq does not hold any national currency. National currency is transferred directly from one trader to the other.</li>
+      <li>Bisq uses a peer-to-peer network over Tor. This means there are no servers to be hacked or DDoS'd.</li>
+      <li>Bisq does not know traders. No data is stored on who trades with whom.</li>
+      <li>Bisq does not require registration. This means privacy is maintained, there are no “approval” wait times, and identity theft is impossible.</li>
+      <li>Bisq is not a company. It is an open-source project organized as a <a href="https://docs.bisq.network/user-dao-intro.html#what-is-a-dao" target="_blank" rel="noopener">Decentralized Autonomous Organization (DAO)</a>.
+      </li>
+    </ul>
+  hPaymentMethods: "Which payment methods are supported?"
+  ulPaymentMethods: >
+    <ul>
+      <li>Advanced Cash</li>
+      <li>AliPay</li>
+      <li>Cash Deposit</li>
+      <li>Chase QuickPay</li>
+      <li>Face to face (in person)</li>
+      <li>Faster Payments</li>
+      <li>HalCash</li>
+      <li>Interac e-Transfer</li>
+      <li>MoneyBeam (N26)</li>
+      <li>MoneyGram</li>
+      <li>National bank transfer</li>
+      <li>Perfect Money</li>
+      <li>Popmoney</li>
+      <li>PromptPay</li>
+      <li>Revolut</li>
+      <li>SEPA</li>
+      <li>SEPA Instant</li>
+      <li>Swish</li>
+      <li>Transfer with same bank</li>
+      <li>Transfer with specific banks</li>
+      <li>Uphold</li>
+      <li>US Postal Money Order</li>
+      <li>WeChat Pay</li>
+      <li>Western Union</li>
+      <li>Zelle (ClearXchange)</li>
+    </ul>
+  hTradingDetails: Trading Details
+  hTradeLimits: "What are the trade limits?"
+  pTradeLimits: >
+    <p class='font-italic'>Fiat trades</p> <p>To discourage fraud in fiat transactions, Bisq imposes limits on trade amounts. These limits are derived from the payment method's chargeback risk and the age of the account (i.e., the time since you entered the payment account in Bisq).</p> <p>There are no limits on the number of trades you can do—just the amount per trade.</p> <p>For most bank-based payment methods like SEPA or Zelle the trade limit is 0.5 BTC per trade. For services like Swish, PerfectMoney and AliPay it is 1 BTC. For recently-added payment methods like Revolut, Popmoney, and MoneyBeam (N26) the trade limit is 0.25 BTC.</p> <p>When you first add a fiat payment account to Bisq, its trade limit will be 25% of the full trade limit. It will then increase every 30 days until the full trade limit is reached.</p> <p class='font-italic'>Altcoin trades</p> <p>Altcoin trades up to 2 BTC are allowed from day one—altcoins do not have chargeback risk, so account aging is not needed.</p>
+  hSecurityDeposit: "Why does Bisq require a security deposit?"
+  pSecurityDeposit: >
+    <p>Security deposits create incentives for both buyer and seller to follow the rules of Bisq's trading protocol. They are locked into multisig escrow along with the bitcoin being traded, and are returned to each user when the trade completes successfully.</p> <p>If a trade goes to arbitration and one party is found to have violated Bisq's trading protocol, some or all of that party's security deposit may be awarded to the counterparty. Examples of protocol violations include a buyer failing to pay a seller, or a seller failing to acknowledge receipt of a buyer's payment.</p> <p>Most Bisq trades complete without any problem thanks in part to the incentives that security deposits create.</p>
+  hPrivacy: "How does Bisq protect my privacy?"
+  pPrivacy: >
+    <p>Bisq is standalone, open-source software that you can inspect before running on your machine, and as a result, you don't have to trust that any server is logging your personal details (as you would in the case of a website).</p> <p>As for the trading process, your payment information is stored locally on your machine, and only your trading partner (and your arbitrator, in case of a dispute) can ever see it. All data exchanged between users is encrypted and signed.</p> <p>To transmit data from one user to another, Bisq uses a P2P network built on top of Tor, which provides a high degree of anonymity. The user doesn't need to do any additional work for all of this to work—it is all integrated in the application.</p>
+  hTradeDuration: "How long does a trade take?"
+  pTradeDuration: >
+    <p>Your trade duration will be determined by the transfer times of the currencies you're using. National currency transfers can be instant (Faster Payment) or can take days (SEPA).</p> <p>Bitcoin transactions take about 10 minutes to confirm, and at least one confirmation is required before the buyer can send the fiat or altcoins.</p> <p>Here are the maximum trade periods allowed before a trade goes automatically into arbitration:</p> <strong>EURO</strong> <ul>
+      <li>SEPA: 6 days</li>
+      <li>SEPA Instant: 1 day</li>
+    </ul> <strong>UK</strong> <ul>
+      <li>Faster Payments: 1 day</li>
+    </ul> <strong>Sweden</strong> <ul>
+      <li>Swish: 1 day</li>
+    </ul> <strong>US</strong> <ul>
+      <li>Zelle (formerly known as clearXchange): 4 days</li>
+      <li>Chase QuickPay: 1 day</li>
+      <li>US Postal Money Order: 8 days</li>
+    </ul> <strong>Canada</strong> <ul>
+      <li>Interac e-Transfer: 1 day</li>
+    </ul> <strong>Global</strong> <ul>
+      <li>Cash Deposit: 4 days</li>
+      <li>Western Union: 4 days</li>
+      <li>National bank transfer: 4 days</li>
+      <li>Transfer with same bank: 2 days</li>
+      <li>Transfer with specific banks: 4 days</li>
+    </ul> <strong>Transnational</strong> <ul>
+      <li>Perfect Money: 1 day</li>
+    </ul> <strong>China</strong> <ul>
+      <li>Alipay: 1 day</li>
+    </ul> <strong>Altcoins</strong> <ul>
+      <li>Blockchains: 1 day</li>
+    </ul>
+  hTradeCost: "How much does it cost to trade on Bisq?"
+  pTradeCost: >
+    <p>To trade on Bisq, users pay (1) trading fees to Bisq and (2) mining fees to miners.</p> <strong>Trading fees</strong> <p>Offer makers pay 0.1% of the trade amount, and offer takers pay 0.3% of the trade amount. The minimum in both cases is 0.00005 BTC to avoid dust limits.</p>
+
+    <strong>Mining fees</strong> <p>An offer maker only pays mining fees for the trade fee transaction. An offer taker pays mining fees for the trade fee transaction, deposit transaction, and payout transaction. This is because mining fees fluctuate and it's impossible for the offer maker to know what mining fees will be at the time their offer is taken.</p> <p>Bisq uses <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">this service</a> to estimate fees. Users can see actual mining fees after they've created or taken an offer.</p>
+  hOpenOffer: "Why do I need to keep my application online when I have an open offer?"
+  pOpenOffer: >
+    <p>If you have published an offer, your Bisq application needs to stay online so it can react when another trader wants to take your offer (the multisig deposit transaction is created in the take-offer process). Be sure you have deactivated your computer's standby mode so your Bisq application can stay online (monitor standby is not a problem).</p> <p>If your Bisq application does go offline, your offer will get removed from the distributed offerbook. It will be re-published the next time you start your Bisq application.</p> <p>After an offer has been taken and the trade process has started, neither trader needs to be online continuously, but each trader will need to be online periodically to check if any action is needed on their side (e.g. sending fiat/altcoin, confirming payment receipt, etc).</p>
+  hEditOffer: "How can I edit my offer?"
+  pEditOffer: "<p><a href=\"https://github.com/bisq-network/bisq/releases/tag/v0.7.0\">Version 0.7.0</a> introduced offer editing in the Portfolio > My open offers section without paying additional fees.</p>"
+  hBank: "Will my bank know I'm buying bitcoins?"
+  pBank: >
+    <p>There have been reports that some banks have closed client accounts when they sense Bitcoin activity.</p> <p>The reference text (sometimes called "reason for payment" or similar) of the bank transfer used to trade with Bisq must always <span class='font-italic'>only</span> include the Bisq trade ID, which is a random sequence of characters, just like many other purchase IDs. Putting anything else as a "reason for payment" is considered a violation of the trade protocol and will result in a dispute.</p> <p>To avoid problems, we recommend setting up a dedicated bank account for buying and selling bitcoins. If the bank were to block this account, it would cause fewer problems for you than if the bank were to block your primary account.</p> <p>Never mention anything else other than the Bisq trade ID in the subject field.</p>
+  hDisputeRsolution: Dispute Resolution
+  hArbitrationProcess: "How does the arbitration process work?"
+  pArbitrationProcess: >
+    <p>On Bisq, arbitrators determine solutions to trade disputes. Arbitrators must pay a very high <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">BSQ bond</a>, which ensures fair evaluations and prevents collusion with traders.</p> <p>Arbitrators are chosen randomly for each trade.</p> <p>If trader A fails to confirm the receipt of a national currency transfer within the <a href='#trade-periods'>allotted time</a>, a button to contact the arbitrator will appear to both traders. Trader B can then submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if trader B never sent the national currency, trader A can submit evidence to the arbitrator that the funds were never received.</p> <p>Submitted evidence should be cryptographically secure using either <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be employed.</p> <p>In our experience the vast majority of disputes are not caused by malicious intention, but by minor problems like network issues, bugs, bank issues, usability, etc.</p> <p>Once the arbitrator has clarified the situation, they will sign the 2-of-3 multisignature address in favor of the appropriate party.</p>
+  hCollusion: "How is collusion between arbitrators and traders prevented?"
+  pCollusion: >
+    <p>As mentioned above, arbitrators must lock in a high <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">BSQ bond</a> to become arbitrators in the first place–much higher than the trade limit. If both traders disagree with an arbitrator's resolution, they can request confiscation of the arbitrators BSQ bond.</p> <p>If collusion is found to have taken place, the misbehaving arbitrator will lose their BSQ bond. This puts the arbitrator at a significant loss, as their BSQ bond was much more than they made by being dishonest.</p>
+  hChargeback: "What happens if the person buying bitcoin does a chargeback after the bitcoin has been released from the multisig address?"
+  pChargeback: >
+    <p>Bisq only supports payment methods for which chargebacks are not easy (e.g., this is why PayPal and credit cards are not supported). But there is still a little chargeback risk with banks. If a bank executes a chargeback after the BTC has been released, there is nothing an arbitrator can do.</p> <p>Bisq's goal is to make this scenario as unattractive as possible, using three primary mechanisms</a>:</p> <ol>
+      <li>There is a trade limit per trade, which is generally too small to attract criminals.</li>
+      <li>National currency payment methods which are found to be used for chargebacks are quickly removed.</li>
+      <li>With version 0.6.0, a new <a href="https://docs.bisq.network/payment-account-age-witness.html" target="_blank">account-aging feature</a> was added. This feature enables fiat accounts recently added to Bisq to have <a href='#trade-limits'>lower trade limits</a>, and those limits are increased over time. This adds protection against stolen-bank-account scams.</li>
+    </ol>
+  hReputationSystem: "Wouldn't a pure reputation system among traders make arbitrators unnecessary?"
+  pReputationSystem: >
+    <p>Pure reputation without the option of arbitration is a weak protection system, as you can never avoid <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> or <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> attacks.</p> <p>Such mechanisms are also problematic for protecting privacy and for keeping the service decentralized.</p>
+  hBeArbitrator: "Can I be an arbitrator?"
+  pBeArbitrator: "<p>The required <a href=\"https://docs.bisq.network/dao/phase-zero.html\" target=\"_blank\" rel=\"noopener\">BSQ bond</a> is very high and there are currently only very few people who have contributed enough to Bisq to have have earned so much BSQ.</p>"
+  hContactPeer: "Can I contact my trading peer?"
+  pContactPeer: >
+    <p>So far, Bisq has intentionally avoided offering a way to get in direct contact with the trading peer. There is generally no need for such a mechanism, and offering one would only open a 'can of worms' with respect to security: malicious users could trick peers into a direct trade without using Bisq, and then exploit the lack of security to rip the other person off, or use the direct channel for other fraudulent activities (social engineering scams, spam, etc).</p> <p>Instead, in case of any issues, users can open a dispute and resolve the issue with the help of an arbitrator. There is also the <a href='https://bisq.community' target='_blank'>Bisq forum</a> and <a href='https://bisq.network/slack-invite' target='_blank'>Slack channel</a> available for users to get help.</p> <p>Note: with the launch of the <a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>new trade protocol</a>, however, there will be a means for peers to directly communicate with one another.</p>
+  hBisqDAO: The Bisq DAO
+  hBisqDaoWhat: "What is the Bisq DAO?"
+  pBisqDaoWhat: >
+    <p>The Bisq DAO (decentralized autonomous organization) is a decentralized governance mechanism for the Bisq software. It takes the place of a company. How good can decentralized software possibly be if it's still controlled by a single entity, like a company?</p> <p>Decentralized software is no good without decentralized governance.</p> <p>That's why Bisq is not a company or legal entity of any kind—instead, it's organized as a DAO. The DAO handles the software's funding and strategy-making to enable the Bisq network to thrive, and at the same time, harden it against attacks on the infrastructure that powers its leadership and operation.</p> <p>In a nutshell, the Bisq DAO enables Bisq to become even more censorship-resistant, a <a href='https://docs.bisq.network/intro.html' target='_blank'>core principle of the project</a> from the very beginning.</p> <p>Read more about the Bisq DAO in <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>this introductory doc</a>.</p>
+  hBisqDaoHow: "How does the Bisq DAO work?"
+  pBisqDaoHow: >
+    <p>The primary purposes of the Bisq DAO are financing the project and determining strategy.</p> <ul>
+        <li>Trading fees are distributed directly from traders to contributors with a token (colored bitcoin) called BSQ.</li>
+        <li>Strategy is determined collectively through voting done in the Bisq software and recorded on the Bitcoin network.</li>
+    </ul> <p>Learn more about how this actually works in <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>this series of short 3-5 minute videos</a>.</p>
+  hNeedToKnow: "What do I need to know about the DAO, as a trader?"
+  pNeedToKnow: >
+    <p>Since the Bisq DAO is a governance mechanism, it doesn't affect the day-to-day usage of the software very much.</p> <p>One thing you should be aware of is what the BSQ token actually does. Practically speaking, you'll pay lower trading fees by using BSQ instead of BTC.</p> <p>But why have the BSQ token at all? Because it enables Bisq contributors to be paid for their work without any central wallets or points of control. When you buy BSQ, you're directly paying a Bisq contributor for their work, and in the process, helping to sustain the whole project. The dynamic this token enables is <a href='https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/'>not possible with plain bitcoin</a>.</p> <p>When you use BSQ to pay trading fees, it's destroyed and 'burned' out of existence.</p> <p>See more about how this process works in <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>this doc</a> or in <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>this video series</a>.</p>
+  hUseBSQ: "Can I use Bisq without BSQ and without this DAO?"
+  pUseBSQ: >
+    <p>You could. All you'd have to do is pay your trading fees with BTC instead of BSQ. But we hope you don't, because doing so would render the project unsustainable.</p> <p>Before the Bisq DAO, trading fees went to just a couple of wallets owned by specific Bisq contributors (arbitrators). All other contributors were not paid. Bisq needs its contributors to be paid in regular, predictable ways to ensure continual (and reliable) development, service, and growth; the Bisq DAO enables this to happen by distributing trading fees to all contributors in a totally decentralized way.</p> <p>The Bisq DAO and BSQ token enable a funding and governance mechanism that is <a href='https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/'>not possible with plain bitcoin</a>. We highly recommend you check <a href='https://docs.bisq.network/dao.html' target='_blank'>our documentation</a> and <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>video series</a> to learn more.</p>
+  hBisqToken: "Is Bisq doing a token because it needs money? What's the issuance schedule for the token?"
+  pBisqToken: >
+    <p>Bisq already earns revenue from trading fees. It's not launching this DAO and BSQ token for <span class='font-italic'>earning</span> revenue—it's doing it to <span class='font-italic'>distribute</span> the revenue it already earns to more people without any central points of control.</p> <p>BSQ tokens are issued every time a contributor's compensation request is approved through voting, and the tokens are destroyed every time a trader uses BSQ to pay trading fees.</p> <p>BSQ issuance is not a 1-time event, and its purpose is not to raise capital. You can see a walk-through of the BSQ issuance process in <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>this video series</a>.</p>
+  hMiscellaneous: Miscellaneous
+  hNoBitcoins: "If I don’t have any bitcoin, how can I obtain some to pay the security deposit and mining fees for my first trade?"
+  pNoBitcoins: >
+    <p>Bitcoin security deposits are necessary to protect Bisq traders from fraud and abuse.</p> <p>Security deposits are set to be a percentage of the trade amount—2% by default—but they can be adjusted by the offer maker.</p>
+
+    <p>We realize this requirement may be a barrier for bitcoin beginners, but there are plenty of ways to get your first bitcoin: friends and family, Bitcoin meetups, Bitcoin ATMs, vouchers, work for it, etc.</p>
+  hPaymentSupport: "Does Bisq support ‘XYZ’ payments?"
+  pPaymentSupport: >
+    <p>Bisq already supports a wide range of payment methods for national currencies, but new ones may be added as long as:</p> <ul>
+      <li>chargebacks are unlikely</li>
+      <li>arbitrators can view evidence of the transaction</li>
+    </ul> <p>National bank transfers are supported in every country.</p> <p>You can suggest a new payment method on the <a href='https://bisq.community' target='_blank'>forum</a>, <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>, or <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
+  hSoftwareBugs: "What happens in case of software bugs?"
+  pSoftwareBugs: >
+    <p>If the Bisq application recognizes that you're having a software problem, it will display a “support ticket” button. Your arbitrator will forward your bug report to the developers, who will begin an investigation of the problem. You may be asked
+      for the log file to assist in the process.
+    </p> <p>If the button does not appear, you can open a support ticket by hitting Cmd+o (or Ctrl+o, depending on your system) when the trade is selected in the Portfolio > Open Trades list.</p>
+  hMultisg: "What is a Bitcoin ‘multisignature address’?"
+  pMultisig: >
+    <p>“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multisig</a>”, as it's called, is built into Bitcoin as a simple version of a smart contract. A multisig address is generated with multiple public keys and a specification of how many of those keys must sign to release the funds.</p> <p>Bisq uses 2-of-3 multisig addresses. This means three public keys are used to create the payment address (the buyer's, the seller's, and an arbitrator's), and the transaction must be signed by two of the three parties for the funds to be released.</p> <p>Typically, the buyer and seller each sign the transaction to release funds. But in case of a dispute, an arbitrator will side with one of the parties to provide the second signature to release funds.</p>
+  hOtherQuestions: "I have a question that isn’t covered here…?"
+  pOtherQuestions: "<p>Please post your question at the <a href=\"https://bisq.community/\" target=\"_blank\">Bisq forum</a> or <a href='https://bisq.network/slack-invite' target='_blank'>Slack channel</a>.</p>"
+
+
+markets:
+  buy: Buy BTC Offers
+  sell: Sell BTC Offers
+  tradeHistory: Trade History <span class="grey">(Last 100 trades)</span>
+
+stats:
+  hNetworkStats: Network Stats
+  pSeeMarkets: "<p>See <a href='https://bisq.network/markets'>Markets page</a> for volume by currency.</p>"
+  pBSQDistribution: Mainnet BSQ distribution is slated for April 2019.
+  pTotalTrades: >
+    <p class='stat-label'>Total Trades</p>
+    <p class='stat-figure'>32,318</p>
+    <p class='stat-note'>Through June 2019</p>
+  pDailyAverage: >
+    <p class='stat-label'>Daily Average Trades</p>
+    <p class='stat-figure'>94</p>
+    <p class='stat-note'>For June 2019</p>
+  pSoftwareDownloads: >
+    <p class='stat-label'>Software Downloads</p>
+    <p class='stat-figure'>13,723</p>
+    <p class='stat-note'>For v1.1.2 (approximate)</p>
+  pGithubContributors: >
+    <p class='stat-label'>GitHub Contributors</p>
+    <p class='stat-figure'>172</p>
+    <p class='stat-note'>As of June 2019</p>
+  pTwitterFollowers: >
+    <p class='stat-label'>Twitter Followers</p>
+    <p class='stat-figure'>17,588</p>
+    <p class='stat-note'>As of June 2019</p>
+  pSlackUsers: >
+    <p class='stat-label'>Slack Users</p>
+    <p class='stat-figure'>1,183</p>
+    <p class='stat-note'>As of June 2019</p>
+  pNetworkLoad: "<p class='monitor-note'>For P2P network load, Tor metrics, and other network data, please visit the <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>"

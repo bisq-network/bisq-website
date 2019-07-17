@@ -732,8 +732,13 @@
 
     <body class="home page-template-default page page-id-6 custom-background">
 
+<!--Select includes/main_nav according to page lang or absence of lang-->
+          {% if page.lang == "pt-PT"  %}
+            {% include main_nav_tr.html %}
+          {% else %}
+            {% include main_nav.html %}
+          {% endif %}
 
-        {% include main_nav.html %}
 
             {% if page.url == '/' %}
 
@@ -744,13 +749,22 @@
             {% else %}
 
                 <div class="outter">
+<!-- Select includes/homepage_content according to page lang -->
+                  {% if page.ref == "index" %}
+                    {% include homepage_content_tr.html %}
+                  {% else %}
                     {{ content }}
+                  {% endif %}
                 </div>
 
             {% endif %}
 
-
-        {% include footer.html %}
+<!-- Select includes/footer according to page lang -->
+              {% if page.lang == "pt-PT"  %}
+                {% include footer_tr.html %}
+              {% else %}
+                {% include footer.html %}
+              {% endif %}
 
 
         <script>

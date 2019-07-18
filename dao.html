@@ -310,13 +310,13 @@ language: English
 </div>
 
 <script>
-  window.onload = function() {
-      $(".animate-scroll").click(function (){
-          event.preventDefault();
-          var hash = this.hash;
-          $('html, body').animate({
-              scrollTop: $(hash).offset().top - 70
-          }, 500);
-      });
-  };
+    window.onload = function() {
+        $(".animate-scroll").click(function (){
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top - 70
+            }, 500);
+        });
+    };
 </script>

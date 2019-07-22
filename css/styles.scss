@@ -220,6 +220,8 @@ hr {
   width: 440px;
   padding: 0;
   margin-top: 10px;
+  left: initial;
+  right: 0;
 }
 
 .responsive-youtube-container {
@@ -278,7 +280,7 @@ hr {
     width: 200px;
 }
 
-.more-info-desktop .dropdown-menu .dropdown-item{
+.more-info-desktop .dropdown-menu .dropdown-item {
     height: 49px;
 }
 
@@ -506,6 +508,10 @@ footer, footer ul li {
   padding: 23px 1rem;
 }
 
+.nav-link.visible-language, .dropdown.mobile-language-selector button {
+    text-transform: uppercase;
+}
+
 .navbar-light .navbar-nav .nav-item .nav-link {
   border-bottom: #EBEBEB 1px solid;
   font-weight: 400;
@@ -519,6 +525,18 @@ footer, footer ul li {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+}
+
+nav .mobile-language-selector {
+    position: absolute;
+    top: 13px;
+    display: none;
+}
+
+nav .mobile-language-selector button {
+    background-color: #fff;
+    color: #25B135;
+    border: 1px solid #25B135;
 }
 
 .footer {
@@ -843,6 +861,11 @@ front page
     .downloads-desktop, .downloads-desktop.os-selector-home {display: none}
     .downloads-mobile {display: block}
 
+    nav .mobile-language-selector {
+        display: block;
+        right: 100px;
+    }
+
     .outter {
       padding-top: 7rem;
     }
@@ -971,6 +994,11 @@ front page
 
 
 @media (max-width: 767px) {
+
+  nav .mobile-language-selector {
+    display: block;
+    right: 70px;
+  }
 
   .outter {
     padding-top: 7rem;

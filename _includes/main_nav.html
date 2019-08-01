@@ -1,26 +1,31 @@
  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
     <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
+
+    <!-- Language selector for mobile -->
+    {% if page.lang %}
+    <div class="dropdown mobile-language-selector more-info-desktop">
+      <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        {{ page.lang }}
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+          <div class="dropdown-item btn-icon">
+            <div class="float-right">
+              <a href="{{ page.url }}">{{ page.language }}</a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
     <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-<!-- Language selector -->
-{% if page.lang %}
-      <div class="dropdown">
-        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ page.language }}
-        </button>
-        <div class="dropdown-menu w-auto" aria-labelledby="dropdownMenuButton">
-          {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
-          {% for page in pages %}
-          <a class="dropdown-item" href="{{ page.url }}">{{ page.language }}</a>
-          {% endfor %}
-        </div>
-      </div>
-{% endif %}
 
       <ul class="navbar-nav ml-auto">
 
@@ -52,10 +57,10 @@
           </li>
 
           <li class="downloads-desktop more-info-desktop nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Learn More
             </a>
-            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="learnMoreDropdown">
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
                   <a href="https://docs.bisq.network/" target='_blank'>Documentation</a>
@@ -78,13 +83,32 @@
 
 
           <li class="downloads-desktop nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="downloadDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Downloads
             </a>
-            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="downloadDropdown">
               {% include os_selector_options.html %}
             </div>
           </li>
+
+          <!-- Language selector -->
+          {% if page.lang %}
+          <li class="downloads-desktop nav-item dropdown more-info-desktop">
+            <a class="nav-link dropdown-toggle visible-language" href='#' id="languageSelectorDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ page.lang }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="languageSelectorDropdown">
+              {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang' %}
+              {% for page in pages %}
+                <div class="dropdown-item btn-icon">
+                  <div class="float-right">
+                    <a href="{{ page.url }}">{{ page.language }}</a>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </li>
+          {% endif %}
 
       </ul>
     </div>

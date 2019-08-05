@@ -753,6 +753,27 @@ ul.blog-content-list ul {
     margin-left: 25px;
 }
 
+.rss-link {
+    float: right;
+    width: 30px;
+    height: auto;
+}
+
+.rss-link img {
+    width: 100%;
+}
+
+.rss-link.blog-index {
+    margin-top: 9px;
+}
+
+.rss-link.post {
+    margin-top: 4px;
+}
+
+.post.type-post .dets h2, h1#blog-index-header {
+    padding-right: 50px;
+}
 
 /*****************
 stats

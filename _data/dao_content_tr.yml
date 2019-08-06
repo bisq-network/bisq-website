@@ -1,7 +1,7 @@
 pt-PT:
 - title: "A OAD do Bisq"
   intro: " Descentralizando a distribuição da receita e a tomada de decisões para tornar o Bisq auto-sustentável e resistente à censura. <span class=\"footnote\">OAD significa Organização Autónoma Descentralizada</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Ver mais &darr;</a> "
-  img: ../images/DAO/dao_intro.svg
+  img: ../images/DAO/dao_intro_ptpt.svg
   class: -main
   id: intro
 
@@ -17,7 +17,7 @@ pt-PT:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_why.svg
+  img: ../images/DAO/dao_why_ptpt.svg
   id: why
 
 
@@ -31,7 +31,7 @@ pt-PT:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_what.svg
+  img: ../images/DAO/dao_what_ptpt.svg
   id: what
 
 
@@ -45,7 +45,7 @@ pt-PT:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_how.svg
+  img: ../images/DAO/dao_how_ptpt.svg
   id: how
 
 
@@ -56,5 +56,5 @@ pt-PT:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_benefits.svg
+  img: ../images/DAO/dao_benefits_ptpt.svg
   id: benefits

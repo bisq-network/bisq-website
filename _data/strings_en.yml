@@ -1,11 +1,3 @@
-0_urls_name:
-  community: community
-  dao: dao
-  faq: faq
-  markets: markets
-  stats: stats
-  vision: vision
-
 footer:
   notificationApp: Bisq mobile notification App
   siteYear: © 2019 Bisq
@@ -90,9 +82,9 @@ os_selector_options:
   liArchText: Arch User Repo
   liSourceCode: Source Code
   liReleaseNotes: Release Notes
-  liVerfication: Verfication
-  liVerficationText1: PGP signatures
-  liVerficationText2: PGP Public Key
+  liVerification: Verification
+  liVerificationText1: PGP signatures
+  liVerificationText2: PGP Public Key
 
 dao:
   hLearnMore: "Want to learn more?"

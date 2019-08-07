@@ -27,6 +27,14 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.1.5
+{: .mt-5 .mb-2}
+Released [August 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.5)
+
+This is a hotfix release mainly covering following issue:
+- DAO data store wasn't properly synchronized (again)
+
+
 ##### Version 1.1.4
 {: .mt-5 .mb-2}
 Released [July 29th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.4)

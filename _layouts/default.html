@@ -733,7 +733,7 @@
     <body class="home page-template-default page page-id-6 custom-background">
 
 <!--Select includes/main_nav according to page lang or absence of lang-->
-          {% if page.lang == "pt-PT"  %}
+          {% if page.lang == "de" or page.lang == "es" or page.lang == "pt-PT" or page.lang == "zh-CN" %}
             {% include main_nav_tr.html %}
           {% else %}
             {% include main_nav.html %}
@@ -760,7 +760,7 @@
             {% endif %}
 
 <!-- Select includes/footer according to page lang -->
-              {% if page.lang == "pt-PT"  %}
+              {% if page.lang == "de" or page.lang == "es" or page.lang == "pt-PT" or page.lang == "zh-CN" %}
                 {% include footer_tr.html %}
               {% else %}
                 {% include footer.html %}

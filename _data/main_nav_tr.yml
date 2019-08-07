@@ -1,3 +1,63 @@
+de:
+  links:
+
+    - title: Vision
+      url: /de/vision/
+
+    - title: Bisq DAO
+      url: /de/dao/
+
+    - title: Statistiken
+      url: /de/stats/
+
+    - title: FAQ
+      url: /de/faq/
+
+    - title: Märkte
+      url: /de/markets/
+
+  mobile_links:
+
+    - title: Community
+      url: /de/community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Dokumentation
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+es:
+  links:
+
+    - title: Visión
+      url: /es/vision/
+
+    - title: DAO Bisq
+      url: /es/dao/
+
+    - title: Estadísticas
+      url: /es/stats/
+
+    - title: FAQ
+      url: /es/faq/
+
+    - title: Mercados
+      url: /es/markets/
+
+  mobile_links:
+
+    - title: Comunidad
+      url: /es/community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Documentación
+      url: "https://docs.bisq.network/"
+      target: _blank
+
 pt-PT:
   links:
 
@@ -25,5 +85,35 @@ pt-PT:
       url: /blog/
 
     - title: Documentation
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+zh-CN:
+  links:
+
+    - title: 愿景
+      url: /zh-CN/vision/
+
+    - title: Bisq DAO
+      url: /zh-CN/dao/
+
+    - title: 统计数据
+      url: /zh-CN/stats/
+
+    - title: FAQ
+      url: /zh-CN/faq/
+
+    - title: 市场
+      url: /zh-CN/markets/
+
+  mobile_links:
+
+    - title: 社区
+      url: /zh-CN/community/
+
+    - title: 博客
+      url: /blog/
+
+    - title: 文档
       url: "https://docs.bisq.network/"
       target: _blank

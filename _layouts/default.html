@@ -733,10 +733,10 @@
     <body class="home page-template-default page page-id-6 custom-background">
 
 <!--Select includes/main_nav according to page lang or absence of lang-->
-          {% if page.lang == "de" or page.lang == "es" or page.lang == "pt-PT" or page.lang == "zh-CN" %}
-            {% include main_nav_tr.html %}
-          {% else %}
+          {% if page.lang == "en" or page.ref == "blog" %}
             {% include main_nav.html %}
+          {% else %}
+            {% include main_nav_tr.html %}
           {% endif %}
 
 

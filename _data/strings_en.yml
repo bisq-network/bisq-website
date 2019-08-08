@@ -22,10 +22,10 @@ homepage_content:
   androidNotificationsApp: Get Android Notifications App
   iosNotificationApp: Get iOS Notification app
   getStarted: Get Started »
-  runningWindows: You appear to be running Windows.
-  runningMac: You appear to be using a Mac.
-  runnigDebian: You appear to be using Debian/Ubuntu.
-  runningRedHat: You appear to be using Red Hat/Fedora.
+  runningWindows: You appear to be running Windows
+  runningMac: You appear to be using a Mac
+  runnigDebian: You appear to be using Debian/Ubuntu
+  runningRedHat: You appear to be using Red Hat/Fedora
   currentVersion: Current Version
   hFeatures: Features
   hIdentityVerifications: No Identity Verification
@@ -101,10 +101,10 @@ dao:
     <p>See more resources on our <a href='https://docs.bisq.network/dao.html'>All About the Bisq DAO</a> doc.</p> <p>Past contributors, check <a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>this link</a> for instructions on being added to the genesis BSQ distribution.</p>
 downloads:
   hBisqDownloads: Bisq Downloads
-  runningWindows: You appear to be running Windows.
-  runningMac: You appear to be using a Mac.
-  runnigDebian: You appear to be using Debian/Ubuntu.
-  runningRedHat: You appear to be using Red Hat/Fedora.
+  runningWindows: You appear to be running Windows
+  runningMac: You appear to be using a Mac
+  runnigDebian: You appear to be using Debian/Ubuntu
+  runningRedHat: You appear to be using Red Hat/Fedora
   tdWindows: Windows
   tdMac: Mac
   tdDebian: Debian/Ubuntu

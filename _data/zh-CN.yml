@@ -30,10 +30,10 @@ homepage_content:
   androidNotificationsApp: 下载 Android 通知应用程序
   iosNotificationApp: 下载 iOS 通知应用程序
   getStarted: 现在开始 »
-  runningWindows: 你似乎在使用 Windows。
-  runningMac: 你似乎在使用 Mac。
-  runnigDebian: 你似乎在使用 Debian/Ubuntu。
-  runningRedHat: 你似乎在使用 Red Hat/Fedora。
+  runningWindows: 你似乎在使用 Windows
+  runningMac: 你似乎在使用 Mac
+  runnigDebian: 你似乎在使用 Debian/Ubuntu
+  runningRedHat: 你似乎在使用 Red Hat/Fedora
   currentVersion: 当前版本
   hFeatures: 特性
   hIdentityVerifications: 没有身份验证
@@ -109,10 +109,10 @@ dao:
     <p><a href='https://docs.bisq.network/dao.html'>有关Bisq DAO 文档的更多信息</a>，请参阅参考资料。</p><p>过去的贡献者，点击这个<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>链接</a>，以获得关于添加到初始 BSQ 发行的说明。</p>
 downloads:
   hBisqDownloads: Bisq 下载
-  runningWindows: 你似乎在使用 Windows。
-  runningMac: 你似乎在使用 Mac。
-  runnigDebian: 你似乎在使用 Debian/Ubuntu。
-  runningRedHat: 你似乎在使用 Red Hat/Fedora。
+  runningWindows: 你似乎在使用 Windows
+  runningMac: 你似乎在使用 Mac
+  runnigDebian: 你似乎在使用 Debian/Ubuntu
+  runningRedHat: 你似乎在使用 Red Hat/Fedora
   tdWindows: Windows
   tdMac: Mac
   tdDebian: Debian/Ubuntu

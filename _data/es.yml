@@ -22,7 +22,7 @@ homepage_content:
   androidNotificationsApp: Obtener la app de Notificaciones Android
   iosNotificationApp: Obtenter la app de notificaciones de iOS
   getStarted: Comenzar »
-  runningWindows: Parece que está ejecutando Windows.
+  runningWindows: Parece que está ejecutando Windows
   runningMac: Parece que está ejecutando Mac
   runnigDebian: Parece que está usando Debian/Ubuntu
   runningRedHat: Parece que está usando Red Hat/Fedora
@@ -53,9 +53,9 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Añada sus cuentas de moneda nacional o cripto</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Cree una nueva oferta o tome una existente.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Siga la interfaz de usuario para finalizar el intercambio.</li>
   hJoin: Unirse a la comunidad
   pJoin: >
-    <p>Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad para unirse a nuestra <a href="localhost:4001/community/">comunidad</a>. Si está interesado en ayudar a mejorar Bisq, hay muchas maneras de<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
-     Nos encantaría<a href="localhost:4001/community/">saber de ti</a>!</p>
-    <p>Nuestra <a href="localhost:4001/roadmap/">hoja de ruta</a> proporciona una vista general de las características y hitos hasta llegar a la v.1.0. de Bisq</p>
+    <p>Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad para unirse a nuestra <a href="localhost:4001/community/">comunidad</a>. Si está interesado en ayudar a mejorar Bisq, hay muchas maneras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
+     Nos encantaría <a href="localhost:4001/community/">saber de ti</a>!</p>
+    <p>Nuestra <a href="localhost:4001/roadmap/">hoja de ruta</a> proporciona una vista general de las características y hitos hasta llegar a la v.1.0. de Bisq.</p>
   liGithub: "@bisq-network en GitHub"
   liTwitter: "@bisq-network en Twitter"
   liYoutube: Canal de YouTube Bisq
@@ -103,7 +103,7 @@ dao:
     <p>Ver más recursos en nuestro <a href='https://docs.bisq.network/dao.html'>documento</a> Todo Acerca de la DAO Bisq.</p> <p>Contribuidores antiguos, comprueben <a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>este link</a> para instrucciones para ser añadidos a la distribución génesis de BSQ.</p>
 downloads:
   hBisqDownloads: Descargas Bisq
-  runningWindows: Parece que está ejecutando Windows.
+  runningWindows: Parece que está ejecutando Windows
   runningMac: Parece que está usando un Mac
   runnigDebian: Paree que está usando Debian/Ubuntu
   runningRedHat: Parece que está usando Red Hat/Fedora
@@ -129,7 +129,7 @@ faq:
   hCoreFunctions: Funciones principales
   hSafeOpenSource: "¿Bisq es seguro y de código abierto?"
   pSafeOpenSource: >
-    <p>Sí, el software de Bisq es de código abierto y con licencia bajo la Versión 3 de la GNU Affero General Public License. Aquí está el 
+    <p>Sí, el software de Bisq es de código abierto y con licencia bajo la Versión 3 de la GNU Affero General Public License. Aquí está el
       <a href="https://github.com/bisq-network/bisq/" target="_blank">código fuente</a> y
       <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">la licencia</a>.</p>
     <p>Bisq emplea tres mecanismos primarios para conseguir la seguridad:</p> <ol>
@@ -249,7 +249,7 @@ faq:
   pArbitrationProcess: >
     <p>En Bisq, los árbitros determinan soluciones a las disputas en los intercambios. Los árbitros tienen que pagar una muy alta <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener"> garantía BSQ</a>, que asegure evaluaciones justas y prevengan de la colusión con los comerciantes.</p> <p>Los árbitros se eligen aleatoriamente para cada intercambio.</p> <p>Si el comerciante A no confirma el recibo de una transferencia con moneda nacional en el <a href='#trade-periods'>tiempo establecido</a>, un botón para contactar al árbitro aparecerá para ambos comerciantes. El comerciante B podrá
       enviar evidencia al árbitro de que realmente envió la moneda nacional. Alternativamente, si el comerciante B nunca envió la moneda nacional, el comerciante A puede enviar evidencia a el árbitro de que los fondos nunca se recibieron.</p>
-      <p>La evidencia emitida deberá ser criptográficamente segura con el uso de 
+      <p>La evidencia emitida deberá ser criptográficamente segura con el uso de
       <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> o declaraciones bancarias firmadas digitalmente. Si estos métodos fallan, se podrán emplear rutas de detección más tradicionales.</p>
       <p>En nuestra experiencia la gran mayoría de disputas no son causadas con
       intenciones malignas, sino por problemas menores como incidencias de red, errores de software, incidencias bancarias, usabilidad, etc.

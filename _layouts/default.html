@@ -760,10 +760,10 @@
             {% endif %}
 
 <!-- Select includes/footer according to page lang -->
-              {% if page.lang == "de" or page.lang == "es" or page.lang == "pt-PT" or page.lang == "zh-CN" %}
-                {% include footer_tr.html %}
-              {% else %}
+              {% if page.lang == "en" or page.ref == "blog" %}
                 {% include footer.html %}
+              {% else %}
+                {% include footer_tr.html %}
               {% endif %}
 
 

@@ -19,8 +19,8 @@ homepage_content:
   buttonGetBisq: Obtener Bisq
   buttonToggle: Cambiar desplegable
   downloads: Descargas
-  androidNotificationsApp: Obtener la app de Notificaciones Android
-  iosNotificationApp: Obtenter la app de notificaciones de iOS
+  androidNotificationsApp: Android app de Notificaciones
+  iosNotificationApp: iOS app de notificaciones
   getStarted: Comenzar »
   runningWindows: Parece que está ejecutando Windows
   runningMac: Parece que está ejecutando Mac

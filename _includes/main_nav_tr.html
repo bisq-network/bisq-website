@@ -51,7 +51,7 @@
 
 
 
-{% assign item = site.data[page.lang].main_nav %}
+          {% assign item = site.data[page.lang].main_nav %}
           <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
               <a class="nav-link" href="{{ site.url }}/{{ page.lang }}/downloads">{{ item.liDownloads }}</a>
           </li>

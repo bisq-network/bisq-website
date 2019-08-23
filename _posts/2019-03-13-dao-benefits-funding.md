@@ -3,6 +3,7 @@ layout: post
 title: "Benefits of the Bisq DAO, Part I: Funding FLOSS & Avoiding Surveillance Capitalism"
 author: Steve Jain
 excerpt: "The Bisq DAO enables value transfer and decision-making for the Bisq network. But it has several additional benefits too, which we'll focus on in this series.<br><br>In this post, Part I of this series, we'll discuss how Bisq's revenue model offers a new approach to funding open-source software development that, by design, avoids incentives to exploit user privacy altogether.<br><br>"
+ref: blog
 ---
 
 <hr>

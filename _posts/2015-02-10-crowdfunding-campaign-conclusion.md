@@ -2,6 +2,7 @@
 layout: post
 title: Crowdfunding campaign conclusion
 author: Richard Myers
+ref: blog
 ---
 
 The Bitsquare crowdfunding[1] campaign has ended without reaching our funding goal.  We are disappointed, but also proud and encouraged by the amount of the support we did receive.   The enthusiasm we have seen from the community confirms we are on the right track and fuels our own passion to make Bitsquare a reality.

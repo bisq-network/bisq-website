@@ -29,7 +29,7 @@
 
       <ul class="navbar-nav ml-auto">
 
-        {% for item in site.data.main_nav.links %}
+          {% for item in site.data.main_nav.links %}
           <li class="nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
             {% if item.target == "_blank" %}
               <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
@@ -37,9 +37,9 @@
               <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
             {% endif %}
           </li>
-        {% endfor %}
+          {% endfor %}
 
-        {% for item in site.data.main_nav.mobile_links %}
+          {% for item in site.data.main_nav.mobile_links %}
           <li class="downloads-mobile nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
             {% if item.target == "_blank" %}
               <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
@@ -47,9 +47,7 @@
               <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
             {% endif %}
           </li>
-        {% endfor %}
-
-
+          {% endfor %}
 
 
           <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">

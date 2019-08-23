@@ -2,6 +2,7 @@
 layout: post
 title: Development update
 author: Manfred Karrer
+ref: blog
 ---
 It was a bit quiet here the last months, but there was going on a lot on the development front.
 

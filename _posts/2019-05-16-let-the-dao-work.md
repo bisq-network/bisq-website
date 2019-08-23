@@ -3,6 +3,7 @@ layout: post
 title: "Time for the DAO to take over"
 author: Manfred Karrer
 excerpt: "With the DAO in place Bisq has to evolve its organisational structure without its founders. The departure of the founders was planned from the very beginning. Now it is time to fulfill that plan.<br><br>"
+ref: blog
 ---
 
 Dear Bisq community,

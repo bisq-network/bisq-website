@@ -5,6 +5,12 @@ author: Steve Jain
 excerpt: "The Bisq DAO launched 4 months ago, after more than 4 years of development. It has now completed 4 voting cycles. In this post, we provide an update on how it's worked out so far. <br><br>"
 ---
 
+<div class='responsive-youtube-container'>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zjdB5_r3mG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+_The above video is a recording of the live call we had about this topic, but this post includes more details._
+
 Four months ago, after over four years of development, the Bisq DAO launched.
 
 The objectives are ambitious. The Bisq DAO offers a new way to fund free software, where users pay for usage directly to developers who produce the software. Users also govern the software, making proposals and voting to guide the software's strategy and direction. This paradigm for funding and governing the software also absolves the need for a company, which in turn enables the Bisq network to run without a legal entity or jurisdiction.

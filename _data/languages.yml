@@ -1,0 +1,24 @@
+- name: "English"
+  tag: "en"
+  enabled: No
+  accept_languages: ["en", "en-us", "en-au", "en-nz", "en-za", "en-bz", "en-tt"]
+- name: "Deutsch"
+  tag: "de"
+  enabled: Yes
+  accept_languages: ["de"]
+- name: "Español"
+  tag: "es"
+  enabled: Yes
+  accept_languages: ["es", "es-mx", "es-gt", "es-cr", "es-pa", "es-do", "es-ve", "es-co", "es-pe", "es-ar", "es-ec", "es-cl", "es-uy", "es-py", "es-bo", "es-sv", "es-hn", "es-ni", "es-pr"]
+- name: "日本語"
+  tag: "ja"
+  enabled: No
+  accept_languages: ["ja", "ja-jp"]
+- name: "Português"
+  tag: "pt-PT"
+  enabled: Yes
+  accept_languages: ["pt", "pt-PT"]
+- name: "简体中文"
+  tag: "zh-CN"
+  enabled: Yes
+  accept_languages: ["zh", "zh-CN"]

@@ -13,7 +13,7 @@
         {% for page in pages %}
           <div class="dropdown-item btn-icon">
             <div class="float-right">
-              <a href="{{ page.url }}">{{ page.language }}</a>
+              <a href="{{ page.url }}" hreflang="{{ page.lang }}">{{ page.language }}</a>
             </div>
           </div>
         {% endfor %}
@@ -102,7 +102,7 @@
               {% for page in pages %}
                 <div class="dropdown-item btn-icon">
                   <div class="float-right">
-                    <a href="{{ page.url }}">{{ page.language }}</a>
+                    <a href="{{ page.url }}" hreflang="{{ page.lang }}">{{ page.language }}</a>
                   </div>
                 </div>
               {% endfor %}

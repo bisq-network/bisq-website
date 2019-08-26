@@ -304,7 +304,7 @@ stats:
   pTotalTrades: >
     <p class='stat-label'>Total Trades</p>
     <p class='stat-figure'>34,535</p>
-    <p class='stat-note'>Through June 2019</p>
+    <p class='stat-note'>Through July 2019</p>
   pDailyAverage: >
     <p class='stat-label'>Daily Average Trades</p>
     <p class='stat-figure'>72</p>

@@ -4,7 +4,7 @@ title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: community
 lang: fr
 language: Français
-outdated: false
+outdated_translation: false
 ---
 # Communauté
 {: .mb-5}

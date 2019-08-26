@@ -4,7 +4,7 @@ title: Bisq &lsaquo; 社区 - 去中心化比特币交易
 ref: community
 lang: zh-CN
 language: 简体中文
-outdated: false
+outdated_translation: false
 ---
 # 社区
 {: .mb-5}

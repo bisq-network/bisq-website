@@ -303,26 +303,26 @@ stats:
   pBSQDistribution: Mainnet BSQ distribution is slated for April 2019.
   pTotalTrades: >
     <p class='stat-label'>Total Trades</p>
-    <p class='stat-figure'>32,318</p>
-    <p class='stat-note'>Through June 2019</p>
+    <p class='stat-figure'>34,535</p>
+    <p class='stat-note'>Through July 2019</p>
   pDailyAverage: >
     <p class='stat-label'>Daily Average Trades</p>
-    <p class='stat-figure'>94</p>
-    <p class='stat-note'>For June 2019</p>
+    <p class='stat-figure'>72</p>
+    <p class='stat-note'>For July 2019</p>
   pSoftwareDownloads: >
     <p class='stat-label'>Software Downloads</p>
-    <p class='stat-figure'>13,723</p>
+    <p class='stat-figure'>17,968</p>
     <p class='stat-note'>For v1.1.2 (approximate)</p>
   pGithubContributors: >
     <p class='stat-label'>GitHub Contributors</p>
-    <p class='stat-figure'>172</p>
-    <p class='stat-note'>As of June 2019</p>
+    <p class='stat-figure'>182</p>
+    <p class='stat-note'>As of July 2019</p>
   pTwitterFollowers: >
     <p class='stat-label'>Twitter Followers</p>
-    <p class='stat-figure'>17,588</p>
-    <p class='stat-note'>As of June 2019</p>
+    <p class='stat-figure'>17,945</p>
+    <p class='stat-note'>As of July 2019</p>
   pSlackUsers: >
     <p class='stat-label'>Slack Users</p>
-    <p class='stat-figure'>1,183</p>
-    <p class='stat-note'>As of June 2019</p>
+    <p class='stat-figure'>1,258</p>
+    <p class='stat-note'>As of July 2019</p>
   pNetworkLoad: "<p class='monitor-note'>For P2P network load, Tor metrics, and other network data, please visit the <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>"

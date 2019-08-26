@@ -4,7 +4,7 @@
       <a class="navbar-brand" href="{{ site.url }}/{{ page.lang }}/"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
 
       <!-- Outdated translation tag-->
-      {% if page.lang == "de" or page.lang= "es" or "pt-PT" or page.lang == "zh-CN" %}
+      {% if page.outdated %}
         <span class="navbar-text" style="color: orange;">Outdated translation</span>
       {% endif %}
     </div>

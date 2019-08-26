@@ -4,6 +4,7 @@ title: Comunidad &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: community
 lang: es
 language: Español
+outdated: false
 ---
 # Comunidad
 {: .mb-5}

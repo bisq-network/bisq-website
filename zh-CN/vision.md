@@ -4,6 +4,7 @@ title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: vision
 lang: zh-CN
 language: 简体中文
+outdated: false
 ---
 # 愿景
 {: .mb-5}

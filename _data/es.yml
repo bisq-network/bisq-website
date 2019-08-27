@@ -329,16 +329,13 @@ stats:
   hNetworkStats: Estado de red
   pSeeMarkets: "<p>Ver la <a href='localhost:4001/markets'>página de Mercados</a> para el volumen por moneda.</p>"
   pBSQDistribution: La distribución de BSQ en la red principal fue el 15 de Abril de 2019.
-  pTotalTrades: >
-    <p class='stat-label'>Intercambios totales</p> <p class='stat-figure'>25,585</p> <p class='stat-note'>en Marzo de 2019</p>
-  pDailyAverage: >
-    <p class='stat-label'>Promedio diario de operaciones</p> <p class='stat-figure'>94</p> <p class='stat-note'>Para Junio 2019</p>
-  pSoftwareDownloads: >
-    <p class='stat-label'>Las descargas de software fueron</p> <p class='stat-figure'>13,723</p> <p class='stat-note'>para la versión v1.1.2 (approximado)</p>
-  pGithubContributors: >
-    <p class='stat-label'>Contribuyentes de GitHub</p> <p class='stat-figure'>172</p> <p class='stat-note'>en Junio de 2019</p>
-  pTwitterFollowers: >
-    <p class='stat-label'>Seguidores de Twitter</p> <p class='stat-figure'>17,588</p> <p class='stat-note'>en Junio de 2019</p>
-  pSlackUsers: >
-    <p class='stat-label'>Usuarios de Slack</p> <p class='stat-figure'>1,183</p> <p class='stat-note'>en Junio de 2019</p>
+  pTotalTrades: Intercambios totales
+  pTotalDate: Durante el mes pasado
+  pDailyAverageTrade: Promedio diario de operaciones
+  pSoftwareDownloads: Las descargas de software fueron
+  pSoftwareDownloadsVersion: para la versión v1.1.2 (approximado)
+  pGithubContributors: Contribuyentes de GitHub
+  pToDate: Hasta el mes pasado
+  pTwitterFollowers: Seguidores de Twitter
+  pSlackUsers: Usuarios de Slack
   pNetworkLoad: "<p class='monitor-note'>Para carga de la red P2P, métricas de Tor y otros datos de red, por favor visite el<a href='https://monitor.bisq.network' target='_blank'>Monitor de Red Bisq</a>.</p>"

@@ -331,16 +331,13 @@ stats:
   hNetworkStats: 网络状况
   pSeeMarkets: "<p>按货币计算的成交量见<a href='https://bisq.network/markets'>市场页面</a>。</p>"
   pBSQDistribution: 核心网络 BSQ 计划于2019年4月发布。
-  pTotalTrades: >
-    <p class='stat-label'>总交易数</p><p class='stat-figure'> 32,318 </p><p class='stat-note'>截止2019年6月</p>
-  pDailyAverage: >
-    <p class='stat-label'>每日交易数</p><p class='stat-figure'> 94 </p><p class='stat-note'> 2019 年 6 月</p>
-  pSoftwareDownloads: >
-    <p class='stat-label'>软件下载数</p><p class='stat-figure'> 13,723 </p><p class='stat-note'>在 v1.1.2（近似数）</p>
-  pGithubContributors: >
-    <p class='stat-label'>GitHub 贡献者</p><p class='stat-figure'> 172 </p><p class='stat-note'>截至2019年6月</p>
-  pTwitterFollowers: >
-    <p class='stat-label'>Twitter 粉丝数</p><p class='stat-figure'> 17,588 </p><p class='stat-note'>截至2019年6月</p>
-  pSlackUsers: >
-    <p class='stat-label'>Slack 用户数</p><p class='stat-figure'>1,183</p><p class='stat-note'>截至2019年6月</p>
+  pTotalTrades: 总交易数
+  pTotalDate: 上月数据
+  pDailyAverageTrade: 每日交易数
+  pSoftwareDownloads: 软件下载数<
+  pSoftwareDownloadsVersion: 在 v1.1.2（近似数）
+  pGithubContributors: GitHub 贡献者
+  pToDate: 截止上月
+  pTwitterFollowers: Twitter 粉丝数
+  pSlackUsers: Slack 用户数
   pNetworkLoad: "<p class='monitor-note'>有关 P2P 网络负载情况、Tor 指标和其他网络数据，请访问<a href='https://monitor.bisq.network' target='_blank'>Bisq 网络状况监控</a>。</p>"

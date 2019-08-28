@@ -6,7 +6,7 @@ excerpt: "The Bisq DAO launched 4 months ago, after more than 4 years of develop
 ---
 
 <div class='responsive-youtube-container'>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zjdB5_r3mG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zjdB5_r3mG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 _The above video is a recording of the live call we had about this topic, but this post includes more details._
@@ -117,7 +117,7 @@ Following the continued strength of BSQ usage and trading, Cycle 3 voting result
 
 The fee schedule this voting cycle approved look like this:
 
-<img src="../../images/blog/fee-increases-cycle-3.png" alt="Fee increase for Cycle 3`">
+<img src="../../images/blog/fee-increases-cycle-3.png" alt="Fee increase for Cycle 3">
 
 Notes:
 <ol>

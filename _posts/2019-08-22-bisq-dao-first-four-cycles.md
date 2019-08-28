@@ -19,7 +19,7 @@ If those points don't sound significant to you, here's another way to put it: th
 
 Although development and testing were thorough, it didn't feel right to shout from the rooftops about the Bisq DAO being a huge success after just 1 voting cycle. It still doesn't, even after 4 voting cycles. The network still needs to finish some key projects to harden itself, and the DAO itself will likely face continual challenges as it grows and matures.
 
-But it's our duty to keep you (the community) informed, so it's about time we provide on update on how things have gone so far.
+But it's our duty to keep you (the community) informed, so it's about time we provide an update on how things have gone so far.
 
 From now on, updates and communications about proposals and results will be provided more regularly and promptly.
 

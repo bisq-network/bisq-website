@@ -4,7 +4,6 @@ title: Vision &lsaquo; Bisq - La plateforme d'échange décentralisée Bitcoin
 ref: vision
 lang: fr
 language: Français
-outdated_translation: false
 ---
 # Vision
 {: .mb-5}

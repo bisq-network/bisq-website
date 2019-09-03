@@ -58,6 +58,38 @@ es:
       url: "https://docs.bisq.network/"
       target: _blank
 
+
+fa:
+  links:
+
+    - title: چشم انداز
+      url: /fa/vision/
+
+    - title: Bisq DAO
+      url: /fa/dao/
+
+    - title: آمار
+      url: /fa/stats/
+
+    - title: پرسش و پاسخ
+      url: /fa/faq/
+
+    - title:  بازارها
+      url: /fa/markets/
+
+  mobile_links:
+
+    - title: جامعه
+      url: /fa/community/
+
+    - title: وبلاگ
+      url: /blog/
+
+    - title: مستندات
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+
 fr:
   links:
 
@@ -87,6 +119,7 @@ fr:
     - title: Documentation
       url: "https://docs.bisq.network/"
       target: _blank
+
 
 ja:
   links:
@@ -118,6 +151,7 @@ ja:
       url: "https://docs.bisq.network/"
       target: _blank
 
+
 pt-PT:
   links:
 
@@ -147,6 +181,7 @@ pt-PT:
     - title: Documentation
       url: "https://docs.bisq.network/"
       target: _blank
+
 
 zh-CN:
   links:

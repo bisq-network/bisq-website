@@ -4,6 +4,13 @@ layout: default
 
 <div class="container pb-5 mb-5">
     <div class="row align-items-center">
+      <!-- Outdated translation alert tool tag-->
+      <div class="col-md-12 order-md-1 text-md-left">
+        {% if page.outdated_translation %}
+          <a style="color: orange;" href="https://www.transifex.com/bisq/bisq-website/">Outdated translation - Help us to improve it!</a>
+        {% endif %}
+      </div>
+      
       <!-- <div class="{% if page.url == '/community/' %}col-md-12{% else %}col-md-8{% endif %} order-md-1 text-md-left pr-md-5"> -->
       <div class="col-md-12 order-md-1 text-md-left">
          {{ content }}

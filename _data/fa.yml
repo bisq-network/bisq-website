@@ -345,7 +345,7 @@ markets:
 stats:
   hNetworkStats: آمار شبکه
   pSeeMarkets: "<p>مشاهده <a href='https://bisq.network/markets'>صفحات بازار</a> برحسب ظرفیت ارز.</p>"
-  pBSQDistribution: توزیع BSV Mainnet در ماه آوریل 2019 صورت می گیرد
+  pBSQDistribution: توزیع BSQ Mainnet در ماه آوریل 2019 صورت می گیرد
   pTotalTrades: >
     <p class='stat-label'>مجموع معاملات</p> <p class='stat-figure'>32,318</p> <p class='stat-note'>از مارس 2019 برابر می باشد</p>
   pDailyAverage: >

@@ -2,6 +2,7 @@
 layout: post
 title: "Bitsquare: Now in Alpha"
 author: Chris Beams
+ref: blog
 ---
 After many months of research and development, we're excited to announce the release of [Bitsquare v0.1][1]. This marks the beginning of our alpha phase and the first major milestone on the road to a fully-functional Bitsquare v1.0.
 

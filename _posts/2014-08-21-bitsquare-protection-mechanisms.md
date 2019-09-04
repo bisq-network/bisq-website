@@ -2,6 +2,7 @@
 layout: post
 title: Bitsquare protection mechanisms
 author: Manfred Karrer
+ref: blog
 ---
 A video going into the details of the Protection Mechanisms system for Bitsquare:
 

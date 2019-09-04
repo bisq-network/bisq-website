@@ -2,6 +2,7 @@
 layout: post
 title: Bisq DAO now on testnet
 author: Steve Jain
+ref: blog
 ---
 
 Bisq v0.9 is one of the biggest updates to Bisq ever: it brings the Bisq DAO to testnet, as well as a striking new visual design (among a host of other improvements and bug fixes).

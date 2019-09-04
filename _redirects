@@ -1,5 +1,120 @@
+---
+layout: null
+---
+# build-time generated redirects
+# redirect user based on Accept-Language setting
+# see https://www.netlify.com/docs/redirects/
+{% capture _redirects %}
+
+{% assign urls_sorted = site.pages | map: "url" | sort %}
+{% assign urls_filtered = "" | split: "," | pop %}
+
+{% for url in urls_sorted %}
+  # if you know a better way to strstr() feel free
+  {% assign first_two = url | slice: 1, 2 %}
+  {% assign first_three = url | slice: 1, 3 %}
+  {% assign first_four = url | slice: 1, 4 %}
+  {% assign first_five = url | slice: 1, 5 %}
+  {% assign first_six = url | slice: 1, 6 %}
+  {% assign first_seven = url | slice: 1, 7 %}
+
+  # don't redirect /404
+  {% if first_three == "404" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /css
+  {% if first_three == "css" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /blog
+  {% if first_four == "blog" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /press
+  {% if first_five == "press" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /robots.txt
+  {% if first_six == "robots" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /roadmap
+  {% if first_seven == "roadmap" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /sitemap
+  {% if first_seven == "sitemap" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /_redirects
+  {% if first_six == "_redir" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /redirects.json
+  {% if first_five == "redir" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect /funding-voices
+  {% if first_seven == "funding" %}
+    {% continue %}
+  {% endif %}
+
+  # don't redirect language-specific URIs
+  {% assign is_lang = 0 %}
+  {% for language in site.data.languages %}
+
+    # for de
+    {% if first_two == language.tag %}
+      {% assign is_lang = 1 %}
+      {% continue %}
+    {% endif %}
+
+    # for pt-PT
+    {% if first_five == language.tag %}
+      {% assign is_lang = 1 %}
+      {% continue %}
+    {% endif %}
+
+  {% endfor %}
+
+  # add URL to redirect list
+  {% if is_lang == 0 %}
+    {% assign urls_filtered = urls_filtered | push: url %}
+  {% endif %}
+{% endfor %}
+
+{% assign redirects = "" | split: "," | pop %}
+
+{% for url in urls_filtered %}
+  {% for language in site.data.languages %}
+    {% if language.enabled %}
+      {% for accept_language in language.accept_languages %}
+
+        {% capture redirect %}{{url}}  /{{language.tag}}{{url}}  302  Language={{accept_language}}{% endcapture %}
+        {% assign redirects = redirects | push: redirect %}
+
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% capture newline %}
+{% endcapture %}
+
+{% endcapture %}
+{{redirects | join: newline}}
+
 #
-# See https://www.netlify.com/docs/redirects/
+# static redirects
 #
 
 # bitsquare.io

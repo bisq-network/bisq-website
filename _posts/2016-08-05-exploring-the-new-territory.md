@@ -3,6 +3,7 @@ layout: post
 title: Exploring the new territory
 author: Manfred Karrer
 redirect_from: /blog/explorering-the-new-territory
+ref: blog
 ---
 With the recent [Bitfinex heist][1] models for decentralized exchanges have received a bit more attention as usual.
 

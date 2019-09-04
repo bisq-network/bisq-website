@@ -58,6 +58,7 @@ es:
       url: "https://docs.bisq.network/"
       target: _blank
 
+
 fa:
   links:
 
@@ -85,6 +86,36 @@ fa:
       url: /blog/
 
     - title: مستندات
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+fr:
+  links:
+
+    - title: Vision
+      url: /fr/vision/
+
+    - title: La DAO de Bisq
+      url: /fr/dao/
+
+    - title: Statistiques
+      url: /fr/stats/
+
+    - title: FAQ
+      url: /fr/faq/
+
+    - title: Marchés
+      url: /fr/markets/
+
+  mobile_links:
+
+    - title: Communauté
+      url: /fr/community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Documentation
       url: "https://docs.bisq.network/"
       target: _blank
 

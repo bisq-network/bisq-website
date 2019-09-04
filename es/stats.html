@@ -15,8 +15,13 @@ language: Español
 <h1>{{ item.hNetworkStats }}</h1>
 
 <div class='chart-stat-container'>
-    <div class='stat-chart' id="volume-container"></div>
-    {{ item.pSeeMarkets }}
+    <div class='stat-chart' id="fiat-volume-container"></div>
+    {{  item.pSeeMarkets }}
+</div>
+
+<div class='chart-stat-container'>
+    <div class='stat-chart' id="altcoin-volume-container"></div>
+    {{  item.pSeeMarkets }}
 </div>
 
 <div class='chart-stat-container'>

@@ -12,6 +12,19 @@ body {
   letter-spacing: 0.03rem;
 }
 
+.outdatedTranslation {
+  color: black;
+  background-color: orange;
+  font-weight: bold;
+  padding: 4px;
+
+}
+
+.outdatedTranslation:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
 strong {
     font-weight: 700;
 }

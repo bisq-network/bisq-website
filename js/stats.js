@@ -13,20 +13,91 @@ $( document ).ready( function() {
         }
     });
 
-    //volume chart
-    var volumeChart = Highcharts.chart( 'volume-container', {
+    var fiatVolumeChart = Highcharts.chart( 'fiat-volume-container', {
+        chart: {
+            type: 'line',
+            spacing: [25,0,20,30]
+        },
+        title: {
+            text: 'FIAT VOLUME',
+            align: 'left',
+            x: 0,
+            y: 15
+        },
+        subtitle: {
+            text: 'Fiat trading activity on the network',
+            align: 'left'
+        },
+        xAxis: {
+            categories: ["Apr '16","May '16","Jun '16","Jul '16","Aug '16","Sep '16","Oct '16","Nov '16","Dec '16","Jan '17","Feb '17","Mar '17","Apr '17","May '17","Jun '17","Jul '17","Aug '17","Sep '17","Oct '17","Nov '17","Dec '17","Jan '18","Feb '18","Mar '18","Apr '18","May '18","Jun '18","Jul '18","Aug '18","Sep '18","Oct '18","Nov '18","Dec '18","Jan '19","Feb '19","Mar '19","Apr '19","May '19","Jun '19","Jul '19","Aug '19"],
+            labels: {
+                step: 3,
+                style: {
+                    color: "#bababa"
+                }
+            },
+            tickLength: 0,
+            minorTickLength: 0,
+            lineWidth: 0,
+            minorGridLineWidth: 0,
+            lineColor: 'transparent'
+        },
+        yAxis: [{
+            title: {
+                text: 'BTC',
+                align: 'high',
+                rotation: 0,
+                y: -35,
+                x: -35,
+                style: {
+                    color: "#25b135",
+                    fontWeight: '700'
+                }
+            },
+            opposite: true,
+            gridLineColor: 'transparent',
+            labels: {
+                style: {
+                    color: "#25b135",
+                    fontWeight: '700'
+                }
+            }
+        }],
+        plotOptions: {
+            line: {
+                marker: {
+                    enabled: false
+                }
+            }
+        },
+        series: [{
+            yAxis: 0,
+            name: 'BTC',
+            color: '#25b135',
+            tooltip: {
+                pointFormat: '{point.y:,.2f} BTC<br>'
+            },
+            data: [11.8995,41.3696,32.0541,40.8324,116.6891,73.2759,81.5417,115.763,168.2711,179.9098,114.6693,140.0966,142.6057,178.7778,116.686,58.4357,79.3912,61.1235,56.7454,54.829,64.6699,54.245,48.825,43.7748,41.1994,49.3965,66.1055,41.8279,40.148,40.8045,50.4425,59.1317,70.7977,77.302,84.2301,89.5436,86.4997,53.4374,44.2075,41.7215,50.2143]
+        }],
+        legend: {
+            enabled: false
+        }
+    });
+
+    //altcoin volume chart
+    var altcoinVolumeChart = Highcharts.chart( 'altcoin-volume-container', {
           chart: {
               type: 'line',
               spacing: [25,0,20,30]
           },
           title: {
-              text: 'OVERALL VOLUME',
+              text: 'ALTCOIN VOLUME',
               align: 'left',
               x: 0,
               y: 15
           },
           subtitle: {
-              text: 'Aggregate trading activity on the network',
+              text: 'Altcoin trading activity on the network',
               align: 'left'
           },
           xAxis: {
@@ -43,27 +114,7 @@ $( document ).ready( function() {
               minorGridLineWidth: 0,
               lineColor: 'transparent'
           },
-          yAxis: [{ //--- Primary yAxis
-              title: {
-                  text: 'USD',
-                  align: 'high',
-                  rotation: 0,
-                  y: -35,
-                  x: -35,
-                  style: {
-                      color: "#25b135",
-                      fontWeight: '700'
-                  }
-              },
-              gridLineColor: 'transparent',
-              labels: {
-                  style: {
-                      color: "#25b135",
-                      fontWeight: '700'
-                  }
-              },
-              opposite: true
-          }, { //--- Secondary yAxis
+          yAxis: [{
               title: {
                   text: 'BTC',
                   align: 'high',
@@ -93,15 +144,6 @@ $( document ).ready( function() {
           },
           series: [{
               yAxis: 0,
-              name: 'USD',
-              color: '#25b135',
-              tooltip: {
-                  pointFormat: '{point.y:,.0f} USD<br>'
-              },
-              data: [13792.27157,39004.41862,34747.10333,33664.25475,149112.1901,72826.8349,80373.7636,133111.5085,147766.9444,223908.8823,142296.5827,196890.8353,238489.7743,410331.0229,716650.0242,209568.3684,536809.9232,440571.7911,393269.1143,520430.1413,3041714.944,1245149.433,634527.5756,713308.1799,545125.1617,586420.8052,675849.95,498015.4563,2427576.136,2111553.753,7095065.072,6615781.172,5858861.337,3421269.52,2402016.115,1794322.36,6999662.84,8003598.58,28835330.08,17942143.88,26324989.90]
-
-          },{
-              yAxis: 1,
               name: 'BTC',
               color: '#F2A900',
               tooltip: {

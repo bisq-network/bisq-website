@@ -301,16 +301,13 @@ stats:
   hNetworkStats: Stats du réseau
   pSeeMarkets: "<p>Voir <a href='https://bisq.network/markets'>la page des marchés</a> pour le volume par devise.</p>"
   pBSQDistribution: La distribution des BSQ sur le Mainnet est prévue pour avril 2019.
-  pTotalTrades: >
-    <p class='stat-label'>Total des transactions</p> <p class='stat-figure'>32,318</p> <p class='stat-note'>Pour Juin 2019</p>
-  pDailyAverage: >
-    <p class='stat-label'>Moyenne journalière des transactions</p> <p class='stat-figure'>94</p> <p class='stat-note'>En Juin 2019</p>
-  pSoftwareDownloads: >
-    <p class='stat-label'>Téléchargements du logiciel</p> <p class='stat-figure'>13,723</p> <p class='stat-note'>For v1.1.2 (approximation)</p>
-  pGithubContributors: >
-    <p class='stat-label'>Contributeurs GitHub </p> <p class='stat-figure'>172</p> <p class='stat-note'>En Juin 2019</p>
-  pTwitterFollowers: >
-    <p class='stat-label'>Followers sur Twitter </p> <p class='stat-figure'>17,588</p> <p class='stat-note'>En Juin 2019</p>
-  pSlackUsers: >
-    <p class='stat-label'> Utilisateurs Slack</p> <p class='stat-figure'>1,183</p> <p class='stat-note'>En Juin 2019</p>
+  pTotalTrades: Total des transactions
+  pTotalDate: Au cours du mois dernier
+  pDailyAverageTrade: Moyenne journalière des transactions
+  pSoftwareDownloads: Téléchargements du logiciel
+  pSoftwareDownloadsVersion: For v1.1.2 (approximation)
+  pGithubContributors: Contributeurs GitHub
+  pToDate: Depuis le mois dernier
+  pTwitterFollowers: Followers sur Twitter
+  pSlackUsers: Utilisateurs Slack
   pNetworkLoad: "<p class='monitor-note'>Pour connaître la sollicitation du réseau P2P, les métriques Tor et d'autres données réseau, veuillez visiter le site Web du <a href='https://monitor.bisq.network' target='_blank'>contrôleur de réseau Bisq</a>.</p>"

@@ -301,16 +301,13 @@ stats:
   hNetworkStats: Netzwerk-Statistiken
   pSeeMarkets: "<p>Auf der <a href='https://bisq.network/markets'>Märkte Seite</a> finden Sie das Volumen je nach Währung.</p>"
   pBSQDistribution: Die Mainnet BSQ-Ausgabe ist für April 2019 geplant.
-  pTotalTrades: >
-    <p class='stat-label'>Trades insgesamt</p> <p class='stat-figure'>32.318</p> <p class='stat-note'>Bis Juni 2019</p>
-  pDailyAverage: >
-    <p class='stat-label'>Täglich durchschnittliche Trades</p> <p class='stat-figure'>94</p> <p class='stat-note'>Für Juni 2019</p>
-  pSoftwareDownloads: >
-    <p class='stat-label'>Software Downloads</p> <p class='stat-figure'>13.723</p> <p class='stat-note'>Für v1.1.2 (ungefähr)</p>
-  pGithubContributors: >
-    <p class='stat-label'>GitHub Mitarbeiter</p> <p class='stat-figure'>172</p> <p class='stat-note'>Stand: Juni 2019</p>
-  pTwitterFollowers: >
-    <p class='stat-label'>Twitter Follower</p> <p class='stat-figure'>17588</p> <p class='stat-note'>Stand: Juni 2019</p>
-  pSlackUsers: >
-    <p class='stat-label'>Slack User</p> <p class='stat-figure'>1.183</p> <p class='stat-note'>Stand: Juni 2019</p>
+  pTotalTrades: Trades insgesamt
+  pTotalDate: Während des letzten Monats
+  pDailyAverageTrade: Täglich durchschnittliche Trades
+  pSoftwareDownloads: Software Downloads
+  pSoftwareDownloadsVersion: Für v1.1.2 (ungefähr)
+  pGithubContributors: GitHub Mitarbeiter
+  pToDate: Bis Ende letzten Monats
+  pTwitterFollowers: Twitter Follower
+  pSlackUsers: Slack User
   pNetworkLoad: "<p class='monitor-note'>Für die P2P-Netzwerklast, Tor-Metriken und andere Netzwerkdaten besuchen Sie bitte den <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>"

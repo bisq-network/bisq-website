@@ -16,11 +16,11 @@
                       <div class="downloads-desktop btn-group os-selector-home col-sm-12 col-md-12 col-lg-5 px-0">
 
                           <!-- This what displays on the dropdown in collapsed state -->
-                          <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button" data-bisq-version="{{ site.client_version }}" data-site-url="{{ site.url }}">
+                          <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button" data-bisq-version="{{ site.client_version }}" data-site-url="">
                               <div class="id-win64 hidden">
                                   <div class="float-left">
-                                      <img src="{{ site.url }}/images/icon-windows-g.svg" class="os-icon os-icon-g">
-                                      <img src="{{ site.url }}/images/icon-windows-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g">
+                                      <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w">
                                       <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">{{ item.buttonWindows }}</a>
                                   </div>
                                   <div class="float-right">
@@ -30,8 +30,8 @@
 
                               <div class="id-mac hidden">
                                   <div class="float-left">
-                                      <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                                      <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g">
+                                      <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w">
                                       <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">{{ item.buttonMac }}</a>
                                   </div>
                                   <div class="float-right">
@@ -41,8 +41,8 @@
 
                               <div class="id-deb64 hidden">
                                   <div class="float-left">
-                                      <img src="{{ site.url }}/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
-                                      <img src="{{ site.url }}/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
+                                      <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
                                       <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">{{ item.buttonDebian }}</a>
                                   </div>
                                   <div class="float-right">
@@ -52,8 +52,8 @@
 
                               <div class="id-rpm64 hidden">
                                   <div class="float-left">
-                                      <img src="{{ site.url }}/images/icon-fedora-g.svg" class="os-icon os-icon-g">
-                                      <img src="{{ site.url }}/images/icon-fedora-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g">
+                                      <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w">
                                       <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">{{ item.buttonRedHat }}</a>
                                   </div>
                                   <div class="float-right">
@@ -63,12 +63,12 @@
 
                               <div class="id-all hidden">
                                   <div class="float-left">
-                                      <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
-                                      <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-download-g.svg" class="os-icon os-icon-g">
+                                      <img src="/images/icon-download-w.svg" class="os-icon os-icon-w">
                                       {{ item.buttonDownloads }}
                                   </div>
                                   <div class="float-right">
-                                      <a href="{{ site.url }}/{{ page.lang }}/downloads">{{ item.buttonGetBisq }}</a>
+                                      <a href="/{{ page.lang }}/downloads">{{ item.buttonGetBisq }}</a>
                                   </div>
                               </div>
                           </button>
@@ -85,23 +85,23 @@
                       </div>
 
 
-                      <a href="{{ site.url }}/{{ page.lang }}/downloads" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                          <img src="{{ site.url }}/images/icon-download-g.svg" class="os-icon os-icon-g">
-                          <img src="{{ site.url }}/images/icon-download-w.svg" class="os-icon os-icon-w">
+                      <a href="/{{ page.lang }}/downloads" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
+                          <img src="/images/icon-download-g.svg" class="os-icon os-icon-g">
+                          <img src="/images/icon-download-w.svg" class="os-icon os-icon-w">
                           {{ item.downloads }}
                       </a>
 
 
                       <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" rel="noopener" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
-                          <img src="{{ site.url }}/images/icon-android-g.svg" class="os-icon os-icon-g">
-                          <img src="{{ site.url }}/images/icon-android-w.svg" class="os-icon os-icon-w">
+                          <img src="/images/icon-android-g.svg" class="os-icon os-icon-g">
+                          <img src="/images/icon-android-w.svg" class="os-icon os-icon-w">
                           {{ item.androidNotificationsApp }}
                       </a>
 
 
                       <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank" rel="noopener" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
-                          <img src="{{ site.url }}/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                          <img src="{{ site.url }}/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                          <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g">
+                          <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w">
                           {{ item.iosNotificationApp }}
                       </a>
 
@@ -112,9 +112,9 @@
 
                       {% comment %}
 
-                      <a id="play-video" href="" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                                <img src="{{ site.url }}/images/icon-play-g.svg" class="os-icon os-icon-g">
-                                <img src="{{ site.url }}/images/icon-play-w.svg" class="os-icon os-icon-w">
+                      <a id="play-video" href="/" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
+                                <img src="/images/icon-play-g.svg" class="os-icon os-icon-g">
+                                <img src="/images/icon-play-w.svg" class="os-icon os-icon-w">
                                 Play Video
                       </a>
 
@@ -145,7 +145,7 @@
 
               </div>
               <div class="col-md-12 order-md-1 text-md-left homepage-hero">
-                <img class="img-fluid shadow-lg" alt="bisq" style="width: 100%; display: block;" src="{{ site.url }}/images/bisq_screen0.png">
+                <img class="img-fluid shadow-lg" alt="bisq" style="width: 100%; display: block;" src="/images/bisq_screen0.png">
               </div>
             </div>
 
@@ -164,46 +164,46 @@
       <h2>{{ item.hFeatures }}</h2>
       <div class="row align-items-center text-md-center text-left">
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-no-reg.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-no-reg.svg" />
           <h4>{{ item.hIdentityVerifications }}</h4>
           <p class="grey px-md-5">{{ item.pIdentityVerifications }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="{{ site.url }}/images/pic-decentralized.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="/images/pic-decentralized.svg" />
           <h4>{{ item.hDecentralized }}</h4>
           <p class="grey px-md-5">{{ item.pDecentralized }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="{{ site.url }}/images/pic-padlock.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="/images/pic-padlock.svg" />
           <h4>{{ item.hSafe }}</h4>
           <p class="grey px-md-5">{{ item.pSafe }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-private.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-private.svg" />
           <h4>{{ item.hPrivate }}</h4>
           <p class="grey px-md-5">{{ item.pPrivate }}</p>
         </div>
         {% comment %}
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-p2p.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-p2p.svg" />
           <h4>{{ item.hSecure }}</h4>
           <p class="grey px-md-5">{{ item.pSecure }}</p>
         </div>
         {% endcomment %}
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-open.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-open.svg" />
           <h4>{{ item.hOpen }}</h4>
           {{ item.pOpen }}
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/pic-easy.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-easy.svg" />
           <h4>{{ item.hEasy }}</h4>
           {{ item.pEasy }}
         </div>
         <div id="dao-callout" class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="{{ site.url }}/images/dao_homepage.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/dao_homepage.svg" />
           <h4>{{ item.hBisqDao }}</h4>
-          <p>{{ item.pBisqDao1 }} <a href="{{ site.url }}/dao">{{ item.pBisqDao2 }}</a>.</p>
+          <p>{{ item.pBisqDao1 }} <a href="/dao">{{ item.pBisqDao2 }}</a>.</p>
         </div>
       </div>
 
@@ -235,15 +235,15 @@
         {{ item.divGetStarted }}
       </div>
       <ol>
-        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="{{ site.url }}/downloads/">{{ item.liGetStarted1 }}</a>{{ item.liGetStarted2 }}</li>
+        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="/downloads/">{{ item.liGetStarted1 }}</a>{{ item.liGetStarted2 }}</li>
         {{ item.liGetStarted3 }}
       </ol>
     </div>
     <div class="col-12 col-md-7 offset-0 offset-md-1">
-      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="bisq" src="{{ site.url }}/images/bisq_screen0.png"></div>
-      <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="{{ site.url }}/images/bisq_screen1.png"></div>
-      <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="{{ site.url }}/images/bisq_screen0.png"></div>
-      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="{{ site.url }}/images/bisq_screen1.png"></div>
+      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen0.png"></div>
+      <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen1.png"></div>
+      <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen0.png"></div>
+      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen1.png"></div>
 
     </div>
   </div>
@@ -263,14 +263,14 @@
 
       <div class="col-12 col-md-6">
         <ul class="community-links grey community-home pl-0 pl-md-4 pt-4 pl-md-0 pt-md-0">
-          <li><img src="{{ site.url }}/images/community/github.svg" alt="github"> <a href="https://github.com/bisq-network">{{ item.liGithub }}</a></li>
-          <li><img src="{{ site.url }}/images/community/twitter.svg" alt="twitter"> <a href="https://twitter.com/bisq_network">{{ item.liTwitter }}</a></li>
-          <li><img src="{{ site.url }}/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">{{ item.liYoutube }}</a></li>
-          <li><img src="{{ site.url }}/images/community/slack.svg" alt="slack"> <a href="https://bisq.network/slack-invite">{{ item.liSlack }}</a></li>
-          <li><img src="{{ site.url }}/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">{{ item.liForum }}</a></li>
-          <li><img src="{{ site.url }}/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">{{ item.liMailingList }}</a></li>
-          <li><img src="{{ site.url }}/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">{{ item.liFreenodeIRC }}</a></li>
-          <li><img src="{{ site.url }}/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">{{ item.liSubreddit }}</a></li>
+          <li><img src="/images/community/github.svg" alt="github"> <a href="https://github.com/bisq-network">{{ item.liGithub }}</a></li>
+          <li><img src="/images/community/twitter.svg" alt="twitter"> <a href="https://twitter.com/bisq_network">{{ item.liTwitter }}</a></li>
+          <li><img src="/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">{{ item.liYoutube }}</a></li>
+          <li><img src="/images/community/slack.svg" alt="slack"> <a href="https://bisq.network/slack-invite">{{ item.liSlack }}</a></li>
+          <li><img src="/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">{{ item.liForum }}</a></li>
+          <li><img src="/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">{{ item.liMailingList }}</a></li>
+          <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">{{ item.liFreenodeIRC }}</a></li>
+          <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">{{ item.liSubreddit }}</a></li>
         </ul>
       </div>
 

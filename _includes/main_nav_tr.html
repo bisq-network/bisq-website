@@ -1,6 +1,6 @@
  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
-    <a class="navbar-brand" href="{{ site.url }}/{{ page.lang }}/"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
+    <a class="navbar-brand" href="/{{ page.lang }}/"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
 
     <!-- Language selector for mobile -->
     {% if page.lang %}
@@ -34,7 +34,7 @@
             {% if item.target == "_blank" %}
               <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
             {% else %}
-              <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+              <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
             {% endif %}
           </li>
         {% endfor %}
@@ -44,7 +44,7 @@
             {% if item.target == "_blank" %}
               <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
             {% else %}
-              <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+              <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
             {% endif %}
           </li>
         {% endfor %}
@@ -53,7 +53,7 @@
 
           {% assign item = site.data[page.lang].main_nav %}
           <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
-              <a class="nav-link" href="{{ site.url }}/{{ page.lang }}/downloads">{{ item.liDownloads }}</a>
+              <a class="nav-link" href="/{{ page.lang }}/downloads">{{ item.liDownloads }}</a>
           </li>
 
           <li class="downloads-desktop more-info-desktop nav-item dropdown">
@@ -69,13 +69,13 @@
 
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="{{ site.url }}/blog/">{{ item.liBlog }}</a>
+                  <a href="/blog/">{{ item.liBlog }}</a>
                 </div>
               </div>
 
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="{{ site.url }}/{{ page.lang }}/community/">{{ item.liCommunity }}</a>
+                  <a href="/{{ page.lang }}/community/">{{ item.liCommunity }}</a>
                 </div>
               </div>
             </div>

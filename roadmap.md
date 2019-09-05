@@ -8,7 +8,7 @@ banner: /images/roadmap1.png
 The Bisq Roadmap is a living document that shares the Bisq Team's vision and our current development priorities. This Roadmap is intended to provide an idea of when certain features are likely to become available.
 {: .mt-4 .col-sm-12 .col-md-10 .pl-0}
 
-This Roadmap might change at any time, especially in response to [Community]({{ site.url }}/community/) feedback.
+This Roadmap might change at any time, especially in response to [Community](/community/) feedback.
 {: .mt-4 .col-sm-12 .col-md-10 .pl-0}
 
 You can help speed up our progress by [contributing](https://docs.bisq.network/contributor-checklist.html) to Bisq.

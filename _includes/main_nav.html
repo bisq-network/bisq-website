@@ -1,6 +1,6 @@
  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
-    <a class="navbar-brand" href="{{ site.url }}"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
+    <a class="navbar-brand" href="/"><img src="{{ site.url }}/images/bisq-logo.svg" height="30"/></a>
 
     <!-- Language selector for mobile -->
     {% if page.lang %}
@@ -34,7 +34,7 @@
             {% if item.target == "_blank" %}
               <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
             {% else %}
-              <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+              <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
             {% endif %}
           </li>
           {% endfor %}
@@ -44,14 +44,14 @@
             {% if item.target == "_blank" %}
               <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
             {% else %}
-              <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+              <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
             {% endif %}
           </li>
           {% endfor %}
 
 
           <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
-              <a class="nav-link" href="{{ site.url }}/downloads">Downloads</a>
+              <a class="nav-link" href="/downloads">Downloads</a>
           </li>
 
           <li class="downloads-desktop more-info-desktop nav-item dropdown">
@@ -67,13 +67,13 @@
 
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="{{ site.url }}/blog/">Blog</a>
+                  <a href="/blog/">Blog</a>
                 </div>
               </div>
 
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="{{ site.url }}/community/">Community</a>
+                  <a href="/community/">Community</a>
                 </div>
               </div>
             </div>

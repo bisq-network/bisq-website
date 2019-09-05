@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="681" height="681" viewBox="0 0 681 681">
+  <defs>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
+
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-dao_benefits);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 15px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 300;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        opacity: 0.251;
+      }
+
+      .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 3;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 10 10;
+        opacity: 0.269;
+      }
+
+      .cls-8 {
+        stroke-width: 0.8px;
+      }
+    </style>
+    <clipPath id="clip-dao_benefits">
+      <rect width="681" height="681"/>
+    </clipPath>
+  </defs>
+  <g id="dao_benefits" class="cls-1">
+    <g id="Group_21" data-name="Group 21" transform="translate(-55.548 -2259.605)">
+      <text id="Trading_fees" data-name="Trading
+fees" class="cls-2" transform="translate(510.002 2554.057)"><tspan x="0" y="0">Trading</tspan><tspan x="0" y="17">fees</tspan></text>
+      <text id="BSQ_issued_for_compensations" data-name="BSQ issued
+for compensations" class="cls-2" transform="translate(470.921 2727.626)"><tspan x="0" y="0">BSQ issued </tspan><tspan x="0" y="17">for compensations</tspan></text>
+      <line id="Line_7" data-name="Line 7" class="cls-3" x2="532.346" transform="translate(125.938 2804.709)"/>
+      <line id="Line_8" data-name="Line 8" class="cls-4" x2="532.346" transform="translate(125.938 2702.407)"/>
+      <line id="Line_9" data-name="Line 9" class="cls-4" x2="532.346" transform="translate(125.938 2600.105)"/>
+      <line id="Line_10" data-name="Line 10" class="cls-4" x2="532.346" transform="translate(125.938 2497.802)"/>
+      <line id="Line_11" data-name="Line 11" class="cls-4" x2="532.346" transform="translate(125.938 2395.5)"/>
+      <path id="Path_11" data-name="Path 11" class="cls-5" d="M5003,2921.9c432.112-32.58,532.346-374.071,532.346-374.071" transform="translate(-4877.062 -131.557)"/>
+      <path id="Path_10" data-name="Path 10" class="cls-6" d="M5005.522,2688.165c411.865,0,529.446-140.337,529.446-140.337" transform="translate(-4876.686 52.277)"/>
+      <line id="Line_18" data-name="Line 18" class="cls-7" y2="409.209" transform="translate(392.11 2395.5)"/>
+    </g>
+  </g>
+</svg>

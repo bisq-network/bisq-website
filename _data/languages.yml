@@ -24,7 +24,7 @@
   site_desc: "Bisq est une application desktop open-source qui vous permet d'acheter et de vendre des bitcoins contre des devises nationales ou des altcoins."
 - name: "日本語"
   tag: "ja"
-  enabled: No
+  enabled: Yes
   accept_languages: ["ja", "ja-jp"]
   site_name: "Bisq - 取引所、非中央集権化された"
   site_desc: "Bisqは、各国通貨と引き換えに暗号通貨と売買できるオープンソースのピアツーピアアプリケーションです。登録は不要です。"

@@ -14,8 +14,13 @@ language: English
 <h1>Network Stats</h1>
 
 <div class='chart-stat-container'>
-    <div class='stat-chart' id="volume-container"></div>
-    <p>See <a href='{{ site.url }}/markets'>Markets page</a> for volume by currency.</p>
+    <div class='stat-chart' id="fiat-volume-container"></div>
+    {{  site.data.strings_en.stats.pSeeMarkets }}
+</div>
+
+<div class='chart-stat-container'>
+  {{  site.data.strings_en.stats.pSeeMarkets }}
+    <div class='stat-chart' id="altcoin-volume-container"></div>
 </div>
 
 <div class='chart-stat-container'>

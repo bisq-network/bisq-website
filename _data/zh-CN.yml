@@ -335,7 +335,7 @@ stats:
   pTotalDate: 上月数据
   pDailyAverageTrade: 每日交易数
   pSoftwareDownloads: 软件下载数<
-  pSoftwareDownloadsVersion: 在 v1.1.2（近似数）
+  pSoftwareDownloadsVersion: 在 v1.1.5（近似数）
   pGithubContributors: GitHub 贡献者
   pToDate: 截止上月
   pTwitterFollowers: Twitter 粉丝数

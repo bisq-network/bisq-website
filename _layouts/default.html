@@ -1,5 +1,11 @@
 <!doctype html>
 <html lang="{{ page.lang }}">
+{% for language in site.data.languages %}
+  {% if language.tag == page.lang %}
+    {% assign langdata = language %}
+	{% break %}
+  {% endif %}
+{% endfor %}
 
     <head>
 
@@ -8,19 +14,19 @@
 
         <meta name="author" content="Bisq">
 
-        <meta name="description" content="{{ site.description }}">
+        <meta name="description" content="{{ langdata.site_desc }}">
         <meta name="image" content="/images/bisq-og.jpg">
         <meta itemprop="name" content="Bisq">
-        <meta itemprop="description" content="{{ site.description }}">
+        <meta itemprop="description" content="{{ langdata.site_desc }}">
         <meta itemprop="image" content="/images/bisq-og.jpg">
         <meta name="og:title" content="{{ page.title }}">
-        <meta name="og:description" content="{{ site.description }}">
+        <meta name="og:description" content="{{ langdata.site_desc }}">
         <meta name="og:image" content="/images/bisq-og.jpg">
-        <meta name="og:site_name" content="Bisq - The decentralized Bitcoin exchange">
+        <meta name="og:site_name" content="{{ langdata.site_name }}">
         <meta name="og:type" content="website">
         <meta property="twitter:title" content="{{ page.title }}">
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:site" content="Bisq - The decentralized Bitcoin exchange">
+        <meta property="twitter:site" content="{{ langdata.enabled }}">
         <meta name="twitter:creator" content="@bisq_network">
         <link rel="canonical" href="{{ page.url }}">
         {% if page.lang == "ja" %}

@@ -183,6 +183,112 @@ fr:
   id: avantages
 
 
+ja:
+- title: "Bisq DAO"
+  intro: "収益分配と意思決定を非中央集権化させて、Bisqを自立させ、検閲抵抗性を持たせます。<span class=\"footnote\">DAOは、Decentralized Autonomous Organization（非中央集権化された自律組織）の略です。</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">もっと見る&darr;</a>"
+  img: /ja/images/DAO/dao_intro.svg
+  class: -main
+  id: intro
+
+
+
+
+
+
+
+- title: なぜ？
+  intro: "<p>現在、Bisqのトレードは非中央集権化されていますが、収益分配と意思決定はそうではありません。</p><p> Bisqが検閲に抵抗することが重要であり、トレードプロトコルとP2Pネットワークがこれを実現します―トレーダーのために。</p><p> Bisqの開発者はどうですか？ 従来の法的構造では、プロジェクトの意思決定と収益分配は中央集権化され、これにより脆弱性が生じていました。</p>"
+  href_text: DAOについてもっと知る ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /ja/images/DAO/dao_why.svg
+  id: why
+
+
+
+
+
+
+- title: Bisq DAOとは何ですか？
+  intro: "<p>Bisq DAOは、トレーダーから貢献者への価値の転送を可能にします。 BSQトークンは、これを非中央集権型の方法で可能にします。</p><p> トレード手数料は、Bisqを無国籍かつ主権を維持するために、企業やその他の法人に制限されることなく貢献者へと分配されます。</p>"
+  href_text: DAOについてもっと知る ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /ja/images/DAO/dao_what.svg
+  id: what
+
+
+
+
+
+
+- title: どのように動作するのか？
+  intro: "
+          <div class=\"subtitle pt-4\">
+            Revenue distribution
+          </div>
+
+          <div class=\"small\">
+            <p>
+              To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. Contributors are issued new BSQ when stakeholders approve their compensation requests through voting, and BSQ gets “uncolored” when traders use it to pay trading fees.
+            </p>
+            <p>
+              There is no central entity collecting or creating BSQ—Bisq stakeholders are collectively in charge of the issuance process.
+            </p>
+            <p class=\"disclaimer\">
+              This is not an ICO. No BSQ is sold to raise capital.
+            </p>
+          </div>
+
+
+          <div class=\"subtitle pt-3\">
+            Decision-making
+          </div>
+
+          <div class=\"small\">
+            <p>
+              With no CEO or central leadership team, Bisq stakeholders—traders and contributors—are the owners of Bisq.
+            </p>
+            <p>
+              Through social consensus (via voting) they determine Bisq's project strategy.
+            </p>
+
+          </div>
+          "
+  href_text: DAOについてもっと知る ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /ja/images/DAO/dao_how.svg
+  id: how
+
+
+
+- title: "Benefits"
+  intro: "
+    <div class=\"subtitle\">Traders: Make Bisq sustainable</div>
+    <ul class=\"small pb-5\">
+      <li>Help Bisq deliver consistent professional development and support by buying BSQ from contributors</li>
+      <li>Help make Bisq the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li>
+      <li>Enjoy a discount if you use BSQ to pay trading fees</li>
+      <li>You can still pay trading fees with plain BTC if you like</li>
+    </ul>
+    <div class=\"subtitle\">Contributors: Earn BSQ</div>
+    <ul class=\"small pb-5\">
+      <li>Do valuable work, request compensation, earn BSQ</li>
+      <li>Sell BSQ on Bisq for BTC</li>
+      <li>Vote on compensation requests of other contributors</li>
+      <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid</li>
+    </ul>"
+  href_text: DAOについてもっと知る ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /ja/images/DAO/dao_benefits.svg
+  id: benefits
+
 pt-PT:
 - title: "A OAD do Bisq"
   intro: " Descentralizando a distribuição da receita e a tomada de decisões para tornar o Bisq auto-sustentável e resistente à censura. <span class=\"footnote\">OAD significa Organização Autónoma Descentralizada</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Ver mais &darr;</a> "

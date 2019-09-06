@@ -88,6 +88,36 @@ fr:
       url: "https://docs.bisq.network/"
       target: _blank
 
+ja:
+  links:
+
+    - title: ビジョン
+      url: /ja/vision/
+
+    - title: Bisq DAO
+      url: /ja/dao/
+
+    - title: 統計
+      url: /ja/stats/
+
+    - title: FAQ
+      url: /ja/faq/
+
+    - title: 市場
+      url: /ja/markets/
+
+  mobile_links:
+
+    - title: コミュニティー
+      url: /ja/community/
+
+    - title: ブログ
+      url: /blog/
+
+    - title: ドキュメンテーション
+      url: "https://docs.bisq.network/"
+      target: _blank
+
 pt-PT:
   links:
 

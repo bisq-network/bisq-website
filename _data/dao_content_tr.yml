@@ -1,7 +1,7 @@
 de:
 - title: "Die Bisq DAO"
   intro: " Dezentralisierung der Erlösverteilung und Entscheidungsfindung, um Bisq selbsttragend und zensurresistent zu machen. <span class=\"footnote\">DAO steht für Dezentrale Autonome Organisation</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Mehr anzeigen &darr;</a> "
-  img: ../images/DAO/dao_intro_de.svg
+  img: /images/DAO/dao_intro_de.svg
   class: -main
   id: intro
 
@@ -17,7 +17,7 @@ de:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_why_de.svg
+  img: /images/DAO/dao_why_de.svg
   id: why
 
 
@@ -31,7 +31,7 @@ de:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_what_de.svg
+  img: /images/DAO/dao_what_de.svg
   id: what
 
 
@@ -45,7 +45,7 @@ de:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_how_de.svg
+  img: /images/DAO/dao_how_de.svg
   id: how
 
 
@@ -56,14 +56,14 @@ de:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_benefits_de.svg
+  img: /images/DAO/dao_benefits_de.svg
   id: benefits
 
 
 es:
 - title: "La DAO Bisq"
   intro: "Descentralizando la distribución de ingresos y la toma de decisiones para hacer que Bisq sea autosustentable y resistentente a la censura. <span class=\"footnote\">DAO significa Organización Autónoma Descentralizada.</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Ver más &darr;</a> "
-  img: ../images/DAO/dao_intro_es.svg
+  img: /images/DAO/dao_intro_es.svg
   class: -main
   id: intro
 
@@ -79,7 +79,7 @@ es:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_why_es.svg
+  img: /images/DAO/dao_why_es.svg
   id: porqué
 
 
@@ -93,7 +93,7 @@ es:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_what_es.svg
+  img: /images/DAO/dao_what_es.svg
   id: que
 
 
@@ -107,7 +107,7 @@ es:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_how_es.svg
+  img: /images/DAO/dao_how_es.svg
   id: how
 
 
@@ -118,13 +118,13 @@ es:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_benefits_es.svg
+  img: /images/DAO/dao_benefits_es.svg
   id: beneficios
 
 fr:
 - title: "La DAO de Bisq"
   intro: "Répartition décentralisée des revenus et de la prise de décision pour rendre Bisq autonome et résistant à la censure. <span class=\"footnote\">DAO est l'abréviation de Decentralized Autonomous Organisation</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">En savoir plus &darr;</a> "
-  img: ../images/DAO/dao_intro_fr.svg
+  img: /images/DAO/dao_intro_fr.svg
   class: -main
   id: intro
 
@@ -140,7 +140,7 @@ fr:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_why_fr.svg
+  img: /images/DAO/dao_why_fr.svg
   id: Pourquoi
 
 
@@ -154,7 +154,7 @@ fr:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_what_fr.svg
+  img: /images/DAO/dao_what_fr.svg
   id: quel
 
 
@@ -168,7 +168,7 @@ fr:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_how_fr.svg
+  img: /images/DAO/dao_how_fr.svg
   id: Comment
 
 
@@ -179,14 +179,14 @@ fr:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_benefits_fr.svg
+  img: /images/DAO/dao_benefits_fr.svg
   id: avantages
 
 
 pt-PT:
 - title: "A OAD do Bisq"
   intro: " Descentralizando a distribuição da receita e a tomada de decisões para tornar o Bisq auto-sustentável e resistente à censura. <span class=\"footnote\">OAD significa Organização Autónoma Descentralizada</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Ver mais &darr;</a> "
-  img: ../images/DAO/dao_intro_ptpt.svg
+  img: /images/DAO/dao_intro_ptpt.svg
   class: -main
   id: intro
 
@@ -202,7 +202,7 @@ pt-PT:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_why_ptpt.svg
+  img: /images/DAO/dao_why_ptpt.svg
   id: why
 
 
@@ -216,7 +216,7 @@ pt-PT:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_what_ptpt.svg
+  img: /images/DAO/dao_what_ptpt.svg
   id: what
 
 
@@ -230,7 +230,7 @@ pt-PT:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_how_ptpt.svg
+  img: /images/DAO/dao_how_ptpt.svg
   id: how
 
 
@@ -241,13 +241,13 @@ pt-PT:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_benefits_ptpt.svg
+  img: /images/DAO/dao_benefits_ptpt.svg
   id: benefits
 
 zh-CN:
 - title: "Bisq DAO"
   intro: "分散收入分配和决策，使 Bisq 能够自我维持和抵制审查。<span class=\"footnote\">DAO 代表分散自治组织</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">了解更多</a>"
-  img: ../images/DAO/dao_intro_zhcn.svg
+  img: /images/DAO/dao_intro_zhcn.svg
   class: -main
   id: intro
 
@@ -263,7 +263,7 @@ zh-CN:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_why_zhcn.svg
+  img: /images/DAO/dao_why_zhcn.svg
   id: why
 
 
@@ -277,7 +277,7 @@ zh-CN:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_what_zhcn.svg
+  img: /images/DAO/dao_what_zhcn.svg
   id: what
 
 
@@ -291,7 +291,7 @@ zh-CN:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_how_zhcn.svg
+  img: /images/DAO/dao_how_zhcn.svg
   id: how
 
 
@@ -302,5 +302,5 @@ zh-CN:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_benefits_zhcn.svg
+  img: /images/DAO/dao_benefits_zhcn.svg
   id: benefits

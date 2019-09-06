@@ -56,7 +56,7 @@ A compensation request is what you will use to ask the network of stakeholders f
 
 Here’s a sample of what your compensation request may look like:
 
-![Compensation Request](../../images/github-compensation-request-example.png)
+![Compensation Request](/images/github-compensation-request-example.png)
 
 This compensation request is from Aruna Surya. Aruna launched the blog initiative for Bisq and has contributed to the editing of blog posts as well as the organization of the blogging process.
 

@@ -84,7 +84,7 @@ DAO voting approved these increases.
 
 This is how the BSQ fee schedule changed:
 
-<img src="../../images/blog/fee-increases-cycle-2.png" alt="Fee increase for Cycle 2`">
+<img src="/images/blog/fee-increases-cycle-2.png" alt="Fee increase for Cycle 2`">
 
 Couple of notes:
 <ol>
@@ -118,7 +118,7 @@ Following the continued strength of BSQ usage and trading, Cycle 3 voting result
 
 The fee schedule this voting cycle approved look like this:
 
-<img src="../../images/blog/fee-increases-cycle-3.png" alt="Fee increase for Cycle 3">
+<img src="/images/blog/fee-increases-cycle-3.png" alt="Fee increase for Cycle 3">
 
 Notes:
 <ol>
@@ -147,7 +147,7 @@ The one [generic proposal](https://github.com/bisq-network/proposals/issues/74) 
 
 The proposals to change parameters were again for fee increases. The result:
 
-<img src="../../images/blog/fee-increases-cycle-4.png" alt="Fee increase for Cycle 4`">
+<img src="/images/blog/fee-increases-cycle-4.png" alt="Fee increase for Cycle 4`">
 
 Notes:
 <ol>

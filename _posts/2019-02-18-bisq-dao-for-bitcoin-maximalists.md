@@ -28,7 +28,7 @@ You may counter that Bisq is working just fine right now without a DAO. And you'
 
 Observe:
 
-![DAO Before/After](../../images/dao-before-after.png)
+![DAO Before/After](/images/dao-before-after.png)
 
 The network functions just fine for traders in both cases: it's distributed with no single points of failure.
 

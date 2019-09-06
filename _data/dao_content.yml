@@ -4,7 +4,7 @@
           <span class=\"footnote\">DAO stands for Decentralized Autonomous Organisation</span>
           <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">See more &darr;</a>
         "
-  img: ../images/DAO/dao_intro.svg
+  img: /images/DAO/dao_intro.svg
   class: -main
   id: intro
 
@@ -24,7 +24,7 @@
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_why.svg
+  img: /images/DAO/dao_why.svg
   id: why
 
 
@@ -41,7 +41,7 @@
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_what.svg
+  img: /images/DAO/dao_what.svg
   id: what
 
 
@@ -86,7 +86,7 @@
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_how.svg
+  img: /images/DAO/dao_how.svg
   id: how
 
 
@@ -111,5 +111,5 @@
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: ../images/DAO/dao_benefits.svg
+  img: /images/DAO/dao_benefits.svg
   id: benefits

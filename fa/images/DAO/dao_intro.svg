@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="681"
@@ -41,7 +42,7 @@
      showgrid="false"
      inkscape:pagecheckerboard="true"
      inkscape:zoom="1.3861968"
-     inkscape:cx="232.53477"
+     inkscape:cx="225.32079"
      inkscape:cy="291.27835"
      inkscape:window-x="0"
      inkscape:window-y="32"
@@ -49,6 +50,18 @@
      inkscape:current-layer="dao_intro" />
   <defs
      id="defs970">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1143">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1139" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop1141" />
+    </linearGradient>
     <style
        type="text/css"
        id="style961">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
@@ -127,6 +140,15 @@
          height="681"
          id="rect967" />
     </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1143"
+       id="linearGradient1145"
+       x1="500.22171"
+       y1="466"
+       x2="571.44827"
+       y2="466"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      id="dao_intro"
@@ -229,13 +251,14 @@
        id="Bisq_Network"
        data-name="Bisq Network"
        class="cls-6"
-       style="font-weight:200;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff"
+       style="font-weight:200;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:url(#linearGradient1145);fill-opacity:1"
        x="545.00891"
        y="470.41406">
       <tspan
          x="499.0889"
          y="470.41406"
-         id="tspan996">شبکه Bisq</tspan>
+         id="tspan996"
+         style="fill-opacity:1;fill:#ffffff">شبکه Bisq</tspan>
     </text>
     <text
        id="Trader"
@@ -373,22 +396,22 @@
          sodipodi:role="line"
          x="388.27408"
          y="403.48593"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;line-height:1;font-family:'IBM Plex Sans', sans-serif;-inkscape-font-specification:'IBM Plex Sans, sans-serif Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.66666667px;line-height:1;font-family:'IBM Plex Sans', sans-serif;-inkscape-font-specification:'IBM Plex Sans, sans-serif Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
          id="tspan1137">BSQ</tspan><tspan
          sodipodi:role="line"
          x="390.82095"
          y="419.48593"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;line-height:1;font-family:'IBM Plex Sans', sans-serif;-inkscape-font-specification:'IBM Plex Sans, sans-serif Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.66666667px;line-height:1;font-family:'IBM Plex Sans', sans-serif;-inkscape-font-specification:'IBM Plex Sans, sans-serif Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
          id="tspan1010">بیتکوین </tspan><tspan
          sodipodi:role="line"
          x="388.27408"
          y="435.48593"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;line-height:1;font-family:'IBM Plex Sans', sans-serif;-inkscape-font-specification:'IBM Plex Sans, sans-serif Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.66666667px;line-height:1;font-family:'IBM Plex Sans', sans-serif;-inkscape-font-specification:'IBM Plex Sans, sans-serif Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
          id="tspan1682">رنگ</tspan><tspan
          sodipodi:role="line"
          x="388.27408"
          y="451.48593"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16px;line-height:1;font-family:'IBM Plex Sans', sans-serif;-inkscape-font-specification:'IBM Plex Sans, sans-serif Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:14.66666667px;line-height:1;font-family:'IBM Plex Sans', sans-serif;-inkscape-font-specification:'IBM Plex Sans, sans-serif Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
          id="tspan1680"> شده است</tspan></text>
   </g>
 </svg>

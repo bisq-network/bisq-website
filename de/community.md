@@ -32,5 +32,6 @@ outdated_translation: false
   <ul class="mt-sm-0 mb-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
     <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">#bisq auf Freenode IRC</a><br>IRC Freenode Server für mehr dezentralen Chat</li>
     <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">r/Bisq Subreddit</a><br>Erhalten Sie Unterstützung und werden Sie Teil der Community im Bisq Subreddit</li>
+    <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">Bisq Keybase team</a><br>Join the Bisq team on Keybase</li>
   </ul>
 </div>

@@ -32,5 +32,6 @@ outdated_translation: false
   <ul class="mt-sm-0 mb-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
     <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">Freenode IRC 上的 #bisq</a><br>IRC freenode 服务器意味着更加去中心化的交流</li>
     <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">r/Bisq 的 reddit 分话题</a><br>在 Bisq 的 reddit 分话题获得帮助并融入社区</li>
+    <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">Bisq Keybase team</a><br>Join the Bisq team on Keybase</li>
   </ul>
 </div>

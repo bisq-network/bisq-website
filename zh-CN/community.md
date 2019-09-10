@@ -3,6 +3,7 @@ layout: page
 title: Bisq &lsaquo; 社区 - 去中心化比特币交易
 ref: community
 lang: zh-CN
+flag: 🇨🇳
 language: 简体中文
 outdated_translation: false
 ---

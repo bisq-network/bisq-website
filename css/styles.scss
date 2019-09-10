@@ -498,6 +498,7 @@ footer, footer ul li {
   background-color: #fff !important;
   padding: 0 1rem;
   height: 70px;
+  white-space: nowrap;
 }
 
 .nav-link {
@@ -506,10 +507,6 @@ footer, footer ul li {
   letter-spacing: 0.03rem;
   margin-left: 2rem;
   padding: 23px 1rem;
-}
-
-.nav-link.visible-language, .dropdown.mobile-language-selector button {
-    text-transform: uppercase;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
@@ -522,9 +519,12 @@ footer, footer ul li {
   border-bottom: #25B135 1px solid;
 }
 
+.navbar-brand {
+	margin-right: 0.65rem;
+}
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
 }
 
 nav .mobile-language-selector {
@@ -873,7 +873,7 @@ front page
 
 /****************/
 
-@media (max-width: 990px) {
+@media (max-width: 991px) {
 
     .accordion-toggle {
       padding-right: 0;

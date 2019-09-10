@@ -62,6 +62,7 @@ homepage_content:
   liMailingList: Mailing list des contributeurs de Bisq
   liFreenodeIRC: "#bisq sur le Freenode IRC"
   liSubreddit: r/Bisq Subreddit
+  liKeybase: "Bisq Keybase team"
 
 main_nav:
   liDownloads: Téléchargements

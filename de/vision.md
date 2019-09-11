@@ -3,7 +3,6 @@ layout: page
 title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: vision
 lang: de
-flag: 🇩🇪
 language: Deutsch
 outdated_translation: false
 ---

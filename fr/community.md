@@ -3,7 +3,6 @@ layout: page
 title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: community
 lang: fr
-flag: 🇫🇷
 language: Français
 outdated_translation: false
 ---

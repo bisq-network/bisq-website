@@ -27,6 +27,71 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.1.6
+{: .mt-5 .mb-2}
+Released [September 16th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.6)
+
+This version includes important improvements which require that all traders update for compatibility reasons.
+Trader chat enables users to have direct encrypted communication during the trade to resolve minor problems.
+Mediation is an additional dispute resolution layer before a trade goes to arbitration. Mediators do not have a key in the multisig escrow, so they can only evaluate a situation and make a suggestion. If this suggestion is accepted by both traders, the trade can be completed without involving an arbitrator. Otherwise, the trade goes to arbitration. See more information [here](https://docs.bisq.network/trading-rules.html#mediation).
+For backward compatibility reasons, mediation will be activated in 2 steps. 
+- **By September 19, all traders need to have updated to v1.1.6, or they will not be able to trade.**
+- **On September 26, mediation will become available.**
+
+Additionally this version features a dark mode, adds Japan Bank transfer and we've lifted the 0.01 BTC limit for all markets except USD, EUR, CAD, GBP, AUD and BRL.
+
+###### DAO
+- [Avoid validating proposals during initial sync](https://github.com/bisq-network/bisq/pull/3003)
+- [Check that proposal is in correct cycle for vote result](https://github.com/bisq-network/bisq/pull/3062)
+- [Don't force close on checkpoint fail](https://github.com/bisq-network/bisq/pull/3064)
+- [Prevent NullPointerException in proposals view](https://github.com/bisq-network/bisq/pull/3118)
+- [Fix incorrect DAO full node check when loading preferences](https://github.com/bisq-network/bisq/pull/3127)
+- [Improve processing of removed proposals](https://github.com/bisq-network/bisq/pull/3148)
+- [Update data storage on expired data removal](https://github.com/bisq-network/bisq/pull/3150)
+- [Do not send BSQ blocks to full nodes](https://github.com/bisq-network/bisq/pull/3151)
+- [Group burned BSQ by day](https://github.com/bisq-network/bisq/pull/3157)
+- [Add average BSQ price in Dashboard](https://github.com/bisq-network/bisq/pull/3212)
+- [Add BSQ price trend indicator](https://github.com/bisq-network/bisq/pull/3226)
+
+###### UI
+- [Add dark mode](https://github.com/bisq-network/bisq/pull/3152)
+- [Translation improvements](https://github.com/bisq-network/bisq/pull/3008)
+- [High/low values are swapped in trade statistics candle popup](https://github.com/bisq-network/bisq/pull/2976)
+- [Show median value in trade statistics candle popup](https://github.com/bisq-network/bisq/pull/2976)
+- [Confusing message after making a payment](https://github.com/bisq-network/bisq/pull/2976)
+- [Update trading amount on Error to prevent popup loop](https://github.com/bisq-network/bisq/pull/3076)
+- [Improve usage of available height for lists](https://github.com/bisq-network/bisq/pull/3077) 
+- [Fix bugs in searchable dropdown](https://github.com/bisq-network/bisq/pull/3124)
+- [Increase top navigation button text size for Japanese locale](https://github.com/bisq-network/bisq/pull/3133)
+
+###### Trading
+- [Add mediation support](https://github.com/bisq-network/bisq/pull/3221)
+- [Add chat for traders](https://github.com/bisq-network/bisq/pull/3165)
+- [Add new payment method: Japan Bank Transfer](https://github.com/bisq-network/bisq/pull/3225)
+- [Add Export to CSV in Portfolio History](https://github.com/bisq-network/bisq/pull/3040)
+- [Render proper column headers and values for CSV exports](https://github.com/bisq-network/bisq/pull/3090)
+- [Auto remove whitespace in the IBAN input field](https://github.com/bisq-network/bisq/pull/3103)
+
+###### Wallet
+- [Make RPC host configurable](https://github.com/bisq-network/bisq/pull/2983)
+
+###### Security
+- [Update Tor to 0.4.0.5](https://github.com/bisq-network/bisq/pull/3048)
+
+###### Monitoring
+- [Lots of minor Monitor improvements](https://github.com/bisq-network/bisq/pull/3045)
+
+###### Development
+- [Log stacktrace to logfile when a task fails](https://github.com/bisq-network/bisq/pull/2997)
+
+###### Assets
+- [Namecoin (NMC) update AddressValidator](https://github.com/bisq-network/bisq/pull/2981)
+- [Update KYD to KYDC listing to be conform ISO_4217](https://github.com/bisq-network/bisq/pull/2964)
+- [Update legacy assets with proper AddressValidator](https://github.com/bisq-network/bisq/pull/3009)
+- [Add support for Monero integrated addresses](https://github.com/bisq-network/bisq/pull/3248)
+
+Added 14 new asset: DarkPay (D4RK), Emercoin (EMC), Ergo (ERG), Know Your Developer (KYDC), Kore (KORE), Masari (MSR), Particl (PART), PENG Coin (PENG), SixEleven (SIL), Solo (XSL), VARIUS Coin (VARIUS), Vertcoin (VTC), WORX Coin (WORX)
+
 ##### Version 1.1.5
 {: .mt-5 .mb-2}
 Released [August 8th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.5)

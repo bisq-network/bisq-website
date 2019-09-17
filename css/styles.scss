@@ -51,6 +51,10 @@ strong {
   background: #f3f3f3
 }
 
+.note {
+    font-style: italic;
+}
+
 
 .dark-grey a,
 .darker-grey a {
@@ -871,7 +875,35 @@ front page
     margin-bottom: 0;
 }
 
+
+/*****************
+faq page
+*****************/
+
+#faq-tables {
+    margin-bottom: 25px;
+}
+
+#faq-tables table {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+#faq-tables th {
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #ccc;
+    text-transform: uppercase;
+}
+
+#faq-tables tr {
+    border-bottom: #ececec 1px solid;
+    margin: 20px 0;
+}
+
+
 /****************/
+
 
 @media (max-width: 991px) {
 
@@ -954,7 +986,7 @@ front page
     }
 
     td {
-      padding: 0.6rem 0.5rem 0.6rem 0;
+      padding: 0.6rem 1rem 0.6rem 0;
       vertical-align: text-top;
     }
 

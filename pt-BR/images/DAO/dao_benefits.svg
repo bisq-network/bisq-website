@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="681"
+   height="681"
+   viewBox="0 0 681 681"
+   version="1.1"
+   id="svg4110"
+   sodipodi:docname="dao_benefits.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata4114">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     id="namedview4112"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="0.49009457"
+     inkscape:cx="909.88783"
+     inkscape:cy="500.64149"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group_21" />
+  <defs
+     id="defs4088">
+    <style
+       type="text/css"
+       id="style4081">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
+    <style
+       id="style4083">
+      .cls-1 {
+        clip-path: url(#clip-dao_benefits);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 15px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 300;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        opacity: 0.251;
+      }
+
+      .cls-5 {
+        stroke-width: 2px;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 3;
+      }
+
+      .cls-7 {
+        stroke-dasharray: 10 10;
+        opacity: 0.269;
+      }
+
+      .cls-8 {
+        stroke-width: 0.8px;
+      }
+    </style>
+    <clipPath
+       id="clip-dao_benefits">
+      <rect
+         width="681"
+         height="681"
+         id="rect4085" />
+    </clipPath>
+  </defs>
+  <g
+     id="dao_benefits"
+     class="cls-1"
+     clip-path="url(#clip-dao_benefits)">
+    <g
+       id="Group_21"
+       data-name="Group 21"
+       transform="translate(-55.548 -2259.605)">
+      <text
+         id="Trading_fees"
+         data-name="Trading fees"
+         class="cls-2"
+         style="font-weight:300;font-size:15px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff"
+         x="472.00201"
+         y="2554.0569">
+        <tspan
+           sodipodi:role="line"
+           id="tspan4661"
+           x="472.00201"
+           y="2554.0569">Taxa de</tspan>
+        <tspan
+           sodipodi:role="line"
+           x="472.00201"
+           y="2572.8069"
+           id="tspan4665">negociação</tspan>
+      </text>
+      <text
+         id="BSQ_issued_for_compensations"
+         data-name="BSQ issued for compensations"
+         class="cls-2"
+         transform="translate(470.921,2727.626)"
+         style="font-weight:300;font-size:15px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+        <tspan
+           sodipodi:role="line"
+           id="tspan4667"
+           x="0"
+           y="0">BSQ emitido</tspan>
+        <tspan
+           sodipodi:role="line"
+           x="0"
+           y="18.75"
+           id="tspan4669">para compensações</tspan>
+      </text>
+      <line
+         id="Line_7"
+         data-name="Line 7"
+         class="cls-3"
+         x2="532.346"
+         transform="translate(125.938 2804.709)" />
+      <line
+         id="Line_8"
+         data-name="Line 8"
+         class="cls-4"
+         x2="532.346"
+         transform="translate(125.938 2702.407)" />
+      <line
+         id="Line_9"
+         data-name="Line 9"
+         class="cls-4"
+         x2="532.346"
+         transform="translate(125.938 2600.105)" />
+      <line
+         id="Line_10"
+         data-name="Line 10"
+         class="cls-4"
+         x2="532.346"
+         transform="translate(125.938 2497.802)" />
+      <line
+         id="Line_11"
+         data-name="Line 11"
+         class="cls-4"
+         x2="532.346"
+         transform="translate(125.938 2395.5)" />
+      <path
+         id="Path_11"
+         data-name="Path 11"
+         class="cls-5"
+         d="M5003,2921.9c432.112-32.58,532.346-374.071,532.346-374.071"
+         transform="translate(-4877.062 -131.557)" />
+      <path
+         id="Path_10"
+         data-name="Path 10"
+         class="cls-6"
+         d="M5005.522,2688.165c411.865,0,529.446-140.337,529.446-140.337"
+         transform="translate(-4876.686 52.277)" />
+      <line
+         id="Line_18"
+         data-name="Line 18"
+         class="cls-7"
+         y2="409.209"
+         transform="translate(392.11 2395.5)" />
+    </g>
+  </g>
+</svg>

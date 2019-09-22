@@ -4,9 +4,13 @@ title: Bisq - The decentralized Bitcoin exchange
 banner: /images/bitsquare-home2.jpg
 ref: index
 lang: fa
+<<<<<<< HEAD
 flag: 🇮🇷
 language: فارسی
 outdated_translation: false
+=======
+language: فارسی
+>>>>>>> 34bf511999d050784f7bc8326f6857d143ba3024
 ---
 
 <iframe src="https://www.youtube-nocookie.com/embed/jj4x4x1OlAY?rel=0&amp;showinfo=0" width="704" height="396" frameborder="0"  allowfullscreen="allowfullscreen" allow="autoplay; encrypted-media"></iframe>

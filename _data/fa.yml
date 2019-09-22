@@ -22,9 +22,9 @@ homepage_content:
   androidNotificationsApp: دریافت برنامه اعلانهای اندروید
   iosNotificationApp: دریافت برنامه اعلانهای IOS
   getStarted: شروع کنید »
-  runningWindows: به نظر میرسد ویندوز در حال اجرا است
-  runningMac: به نظر میرسد مک در حال اجرا است
-  runnigDebian: به نظر میرسد Debian یا Ubuntu در حال اجرا است
+  runningWindows: به نظر میرسد که ویندوز شما در حال اجراست
+  runningMac: به نظر میرسد از مک استفاده می کنید
+  runnigDebian: به نظر میرسد از Debian یا Ubuntu استفاده می کنید
   runningRedHat: به نظر میرسد Red Hat یا Fedora در حال اجرا است
   currentVersion: نسخه فعلی
   hFeatures: امکانات
@@ -62,6 +62,7 @@ homepage_content:
   liMailingList: لیست پستی شرکت کننده Bisq
   liFreenodeIRC: "Bisq در Freenode IRC"
   liSubreddit: Bisq Subreddit
+  liKeybase: "تیم Bisq keybase"
 
 main_nav:
   liDownloads: دانلودها
@@ -101,10 +102,10 @@ dao:
     <p>منابع بیشتری را در مورد ما در رابطه با سند <a href='https://docs.bisq.network/dao.html'>درباره Bisq DAO ببینید.</a> .doc</p> <p>برای پیگیری<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>این لینک ببینید</a>دستورالعمل های همکاران گذشته در مورد منشا توزیع BSQ.</p>
 downloads:
   hBisqDownloads: دانلود Bisq
-  runningWindows:  به نظر میرسد ویندوز در حال اجرا است
+  runningWindows: به نظر میرسد ویندوز در حال اجرا است
   runningMac: به نظر میرسد از مک استفاده می کنید
   runnigDebian: به نظر میرسد از Debian یا Ubuntu استفاده می کنید
-  runningRedHat: به نظر میرسد Red Hat یا Fedora استفاده می کنید
+  runningRedHat: به نظر میرسد Red Hat یا Fedora در حال اجرا است
   tdWindows: ویندوز
   tdMac: مک
   tdDebian: Debian یا Ubuntu
@@ -294,7 +295,7 @@ faq:
   hBisqDAO: The Bisq DAO
   hBisqDaoWhat: "BISQ DAO چیست؟"
   pBisqDaoWhat: >
-    <p>BISQ DAO (سازمان خودمختار غیر متمرکز) یک مکانیزم اداری غیرمتمرکز برای نرم افزار Bisq است. که برای یک شرکت است. اگر یک نرم افزار غیر متمرکز توسط یک نهاد واحد مثل یک شرکت کنترل شود, چقدر می تواند مفید باشد؟</p> <p>یک نرم افزار غیر متمرکز بدون بدون حکمرانی غیر متمرکز مفید واقع نخواهد بود.</p> <p>به همین دلیل است که Bisq یک شرکت یا نهاد قانونی از هر نوعی نیست - بلکه به عنوان یک DAO سازماندهی شده است. DAO برنامه های مالی و استراتژی های نرم افزاری را مدیریت می کند تا شبکه Bisq را تقویت کند و در عین حال آن را در برابر حملات به زیرساخت هایی که رهبری و عملیات آن را کنترل می کند، سخت می کند.</p> <p>به طور خلاصه، Bisq DAO قادر است Bisq را <a href='https://docs.bisq.network/intro.html' target='_blank'>از همان ابتدا به یک اصل اصلی پروژه</a> تبدیل کند که بیشتر مقاوم در برابر سانسور باشد.</p> <p>در این مقدمه، بیشتر درباره Bisq DAO بخوانید.<a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>.</p>
+    <p>BISQ DAO (سازمان خودمختار غیر متمرکز) یک مکانیزم اداری غیرمتمرکز برای نرم افزار Bisq است. که برای یک شرکت است. اگر یک نرم افزار غیر متمرکز توسط یک نهاد واحد مثل یک شرکت کنترل شود, چقدر می تواند مفید باشد؟</p> <p>یک نرم افزار غیر متمرکز بدون بدون حکمرانی غیر متمرکز مفید واقع نخواهد بود.</p> <p>به همین دلیل است که Bisq یک شرکت یا نهاد قانونی از هر نوعی نیست - بلکه به عنوان یک DAO سازماندهی شده است. DAO برنامه های مالی و استراتژی های نرم افزاری را مدیریت می کند تا شبکه Bisq را تقویت کند و در عین حال آن را در برابر حملات به زیرساخت هایی که رهبری و عملیات آن را کنترل می کند، سخت می کند.</p> <p>به طور خلاصه، Bisq DAO قادر است Bisq را <a href='https://docs.bisq.network/intro.html' target='_blank'>از همان ابتدا به یک اصل اصلی پروژه</a> تبدیل کند که بیشتر مقاوم در برابر سانسور باشد.</p> <p><a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>در این مقدمه</a>، بیشتر درباره Bisq DAO بخوانید..</p>
   hBisqDaoHow: "BISQ DAO چگونه کار می کند؟"
   pBisqDaoHow: >
     <p>اهداف اولیه BISQ DAO تهیه سرمایه پروژه و تعیین استراتژی است.</p> <ul>
@@ -345,17 +346,14 @@ markets:
 stats:
   hNetworkStats: آمار شبکه
   pSeeMarkets: "<p>مشاهده <a href='https://bisq.network/markets'>صفحات بازار</a> برحسب ظرفیت ارز.</p>"
-  pBSQDistribution: توزیع BSQ Mainnet در ماه آوریل 2019 صورت می گیرد
-  pTotalTrades: >
-    <p class='stat-label'>مجموع معاملات</p> <p class='stat-figure'>32,318</p> <p class='stat-note'>از مارس 2019 برابر می باشد</p>
-  pDailyAverage: >
-    <p class='stat-label'>میانگین معاملات روزانه</p> <p class='stat-figure'>94</p> <p class='stat-note'>از ژوئن 2019 برابر می باشد.</p>
-  pSoftwareDownloads: >
-    <p class='stat-label'>دانلود نرم افزار</p> <p class='stat-figure'>13,723</p> <p class='stat-note'>نسخه 1.1.2 برابر (تقریبی)</p>
-  pGithubContributors: >
-    <p class='stat-label'>همکاران GitHub</p> از ژوئن 2019 برابر <p class='stat-figure'>172</p> <p class='stat-note'> می باشد</p>
-  pTwitterFollowers: >
-    <p class='stat-label'>دنبال کنندگان Twitter</p> از مارس 2019 برابر <p class='stat-figure'>17,588</p> <p class='stat-note'>می باشد.</p>
-  pSlackUsers: >
-    <p class='stat-label'>کاربران Slack</p> از ژوئن 2019 برابر <p class='stat-figure'>1183</p> <p class='stat-note'>می باشد.</p>
+  pBSQDistribution: "نت اصلی <a href='https://docs.bisq.network/dao-user-reference.html#bsq-genesis-distribution' target='_blank'>پخش تولید BsQ</a> پخش شد در April 2019"
+  pTotalTrades: معامله کلی
+  pTotalDate: از ماه قبل
+  pDailyAverageTrade: میانگین معادلات روزانه
+  pSoftwareDownloads: دانلود نرم افزار
+  pSoftwareDownloadsVersion: برای  v1.1.5 (تقریبا)
+  pGithubContributors: شرکت کنندگان GitHub
+  pToDate: از ماه قبل
+  pTwitterFollowers: دنبال کنندگان تویتر
+  pSlackUsers: کاربران Slack
   pNetworkLoad: "<p class='monitor-note'>برای بارگذاری شبکه P2P، معیارهای تور، و دیگر داده های شبکه مورد نیاز است، لطفا <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>را ببینید.</p>"

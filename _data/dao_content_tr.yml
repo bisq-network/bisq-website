@@ -56,7 +56,7 @@ es:
   target: "_blank"
   rel: "noopener"
   img: /es/images/DAO/dao_why.svg
-  id: porqué
+  id: why
 
 - title: "¿Qué es La DAO Bisq?"
   intro: " <p>La DAO Bisq permite transferir valor desde los comerciantes a los contribuidores. El token BSQ hace esto posible de un modo descentralizado.</p> <p>Las comisiones de intercambio son distribuidas a los contribuidores sin los límites de una corporación u otra entidad legal, manteniendo Bisq soberano y sin estado.</p> "
@@ -65,7 +65,7 @@ es:
   target: "_blank"
   rel: "noopener"
   img: /es/images/DAO/dao_what.svg
-  id: que
+  id: what
 
 - title: "Cómo funciona?"
   intro: " <div class=\"subtitle pt-4\"> Distribución de ingresos</div>\n<div class=\"small\"> <p> Para distribuir los ingresos de las ganancias por el intercambio a los contribuyentes, Bisq usa BSQ, una moneda coloreada de Bitcoin. Se emiten nuevas BSQ cuando los partícipes de BSQ aprueban sus solicitudes de compensación a través del voto, y los BSQ se \"descolorean\" cuando los comerciantes los usan para pagar tasas de intercambio. </p> <p> No hay una entidad central recolectando o creando BSQ. Los partícipes BSQ colectivamente se encargan del proceso de emisión. </p> <p class=\"disclaimer\"> Esto no es una ICO. No se han vendido BSQ para fondear un capital. </p> </div>\n\n<div class=\"subtitle pt-3\"> Toma de decisiones </div>\n<div class=\"small\"> <p> Sin un CEO o equipo central de liderazgo, los partícipes de Bisq -comerciantes y contribuyentes- son los propietarios de Bisq. </p> <p> A través de consenso social (por medio de votación) ellos determinan la estrategia del proyecto Bisq.</p>\n</div> "
@@ -83,12 +83,12 @@ es:
   target: "_blank"
   rel: "noopener"
   img: /es/images/DAO/dao_benefits.svg
-  id: beneficios
+  id: benefits
 
 
 fa:
 - title: "The Bisq DAO"
-  intro: "توزیع درآمد منصفانه و تصمیم گیری برای ایجاد Bisq خودکفا و مقاوم در برابر سانسور. <span class=\"footnote\">DAO ایستادگی برای سازماندهی خودکفا و مستقل</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">مشاهده موارد بیشتر</a>"
+  intro: "توزیع درآمد منصفانه و تصمیم گیری برای ایجاد Bisq خودکفا و مقاوم در برابر سانسور. <span class=\"footnote\">DAO ایستادگی برای سازماندهی خودکفا و مستقل</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">مشاهده موارد بیشتر</a>"
   img: /fa/images/DAO/dao_intro.svg
   class: -main
   id: intro
@@ -111,6 +111,15 @@ fa:
   img: /fa/images/DAO/dao_what.svg
   id: what
 
+- title: چگونه کار می کند؟
+  intro: "<div class=\"subtitle pt-4\">توزیع درآمد</div>\n<div class=\"small\"><p>برای توزیع درآمد حاصله از معاملات میان شرکت کنندگان، Bisq از BSq استفاده می کند که عبارت است از یک سکه رنگی مبتنی بر بیتکوین.هنگامی برای شرکت کنندگان BSQ جدید صادر می شود که سهامداران دستمزدهای درخواستی خود را از طریق رأی گیری اعلام می کنند و هنگامی که معامله کنندگان از آن برای پرداخت هزینه های معاملاتی استفاده می کنند، Bisq \"بدون رنگ\" می شود. </p> <p>هیچ نهاد مرکزی وجود ندارد که سهام داران BSQ – Bisq را دور هم جمع کند و مسئولیت فرآیند صدور را به عهده بگیرد. </p> <p class=\"disclaimer\">این یک ICO نیست. BSQ برای به دست آوردن سرمایه به فروش نمی رسد. </p></div>\n\n<div class=\"subtitle pt-3\">تصمیم گیری</div>\n<div class=\"small\"><p>افراد ذینفع، معامله گران و مشارکت کنندگان، بدون وجود مدیرعامل یا تیم هدایت کننده، می توانند صاحب Bisq شوند. </p><p>به وسیله اجماع کلی (از طریق رأی گیری)استراتژی پروژه Bisq تعیین می شود. </p>\n</div>"
+  href_text: درباره DAO › بیشتر بدانید
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /fa/images/DAO/dao_how.svg
+  id: how
+
 - title: "فواید"
   intro: "<div class=\"subtitle\">معامله کنندگان: Bisq را پایدار کنید</div> <ul class=\"small pb-5\"> <li>کمک به ارائه Bisq بر توسعه حرفه ای استوار است و حمایت از طریق خرید Bisq از مشارکت کنندگان</li> <li>کمک به ایجاد Bisq برای دستیابی به بیتکوین فیات مقاوم در برابر سانسور و ایجاد بازار بیتکوین رمزنگاری شده</li> <li>در صورت استفاده از BSQ برای پرداخت هزینه های معاملاتی، از تخفیفی که به شما تعلق می گیرد لذت ببرید</li> <li>اگر مایلید، می توانید هزینه های معاملاتی را با BTC ساده پرداخت کنید</li> </ul> <div class=\"subtitle\">مشارکت کنندگان: به دست آوردن</div> <ul class=\"small pb-5\"> <li>BSQ کار ارزشمند، درخواست غرامت، به دست آوردن</li> <li>BSQ فروش BSQ در Bisq برای</li> <li>BTC رای دادن به درخواست غرامت دیگر مشارکت کنندگان</li> <li>کار بر روی تکنولوژی پیشرفته با یک فرهنگ Bisq پیشگام مشارکتی بدون نیاز به مجوز، غیر سلسله مراتبی و شناور</li> </ul>"
   href_text: درباره DAO › بیشتر بدانید
@@ -119,16 +128,6 @@ fa:
   rel: "noopener"
   img: /fa/images/DAO/dao_benefits.svg
   id: benefits
-
-- title: چگونه کار می کند؟
-  intro: "<div class=\"subtitle pt-4\">توزیع درآمد</div>\n<div class=\"small\"><p>برای توزیع درآمد حاصله از معاملات میان شرکت کنندگان، Bisq از BSq استفاده می کند که عبارت است از یک سکه رنگی مبتنی بر بیتکوین.هنگامی برای شرکت کنندگان BSQ جدید صادر می شود که سهامداران دستمزدهای درخواستی خود را از طریق رأی گیری اعلام می کنند و هنگامی که معامله کنندگان از آن برای پرداخت هزینه های معاملاتی استفاده می کنند، Bisq \"بدون رنگ\" می شود.</p> <p>هیچ نهاد مرکزی وجود ندارد که سهام داران BSQ – Bisq را دور هم جمع کند و مسئولیت فرآیند صدور را به عهده بگیرد.</p> <p class=\"disclaimer\">این یک ICO نیست. BSQ برای به دست آوردن سرمایه به فروش نمی رسد. </p></div>\n\n<div class=\"subtitle pt-3\">تصمیم گیری</div>\n<div class=\"small\"><p>افراد ذینفع، معامله گران و مشارکت کنندگان، بدون وجود مدیرعامل یا تیم هدایت کننده، می توانند صاحب Bisq شوند.</p><p>به وسیله اجماع کلی (از طریق رأی گیری)استراتژی پروژه Bisq تعیین می شود.</p>\n</div>"
-  href_text: درباره DAO › بیشتر بدانید
-  href: "https://docs.bisq.network/dao.html"
-  target: "_blank"
-  rel: "noopener"
-  img: /fa/images/DAO/dao_how.svg
-  id: how
-
 
 fr:
 - title: "La DAO de Bisq"

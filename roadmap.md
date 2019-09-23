@@ -27,6 +27,14 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.1.7
+{: .mt-5 .mb-2}
+Released [September 23th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.7)
+
+This is a hotfix release mainly covering following issue:
+
+- [Fix missing handling of mediator mailbox messages](https://github.com/bisq-network/bisq/pull/3310)
+
 ##### Version 1.1.6
 {: .mt-5 .mb-2}
 Released [September 16th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.6)

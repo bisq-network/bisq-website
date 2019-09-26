@@ -225,38 +225,7 @@ ja:
 
 
 - title: どのように動作するのか？
-  intro: "
-          <div class=\"subtitle pt-4\">
-            Revenue distribution
-          </div>
-
-          <div class=\"small\">
-            <p>
-              To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. Contributors are issued new BSQ when stakeholders approve their compensation requests through voting, and BSQ gets “uncolored” when traders use it to pay trading fees.
-            </p>
-            <p>
-              There is no central entity collecting or creating BSQ—Bisq stakeholders are collectively in charge of the issuance process.
-            </p>
-            <p class=\"disclaimer\">
-              This is not an ICO. No BSQ is sold to raise capital.
-            </p>
-          </div>
-
-
-          <div class=\"subtitle pt-3\">
-            Decision-making
-          </div>
-
-          <div class=\"small\">
-            <p>
-              With no CEO or central leadership team, Bisq stakeholders—traders and contributors—are the owners of Bisq.
-            </p>
-            <p>
-              Through social consensus (via voting) they determine Bisq's project strategy.
-            </p>
-
-          </div>
-          "
+  intro: "<div class=\"subtitle pt-4\"> 収益分配 </div>\n<div class=\"small\"> <p> トレード手数料からの収益を貢献者に分配するために、BisqはBSQ（ビットコインベースのカラードコイン）を使用します。利害関係者が投票を通じて報酬要求を承認すると、貢献者へ新しいBSQが発行されます。トレーダーがそれを使用して取引手数料を支払うと、BSQは「無色」になります。</p> <p>BSQを収集または作成する中央エンティティはありません。Bisqの利害関係者が発行プロセスをまとめて担当しています。</p> <p class=\"disclaimer\">これはICOではありません。 資本調達のためのBSQは販売されていません。</p> </div>\n\n<div class=\"subtitle pt-3\"> 意思決定 </div>\n<div class=\"small\"> <p> CEOや中央のリーダーシップチームは存在せず、Bisqの利害関係者（トレーダーと貢献者）がBisqの所有者となります。</p> <p>（投票による）社会的コンセンサスを通じて、彼らがBisqのプロジェクト戦略を決定します。</p>\n</div>"
   href_text: DAOについてもっと知る ›
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
@@ -266,22 +235,8 @@ ja:
 
 
 
-- title: "Benefits"
-  intro: "
-    <div class=\"subtitle\">Traders: Make Bisq sustainable</div>
-    <ul class=\"small pb-5\">
-      <li>Help Bisq deliver consistent professional development and support by buying BSQ from contributors</li>
-      <li>Help make Bisq the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li>
-      <li>Enjoy a discount if you use BSQ to pay trading fees</li>
-      <li>You can still pay trading fees with plain BTC if you like</li>
-    </ul>
-    <div class=\"subtitle\">Contributors: Earn BSQ</div>
-    <ul class=\"small pb-5\">
-      <li>Do valuable work, request compensation, earn BSQ</li>
-      <li>Sell BSQ on Bisq for BTC</li>
-      <li>Vote on compensation requests of other contributors</li>
-      <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid</li>
-    </ul>"
+- title: "利点"
+  intro: "<div class=\"subtitle\">トレーダー：Bisqを持続可能なものにする</div> <ul class=\"small pb-5\"> <li>貢献者からBSQを購入することにより、Bisqが一貫した専門的な開発とサポートを提供できるようにする</li> <li>Bisqを検閲耐性のある、ビットコインと法定通貨、およびビットコインと暗号通貨のマーケットプレイスにする</li> <li>BSQを使用してトレード手数料を支払う場合、割引を享受できます</li> <li>必要に応じてプレーンのBTCでトレード手数料を支払うこともできます</li>  <div class=\"subtitle\">貢献者：BSQを獲得</div> <ul class=\"small pb-5\"> <li>価値ある仕事を行い、報酬を請求し、BSQを獲得</li>　<li>BTCの為にBisqでBSQを売却</li> <li>他の貢献者の補償請求に投票</li> <li>最先端の文化を備えた最先端のテクノロジーでの取り組み。Bisqの協力には許可が必要なく、非階層的で流動的です</li> </ul>"
   href_text: DAOについてもっと知る ›
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"

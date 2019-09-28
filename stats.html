@@ -2,9 +2,6 @@
 layout: page
 title: Network Stats &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: stats
-lang: en
-flag: 🌐
-language: English
 ---
 
 <link href="{{ '/css/chosen.css' | relative_url }}" rel="stylesheet">
@@ -12,25 +9,24 @@ language: English
 <script defer src="/js/highstock.js"></script>
 <script defer src="/js/stats.js"></script>
 
-<h1>Network Stats</h1>
+<h1>{% t stats.hNetworkStats %}</h1>
 
 <div class='chart-stat-container'>
     <div class='stat-chart' id="fiat-volume-container"></div>
-    {{  site.data.strings_en.stats.pSeeMarkets }}
+    {% t stats.pSeeMarkets %}
 </div>
 
 <div class='chart-stat-container'>
     <div class='stat-chart' id="altcoin-volume-container"></div>
-    {{  site.data.strings_en.stats.pSeeMarkets }}
+    {% t stats.pSeeMarkets %}
 </div>
 
 <div class='chart-stat-container'>
     <div class='stat-chart' id="bsq-container"></div>
-    <p>The mainnet <a href='https://docs.bisq.network/dao-user-reference.html#bsq-genesis-distribution' target='_blank'>BSQ genesis distribution</a> took place in April 2019.</p>
+    <p>{% t stats.pBSQDistribution %}</p>
 </div>
 
-{% assign item = site.data.en.stats %}
 {% include statistics_data.html %}
 
 <br>
-<p class='monitor-note'>For P2P network load, Tor metrics, and other network data, please visit the <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>
+{% t stats.pNetworkLoad %}

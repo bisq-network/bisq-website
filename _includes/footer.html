@@ -5,14 +5,14 @@
       <div class="row mx-0 pb-md-5 pb-sm-5">
 
         <div class="col-12 col-lg-4 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-sm-4 px-4">
-          <h5 class="text-uppercase small grey">Bisq mobile notification App</h5>
+          <h5 class="text-uppercase small grey">{% t footer.notificationApp %}</h5>
           <a target="_blank" rel="noopener" class="app-link" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img" alt="Get it on Google Play" src="/images/badge_google_play.svg"/></a>
           &nbsp;
           <a target="_blank" rel="noopener" class="app-link" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img" alt="Get it on the App Store" src="/images/badge_app_store.svg"/></a>
 
 
           <div class="text-left small grey pt-4">
-            © 2019 Bisq
+            {% t footer.siteYear %}
           </div>
 
 
@@ -25,22 +25,22 @@
         <hr class="clearfix w-100 d-lg-none pb-3">
 
         <div class="col-12 col-lg-5 mb-md-0 mb-3 pr-md-5 pr-sm-2 small px-4 px-md-5">
-          <h5 class="text-uppercase small grey">Resources</h5>
+          <h5 class="text-uppercase small grey">{% t footer.ulResources %}</h5>
           <ul class="list-unstyled divide-3col" style="column-gap: 3rem;">
             <!--<li>
               <a href="/press">Press</a>
             </li>-->
             <li>
-              <a href="/downloads">Downloads</a>
+			  <a href={% if site.lang == "en" %}"/downloads"{% else %}"/{{ site.lang }}/downloads"{% endif %}>{% t footer.liDownloads %}</a>
             </li>
             <li>
-              <a href="/roadmap">Roadmap</a>
+              <a href="/roadmap">{% t footer.liRoadmap %}</a>
             </li>
             <li>
-              <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">Contribute</a>
+              <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">{% t footer.liContribute %}</a>
             </li>
             <li>
-              <a href="https://markets.bisq.network/api/" target="_blank" rel="noopener">Market Data API</a>
+              <a href="https://markets.bisq.network/api/" target="_blank" rel="noopener">{% t footer.liMarketData %}</a>
             </li>
             <!--
             lets activate it once we have a dynamic content
@@ -54,7 +54,7 @@
 
         <div class="col-12 col-lg-3 mb-md-0 mb-3 small px-4 px-md-5 pb-1 pb-5">
 
-          <h5 class="text-uppercase small grey">Join Bisq</h5>
+          <h5 class="text-uppercase small grey">{% t footer.joinBisq %}</h5>
 
           <span id="community-footer">
             <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/bisq-network"> <img src="/images/community/github_w.svg" alt="github"> </a>

@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="{{ page.lang }}">
+<html lang="{{ site.lang }}">
 {% for language in site.data.languages %}
-  {% if language.tag == page.lang %}
+  {% if site.lang == language.tag %}
     {% assign langdata = language %}
 	{% break %}
   {% endif %}
@@ -29,7 +29,7 @@
         <meta property="twitter:site" content="{{ langdata.enabled }}">
         <meta name="twitter:creator" content="@bisq_network">
         <link rel="canonical" href="{{ page.url }}">
-        {% if page.lang == "ja" %}
+        {% if site.lang == "ja" %}
         <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
         {% else %}
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200" rel="stylesheet">
@@ -37,7 +37,7 @@
         {% endif %}
 
         <style>
-            {% if page.lang == "ja" %}
+            {% if site.lang == "ja" %}
             body, .text-sans {
                 font-family: 'M PLUS Rounded 1c', sans-serif !important;
             }
@@ -68,39 +68,14 @@
     <body class="home page-template-default page page-id-6 custom-background">
 
 <!--Select includes/main_nav according to page lang or absence of lang-->
-          {% if page.lang == "en" or page.ref == "blog" or page.ref == "404" %}
             {% include main_nav.html %}
-          {% else %}
-            {% include main_nav_tr.html %}
-          {% endif %}
-
-
-            {% if page.url == '/' %}
 
                 <div class="outter">
-                    {% include homepage_content.html %}
-                </div>
-
-            {% else %}
-
-                <div class="outter">
-<!-- Select includes/homepage_content according to page lang -->
-                  {% if page.ref == "index" %}
-                    {% include homepage_content_tr.html %}
-                  {% else %}
                     {{ content }}
-                  {% endif %}
                 </div>
-
-            {% endif %}
 
 <!-- Select includes/footer according to page lang -->
-              {% if page.lang == "en" or page.ref == "blog" %}
-                {% include footer.html %}
-              {% else %}
-                {% include footer_tr.html %}
-              {% endif %}
-
+            {% include footer.html %}
 
         <!-- Matomo -->
         <script type="text/javascript">

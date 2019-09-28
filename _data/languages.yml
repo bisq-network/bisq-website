@@ -4,39 +4,46 @@
   accept_languages: ["en", "en-us", "en-au", "en-nz", "en-za", "en-bz", "en-tt"]
   site_name: "Bisq - The decentralized Bitcoin exchange"
   site_desc: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative cryptocurrencies."
+  flag: 🌐
 - name: "Deutsch"
   tag: "de"
   enabled: Yes
   accept_languages: ["de"]
   site_name: "Bisq - Der dezentrale Bitcoin Exchange"
   site_desc: "Bisq ist eine Open-Source-Desktop-Anwendung, die es Ihnen ermöglicht, Bitcoins im Austausch gegen nationale Währungen oder alternative Krypto-Währungen zu kaufen und zu verkaufen."
+  flag: 🇩🇪
 - name: "Español"
   tag: "es"
   enabled: Yes
   accept_languages: ["es", "es-mx", "es-gt", "es-cr", "es-pa", "es-do", "es-ve", "es-co", "es-pe", "es-ar", "es-ec", "es-cl", "es-uy", "es-py", "es-bo", "es-sv", "es-hn", "es-ni", "es-pr"]
   site_name: "Bisq - The decentralized Bitcoin exchange"
   site_desc: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative cryptocurrencies."
+  flag: 🇪🇸
 - name: "Français"
   tag: "fr"
   enabled: Yes
   accept_languages: ["fr", "fr-FR"]
   site_name: "Bisq - La plateforme d'échange de Bitcoin décentralis"
   site_desc: "Bisq est une application desktop open-source qui vous permet d'acheter et de vendre des bitcoins contre des devises nationales ou des altcoins."
+  flag: 🇫🇷
 - name: "日本語"
   tag: "ja"
   enabled: Yes
   accept_languages: ["ja", "ja-jp"]
   site_name: "Bisq - 取引所、非中央集権化された"
   site_desc: "Bisqは、各国通貨と引き換えに暗号通貨と売買できるオープンソースのピアツーピアアプリケーションです。登録は不要です。"
+  flag: 🇯🇵
 - name: "Português"
   tag: "pt-PT"
   enabled: Yes
   accept_languages: ["pt", "pt-PT"]
   site_name: "Bisq - A exchange de Bitcoin descentralizada"
   site_desc: "Bisq é uma aplicação de desktop open-source que lhe permite comprar e vender bitcoins em troca de moedas nacionais ou altcoin."
+  flag: 🇵🇹
 - name: "简体中文"
   tag: "zh-CN"
   enabled: Yes
   accept_languages: ["zh", "zh-CN"]
   site_name: "Bisq - 去中心化的比特币交易"
   site_desc: "Bisq 是一个开源的电脑程序，使你能够使用当地货币或加密货币来买卖比特币。"
+  flag: 🇨🇳

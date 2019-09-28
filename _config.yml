@@ -8,6 +8,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-multiple-languages-plugin
+  
+languages: ["en", "fr", "es", "de", "ja", "pt-PT", "zh-CN"]
+exclude_from_localizations: ["blog", "_posts"]
+
 feed:
   path: blog/feed.atom
 include:

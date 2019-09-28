@@ -29,6 +29,8 @@ GEM
     jekyll-livereload (0.2.2)
       em-websocket (~> 0.5)
       jekyll (~> 3.0)
+    jekyll-multiple-languages-plugin (1.6.0)
+      jekyll (>= 2.0, < 4.0)
     jekyll-paginate (1.1.0)
     jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
@@ -68,6 +70,7 @@ DEPENDENCIES
   jekyll (~> 3.6.3)
   jekyll-feed
   jekyll-livereload
+  jekyll-multiple-languages-plugin
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sass-converter

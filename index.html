@@ -1,23 +1,18 @@
 ---
-layout: page
+layout: default
 title: Bisq - The decentralized Bitcoin exchange
 banner: /images/bitsquare-home2.jpg
-ref: index
-lang: en
-flag: 🌐
-language: English
 ---
-{% assign item = site.data.en.homepage_content %}
 <div class="container fadeIn">
         <main class="bd-masthead" id="content" role="main">
-            <div class="row align-items-center">
+            <div class="row align-t homepage_contents-center">
               <div class="col-md-12 order-md-1 text-md-left px-3 px-md-5">
-                <h1 class="intro text-monospace display-1" style="margin-left: -.3rem;">{{ item.title }}</h1>
+                <h1 class="intro text-monospace display-1" style="margin-left: -.3rem;">{% t homepage_content.title %}</h1>
 
                 <div class="row-block pl-0 pt-4 pt-md-5 pr-0 pr-lg-5">
 
                     <p class="lead col-md-8 col-sm-12 pl-0 pb-5">
-                      {{ item.intro }}
+                      {% t homepage_content.intro %}
                     </p>
 
                     <div class="d-flex flex-column flex-md-row lead mb-1">
@@ -25,15 +20,15 @@ language: English
                       <div class="downloads-desktop btn-group os-selector-home col-sm-12 col-md-12 col-lg-5 px-0">
 
                           <!-- This what displays on the dropdown in collapsed state -->
-                          <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button" data-bisq-version="{{ site.client_version }}" data-site-url="">
+                          <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button" data-bisq-version="{% t site.client_version %}" data-site-url={% if site.lang == "en" %}""{% else %}"/{{ site.lang }}/"{% endif %}>
                               <div class="id-win64 hidden">
                                   <div class="float-left">
                                       <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g">
                                       <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w">
-                                      <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">{{ item.buttonWindows }}</a>
+                                      <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">{% t homepage_content.buttonWindows %}</a>
                                   </div>
                                   <div class="float-right">
-                                      <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a>
+                                      <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">
                                   </div>
                               </div>
 
@@ -41,7 +36,7 @@ language: English
                                   <div class="float-left">
                                       <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g">
                                       <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w">
-                                      <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">{{ item.buttonMac }}</a>
+                                      <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">{% t homepage_content.buttonMac %}</a>
                                   </div>
                                   <div class="float-right">
                                       <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
@@ -52,7 +47,7 @@ language: English
                                   <div class="float-left">
                                       <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
                                       <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
-                                      <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">{{ item.buttonDebian }}</a>
+                                      <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">{% t homepage_content.buttonDebian %}</a>
                                   </div>
                                   <div class="float-right">
                                       <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">.deb</a>
@@ -63,7 +58,7 @@ language: English
                                   <div class="float-left">
                                       <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g">
                                       <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w">
-                                      <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">{{ item.buttonRedHat }}</a>
+                                      <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">{% t homepage_content.buttonRedHat %}</a>
                                   </div>
                                   <div class="float-right">
                                       <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">.rpm</a>
@@ -74,49 +69,47 @@ language: English
                                   <div class="float-left">
                                       <img src="/images/icon-download-g.svg" class="os-icon os-icon-g">
                                       <img src="/images/icon-download-w.svg" class="os-icon os-icon-w">
-                                      {{ item.buttonDownloads }}
+                                      {% t homepage_content.buttonDownloads %}
                                   </div>
                                   <div class="float-right">
-                                      <a href="/{{ page.lang }}/downloads">{{ item.buttonGetBisq }}</a>
+                                      <a href={% if site.lang == "en" %}"/downloads"{% else %}"/{{ site.lang }}/downloads"{% endif %}>{% t homepage_content.buttonGetBisq %}</a>
                                   </div>
                               </div>
                           </button>
 
                           <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split hero-btn shadow-btn " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              <span class="sr-only">{{ item.buttonToggle }}</span>
+                              <span class="sr-only">{% t homepage_content.buttonToggle %}</span>
                           </button>
 
                           <div class="dropdown-menu dropdown-menu-right shadow-lg">
-                              {% include os_selector_options_tr.html %}
+                              {% include os_selector_options.html %}
                           </div>
-<!-- Need to repeat the function because the if/else function seems to nullify it -->
-{% assign item = site.data.en.homepage_content %}
                       </div>
 
 
-                      <a href="/{{ page.lang }}/downloads" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
+                      <a href={% if site.lang == "en" %}"/downloads"{% else %}"/{{ site.lang }}/downloads"{% endif %} class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
                           <img src="/images/icon-download-g.svg" class="os-icon os-icon-g">
                           <img src="/images/icon-download-w.svg" class="os-icon os-icon-w">
-                          {{ item.downloads }}
+                          {% t homepage_content.downloads %}
                       </a>
 
 
                       <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" rel="noopener" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
                           <img src="/images/icon-android-g.svg" class="os-icon os-icon-g">
                           <img src="/images/icon-android-w.svg" class="os-icon os-icon-w">
-                          {{ item.androidNotificationsApp }}
+                          {% t homepage_content.androidNotificationsApp %}
                       </a>
 
 
                       <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank" rel="noopener" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
                           <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g">
                           <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w">
-                          {{ item.iosNotificationApp }}
+                          {% t homepage_content.iosNotificationApp %}
                       </a>
 
 
                       <a href="https://docs.bisq.network/getting-started.html" target="_blank" rel="noopener" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn">
-                          {{ item.getStarted }}
+                          {% t homepage_content.getStarted %}
                       </a>
 
                       {% comment %}
@@ -139,11 +132,11 @@ language: English
 
 
                     <p class="text-muted mb-0 mt-1 small" style="opacity: 0.5">
-                      v{{ site.client_version }} — <span class="id-win64 hidden">{{ item.runningWindows }}</span>
-                                                   <span class="id-mac hidden">{{ item.runningMac }}</span>
-                                                   <span class="id-deb64 hidden">{{ item.runnigDebian }}</span>
-                                                   <span class="id-rpm64 hidden">{{ item.runningRedHat }}</span>
-                                                   <span class="id-all hidden">{{ item.currentVersion }}</span> <!-- fallback text if no desktop os recognized -->
+                      v{{ site.client_version }} — <span class="id-win64 hidden">{% t homepage_content.runningWindows %}</span>
+                                                   <span class="id-mac hidden">{% t homepage_content.runningMac %}</span>
+                                                   <span class="id-deb64 hidden">{% t homepage_content.runnigDebian %}</span>
+                                                   <span class="id-rpm64 hidden">{% t homepage_content.runningRedHat %}</span>
+                                                   <span class="id-all hidden">{% t homepage_content.currentVersion %}</span> <!-- fallback text if no desktop os recognized -->
                     </p>
 
 
@@ -154,7 +147,11 @@ language: English
 
               </div>
               <div class="col-md-12 order-md-1 text-md-left homepage-hero">
+				{% if site.lang == "en" %}
                 <img class="img-fluid shadow-lg" alt="bisq" style="width: 100%; display: block;" src="/images/bisq_screen0.png">
+                {% else %}
+                <img class="img-fluid shadow-lg" alt="bisq" style="width: 100%; display: block;" src="/i18n_img/{{ site.lang }}/bisq_screen0.png">
+                {% endif %}
               </div>
             </div>
 
@@ -170,49 +167,49 @@ language: English
 
     <div class="row-block row">
 
-      <h2>{{ item.hFeatures }}</h2>
-      <div class="row align-items-center text-md-center text-left">
+      <h2>{% t homepage_content.hFeatures %}</h2>
+      <div class="row align-t homepage_contents-center text-md-center text-left">
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-no-reg.svg" />
-          <h4>{{ item.hIdentityVerifications }}</h4>
-          <p class="grey px-md-5">{{ item.pIdentityVerifications }}</p>
+          <h4>{% t homepage_content.hIdentityVerifications %}</h4>
+          <p class="grey px-md-5">{% t homepage_content.pIdentityVerifications %}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="/images/pic-decentralized.svg" />
-          <h4>{{ item.hDecentralized }}</h4>
-          <p class="grey px-md-5">{{ item.pDecentralized }}</p>
+          <h4>{% t homepage_content.hDecentralized %}</h4>
+          <p class="grey px-md-5">{% t homepage_content.pDecentralized %}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="/images/pic-padlock.svg" />
-          <h4>{{ item.hSafe }}</h4>
-          <p class="grey px-md-5">{{ item.pSafe }}</p>
+          <h4>{% t homepage_content.hSafe %}</h4>
+          <p class="grey px-md-5">{% t homepage_content.pSafe %}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-private.svg" />
-          <h4>{{ item.hPrivate }}</h4>
-          <p class="grey px-md-5">{{ item.pPrivate }}</p>
+          <h4>{% t homepage_content.hPrivate %}</h4>
+          <p class="grey px-md-5">{% t homepage_content.pPrivate %}</p>
         </div>
         {% comment %}
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-p2p.svg" />
-          <h4>{{ item.hSecure }}</h4>
-          <p class="grey px-md-5">{{ item.pSecure }}</p>
+          <h4>{% t homepage_content.hSecure %}</h4>
+          <p class="grey px-md-5">{% t homepage_content.pSecure %}</p>
         </div>
         {% endcomment %}
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-open.svg" />
-          <h4>{{ item.hOpen }}</h4>
-          {{ item.pOpen }}
+          <h4>{% t homepage_content.hOpen %}</h4>
+          {% t homepage_content.pOpen %}
         </div>
         <div class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-easy.svg" />
-          <h4>{{ item.hEasy }}</h4>
-          {{ item.pEasy }}
+          <h4>{% t homepage_content.hEasy %}</h4>
+          {% t homepage_content.pEasy %}
         </div>
         <div id="dao-callout" class="col-12 col-md-6 pr-5">
           <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/dao_homepage.svg" />
-          <h4>{{ item.hBisqDao }}</h4>
-          <p>{{ item.pBisqDao1 }} <a href="/dao">{{ item.pBisqDao2 }}</a>.</p>
+          <h4>{% t homepage_content.hBisqDao %}</h4>
+          <p>{% t homepage_content.pBisqDao1 %} <a href="/dao">{% t homepage_content.pBisqDao2 %}</a>.</p>
         </div>
       </div>
 
@@ -235,24 +232,31 @@ language: English
 
 <div class="row-block justify-content-between container">
 
-  <h2>{{ item.hGetStarted }}</h2>
+  <h2>{% t homepage_content.hGetStarted %}</h2>
 
   <div class="row align-items-start">
     <div class="col-12 col-md-4">
 
       <div class="grey">
-        {{ item.divGetStarted }}
+        {% t homepage_content.divGetStarted %}
       </div>
       <ol>
-        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="/downloads/">{{ item.liGetStarted1 }}</a>{{ item.liGetStarted2 }}</li>
-        {{ item.liGetStarted3 }}
+        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="/downloads/">{% t homepage_content.liGetStarted1 %}</a>{% t homepage_content.liGetStarted2 %}</li>
+        {% t homepage_content.liGetStarted3 %}
       </ol>
     </div>
     <div class="col-12 col-md-7 offset-0 offset-md-1">
+	  {% if site.lang == "en" %}
       <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen0.png"></div>
       <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen1.png"></div>
       <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen0.png"></div>
-      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen1.png"></div>
+      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen1.png"></div>	  
+	  {% else %}
+      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="bisq" src="/i18n_img/{{ site.lang }}/bisq_screen0.png"></div>
+      <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/i18n_img/{{ site.lang }}/bisq_screen1.png"></div>
+      <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/i18n_img/{{ site.lang }}/bisq_screen0.png"></div>
+      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/i18n_img/{{ site.lang }}/bisq_screen1.png"></div>
+      {% endif %}
 
     </div>
   </div>
@@ -262,25 +266,25 @@ language: English
 
 <div class="grey-back" style="margin-bottom:0">
   <div class="row-block container">
-    <h2 id="join-the-community">{{ item.hJoin }}</h2>
+    <h2 id="join-the-community">{% t homepage_content.hJoin %}</h2>
 
     <div class="row">
 
       <div class="col-12 col-md-6 grey bigger">
-        {{ item.pJoin }}
+        {% t homepage_content.pJoin %}
       </div>
 
       <div class="col-12 col-md-6">
         <ul class="community-links grey community-home pl-0 pl-md-4 pt-4 pl-md-0 pt-md-0">
-          <li><img src="/images/community/github.svg" alt="github"> <a href="https://github.com/bisq-network">{{ item.liGithub }}</a></li>
-          <li><img src="/images/community/twitter.svg" alt="twitter"> <a href="https://twitter.com/bisq_network">{{ item.liTwitter }}</a></li>
-          <li><img src="/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">{{ item.liYoutube }}</a></li>
-          <li><img src="/images/community/slack.svg" alt="slack"> <a href="https://bisq.network/slack-invite">{{ item.liSlack }}</a></li>
-          <li><img src="/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">{{ item.liForum }}</a></li>
-          <li><img src="/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">{{ item.liMailingList }}</a></li>
-          <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">{{ item.liFreenodeIRC }}</a></li>
-          <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">{{ item.liSubreddit }}</a></li>
-          <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">{{ item.liKeybase }}</a></li>
+          <li><img src="/images/community/github.svg" alt="github"> <a href="https://github.com/bisq-network">{% t homepage_content.liGithub %}</a></li>
+          <li><img src="/images/community/twitter.svg" alt="twitter"> <a href="https://twitter.com/bisq_network">{% t homepage_content.liTwitter %}</a></li>
+          <li><img src="/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">{% t homepage_content.liYoutube %}</a></li>
+          <li><img src="/images/community/slack.svg" alt="slack"> <a href="https://bisq.network/slack-invite">{% t homepage_content.liSlack %}</a></li>
+          <li><img src="/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">{% t homepage_content.liForum %}</a></li>
+          <li><img src="/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">{% t homepage_content.liMailingList %}</a></li>
+          <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">{% t homepage_content.liFreenodeIRC %}</a></li>
+          <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">{% t homepage_content.liSubreddit %}</a></li>
+          <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">{% t homepage_content.liKeybase %}</a></li>
         </ul>
       </div>
 

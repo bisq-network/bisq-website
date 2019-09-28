@@ -342,3 +342,36 @@ stats:
   pTwitterFollowers: Twitter 粉丝数
   pSlackUsers: Slack 用户数
   pNetworkLoad: "<p class='monitor-note'>有关 P2P 网络负载情况、Tor 指标和其他网络数据，请访问<a href='https://monitor.bisq.network' target='_blank'>Bisq 网络状况监控</a>。</p>"
+
+community:
+  hCommunity: 社区
+  hJoin: 加入我们的社区，帮助建立以比特币为宗旨的交易。
+  hConnect: 加入
+  pGitHub: "GitHub 上的 @bisq-network</a><br>Bisq 网络的主代码库"
+  pTwitter: "Twitter 上的 @bisq_network</a><br>及时了解社区和开发新闻"
+  pYoutube: "Bisq 的 YouTube 频道</a><br>查看并参与我们的每周成长报告、开发者的专访及其他多媒体资料"
+  pSlack: "Bisq 的 Slack 交流群</a><br>参与话题，讨论如何打造更好的 Bisq"
+  pForum: "Bisq 论坛</a><br>在 Bisq 论坛发表你的观点和问题"
+  pNewsletter: "Bisq 贡献者邮件列表</a><br>订阅我们的新闻"
+  pFreenode: "Freenode IRC 上的 #bisq</a><br>IRC freenode 服务器意味着更加去中心化的交流"
+  pReddit: "r/Bisq 的 reddit 分话题</a><br>在 Bisq 的 reddit 分话题获得帮助并融入社区"
+  pKeybase: "Bisq Keybase team</a><br>Join the Bisq team on Keybase"
+
+vision:
+  hVision: 愿景
+  hExchanges: "[交换](https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges ){:target='_blank'} 在比特币生态系统中发挥关键作用。"
+  pVision: "中本聪创造比特币是为了解决集中支付系统的问题，所以集中的比特币交易所作为获取比特币的主要方式似乎并不一致。似乎集中式交易所的主导地位和脆弱性往往是当前比特币生态系统的致命弱点。"
+  pVision1: "比特币领域有很多关于分散化的讨论，以及各种创建分散化交易所的尝试，以解决这一弱点。"
+  pVision2: "Bisq 是一个建立在纯 P2P 基础设施上的解决方案：桌面软件、Tor 、本地钱包，没有中央账户。虽然国家货币的转移需要传统的支付渠道，如银行和支付处理公司，但 Bisq 并不依赖于任何一个特定的。这些支付渠道的作用仅限于它应该是什么：转移国家货币。就是这样——没有审查、没收、监控或控制你的金融交易。"
+  pVision3: "Bisq 是为这些人："
+  pVision4: >
+   <li>希望将美元、欧元或日元等国家货币兑换为比特币。</li>
+   <li>希望为比特币交换多种可选的加密货币。</li>
+   <li>不想相信任何持有他们资金的交易所。</li>
+   <li>不希望为了与其他个人进行交易而将控制权或隐私拱手让给中央当局。 </li>
+   <li>将金融交易视为一种私人言论形式，应该不受到银行、政府和其他机构的监管。</li>
+  pVision5: "在我们的介绍文档中，你可以了解更多关于 Bisq 的理念，以及它是如何让比特币交易变得私密、安全、简单的："
+  pVision6: "阅读 Bisq 的介绍"
+  pVision7: "拓展阅读："
+  pVisionSatoshi: "作者：Satoshi Nakamoto"
+  pVisionSzabo: "作者：Nick Szabo"

@@ -340,3 +340,36 @@ stats:
   pTwitterFollowers: Seguidores de Twitter
   pSlackUsers: Usuarios de Slack
   pNetworkLoad: "<p class='monitor-note'>Para carga de la red P2P, métricas de Tor y otros datos de red, por favor visite el<a href='https://monitor.bisq.network' target='_blank'>Monitor de Red Bisq</a>.</p>"
+
+community:
+  hCommunity: Comunidad
+  hJoin: Únase a nuestra comunidad y ayude a construir una casa de cambio diseñada pensando en los principios de Bitcoin.
+  hConnect: Conectar
+  pGitHub: "@bisq-network on GitHub</a><br>The main Bisq network code repository"
+  pTwitter: "@bisq_network on Twitter</a><br>Keep up-to-date with community and development announcements"
+  pYoutube: "Bisq YouTube channel</a><br>View and participate on our weekly growth calls and watch interviews with the developers and other multimedia content"
+  pSlack: "Bisq Slack workspace</a><br>Participate in the conversation on how to make Bisq better"
+  pForum: "Bisq Forum</a><br>Post your opinions and questions on the Bisq forum"
+  pNewsletter: "Bisq Contributor mailing list</a><br>Join our newsletter"
+  pFreenode: "#bisq on Freenode IRC</a><br>IRC freenode server for more decentralized chat"
+  pReddit: "r/Bisq Subreddit</a><br>Get support and mingle with the community in Bisq's subreddit"
+  pKeybase: "Bisq Keybase team</a><br>Join the Bisq team on Keybase"
+
+vision:
+  hVision: Visión
+  hExchanges: "Los [Exchanges](https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges){:target='_blank'} juegan un rol crítico en el ecosistema Bitcoin. Sin ellos, sería casi imposible comprar o vender bitcoins por euros, dólares, yen o yuanes. El mercado Bitcoin no tendría liquidez, y Bitcoin no tendría valor."
+  pVision: "Satoshi Nakamoto creó Bitcoin con la motivación de resolver los problemas de los sistemas de pago centralizados, por lo que parece inconsistente que los intercambios de Bitcoin centralizados sigan siendo la principal forma de adquirir bitcoins."
+  pVision1: "Se ha hablado bastante acerca de la descentralización en el espacio de Bitcoin, y varios intentos de crear casas de cambio descentralizadas para abordar esta debilidad."
+  pVision2: "Bisq es una solución construida en una infraestructura P2P pura: software de escritorio, Tor, monederos locales, y sin cuentas cenrtales. Mientras la transferencia de moneda nacional requiere canales de pago tradiciones como bancos y procesadores de pago, Bisq no depende de uno en particular. El rol de estos canales de pago se limita a lo que debería ser: transferir moneda nacional, punto. Sin censura, confiscación, monitorización, o control de sus transacciones financieras."
+  pVision3: "Bisq se ha hecho para aquéllos que:"
+  pVision4: >
+   <li>Quieren intercambiar moneda nacional como dólares, euros o yen por bitcoin.</li>
+   <li>Quieen intercambiar un amplio rango de criptomonedas alternativas por bitcoin.</li>
+   <li>No quieren confiar en que  una casa de cambio custodie sus fondos.</li>
+   <li>No quieren ceder control o privacidad a una autoridad central para poder comerciar con otras personas.</li>
+   <li>Ven las transacciones financieras como una forma de libertad de expresión que debe protegerse de la vigilancia de bancos, gobiernos y otras instituciones.</li>
+  pVision5: "Puede encontrar más acerca de la filosofía, de Bisq y cómo hace el intercambio de bitcoin privado, seguro y fácil en nuestra Documentación de Introducción:"
+  pVision6: "La la Introducción a Bisq"
+  pVision7: "Más lecturas:"
+  pVisionSatoshi: de Satoshi Nakamoto
+  pVisionSzabo: por Nick Szabo

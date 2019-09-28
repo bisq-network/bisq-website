@@ -1,3 +1,12 @@
+langs:
+  en: English
+  de: Deutsch
+  es: Español
+  fr: Français
+  ja: 日本語
+  pt: Português
+  zh-cn: 简体中文
+
 footer:
   notificationApp: "App Bisq mobile de notification "
   siteYear: © 2019 Bisq
@@ -312,3 +321,37 @@ stats:
   pTwitterFollowers: Followers sur Twitter
   pSlackUsers: Utilisateurs Slack
   pNetworkLoad: "<p class='monitor-note'>Pour connaître la sollicitation du réseau P2P, les métriques Tor et d'autres données réseau, veuillez visiter le site Web du <a href='https://monitor.bisq.network' target='_blank'>contrôleur de réseau Bisq</a>.</p>"
+
+community:
+  hCommunity: Communauté
+  hJoin: "Rejoignez notre communauté et aidez-nous à construire un échange conçu dans le respect des principes de Bitcoin."
+  hConnect: Connecter
+  pGitHub: "@bisq-network sur GitHub</a><br> Le répertoire principal du code du réseau Bisq"
+  pTwitter: "@bisq_network sur Twitter</a><br>Restez au courant des annonces de la communauté et sur le développement."
+  pYoutube: "La chaîne YouTube de Bisq</a><br>Consultez et participez à nos growth calls hebdomadaires et regardez des interviews avec les développeurs et les autres contenus multimédia."
+  pSlack: "Le workspace Slack de Bisq</a><br>Participer à la conversation sur la façon d'améliorer Bisq"
+  pForum: "Le Forum Bisq</a><br>Postez vos opinions et questions sur le forum de Bisq"
+  pNewsletter: "Liste de diffusion des contributeurs Bisq</a><br>Inscrivez-vous à notre newsletter"
+  pFreenode: "#bisq sur le Freenode IRC</a><br>Le serveur IRC freenode pour un chat plus décentralisé"
+  pReddit: "r/Bisq Subreddit</a><br>Obtenir du soutien et se mélanger à la communauté sur le subreddit de Bisq"
+  pKeybase: "Bisq Keybase team</a><br>Join the Bisq team on Keybase"
+
+vision:
+  hVision: Vision
+  hExchanges: "[Exchanges](https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges){:target='_blank'} jouent un rôle essentiel dans l'écosystème Bitcoin. Sans eux, il serait presque impossible d'acheter ou de vendre des bitcoins contre des euros, des dollars, des yens ou des yuans. Le marché du bitcoin n'aurait aucune liquidité, et le bitcoin serait sans valeur."
+  pVision: "Satoshi Nakamoto a créé le Bitcoin pour résoudre les problèmes des systèmes de paiement centralisés, il semble donc incohérent que les plateformes d'échanges centralisées soient le principal moyen d'acquérir des bitcoins. Il semble souvent que la domination et la vulnérabilité des plateformes d'échanges centralisées soit le talon d'Achille de l'écosystème bitcoin actuel."
+  pVision1: "On parle beaucoup de la décentralisation dans l'espace Bitcoin et de diverses tentatives de création de plateformes d'échanges décentralisées pour remédier à cette faiblesse."
+  pVision2: "Bisq est une solution construite sur une infrastructure P2P pure : logiciel pour desktop , Tor, portefeuilles locaux, et pas de comptes centraux. Alors que le transfert de monnaie nationale nécessite des canaux de paiement traditionnels comme les banques et les processeurs de paiement, Bisq n'est pas dépendant d'un canal particulier. Le rôle de ces canaux de paiement est limité à ce qu'il devrait être : le transfert en monnaie nationale. C'est tout - pas de censure, de confiscation, de surveillance ou de contrôle de vos transactions financières."
+  pVision3: "Bisq est conçu pour ceux qui:"
+  pVision4: >
+   <li>Souhaite échanger une monnaie nationale telle que le dollar, l'euro ou le yen contre du bitcoin.</li>
+   <li>Souhaite échanger un large éventail de devises cryptographiques alternatives contre du bitcoin.</li>
+   <li>ne souhaitent pas faire confiance à une plateforme de trading pour conserver leurs fonds.</li>
+   <li>Ne souhaitent pas donner le contrôle de leur vie privée à une autorité centrale afin de pouvoir trader avec d'autres personnes.</li>
+   <li>Considèrent les transactions financières comme une forme de vie privée qui devrait être protégée de la surveillance des banques, des gouvernements et des autres institutions.</li>
+  pVision5: "Pour en savoir plus sur la philosophie de Bisq et comment cela garantit l'anonymat des trades, en toute sécurité et facilement, consultez notre doc d'introduction:"
+  pVision6: "Lire l'introduction au sujet de Bisq"
+  pVision7: "Lectures complémentaires:"
+  pVisionSatoshi: par Satoshi Nakamoto
+  pVisionSzabo: par Nick Szabo
+  

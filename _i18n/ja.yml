@@ -313,3 +313,36 @@ stats:
   pTwitterFollowers: Twitterフォロワー
   pSlackUsers: Slackユーザー
   pNetworkLoad: "<p class='monitor-note'>P2Pネットワーク負荷、Torメトリック、およびその他のネットワークデータについては、<a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>をご覧ください。</p>"
+
+community:
+  hCommunity: コミュニティ
+  hJoin: 私たちのコミュニティに参加して、ビットコインの思想に則り設計された取引所の構築を支援してください。
+  hConnect: 接続
+  pGitHub: "@bisq-network on GitHub</a><br>メインBisqネットワークコードリポジトリ"
+  pTwitter: "@bisq_network on Twitter</a><br>コミュニティおよび開発に関する最新情報を入手"
+  pYoutube: "Bisq YouTubeチャンネル</a> <br>毎週行われるGrowth Callの表示と参加、開発者や他のマルチメディアコンテンツとのインタビューの視聴"
+  pSlack: "Bisq Slackワークスペース</a> <br>Bisqを改善する方法についての会話に参加する"
+  pForum: "Bisqフォーラム</a> <br>Bisqフォーラムに意見や質問を投稿する"
+  pNewsletter: "Bisq貢献者メーリングリスト</a> <br>ニュースレターに参加する"
+  pFreenode: "#bisq on Freenode IRC</a><br>非中央集権化されたチャットのためのIRC freenodeサーバー"
+  pReddit: "r/Bisq Subreddit</a><br>Bisqのsubredditコミュニティでサポートを受ける＆交流する"
+  pKeybase: "KeybaseのBisqに参加する"
+
+vision:
+  hVision: ビジョン
+  hExchanges: "[Exchanges](https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges){:target='_blank'} ビットコインのエコシステムで重要な役割を果たします。 それらがなければ、ユーロ、ドル、円、または人民元でビットコインを売買することはほぼ不可能です。 ビットコイン市場の流動性がなくなり、ビットコインは無価値になるでしょう。"
+  pVision: "サトシナカモトは、中央集権型決済システムの問題を解決するためにビットコインを作成しました。そのため、中央集権型ビットコイン取引所がビットコインを獲得する主要な方法であるとは思えません。 中央集権型取引所の優位性と脆弱性は、現在のビットコインエコシステムにおけるアキレス腱です。"
+  pVision1: "ビットコインの分野では非中央集権化について多くの議論があり、この弱点に対処するために非中央集権化された取引所を作成するさまざまな試みがあります。"
+  pVision2: "Bisqは純粋なP2Pインフラストラクチャ上に構築された1つのソリューション、つまりデスクトップソフトウェア、Tor、ローカルウォレットであり、中央アカウントはありません。 国家通貨の振替には銀行や支払処理業者などの従来の支払チャネルが必要ですが、Bisqは特定のチャネルに依存していません。 これらの支払いチャネルの役割は、国家通貨を送金するという本来の目的に限定されています。 それだけです―金融取引の検閲、没収、監視、制御はありません。"
+  pVision3: "Bisqは次のような人向けに構築されています。"
+  pVision4: >
+   <li>ドル、ユーロ、円などの国家通貨をビットコインに交換したい。</li>
+   <li>幅広い代替暗号通貨をビットコインに交換したい。</li>
+   <li>資金を保持するための取引所を信頼したくない。</li>
+   <li>他の個人と取引するために、中央当局へのコントロールまたはプライバシーを失いたくない。</li>
+   <li>金融取引を、銀行、政府、その他の機関による監視から保護されるべき個人的なスピーチの一形態とみなしている。</li>
+  pVision5: "概要ドキュメントで、Bisqの哲学と、それがどのようにビットコインをプライベートで、安全で、簡単にするのかについての詳細を見つけることができます："
+  pVision6: "Bisqの紹介を読む"
+  pVision7: "参考文献"
+  pVisionSatoshi: by Satoshi Nakamoto
+  pVisionSzabo: by Nick Szabo

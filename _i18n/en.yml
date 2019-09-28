@@ -34,7 +34,7 @@ homepage_content:
   pDecentralized: Trading takes place on a global P2P network of users running Bisq on their own machines.
   hSafe: Safe
   pSafe: "Bisq never holds your funds. Security deposits and multisig trade wallets encourage safe, successful trades."
-  hPrivate: private
+  hPrivate: Private
   pPrivate: No one except trading partners exchange personally identifying data. All personal data is stored locally.
   hSecure: Secure and Always On
   pSecure: End-to-end encrypted communication routed over Tor and no down time.
@@ -218,9 +218,7 @@ faq:
   hTradeCost: "How much does it cost to trade on Bisq?"
   pTradeCost: >
     <p>To trade on Bisq, users pay (1) trading fees to Bisq and (2) mining fees to miners.</p>
-
     <strong>Trading fees</strong> <p>Trading fees are payable in BTC or BSQ. BSQ is colored bitcoin that Bisq uses to fund and govern itself. It's optional to use, but there are <a href="https://docs.bisq.network/getting-started-dao-traders.html" target="_blank">significant benefits</a>.</p> <div id="faq-tables"> <p class="note">BTC trading fees, per 1 BTC traded:</p> <table> <thead> <tr> <th></th> <th>BTC fees</th> <th>Fee as % of 1 BTC trade size</th> </tr> </thead> <tbody> <tr> <td>Maker fee</td> <td>0.002 BTC</td> <td>0.20%</td> </tr> <tr> <td>Taker fee</td> <td>0.006 BTC</td> <td>0.60%</td> </tr> </tbody> </table> <p class="note">BSQ trading fees, per 1 BTC traded:</p> <table> <thead> <tr> <th></th> <th>BSQ fees</th> <th>Fee as % of 1 BTC trade size</th> </tr> </thead> <tbody> <tr> <td>Maker fee</td> <td>13 BSQ</td> <td>0.13%</td> </tr> <tr> <td>Taker fee</td> <td>38 BSQ</td> <td>0.38%</td> </tr> </tbody> </table> </div> <p>BSQ fee percentages above assume a 0.00001 BSQ/BTC rate.</p> <p>Nominal BTC and BSQ fees are adjusted periodically by DAO voting to accommodate for market fluctuations.</p> <p>The minimum trading fees are set at 0.00005 BTC and 0.03 BSQ to avoid dust limits.</p>
-
     <strong>Mining fees</strong>
     <p>An offer maker only pays mining fees for the trade fee transaction. An offer taker pays mining fees for the trade fee transaction, deposit transaction, and payout transaction. This is because mining fees fluctuate and it's impossible for the offer
       maker to know what mining fees will be at the time their offer is taken.</p>
@@ -317,3 +315,36 @@ stats:
   pTwitterFollowers: Twitter Followers
   pSlackUsers: Slack Users
   pNetworkLoad: "<p class='monitor-note'>For P2P network load, Tor metrics, and other network data, please visit the <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>"
+  
+community:
+  hCommunity: Community
+  hJoin: Join our community and help build an exchange which is designed with the principles of Bitcoin in mind.
+  hConnect: Connect
+  pGitHub: "@bisq-network on GitHub</a><br>The main Bisq network code repository"
+  pTwitter: "@bisq_network on Twitter</a><br>Keep up-to-date with community and development announcements"
+  pYoutube: "Bisq YouTube channel</a><br>View and participate on our weekly growth calls and watch interviews with the developers and other multimedia content"
+  pSlack: "Bisq Slack workspace</a><br>Participate in the conversation on how to make Bisq better"
+  pForum: "Bisq Forum</a><br>Post your opinions and questions on the Bisq forum"
+  pNewsletter: "Bisq Contributor mailing list</a><br>Join our newsletter"
+  pFreenode: "#bisq on Freenode IRC</a><br>IRC freenode server for more decentralized chat"
+  pReddit: "r/Bisq Subreddit</a><br>Get support and mingle with the community in Bisq's subreddit"
+  pKeybase: "Bisq Keybase team</a><br>Join the Bisq team on Keybase"
+
+vision:
+  hVision: Vision
+  hExchanges: "[Exchanges](https://en.wikipedia.org/wiki/Bitcoin_exchange#List_of_Bitcoin_Exchanges){:target='_blank'} play a critical role in the Bitcoin ecosystem. Without them, it would be nearly impossible to buy or sell bitcoin for euros, dollars, yen or yuan. The bitcoin market would have no liquidity, and bitcoin would be worthless."
+  pVision: "Satoshi Nakamoto created Bitcoin to solve the problems of centralized payment systems, so it seems inconsistent for centralized Bitcoin exchanges to be the primary way to acquire bitcoin. It often seems the dominance and vulnerability of centralized exchanges is the Achilles heel in the current Bitcoin ecosystem."
+  pVision1: "There is much talk about decentralization in the Bitcoin space, and various attempts at creating decentralized exchanges to address this weakness."
+  pVision2: "Bisq is one solution built on pure P2P infrastructure: desktop software, Tor, local wallets, and no central accounts. While the transfer of national currency requires traditional payment channels like banks and payment processors, Bisq is not dependent on any particular one. The role of these payment channels is limited to what it should be: transferring national currency. That's it—no censoring, confiscating, monitoring, or controlling your financial transactions."
+  pVision3: "Bisq is built for those who:"
+  pVision4: >
+    <li>Want to exchange a national currency such as dollars, euros, or yen for bitcoin.</li>
+    <li>Want to exchange a wide range of alternative crypto currencies for bitcoin.</li>
+    <li>Do not want to trust any exchange for holding their funds.</li>
+    <li>Do not want to forfeit control or privacy to a central authority in order to trade with other individuals.</li>
+    <li>Regard financial transactions as a form of private speech that should be protected from surveillance by banks, governments, and other institutions.</li>
+  pVision5: "You can find out more about the philosophy of Bisq and how it makes trading bitcoin private, secure, and easy in our Introduction doc:"
+  pVision6: "Read the Bisq Introduction"
+  pVision7: "Further Reading:"
+  pVisionSatoshi: by Satoshi Nakamoto
+  pVisionSzabo: by Nick Szabo

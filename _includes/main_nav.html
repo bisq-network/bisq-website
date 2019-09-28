@@ -1,25 +1,26 @@
  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
-
-    <a class="navbar-brand" href="/"><img src="/images/bisq-logo.svg" height="30"/></a>
-
+   <a class="navbar-brand" href={% if site.lang == "en" %}"/"{% else %}"{{ site.baseurl }}"{% endif %}><img src="/images/bisq-logo.svg" height="30"/></a>
     <!-- Language selector for mobile -->
-    {% if page.lang %}
     <div class="dropdown mobile-language-selector more-info-desktop">
       <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        {{ page.language }} {{ page.flag }}
+        {% for item in site.data.languages %}{% if  site.lang == item.tag %} {{ item.name }} {{ item.flag }}{% endif %}{% endfor %}
       </button>
+      
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        {% assign pages = site.pages | where:"ref", page.ref | sort: 'language' %}
-        {% for page in pages %}
+	   {% assign sorted-items = site.data.languages | sort: "name" %}
+       {% for item in sorted-items %}
           <div class="dropdown-item btn-icon">
             <div class="float-right">
-              <a href="{{ page.url }}" hreflang="{{ page.lang }}">{{ page.language }} {{ page.flag }}</a>
+               {% if item.tag == "en" %}
+               <a href="/">{{ item.name }} {{ item.flag }}</a>
+			   {% else %}
+			   <a href="/{{ item.tag}}{{ page.url }}" hreflang="{{ item.tag }}">{{ item.name }} {{ item.flag }}</a>
+               {% endif %}
             </div>
           </div>
         {% endfor %}
       </div>
     </div>
-    {% endif %}
 
     <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -28,9 +29,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
       <ul class="navbar-nav ml-auto">
-
-          {% for item in site.data.main_nav.links %}
-          <li class="nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
+ 
+          {% for item in site.data.main_nav[site.lang].links %}
+          {% if site.lang == "en" %}
+            <li class="nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
+		  {% else %}
+		    {% assign var_baseurl = site.baseurl %}
+            {% assign var_pageurl = page.url %}
+            {% assign lang_url = var_baseurl | append: var_pageurl %}
+		    <li class="nav-item {% if item.url == lang_url %}current{% endif %}">
+		  {% endif %}
             {% if item.target == "_blank" %}
               <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
             {% else %}
@@ -38,8 +46,19 @@
             {% endif %}
           </li>
           {% endfor %}
+          
+          <!-- menu elements for mobile -->
+          <li class="downloads-mobile nav-item ">
+			  {% if site.lang == "en" %}<a class="nav-link" href="/community/">{% else %}<a class="nav-link" href="/{{ site.lang }}/community/">{% endif %}{% t main_nav.liCommunity %}</a>
+	      </li>  
+	      <li class="downloads-mobile nav-item ">
+			  <a class="nav-link" href="{{ '/blog/' | prepend: site.baseurl_root }}">{% t main_nav.liBlog %}</a>
+		  </li>
+		  <li class="downloads-mobile nav-item ">
+			  <a class="nav-link" rel="noopener" target="_blank" href="https://docs.bisq.network/">{% t main_nav.liDocumentation %}</a>
+		  </li>
 
-          {% for item in site.data.main_nav.mobile_links %}
+          {% for item in site.data.main_nav[site.lang].mobile_links %}{% if site.lang == "en" %}
           <li class="downloads-mobile nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
             {% if item.target == "_blank" %}
               <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
@@ -47,33 +66,34 @@
               <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
             {% endif %}
           </li>
-          {% endfor %}
+          {% endif %}{% endfor %}
 
-
+           
           <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
-              <a class="nav-link" href="/downloads">Downloads</a>
+              <a class="nav-link" {% if site.lang == "en" %}href="/downloads"{% else %}href="/{{ site.lang }}/downloads"{% endif %}>{% t main_nav.liDownloads %}</a>
           </li>
-
+          
+          <!-- menu elements for desktop -->
           <li class="downloads-desktop more-info-desktop nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Learn More
+              {% t main_nav.liLearnMore %}
             </a>
             <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="learnMoreDropdown">
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="https://docs.bisq.network/" target='_blank'>Documentation</a>
+                  <a href="https://docs.bisq.network/" target='_blank'>{% t main_nav.liDocumentation %}</a>
                 </div>
               </div>
 
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="/blog/">Blog</a>
+                  <a href="{{ '/blog/' | prepend: site.baseurl_root }}">{% t main_nav.liBlog %}</a>
                 </div>
               </div>
 
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="/community/">Community</a>
+                  {% if site.lang == "en" %}<a href="/community/">{% else %}<a href="/{{ site.lang }}/community/">{% endif %}{% t main_nav.liCommunity %}</a>
                 </div>
               </div>
             </div>
@@ -82,7 +102,7 @@
 
           <li class="downloads-desktop nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="downloadDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Downloads
+              {% t main_nav.buttonDownloads %}
             </a>
             <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="downloadDropdown">
               {% include os_selector_options.html %}
@@ -90,23 +110,27 @@
           </li>
 
           <!-- Language selector -->
-          {% if page.lang %}
           <li class="downloads-desktop nav-item dropdown more-info-desktop language-selector">
             <a class="nav-link dropdown-toggle visible-language" href='#' id="languageSelectorDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              {{ page.language }} {{ page.flag }}
+                  {% for item in site.data.languages %}
+                    {% if  site.lang == item.tag %} {{ item.name }} {{ item.flag }} {% endif %}
+                  {% endfor %}
             </a>
             <div class="dropdown-menu" aria-labelledby="languageSelectorDropdown">
-              {% assign pages = site.pages | where:"ref", page.ref | sort: 'language' %}
-              {% for page in pages %}
+			  {% assign sorted-items = site.data.languages | sort: "name" %}
+              {% for item in sorted-items %}
                 <div class="dropdown-item btn-icon">
                   <div class="float-right">
-                    <a href="{{ page.url }}" hreflang="{{ page.lang }}">{{ page.language }} {{ page.flag }}</a>
+                         {% if item.tag == "en" %}
+						 <a href="/">{{ item.name }} {{ item.flag }}</a>
+						 {% else %}
+						 <a href="/{{ item.tag}}{{ page.url }}" hreflang="{{ item.tag }}">{{ item.name }} {{ item.flag }}</a>
+						 {% endif %}
                   </div>
                 </div>
               {% endfor %}
             </div>
           </li>
-          {% endif %}
 
       </ul>
     </div>

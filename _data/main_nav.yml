@@ -1,19 +1,20 @@
-links:
+en:  
+  links:
 
-- title: Vision
-  url: /vision/
+    - title: Vision
+      url: /vision/
 
-- title: Bisq DAO
-  url: /dao/
+    - title: Bisq DAO
+      url: /dao/
 
-- title: Statistics
-  url: /stats/
+    - title: Statistics
+      url: /stats/
 
-- title: FAQ
-  url: /faq/
+    - title: FAQ
+      url: /faq/
 
-- title: Markets
-  url: /markets/
+    - title: Markets
+      url: /markets/
 
 mobile_links:
 
@@ -26,3 +27,183 @@ mobile_links:
 - title: Documentation
   url: https://docs.bisq.network/
   target: _blank
+
+de:
+  links:
+
+    - title: Vision
+      url: /de/vision/
+
+    - title: Bisq DAO
+      url: /de/dao/
+
+    - title: Statistiken
+      url: /de/stats/
+
+    - title: FAQ
+      url: /de/faq/
+
+    - title: Märkte
+      url: /de/markets/
+
+  mobile_links:
+
+    - title: Community
+      url: /de/community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Dokumentation
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+es:
+  links:
+
+    - title: Visión
+      url: /es/vision/
+
+    - title: DAO Bisq
+      url: /es/dao/
+
+    - title: Estadísticas
+      url: /es/stats/
+
+    - title: FAQ
+      url: /es/faq/
+
+    - title: Mercados
+      url: /es/markets/
+
+  mobile_links:
+
+    - title: Comunidad
+      url: /es/community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Documentación
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+fr:
+  links:
+
+    - title: Vision
+      url: /fr/vision/
+
+    - title: La DAO de Bisq
+      url: /fr/dao/
+
+    - title: Statistiques
+      url: /fr/stats/
+
+    - title: FAQ
+      url: /fr/faq/
+
+    - title: Marchés
+      url: /fr/markets/
+
+  mobile_links:
+
+    - title: Communauté
+      url: /fr/community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Documentation
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+ja:
+  links:
+
+    - title: ビジョン
+      url: /ja/vision/
+
+    - title: Bisq DAO
+      url: /ja/dao/
+
+    - title: 統計
+      url: /ja/stats/
+
+    - title: FAQ
+      url: /ja/faq/
+
+    - title: 市場
+      url: /ja/markets/
+
+  mobile_links:
+
+    - title: コミュニティー
+      url: /ja/community/
+
+    - title: ブログ
+      url: /blog/
+
+    - title: ドキュメンテーション
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+pt-PT:
+  links:
+
+    - title: Visão
+      url: /pt-PT/vision/
+
+    - title: OAD do Bisq
+      url: /pt-PT/dao/
+
+    - title: Estatísticas
+      url: /pt-PT/stats/
+
+    - title: FAQ
+      url: /pt-PT/faq/
+
+    - title: Mercados
+      url: /pt-PT/markets/
+
+  mobile_links:
+
+    - title: Comunidade
+      url: /pt-PT/community/
+
+    - title: Blog
+      url: /blog/
+
+    - title: Documentation
+      url: "https://docs.bisq.network/"
+      target: _blank
+
+zh-CN:
+  links:
+
+    - title: 愿景
+      url: /zh-CN/vision/
+
+    - title: Bisq DAO
+      url: /zh-CN/dao/
+
+    - title: 统计数据
+      url: /zh-CN/stats/
+
+    - title: FAQ
+      url: /zh-CN/faq/
+
+    - title: 市场
+      url: /zh-CN/markets/
+
+  mobile_links:
+
+    - title: 社区
+      url: /zh-CN/community/
+
+    - title: 博客
+      url: /blog/
+
+    - title: 文档
+      url: "https://docs.bisq.network/"
+      target: _blank

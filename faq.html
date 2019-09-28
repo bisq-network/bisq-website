@@ -2,180 +2,176 @@
 layout: page
 title: FAQ &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: faq
-lang: en
-flag: 🌐
-language: English
 ---
-{% assign item = site.data.en.faq %}
-<h1>{{ item.hFAQ }}</h1>
-<h4 class="mt-5 pb-3">{{ item.hCoreFunctions }}</h4>
+<h1>{% t faq.hFAQ %}</h1>
+<h4 class="mt-5 pb-3">{% t faq.hCoreFunctions %}</h4>
 <div class="accordion border-bottom mb-5">
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="safe-open-source">{{ item.hSafeOpenSource }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="safe-open-source">{% t faq.hSafeOpenSource %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pSafeOpenSource }}
+    {% t faq.pSafeOpenSource %}
   </div>
 
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-bisq-different">{{ item.hDifferent }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-bisq-different">{% t faq.hDifferent %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pDifferent }}
+    {% t faq.pDifferent %}
   </div>
 
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="supported-payment-methods">{{ item.hPaymentMethods }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="supported-payment-methods">{% t faq.hPaymentMethods %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.ulPaymentMethods }}
+    {% t faq.ulPaymentMethods %}
   </div>
 </div>
 
-<h4 class="pt-5 mt-5 pb-3">{{ item.hTradingDetails }}</h4>
+<h4 class="pt-5 mt-5 pb-3">{% t faq.hTradingDetails %}</h4>
 <div class="accordion border-bottom mb-5">
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="trade-limits">{{ item.hTradeLimits }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="trade-limits">{% t faq.hTradeLimits %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pTradeLimits }}
+    {% t faq.pTradeLimits %}
   </div>
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-security-deposit">{{ item.hSecurityDeposit }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-security-deposit">{% t faq.hSecurityDeposit %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pSecurityDeposit }}
+    {% t faq.pSecurityDeposit %}
   </div>
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-privacy-protected">{{ item.hPrivacy }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-privacy-protected">{% t faq.hPrivacy %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-      {{ item.pPrivacy }}
+      {% t faq.pPrivacy %}
   </div>
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="trade-periods">{{ item.hTradeDuration }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="trade-periods">{% t faq.hTradeDuration %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pTradeDuration }}
+    {% t faq.pTradeDuration %}
   </div>
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="cost-to-trade">{{ item.hTradeCost }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="cost-to-trade">{% t faq.hTradeCost %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
 
-    {{ item.pTradeCost }}
+    {% t faq.pTradeCost %}
 
   </div>
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-keep-bisq-online">{{ item.hOpenOffer }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-keep-bisq-online">{% t faq.hOpenOffer %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pOpenOffer }}
+    {% t faq.pOpenOffer %}
   </div>
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="edit-offer">{{ item.hEditOffer }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="edit-offer">{% t faq.hEditOffer %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pEditOffer }}
+    {% t faq.pEditOffer %}
   </div>
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="will-bank-know">{{ item.hBank }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="will-bank-know">{% t faq.hBank %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pBank }}
-  </div>
-</div>
-
-
-<h4 class="pt-5 mt-5 pb-3">{{ item.hDisputeRsolution }}</h4>
-<div class="accordion border-bottom mb-5">
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-arbitration-works">{{ item.hArbitrationProcess }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pArbitrationProcess }}
-  </div>
-
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="preventing-arbitrator-collusion">{{ item.hCollusion }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pCollusion }}
-  </div>
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="chargeback-details">{{ item.hChargeback }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pChargeback }}
-  </div>
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="arbitration-alternatives">{{ item.hReputationSystem }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pReputationSystem }}
-  </div>
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="become-arbitrator">{{ item.hBeArbitrator }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pBeArbitrator }}
-  </div>
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="contact-trading-peer">{{ item.hContactPeer }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pContactPeer }}
-  </div>
-</div>
-
-<h4 class="pt-5 mt-5 pb-3">{{ item.hBisqDAO }}</h4>
-<div class="accordion border-bottom mb-5">
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="about-dao">{{ item.hBisqDaoWhat }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-    {{ item.pBisqDaoWhat }}
-  </div>
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-dao-works">{{ item.hBisqDaoHow }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-      {{ item.pBisqDaoHow }}
-  </div>
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="dao-for-traders">{{ item.hNeedToKnow }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-      {{ item.pNeedToKnow }}
-  </div>
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="without-bsq">{{ item.hUseBSQ }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-      {{ item.pUseBSQ }}
-  </div>
-
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-dao">{{ item.hBisqToken }}</h6>
-  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-      {{ item.pBisqToken }}
+    {% t faq.pBank %}
   </div>
 </div>
 
 
-
-<h4 class="pt-5 mt-5 pb-3">{{ item.hMiscellaneous }}</h4>
+<h4 class="pt-5 mt-5 pb-3">{% t faq.hDisputeRsolution %}</h4>
 <div class="accordion border-bottom mb-5">
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-security-deposit">{{ item.hNoBitcoins }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-arbitration-works">{% t faq.hArbitrationProcess %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
-
-    {{ item.pNoBitcoins }}
+    {% t faq.pArbitrationProcess %}
   </div>
 
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="new-payment-accounts">{{ item.hPaymentSupport }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="preventing-arbitrator-collusion">{% t faq.hCollusion %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    {% t faq.pCollusion %}
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="chargeback-details">{% t faq.hChargeback %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    {% t faq.pChargeback %}
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="arbitration-alternatives">{% t faq.hReputationSystem %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    {% t faq.pReputationSystem %}
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="become-arbitrator">{% t faq.hBeArbitrator %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    {% t faq.pBeArbitrator %}
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="contact-trading-peer">{% t faq.hContactPeer %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    {% t faq.pContactPeer %}
+  </div>
+</div>
+
+<h4 class="pt-5 mt-5 pb-3">{% t faq.hBisqDAO %}</h4>
+<div class="accordion border-bottom mb-5">
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="about-dao">{% t faq.hBisqDaoWhat %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+    {% t faq.pBisqDaoWhat %}
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-dao-works">{% t faq.hBisqDaoHow %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      {% t faq.pBisqDaoHow %}
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="dao-for-traders">{% t faq.hNeedToKnow %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      {% t faq.pNeedToKnow %}
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="without-bsq">{% t faq.hUseBSQ %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      {% t faq.pUseBSQ %}
+  </div>
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-dao">{% t faq.hBisqToken %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+      {% t faq.pBisqToken %}
+  </div>
+</div>
+
+
+
+<h4 class="pt-5 mt-5 pb-3">{% t faq.hMiscellaneous %}</h4>
+<div class="accordion border-bottom mb-5">
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="why-security-deposit">{% t faq.hNoBitcoins %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
 
-    {{ item.pPaymentSupport }}
+    {% t faq.pNoBitcoins %}
   </div>
 
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="software-bugs">{{ item.hSoftwareBugs }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="new-payment-accounts">{% t faq.hPaymentSupport %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
 
-    {{ item.pSoftwareBugs }}
+    {% t faq.pPaymentSupport %}
   </div>
 
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="whats-multisig">{{ item.hMultisg }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="software-bugs">{% t faq.hSoftwareBugs %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
 
-
-    {{ item.pMultisig }}
+    {% t faq.pSoftwareBugs %}
   </div>
 
 
-  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="more-questions">{{ item.hOtherQuestions }}</h6>
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="whats-multisig">{% t faq.hMultisg %}</h6>
   <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
 
-    {{ item.pOtherQuestions }}
+
+    {% t faq.pMultisig %}
+  </div>
+
+
+  <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="more-questions">{% t faq.hOtherQuestions %}</h6>
+  <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0">
+
+    {% t faq.pOtherQuestions %}
   </div>
 </div>

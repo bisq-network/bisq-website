@@ -2,68 +2,62 @@
 layout: page
 title: Bisq Downloads &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: downloads
-lang: en
-flag: 🌐
-language: English
 ---
-{% assign item = site.data.en.downloads %}
 <h1>Bisq Downloads</h1>
 
-
-
 <div class="mt-5 mb-2">
-  <div class="id-win64 hidden">{{ item.runningWindows }}</div>
-  <div class="id-mac hidden">{{ item.runningMac }}</div>
-  <div class="id-deb64 hidden">{{ item.runnigDebian }}.</div>
-  <div class="id-rpm64 hidden">{{ item.runningRedHat }}</div>
+  <div class="id-win64 hidden">{% t downloads.runningWindows %}</div>
+  <div class="id-mac hidden">{% t downloads.runningMac %}</div>
+  <div class="id-deb64 hidden">{% t downloads.runnigDebian %}.</div>
+  <div class="id-rpm64 hidden">{% t downloads.runningRedHat %}</div>
 
   <table class="all-downloads mt-5">
     <tr class="border-bottom">
-      <td>{{ item.tdWindows }}</td>
+      <td>{% t downloads.tdWindows %}</td>
       <td>
         <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a>
       </td>
     </tr>
     <tr class="border-bottom">
-      <td>{{ item.tdMac }}</td>
+      <td>{% t downloads.tdMac %}</td>
       <td><a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
       </td>
     </tr>
     <tr class="border-bottom">
-      <td>{{ item.tdDebian }}</td>
+      <td>{% t downloads.tdDebian %}</td>
       <td>
         <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">.deb</a>
       </td>
     </tr>
     <tr class="border-bottom">
-      <td>{{ item.tdRedHat }}</td>
+      <td>{% t downloads.tdRedHat %}</td>
       <td>
         <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">.rpm</a>
       </td>
     </tr>
     <tr class="border-bottom">
-      <td>{{ item.tdArchLinux }}</td>
-      <td><a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bisq-git">{{ item.tdArchLinuxText }}</a></td>
+      <td>{% t downloads.tdArchLinux %}</td>
+      <td><a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bisq-git">{% t downloads.tdArchLinuxText %}</a></td>
     </tr>
     <tr class="border-bottom">
-      <td>{{ item.tdSourceCode }}</td>
+      <td>{% t downloads.tdSourceCode %}</td>
       <td><a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.zip">zip</a> |
         <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.tar.gz">tar.gz</a></td>
     </tr>
     <tr class="border-bottom">
-      <td>{{ item.tdReleaseNotes }}</td>
-      <td><a href="https://bisq.network/downloads/v{{ site.client_version }}">{{ item.tdReleaseNotesText }} v{{ site.client_version }}</a></td>
+      <td>{% t downloads.tdReleaseNotes %}</td>
+      <td><a href="https://bisq.network/downloads/v{{ site.client_version }}">{% t downloads.tdReleaseNotesText %} v{{ site.client_version }}</a></td>
     </tr>
     <tr class="border-bottom">
-      <td>{{ item.tdVerification }}</td>
-      <td><a href="https://bisq.network/downloads/v{{ site.client_version }}">{{ item.tdVerificationText1 }}</a> |
-        <a href="https://bisq.network/downloads/v{{ site.client_version }}/29CDFD3B.asc">{{ item.tdVerificationText2 }}</a></td>
+      <td>{% t downloads.tdVerification %}</td>
+      <td><a href="https://bisq.network/downloads/v{{ site.client_version }}">{% t downloads.tdVerificationText1 %}</a> |
+        <a href="https://bisq.network/downloads/v{{ site.client_version }}/29CDFD3B.asc">{% t downloads.tdVerificationText2 %}</a></td>
     </tr>
   </table>
 
   <br>
 
-  {{ item.pSeeInstructions }}
+  {% t downloads.pSeeInstructions %}
 
 
 </div>
@@ -71,11 +65,11 @@ language: English
 
 
 <div class="mt-5">
-  <h5>{{ item.hMobileNotifications }}</h5>
-   <p>{{ item.pMobileNotifications }}</p>
+  <h5>{% t downloads.hMobileNotifications %}</h5>
+   <p>{% t downloads.pMobileNotifications %}</p>
 
         <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img mb-2" alt="Get it on Google Play" src="/images/badge_google_play.svg"/></a>
       &nbsp;
         <a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img mb-2" alt="Get it on the App Store" src="/images/badge_app_store.svg"/></a>
-        {{ item.p2MobileNotifications }}
+        {% t downloads.p2MobileNotifications %}
 </div>

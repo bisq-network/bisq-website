@@ -1,12 +1,3 @@
-langs:
-  en: English
-  de: Deutsch
-  es: Español
-  fr: Français
-  ja: 日本語
-  pt: Português
-  zh-cn: 简体中文
-
 footer:
   notificationApp: "App Bisq mobile de notification "
   siteYear: © 2019 Bisq

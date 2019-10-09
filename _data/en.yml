@@ -254,7 +254,7 @@ faq:
   pBeArbitrator: "<p>The required <a href=\"https://docs.bisq.network/dao/phase-zero.html\" target=\"_blank\" rel=\"noopener\">BSQ bond</a> is very high and there are currently only very few people who have contributed enough to Bisq to have have earned so much BSQ.</p>"
   hContactPeer: "Can I contact my trading peer?"
   pContactPeer: >
-    <p>So far, Bisq has intentionally avoided offering a way to get in direct contact with the trading peer. There is generally no need for such a mechanism, and offering one would only open a 'can of worms' with respect to security: malicious users could trick peers into a direct trade without using Bisq, and then exploit the lack of security to rip the other person off, or use the direct channel for other fraudulent activities (social engineering scams, spam, etc).</p> <p>Instead, in case of any issues, users can open a dispute and resolve the issue with the help of an arbitrator. There is also the <a href='https://bisq.community' target='_blank'>Bisq forum</a> and <a href='https://bisq.network/slack-invite' target='_blank'>Slack channel</a> available for users to get help.</p> <p>Note: with the launch of the <a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>new trade protocol</a>, however, there will be a means for peers to directly communicate with one another.</p>
+    <p>Yes, as of v1.1.6, Bisq includes a built-in chat feature for direct, private, and secure resolution of small issues without involving a mediator or arbitrator.</p>
   hBisqDAO: The Bisq DAO
   hBisqDaoWhat: "What is the Bisq DAO?"
   pBisqDaoWhat: >

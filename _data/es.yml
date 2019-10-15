@@ -328,7 +328,7 @@ markets:
 
 stats:
   hNetworkStats: Estado de red
-  pSeeMarkets: "<p>Ver la <a href='https://bisq.network/markets'>página de Mercados</a> para el volumen por moneda.</p>"
+  pSeeMarkets: "<p>Ver la <a href='https://bisq.network/es/markets'>página de Mercados</a> para el volumen por moneda.</p>"
   pBSQDistribution: La distribución de BSQ en la red principal fue el 15 de Abril de 2019.
   pTotalTrades: Intercambios totales
   pTotalDate: Durante el mes pasado

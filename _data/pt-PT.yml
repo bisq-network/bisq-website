@@ -307,7 +307,7 @@ markets:
 
 stats:
   hNetworkStats: Estatisticas da Rede
-  pSeeMarkets: "<p>Confira a <a href='https://bisq.network/markets'>página de Mercados</a> para ver volume por moeda.</p>"
+  pSeeMarkets: "<p>Confira a <a href='https://bisq.network/pt-PT/markets'>página de Mercados</a> para ver volume por moeda.</p>"
   pBSQDistribution: A distribuição de BSQ na Mainnet está prevista para Abril 2019
   pTotalTrades: Todos os Negócios
   pTotalDate: Durante o mês passado

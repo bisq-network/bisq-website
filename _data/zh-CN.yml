@@ -330,7 +330,7 @@ markets:
 
 stats:
   hNetworkStats: 网络状况
-  pSeeMarkets: "<p>按货币计算的成交量见<a href='https://bisq.network/markets'>市场页面</a>。</p>"
+  pSeeMarkets: "<p>按货币计算的成交量见<a href='https://bisq.network/zh-CN/markets'>市场页面</a>。</p>"
   pBSQDistribution: 核心网络 BSQ 计划于2019年4月发布。
   pTotalTrades: 总交易数
   pTotalDate: 上月数据

@@ -53,7 +53,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">あなたの国または暗号通貨のアカウントを追加してください。</li><li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">新しいオファーを作成するか、既存のオファーを受けてください。</li><li class="mt-0 step step-text-4" data-image="step-image-4">ユーザーインターフェイスに従ってトレードを完了してください。</li>
   hJoin: コミュニティに参加
   pJoin: >
-    <p>Bisqは、<a href="https://bisq.network/community/">コミュニティ</a>に参加するための高度なスキルを持つ開発者、デザイナー、およびセキュリティの専門家を常に探しています。 Bisqの改善に関心がありましたら、<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">貢献する</a>方法はたくさんあります。<a href="https://bisq.network/community/">あなたから</a>のご連絡をお待ちしています！<p>私たちの<a href="https://bisq.network/roadmap/">ロードマップ</a>は、Bisq v1.0への道のりにおける高度な機能とマイルストーンの概要を提供しています。</p>
+    <p>Bisqは、<a href="https://bisq.network/ja/community/">コミュニティ</a>に参加するための高度なスキルを持つ開発者、デザイナー、およびセキュリティの専門家を常に探しています。 Bisqの改善に関心がありましたら、<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">貢献する</a>方法はたくさんあります。<a href="https://bisq.network/ja/community/">あなたから</a>のご連絡をお待ちしています！<p>私たちの<a href="https://bisq.network/roadmap/">ロードマップ</a>は、Bisq v1.0への道のりにおける高度な機能とマイルストーンの概要を提供しています。</p>
   liGithub: "@bisq-network on GitHub"
   liTwitter: "@bisq-network on Twitter"
   liYoutube: Bisq YouTubeチャンネル

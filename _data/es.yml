@@ -53,9 +53,9 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Añada sus cuentas de moneda nacional o cripto</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Cree una nueva oferta o tome una existente.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Siga la interfaz de usuario para finalizar el intercambio.</li>
   hJoin: Unirse a la comunidad
   pJoin: >
-    <p>Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad para unirse a nuestra <a href="localhost:4001/community/">comunidad</a>. Si está interesado en ayudar a mejorar Bisq, hay muchas maneras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
-     Nos encantaría <a href="localhost:4001/community/">saber de ti</a>!</p>
-    <p>Nuestra <a href="localhost:4001/roadmap/">hoja de ruta</a> proporciona una vista general de las características y hitos hasta llegar a la v.1.0 de Bisq.</p>
+    <p>Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad para unirse a nuestra <a href="https://bisq.network/es/community/">comunidad</a>. Si está interesado en ayudar a mejorar Bisq, hay muchas maneras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
+     Nos encantaría <a href="https://bisq.network/es/community/">saber de ti</a>!</p>
+    <p>Nuestra <a href="https://bisq.network/roadmap/">hoja de ruta</a> proporciona una vista general de las características y hitos hasta llegar a la v.1.0 de Bisq.</p>
   liGithub: "@bisq-network en GitHub"
   liTwitter: "@bisq-network en Twitter"
   liYoutube: Canal de YouTube Bisq
@@ -328,7 +328,7 @@ markets:
 
 stats:
   hNetworkStats: Estado de red
-  pSeeMarkets: "<p>Ver la <a href='localhost:4001/markets'>página de Mercados</a> para el volumen por moneda.</p>"
+  pSeeMarkets: "<p>Ver la <a href='https://bisq.network/es/markets'>página de Mercados</a> para el volumen por moneda.</p>"
   pBSQDistribution: La distribución de BSQ en la red principal fue el 15 de Abril de 2019.
   pTotalTrades: Intercambios totales
   pTotalDate: Durante el mes pasado

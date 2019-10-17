@@ -61,7 +61,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">添加您的国家或加密货币帐户。</li><li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">创建新报价或接受现有报价。</li><li class="mt-0 step step-text-4" data-image="step-image-4">按照用户界面完成交易。</li>
   hJoin: 加入社区
   pJoin: >
-    <p>Bisq 一直在寻找高级的开发人员、设计师和安全专家加入我们的<a href="https://bisq.network/community/">社区</a>。如果你有兴趣<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">帮助</a> Bisq 变得更好，有很多方法可以帮助你。我们很高兴<a href="https://bisq.network/community/">收到你的来信</a>！</p><p>我们的<a href="https://bisq.network/roadmap/">路线图</a>概述了 Bisq v1.0 的先进特性和里程碑。</p>
+    <p>Bisq 一直在寻找高级的开发人员、设计师和安全专家加入我们的<a href="https://bisq.network/zh-CN/community/">社区</a>。如果你有兴趣<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">帮助</a> Bisq 变得更好，有很多方法可以帮助你。我们很高兴<a href="https://bisq.network/zh-CN/community/">收到你的来信</a>！</p><p>我们的<a href="https://bisq.network/roadmap/">路线图</a>概述了 Bisq v1.0 的先进特性和里程碑。</p>
   liGithub: "GitHub 上的 @bisq-network"
   liTwitter: "Twitter 上的 @bisq_network"
   liYoutube: Bisq 的 YouTube 频道
@@ -330,7 +330,7 @@ markets:
 
 stats:
   hNetworkStats: 网络状况
-  pSeeMarkets: "<p>按货币计算的成交量见<a href='https://bisq.network/markets'>市场页面</a>。</p>"
+  pSeeMarkets: "<p>按货币计算的成交量见<a href='https://bisq.network/zh-CN/markets'>市场页面</a>。</p>"
   pBSQDistribution: 核心网络 BSQ 计划于2019年4月发布。
   pTotalTrades: 总交易数
   pTotalDate: 上月数据

@@ -16,7 +16,7 @@ For smaller changes, it's usually enough to build and observe the site locally. 
 
 It's also not a bad idea to do a `diff` on the source code before submitting (for example, to make sure stray characters weren't added somewhere by mistake). You can check for changes by running `git diff <latest upstream commit id> <your branch's latest commit id>` or by using a graphical tool like Meld.
 
-For changes that may alter the site's functionality, it can be helpful to `diff` the built code base in `_site/` against the existing built code base. You can do this by running something like `git diff -ru <upstream _site folder> <local _site folder>` or by comparing the 2 directories with a graphical tool like Meld.
+For changes that may alter the site's functionality, it can be helpful to `diff` the generated HTML code in `_site/` against the current live production website's HTML code. You can do this by building `master` branch and your work branch in separate folders, and then run something like `git diff -ru <upstream/master _site folder> <local/work _site folder>` or by comparing the 2 directories with a graphical tool like Meld.
 
 Consider breaking big initiatives into smaller chunks wherever possible, or make a [WIP] or draft PR when you start a big initiative so it's possible to review your changes in smaller chunks. You can always squash/rebase commits after approval. Remember that reviewing pull requests is voluntary and can take time, so try to make the process as easy as possible for reviewers.
 

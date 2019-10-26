@@ -129,6 +129,8 @@ function getTrades( pair ) {
                 $( '<th>' ).text( 'Trade Amount')
             ).appendTo( '#trade-history-header' );
 
+            if (typeof data == "string") data = JSON.parse(data);
+
             $.each( data, function( key, val ) {
 
                 tradeDate = new Date( val.trade_date );
@@ -171,6 +173,8 @@ function getTrades( pair ) {
                     $( '<th>' ).text( 'Trade Size (' + buildTicker( pair ) + ')' )
                 ).appendTo( '#trade-history-header' );
             }
+
+            if (typeof data == "string") data = JSON.parse(data);
 
             $.each( data , function( key, val ) {
 

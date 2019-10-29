@@ -132,14 +132,14 @@ faq:
       <a href="https://github.com/bisq-network/bisq/" target="_blank">source code</a> and
       <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">license</a>.</p>
     <p>Bisq employs three primary mechanisms to achieve security:</p> <ol>
-      <li>All bitcoins traded with Bisq are secured in a 2-of-3
+      <li>All bitcoins traded with Bisq are secured in a 2-of-2
         <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multisignature</a> address.</li>
       <li>Both traders are required to pay security deposits. These are refunded after trades are completed.</li>
-      <li>Bisq uses an arbitrator system to handle trade disputes.</li>
-    </ol> <p>When trading fiat currency for bitcoin, there is always some chargeback risk, as fiat transactions can technically be reversed. To mitigate this risk, Bisq only supports payment methods which are known to make chargebacks difficult—this is why Bisq does not support PayPal and credit cards, for example.</p> <p>Read <a href="#chargeback-details">here</a> for more on chargeback risks.</p>
+      <li>Trade disputes are handled through a <a href="https://docs.bisq.network/trading-rules#dispute-resolution" target="_blank">3-tier mechanism</a> that includes trader chat, mediation, and arbitration.</li>
+    </ol> <p>When trading fiat currency for bitcoin, there is always some chargeback risk, as fiat transactions can technically be reversed.</p><p>To mitigate this risk, Bisq:</p><ul><li>only supports payment methods which are known to make chargebacks difficult—this is why Bisq does not support PayPal and credit cards, for example. See <a href="#chargeback-details">more on chargeback risks</a>.</li><li>employs an <a href="https://docs.bisq.network/payment-methods#account-signing" target="_blank">account signing mechanism</a> that forces a 0.01 BTC buy limit until a buyer's integrity is verified.</li></ul>
   hDifferent: "There are already other decentralized exchanges. How is Bisq different?"
   pDifferent: >
-    <p>Currently no other project fits our definition of a decentralized bitcoin-to-fiat exchange. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> is one project that comes close to mirroring Bisq's principles, but it's a general-purpose marketplace,not a specialized currency exchange.</p> <p>Most exchanges claiming to be decentralized either do not support fiat exchange, or operate with a client-server architecture and do not fit our definition. And of course there are a lot of ICO projects with whitepapers but they have not proven yet that they can deliver any working software.</p> <p>To be properly decentralized, one must avoid single points of failure:</p> <ul>
+    <p>Currently no other project fits our definition of a decentralized bitcoin-to-fiat exchange. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> is one project that comes close to mirroring Bisq's principles, but it's a general-purpose marketplace, not a specialized currency exchange.</p> <p>Most exchanges claiming to be decentralized either do not support fiat exchange, or operate with a client-server architecture and do not fit our definition. And of course there are a lot of ICO projects with whitepapers but they have not proven yet that they can deliver any working software.</p> <p>To be properly decentralized, one must avoid single points of failure:</p> <ul>
       <li>Bisq does not hold any bitcoins. All are held in multisignature addresses rather than a Bisq-controlled wallet.</li>
       <li>Bisq does not hold any national currency. National currency is transferred directly from one trader to the other.</li>
       <li>Bisq uses a peer-to-peer network over Tor. This means there are no servers to be hacked or DDoS'd.</li>
@@ -155,10 +155,11 @@ faq:
       <li>AliPay</li>
       <li>Cash Deposit</li>
       <li>Chase QuickPay</li>
-      <li>Face to face (in person)</li>
+      <li>Face to face (in-person)</li>
       <li>Faster Payments</li>
       <li>HalCash</li>
       <li>Interac e-Transfer</li>
+      <li>Japan Zengin Furikomi</li>
       <li>MoneyBeam (N26)</li>
       <li>MoneyGram</li>
       <li>National bank transfer</li>
@@ -177,49 +178,25 @@ faq:
       <li>Western Union</li>
       <li>Zelle (ClearXchange)</li>
     </ul>
+    <p>Please see our <a href="https://docs.bisq.network/payment-methods" target="_blank">payment methods doc</a> for more details. Different payment methods have different trading limits and trading periods.</p>
   hTradingDetails: Trading Details
   hTradeLimits: "What are the trade limits?"
   pTradeLimits: >
-    <p class='font-italic'>Fiat trades</p> <p>To discourage fraud in fiat transactions, Bisq imposes limits on trade amounts. These limits are derived from the payment method's chargeback risk and the age of the account (i.e., the time since you entered the payment account in Bisq).</p> <p>There are no limits on the number of trades you can do—just the amount per trade.</p> <p>For most bank-based payment methods like SEPA or Zelle the trade limit is 0.5 BTC per trade. For services like Swish, PerfectMoney and AliPay it is 1 BTC. For recently-added payment methods like Revolut, Popmoney, and MoneyBeam (N26) the trade limit is 0.25 BTC.</p> <p>When you first add a fiat payment account to Bisq, its trade limit will be 25% of the full trade limit. It will then increase every 30 days until the full trade limit is reached.</p> <p class='font-italic'>Altcoin trades</p> <p>Altcoin trades up to 2 BTC are allowed from day one—altcoins do not have chargeback risk, so account aging is not needed.</p>
+    <p class='font-italic'>Fiat trades</p> <p>To discourage fraud in fiat transactions, Bisq imposes limits on trade amounts. These limits are derived from the payment method's chargeback risk, <a href="https://docs.bisq.network/payment-methods#account-signing" target="_blank">its signing status</a>, and its age (i.e., the time since you created the payment account in Bisq).</p> <p>There are no limits on the number of trades you can do—just the amount per trade.</p> <p>For most bank-based payment methods like SEPA or Zelle, the maximum trade size is 0.25 BTC. For services like PerfectMoney and AliPay, it is 1 BTC.</p> <p>Lower-risk payment methods start to age as soon as they're created in Bisq. When you create such a payment account in Bisq, its trade limit will be 25% of the full trade limit. After 30 days, it will increase to 50% of the full trade limit, and after 60 days it will increase to 100% of the full trade limit.</p><p>Higher-risk payment accounts must be signed by a trusted peer in order to start aging. Until this signing, they are limited to buying 0.01 BTC. The <a href="https://docs.bisq.network/payment-methods#account-signing" target="_blank">account signing doc</a> has more details.</p><p>Note that selling limits for higher-risk payment methods are not affected by signing and follow regular account aging as described for lower-risk payment methods above.</p> <p class='font-italic'>Altcoin trades</p> <p>Altcoin trades up to 2 BTC are allowed from day one—altcoins do not have chargeback risk, so account aging is not needed.</p>
   hSecurityDeposit: "Why does Bisq require a security deposit?"
   pSecurityDeposit: >
-    <p>Security deposits create incentives for both buyer and seller to follow the rules of Bisq's trading protocol. They are locked into multisig escrow along with the bitcoin being traded, and are returned to each user when the trade completes successfully.</p> <p>If a trade goes to arbitration and one party is found to have violated Bisq's trading protocol, some or all of that party's security deposit may be awarded to the counterparty. Examples of protocol violations include a buyer failing to pay a seller, or a seller failing to acknowledge receipt of a buyer's payment.</p> <p>Most Bisq trades complete without any problem thanks in part to the incentives that security deposits create.</p>
+    <p>Security deposits create incentives for both buyer and seller to follow the rules of Bisq's trading protocol. They are locked into multisig escrow along with the bitcoin being traded, and are returned to each user when the trade completes successfully.</p> <p>If a trade is disputed through a mediator or arbitrator, some or all of that party's security deposit may be awarded to the counterparty. Examples of protocol violations include a buyer failing to pay a seller, or a seller failing to acknowledge receipt of a buyer's payment.</p> <p>Most Bisq trades complete without any problem thanks in part to the incentives that security deposits create.</p><p>See <a href="https://docs.bisq.network/trading-rules" target="_blank">this document</a> for full trading rules.</p>
   hPrivacy: "How does Bisq protect my privacy?"
   pPrivacy: >
-    <p>Bisq is standalone, open-source software that you can inspect before running on your machine, and as a result, you don't have to trust that any server is logging your personal details (as you would in the case of a website).</p> <p>As for the trading process, your payment information is stored locally on your machine, and only your trading partner (and your arbitrator, in case of a dispute) can ever see it. All data exchanged between users is encrypted and signed.</p> <p>To transmit data from one user to another, Bisq uses a P2P network built on top of Tor, which provides a high degree of anonymity. The user doesn't need to do any additional work for all of this to work—it is all integrated in the application.</p>
+    <p>Bisq is standalone, open-source software that you can inspect before running on your machine, and as a result, you don't have to trust that any server is logging your personal details (as you would in the case of a website).</p> <p>As for the trading process, your payment information is stored locally on your machine, and only your trading partner (and your mediator or arbitrator, in case of a dispute) can ever see it. All data exchanged between users is encrypted and signed.</p> <p>To transmit data from one user to another, Bisq uses a P2P network built on top of Tor, which provides a high degree of anonymity. The user doesn't need to do any additional work for all of this to work—it is all integrated in the application.</p>
   hTradeDuration: "How long does a trade take?"
   pTradeDuration: >
-    <p>Your trade duration will be determined by the transfer times of the currencies you're using. National currency transfers can be instant (Faster Payment) or can take days (SEPA).</p> <p>Bitcoin transactions take about 10 minutes to confirm, and at least one confirmation is required before the buyer can send the fiat or altcoins.</p> <p>Here are the maximum trade periods allowed before a trade goes automatically into arbitration:</p> <strong>EURO</strong> <ul>
-      <li>SEPA: 6 days</li>
-      <li>SEPA Instant: 1 day</li>
-    </ul> <strong>UK</strong> <ul>
-      <li>Faster Payments: 1 day</li>
-    </ul> <strong>Sweden</strong> <ul>
-      <li>Swish: 1 day</li>
-    </ul> <strong>US</strong> <ul>
-      <li>Zelle (formerly known as clearXchange): 4 days</li>
-      <li>Chase QuickPay: 1 day</li>
-      <li>US Postal Money Order: 8 days</li>
-    </ul> <strong>Canada</strong> <ul>
-      <li>Interac e-Transfer: 1 day</li>
-    </ul> <strong>Global</strong> <ul>
-      <li>Cash Deposit: 4 days</li>
-      <li>Western Union: 4 days</li>
-      <li>National bank transfer: 4 days</li>
-      <li>Transfer with same bank: 2 days</li>
-      <li>Transfer with specific banks: 4 days</li>
-    </ul> <strong>Transnational</strong> <ul>
-      <li>Perfect Money: 1 day</li>
-    </ul> <strong>China</strong> <ul>
-      <li>Alipay: 1 day</li>
-    </ul> <strong>Altcoins</strong> <ul>
-      <li>Blockchains: 1 day</li>
-    </ul>
+    <p>Trade duration is determined by the transfer times of the currencies you're using. National currency transfers can be instant (Faster Payment) or can take a few days (SEPA).</p> <p>Bitcoin transactions take about 10 minutes to confirm, and at least one confirmation is required before the buyer can send the fiat or altcoins.</p> <p>Altcoin trade periods are always 1 day (or 1 hour for Altcoins Instant trades).</p><p>Please see the <a href="https://docs.bisq.network/payment-methods" target="_blank">list of payment methods</a> for complete details.</p>
   hTradeCost: "How much does it cost to trade on Bisq?"
   pTradeCost: >
     <p>To trade on Bisq, users pay (1) trading fees to Bisq and (2) mining fees to miners.</p>
 
-    <strong>Trading fees</strong> <p>Trading fees are payable in BTC or BSQ. BSQ is colored bitcoin that Bisq uses to fund and govern itself. It's optional to use, but there are <a href="https://docs.bisq.network/getting-started-dao-traders.html" target="_blank">significant benefits</a>.</p> <div id="faq-tables"> <p class="note">BTC trading fees, per 1 BTC traded:</p> <table> <thead> <tr> <th></th> <th>BTC fees</th> <th>Fee as % of 1 BTC trade size</th> </tr> </thead> <tbody> <tr> <td>Maker fee</td> <td>0.002 BTC</td> <td>0.20%</td> </tr> <tr> <td>Taker fee</td> <td>0.006 BTC</td> <td>0.60%</td> </tr> </tbody> </table> <p class="note">BSQ trading fees, per 1 BTC traded:</p> <table> <thead> <tr> <th></th> <th>BSQ fees</th> <th>Fee as % of 1 BTC trade size</th> </tr> </thead> <tbody> <tr> <td>Maker fee</td> <td>13 BSQ</td> <td>0.13%</td> </tr> <tr> <td>Taker fee</td> <td>38 BSQ</td> <td>0.38%</td> </tr> </tbody> </table> </div> <p>BSQ fee percentages above assume a 0.00001 BSQ/BTC rate.</p> <p>Nominal BTC and BSQ fees are adjusted periodically by DAO voting to accommodate for market fluctuations.</p> <p>The minimum trading fees are set at 0.00005 BTC and 0.03 BSQ to avoid dust limits.</p>
+    <strong>Trading fees</strong> <p>Trading fees are payable in BTC or BSQ. BSQ is colored bitcoin that Bisq uses to fund and govern itself. It's optional to use, but there are <a href="https://docs.bisq.network/getting-started-dao-traders.html" target="_blank">significant benefits</a>.</p> <div id="faq-tables"> <p class="note">BTC trading fees, per 1 BTC traded:</p> <table> <thead> <tr> <th></th> <th>BTC fees</th> <th>Fee as % of 1 BTC trade size</th> </tr> </thead> <tbody> <tr> <td>Maker fee</td> <td>0.002 BTC</td> <td>0.20%</td> </tr> <tr> <td>Taker fee</td> <td>0.006 BTC</td> <td>0.60%</td> </tr> </tbody> </table> <p class="note">BSQ trading fees, per 1 BTC traded:</p> <table> <thead> <tr> <th></th> <th>BSQ fees</th> <th>Fee as % of 1 BTC trade size</th> </tr> </thead> <tbody> <tr> <td>Maker fee</td> <td>10 BSQ</td> <td>0.10%</td> </tr> <tr> <td>Taker fee</td> <td>30 BSQ</td> <td>0.30%</td> </tr> </tbody> </table> </div> <p>BSQ fee percentages above assume a 0.00001 BSQ/BTC rate.</p> <p>Nominal BTC and BSQ fees are adjusted periodically by DAO voting to accommodate for market fluctuations.</p> <p>The minimum trading fees are set at 0.00005 BTC and 0.03 BSQ to avoid dust limits.</p>
 
     <strong>Mining fees</strong>
     <p>An offer maker only pays mining fees for the trade fee transaction. An offer taker pays mining fees for the trade fee transaction, deposit transaction, and payout transaction. This is because mining fees fluctuate and it's impossible for the offer
@@ -234,24 +211,24 @@ faq:
   pBank: >
     <p>There have been reports that some banks have closed client accounts when they sense Bitcoin activity.</p> <p>The reference text (sometimes called "reason for payment" or similar) of the bank transfer used to trade with Bisq must always <span class='font-italic'>only</span> include the Bisq trade ID, which is a random sequence of characters, just like many other purchase IDs. Putting anything else as a "reason for payment" is considered a violation of the trade protocol and will result in a dispute.</p> <p>To avoid problems, we recommend setting up a dedicated bank account for buying and selling bitcoins. If the bank were to block this account, it would cause fewer problems for you than if the bank were to block your primary account.</p> <p>Never mention anything else other than the Bisq trade ID in the subject field.</p>
   hDisputeRsolution: Dispute Resolution
-  hArbitrationProcess: "How does the arbitration process work?"
+  hArbitrationProcess: "How does dispute resolution work?"
   pArbitrationProcess: >
-    <p>On Bisq, arbitrators determine solutions to trade disputes. Arbitrators must pay a very high <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">BSQ bond</a>, which ensures fair evaluations and prevents collusion with traders.</p> <p>Arbitrators are chosen randomly for each trade.</p> <p>If trader A fails to confirm the receipt of a national currency transfer within the <a href='#trade-periods'>allotted time</a>, a button to contact the arbitrator will appear to both traders. Trader B can then submit evidence to the arbitrator that he did, in fact, send the national currency. Alternatively, if trader B never sent the national currency, trader A can submit evidence to the arbitrator that the funds were never received.</p> <p>Submitted evidence should be cryptographically secure using either <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> or digitally-signed bank statements. If these methods fail, more traditional routes of discovery can be employed.</p> <p>In our experience the vast majority of disputes are not caused by malicious intention, but by minor problems like network issues, bugs, bank issues, usability, etc.</p> <p>Once the arbitrator has clarified the situation, they will sign the 2-of-3 multisignature address in favor of the appropriate party.</p>
-  hCollusion: "How is collusion between arbitrators and traders prevented?"
+    <p>Bisq provides a 3-layer mechanism for resolving disputes: trader chat, mediation, and arbitration.</p><p>Trader chat enables traders to resolve small issues themselves privately over end-to-end encrypted chat right in Bisq. If this doesn't work, traders can engage a mediator to examine the situation and suggest a payout. In rare circumstances that mediation fails, a trader can choose to engage an arbitrator to re-examine the situation and make a payout.</p><p>Please note that the scope of the arbitrator role changed significantly with the launch of the new trade protocol on v1.2.</p><p>See <a href="https://docs.bisq.network/trading-rules" target="_blank">documentation</a> for more details on how this process works.</p>
+  hCollusion: "How is collusion between mediators, arbitrators, and traders prevented?"
   pCollusion: >
-    <p>As mentioned above, arbitrators must lock in a high <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">BSQ bond</a> to become arbitrators in the first place–much higher than the trade limit. If both traders disagree with an arbitrator's resolution, they can request confiscation of the arbitrators BSQ bond.</p> <p>If collusion is found to have taken place, the misbehaving arbitrator will lose their BSQ bond. This puts the arbitrator at a significant loss, as their BSQ bond was much more than they made by being dishonest.</p>
+    <p>With the launch of the new trading procotol in v1.2, arbitrators no longer have a key in the multisig escrow. This means that traders retain absolute control of their funds, and there is no possibility of collusion.</p><p>Mediators and arbitrators are still <a href="https://docs.bisq.network/user-dao-intro.html#ensure-honesty-in-high-trust-roles" target="_blank">bonded roles</a>, however, because even though they cannot sign a payout transaction to resolve a dispute, they can <span class="note">advise</span> how to resolve a dispute, and it's important that they are responsible and fair when doing so.</p>
   hChargeback: "What happens if the person buying bitcoin does a chargeback after the bitcoin has been released from the multisig address?"
   pChargeback: >
-    <p>Bisq only supports payment methods for which chargebacks are not easy (e.g., this is why PayPal and credit cards are not supported). But there is still a little chargeback risk with banks. If a bank executes a chargeback after the BTC has been released, there is nothing an arbitrator can do.</p> <p>Bisq's goal is to make this scenario as unattractive as possible, using three primary mechanisms</a>:</p> <ol>
-      <li>There is a trade limit per trade, which is generally too small to attract criminals.</li>
+    <p>Bisq only supports payment methods for which chargebacks are not easy (e.g., this is why PayPal and credit cards are not supported). But there is still a little chargeback risk with banks. If a bank executes a chargeback after the BTC has been released, there is nothing a mediator or arbitrator can do.</p> <p>Bisq's goal is to make this scenario as unattractive as possible, using three primary mechanisms</a>:</p> <ol>
+      <li>Account aging requires newly-created fiat payment accounts on Bisq to have <a href='https://docs.bisq.network/payment-methods#supported-fiat-payment-methods' target="_blank">lower trade limits</a>, and those limits are increased over time.</li>
+      <li><a href='https://docs.bisq.network/payment-methods#account-signing' target="_blank">Account signing</a> requires higher-risk payment methods to be signed upon verifying the integrity of a trader before account aging kicks in. Until such accounts are signed, buy limits are set to 0.01 BTC.</li>
       <li>National currency payment methods which are found to be used for chargebacks are quickly removed.</li>
-      <li>With version 0.6.0, a new <a href="https://docs.bisq.network/payment-account-age-witness.html" target="_blank">account-aging feature</a> was added. This feature enables fiat accounts recently added to Bisq to have <a href='#trade-limits'>lower trade limits</a>, and those limits are increased over time. This adds protection against stolen-bank-account scams.</li>
     </ol>
-  hReputationSystem: "Wouldn't a pure reputation system among traders make arbitrators unnecessary?"
+  hReputationSystem: "Wouldn't a pure reputation system among traders make mediators and arbitrators unnecessary?"
   pReputationSystem: >
-    <p>Pure reputation without the option of arbitration is a weak protection system, as you can never avoid <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> or <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> attacks.</p> <p>Such mechanisms are also problematic for protecting privacy and for keeping the service decentralized.</p>
-  hBeArbitrator: "Can I be an arbitrator?"
-  pBeArbitrator: "<p>The required <a href=\"https://docs.bisq.network/dao/phase-zero.html\" target=\"_blank\" rel=\"noopener\">BSQ bond</a> is very high and there are currently only very few people who have contributed enough to Bisq to have have earned so much BSQ.</p>"
+    <p>Pure reputation without additional dispute resolution measures is a weak protection system, as you can never avoid <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> or <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> attacks.</p> <p>Such mechanisms are also problematic for protecting privacy and for keeping the service decentralized.</p>
+  hBeArbitrator: "Can I become a mediator or arbitrator?"
+  pBeArbitrator: <p>Mediators and arbitrators are <a href="https://docs.bisq.network/user-dao-intro#ensure-honesty-in-high-trust-roles" target="_blank">bonded roles</a> in the Bisq DAO.</p><p>Anyone can propose to become either, but approval will depend on the network's needs at the time a proposal is made.</p>
   hContactPeer: "Can I contact my trading peer?"
   pContactPeer: >
     <p>Yes, as of v1.1.6, Bisq includes a built-in chat feature for direct, private, and secure resolution of small issues without involving a mediator or arbitrator.</p>
@@ -284,7 +261,7 @@ faq:
   pPaymentSupport: >
     <p>Bisq already supports a wide range of payment methods for national currencies, but new ones may be added as long as:</p> <ul>
       <li>chargebacks are unlikely</li>
-      <li>arbitrators can view evidence of the transaction</li>
+      <li>mediators and arbitrators can view evidence of the transaction</li>
     </ul> <p>National bank transfers are supported in every country.</p> <p>You can suggest a new payment method on the <a href='https://bisq.community' target='_blank'>forum</a>, <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>, or <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
   hSoftwareBugs: "What happens in case of software bugs?"
   pSoftwareBugs: >

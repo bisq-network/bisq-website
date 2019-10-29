@@ -49,7 +49,11 @@ function buildTicker( pair ) {
 }
 
 
-function buildChartTitle( valueFinal, pair ) {
+function buildChartTitle( data, pair ) {
+
+    var valueFinal = 0;
+    if (data[data.length-1] && data[data.length-1][7])
+        valueFinal = data[data.length-1][7];
 
     var chartTitle = '';
 
@@ -125,7 +129,8 @@ function getTrades( pair ) {
                 $( '<th>' ).text( 'Trade Amount')
             ).appendTo( '#trade-history-header' );
 
-            data = JSON.parse(data);
+            if (typeof data == "string") data = JSON.parse(data);
+
             $.each( data, function( key, val ) {
 
                 tradeDate = new Date( val.trade_date );
@@ -169,7 +174,8 @@ function getTrades( pair ) {
                 ).appendTo( '#trade-history-header' );
             }
 
-            data = JSON.parse( data );
+            if (typeof data == "string") data = JSON.parse(data);
+
             $.each( data , function( key, val ) {
 
                 tradeDate = new Date(val.trade_date);
@@ -262,18 +268,41 @@ function buildData( jsonUrl ){
     if( !pair || pair === 'all' ) {
 
         pair = 'btc';
-        jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&format=jscallback&fillgaps=&callback=?&interval=day";
+        jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&fillgaps=&interval=day";
         getTrades();
 
     } else {
 
-        jsonUrl = 'https://markets.bisq.network/api/hloc' + '?market=' + pair + '&timestamp=no' + '&interval=minute' + '&timestamp_from=' + '&timestamp_to=' + '&format=jscallback'+'&callback=?';
+        jsonUrl = 'https://markets.bisq.network/api/hloc?market=' + pair + '&timestamp=no' + '&interval=minute' + '&timestamp_from=' + '&timestamp_to=';
         getTrades( pair );
         getOffers( pair );
 
     }
 
-    $.getJSON( jsonUrl, function( data ) {
+    $.getJSON( jsonUrl, function( rawdata ) {
+
+        // convert raw data into array
+        var data = [];
+        for (var k = 0; k < rawdata.length; k++)
+        {
+            if (pair === 'btc')
+                data[k] = [
+                    (new Date(rawdata[k]["period_start"]).getTime()),
+                    parseFloat(rawdata[k]["volume"]),
+                    parseFloat(rawdata[k]["num_trades"])
+                ];
+            else
+                data[k] = [
+                    (new Date(rawdata[k]["period_start"]).getTime()),
+                    parseFloat(rawdata[k]["high"]),
+                    parseFloat(rawdata[k]["open"]),
+                    parseFloat(rawdata[k]["low"]),
+                    parseFloat(rawdata[k]["close"]),
+                    parseFloat(rawdata[k]["volume_left"]),
+                    parseFloat(rawdata[k]["volume_right"]),
+                    parseFloat(rawdata[k]["avg"])
+                ];
+        }
 
         //split the data set into hloc and volume
 
@@ -297,25 +326,25 @@ function buildData( jsonUrl ){
 
                 if( pair.startsWith( "btc" ) ) {
                   avg.push([
-                      data[i][0] * 1000, // the date
+                      data[i][0], // the date
                       data[i][7]  // the average
                   ]);
 
                   volumeFiat.push([
-                      data[i][0] * 1000, // the date
+                      data[i][0], // the date
                       data[i][6]  // the volume_left
                   ]);
 
                 } else {
 
                   avg.push([
-                      data[i][0] * 1000, // the date
+                      data[i][0], // the date
                       ( data[i][7] )  // the average
                     ]);
                   }
 
                   volume.push([
-                      data[i][0] * 1000, // the date
+                      data[i][0], // the date
                       data[i][6]  // the volume_right
                   ]);
               }
@@ -393,7 +422,7 @@ function buildData( jsonUrl ){
             },
 
             title: {
-                text: buildChartTitle(data[data.length-1][7], pair),
+                text: buildChartTitle(data, pair),
                 align: 'left',
                 x:20,
                 y:30,

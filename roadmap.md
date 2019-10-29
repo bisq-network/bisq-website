@@ -14,18 +14,50 @@ This Roadmap might change at any time, especially in response to [Community](/co
 You can help speed up our progress by [contributing](https://docs.bisq.network/contributor-checklist.html) to Bisq.
 {: .mt-4 .col-sm-12 .col-md-10 .pl-0}
 
-## Planned milestones
-{: .mt-5 .pt-5}
-##### Version 2.0
-{: .mt-5 .mb-2}
- - New trade protocol
- 
-##### Version 1.2.0
-{: .mt-5 .mb-2}
-- Account signing
-
 ## Releases
 {: .mt-5 .pt-5}
+
+##### Version 1.2.0
+{: .mt-5 .mb-2}
+Released [October 29th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.0)
+
+Bisq v1.2 ships several significant updates. A [new trade protocol](https://docs.bisq.network/trading-rules) moves to 2-of-2 multisig escrows for deposit funds, dispute resolution is overhauled to be more private and scalable, and [account signing](https://docs.bisq.network/payment-methods) removes 0.01 BTC buying limits for risky payment methods in major markets.
+
+**If you are updating from a previous version of Bisq, please make sure to do the following before updating to v1.2:**
+
+* complete all trades
+* complete all disputes
+* disable open offers (at "Portfolio/My Open Offers")
+
+Updating to v1.2 with unfinished trades and disputes will require an arbitrator to intervene and manually make payouts. Downgrading back to v1.1.7 to rectify the situation will not be possible, so please double-check before updating.
+
+###### DAO
+- [Apply rule to not allow BSQ outputs after BTC output for regular txs](https://github.com/bisq-network/bisq/pull/3413)
+- [Fix bug with not updating vote result table at vote result block](https://github.com/bisq-network/bisq/pull/3442)
+- [Fix vote results view](https://github.com/bisq-network/bisq/pull/3500)
+
+###### UI
+- Translation improvements [1](https://github.com/bisq-network/bisq/pull/3386)
+- [Translate name of Japan Bank Transfer for non-Japanese users](https://github.com/bisq-network/bisq/pull/3344)
+
+###### Trading
+- New trade protocol: [1](https://github.com/bisq-network/bisq/pull/3333), [2](https://github.com/bisq-network/bisq/pull/3340), [2](https://github.com/bisq-network/bisq/pull/3410), [3](https://github.com/bisq-network/bisq/pull/3414), [4](https://github.com/bisq-network/bisq/pull/3420), [5](https://github.com/bisq-network/bisq/pull/3439), [6](https://github.com/bisq-network/bisq/pull/3453), [7](https://github.com/bisq-network/bisq/pull/3464), [8](https://github.com/bisq-network/bisq/pull/3471), [9](https://github.com/bisq-network/bisq/pull/3474), [10](https://github.com/bisq-network/bisq/pull/3475), 
+- Account signing: [1](https://github.com/bisq-network/bisq/pull/3334), [2](https://github.com/bisq-network/bisq/pull/3342), [3](https://github.com/bisq-network/bisq/pull/3365), [4](https://github.com/bisq-network/bisq/pull/3370), [5](https://github.com/bisq-network/bisq/pull/3374), [6](https://github.com/bisq-network/bisq/pull/3388), [7](https://github.com/bisq-network/bisq/pull/3390), [8](https://github.com/bisq-network/bisq/pull/3392), [9](https://github.com/bisq-network/bisq/pull/3403), [10](https://github.com/bisq-network/bisq/pull/3404), [11](https://github.com/bisq-network/bisq/pull/3406), [12](https://github.com/bisq-network/bisq/pull/3409), [13](https://github.com/bisq-network/bisq/pull/3415), [14](https://github.com/bisq-network/bisq/pull/3421), [15](https://github.com/bisq-network/bisq/pull/3435), [16](https://github.com/bisq-network/bisq/pull/3436), [16](https://github.com/bisq-network/bisq/pull/3445), [17](https://github.com/bisq-network/bisq/pull/3448), [18](https://github.com/bisq-network/bisq/pull/3450), [19](https://github.com/bisq-network/bisq/pull/3465), [20](https://github.com/bisq-network/bisq/pull/3467), [21](https://github.com/bisq-network/bisq/pull/3481), [22](https://github.com/bisq-network/bisq/pull/3490), [23](https://github.com/bisq-network/bisq/pull/3495), [24](https://github.com/bisq-network/bisq/pull/3496), [25](https://github.com/bisq-network/bisq/pull/3497), [26](https://github.com/bisq-network/bisq/pull/3499)
+- [Add mediator prefix to trade statistics](https://github.com/bisq-network/bisq/pull/3351)
+- [Add combo block explorer for Blockstream.info + Mempool.space](https://github.com/bisq-network/bisq/pull/3377)
+- [Increase minimum TX fee to 2 sats/vByte](https://github.com/bisq-network/bisq/pull/3387)
+- [Not show payment account details for blocked offers](https://github.com/bisq-network/bisq/pull/3425)
+- [Clean up trade statistics from duplicate entries](https://github.com/bisq-network/bisq/pull/3476)
+- [Format maker fee for BTC and BSQ correctly](https://github.com/bisq-network/bisq/pull/3498)
+- [Improve mediation result popup handling](https://github.com/bisq-network/bisq/pull/3503)
+
+###### Wallet
+- [Show connected Bitcoin network peer info](https://github.com/bisq-network/bisq/pull/3423)
+
+###### Assets
+Added 7 new assets: Animecoin (ANI), CTSCoin (CTSC), Donu (DONU), Faircoin (FAIR), ndau (XND), NoteBlockchain (NTBC), uPlexa (UPX)
+
+Removed two assets: Byte (GBYTE), Neos (NEOS)
 
 ##### Version 1.1.7
 {: .mt-5 .mb-2}

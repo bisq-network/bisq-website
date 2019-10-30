@@ -17,6 +17,15 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.2.1
+{: .mt-5 .mb-2}
+Released [October 30th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.1)
+
+This is a hotfix release mainly covering following issues:
+
+- Fix incorrect display of account signing status: [1](https://github.com/bisq-network/bisq/pull/3514), [2](https://github.com/bisq-network/bisq/pull/3512)
+- [Remove unnecessary restriction for sell offers](https://github.com/bisq-network/bisq/pull/3518)
+
 ##### Version 1.2.0
 {: .mt-5 .mb-2}
 Released [October 29th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.0)

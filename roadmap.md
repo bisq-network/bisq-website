@@ -17,6 +17,14 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.2.2
+{: .mt-5 .mb-2}
+Released [October 31th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.2)
+
+This is a hotfix release mainly covering following issues:
+
+- [Add new trade statistics capability (network improvement)](https://github.com/bisq-network/bisq/pull/3529)
+
 ##### Version 1.2.1
 {: .mt-5 .mb-2}
 Released [October 30th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.1)
@@ -64,7 +72,7 @@ Updating to v1.2 with unfinished trades and disputes will require an arbitrator 
 - [Show connected Bitcoin network peer info](https://github.com/bisq-network/bisq/pull/3423)
 
 ###### Assets
-Added 7 new assets: Animecoin (ANI), CTSCoin (CTSC), Donu (DONU), Faircoin (FAIR), ndau (XND), NoteBlockchain (NTBC), uPlexa (UPX)
+Added 8 new assets: Animecoin (ANI), CTSCoin (CTSC), Donu (DONU), Faircoin (FAIR), Krypton (ZOD), ndau (XND), NoteBlockchain (NTBC), uPlexa (UPX)
 
 Removed two assets: Byte (GBYTE), Neos (NEOS)
 

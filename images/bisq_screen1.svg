@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2400px" height="1378px" viewBox="0 0 2400 1378" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Bisq UI EN TRADES</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="2343" height="360"></rect>
+        <filter x="-0.6%" y="-3.6%" width="101.1%" height="107.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.885331748   0 0 0 0 0.885331748   0 0 0 0 0.885331748  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="46" width="2343" height="314"></rect>
+        <filter x="-0.6%" y="-4.1%" width="101.1%" height="108.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.885331748   0 0 0 0 0.885331748   0 0 0 0 0.885331748  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M8,0 L872,0 C876.418278,-8.11624501e-16 880,3.581722 880,8 L880,74 C880,78.418278 876.418278,82 872,82 L8,82 C3.581722,82 5.41083001e-16,78.418278 0,74 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="path-5"></path>
+        <filter x="-0.3%" y="-3.7%" width="100.7%" height="107.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.843137255   0 0 0 0 0.843137255   0 0 0 0 0.843137255  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="19" y="19" width="128" height="68" rx="8"></rect>
+        <filter x="-5.5%" y="-5.9%" width="112.5%" height="123.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="1" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.121568627   0 0 0 0 0.588235294   0 0 0 0 0.17254902  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Bisq-UI-EN-TRADES" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#F4F4F4" x="0" y="0" width="2400" height="1378"></rect>
+        <g id="Offers-Sell" transform="translate(40.000000, 998.000000)">
+            <g id="Head">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="Group-5" transform="translate(19.000000, 8.000000)">
+                <text id="Amount-in-BTC" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="22" font-weight="normal" letter-spacing="0.830968022" fill="#3D3D3D">
+                    <tspan x="793" y="23">Amount in BTC</tspan>
+                </text>
+                <text id="Amount-in-USD" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="22" font-weight="normal" letter-spacing="0.830968022" fill="#3D3D3D">
+                    <tspan x="1172" y="23">Amount in USD</tspan>
+                </text>
+                <text id="Payment-method" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="22" font-weight="normal" letter-spacing="0.830968022" fill="#3D3D3D">
+                    <tspan x="1547" y="23">Payment method</tspan>
+                </text>
+                <text id="Offer-type" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="22" font-weight="normal" letter-spacing="0.830968022" fill="#3D3D3D">
+                    <tspan x="2187" y="23">Offer type</tspan>
+                </text>
+                <text id="Price-in-USD-for-1-B" font-family="IBMPlexSans, IBM Plex Sans" font-size="22" font-weight="normal" letter-spacing="0.830968" fill="#3D3D3D">
+                    <tspan x="417" y="23">Price in USD for 1 BTC</tspan>
+                </text>
+                <polygon id="Triangle" fill="#565656" transform="translate(388.000000, 17.000000) rotate(-180.000000) translate(-388.000000, -17.000000) " points="388 11 396 23 380 23"></polygon>
+                <g id="Amount-in-USD-2" fill="#3D3D3D" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="22" font-weight="normal" letter-spacing="0.830968022">
+                    <text id="Date/Time">
+                        <tspan x="0" y="23">Date/Time</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(24.000000, 53.000000)" font-family="IBMPlexSans, IBM Plex Sans" font-size="24" font-weight="normal">
+                <g id="Group-6">
+                    <text id="Oct-27-2019-11:44:05" letter-spacing="0.200000003" fill="#0F0F0F">
+                        <tspan x="0" y="25">Oct 27 2019 11:44:05 P</tspan>
+                        <tspan x="265.904" y="25">M</tspan>
+                    </text>
+                    <text id="10044.8608" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="417" y="25">10044.860</tspan>
+                        <tspan x="539.628" y="25">8</tspan>
+                    </text>
+                    <text id="0.0100" letter-spacing="0.100000001">
+                        <tspan x="794" y="25" fill="#0F0F0F">0.01</tspan>
+                        <tspan x="844.128" y="25" fill="#D7D7D7">00</tspan>
+                    </text>
+                    <text id="100.00" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1171" y="25">100.00</tspan>
+                    </text>
+                    <text id="Zelle-(ClearXchange)" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1548" y="25">Zelle (ClearXchange)</tspan>
+                    </text>
+                    <text id="Sell-BTC" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="2193" y="25">Sell BTC</tspan>
+                    </text>
+                    <text id="Sell-BTC-Copy" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="2193" y="70">Sell BTC</tspan>
+                    </text>
+                    <text id="Sell-BTC-Copy-2" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="2193" y="115">Sell BTC</tspan>
+                    </text>
+                    <text id="Buy-BTC" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="2193" y="162">Buy BTC</tspan>
+                    </text>
+                    <text id="Sell-BTC-Copy-4" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="2193" y="207">Sell BTC</tspan>
+                    </text>
+                    <text id="Sell-BTC-Copy-5" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="2193" y="252">Sell BTC</tspan>
+                    </text>
+                </g>
+                <g id="Group-6-Copy" transform="translate(0.000000, 46.000000)">
+                    <text id="Oct-27-2019-11:09:05" letter-spacing="0.200000003" fill="#0F0F0F">
+                        <tspan x="0" y="25">Oct 27 2019 11:09:05 P</tspan>
+                        <tspan x="265.904" y="25">M</tspan>
+                    </text>
+                    <text id="10112.8099" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="417" y="25">10112.8099</tspan>
+                    </text>
+                    <text id="0.0100" letter-spacing="0.100000001">
+                        <tspan x="794" y="25" fill="#0F0F0F">0.01</tspan>
+                        <tspan x="844.128" y="25" fill="#D7D7D7">00</tspan>
+                    </text>
+                    <text id="100.00" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1171" y="25">100.00</tspan>
+                    </text>
+                    <text id="Zelle-(ClearXchange)" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1548" y="25">Zelle (ClearXchange)</tspan>
+                    </text>
+                </g>
+                <g id="Group-6-Copy-2" transform="translate(0.000000, 92.000000)">
+                    <text id="Oct-27-2019-10:42:08" letter-spacing="0.200000003" fill="#0F0F0F">
+                        <tspan x="0" y="25">Oct 27 2019 10:42:08 P</tspan>
+                        <tspan x="265.904" y="25">M</tspan>
+                    </text>
+                    <text id="10009.5840" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="417" y="25">10009.5840</tspan>
+                    </text>
+                    <text id="0.0100" letter-spacing="0.100000001">
+                        <tspan x="794" y="25" fill="#0F0F0F">0.01</tspan>
+                        <tspan x="844.128" y="25" fill="#D7D7D7">00</tspan>
+                    </text>
+                    <text id="100.00" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1171" y="25">100.00</tspan>
+                    </text>
+                    <text id="Zelle-(ClearXchange)" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1548" y="25">Zelle (ClearXchange)</tspan>
+                    </text>
+                </g>
+                <g id="Group-6-Copy-3" transform="translate(0.000000, 138.000000)">
+                    <text id="Oct-27-2019-9:34:07" letter-spacing="0.200000003" fill="#0F0F0F">
+                        <tspan x="0" y="25">Oct 27 2019 9:34:07 P</tspan>
+                        <tspan x="251.304" y="25">M</tspan>
+                    </text>
+                    <text id="9756.1380" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="417" y="25">9756.1380</tspan>
+                    </text>
+                    <text id="0.0100" letter-spacing="0.100000001">
+                        <tspan x="794" y="25" fill="#0F0F0F">0.01</tspan>
+                        <tspan x="844.128" y="25" fill="#D7D7D7">00</tspan>
+                    </text>
+                    <text id="98.00" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1171" y="25">98.00</tspan>
+                    </text>
+                    <text id="Zelle-(ClearXchange)" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1548" y="25">Zelle (ClearXchange)</tspan>
+                    </text>
+                </g>
+                <g id="Group-6-Copy-4" transform="translate(0.000000, 182.000000)" letter-spacing="0.100000001">
+                    <text id="Oct-27-2019-8:41:25" fill="#0F0F0F">
+                        <tspan x="0" y="25">Oct 27 2019  8:41:25 P</tspan>
+                        <tspan x="254.968" y="25">M</tspan>
+                    </text>
+                    <text id="10094.3113" fill="#0F0F0F">
+                        <tspan x="417" y="27">10094.3113</tspan>
+                    </text>
+                    <text id="0.0100">
+                        <tspan x="794" y="26" fill="#0F0F0F">0.01</tspan>
+                        <tspan x="844.128" y="26" fill="#D7D7D7">00</tspan>
+                    </text>
+                    <text id="101.00" fill="#0F0F0F">
+                        <tspan x="1171" y="26">101.00</tspan>
+                    </text>
+                    <text id="Zelle-(ClearXchange)" fill="#0F0F0F">
+                        <tspan x="1548" y="26">Zelle (ClearXchange)</tspan>
+                    </text>
+                </g>
+                <g id="Group-6-Copy-5" transform="translate(0.000000, 228.000000)">
+                    <text id="Oct-27-2019-8:23:40" letter-spacing="0.200000003" fill="#0F0F0F">
+                        <tspan x="0" y="25">Oct 27 2019 8:23:40 P</tspan>
+                        <tspan x="251.304" y="25">M</tspan>
+                    </text>
+                    <text id="9807.4535" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="417" y="25">9807.4535</tspan>
+                    </text>
+                    <text id="0.1000" letter-spacing="0.100000001">
+                        <tspan x="794" y="25" fill="#0F0F0F">0.1</tspan>
+                        <tspan x="829.628" y="25" fill="#D7D7D7">000</tspan>
+                    </text>
+                    <text id="981.00" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1171" y="25">981.00</tspan>
+                    </text>
+                    <text id="Zelle-(ClearXchange)" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1548" y="25">Zelle (ClearXchange)</tspan>
+                    </text>
+                </g>
+                <g id="Group-6-Copy-6" transform="translate(0.000000, 272.000000)">
+                    <text id="Oct-27-2019-8:13:20" letter-spacing="0.200000003" fill="#0F0F0F">
+                        <tspan x="0" y="25">Oct 27 2019 8:13:20 P</tspan>
+                        <tspan x="251.304" y="25">M</tspan>
+                    </text>
+                    <text id="9807.4535" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="417" y="25">9807.4535</tspan>
+                    </text>
+                    <text id="0.1000" letter-spacing="0.100000001">
+                        <tspan x="794" y="25" fill="#0F0F0F">0.1</tspan>
+                        <tspan x="829.628" y="25" fill="#D7D7D7">000</tspan>
+                    </text>
+                    <text id="981.00" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1171" y="25">981.00</tspan>
+                    </text>
+                    <text id="Zelle-(ClearXchange)" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="1548" y="25">Zelle (ClearXchange)</tspan>
+                    </text>
+                    <text id="Sell-BTC" letter-spacing="0.100000001" fill="#0F0F0F">
+                        <tspan x="2193" y="25">Sell BTC</tspan>
+                    </text>
+                </g>
+            </g>
+            <path d="M2331.5,67.5 L2331.5,85.1360354" id="Line-5" stroke="#C1C1C1" stroke-width="10" stroke-linecap="round"></path>
+            <g id="Group-3" transform="translate(2.000000, 93.000000)" stroke="#F8F8F8" stroke-linecap="square">
+                <path d="M0.5,0.5 L2321.5,0.5" id="Line-9"></path>
+                <path d="M0.5,45.5 L2321.5,45.5" id="Line-9-Copy"></path>
+                <path d="M0.5,91.5 L2321.5,91.5" id="Line-9-Copy-2"></path>
+                <path d="M0.5,137.5 L2321.5,137.5" id="Line-9-Copy-3"></path>
+                <path d="M0.5,183.5 L2321.5,183.5" id="Line-9-Copy-4"></path>
+                <path d="M0.5,229 L2321.5,229" id="Line-9-Copy-5"></path>
+            </g>
+        </g>
+        <g id="Graph-Volume" transform="translate(40.000000, 709.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="2337" height="270"></rect>
+            <g id="Grid-Vertical" transform="translate(1235.000000, 128.000000) scale(-1, 1) translate(-1235.000000, -128.000000) translate(167.000000, 42.000000)" stroke="#979797" stroke-linecap="square">
+                <path d="M2135,0.4 L2135,171.66468" id="Line-6"></path>
+                <path d="M2111.5,160 L2111.5,171.66468" id="Line-8"></path>
+                <path d="M2087.5,160 L2087.5,171.66468" id="Line-8-Copy"></path>
+                <path d="M1971.5,160 L1971.5,171.66468" id="Line-8-Copy-7"></path>
+                <path d="M2063.5,160 L2063.5,171.66468" id="Line-8-Copy-2"></path>
+                <path d="M1948.5,160 L1948.5,171.66468" id="Line-8-Copy-8"></path>
+                <path d="M2041.5,160 L2041.5,171.66468" id="Line-8-Copy-3"></path>
+                <path d="M1924.5,160 L1924.5,171.66468" id="Line-8-Copy-9"></path>
+                <path d="M2018.5,160 L2018.5,171.66468" id="Line-8-Copy-4"></path>
+                <path d="M1900.5,160 L1900.5,171.66468" id="Line-8-Copy-10"></path>
+                <path d="M1994.5,160 L1994.5,171.66468" id="Line-8-Copy-5"></path>
+                <path d="M1876.5,160 L1876.5,171.66468" id="Line-8-Copy-11"></path>
+                <path d="M1853.5,160 L1853.5,171.66468" id="Line-8-Copy-12"></path>
+                <path d="M1831.5,160 L1831.5,171.66468" id="Line-8-Copy-13"></path>
+                <path d="M1807.5,160 L1807.5,171.66468" id="Line-8-Copy-14"></path>
+                <path d="M1784.5,160 L1784.5,171.66468" id="Line-8-Copy-15"></path>
+                <path d="M1760.5,160 L1760.5,171.66468" id="Line-8-Copy-16"></path>
+                <path d="M1736.5,160 L1736.5,171.66468" id="Line-8-Copy-17"></path>
+                <path d="M1713.5,160 L1713.5,171.66468" id="Line-8-Copy-18"></path>
+                <path d="M1689.5,160 L1689.5,171.66468" id="Line-8-Copy-19"></path>
+                <path d="M1665.5,160 L1665.5,171.66468" id="Line-8-Copy-20"></path>
+                <path d="M1643.5,160 L1643.5,171.66468" id="Line-8-Copy-21"></path>
+                <path d="M1620.5,160 L1620.5,171.66468" id="Line-8-Copy-22"></path>
+                <path d="M1596.5,160 L1596.5,171.66468" id="Line-8-Copy-23"></path>
+                <path d="M1573.5,160 L1573.5,171.66468" id="Line-8-Copy-24"></path>
+                <path d="M1549.5,160 L1549.5,171.66468" id="Line-8-Copy-25"></path>
+                <path d="M1525.5,160 L1525.5,171.66468" id="Line-8-Copy-26"></path>
+                <path d="M1501.5,160 L1501.5,171.66468" id="Line-8-Copy-27"></path>
+                <path d="M1478.5,160 L1478.5,171.66468" id="Line-8-Copy-28"></path>
+                <path d="M1454.5,160 L1454.5,171.66468" id="Line-8-Copy-29"></path>
+                <path d="M1432.5,160 L1432.5,171.66468" id="Line-8-Copy-30"></path>
+                <path d="M1409.5,160 L1409.5,171.66468" id="Line-8-Copy-31"></path>
+                <path d="M1385.5,160 L1385.5,171.66468" id="Line-8-Copy-32"></path>
+                <path d="M1361.5,160 L1361.5,171.66468" id="Line-8-Copy-33"></path>
+                <path d="M1337.5,160 L1337.5,171.66468" id="Line-8-Copy-34"></path>
+                <path d="M1314.5,160 L1314.5,171.66468" id="Line-8-Copy-35"></path>
+                <path d="M1290.5,160 L1290.5,171.66468" id="Line-8-Copy-36"></path>
+                <path d="M1266.5,160 L1266.5,171.66468" id="Line-8-Copy-37"></path>
+                <path d="M1244.5,160 L1244.5,171.66468" id="Line-8-Copy-38"></path>
+                <path d="M1221.5,160 L1221.5,171.66468" id="Line-8-Copy-39"></path>
+                <path d="M1197.5,160 L1197.5,171.66468" id="Line-8-Copy-40"></path>
+                <path d="M1174.5,160 L1174.5,171.66468" id="Line-8-Copy-41"></path>
+                <path d="M1150.5,160 L1150.5,171.66468" id="Line-8-Copy-42"></path>
+                <path d="M1126.5,160 L1126.5,171.66468" id="Line-8-Copy-43"></path>
+                <path d="M1103.5,160 L1103.5,171.66468" id="Line-8-Copy-44"></path>
+                <path d="M1079.5,160 L1079.5,171.66468" id="Line-8-Copy-45"></path>
+                <path d="M1056.5,160 L1056.5,171.66468" id="Line-8-Copy-46"></path>
+                <path d="M1033.5,160 L1033.5,171.66468" id="Line-8-Copy-47"></path>
+                <path d="M1010.5,160 L1010.5,171.66468" id="Line-8-Copy-48"></path>
+                <path d="M986.5,160 L986.5,171.66468" id="Line-8-Copy-49"></path>
+                <path d="M962.5,160 L962.5,171.66468" id="Line-8-Copy-50"></path>
+                <path d="M939.5,160 L939.5,171.66468" id="Line-8-Copy-51"></path>
+                <path d="M915.5,160 L915.5,171.66468" id="Line-8-Copy-52"></path>
+                <path d="M891.5,160 L891.5,171.66468" id="Line-8-Copy-53"></path>
+                <path d="M868.5,160 L868.5,171.66468" id="Line-8-Copy-54"></path>
+                <path d="M846.5,160 L846.5,171.66468" id="Line-8-Copy-55"></path>
+                <path d="M822.5,160 L822.5,171.66468" id="Line-8-Copy-56"></path>
+                <path d="M798.5,160 L798.5,171.66468" id="Line-8-Copy-57"></path>
+                <path d="M775.5,160 L775.5,171.66468" id="Line-8-Copy-58"></path>
+                <path d="M751.5,160 L751.5,171.66468" id="Line-8-Copy-59"></path>
+                <path d="M727.5,160 L727.5,171.66468" id="Line-8-Copy-60"></path>
+                <path d="M703.5,160 L703.5,171.66468" id="Line-8-Copy-61"></path>
+                <path d="M681.5,160 L681.5,171.66468" id="Line-8-Copy-62"></path>
+                <path d="M658.5,160 L658.5,171.66468" id="Line-8-Copy-63"></path>
+                <path d="M634.5,160 L634.5,171.66468" id="Line-8-Copy-64"></path>
+                <path d="M611.5,160 L611.5,171.66468" id="Line-8-Copy-65"></path>
+                <path d="M588.5,160 L588.5,171.66468" id="Line-8-Copy-66"></path>
+                <path d="M564.5,160 L564.5,171.66468" id="Line-8-Copy-67"></path>
+                <path d="M540.5,160 L540.5,171.66468" id="Line-8-Copy-68"></path>
+                <path d="M516.5,160 L516.5,171.66468" id="Line-8-Copy-69"></path>
+                <path d="M493.5,160 L493.5,171.66468" id="Line-8-Copy-70"></path>
+                <path d="M471.5,160 L471.5,171.66468" id="Line-8-Copy-71"></path>
+                <path d="M447.5,160 L447.5,171.66468" id="Line-8-Copy-72"></path>
+                <path d="M424.5,160 L424.5,171.66468" id="Line-8-Copy-73"></path>
+                <path d="M400.5,160 L400.5,171.66468" id="Line-8-Copy-74"></path>
+                <path d="M376.5,160 L376.5,171.66468" id="Line-8-Copy-75"></path>
+                <path d="M352.5,160 L352.5,171.66468" id="Line-8-Copy-76"></path>
+                <path d="M329.5,160 L329.5,171.66468" id="Line-8-Copy-77"></path>
+                <path d="M305.5,160 L305.5,171.66468" id="Line-8-Copy-78"></path>
+                <path d="M283.5,160 L283.5,171.66468" id="Line-8-Copy-79"></path>
+                <path d="M260.5,160 L260.5,171.66468" id="Line-8-Copy-80"></path>
+                <path d="M236.5,160 L236.5,171.66468" id="Line-8-Copy-81"></path>
+                <path d="M212.5,160 L212.5,171.66468" id="Line-8-Copy-82"></path>
+                <path d="M188.5,160 L188.5,171.66468" id="Line-8-Copy-83"></path>
+                <path d="M165.5,160 L165.5,171.66468" id="Line-8-Copy-84"></path>
+                <path d="M141.5,160 L141.5,171.66468" id="Line-8-Copy-85"></path>
+                <path d="M118.5,160 L118.5,171.66468" id="Line-8-Copy-86"></path>
+                <path d="M94.5,160 L94.5,171.66468" id="Line-8-Copy-87"></path>
+                <path d="M72.5,160 L72.5,171.66468" id="Line-8-Copy-88"></path>
+                <path d="M48.5,160 L48.5,171.66468" id="Line-8-Copy-89"></path>
+                <path d="M25.5,160 L25.5,171.66468" id="Line-8-Copy-90"></path>
+                <path d="M0.5,160 L0.5,171.66468" id="Line-8-Copy-91"></path>
+            </g>
+            <g id="Grid-Horizontal" transform="translate(1235.000000, 102.000000) rotate(-270.000000) translate(-1235.000000, -102.000000) translate(1175.000000, -965.000000)" stroke="#EFEFEF" stroke-dasharray="10,10" stroke-linecap="square" stroke-width="2">
+                <path d="M1,-1.36424205e-12 L1,2134" id="Line-4-Copy-8"></path>
+                <path d="M40,-1.36479314e-12 L40,2134" id="Line-4-Copy-20"></path>
+                <path d="M79,-1.36460945e-12 L79,2134" id="Line-4-Copy-21"></path>
+                <path d="M119,-1.36497684e-12 L119,2134" id="Line-4-Copy-22"></path>
+            </g>
+            <path d="M152.5,199 L2302.11073,199" id="Line-7" stroke="#979797" stroke-linecap="square"></path>
+            <g id="Group-12-Copy-2" transform="translate(152.000000, 81.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+            </g>
+            <g id="Group-12-Copy-5" transform="translate(152.000000, 42.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+            </g>
+            <g id="Group-12-Copy-3" transform="translate(152.000000, 120.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+            </g>
+            <g id="Group-12-Copy-4" transform="translate(152.000000, 159.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+            </g>
+            <g id="y" transform="translate(102.000000, 32.000000)" fill="#C7C7C7" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="17" font-weight="normal">
+                <text id="10.00" letter-spacing="0.300000012">
+                    <tspan x="0" y="17">10.00</tspan>
+                </text>
+                <text id="7.50" letter-spacing="0.300000012">
+                    <tspan x="10" y="54">7.50</tspan>
+                </text>
+                <text id="5.00" letter-spacing="0.5">
+                    <tspan x="9" y="95">5.0</tspan>
+                    <tspan x="35.83" y="95">0</tspan>
+                </text>
+                <text id="2.50" letter-spacing="0.5">
+                    <tspan x="11" y="132">2.50</tspan>
+                </text>
+                <text id="0.00" letter-spacing="0.5">
+                    <tspan x="9" y="173">0.0</tspan>
+                    <tspan x="35.83" y="173">0</tspan>
+                </text>
+            </g>
+            <g id="x" transform="translate(122.000000, 218.000000)" fill="#B6B6B6" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="18" font-weight="normal">
+                <text id="Feb-5,-2018" letter-spacing="-0.680000007">
+                    <tspan x="0" y="18">Feb 5, 201</tspan>
+                    <tspan x="80.5179999" y="18">8</tspan>
+                </text>
+                <text id="Jun-25,-2018" letter-spacing="-0.779999971">
+                    <tspan x="465" y="18">Jun 25, 201</tspan>
+                    <tspan x="554.556" y="18">8</tspan>
+                </text>
+                <text id="Nov-12,-2018" letter-spacing="-0.779999971">
+                    <tspan x="933" y="18">Nov 12, 201</tspan>
+                    <tspan x="1024.194" y="18">8</tspan>
+                </text>
+                <text id="Apr-1,-2019" letter-spacing="-0.779999971">
+                    <tspan x="1409" y="18">Apr 1, 201</tspan>
+                    <tspan x="1487.564" y="18">9</tspan>
+                </text>
+                <text id="Aug-19,-2019" letter-spacing="-0.779999971">
+                    <tspan x="1870" y="18">Aug 19, 201</tspan>
+                    <tspan x="1961.14" y="18">9</tspan>
+                </text>
+            </g>
+            <g id="Price-in-USD-for-1-B-2" transform="translate(79.000000, 119.500000) rotate(-90.000000) translate(-79.000000, -119.500000) translate(12.500000, 107.500000)" fill="#000000" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="19" font-weight="normal" letter-spacing="0.550000012">
+                <text id="Volume-in-BTC">
+                    <tspan x="0" y="19">Volume in BTC</tspan>
+                </text>
+            </g>
+            <g id="Group-4" transform="translate(184.000000, 63.000000)" fill="#ABE9C2">
+                <rect id="Rectangle" x="0" y="110" width="13" height="24"></rect>
+                <rect id="Rectangle-Copy" x="23" y="106" width="14" height="28"></rect>
+                <rect id="Rectangle-Copy-2" x="47" y="70" width="14" height="63"></rect>
+                <rect id="Rectangle-Copy-3" x="71" y="68" width="14" height="65"></rect>
+                <rect id="Rectangle-Copy-4" x="93" y="78" width="14" height="55"></rect>
+                <rect id="Rectangle-Copy-5" x="117" y="107" width="14" height="26"></rect>
+                <rect id="Rectangle-Copy-6" x="140" y="68" width="14" height="65"></rect>
+                <rect id="Rectangle-Copy-7" x="163" y="67" width="14" height="66"></rect>
+                <rect id="Rectangle-Copy-8" x="187" y="85" width="14" height="48"></rect>
+                <rect id="Rectangle-Copy-9" x="210" y="90" width="14" height="43"></rect>
+                <rect id="Rectangle-Copy-10" x="234" y="75" width="14" height="58"></rect>
+                <rect id="Rectangle-Copy-11" x="258" y="72" width="14" height="61"></rect>
+                <rect id="Rectangle-Copy-12" x="281" y="47" width="14" height="86"></rect>
+                <rect id="Rectangle-Copy-13" x="304" y="81" width="14" height="52"></rect>
+                <rect id="Rectangle-Copy-14" x="328" y="87" width="14" height="46"></rect>
+                <rect id="Rectangle-Copy-15" x="351" y="85" width="14" height="48"></rect>
+                <rect id="Rectangle-Copy-16" x="375" y="65" width="14" height="68"></rect>
+                <rect id="Rectangle-Copy-17" x="398" y="39" width="14" height="94"></rect>
+                <rect id="Rectangle-Copy-18" x="422" y="23" width="14" height="110"></rect>
+                <rect id="Rectangle-Copy-19" x="446" y="70" width="14" height="63"></rect>
+                <rect id="Rectangle-Copy-20" x="468" y="78" width="14" height="55"></rect>
+                <rect id="Rectangle-Copy-21" x="492" y="80" width="14" height="53"></rect>
+                <rect id="Rectangle-Copy-22" x="516" y="91" width="14" height="42"></rect>
+                <rect id="Rectangle-Copy-23" x="539" y="105" width="14" height="28"></rect>
+                <rect id="Rectangle-Copy-24" x="562" y="105" width="14" height="28"></rect>
+                <rect id="Rectangle-Copy-25" x="586" y="110" width="14" height="23"></rect>
+                <rect id="Rectangle-Copy-26" x="609" y="108" width="14" height="25"></rect>
+                <rect id="Rectangle-Copy-27" x="633" y="119" width="14" height="14"></rect>
+                <rect id="Rectangle-Copy-28" x="656" y="101" width="14" height="32"></rect>
+                <rect id="Rectangle-Copy-29" x="680" y="108" width="14" height="25"></rect>
+                <rect id="Rectangle-Copy-30" x="702" y="99" width="14" height="34"></rect>
+                <rect id="Rectangle-Copy-31" x="726" y="79" width="14" height="54"></rect>
+                <rect id="Rectangle-Copy-32" x="750" y="114" width="14" height="19"></rect>
+                <rect id="Rectangle-Copy-33" x="774" y="97" width="14" height="36"></rect>
+                <rect id="Rectangle-Copy-34" x="797" y="94" width="14" height="39"></rect>
+                <rect id="Rectangle-Copy-35" x="820" y="96" width="14" height="37"></rect>
+                <rect id="Rectangle-Copy-36" x="843" y="90" width="14" height="43"></rect>
+                <rect id="Rectangle-Copy-37" x="867" y="86" width="14" height="47"></rect>
+                <rect id="Rectangle-Copy-38" x="890" y="89" width="14" height="44"></rect>
+                <rect id="Rectangle-Copy-39" x="914" y="74" width="14" height="59"></rect>
+                <rect id="Rectangle-Copy-40" x="937" y="44" width="14" height="89"></rect>
+                <rect id="Rectangle-Copy-41" x="961" y="96" width="14" height="37"></rect>
+                <rect id="Rectangle-Copy-42" x="985" y="52" width="14" height="81"></rect>
+                <rect id="Rectangle-Copy-43" x="1009" y="71" width="14" height="62"></rect>
+                <rect id="Rectangle-Copy-44" x="1031" y="52" width="14" height="81"></rect>
+                <rect id="Rectangle-Copy-45" x="1055" y="45" width="14" height="88"></rect>
+                <rect id="Rectangle-Copy-46" x="1078" y="51" width="14" height="82"></rect>
+                <rect id="Rectangle-Copy-47" x="1101" y="65" width="14" height="68"></rect>
+                <rect id="Rectangle-Copy-48" x="1125" y="43" width="14" height="90"></rect>
+                <rect id="Rectangle-Copy-49" x="1149" y="37" width="14" height="96"></rect>
+                <rect id="Rectangle-Copy-50" x="1172" y="16" width="14" height="117"></rect>
+                <rect id="Rectangle-Copy-51" x="1195" y="56" width="14" height="77"></rect>
+                <rect id="Rectangle-Copy-52" x="1219" y="57" width="14" height="76"></rect>
+                <rect id="Rectangle-Copy-53" x="1243" y="51" width="14" height="82"></rect>
+                <rect id="Rectangle-Copy-55" x="1477" y="85" width="14" height="48"></rect>
+                <rect id="Rectangle-Copy-65" x="1712" y="95" width="14" height="38"></rect>
+                <rect id="Rectangle-Copy-54" x="1265" y="0" width="14" height="133"></rect>
+                <rect id="Rectangle-Copy-56" x="1500" y="62" width="14" height="71"></rect>
+                <rect id="Rectangle-Copy-66" x="1734" y="109" width="14" height="24"></rect>
+                <rect id="Rectangle-Copy-47" x="1289" y="46" width="14" height="87"></rect>
+                <rect id="Rectangle-Copy-57" x="1524" y="85" width="14" height="48"></rect>
+                <rect id="Rectangle-Copy-67" x="1758" y="109" width="14" height="24"></rect>
+                <rect id="Rectangle-Copy-48" x="1313" y="51" width="14" height="82"></rect>
+                <rect id="Rectangle-Copy-58" x="1547" y="98" width="14" height="35"></rect>
+                <rect id="Rectangle-Copy-68" x="1783" y="100" width="14" height="33"></rect>
+                <rect id="Rectangle-Copy-49" x="1337" y="19" width="14" height="114"></rect>
+                <rect id="Rectangle-Copy-59" x="1571" y="109" width="14" height="24"></rect>
+                <rect id="Rectangle-Copy-69" x="1806" y="73" width="14" height="60"></rect>
+                <rect id="Rectangle-Copy-50" x="1360" y="37" width="14" height="96"></rect>
+                <rect id="Rectangle-Copy-60" x="1594" y="90" width="14" height="43"></rect>
+                <rect id="Rectangle-Copy-70" x="1829" y="87" width="14" height="46"></rect>
+                <rect id="Rectangle-Copy-51" x="1383" y="56" width="14" height="77"></rect>
+                <rect id="Rectangle-Copy-61" x="1617" y="82" width="14" height="51"></rect>
+                <rect id="Rectangle-Copy-71" x="1852" y="85" width="14" height="48"></rect>
+                <rect id="Rectangle-Copy-52" x="1407" y="67" width="14" height="66"></rect>
+                <rect id="Rectangle-Copy-62" x="1641" y="92" width="14" height="41"></rect>
+                <rect id="Rectangle-Copy-72" x="1876" y="106" width="14" height="27"></rect>
+                <rect id="Rectangle-Copy-53" x="1431" y="57" width="14" height="76"></rect>
+                <rect id="Rectangle-Copy-63" x="1665" y="95" width="14" height="38"></rect>
+                <rect id="Rectangle-Copy-73" x="1899" y="99" width="14" height="34"></rect>
+                <rect id="Rectangle-Copy-54" x="1453" y="62" width="14" height="71"></rect>
+                <rect id="Rectangle-Copy-64" x="1688" y="109" width="14" height="24"></rect>
+                <rect id="Rectangle-Copy-74" x="1923" y="96" width="14" height="37"></rect>
+                <rect id="Rectangle-Copy-75" x="1946" y="91" width="14" height="42"></rect>
+                <rect id="Rectangle-Copy-76" x="1970" y="83" width="14" height="50"></rect>
+                <rect id="Rectangle-Copy-77" x="1993" y="73" width="14" height="60"></rect>
+                <rect id="Rectangle-Copy-78" x="2017" y="75" width="14" height="58"></rect>
+                <rect id="Rectangle-Copy-79" x="2040" y="91" width="14" height="42"></rect>
+                <rect id="Rectangle-Copy-80" x="2063" y="88" width="14" height="45"></rect>
+            </g>
+        </g>
+        <g id="Graph" transform="translate(40.000000, 334.000000)">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="2337" height="363"></rect>
+            <g id="Grid-Vertical" transform="translate(1235.000000, 177.000000) scale(-1, 1) translate(-1235.000000, -177.000000) translate(167.000000, 46.000000)" stroke="#979797" stroke-linecap="square">
+                <path d="M2135,0 L2135,261.58085" id="Line-6"></path>
+                <path d="M2111.5,247 L2111.5,261.58085" id="Line-8"></path>
+                <path d="M2087.5,247 L2087.5,261.58085" id="Line-8-Copy"></path>
+                <path d="M1971,247 L1971,261.58085" id="Line-8-Copy-7"></path>
+                <path d="M2063.5,247 L2063.5,261.58085" id="Line-8-Copy-2"></path>
+                <path d="M1948,247 L1948,261.58085" id="Line-8-Copy-8"></path>
+                <path d="M2041.5,247 L2041.5,261.58085" id="Line-8-Copy-3"></path>
+                <path d="M1924,247 L1924,261.58085" id="Line-8-Copy-9"></path>
+                <path d="M2018.5,247 L2018.5,261.58085" id="Line-8-Copy-4"></path>
+                <path d="M1900,247 L1900,261.58085" id="Line-8-Copy-10"></path>
+                <path d="M1994.5,247 L1994.5,261.58085" id="Line-8-Copy-5"></path>
+                <path d="M1876,247 L1876,261.58085" id="Line-8-Copy-11"></path>
+                <path d="M1853.5,247 L1853.5,261.58085" id="Line-8-Copy-12"></path>
+                <path d="M1831.5,247 L1831.5,261.58085" id="Line-8-Copy-13"></path>
+                <path d="M1807.5,247 L1807.5,261.58085" id="Line-8-Copy-14"></path>
+                <path d="M1784.5,247 L1784.5,261.58085" id="Line-8-Copy-15"></path>
+                <path d="M1760.5,247 L1760.5,261.58085" id="Line-8-Copy-16"></path>
+                <path d="M1736.5,247 L1736.5,261.58085" id="Line-8-Copy-17"></path>
+                <path d="M1713.5,247 L1713.5,261.58085" id="Line-8-Copy-18"></path>
+                <path d="M1689.5,247 L1689.5,261.58085" id="Line-8-Copy-19"></path>
+                <path d="M1665.5,247 L1665.5,261.58085" id="Line-8-Copy-20"></path>
+                <path d="M1643.5,247 L1643.5,261.58085" id="Line-8-Copy-21"></path>
+                <path d="M1620.5,247 L1620.5,261.58085" id="Line-8-Copy-22"></path>
+                <path d="M1596.5,247 L1596.5,261.58085" id="Line-8-Copy-23"></path>
+                <path d="M1573.5,247 L1573.5,261.58085" id="Line-8-Copy-24"></path>
+                <path d="M1549.5,247 L1549.5,261.58085" id="Line-8-Copy-25"></path>
+                <path d="M1525.5,247 L1525.5,261.58085" id="Line-8-Copy-26"></path>
+                <path d="M1501.5,247 L1501.5,261.58085" id="Line-8-Copy-27"></path>
+                <path d="M1478.5,247 L1478.5,261.58085" id="Line-8-Copy-28"></path>
+                <path d="M1454.5,247 L1454.5,261.58085" id="Line-8-Copy-29"></path>
+                <path d="M1432.5,247 L1432.5,261.58085" id="Line-8-Copy-30"></path>
+                <path d="M1409.5,247 L1409.5,261.58085" id="Line-8-Copy-31"></path>
+                <path d="M1385.5,247 L1385.5,261.58085" id="Line-8-Copy-32"></path>
+                <path d="M1361.5,247 L1361.5,261.58085" id="Line-8-Copy-33"></path>
+                <path d="M1337.5,247 L1337.5,261.58085" id="Line-8-Copy-34"></path>
+                <path d="M1314.5,247 L1314.5,261.58085" id="Line-8-Copy-35"></path>
+                <path d="M1290.5,247 L1290.5,261.58085" id="Line-8-Copy-36"></path>
+                <path d="M1266.5,247 L1266.5,261.58085" id="Line-8-Copy-37"></path>
+                <path d="M1244.5,247 L1244.5,261.58085" id="Line-8-Copy-38"></path>
+                <path d="M1221.5,247 L1221.5,261.58085" id="Line-8-Copy-39"></path>
+                <path d="M1197.5,247 L1197.5,261.58085" id="Line-8-Copy-40"></path>
+                <path d="M1174.5,247 L1174.5,261.58085" id="Line-8-Copy-41"></path>
+                <path d="M1150.5,247 L1150.5,261.58085" id="Line-8-Copy-42"></path>
+                <path d="M1126.5,247 L1126.5,261.58085" id="Line-8-Copy-43"></path>
+                <path d="M1103.5,247 L1103.5,261.58085" id="Line-8-Copy-44"></path>
+                <path d="M1079.5,247 L1079.5,261.58085" id="Line-8-Copy-45"></path>
+                <path d="M1056.5,247 L1056.5,261.58085" id="Line-8-Copy-46"></path>
+                <path d="M1033.5,247 L1033.5,261.58085" id="Line-8-Copy-47"></path>
+                <path d="M1010.5,247 L1010.5,261.58085" id="Line-8-Copy-48"></path>
+                <path d="M986.5,247 L986.5,261.58085" id="Line-8-Copy-49"></path>
+                <path d="M962.5,247 L962.5,261.58085" id="Line-8-Copy-50"></path>
+                <path d="M939.5,247 L939.5,261.58085" id="Line-8-Copy-51"></path>
+                <path d="M915.5,247 L915.5,261.58085" id="Line-8-Copy-52"></path>
+                <path d="M891.5,247 L891.5,261.58085" id="Line-8-Copy-53"></path>
+                <path d="M868.5,247 L868.5,261.58085" id="Line-8-Copy-54"></path>
+                <path d="M846.5,247 L846.5,261.58085" id="Line-8-Copy-55"></path>
+                <path d="M822.5,247 L822.5,261.58085" id="Line-8-Copy-56"></path>
+                <path d="M798.5,247 L798.5,261.58085" id="Line-8-Copy-57"></path>
+                <path d="M775.5,247 L775.5,261.58085" id="Line-8-Copy-58"></path>
+                <path d="M751.5,247 L751.5,261.58085" id="Line-8-Copy-59"></path>
+                <path d="M727.5,247 L727.5,261.58085" id="Line-8-Copy-60"></path>
+                <path d="M704,247 L704,261.58085" id="Line-8-Copy-61"></path>
+                <path d="M681.5,247 L681.5,261.58085" id="Line-8-Copy-62"></path>
+                <path d="M658.5,247 L658.5,261.58085" id="Line-8-Copy-63"></path>
+                <path d="M634.5,247 L634.5,261.58085" id="Line-8-Copy-64"></path>
+                <path d="M611.5,247 L611.5,261.58085" id="Line-8-Copy-65"></path>
+                <path d="M588.5,247 L588.5,261.58085" id="Line-8-Copy-66"></path>
+                <path d="M564.5,247 L564.5,261.58085" id="Line-8-Copy-67"></path>
+                <path d="M540.5,247 L540.5,261.58085" id="Line-8-Copy-68"></path>
+                <path d="M516.5,247 L516.5,261.58085" id="Line-8-Copy-69"></path>
+                <path d="M493.5,247 L493.5,261.58085" id="Line-8-Copy-70"></path>
+                <path d="M471.5,247 L471.5,261.58085" id="Line-8-Copy-71"></path>
+                <path d="M447.5,247 L447.5,261.58085" id="Line-8-Copy-72"></path>
+                <path d="M424.5,247 L424.5,261.58085" id="Line-8-Copy-73"></path>
+                <path d="M400.5,247 L400.5,261.58085" id="Line-8-Copy-74"></path>
+                <path d="M376.5,247 L376.5,261.58085" id="Line-8-Copy-75"></path>
+                <path d="M352.5,247 L352.5,261.58085" id="Line-8-Copy-76"></path>
+                <path d="M329.5,247 L329.5,261.58085" id="Line-8-Copy-77"></path>
+                <path d="M305.5,247 L305.5,261.58085" id="Line-8-Copy-78"></path>
+                <path d="M283.5,247 L283.5,261.58085" id="Line-8-Copy-79"></path>
+                <path d="M260.5,247 L260.5,261.58085" id="Line-8-Copy-80"></path>
+                <path d="M236.5,247 L236.5,261.58085" id="Line-8-Copy-81"></path>
+                <path d="M212.5,247 L212.5,261.58085" id="Line-8-Copy-82"></path>
+                <path d="M188.5,247 L188.5,261.58085" id="Line-8-Copy-83"></path>
+                <path d="M165.5,247 L165.5,261.58085" id="Line-8-Copy-84"></path>
+                <path d="M141.5,247 L141.5,261.58085" id="Line-8-Copy-85"></path>
+                <path d="M118.5,247 L118.5,261.58085" id="Line-8-Copy-86"></path>
+                <path d="M94.5,247 L94.5,261.58085" id="Line-8-Copy-87"></path>
+                <path d="M72.5,247 L72.5,261.58085" id="Line-8-Copy-88"></path>
+                <path d="M48.5,247 L48.5,261.58085" id="Line-8-Copy-89"></path>
+                <path d="M25.5,247 L25.5,261.58085" id="Line-8-Copy-90"></path>
+                <path d="M1,247 L1,261.58085" id="Line-8-Copy-91"></path>
+            </g>
+            <g id="Grid-Horizontal" transform="translate(1235.000000, 144.500000) rotate(-270.000000) translate(-1235.000000, -144.500000) translate(1135.500000, -922.500000)" stroke="#EFEFEF" stroke-dasharray="10,10" stroke-linecap="square" stroke-width="2">
+                <path d="M1,0 L1,2134" id="Line-4-Copy-9"></path>
+                <path d="M50,0 L50,2134" id="Line-4-Copy-8"></path>
+                <path d="M100,0 L100,2134" id="Line-4-Copy-20"></path>
+                <path d="M149,0 L149,2134" id="Line-4-Copy-21"></path>
+                <path d="M198,0 L198,2134" id="Line-4-Copy-22"></path>
+            </g>
+            <path d="M152.5,293 L2302.11073,293" id="Line-7" stroke="#979797" stroke-linecap="square"></path>
+            <g id="Group-12" transform="translate(152.000000, 45.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+                <path d="M7.37089951,40.858006 L14.241799,40.858006" id="Line-4-Copy-4"></path>
+            </g>
+            <g id="Group-12-Copy" transform="translate(152.000000, 94.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+                <path d="M7.37089951,40.858006 L14.241799,40.858006" id="Line-4-Copy-4"></path>
+            </g>
+            <g id="Group-12-Copy-2" transform="translate(152.000000, 144.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+                <path d="M7.37089951,40.858006 L14.241799,40.858006" id="Line-4-Copy-4"></path>
+            </g>
+            <g id="Group-12-Copy-3" transform="translate(152.000000, 193.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+                <path d="M7.37089951,40.858006 L14.241799,40.858006" id="Line-4-Copy-4"></path>
+            </g>
+            <g id="Group-12-Copy-4" transform="translate(152.000000, 243.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M0.5,0.858006042 L14.241799,0.858006042" id="Line-4"></path>
+                <path d="M7.37089951,10.858006 L14.241799,10.858006" id="Line-4-Copy"></path>
+                <path d="M7.37089951,20.858006 L14.241799,20.858006" id="Line-4-Copy-2"></path>
+                <path d="M7.37089951,30.858006 L14.241799,30.858006" id="Line-4-Copy-3"></path>
+                <path d="M7.37089951,40.858006 L14.241799,40.858006" id="Line-4-Copy-4"></path>
+            </g>
+            <g id="y" transform="translate(48.000000, 35.000000)" fill="#C7C7C7" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="17" font-weight="normal">
+                <text id="15000.0000" letter-spacing="0.300000012">
+                    <tspan x="0" y="17">15000.0000</tspan>
+                </text>
+                <text id="12500.0000" letter-spacing="0.300000012">
+                    <tspan x="0" y="66">12500.0000</tspan>
+                </text>
+                <text id="10000.0000" letter-spacing="0.300000012">
+                    <tspan x="0" y="115">10000.0000</tspan>
+                </text>
+                <text id="7500.0000" letter-spacing="0.5">
+                    <tspan x="10" y="164">7500.000</tspan>
+                    <tspan x="90.33" y="164">0</tspan>
+                </text>
+                <text id="5000.0000" letter-spacing="0.5">
+                    <tspan x="9" y="215">5000.000</tspan>
+                    <tspan x="89.33" y="215">0</tspan>
+                </text>
+                <text id="2500.0000" letter-spacing="0.5">
+                    <tspan x="10" y="264">2500.000</tspan>
+                    <tspan x="90.33" y="264">0</tspan>
+                </text>
+            </g>
+            <g id="x" transform="translate(122.000000, 312.000000)" fill="#B6B6B6" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="18" font-weight="normal">
+                <text id="Feb-5,-2018" letter-spacing="-0.680000007">
+                    <tspan x="0" y="18">Feb 5, 201</tspan>
+                    <tspan x="80.5179999" y="18">8</tspan>
+                </text>
+                <text id="Jun-25,-2018" letter-spacing="-0.779999971">
+                    <tspan x="465" y="18">Jun 25, 201</tspan>
+                    <tspan x="554.556" y="18">8</tspan>
+                </text>
+                <text id="Nov-12,-2018" letter-spacing="-0.779999971">
+                    <tspan x="933" y="18">Nov 12, 201</tspan>
+                    <tspan x="1024.194" y="18">8</tspan>
+                </text>
+                <text id="Apr-1,-2019" letter-spacing="-0.779999971">
+                    <tspan x="1409" y="18">Apr 1, 201</tspan>
+                    <tspan x="1487.564" y="18">9</tspan>
+                </text>
+                <text id="Aug-19,-2019" letter-spacing="-0.779999971">
+                    <tspan x="1870" y="18">Aug 19, 201</tspan>
+                    <tspan x="1961.14" y="18">9</tspan>
+                </text>
+            </g>
+            <g id="Price-in-USD-for-1-B-2" transform="translate(25.000000, 168.500000) rotate(-90.000000) translate(-25.000000, -168.500000) translate(-76.500000, 156.500000)" fill="#000000" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="19" font-weight="normal" letter-spacing="0.550000012">
+                <text id="Price-in-USD-for-1-B">
+                    <tspan x="0" y="19">Price in USD for 1 BT</tspan>
+                    <tspan x="190.359" y="19">C</tspan>
+                </text>
+            </g>
+            <g id="bars" transform="translate(183.000000, 85.000000)">
+                <rect id="Rectangle" fill="#00B209" x="0" y="30" width="15" height="66"></rect>
+                <rect id="Rectangle-Copy-81" fill="#FF2C00" x="24" y="39" width="15" height="30"></rect>
+                <rect id="Rectangle-Copy-82" fill="#00B209" x="47" y="33" width="15" height="30"></rect>
+                <rect id="Rectangle-Copy-88" fill="#00B209" x="188" y="96" width="15" height="22"></rect>
+                <rect id="Rectangle-Copy-89" fill="#00B209" x="211" y="89" width="15" height="11"></rect>
+                <rect id="Rectangle-Copy-90" fill="#00B209" x="234" y="67" width="15" height="14"></rect>
+                <rect id="Rectangle-Copy-91" fill="#00B209" x="258" y="70" width="15" height="10"></rect>
+                <rect id="Rectangle-Copy-93" fill="#00B209" x="305" y="87" width="15" height="10"></rect>
+                <rect id="Rectangle-Copy-95" fill="#00B209" x="351" y="106" width="15" height="10"></rect>
+                <rect id="Rectangle-Copy-99" fill="#00B209" x="445" y="134" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-100" fill="#00B209" x="469" y="124" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-101" fill="#00B209" x="516" y="109" width="15" height="22"></rect>
+                <rect id="Rectangle-Copy-107" fill="#00B209" x="610" y="137" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-108" fill="#00B209" x="656" y="110" width="15" height="15"></rect>
+                <rect id="Rectangle-Copy-110" fill="#00B209" x="703" y="131" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-111" fill="#00B209" x="727" y="124" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-112" fill="#00B209" x="751" y="120" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-113" fill="#00B209" x="774" y="126" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-116" fill="#00B209" x="844" y="128" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-117" fill="#00B209" x="867" y="131" width="15" height="7"></rect>
+                <rect id="Rectangle-Copy-121" fill="#00B209" x="962" y="174" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-122" fill="#00B209" x="1032" y="177" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-127" fill="#00B209" x="1078" y="177" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-128" fill="#00B209" x="1125" y="185" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-129" fill="#00B209" x="1150" y="186" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-130" fill="#00B209" x="1173" y="187" width="15" height="11"></rect>
+                <rect id="Rectangle-Copy-131" fill="#00B209" x="1196" y="187" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-133" fill="#00B209" x="1242" y="183" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-135" fill="#00B209" x="1288" y="179" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-136" fill="#00B209" x="1314" y="176" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-137" fill="#00B209" x="1337" y="178" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-138" fill="#00B209" x="1360" y="175" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-139" fill="#00B209" x="1383" y="148" width="15" height="26"></rect>
+                <rect id="Rectangle-Copy-140" fill="#00B209" x="1407" y="151" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-141" fill="#00B209" x="1477" y="144" width="15" height="11"></rect>
+                <rect id="Rectangle-Copy-144" fill="#00B209" x="1501" y="117" width="15" height="27"></rect>
+                <rect id="Rectangle-Copy-145" fill="#00B209" x="1524" y="104" width="15" height="13"></rect>
+                <rect id="Rectangle-Copy-146" fill="#00B209" x="1548" y="84" width="15" height="20"></rect>
+                <rect id="Rectangle-Copy-147" fill="#00B209" x="1618" y="59" width="15" height="45"></rect>
+                <rect id="Rectangle-Copy-150" fill="#00B209" x="1641" y="48" width="15" height="29"></rect>
+                <rect id="Rectangle-Copy-151" fill="#00B209" x="1664" y="38" width="15" height="10"></rect>
+                <rect id="Rectangle-Copy-156" fill="#00B209" x="1783" y="28" width="15" height="30"></rect>
+                <rect id="Rectangle-Copy-163" fill="#00B209" x="1900" y="53" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-165" fill="#00B209" x="1993" y="95" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-166" fill="#00B209" x="2017" y="93" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-167" fill="#00B209" x="2064" y="58" width="15" height="25"></rect>
+                <rect id="Rectangle-Copy-83" fill="#FF2C00" x="70" y="30" width="15" height="40"></rect>
+                <rect id="Rectangle-Copy-84" fill="#FF2C00" x="94" y="74" width="15" height="22"></rect>
+                <rect id="Rectangle-Copy-85" fill="#FF2C00" x="117" y="85" width="15" height="11"></rect>
+                <rect id="Rectangle-Copy-86" fill="#FF2C00" x="141" y="100" width="15" height="11"></rect>
+                <rect id="Rectangle-Copy-87" fill="#FF2C00" x="165" y="109" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-92" fill="#FF2C00" x="281" y="70" width="15" height="17"></rect>
+                <rect id="Rectangle-Copy-94" fill="#FF2C00" x="328" y="89" width="15" height="27"></rect>
+                <rect id="Rectangle-Copy-96" fill="#FF2C00" x="375" y="109" width="15" height="14"></rect>
+                <rect id="Rectangle-Copy-97" fill="#FF2C00" x="399" y="123" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-98" fill="#FF2C00" x="422" y="129" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-102" fill="#FF2C00" x="492" y="125" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-103" fill="#FF2C00" x="539" y="105" width="15" height="15"></rect>
+                <rect id="Rectangle-Copy-104" fill="#FF2C00" x="563" y="97" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-105" fill="#FF2C00" x="586" y="107" width="15" height="25"></rect>
+                <rect id="Rectangle-Copy-106" fill="#FF2C00" x="633" y="117" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-109" fill="#FF2C00" x="680" y="112" width="15" height="17"></rect>
+                <rect id="Rectangle-Copy-114" fill="#FF2C00" x="797" y="126" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-115" fill="#FF2C00" x="823" y="129" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-118" fill="#FF2C00" x="891" y="130" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-123" fill="#FF2C00" x="985" y="177" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-124" fill="#FF2C00" x="1008" y="186" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-125" fill="#FF2C00" x="1055" y="175" width="15" height="6"></rect>
+                <rect id="Rectangle-Copy-126" fill="#FF2C00" x="1102" y="178" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-132" fill="#FF2C00" x="1219" y="186" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-134" fill="#FF2C00" x="1265" y="183" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-142" fill="#FF2C00" x="1431" y="153" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-143" fill="#FF2C00" x="1453" y="153" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-148" fill="#FF2C00" x="1571" y="83" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-152" fill="#FF2C00" x="1688" y="40" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-153" fill="#FF2C00" x="1711" y="25" width="15" height="29"></rect>
+                <rect id="Rectangle-Copy-154" fill="#FF2C00" x="1735" y="44" width="15" height="10"></rect>
+                <rect id="Rectangle-Copy-155" fill="#FF2C00" x="1759" y="48" width="15" height="20"></rect>
+                <rect id="Rectangle-Copy-157" fill="#FF2C00" x="1829" y="30" width="15" height="27"></rect>
+                <rect id="Rectangle-Copy-159" fill="#FF2C00" x="1852" y="0" width="15" height="49"></rect>
+                <rect id="Rectangle-Copy-160" fill="#FF2C00" x="1875" y="48" width="15" height="10"></rect>
+                <rect id="Rectangle-Copy-161" fill="#FF2C00" x="1923" y="50" width="15" height="7"></rect>
+                <rect id="Rectangle-Copy-162" fill="#FF2C00" x="1946" y="53" width="15" height="9"></rect>
+                <rect id="Rectangle-Copy-164" fill="#FF2C00" x="1970" y="59" width="15" height="39"></rect>
+                <rect id="Rectangle-Copy-168" fill="#FF2C00" x="2040" y="92" width="15" height="7"></rect>
+                <rect id="Rectangle-Copy-158" fill="#FF2C00" x="1806" y="30" width="15" height="8"></rect>
+                <rect id="Rectangle-Copy-149" fill="#FF2C00" x="1595" y="81" width="15" height="25"></rect>
+                <rect id="Rectangle-Copy-119" fill="#FF2C00" x="915" y="130" width="15" height="13"></rect>
+                <rect id="Rectangle-Copy-120" fill="#FF2C00" x="938" y="150" width="15" height="27"></rect>
+            </g>
+            <g id="Open/close" transform="translate(190.000000, 51.000000)" stroke-linecap="square" stroke-width="2">
+                <path d="M2064.5,88.5 L2064.5,145.356923" id="Line-10" stroke="#00B209"></path>
+                <path d="M2017.5,88 L2017.5,133.356923" id="Line-10-Copy-2" stroke="#00B209"></path>
+                <path d="M1994.5,99 L1994.5,135.356923" id="Line-10-Copy-3" stroke="#00B209"></path>
+                <path d="M1900.5,62 L1900.5,97" id="Line-10-Copy-7" stroke="#00B209"></path>
+                <path d="M1783.5,61 L1783.5,104" id="Line-10-Copy-12" stroke="#00B209"></path>
+                <path d="M1665.5,0.338748456 L1665.5,115" id="Line-10-Copy-17" stroke="#00B209"></path>
+                <path d="M1642.5,47.1691217 L1642.5,153" id="Line-10-Copy-18" stroke="#00B209"></path>
+                <path d="M1618.5,79.5 L1618.5,164" id="Line-10-Copy-19" stroke="#00B209"></path>
+                <path d="M1548.5,114 L1548.5,155" id="Line-10-Copy-22" stroke="#00B209"></path>
+                <path d="M1525.5,124 L1525.5,150" id="Line-10-Copy-23" stroke="#00B209"></path>
+                <path d="M1502.5,131 L1502.5,179" id="Line-10-Copy-24" stroke="#00B209"></path>
+                <path d="M1478.5,160 L1478.5,192" id="Line-10-Copy-25" stroke="#00B209"></path>
+                <path d="M1407.5,174.784885 L1407.5,192" id="Line-10-Copy-28" stroke="#00B209"></path>
+                <path d="M1383.5,179.784885 L1383.5,213" id="Line-10-Copy-29" stroke="#00B209"></path>
+                <path d="M1360.5,184.5 L1360.5,215" id="Line-10-Copy-30" stroke="#00B209"></path>
+                <path d="M1337.5,187.829219 L1337.5,219" id="Line-10-Copy-31" stroke="#00B209"></path>
+                <path d="M1313.5,189.114476 L1313.5,218" id="Line-10-Copy-32" stroke="#00B209"></path>
+                <path d="M1289.5,204.734284 L1289.5,220" id="Line-10-Copy-33" stroke="#00B209"></path>
+                <path d="M1242.5,204.734284 L1242.5,220" id="Line-10-Copy-36" stroke="#00B209"></path>
+                <path d="M1196.5,215 L1196.5,225" id="Line-10-Copy-37" stroke="#00B209"></path>
+                <path d="M1173,218 L1173,226" id="Line-10-Copy-38" stroke="#00B209"></path>
+                <path d="M1149.5,215 L1149.5,226" id="Line-10-Copy-39" stroke="#00B209"></path>
+                <path d="M1126,212.367142 L1126,222" id="Line-10-Copy-40" stroke="#00B209"></path>
+                <path d="M1078.5,209.719101 L1078.5,222" id="Line-10-Copy-41" stroke="#00B209"></path>
+                <path d="M1032.5,202 L1032.5,222" id="Line-10-Copy-42" stroke="#00B209"></path>
+                <path d="M962.5,198 L962.5,218" id="Line-10-Copy-47" stroke="#00B209"></path>
+                <path d="M867.5,153 L867.5,173" id="Line-10-Copy-51" stroke="#00B209"></path>
+                <path d="M844.5,149 L844.5,172.25" id="Line-10-Copy-52" stroke="#00B209"></path>
+                <path d="M774.5,148 L774.5,168" id="Line-10-Copy-53" stroke="#00B209"></path>
+                <path d="M751.5,146 L751.5,161" id="Line-10-Copy-54" stroke="#00B209"></path>
+                <path d="M727.5,146 L727.5,161" id="Line-10-Copy-57" stroke="#00B209"></path>
+                <path d="M704.5,150 L704.5,168" id="Line-10-Copy-58" stroke="#00B209"></path>
+                <path d="M657.5,135 L657.5,153" id="Line-10-Copy-60" stroke="#00B209"></path>
+                <path d="M609.5,153.5 L609.5,175" id="Line-10-Copy-61" stroke="#00B209"></path>
+                <path d="M516.5,139.5 L516.5,166" id="Line-10-Copy-66" stroke="#00B209"></path>
+                <path d="M469.5,151 L469.5,168" id="Line-10-Copy-68" stroke="#00B209"></path>
+                <path d="M446.5,161 L446.5,178" id="Line-10-Copy-70" stroke="#00B209"></path>
+                <path d="M352.5,133.356923 L352.5,152" id="Line-10-Copy-73" stroke="#00B209"></path>
+                <path d="M305.5,106 L305.5,134" id="Line-10-Copy-75" stroke="#00B209"></path>
+                <path d="M258.5,89 L258.5,117" id="Line-10-Copy-77" stroke="#00B209"></path>
+                <path d="M235.5,99 L235.5,127" id="Line-10-Copy-78" stroke="#00B209"></path>
+                <path d="M211.5,114 L211.5,139.5" id="Line-10-Copy-79" stroke="#00B209"></path>
+                <path d="M188.5,126 L188.5,168" id="Line-10-Copy-80" stroke="#00B209"></path>
+                <path d="M47.5,54 L47.5,96" id="Line-10-Copy-87" stroke="#00B209"></path>
+                <path d="M0.5,62 L0.5,131" id="Line-10-Copy-88" stroke="#00B209"></path>
+                <path d="M2040.5,102 L2040.5,132.356923" id="Line-10-Copy" stroke="#FF2C00"></path>
+                <path d="M1970.5,70 L1970.5,140.640425" id="Line-10-Copy-4" stroke="#FF2C00"></path>
+                <path d="M1947.5,71 L1947.5,96" id="Line-10-Copy-5" stroke="#FF2C00"></path>
+                <path d="M1924.5,26 L1924.5,96" id="Line-10-Copy-6" stroke="#FF2C00"></path>
+                <path d="M1829.5,22 L1829.5,109" id="Line-10-Copy-8" stroke="#FF2C00"></path>
+                <path d="M1852.5,33 L1852.5,106" id="Line-10-Copy-10" stroke="#FF2C00"></path>
+                <path d="M1875.5,65.5 L1875.5,104" id="Line-10-Copy-11" stroke="#FF2C00"></path>
+                <path d="M1806.5,43 L1806.5,92" id="Line-10-Copy-9" stroke="#FF2C00"></path>
+                <path d="M1759.5,67.5 L1759.5,106" id="Line-10-Copy-13" stroke="#FF2C00"></path>
+                <path d="M1736.5,64.5 L1736.5,104" id="Line-10-Copy-14" stroke="#FF2C00"></path>
+                <path d="M1712.5,17 L1712.5,93" id="Line-10-Copy-15" stroke="#FF2C00"></path>
+                <path d="M1689.5,48.5881039 L1689.5,97" id="Line-10-Copy-16" stroke="#FF2C00"></path>
+                <path d="M1594.5,113.588104 L1594.5,162" id="Line-10-Copy-20" stroke="#FF2C00"></path>
+                <path d="M1571.5,65.5 L1571.5,150" id="Line-10-Copy-21" stroke="#FF2C00"></path>
+                <path d="M1454.5,176 L1454.5,193" id="Line-10-Copy-26" stroke="#FF2C00"></path>
+                <path d="M1431.5,169.350435 L1431.5,197" id="Line-10-Copy-27" stroke="#FF2C00"></path>
+                <path d="M1265.5,207.77179 L1265.5,224" id="Line-10-Copy-34" stroke="#FF2C00"></path>
+                <path d="M1219.5,215 L1219.5,227" id="Line-10-Copy-35" stroke="#FF2C00"></path>
+                <path d="M1008.5,204.734284 L1008.5,227" id="Line-10-Copy-43" stroke="#FF2C00"></path>
+                <path d="M985.5,207.77179 L985.5,228" id="Line-10-Copy-46" stroke="#FF2C00"></path>
+                <path d="M938.5,182 L938.5,217" id="Line-10-Copy-48" stroke="#FF2C00"></path>
+                <path d="M915,160 L915,184.5" id="Line-10-Copy-49" stroke="#FF2C00"></path>
+                <path d="M891.5,157 L891.5,170.549734" id="Line-10-Copy-50" stroke="#FF2C00"></path>
+                <path d="M823.5,151 L823.5,168.549734" id="Line-10-Copy-55" stroke="#FF2C00"></path>
+                <path d="M798.5,153 L798.5,170.549734" id="Line-10-Copy-56" stroke="#FF2C00"></path>
+                <path d="M680.5,144 L680.5,172.25" id="Line-10-Copy-59" stroke="#FF2C00"></path>
+                <path d="M634.5,150 L634.5,184" id="Line-10-Copy-62" stroke="#FF2C00"></path>
+                <path d="M587.5,141 L587.5,175" id="Line-10-Copy-63" stroke="#FF2C00"></path>
+                <path d="M563.5,115 L563.5,151" id="Line-10-Copy-64" stroke="#FF2C00"></path>
+                <path d="M540.5,95 L540.5,152" id="Line-10-Copy-65" stroke="#FF2C00"></path>
+                <path d="M492.5,157 L492.5,172" id="Line-10-Copy-67" stroke="#FF2C00"></path>
+                <path d="M423.5,157 L423.5,174.784885" id="Line-10-Copy-69" stroke="#FF2C00"></path>
+                <path d="M399.5,150 L399.5,167.784885" id="Line-10-Copy-71" stroke="#FF2C00"></path>
+                <path d="M376.5,127.5 L376.5,159.784885" id="Line-10-Copy-72" stroke="#FF2C00"></path>
+                <path d="M328.5,122.5 L328.5,160.625" id="Line-10-Copy-74" stroke="#FF2C00"></path>
+                <path d="M282.5,96.5 L282.5,134.625" id="Line-10-Copy-76" stroke="#FF2C00"></path>
+                <path d="M165.5,139.5 L165.5,166.625" id="Line-10-Copy-81" stroke="#FF2C00"></path>
+                <path d="M141.5,113.588104 L141.5,162" id="Line-10-Copy-82" stroke="#FF2C00"></path>
+                <path d="M117.5,102.588104 L117.5,128.945997" id="Line-10-Copy-83" stroke="#FF2C00"></path>
+                <path d="M94.5,100.588104 L94.5,142.678461" id="Line-10-Copy-84" stroke="#FF2C00"></path>
+                <path d="M70.5,46.5881039 L70.5,132.356923" id="Line-10-Copy-85" stroke="#FF2C00"></path>
+                <path d="M24,53.5881039 L24,110.678461" id="Line-10-Copy-86" stroke="#FF2C00"></path>
+                <path d="M1055.5,206 L1055.5,222" id="Line-10-Copy-44" stroke="#FF2C00"></path>
+                <path d="M1102.5,199.75 L1102.5,222" id="Line-10-Copy-45" stroke="#FF2C00"></path>
+            </g>
+            <path d="M192,153.974938 L236.354456,126.130625 L284.071541,176.583671 L307.207826,171.332478 L335.452201,195.846285 C347.782813,202.881026 358.218419,205.417606 366.75902,203.456026 C375.29962,201.494446 380.379947,199.646995 382,197.913671 C409.227327,170.478497 429.893994,156.76091 444,156.76091 C465.15901,156.76091 512.630436,187.098826 516.206456,188.926068 C519.782476,190.753309 536.08499,192.460478 541.051949,192.460478 C544.363254,192.460478 547.736776,194.278209 551.172513,197.913671 L566.075766,197.913671 L589,213.063013 L636.332432,221.018707 L660.388537,213.063013 L682.131166,217.017083 L710.788068,195.846285 L728.970132,178.117167 L752.793225,190.585683 L776.267988,211.137098 L800.635568,217.017083 L822.90723,213.063013 L848,203.456026 L873.01074,203.456026 L894.299234,213.063013 L916,213.063013 L942.278294,211.137098 L964.099387,211.137098 L988.678579,215.317047 L1000,215.317047 L1011.71704,213.063013 L1032.03425,213.063013 L1056.09511,215.317047 L1082.10567,215.317047 L1104.35831,223.647224 L1121.71413,243.050223 L1129.67696,251.343546 L1152.89493,262.906169 L1196.68096,273.709125 L1223.30496,267.008843 L1302.76203,267.008843 L1317.50717,271.396839 L1341.68215,271.396839 L1362.41308,273.709125 L1386.2445,273.709125 L1409.40065,271.396839 L1433.79201,264.839217 L1452.33548,267.008843 L1481.40134,264.839217 L1502,262.906169 L1527.34393,262.906169 L1550.27539,262.906169 L1573.87855,245.380343 L1596.48308,238.280611 L1617.26513,238.280611 L1636.09987,234.729557 L1663.07457,234.729557 L1688.35755,218.979852 L1710.70292,192.460478 L1715.34414,187.085749 L1739.12087,184.928011 L1762,172.646142 L1784.7389,184.928011 L1809.40963,172.646142 L1832.34823,151.726188 L1835,142.894322 L1856.37461,111.481697 L1879.78637,122.004088 L1902,111.481697 L1925.28433,136.456773 L1950,142.894322 L1973,139.70824 L1996.26024,113.682233 L2019,132.889075 L2066.42893,139.70824 L2090.43867,132.889075 L2136.3658,136.456773 L2161,169.704961 L2184.49227,176.583671 L2207.42374,174.348556 L2230,179.864757 L2254.4874,178.117167" id="Path-2" stroke="#00B300"></path>
+        </g>
+        <g id="Currency-Selected" transform="translate(40.000000, 247.000000)">
+            <path d="M485,76 L0.5,76" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <text id="Currency" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="19" font-weight="normal" letter-spacing="0.400000006" fill="#000000">
+                <tspan x="0" y="19">Currenc</tspan>
+                <tspan x="71.599" y="19">y</tspan>
+            </text>
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="26" width="485" height="48" rx="6"></rect>
+            <text id="USD---US-Dollars" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="28" font-weight="normal" letter-spacing="0.5894738" fill="#000000">
+                <tspan x="8" y="62">USD - US Dollars</tspan>
+            </text>
+            <g id="Chevron" transform="translate(456.000000, 51.000000)" stroke="#979797" stroke-linecap="square" stroke-width="2">
+                <path d="M13,0 L7,6" id="Line-2"></path>
+                <path d="M0,0 L7,6" id="Line-2"></path>
+            </g>
+        </g>
+        <g id="Topbar-Bottom" transform="translate(0.000000, 144.000000)">
+            <text id="OFFER-BOOK" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="20" font-weight="normal" letter-spacing="0.400000006" fill="#838383">
+                <tspan x="40" y="20">OFFER BOO</tspan>
+                <tspan x="151.98" y="20">K</tspan>
+            </text>
+            <text id="SPREAD" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="20" font-weight="normal" letter-spacing="0.400000006" fill="#838383">
+                <tspan x="208" y="20">SPREAD</tspan>
+            </text>
+            <text id="TRADES" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="20" font-weight="normal" letter-spacing="0.400000006" fill="#24B134">
+                <tspan x="344" y="20">TRADES</tspan>
+            </text>
+            <path d="M0,60.5 L2400,60.5" id="Line-3" stroke="#E2E2E2" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M344,60.5 L422,60.5" id="Line-3" stroke="#24B134" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+        <g id="Topbar-Right" transform="translate(812.000000, -5.000000)">
+            <g id="Group">
+                <rect id="Rectangle" fill="#26A435" x="0" y="5" width="1587" height="110"></rect>
+                <path d="M0.5,1.03636364 L0.5,113.198944" id="Line" stroke="#179E27" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M1587.5,114.227051 L0.5,114.227051" id="Line" stroke="#179E27" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+            <g id="Price-Bar" transform="translate(696.000000, 19.000000)">
+                <g id="Rectangle">
+                    <use fill="#F2F2F2" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                </g>
+                <g id="Locked-in-Trades" transform="translate(725.000000, 11.000000)">
+                    <text id="1.09-BTC" font-family="IBMPlexSans, IBM Plex Sans" font-size="24" font-weight="normal" letter-spacing="0.769999981" fill="#4F4F4F">
+                        <tspan x="31" y="27">1.09 BT</tspan>
+                        <tspan x="120.582" y="27">C</tspan>
+                    </text>
+                    <text id="Locked" font-family="IBMPlexSans-Light, IBM Plex Sans Light" font-size="17" font-weight="normal" letter-spacing="-0.150000006" fill="#909090">
+                        <tspan x="31" y="51">Locked</tspan>
+                    </text>
+                    <path d="M0.5,0 L0.5,58" id="Line" stroke="#D5E0D6" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+                <g id="Reserved-in-Offers" transform="translate(557.000000, 11.000000)">
+                    <text id="0.56-BTC" font-family="IBMPlexSans, IBM Plex Sans" font-size="24" font-weight="normal" letter-spacing="0.769999981" fill="#4F4F4F">
+                        <tspan x="31" y="27">0.56 BT</tspan>
+                        <tspan x="120.582" y="27">C</tspan>
+                    </text>
+                    <text id="Reserved" font-family="IBMPlexSans-Light, IBM Plex Sans Light" font-size="17" font-weight="normal" letter-spacing="-0.150000006" fill="#909090">
+                        <tspan x="31" y="51">Reserved</tspan>
+                    </text>
+                    <path d="M0.5,0 L0.5,58" id="Line" stroke="#D5E0D6" stroke-width="2" stroke-linecap="square"></path>
+                </g>
+                <g id="Reserved-in-Offers" transform="translate(369.000000, 11.000000)">
+                    <path d="M0.5,0 L0.5,58" id="Line" stroke="#D5E0D6" stroke-width="2" stroke-linecap="square"></path>
+                    <text id="1.42-BTC" font-family="IBMPlexSans, IBM Plex Sans" font-size="24" font-weight="normal" letter-spacing="0.769999981" fill="#4F4F4F">
+                        <tspan x="21" y="27">1.42 BT</tspan>
+                        <tspan x="110.582" y="27">C</tspan>
+                    </text>
+                    <text id="Available-Balance" font-family="IBMPlexSans-Light, IBM Plex Sans Light" font-size="17" font-weight="normal" letter-spacing="-0.150000006" fill="#909090">
+                        <tspan x="21" y="51">Available Balance</tspan>
+                    </text>
+                </g>
+                <g id="Market-Price" transform="translate(21.000000, 15.000000)">
+                    <text id="BTC/USD:-9236.50" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="24" font-weight="bold" letter-spacing="-0.23" fill="#4F4F4F">
+                        <tspan x="0" y="25">BTC/USD: 9236.5</tspan>
+                        <tspan x="192.918" y="25" letter-spacing="-1.2">0</tspan>
+                    </text>
+                    <g id="Chevron" transform="translate(309.000000, 14.000000)" stroke-linecap="square" stroke-width="2">
+                        <path d="M13,0 L7,6" id="Line-2" stroke="#B2B2B2"></path>
+                        <path d="M0,0 L7,6" id="Line-2" stroke="#B6B6B6"></path>
+                    </g>
+                    <text id="Market-Price-by-Bitc" font-family="IBMPlexSans-Light, IBM Plex Sans Light" font-size="17" font-weight="normal" letter-spacing="-0.150000006" fill="#909090">
+                        <tspan x="0" y="48">Market Price by BitcoinAverage</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="Account" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="18" font-weight="normal" letter-spacing="0.300000012" fill="#CEE9D0">
+                <tspan x="416" y="67">Account</tspan>
+            </text>
+            <text id="DAO" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="18" font-weight="normal" letter-spacing="0.300000012" fill="#CEE9D0">
+                <tspan x="595" y="67">DAO</tspan>
+            </text>
+            <text id="Settings" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="18" font-weight="normal" letter-spacing="0.300000012" fill="#CEE9D0">
+                <tspan x="242" y="67">Setting</tspan>
+                <tspan x="302.762" y="67">s</tspan>
+            </text>
+            <text id="Support" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="18" font-weight="normal" letter-spacing="0.300000012" fill="#CEE9D0">
+                <tspan x="70" y="66">Suppor</tspan>
+                <tspan x="131.362" y="66">t</tspan>
+            </text>
+        </g>
+        <g id="Topbar-Left">
+            <g id="Group">
+                <polygon id="Rectangle" fill="#24B134" points="0 0 844 0 844 110 0 110 0 51.4895342"></polygon>
+                <path d="M844.5,1 L844.5,109.227051" id="Line" stroke="#179E27" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M844,110 L0.71366782,109.227051" id="Line" stroke="#179E27" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+            <text id="FUNDS" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="20" font-weight="bold" letter-spacing="0.300000012" fill="#CEE9D0">
+                <tspan x="739" y="62">FUNDS</tspan>
+            </text>
+            <text id="PORTFOLIO" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="20" font-weight="bold" letter-spacing="0.300000012" fill="#CEE9D0">
+                <tspan x="544.5" y="63">PORTFOLI</tspan>
+                <tspan x="643.6" y="63">O</tspan>
+            </text>
+            <text id="SELL-BTC" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="20" font-weight="bold" letter-spacing="0.300000012" fill="#CEE9D0">
+                <tspan x="369" y="62">SELL BTC</tspan>
+            </text>
+            <text id="BUY-BTC" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="20" font-weight="bold" letter-spacing="0.300000012" fill="#CEE9D0">
+                <tspan x="205" y="62">BUY BTC</tspan>
+            </text>
+            <g id="Rectangle">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use fill="#FCFCFC" fill-rule="evenodd" xlink:href="#path-7"></use>
+            </g>
+            <text id="MARKET" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-size="20" font-weight="bold" letter-spacing="0.400000006" fill="#24B134">
+                <tspan x="41" y="62">MARKET</tspan>
+            </text>
+            <polyline id="Line" stroke="#5BC767" stroke-width="2" stroke-linecap="square" points="329 36 329 53.6499826 329 75"></polyline>
+            <path d="M496.5,34 L496.5,73" id="Line-Copy" stroke="#5BC767" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M695,36 L695,75" id="Line-Copy-2" stroke="#5BC767" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+        <g id="Group-13" transform="translate(1775.000000, 242.000000)">
+            <g id="Currency-Selected">
+                <text id="Interval" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="19" font-weight="normal" letter-spacing="-0.600000024" fill="#000000">
+                    <tspan x="1" y="19">Interva</tspan>
+                    <tspan x="60.5829998" y="19">l</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#E4E4E4" fill="#FFFFFF" x="0.5" y="24.5" width="601" height="57" rx="7"></rect>
+                <text id="Year" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="24" font-weight="normal" letter-spacing="0.300000012" fill="#000000">
+                    <tspan x="17" y="61">Yea</tspan>
+                    <tspan x="57.932" y="61">r</tspan>
+                </text>
+                <text id="Month" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="24" font-weight="normal" letter-spacing="-0.400000006" fill="#000000">
+                    <tspan x="102" y="61">Mont</tspan>
+                    <tspan x="156.152" y="61">h</tspan>
+                </text>
+                <rect id="Rectangle" fill="#7C7C7C" x="188" y="25" width="94" height="57"></rect>
+                <text id="Week" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="24" font-weight="normal" letter-spacing="-0.400000006" fill="#FFFFFF">
+                    <tspan x="205" y="62">Week</tspan>
+                </text>
+                <text id="Day" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="24" font-weight="normal" letter-spacing="-0.400000006" fill="#000000">
+                    <tspan x="300" y="61">Day</tspan>
+                </text>
+                <text id="Hour" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="24" font-weight="normal" letter-spacing="-0.400000006" fill="#000000">
+                    <tspan x="376" y="61">Hour</tspan>
+                </text>
+                <text id="10-Minutes" font-family="IBMPlexSans-Medium, IBM Plex Sans Medium" font-size="24" font-weight="normal" letter-spacing="-0.400000006" fill="#000000">
+                    <tspan x="464" y="61">10 Minutes</tspan>
+                </text>
+            </g>
+            <path d="M84.5,26.5 L84.5,79.5" id="Line-4" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M188.5,26.5 L188.5,79.5" id="Line-4-Copy" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M282.5,26.5 L282.5,79.5" id="Line-4-Copy-2" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M359.5,26.5 L359.5,79.5" id="Line-4-Copy-3" stroke="#979797" stroke-linecap="square"></path>
+            <path d="M446.5,26.5 L446.5,79.5" id="Line-4-Copy-4" stroke="#979797" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="681"
+   height="264"
+   viewBox="0 0 681 264"
+   version="1.1"
+   id="svg1426"
+   sodipodi:docname="dao_what.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1430">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     id="namedview1428"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="1.7503671"
+     inkscape:cx="275.03154"
+     inkscape:cy="123.82337"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Group_44" />
+  <defs
+     id="defs1392">
+    <style
+       type="text/css"
+       id="style1385">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
+    <style
+       id="style1387">
+      .cls-1 {
+        clip-path: url(#clip-dao_what);
+      }
+
+      .cls-2 {
+        fill: #26b036;
+      }
+
+      .cls-2, .cls-5, .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 12px;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+      }
+
+      .cls-4 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: italic;
+      }
+
+      .cls-5, .cls-6, .cls-9 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 10;
+      }
+
+      .cls-7 {
+        font-size: 30px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 200;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+    <clipPath
+       id="clip-dao_what">
+      <rect
+         width="681"
+         height="264"
+         id="rect1389" />
+    </clipPath>
+  </defs>
+  <g
+     id="dao_what"
+     class="cls-1"
+     clip-path="url(#clip-dao_what)">
+    <g
+       id="Group_44"
+       data-name="Group 44"
+       transform="translate(-8.835 -215)">
+      <g
+         id="Ellipse_1"
+         data-name="Ellipse 1"
+         class="cls-2"
+         transform="translate(434.01 227)">
+        <circle
+           class="cls-8"
+           cx="119.912"
+           cy="119.912"
+           r="119.912"
+           id="circle1394" />
+        <circle
+           class="cls-9"
+           cx="119.912"
+           cy="119.912"
+           r="119.412"
+           id="circle1396" />
+      </g>
+      <g
+         id="Ellipse_59"
+         data-name="Ellipse 59"
+         class="cls-2"
+         transform="translate(24.835 227)">
+        <circle
+           class="cls-8"
+           cx="119.912"
+           cy="119.912"
+           r="119.912"
+           id="circle1399" />
+        <circle
+           class="cls-9"
+           cx="119.912"
+           cy="119.912"
+           r="119.412"
+           id="circle1401" />
+      </g>
+      <text
+         id="Contributors"
+         class="cls-3"
+         transform="translate(552.211,352.601)"
+         style="font-weight:300;font-size:12px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+        <tspan
+           x="-33.102001"
+           y="0"
+           id="tspan1404">Contribuintes</tspan>
+      </text>
+      <text
+         id="Contributions"
+         class="cls-4"
+         transform="translate(348.835,408.35)"
+         style="font-style:italic;font-weight:300;font-size:12px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+        <tspan
+           x="-35.25"
+           y="0"
+           id="tspan1407">Contribuições</tspan>
+      </text>
+      <text
+         id="Fees"
+         class="cls-4"
+         transform="translate(348.835,296.853)"
+         style="font-style:italic;font-weight:300;font-size:12px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+        <tspan
+           x="-11.934"
+           y="0"
+           id="tspan1410">Taxas</tspan>
+      </text>
+      <text
+         id="Traders"
+         class="cls-3"
+         style="font-weight:300;font-size:12px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff"
+         x="129.71001"
+         y="352.60101">
+        <tspan
+           x="109.574"
+           y="352.60101"
+           id="tspan1413">Negociantes</tspan>
+      </text>
+      <g
+         id="Group_43"
+         data-name="Group 43"
+         transform="translate(236.433 304.838)">
+        <path
+           id="Path_4"
+           data-name="Path 4"
+           class="cls-5"
+           d="M0,0H6.279V6.279"
+           transform="translate(221.626 0) rotate(45)" />
+        <path
+           id="Path_41"
+           data-name="Path 41"
+           class="cls-5"
+           d="M0,0H6.279V6.279"
+           transform="translate(4.439 84.614) rotate(-135)" />
+        <line
+           id="Line_46"
+           data-name="Line 46"
+           class="cls-6"
+           x2="226.151"
+           transform="translate(0.483 4.454)" />
+        <line
+           id="Line_47"
+           data-name="Line 47"
+           class="cls-6"
+           x2="226.151"
+           transform="translate(226.634 80.16) rotate(180)" />
+      </g>
+      <text
+         id="BSQ"
+         class="cls-7"
+         transform="translate(348.835 357)">
+        <tspan
+           x="-27.63"
+           y="0"
+           id="tspan1421">BSQ</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

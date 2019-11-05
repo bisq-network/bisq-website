@@ -50,3 +50,4 @@ note the files here are in pairs: i.e. `dao_content.yml` & `dao_content_tr.yml`
 We are going to edit the second one. `_tr` refers to "translation"
 
 
+Note: when copying the `main_nav_tr.yml` keep in mind that the characters used in transifex are not valid and yield an error when Jekyll is initialising. So the way to deal with it is to simply copy a previous language from above in that file. Open the 4th file from transifex (`for_use_bisq-website_main_nav_pt_BR.yml`) side by side and copy the contents

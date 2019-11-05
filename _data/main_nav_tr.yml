@@ -182,29 +182,29 @@ pt-BR:
   links:
 
     - title: Visão
-      url: /vision/
+      url: /pt-BR/vision/
 
-    - title: DAO Bisq
-      url: /DAO/
+    - title: A DAO Bisq
+      url: /pt-BR/dao/
 
     - title: Estatísticas
-      url: /stats/
+      url: /pt-BR/stats/
 
-    - title: Perguntas Frequentes
-      url: /faq/
+    - title: FAQ
+      url: /pt-BR/faq/
 
     - title: Mercados
-      url: /markets/
+      url: /pt-BR/markets/
 
-    mobile_links:
+  mobile_links:
 
     - title: Comunidade
-      url: /community/
+      url: /pt-BR/community/
 
     - title: Blog
       url: /blog/
 
-    - title: Documentação
+    - title: Documentation
       url: "https://docs.bisq.network/"
       target: _blank
 

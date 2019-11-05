@@ -34,7 +34,7 @@ homepage_content:
   pDecentralized: "Trading findet in einem globalen P2P-Netzwerk von Usern statt, die Bisq auf ihren eigenen Rechnern benutzen."
   hSafe: Sicher
   pSafe: "Bisq hält niemals Ihre Gelder. Kautionen und Multisig-Trade-Wallets fördern sichere und erfolgreiche Trades."
-  hPrivate: privat
+  hPrivate: Privat
   pPrivate: Niemand außer den Trading-Partnern tauscht persönliche Identifizierungsdaten aus. Alle persönlichen Daten werden lokal gespeichert.
   hSecure: Sicher und immer verfügbar
   pSecure: "End-to-End verschlüsselte Kommunikation, die über Tor geleitet wird, ohne Ausfallzeiten."

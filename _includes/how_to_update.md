@@ -42,3 +42,11 @@ Updating
 ---
 
 head to the `_data` folder
+
+now we're going to open the files from transifex and copy them into their respective place in `_data`
+
+note the files here are in pairs: i.e. `dao_content.yml` & `dao_content_tr.yml`
+
+We are going to edit the second one. `_tr` refers to "translation"
+
+

@@ -34,7 +34,7 @@ homepage_content:
   pDecentralized: Los intercambios se llevan a cabo en una red global P2P de usuarios ejecutando Bisq en sus propias máquinas.
   hSafe: Seguro
   pSafe: "Bisq nunca retiene sus fondos. Los depósitos de seguridad y los monederos de intercambio multifirma permiten intercambios seguros y exitosos."
-  hPrivate: privado
+  hPrivate: Privado
   pPrivate: Nadie excepto los pares de intercambio intercambian datos de identificación personal. Todos los datos se guardan de manera local.
   hSecure: Seguro y siempre en funcionamiento
   pSecure: Comunicación cifrada de extremo a extremo enrutada vía Tor y sin caídas.

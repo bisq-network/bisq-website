@@ -38,3 +38,7 @@ flag: 🇧🇷
 language: Português (BR)
 ```
 
+Updating
+---
+
+head to the `_data` folder

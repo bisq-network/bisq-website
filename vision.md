@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
+title: Vision &lsaquo; Bisq - A decentralized Bitcoin exchange network
 ref: vision
 lang: en
 flag: 🌐

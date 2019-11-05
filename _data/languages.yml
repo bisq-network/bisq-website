@@ -2,7 +2,7 @@
   tag: "en"
   enabled: No
   accept_languages: ["en", "en-us", "en-au", "en-nz", "en-za", "en-bz", "en-tt"]
-  site_name: "Bisq - The decentralized Bitcoin exchange"
+  site_name: "Bisq - A decentralized Bitcoin exchange network"
   site_desc: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative cryptocurrencies."
 - name: "Deutsch"
   tag: "de"
@@ -14,7 +14,7 @@
   tag: "es"
   enabled: Yes
   accept_languages: ["es", "es-mx", "es-gt", "es-cr", "es-pa", "es-do", "es-ve", "es-co", "es-pe", "es-ar", "es-ec", "es-cl", "es-uy", "es-py", "es-bo", "es-sv", "es-hn", "es-ni", "es-pr"]
-  site_name: "Bisq - The decentralized Bitcoin exchange"
+  site_name: "Bisq - A decentralized Bitcoin exchange network"
   site_desc: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative cryptocurrencies."
 - name: "Français"
   tag: "fr"

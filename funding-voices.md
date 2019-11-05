@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The messages of our supporters &lsaquo; Bisq - The decentralized Bitcoin exchange
+title: The messages of our supporters &lsaquo; Bisq - A decentralized Bitcoin exchange network
 ---
 <h1>The messages of our supporters</h1>
 

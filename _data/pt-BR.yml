@@ -74,7 +74,7 @@ main_nav:
 
 os_selector_options:
   liAllDownloads: Todos os Downloads
-  liAllDownloadsText: Ir para a página de downloads
+  liAllDownloadsText: Ir para downloads
   liWindows: Baixar para windows
   liMac: Baixar para Mac
   liDebian: Baixar para Debian/ubuntu

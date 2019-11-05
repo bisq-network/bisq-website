@@ -34,7 +34,7 @@ homepage_content:
   pDecentralized: Trading takes place on a global P2P network of users running Bisq on their own machines.
   hSafe: Safe
   pSafe: "Bisq never holds your funds. Security deposits and multisig trade wallets encourage safe, successful trades."
-  hPrivate: private
+  hPrivate: Private
   pPrivate: No one except trading partners exchange personally identifying data. All personal data is stored locally.
   hSecure: Secure and Always On
   pSecure: End-to-end encrypted communication routed over Tor and no down time.

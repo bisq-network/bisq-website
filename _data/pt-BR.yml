@@ -80,7 +80,7 @@ os_selector_options:
   liDebian: Baixar para Debian/ubuntu
   liRedHat: Baixar para Red Hat/Fedora
   liArch: Baixar para Arch Linux
-  liArchText: "Repositório dos Usurários de Arch "
+  liArchText: "Repo de Usurários de Arch"
   liSourceCode: Código Fonte
   liReleaseNotes: Notas de Lançamento
   liVerification: Verificação

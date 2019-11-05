@@ -177,3 +177,34 @@ zh-CN:
     - title: 文档
       url: "https://docs.bisq.network/"
       target: _blank
+
+pt-BR:
+  links:
+
+- title: Visão
+  url: /vision/
+
+- title: DAO Bisq
+  url: /DAO/
+
+- title: Estatísticas
+  url: /stats/
+
+- title: Perguntas Frequentes
+  url: /faq/
+
+- title: Mercados
+  url: /markets/
+
+mobile_links:
+
+- title: Comunidade
+  url: /community/
+
+- title: Blog
+  url: /blog/
+
+- title: Documentação
+  url: "https://docs.bisq.network/"
+  target: _blank
+

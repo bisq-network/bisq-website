@@ -17,6 +17,43 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.2.3
+{: .mt-5 .mb-2}
+Released [November 7th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.3)
+
+This version improves the handling of failed trades and offers, loads the trade statistics on startup again and includes many more minor bug fixes and improvements.
+
+###### DAO
+- [Fix proposal table hide when switching to another screen and back](https://github.com/bisq-network/bisq/pull/3356)
+
+###### UI
+- [Remove donation link](https://github.com/bisq-network/bisq/pull/3511)
+- [Fix invalid comparators](https://github.com/bisq-network/bisq/pull/3251)
+- [Fix BTC valuation popups](https://github.com/bisq-network/bisq/pull/3539)
+- [Remove duplicate word in user agreement](https://github.com/bisq-network/bisq/pull/3534)
+- [Select default markets view when last navigation no longer exists](https://github.com/bisq-network/bisq/pull/3513)
+
+###### Trading
+- [Fix initial trading statistics retrieval](https://github.com/bisq-network/bisq/pull/3551)
+- [Improve handling of failed trades and offers](https://github.com/bisq-network/bisq/pull/3566)
+- [Only show approval icon for signer accounts](https://github.com/bisq-network/bisq/pull/3552)
+- [Fix account signing state for peer info window](https://github.com/bisq-network/bisq/pull/3549)
+
+###### Wallet
+- [Check for dust after subtracting fee, not before](https://github.com/bisq-network/bisq/pull/3327)
+
+###### Network
+- [Limit max. nr. of PersistableNetworkPayload and ProtectedStorageEntries](https://github.com/bisq-network/bisq/pull/3562)
+- [Update seednode config to increase resource limits](https://github.com/bisq-network/bisq/pull/3545)
+
+###### Development
+- [Use @Getter annotation for appDataDir](https://github.com/bisq-network/bisq/pull/3433/files)
+- [Create getListProperty](https://github.com/bisq-network/bisq/pull/3432)
+- [Change type of ignoreLocalBtcNode to boolean](https://github.com/bisq-network/bisq/pull/3434)
+
+###### Assets
+Added one new asset: LBRY Credits (LBC) 
+
 ##### Version 1.2.2
 {: .mt-5 .mb-2}
 Released [October 31th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.2)

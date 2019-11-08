@@ -2,7 +2,7 @@
 layout: post
 title: Concept overview
 author: Lloyd Johnson
-ref: blog
+en-only: true
 ---
 This video gives a basic overview about the concept behind Bitsquare:
 

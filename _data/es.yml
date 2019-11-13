@@ -54,7 +54,7 @@ homepage_content:
   hJoin: Unirse a la comunidad
   pJoin: >
     <p>Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad para unirse a nuestra <a href="https://bisq.network/es/community/">comunidad</a>. Si está interesado en ayudar a mejorar Bisq, hay muchas maneras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
-     Nos encantaría <a href="https://bisq.network/es/community/">saber de ti</a>!</p>
+     Nos encantaría saber de ti!</p>
     <p>Nuestra <a href="https://bisq.network/roadmap/">hoja de ruta</a> proporciona una vista general de las características y hitos hasta llegar a la v.1.0 de Bisq.</p>
   liGithub: "@bisq-network en GitHub"
   liTwitter: "@bisq-network en Twitter"

@@ -68,6 +68,11 @@ layout: null
     {% continue %}
   {% endif %}
 
+  # don't redirect /benefactors
+  {% if first_seven == "benefac" %}
+    {% continue %}
+  {% endif %}
+
   # don't redirect language-specific URIs
   {% assign is_lang = 0 %}
   {% for language in site.data.languages %}

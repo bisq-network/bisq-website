@@ -8,7 +8,7 @@ Please submit proposed changes as pull requests, ideally with commit messages th
 
 A pull requests should generally have a singular, well-defined purpose. For example, a pull request to add a blog post should just add a blog post, not add a blog post _and_ change spacing/indentation on some other page.
 
-You should fork this repository, create a new branch, and and make all your changes there. Please don't commit your changes to the `master` branch.
+You should fork this repository, create a new branch, and make all your changes there. Please don't commit your changes to the `master` branch.
 
 **Please thoroughly test pull requests before submitting.**
 

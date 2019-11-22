@@ -2,6 +2,7 @@
 layout: page
 title: Roadmap &lsaquo; Bisq - The decentralized Bitcoin exchange
 banner: /images/roadmap1.png
+en-only: true
 ---
 # Roadmap
 
@@ -16,6 +17,43 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 
 ## Releases
 {: .mt-5 .pt-5}
+
+##### Version 1.2.3
+{: .mt-5 .mb-2}
+Released [November 7th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.3)
+
+This version improves the handling of failed trades and offers, loads the trade statistics on startup again and includes many more minor bug fixes and improvements.
+
+###### DAO
+- [Fix proposal table hide when switching to another screen and back](https://github.com/bisq-network/bisq/pull/3356)
+
+###### UI
+- [Remove donation link](https://github.com/bisq-network/bisq/pull/3511)
+- [Fix invalid comparators](https://github.com/bisq-network/bisq/pull/3251)
+- [Fix BTC valuation popups](https://github.com/bisq-network/bisq/pull/3539)
+- [Remove duplicate word in user agreement](https://github.com/bisq-network/bisq/pull/3534)
+- [Select default markets view when last navigation no longer exists](https://github.com/bisq-network/bisq/pull/3513)
+
+###### Trading
+- [Fix initial trading statistics retrieval](https://github.com/bisq-network/bisq/pull/3551)
+- [Improve handling of failed trades and offers](https://github.com/bisq-network/bisq/pull/3566)
+- [Only show approval icon for signer accounts](https://github.com/bisq-network/bisq/pull/3552)
+- [Fix account signing state for peer info window](https://github.com/bisq-network/bisq/pull/3549)
+
+###### Wallet
+- [Check for dust after subtracting fee, not before](https://github.com/bisq-network/bisq/pull/3327)
+
+###### Network
+- [Limit max. nr. of PersistableNetworkPayload and ProtectedStorageEntries](https://github.com/bisq-network/bisq/pull/3562)
+- [Update seednode config to increase resource limits](https://github.com/bisq-network/bisq/pull/3545)
+
+###### Development
+- [Use @Getter annotation for appDataDir](https://github.com/bisq-network/bisq/pull/3433/files)
+- [Create getListProperty](https://github.com/bisq-network/bisq/pull/3432)
+- [Change type of ignoreLocalBtcNode to boolean](https://github.com/bisq-network/bisq/pull/3434)
+
+###### Assets
+Added one new asset: LBRY Credits (LBC)
 
 ##### Version 1.2.2
 {: .mt-5 .mb-2}
@@ -58,7 +96,7 @@ Updating to v1.2 with unfinished trades and disputes will require an arbitrator 
 - [Translate name of Japan Bank Transfer for non-Japanese users](https://github.com/bisq-network/bisq/pull/3344)
 
 ###### Trading
-- New trade protocol: [1](https://github.com/bisq-network/bisq/pull/3333), [2](https://github.com/bisq-network/bisq/pull/3340), [2](https://github.com/bisq-network/bisq/pull/3410), [3](https://github.com/bisq-network/bisq/pull/3414), [4](https://github.com/bisq-network/bisq/pull/3420), [5](https://github.com/bisq-network/bisq/pull/3439), [6](https://github.com/bisq-network/bisq/pull/3453), [7](https://github.com/bisq-network/bisq/pull/3464), [8](https://github.com/bisq-network/bisq/pull/3471), [9](https://github.com/bisq-network/bisq/pull/3474), [10](https://github.com/bisq-network/bisq/pull/3475), 
+- New trade protocol: [1](https://github.com/bisq-network/bisq/pull/3333), [2](https://github.com/bisq-network/bisq/pull/3340), [2](https://github.com/bisq-network/bisq/pull/3410), [3](https://github.com/bisq-network/bisq/pull/3414), [4](https://github.com/bisq-network/bisq/pull/3420), [5](https://github.com/bisq-network/bisq/pull/3439), [6](https://github.com/bisq-network/bisq/pull/3453), [7](https://github.com/bisq-network/bisq/pull/3464), [8](https://github.com/bisq-network/bisq/pull/3471), [9](https://github.com/bisq-network/bisq/pull/3474), [10](https://github.com/bisq-network/bisq/pull/3475),
 - Account signing: [1](https://github.com/bisq-network/bisq/pull/3334), [2](https://github.com/bisq-network/bisq/pull/3342), [3](https://github.com/bisq-network/bisq/pull/3365), [4](https://github.com/bisq-network/bisq/pull/3370), [5](https://github.com/bisq-network/bisq/pull/3374), [6](https://github.com/bisq-network/bisq/pull/3388), [7](https://github.com/bisq-network/bisq/pull/3390), [8](https://github.com/bisq-network/bisq/pull/3392), [9](https://github.com/bisq-network/bisq/pull/3403), [10](https://github.com/bisq-network/bisq/pull/3404), [11](https://github.com/bisq-network/bisq/pull/3406), [12](https://github.com/bisq-network/bisq/pull/3409), [13](https://github.com/bisq-network/bisq/pull/3415), [14](https://github.com/bisq-network/bisq/pull/3421), [15](https://github.com/bisq-network/bisq/pull/3435), [16](https://github.com/bisq-network/bisq/pull/3436), [16](https://github.com/bisq-network/bisq/pull/3445), [17](https://github.com/bisq-network/bisq/pull/3448), [18](https://github.com/bisq-network/bisq/pull/3450), [19](https://github.com/bisq-network/bisq/pull/3465), [20](https://github.com/bisq-network/bisq/pull/3467), [21](https://github.com/bisq-network/bisq/pull/3481), [22](https://github.com/bisq-network/bisq/pull/3490), [23](https://github.com/bisq-network/bisq/pull/3495), [24](https://github.com/bisq-network/bisq/pull/3496), [25](https://github.com/bisq-network/bisq/pull/3497), [26](https://github.com/bisq-network/bisq/pull/3499)
 - [Add mediator prefix to trade statistics](https://github.com/bisq-network/bisq/pull/3351)
 - [Add combo block explorer for Blockstream.info + Mempool.space](https://github.com/bisq-network/bisq/pull/3377)
@@ -91,7 +129,7 @@ Released [September 16th 2019](https://github.com/bisq-network/bisq/releases/tag
 This version includes important improvements which require that all traders update for compatibility reasons.
 Trader chat enables users to have direct encrypted communication during the trade to resolve minor problems.
 Mediation is an additional dispute resolution layer before a trade goes to arbitration. Mediators do not have a key in the multisig escrow, so they can only evaluate a situation and make a suggestion. If this suggestion is accepted by both traders, the trade can be completed without involving an arbitrator. Otherwise, the trade goes to arbitration. See more information [here](https://docs.bisq.network/trading-rules.html#mediation).
-For backward compatibility reasons, mediation will be activated in 2 steps. 
+For backward compatibility reasons, mediation will be activated in 2 steps.
 - **By September 19, all traders need to have updated to v1.1.6, or they will not be able to trade.**
 - **On September 26, mediation will become available.**
 
@@ -117,7 +155,7 @@ Additionally this version features a dark mode, adds Japan Bank transfer and we'
 - [Show median value in trade statistics candle popup](https://github.com/bisq-network/bisq/pull/2976)
 - [Confusing message after making a payment](https://github.com/bisq-network/bisq/pull/2976)
 - [Update trading amount on Error to prevent popup loop](https://github.com/bisq-network/bisq/pull/3076)
-- [Improve usage of available height for lists](https://github.com/bisq-network/bisq/pull/3077) 
+- [Improve usage of available height for lists](https://github.com/bisq-network/bisq/pull/3077)
 - [Fix bugs in searchable dropdown](https://github.com/bisq-network/bisq/pull/3124)
 - [Increase top navigation button text size for Japanese locale](https://github.com/bisq-network/bisq/pull/3133)
 
@@ -251,7 +289,7 @@ Released [May 2nd 2019](https://github.com/bisq-network/bisq/releases/tag/v1.1.0
 
 As there is hardly any scam risk for crypto-to-crypto trades, this release decreases the security deposit amount for these trades back to the pre-DAO state. Also with this release, the time to synchronize the Bisq DAO state should be reduced a lot, and there are many smaller bug fixes and improvements.
 
-Most importantly, this release also includes a temporary restriction that blocks accounts that were created recently to trade in certain markets where we had scammers. **Users running older clients (< 1.1.0) will be completely blocked from trading**, so it is critical that you update as soon as possible! The upcoming release 1.2.0 will include a more robust set of features that should make it nearly impossible to scam traders on Bisq anymore. 
+Most importantly, this release also includes a temporary restriction that blocks accounts that were created recently to trade in certain markets where we had scammers. **Users running older clients (< 1.1.0) will be completely blocked from trading**, so it is critical that you update as soon as possible! The upcoming release 1.2.0 will include a more robust set of features that should make it nearly impossible to scam traders on Bisq anymore.
 
 ###### DAO
 - [Request blocks in case we have not received it](https://github.com/bisq-network/bisq/pull/2730)

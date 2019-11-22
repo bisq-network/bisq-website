@@ -61,7 +61,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">添加您的国家或加密货币帐户。</li><li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">创建新报价或接受现有报价。</li><li class="mt-0 step step-text-4" data-image="step-image-4">按照用户界面完成交易。</li>
   hJoin: 加入社区
   pJoin: >
-    <p>Bisq 一直在寻找高级的开发人员、设计师和安全专家加入我们的<a href="https://bisq.network/zh-CN/community/">社区</a>。如果你有兴趣<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">帮助</a> Bisq 变得更好，有很多方法可以帮助你。我们很高兴<a href="https://bisq.network/zh-CN/community/">收到你的来信</a>！</p><p>我们的<a href="https://bisq.network/roadmap/">路线图</a>概述了 Bisq v1.0 的先进特性和里程碑。</p>
+    <p>Bisq 一直在寻找高级的开发人员、设计师和安全专家加入我们的<a href="https://bisq.network/zh-CN/community/">社区</a>。如果你有兴趣<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">帮助</a> Bisq 变得更好，有很多方法可以帮助你。我们很高兴收到你的来信！</p><p>我们的<a href="https://bisq.network/roadmap/">路线图</a>概述了 Bisq v1.0 的先进特性和里程碑。</p>
   liGithub: "GitHub 上的 @bisq-network"
   liTwitter: "Twitter 上的 @bisq_network"
   liYoutube: Bisq 的 YouTube 频道
@@ -102,7 +102,7 @@ dao:
   pConceptualOverview: "<p class=\"bigger\">DAO 的纯语言<a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">描述</a>。</p>"
   bisqDaoBrief: Bisq DAO 简短的视频介绍
   pBisqDaoBrief: "<p class=\"bigger\">快速，精练<a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">视频系列</a>里的 Bisq DAO 。</p>"
-  technicalOverview: 技术概览 -  文档
+  technicalOverview: 技术概览 - 文档
   pTechnicalOverview: "<p class=\"bigger\">Bisq DAO 和 BSQ 令牌工作原理的<a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">说明</a>。</p>"
   notConvinced: "不确定是否需要 BSQ？"
   pNotConvinced: "<p class=\"bigger\">我们专门为你准备了一个<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">职位</a>。"
@@ -202,7 +202,7 @@ faq:
   hTradingDetails: 交易细节
   hTradeLimits: "交易限制是什么?"
   pTradeLimits: >
-    <p class='font-italic'>法币交易</p><p>为了阻止法币交易中的欺诈行为，Bisq 对交易金额施加了限制。这些限制源自付款方法的退款风险和账龄（即您在 Bisq 中输入付款账户后的时间）。</p><p>你可以做的交易数量没有限制——只有每笔交易的数量会有限制。</p><p>对于大多数基于银行的支付方式，如 SEPA 或 Zelle ，每笔交易的限额为 0.5  BTC。对于像 Swish 、 PerfectMoney 和支付宝这样的服务来说，它是 1 BTC。对于最近增加的支付方式，如 t 、 Popmoney 和 MoneyBeam（N26），交易限额为 0.25 BTC。</p><p>当您第一次添加一个法币支付帐户到 Bisq ，其交易限额将是 25% 的全部交易限额。然后每 30 天增加一次，直到达到全部贸易限额。</p><p class='font-italic'>数字货币交易</p></p>数字货币交易从第一天起最多允许 2 BTC 交易，数字货币币不存在退款风险，因此不需要账龄。</p>
+    <p class='font-italic'>法币交易</p><p>为了阻止法币交易中的欺诈行为，Bisq 对交易金额施加了限制。这些限制源自付款方法的退款风险和账龄（即您在 Bisq 中输入付款账户后的时间）。</p><p>你可以做的交易数量没有限制——只有每笔交易的数量会有限制。</p><p>对于大多数基于银行的支付方式，如 SEPA 或 Zelle ，每笔交易的限额为 0.5 BTC。对于像 Swish 、 PerfectMoney 和支付宝这样的服务来说，它是 1 BTC。对于最近增加的支付方式，如 t 、 Popmoney 和 MoneyBeam（N26），交易限额为 0.25 BTC。</p><p>当您第一次添加一个法币支付帐户到 Bisq ，其交易限额将是 25% 的全部交易限额。然后每 30 天增加一次，直到达到全部贸易限额。</p><p class='font-italic'>数字货币交易</p></p>数字货币交易从第一天起最多允许 2 BTC 交易，数字货币币不存在退款风险，因此不需要账龄。</p>
   hSecurityDeposit: "为什么 Bisq 要求保证金？"
   pSecurityDeposit: >
     <p>保证金激励买卖双方遵守 Bisq 的交易协议。它们与正在交易的比特币一起被锁定在多重签名托管协议中，并在交易成功完成后返还给每个用户。</p><p>如果一笔交易进入仲裁程序，而发现其中一方违反了 Bisq 的交易协议，则该方的部分或全部保证金可判给交易对手方。违反协议的例子包括买方未向卖方付款，或卖方未确认收到买方付款。</p><p>多数 Bisq 交易完成时没有任何问题，这在一定程度上要归功于保证金创造的激励机制。</p>

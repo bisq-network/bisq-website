@@ -3,7 +3,7 @@ layout: post
 title: How to Earn BSQ by Contributing to Bisq
 author: John Forsyth
 excerpt: Bisq is an open-source software project, but it has a built-in revenue model to compensate its contributors—and anyone is welcome to contribute!<br><br>
-ref: blog
+en-only: true
 ---
 
 <hr>

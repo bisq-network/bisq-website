@@ -2,7 +2,7 @@
 layout: post
 title: Bitsquare is rebranding
 author: Mihail Mihaylov
-ref: blog
+en-only: true
 ---
 Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being **developed without venture capital** or any other form of external funding, but with personal savings and donations from the community it serves.
 

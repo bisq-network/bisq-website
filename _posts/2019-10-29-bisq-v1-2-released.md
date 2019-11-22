@@ -3,7 +3,7 @@ layout: post
 title: "Bisq v1.2 Launches with New Trade Protocol and Account Signing"
 author: Steve Jain
 excerpt: "New trade protocol moves to 2-of-2 multisig escrows for deposit funds, overhauls dispute resolution to be more private and scalable, and implements account signing to remove 0.01 BTC trade limits. <br><br>"
-ref: blog
+en-only: true
 ---
 
 The latest Bisq release is a big one with two significant updates: a new trade protocol and account signing.

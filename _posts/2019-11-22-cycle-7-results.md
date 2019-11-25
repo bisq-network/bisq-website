@@ -53,7 +53,7 @@ Ultimately, the risk was acknowledged but not considered an urgent issue.
 1. Although the donation address holder is outwardly anonymous, the person who holds the role was voted into it by sufficient BSQ weight, indicating core contributors are confident this person is trustworthy.
 2. BTC and BSQ transactions are public, so in the event there are issues, the person would be outed quickly, lose their bond, and probably become an outcast.
 
-While this not what people wanted to hear, it's possible expectations for the new trade protocol were set too high. The new trade protocol does not promise _trustless_ trading and dispute resolution—such a thing may not even be possible. It does, however, _reduce_ trust in some places (no anonymous figure with third key) and _decentralize_ trust in others (responsibility to make traders whole is now spread across the counterparty, mediator, arbitrator, and the Bisq DAO).
+While this is not what people wanted to hear, it's possible expectations for the new trade protocol were set too high. The new trade protocol does not promise _trustless_ trading and dispute resolution—such a thing may not even be possible. It does, however, _reduce_ trust in some places (no anonymous figure with third key) and _decentralize_ trust in others (responsibility to make traders whole is now spread across the counterparty, mediator, arbitrator, and the Bisq DAO).
 
 And of course, liability on the network itself is reduced signficantly without the third key.
 

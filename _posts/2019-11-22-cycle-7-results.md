@@ -55,6 +55,6 @@ Ultimately, the risk was acknowledged but not considered an urgent issue.
 
 While this is not what people wanted to hear, it's possible expectations for the new trade protocol were set too high. The new trade protocol does not promise _trustless_ trading and dispute resolution—such a thing may not even be possible. It does, however, _reduce_ trust in some places (no anonymous figure with third key) and _decentralize_ trust in others (responsibility to make traders whole is now spread across the counterparty, mediator, arbitrator, and the Bisq DAO).
 
-And of course, liability on the network itself is reduced signficantly without the third key.
+And of course, liability on the network itself is reduced significantly without the third key.
 
 How will this new setup work? We shall see. Minimizing the need for dispute resolution (bug-fixing, user interface enhancements, etc) is now a high development priority for the near-future.

@@ -2,7 +2,7 @@
 layout: post
 title: "Bisq DAO Cycle 7: Results"
 author: Steve Jain
-excerpt: "Cycle 7 of the Bisq DAO ended at block 604 506 on November 18 2019. This post covers its results. <br><br>"
+excerpt: "Cycle 7 of the Bisq DAO ended at block 604 506 on November 19 2019. This post covers its results. <br><br>"
 en-only: true
 ---
 
@@ -10,7 +10,7 @@ This post summarizes the results of Cycle 7 of the Bisq DAO.
 
 ### Summary
 
-* Cycle took place between blocks 604 507 and 609 186
+* Cycle took place between blocks 599 827 and 604 506
   * Calendar dates: 10/17/2019 - 11/19/2019
 * 30 proposals
   * 2 generic proposals

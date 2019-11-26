@@ -41,7 +41,7 @@ homepage_content:
   hOpen: Abierto
   pOpen: "El código es <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">abierto</a>, y la estrategia del proyecto se discute abiertamente en <a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a> y <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>."
   hEasy: Fácil de Usar
-  pEasy: "<p class=\"grey px-md-5\">Hemos hecho toda esta sofisticación simple.<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">Haga su primer intercambio</a> en menos de 10 minutos!</p>"
+  pEasy: "<p class=\"grey px-md-5\">Hemos hecho toda esta sofisticación simple.<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\"> ¡Haga su primer intercambio</a> en menos de 10 minutos!</p>"
   hBisqDao: La DAO Bisq
   pBisqDao1: Gobernanza descentralizada para un exchange descentralizado.
   pBisqDao2: Aprenda más aquí
@@ -54,8 +54,8 @@ homepage_content:
   hJoin: Unirse a la comunidad
   pJoin: >
     <p>Bisq siempre está buscando desarrolladores altamente cualificados, diseñadores y expertos en seguridad para unirse a nuestra <a href="https://bisq.network/es/community/">comunidad</a>. Si está interesado en ayudar a mejorar Bisq, hay muchas maneras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.
-     Nos encantaría saber de ti!</p>
-    <p>Nuestra <a href="https://bisq.network/roadmap/">hoja de ruta</a> proporciona una vista general de las características y hitos hasta llegar a la v.1.0 de Bisq.</p>
+     ¡Nos encantaría saber de ti!</p>
+    <p>Nuestra <a href="https://bisq.network/roadmap/">hoja de ruta</a> proporciona una vista general de las características e hitos hasta llegar a la v.1.0 de Bisq.</p>
   liGithub: "@bisq-network en GitHub"
   liTwitter: "@bisq-network en Twitter"
   liYoutube: Canal de YouTube Bisq
@@ -93,7 +93,7 @@ dao:
   hLearnMore: "¿Quiere aprender más?"
   pLearnMore: "Puede aprender más acerca de la DAO Bisq desde los recursos de abajo, desde documentos ELI5-style de alto nivel y videos a especificaciones técnicas para desarrolladores."
   conceptualOverview: Vista general de Documentación Conceptual
-  pConceptualOverview: "<p class=\"bigger\"> <a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">Description</a>en lenguaje simple de la DAO.</p>"
+  pConceptualOverview: "<p class=\"bigger\"> <a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">Descripción</a> en lenguaje simple de la DAO.</p>"
   bisqDaoBrief: DAO Bisq en Videos Breves
   pBisqDaoBrief: "<p class=\"bigger\"> <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">Series de video </a>rápidos, cortos sobre la DAO Bisq.</p>"
   technicalOverview: Vista general de Documentación técnica
@@ -106,7 +106,7 @@ downloads:
   hBisqDownloads: Descargas Bisq
   runningWindows: Parece que está ejecutando Windows
   runningMac: Parece que está usando un Mac
-  runnigDebian: Paree que está usando Debian/Ubuntu
+  runnigDebian: Parece que está usando Debian/Ubuntu
   runningRedHat: Parece que está usando Red Hat/Fedora
   tdWindows: Windows
   tdMac: Mac
@@ -138,7 +138,7 @@ faq:
     <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multifirma</a> 2-de-3.</li>
       <li>Ambas partes tienen que pagar depósitos de seguridad Estos son devueltos después de que el intercambio se complete.</li>
       <li>Bisq usa un sistema de árbitros para encargarse de las disputas.</li>
-    </ol> <p>Al intercambiar moneda fiat por bitcoin, siempre hay cierto riesgo de devolución de cargo, debido a que las transcciones fiat son técnicamente reversibles. Para mitigar este riesgo, Bisq solo soporta métodos de pago en los que se conozca que hacer una reversión de pago es difícil. Por eso Bisq no soporta Paypal y
+    </ol> <p>Al intercambiar moneda fiat por bitcoin, siempre hay cierto riesgo de devolución de cargo, debido a que las transacciones fiat son técnicamente reversibles. Para mitigar este riesgo, Bisq solo soporta métodos de pago en los que se conozca que hacer una reversión de pago es difícil. Por eso Bisq no soporta Paypal y
      tarjetas de crédito, por ejemplo.</p>
     <p>Lea <a href="#chargeback-details">aquí</a> para más información acerca de riesgos de devolución de cargo</p>
   hDifferent: "Hay otros exchanges descentralizados. ¿En qué se diferencia Bisq?"

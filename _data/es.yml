@@ -143,7 +143,7 @@ faq:
     <p>Lea <a href="#chargeback-details">aquí</a> para más información acerca de riesgos de devolución de cargo</p>
   hDifferent: "Hay otros exchanges descentralizados. ¿En qué se diferencia Bisq?"
   pDifferent: >
-    <p>Actualmente no hay otro proyecto que encaje con nuestra definición de excange descentralizado de fiat-bitcoin. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> es un proyecto que se acerca a reflejar los principios de Bisq, pero es un mercado de propósito general,
+    <p>Actualmente no hay otro proyecto que encaje con nuestra definición de exchange descentralizado de fiat-bitcoin. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> es un proyecto que se acerca a reflejar los principios de Bisq, pero es un mercado de propósito general,
 
     no un exchange especializado en moneda.</p>
       <p>Muchas casas de cambio que dicen ser descentralizadas no soportan el intercambio de fiat, u operan con una arquitectura cliente-servidor y no encajan con nuestra definición. Y por supuesto hay muchos proyectos de ICO con whitepapers
@@ -178,7 +178,7 @@ faq:
       <li>SEPA Instant</li>
       <li>Swish</li>
       <li>Transferencia Bancaria Nacional</li>
-      <li>Transferencia con el mismo banco with same bank</li>
+      <li>Transferencia con el mismo banco</li>
       <li>Transferencia con bancos específicos</li>
       <li>Uphold</li>
       <li>US Postal Money Order</li>
@@ -189,10 +189,10 @@ faq:
   hTradingDetails: Detalles de los intercambios
   hTradeLimits: "¿Cuáles son los límites de intercambio?"
   pTradeLimits: >
-    <p class='font-italic'>Intercambios fiat</p> <p>Para desincentivar el fraude an las transacciones fiat, Bisq impone límites en la cantidad de los intercambios. Estos límites dependen del riesgo de devolución de cargo de cada método de pago y de la edad de cada cuenta (Ej. el tiempo desde que se introdujo la cuenta de pago en Bisq).</p> <p>No hay límites en el número de intercambios que se pueden hacer, solo en la cantidad por intercambio.</p> <p>Para la mayoría de los métodos de pago basados en bancos como SEPA o Zelle el límite de intercambio es de 0.5 BTC por intercambio. Para servicios como Swish, Perfect Money o Alipay es 1 BTC. Para métodos de pago recientemente añadidos como Revolut, Popmoney y MoneyBeam (N26) el límite de intercambio es 0.25 BTC.</p> <p>Cuando añades por primera vez una cuenta de pago fiat a Bisq, su límite de intercambio será el 25% del límite de intercambio máximo. Se incrementará cada 30 días hasta que se alcance el límite máximo. </p> <p class='font-italic'>Intercambios de Altcoins</p> <p>Los intercambios de altcoins de hasta 2 BTC se permiten desde el día uno. Las altcoins no tienen riesgo de devolución de cargo y por tanto no es necesario considerar la edad de las cuentas.</p>
+    <p class='font-italic'>Intercambios fiat</p> <p>Para desincentivar el fraude en las transacciones fiat, Bisq impone límites en la cantidad de los intercambios. Estos límites dependen del riesgo de devolución de cargo de cada método de pago y de la edad de cada cuenta (Ej. el tiempo desde que se introdujo la cuenta de pago en Bisq).</p> <p>No hay límites en el número de intercambios que se pueden hacer, solo en la cantidad por intercambio.</p> <p>Para la mayoría de los métodos de pago basados en bancos como SEPA o Zelle el límite de intercambio es de 0.5 BTC por intercambio. Para servicios como Swish, Perfect Money o Alipay es 1 BTC. Para métodos de pago recientemente añadidos como Revolut, Popmoney y MoneyBeam (N26) el límite de intercambio es 0.25 BTC.</p> <p>Cuando añades por primera vez una cuenta de pago fiat a Bisq, su límite de intercambio será el 25% del límite de intercambio máximo. Se incrementará cada 30 días hasta que se alcance el límite máximo. </p> <p class='font-italic'>Intercambios de Altcoins</p> <p>Los intercambios de altcoins de hasta 2 BTC se permiten desde el día uno. Las altcoins no tienen riesgo de devolución de cargo y por tanto no es necesario considerar la edad de las cuentas.</p>
   hSecurityDeposit: "¿Por qué requiere Bisq un depósito de seguridad?"
   pSecurityDeposit: >
-    <p>Los depósitos de seguridad crean incentivos para el comprador y el vendedor para seguir el las reglas del protocolo de intercambio de Bisq. Los fondos se bloquean en escrow multifirma junto con los bitcoin a intercambiar, y se devuelven a cada participante cuando el intercambio se completa con éxito.</p> <p>Si un intercambio va a arbitraje y se encuentra que una de las partes ha violado el protocolo de intercambio de Bisq, alguna parte o todo el depósito de seguridad irá a la otra parte. Por ejemplo,  se viola el protocolo si un comprador no paga al vendedor, o un vendedor no reconoce haber recibido el pago por parte del comprador.</p> <p>La mayoría de intercambios en Bisq se completan sin ningún problema gracias en parte a los incentivos creados por este depósito de seguridad.</p>
+    <p>Los depósitos de seguridad crean incentivos para el comprador y el vendedor para seguir en las reglas del protocolo de intercambio de Bisq. Los fondos se bloquean en escrow multifirma junto con los bitcoin a intercambiar, y se devuelven a cada participante cuando el intercambio se completa con éxito.</p> <p>Si un intercambio va a arbitraje y se encuentra que una de las partes ha violado el protocolo de intercambio de Bisq, alguna parte o todo el depósito de seguridad irá a la otra parte. Por ejemplo,  se viola el protocolo si un comprador no paga al vendedor, o un vendedor no reconoce haber recibido el pago por parte del comprador.</p> <p>La mayoría de intercambios en Bisq se completan sin ningún problema gracias en parte a los incentivos creados por este depósito de seguridad.</p>
   hPrivacy: "¿Cómo protege Bisq mi privacidad?"
   pPrivacy: >
     <p>Bisq es software autónomo y de código abierto que puede inspeccionar antes de ejecutarlo en su máquina, y por tanto, no tiene que confiar que algún servidor esté registrando sus detalles personales (como pasaría en una página web). </p> <p>Para el proceso de intercambio, su información de pago se guarda localmente en su ordenador, y solo su par de intercambio (y su árbitro, en caso de disputa) podrá verla. Todos los datos intercambiados entre los usuarios están encriptados y firmados.</p> <p>Para transmitir datos de un usuario a otro, Bisq usa una red P2P construida sobre Tor, que provee un alto grado de anonimato. El usuario no necesita hacer trabajo adicional para que esto funcione, ya que está integrado en la aplicación.</p>
@@ -207,18 +207,18 @@ faq:
       <li>SEPA Instant: 1 día</li>
     </ul> <strong>UK</strong> <ul>
       <li>Faster Payments: 1 día</li>
-    </ul> <strong>Sweden</strong> <ul>
+    </ul> <strong>Suecia</strong> <ul>
       <li>Swish: 1 día</li>
     </ul> <strong>US</strong> <ul>
       <li>Zelle (antes conocido como clearXchange): 4 días</li>
       <li>Chase QuickPay: 1 día</li>
       <li>US Postal Money Order: 8 días</li>
-    </ul> <strong>Canada</strong> <ul>
+    </ul> <strong>Canadá</strong> <ul>
       <li>Interac e-Transfer: 1 día</li>
     </ul> <strong>Global</strong> <ul>
-      <li>Depósito en efectivo: 4 days</li>
+      <li>Depósito en efectivo: 4 días</li>
       <li>Western Union: 4 días</li>
-      <li>Transferencia bancaria nacional: 4 days</li>
+      <li>Transferencia bancaria nacional: 4 días</li>
       <li>Transferencia con el mismo banco: 2 días</li>
       <li>Transferencia con bancos específicos: 4 días</li>
     </ul> <strong>Transnacional</strong> <ul>
@@ -234,17 +234,17 @@ faq:
 
     <strong>Tasas de intercambio</strong> <p>Los creadores de ofertas pagan 0.1% de la cantidad a intercambiar, y los tomadores pagan 0.3% de la cantidad a intercambiar. El mínimo en ambos casos es 0.00005 BTC para evitar límites de dust.</p>
 
-    <strong>Tasas de minado</strong> <p>Un tomador de oferta solo paga las tasas de minado para la transacción de tasa de intercambio. Un tomador de oferta paga tasas de minado para la transacción de tasa de intercambio, transacción de depósito y transacción de pago. Esto es debido a que las tasas de minado fluctúan y es imposible para el tomador
+    <strong>Tasas de minado</strong> <p>Un creador de oferta solo paga las tasas de minado para la transacción de tasa de intercambio. Un tomador de oferta paga tasas de minado para la transacción de tasa de intercambio, transacción de depósito y transacción de pago. Esto es debido a que las tasas de minado fluctúan y es imposible para el creador
       de la oferta saber qué tasas de minado habrá en el momento en que la oferta se tome.</p>
     <p>Bisq usa <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">este servicio</a> para estimar tasas. Los usuarios pueden ver las tasas de minado del momento de crear o tomar una oferta.</p>
   hOpenOffer: "¿Por qué necesito mantener mi aplicación en línea cuando tengo una oferta abierta?"
   pOpenOffer: >
-    <p>Si ha publicado una oferta, su aplicación Bisq necesita estar en línea para reaccionar cuando otro comerciante quiera tomar la oferta (la transacción de depósito multisig se crea en el proceso de tomar la oferta). Asegúrese de que ha desactivado el modo en suspensión de la computadora para que la aplicación Bisq pueda mantenerse en línea(el stand-by del monitor no es un problema).</p> <p>Si su aplicación Bisq se desconecta, su oferta se eliminará del libro de ofertas distribuido. Se volverá a publicar la próxima vez que inicie la aplicación Bisq.</p> <p>Despueś de que una oferta haya sido tomada y el proceso de intercambio haya comenzado, ningún comerciante necesita permanecer en línea contínuamente, pero cada comerciante necesitará estar en línea periódicamente para comprobar si alguna acción se necesita de su lado (Ej. enviar fiat/altcoin, confirmar el recepción de pago, etc).</p>
+    <p>Si ha publicado una oferta, su aplicación Bisq necesita estar en línea para reaccionar cuando otro comerciante quiera tomar la oferta (la transacción de depósito multisig se crea en el proceso de tomar la oferta). Asegúrese de que ha desactivado el modo en suspensión de la computadora para que la aplicación Bisq pueda mantenerse en línea (el stand-by del monitor no es un problema).</p> <p>Si su aplicación Bisq se desconecta, su oferta se eliminará del libro de ofertas distribuido. Se volverá a publicar la próxima vez que inicie la aplicación Bisq.</p> <p>Después de que una oferta haya sido tomada y el proceso de intercambio haya comenzado, ningún comerciante necesita permanecer en línea continuamente, pero cada comerciante necesitará estar en línea periódicamente para comprobar si alguna acción se necesita de su lado (Ej. enviar fiat/altcoin, confirmar el recepción de pago, etc.).</p>
   hEditOffer: "¿Cómo puedo editar mi oferta?"
   pEditOffer: "<p>La <a href=\"https://github.com/bisq-network/bisq/releases/tag/v0.7.0\">versión 0.7.0</a> introdujo la edición de ofertas en la sección Portafolio > Mis ofertas abiertas sin pagar comisiones adicionales.</p>"
   hBank: "¿Sabrá mi banco que estoy comprando bitcoins?"
   pBank: >
-    <p>Se sabe de casos en que algunos bancos han cerrado cuentas de cientes al notar actividad con Bitcoin.</p> <p>El texto de referencia (a veces llamado "razón de pago" o parecido) de la transferencia bancaria usada para intercambiar con Bisq debe siempre incluir <span class='font-italic'>solo</span> la ID de intercambio Bisq, que es una secuencia de caracteres aleatorios, como cuaquier otra ID de compra. Poner cualquier otra "razón de pago" se considera una violación de el protocolo de intercambio y resultará en disputa.</p> <p>Para evitar problemas, recomendamos configurar una cuenta bancaria dedicada para comprar y vender bitcoins. Si el banco bloqueara esa cuenta, le causaría menos problemas que si el banco bloqueara su cuenta principal.</p> <p>Nunca mencione nada más que la ID de intercambio Bisq en el campo de asunto.</p>
+    <p>Se sabe de casos en que algunos bancos han cerrado cuentas de clientes al notar actividad con Bitcoin.</p> <p>El texto de referencia (a veces llamado "razón de pago" o parecido) de la transferencia bancaria usada para intercambiar con Bisq debe siempre incluir <span class='font-italic'>solo</span> la ID de intercambio Bisq, que es una secuencia de caracteres aleatorios, como cualquier otra ID de compra. Poner cualquier otra "razón de pago" se considera una violación del protocolo de intercambio y resultará en disputa.</p> <p>Para evitar problemas, recomendamos configurar una cuenta bancaria dedicada para comprar y vender bitcoins. Si el banco bloqueara esa cuenta, le causaría menos problemas que si el banco bloqueara su cuenta principal.</p> <p>Nunca mencione nada más que la ID de intercambio Bisq en el campo de asunto.</p>
   hDisputeRsolution: Resolución de disputas
   hArbitrationProcess: "¿Cómo funciona el proceso de arbitraje?"
   pArbitrationProcess: >

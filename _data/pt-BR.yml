@@ -34,7 +34,7 @@ homepage_content:
   pDecentralized: A negociação acontece numa rede P2P global de usuários rodando Bisq nas suas próprias máquinas.
   hSafe: Seguro
   pSafe: "Bisq nunca custodia seus fundos. Depósitos de segurança e carteiras para negociação multi-assinatura promovem negociações seguras e bem-sucedidas."
-  hPrivate: privado
+  hPrivate: Privado
   pPrivate: "Ninguém, exceto parceiros de negociação, troca dados de identificação pessoal. Todos os dados pessoais são armazenados localmente."
   hSecure: Seguro e sempre funcionando
   pSecure: Comunicação criptografada de ponta a ponta roteada através do Tor e sem tempo de inatividade.
@@ -53,7 +53,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Adicione suas contas de moeda nacional ou cripto.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Crie uma nova oferta ou execute uma já existente.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Siga a interface para finalizar a negociação.</li>
   hJoin: Junte-se à Comunidade
   pJoin: >
-    <p>Bisq está sempre à procura de desenvolvedores, designers e especialistas em segurança altamente qualificados para se juntarem à nossa <a href="https://bisq.network/community/">comunidade</a>. Se você tem interesse em  melhorar a Bisq, há muitas maneiras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>. Gostaríamos muito de ouvir você!</p> <p>O nosso <a href="https://bisq.network/roadmap/">roadmap</a> oferece uma visão geral dos recursos e marcos de alto nível no caminho para a Bisq v1.0.</p>
+    <p> A Bisq está sempre a procura de desenvolvedores, designers e especialistas em segurança para se juntarem à nossa <a href="https://bisq.network/community/">comunidade</a>. Se você tem interesse em ajudar a Bisq há várias formas de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>. Nós adoraríamos ouvir de você!</p> <p>Nosso <a href="https://bisq.network/roadmap/">roadmap</a> mostra um resumo dos recursos e objetivos, rumo à Bisq v1.0.</p>
   liGithub: "@bisq-network no GitHub"
   liTwitter: "@bisq-network no Twitter"
   liYoutube: Canal da Bisq no YouTube
@@ -74,13 +74,13 @@ main_nav:
 
 os_selector_options:
   liAllDownloads: Todos os Downloads
-  liAllDownloadsText: Ir para downloads
+  liAllDownloadsText: Ir para a página de downloads
   liWindows: Baixar para windows
   liMac: Baixar para Mac
   liDebian: Baixar para Debian/ubuntu
   liRedHat: Baixar para Red Hat/Fedora
   liArch: Baixar para Arch Linux
-  liArchText: "Repo de Usurários de Arch"
+  liArchText: "Repositório dos Usurários de Arch "
   liSourceCode: Código Fonte
   liReleaseNotes: Notas de Lançamento
   liVerification: Verificação
@@ -99,7 +99,7 @@ dao:
   notConvinced: "Não está convencido de que um token é necessário?"
   pNotConvinced: "<p class=\"bigger\">Nós temos um <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">post</a> só para você.</p>"
   seeMore: >
-    <p>Veja mais recursos em nosso <a href='https://docs.bisq.network/dao.html'>Tudo Sobre a DAO Bisq</a> doc.</p><p>Contribuidores anteriores, verifiquem <a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>o link</a> para obter instruções sobre como ser adicionado à distribuição de BSQ da gênese.</p>
+    <p>Veja mais recursos em nosso<a href='https://docs.bisq.network/dao.html'> Tudo Sobre a DAO Bisq</a> doc.</p><p>Contribuidores anteriores, verifiquem<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>o link</a>para obter instruções sobre como ser adicionado à distribuição de BSQ da gênese.</p>
 downloads:
   hBisqDownloads: Downloads da Bisq
   runningWindows: Parece que você está usando um Windows
@@ -214,7 +214,7 @@ faq:
     <p>A Bisq oferece um mecanismo de resolução de disputas em 3 camadas: chat entre as partes, mediação e arbitração.</p><p> O chat permite aos negociantes resolver pequenos problemas de forma privada sob chat encriptado ponto a ponto dentro da Bisq. Se isso não funcionar, os negociadores podem involver um mediador para examinar a situação e sugerir uma solução. Em raras circunstâncias em que a mediação falhar, um negociador pode decidir involver um árbitro para re-examinar a situação e fazer o pagamento.</p><p>Note que o papel e escopo do árbitro mudou drásticamente com o lançamento do novo protocolo de negociação na versão 1.2.</p><p>Veja <a href="https://docs.bisq.network/trading-rules" target="_blank">documentação</a> para mais detalhes em como esse processo funciona.</p>
   hCollusion: "Como se evita conluio entre mediadores, árbitros e negociadores?"
   pCollusion: >
-    <p>Com a introdução do novo protocolo de negociação na v1.2, árbitros não tem mais a chave para o escrow multisig. Isso significa que os negociadores retém controle absoluto sob seus fundos, e não há possibilidade de conluio.</p><p>Mediadores e árbitros continuam sendo  <a href="https://docs.bisq.network/user-dao-intro.html#ensure-honesty-in-high-trust-roles" target="_blank">posições com depósito </a>, porém, como não podem assinar uma transação de pagamento para resolver uma disputa, eles podem  <span class="note">aconselhar</span> em como resolver tal disputa, e é importante que sejam responsáveis e justos enquanto o fazem.</p>
+    <p>Com o lançamento do novo protocolo de negociação na v1.2, os árbitros não mais tem uma das chaves do escrow multisig  Isso quer que os negociadores ficam com controle total sob seus fundos e não há espaço para conluio.</p><p> Mediadores e árbitros continuam sendo <a href="https://docs.bisq.network/user-dao-intro.html#ensure-honesty-in-high-trust-roles" target="_blank">posições com bonds</a>, porém, como não podem assinar uma transação de pagamento para resolver uma disputa, eles podem  <span class="note">aconselhar</span> como resolver a disputa e é importante que sejam responsáveis e justos enquanto fazem isso.</p>
   hChargeback: "O que acontece se a pessoa comprando o bitcoin fizer um estorno depois de o bitcoin ter sido liberado pelo endereço multi-assinatura?"
   pChargeback: >
     <p>A Bisq só suporta meios de pagamento em que estornos não são fáceis ( por isso que PayPal e cartões de crédito não são suportados). Ainda há um risco pequeno de estorno com bancos. Se um banco executar um estorno após a liberação do BTC, não há nada que um árbitro ou mediador possam fazer.</p> <p> O objetivo da Bisq é fazer esse caso o mais inatrativo possível utilizando três mecanismos</a>:</p> <ol>

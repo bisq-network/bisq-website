@@ -273,7 +273,7 @@ function buildData( jsonUrl ){
 
     } else {
 
-        jsonUrl = 'https://markets.bisq.network/api/hloc?market=' + pair + '&timestamp=no' + '&interval=minute' + '&timestamp_from=' + '&timestamp_to=';
+        jsonUrl = 'https://markets.bisq.network/api/hloc?market=' + pair + '&timestamp=no' + '&interval=day' + '&timestamp_from=' + '&timestamp_to=';
         getTrades( pair );
         getOffers( pair );
 

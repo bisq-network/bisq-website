@@ -56,3 +56,26 @@ I hope that we can release the Beta version in about 2-6 weeks.
 [10]: https://en.wikipedia.org/wiki/Kademlia
 [11]: https://bitmessage.org/
 [12]: /roadmap/
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "New P2P network",
+  "description": "Some of you might ask what causes the delay of the beta release which was planned for that summer. The reason for the delay is a change in a fundamental part of the application – the P2P network.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2015-10-06"
+}
+</script>

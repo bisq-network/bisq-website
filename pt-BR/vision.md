@@ -4,7 +4,7 @@ title: Vision &lsaquo; Bisq - The decentralized Bitcoin exchange
 ref: vision
 lang: pt-BR
 flag: 🇧🇷
-language: Português (BR)
+language: Português
 outdated_translation: false
 ---
 # Visão

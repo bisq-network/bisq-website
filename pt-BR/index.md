@@ -5,7 +5,7 @@ banner: /images/bitsquare-home2.jpg
 ref: index
 lang: pt-BR
 flag: 🇧🇷
-language: Português (BR)
+language: Português
 outdated_translation: false
 ---
 

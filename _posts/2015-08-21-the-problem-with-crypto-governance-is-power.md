@@ -79,3 +79,26 @@ However you describe this form of problem solving, it's nothing new. Only the to
 [7]: https://github.com/TierNolan/bips/blob/bip4x/bip-atom.mediawiki
 [8]: http://www.coincer.org/2015/01/27/atomic-protocol-1/
 [9]: http://mercuryex.com/
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "The Problem with Crypto Governance is Power",
+  "description": "The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone agrees that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2015-08-21"
+}
+</script>

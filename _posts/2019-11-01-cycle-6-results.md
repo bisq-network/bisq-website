@@ -41,3 +41,26 @@ _Rejected_
 This somewhat contentious proposal to more tightly integrate Monero with Bisq garnered only 5 votes from the 13 ballots cast in this cycle, and 98.85% of the voting weight of those 5 votes opposed the proposal (proposals need less than 49.99% of opposing voting weight to be approved).
 
 The proposal raised larger questions about conventions to integrate relatively large, experimental, and perhaps risky components into the code base. An [incubator space](https://github.com/bisq-network/proposals/issues/122){:target="_blank"} was proposed but is now being reconsidered. Several contributors have suggested opening a dialogue on the subject after the launch of v1.2.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bisq DAO Cycle 6: Results",
+  "description": "Cycle 6 of the Bisq DAO ended at block 599 826 on October 17 2019. This post covers its results.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Steve Jain"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-11-01"
+}
+</script>

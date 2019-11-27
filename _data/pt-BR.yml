@@ -130,13 +130,13 @@ faq:
   pSafeOpenSource: >
     <p>Sim, o software Bisq é de código aberto e licenciado sob a Versão 3 da Licença Pública Geral GNU Affero. Aqui está o
       <a href="https://github.com/bisq-network/bisq/" target="_blank">código fonte</a> e
-      <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">a licença</a>.</p>
-    <p>Bisq emprega três mecanismos principais para alcançar segurança:</p> <ol>
+      <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">licença</a>.</p>
+    <p>A Bisq emprega três mecanismos principais para alcançar segurança:</p> <ol>
       <li>Todos os bitcoins negociados na Bisq são protegidos num endereço
-        <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multi-assinatura</a> 2-de-3.</li>
-      <li>Ambos os negociadores são obrigados a fazer depósitos de segurança. Esses são reembolsados após a conclusão das negociações .</li>
-      <li>Bisq usa um sistema de árbitro para lidar com disputas nas negociações.</li>
-    </ol> <p>Ao negociar moeda fiduciária por bitcoin, há sempre algum risco de estorno, pois as transações fiduciárias podem ser tecnicamente revertidas. Para mitigar esse risco, Bisq suporta apenas métodos de pagamento que são conhecidos por dificultar estornos - é por isso que a Bisq não suporta PayPal e cartões de crédito, por exemplo.</p> <p>Leia <a href="#chargeback-details">aqui</a> para saber mais sobre riscos de estornos.</p>
+        <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multisig</a> </li>
+      <li>Ambos os negociadores são obrigados a fazer depósitos de segurança. Esses são reembolsados após a conclusão das negociações.</li>
+      <li>Disputas são resolvidas com um <a href="https://docs.bisq.network/trading-rules#dispute-resolution" target="_blank">mecanismo de 3 camadas</a> que inclui um chat entre negociadores, mediação e arbitração.</li>
+    </ol> <p>Quando se negocia moeda fiduciária e bitcoin sempre há um risco de estorno pois, tecnicamente, transações fiduciárias podem ser revertidas.</p><p>Para mitigar esse risco, a Bisq:</p><ul><li>suporta apenas meios de pagamento que sejam conhecidos por dificultar estornos - é por isso que a Bisq não suporta PayPal nem cartões de crédito, por exemplo. Veja <a href="#chargeback-details">mais sobre risco de estorno</a>.</li><li> A Bisq emprega um <a href="https://docs.bisq.network/payment-methods#account-signing" target="_blank"> mecanismo de assinatura de conta</a> que força um limite de compra de 0.01 BTC até que a integridade do comprador seja verificada.</li></ul>
   hDifferent: "Já existem outras exchanges descentralizadas. Como a Bisq é diferente?"
   pDifferent: >
     <p>Atualmente nenhum outro projeto se encaixa em nossa definição de exchange descentralizada de bitcoin para fiat. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> é um projeto que quase reflete os princípios da Bisq, mas é um marketplace de propósito geral, não uma exchange de moedas especializada.</p> <p>A maioria das exchanges que afirmam ser descentralizadas ou não oferecem suporte à troca fiduciária ou operam numa arquitetura cliente-servidor e não se enquadram em nossa definição. E, é claro, existem muitos projetos de ICO com documentos técnicos, mas eles ainda não provaram que podem fornecer qualquer software funcional.</p> <p>Para ser adequadamente descentralizado, é preciso evitar pontos únicos de falha:</p> <ul>

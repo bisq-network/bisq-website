@@ -95,3 +95,26 @@ Those are the **killer apps** I am interested in – they might help us **to not
 [22]: https://ourbasicincome.wordpress.com/2015/06/18/circles-universal-basic-income/
 [23]: http://www.lietaer.com/2015/02/bernard-lietaer-why-we-need-a-monetary-ecosystem-inria-2014/
 [24]: https://www.youtube.com/watch?v=8oeiOeDq_Nc
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Killer apps",
+  "description": "Regardless of what you think or whatever you got presented by the media regarding the Greek crisis, I think many of you will agree, that our current political system is in need for a drastic improvement to say the least. Depending on the interpretation of the severity of the problem one might come to the conclusion that our political, economic and financial system is just too broken to get fixed.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2015-07-25"
+}
+</script>

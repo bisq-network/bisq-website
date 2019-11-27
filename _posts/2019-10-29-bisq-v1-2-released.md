@@ -70,3 +70,26 @@ Please note exceptions:
 * account signing is not required for _any_ payment accounts used outside of major national currency markets on Bisq (USD, EUR, CAD, GBP, AUD, BRL)
 
 See more details on how this works in [documentation](https://docs.bisq.network/payment-methods#account-signing).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bisq v1.2 Launches with New Trade Protocol and Account Signing",
+  "description": "New trade protocol moves to 2-of-2 multisig escrows for deposit funds, overhauls dispute resolution to be more private and scalable, and implements account signing to remove 0.01 BTC trade limits.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Steve Jain"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-10-29"
+}
+</script>

@@ -178,3 +178,26 @@ At roughly the same time as the DAO launch in April, it became clear that the ne
 Also needed quickly is the implementation of [a new trade protocol](https://github.com/bisq-network/proposals/issues/52) to remove arbitrators and embrace off-chain trading. Getting rid of arbitrators is a crucial step forward in hardening the network. This is a significant project that will require more developers to finish it in a reasonable timeframe.
 
 The successful launch of the Bisq DAO made [the ambitious vision](https://docs.bisq.network/dao/phase-zero.html) laid out in Phase Zero real. But big challenges remain, and the network must figure out how to conquer these challenges if it is to really succeed and realize its ultimate vision of becoming _the_ Bitcoin on/off-ramp.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bisq DAO: The First 4 Cycles",
+  "description": "The Bisq DAO launched 4 months ago, after more than 4 years of development. It has now completed 4 voting cycles. In this post, we provide an update on how it's worked out so far.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Steve Jain"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-08-22"
+}
+</script>

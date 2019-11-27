@@ -35,4 +35,25 @@ In addition to Bisq nodes, the network includes several other nodes, each with a
 You can learn more about Bisq [here](https://docs.bisq.network/intro.html) and how to install the Bisq software [here](https://docs.bisq.network/getting-started.html).
 For more technical details of the Bisq P2P network, please visit [this blog post by Manfred Karrer](https://bisq.network/blog/new-p2p-network/).
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "An Overview of the Bisq Network",
+  "description": "If you are into cryptocurrencies, you may be interested in Bisq, a decentralized exchange that enables you to trade bitcoin for fiat currencies and other cryptocurrencies. Unlike centralized exchanges, you preserve your privacy when trading on Bisq since there is no need for registration or approval from any central authorities. In this post, I will give you an overview of the Bisq software and the Bisq network.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Aruna Surya"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-02-25"
+}
+</script>

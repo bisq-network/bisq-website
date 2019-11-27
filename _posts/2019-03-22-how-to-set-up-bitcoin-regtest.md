@@ -118,3 +118,26 @@ Take note of the numbers below the “Balances” label in Figure 11. We have 50
 Interested in how to spend the reward, what a coinbase transaction is, and how a Bitcoin transaction works?
 
 Join me next time, where we will continue working with the blockchain we just created.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "How to Set Up a Bitcoin Regtest Environment",
+  "description": "In this post, Tomáš shows you how to set up your very own Bitcoin regtest environment with bitcoin-qt and make your own blocks!",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Tomáš Kanócz"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-03-22"
+}
+</script>

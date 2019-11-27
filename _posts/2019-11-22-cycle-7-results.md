@@ -58,3 +58,26 @@ While this is not what people wanted to hear, it's possible expectations for the
 And of course, liability on the network itself is reduced significantly without the third key.
 
 How will this new setup work? We shall see. Minimizing the need for dispute resolution (bug-fixing, user interface enhancements, etc) is now a high development priority for the near-future.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bisq DAO Cycle 7: Results",
+  "description": "Cycle 7 of the Bisq DAO ended at block 604 506 on November 19 2019. This post covers its results.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Steve Jain"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-11-22"
+}
+</script>

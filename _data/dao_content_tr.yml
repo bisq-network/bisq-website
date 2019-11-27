@@ -240,7 +240,7 @@ pt-BR:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: /images/DAO/dao_what.svg
+  img: /pt-BR/images/DAO/dao_what.svg
   id: what
 
 - title: "Como Funciona?"

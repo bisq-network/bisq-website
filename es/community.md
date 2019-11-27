@@ -26,13 +26,12 @@ outdated_translation: false
     <li><img src="/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">Bisq YouTube channel</a><br>View and participate on our weekly growth calls and watch interviews with the developers and other multimedia content</li>
   </ul>
   <ul class="mt-sm-0 mb-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
-    <li><img src="/images/community/slack.svg" alt="slack"> <a href="https://bisq.network/slack-invite">Bisq Slack workspace</a><br>Participate in the conversation on how to make Bisq better</li>
+    <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">Bisq Keybase team</a><br>Join the Bisq team on Keybase</li>
     <li><img src="/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">Bisq Forum</a><br>Post your opinions and questions on the Bisq forum</li>
     <li><img src="/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">Bisq Contributor mailing list</a><br>Join our newsletter</li>
   </ul>
   <ul class="mt-sm-0 mb-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
     <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">#bisq on Freenode IRC</a><br>IRC freenode server for more decentralized chat</li>
     <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">r/Bisq Subreddit</a><br>Get support and mingle with the community in Bisq's subreddit</li>
-    <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">Bisq Keybase team</a><br>Join the Bisq team on Keybase</li>
   </ul>
 </div>

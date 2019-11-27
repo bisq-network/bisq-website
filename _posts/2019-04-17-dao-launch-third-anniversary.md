@@ -47,3 +47,26 @@ So it's been a heck of a week.
 But while there's lots to celebrate from the past, we also realize this is also a celebration of a _beginning_ for the future. There's lots to do, and success is never guaranteed.
 
 We thank everyone for their support over the past several years, and look forward to an even brighter future.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bisq DAO Launches with Bisq v1.0",
+  "description": "After years in the making, the Bisq DAO has launched on mainnet with the v1.0 release of the Bisq software, just days before Bisq celebrates 3 years in production.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Steve Jain"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-04-17"
+}
+</script>

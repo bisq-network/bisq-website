@@ -71,3 +71,26 @@ So, how is it that a completely new monetary good's price is discovered? That is
 **Conclusion**
 
 Bitcoin's origin of value can be fully explained on the grounds of the subjective theory of value and Menger's definition of money.  Because the need for exchange is a basic human need, any good that has the qualities to satisfy that need, (even if it only satisfies that one need), is useful and therefore subject to being demanded.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bitcoin and the Store of Value Narrative",
+  "description": "Manuel posits that Bitcoin's value cannot be explained with a store-of-value approach.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manuel Polavieja"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-06-04"
+}
+</script>

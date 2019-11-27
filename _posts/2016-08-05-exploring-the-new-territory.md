@@ -131,3 +131,26 @@ If we start to explore the new possibilities, potential and characteristics of d
 [12]: https://openbazaar.org/
 [13]: https://bitsquare.typeform.com/to/cWQWrK
 [14]: https://www.youtube.com/watch?v=kZvWt29OG0s
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Exploring the new territory",
+  "description": "With the recent Bitfinex heist models for decentralized exchanges have received a bit more attention as usual.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2016-08-05"
+}
+</script>

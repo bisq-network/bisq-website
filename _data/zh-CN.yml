@@ -65,12 +65,11 @@ homepage_content:
   liGithub: "GitHub 上的 @bisq-network"
   liTwitter: "Twitter 上的 @bisq_network"
   liYoutube: Bisq 的 YouTube 频道
-  liSlack: Bisq 的 Slack 交流群
   liForum: Bisq 论坛
   liMailingList: Bisq 贡献者邮件列表
   liFreenodeIRC: "Freenode IRC 上的 #bisq"
   liSubreddit: r/Bisq 的 reddit 分话题
-  liKeybase: "Bisq Keybase team"
+  liKeybase: "Bisq Keybase"
 
 main_nav:
   liDownloads: 下载

@@ -57,12 +57,11 @@ homepage_content:
   liGithub: "@bisq-network sur GitHub"
   liTwitter: "@bisq-network sur Twitter"
   liYoutube: Chaîne YouTube Bisq
-  liSlack: " Espace de travail Bisq sur Slack"
   liForum: Forum Bisq
   liMailingList: Mailing list des contributeurs de Bisq
   liFreenodeIRC: "#bisq sur le Freenode IRC"
   liSubreddit: r/Bisq Subreddit
-  liKeybase: "Bisq Keybase team"
+  liKeybase: "Bisq sur Keybase"
 
 main_nav:
   liDownloads: Téléchargements

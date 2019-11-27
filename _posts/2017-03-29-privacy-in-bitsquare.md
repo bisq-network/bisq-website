@@ -211,3 +211,26 @@ As we cannot expect much support from that side, let's build our new model as we
 [^bloom-filtering-privacy]: [Bloom filtering, privacy – Adam Back](https://www.reddit.com/r/bitcoin_devlist/comments/3bsugu/bloom_filtering_privacy_adam_back_feb_20_2015/)
 
 [1]: https://github.com/bitsquare/bitsquare/wiki/Switching-to-a-new-data-directory
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Privacy in Bisq",
+  "description": "To write a blog post about privacy in Bisq has been already a long time on my TODO list.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-03-29"
+}
+</script>

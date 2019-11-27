@@ -114,3 +114,27 @@ And here are voting results of the "lio" proposal. Some rejections, but most peo
 Open governance can only work if participants take the time and pay the attention needed to make responsible decisions.
 
 **Please make sure you do your due diligence before voting!**
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bisq DAO Cycle 5: Results",
+  "description": "Cycle 5 of the Bisq DAO ended at block 595 146 on September 16 2019. This post covers its results, as well as an important lesson learned.
+",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Steve Jain"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-09-18"
+}
+</script>

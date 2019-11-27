@@ -157,3 +157,25 @@ If you’d like to help out and contribute to the Bisq open-source project,you c
 You can see Max’s shows—[Bitcoin to the Max](https://www.youtube.com/playlist?list=PLPj3KCksGbSZtGhC7nIr_Mf1oCeP8U1tV), [Open Source Everything](https://www.youtube.com/watch?v=41y_eGsdy2U&list=PLPj3KCksGbSb1h33FZbsrtr1feIIwTBHt), and [Bitcoin Optech Newsletter](https://www.youtube.com/watch?v=NAXwLHgYHjo&list=PLPj3KCksGbSY9pV6EI5zkHcut5UTCs1cp)—on the [World Crypto Network](https://www.youtube.com/user/WorldCryptoNetwork/).
 
 Finally, you can check out my blog for more Bitcoin content like this, [right here](https://www.coincache.net). I hope this article was useful for you.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Ricardo Martinez interviews Max Hillebrand of the World Crypto Network. They discuss privacy in general, privacy with respect to bitcoin, privacy with respect to Bisq, and more.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Ricardo Martinez"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-03-29"
+}
+</script>

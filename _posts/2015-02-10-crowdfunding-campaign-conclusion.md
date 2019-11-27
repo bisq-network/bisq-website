@@ -37,3 +37,26 @@ Thank you from all of us on the Bitsquare team!
 [6]: /press/
 [7]: http://web.archive.org/web/20160624114133/http://www.vinumeris.com/lighthouse/faq#max-pledges
 [8]: http://web.archive.org/web/20160305103048/http://vinumeris.com/projects/welcome
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Crowdfunding campaign conclusion",
+  "description": "The Bitsquare crowdfunding1 campaign has ended without reaching our funding goal. We are disappointed, but also proud and encouraged by the amount of the support we did receive. The enthusiasm we have seen from the community confirms we are on the right track and fuels our own passion to make Bitsquare a reality.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Richard Myers"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2015-02-10"
+}
+</script>

@@ -48,3 +48,26 @@ Thank you once again to those who participated in the bounty hunt! Keep an eye o
 [6]: https://forum.bitsquare.io/users/mirelo/activity
 [8]: https://forum.bitsquare.io/users/vieuxvicq/activity
 [9]: https://forum.bitsquare.io/users/silverback/activity
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Outcome of Rebranding Bounty",
+  "description": "The team reviewed all bounty submissions, but there was no single name that clearly stood out. The Bitsquare bounty of 0.5 bitcoin will be distributed to those with best contributions.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2017-02-22"
+}
+</script>

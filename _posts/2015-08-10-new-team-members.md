@@ -26,4 +26,25 @@ We also want to add a bit of background information about our recently joined te
 [9]: http://www.csg.uzh.ch/staff/bocek.html
 [10]: http://tomp2p.net/
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "New team members",
+  "description": "Good news! Bitsquare is expanding: Amanda Johnson and Mihail Mihaylov were delighted to join our team.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2015-08-10"
+}
+</script>

@@ -249,7 +249,7 @@ pt-BR:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: /images/DAO/dao_how.svg
+  img: /pt-BR/images/DAO/dao_how.svg
   id: how
 
 - title: "Benefícios"

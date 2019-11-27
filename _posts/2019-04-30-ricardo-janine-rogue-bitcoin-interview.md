@@ -152,3 +152,25 @@ You can [follow Janine on Twitter here](https://twitter.com/J9Roem).
 You can [follow Shinobi on Twitter here](https://twitter.com/brian_trollz).
 
 You can [follow Rick on Twitter here](https://twitter.com/cryptorick).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Ricardo Martinez interviews Janine of Block Digest. They discuss a peculiar phenomenon—the tendency for people and companies made successful by Bitcoin to turn against Bitcoin—and why it happens.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Ricardo Martinez"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-04-30"
+}
+</script>

@@ -56,3 +56,26 @@ We try to schedule the whole rebranding before that release. There might be some
 Please help us to spread the word to make it easier for people to know that **Bitsquare becomes Bisq**.
 
 Until the rebranding has officially started, we are still Bitsquare 🙂
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bitsquare becomes Bisq",
+  "description": "We announced a while ago that we started rebranding as a result of trademark conflicts.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2017-03-06"
+}
+</script>

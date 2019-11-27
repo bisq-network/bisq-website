@@ -69,3 +69,26 @@ Bitsquare will exit _beta_ with the release of v1.0, which we're setting a high 
 [19]: /blog/feed.atom
 [20]: http://bitsquare.us9.list-manage.com/subscribe?u=fee3c64b1504e7835a98b0ed3&id=dc09b9ca64
 [21]: /community/#mailing-list
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bitsquare: Now in Alpha",
+  "description": "After many months of research and development, we’re excited to announce the release of Bitsquare v0.1. This marks the beginning of our alpha phase and the first major milestone on the road to a fully-functional Bitsquare v1.0.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Chris Beams"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2014-12-16"
+}
+</script>

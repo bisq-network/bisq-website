@@ -37,3 +37,26 @@ Contributors who build and maintain Bisq perform a very essential function, and 
 Apart from autonomy, what I like most about working at Bisq is the interaction with the amazing contributors from all over the world. I have had great conversations with writers, developers and translators who were generous with their time and provided valuable advice. I now know that the strength of Bisq is in its contributors. They are here because they believe that Bisq is important, and their values are aligned.
 
 Being a Bisq contributor made me think more carefully about privacy and IT security, and be more open to new ways of collaboration. Although I still find transparency in communication quite challenging, I can see the value in it. I have done a wide range of tasks such as writing, editing, reporting bugs and coordinating projects, and now I have a much clearer idea of how I can contribute best. Working remotely without any organizational hierarchy is definitely a challenge, and some miscommunication is bound to happen. However, I am amazed by how quickly the contributors react and mobilize their forces to fix problems, so I am very optimistic about this new approach to working together.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Why I Am a Bisq Contributor: Aruna Surya",
+  "description": "Aruna Surya discusses her experience with being a Bisq contributor—why she started contributing, why she continues contributing, and how there's still a lot to like for a non-technical person with diverging interests.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Aruna Surya"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-04-08"
+}
+</script>

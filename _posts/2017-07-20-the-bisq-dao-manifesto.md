@@ -28,3 +28,26 @@ The Bisq DAO is a DAO that has been carefully designed to be stable against pert
 Since the Bisq DAO is open source, autonomous and censorship resistant we think that it is the start of a new ecosystem with something close to living entities in it. We expect many different DAOs controlling different platforms. These DAOs might start to compete for certain markets. The forking and modifications of old DAOs to make new DAOs can be seen as the production of offspring. The DAOs have different missions, for some it is to make as much money as possible for their owners. Other DAOs may very well be of a cooperative nature where people collaborate via the DAO according to some common interest or goal. The governance can be different for different DAOs and it is possible that they employ anonymous CEOs who do representative voting. Very advanced DAOs might include AI engines to increase their chances of survival in case they compete. It is certainly doable to include a neural net based trading bot into Bisq.
 
 We see DAOs as an inevitable development of p2p software due to the tremendous economic advantage they have over centralized and regulated corporations. The Bisq DAO will certainly have properties that we have not thought about and may even fail. If this is the case we are sure that improved versions will appear solving any failure mode. The Bisq DAO will evolve and it is possible that some of its defining characteristics change over time. DAOs cannot be shut down, unless one shuts down the internet, and have in this respect some similarities to Bittorrent, Bitcoin and other open source p2p systems. If the Bisq DAO works as intended it will show that it is possible to incentivise open source p2p-projects, which is not a small feat by itself.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "The Bisq DAO manifesto",
+  "description": "The Bisq DAO is a DAO that has been carefully designed to be stable against perturbations, such as majority attacks, scams and forks. The aim has been avoid any central points of failure or control and it is thus autonomous. It follows a general idea of DAOs, being based on network effects, modifiable computer programs and economic incentives. The Bisq DAO “controls” Bisq itself which is a p2p trading platform. The Bisq DAO has certain defining characteristics at its beginning, that we describe below.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Mats-Erik Pistol"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2017-07-20"
+}
+</script>

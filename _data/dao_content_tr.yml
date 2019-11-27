@@ -231,7 +231,7 @@ pt-BR:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: /images/DAO/dao_why.svg
+  img: /pt-BR/images/DAO/dao_why.svg
   id: why
 
 - title: "O que é a DAO Bisq?"

@@ -17,3 +17,26 @@ I just published a [video][1] of the current application showing all those new f
 Stay tuned we are getting closer to the release!
 
 [1]: https://vimeo.com/131086362
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Development update",
+  "description": "It was a bit quiet here the last months, but there was going on a lot on the development front.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2015-06-18"
+}
+</script>

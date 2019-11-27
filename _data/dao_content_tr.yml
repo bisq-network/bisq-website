@@ -221,7 +221,7 @@ pt-PT:
 pt-BR:
 - title: "A DAO Bisq"
   intro: "Descentralizar a distribuição de recursos e a tomada de decisão para tornar o Bisq auto-sustentável e resistente à censura. <span class=\"footnote\"> DAO significa Organização Autônoma Descentralizada </span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\"> Veja mais &darr; </a>"
-  img: /images/DAO/dao_intro.svg
+  img: /pt-BR/images/DAO/dao_intro.svg
   class: -main
   id: intro
 

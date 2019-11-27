@@ -159,3 +159,26 @@ Everybody has something different to offer, so it’s just a matter of focusing 
 So what are you waiting for?
 
 Get to work and start earning!
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "How to Earn BSQ by Contributing to Bisq",
+  "description": "Bisq is an open-source software project, but it has a built-in revenue model to compensate its contributors—and anyone is welcome to contribute!",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "John Forsyth"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-03-06"
+}
+</script>

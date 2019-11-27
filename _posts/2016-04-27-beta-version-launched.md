@@ -28,3 +28,25 @@ UPDATE: here is the video from the launch event:
 [6]: http://www.meetup.com/bitcoin-barcelona/events/230228028/
 [7]: /press/#upcoming
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Beta version launched",
+  "description": "A big day for Bitsquare – we have launched our Beta version!",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2016-04-27"
+}
+</script>

@@ -190,3 +190,26 @@ In the next part in this series, we will discuss how the Bisq DAO's incentive st
 <sup>2</sup> The company is a hugely beneficial entity. As Ronald Coase articulated in his article _The Nature of the Firm_ in 1937, companies dramatically lower transaction and coordination costs in the pursuit of business. The advent of the modern limited-liability joint-stock company has been a drastically under-appreciated enabler of modern progress.
 <br><br>
 <sup>3</sup> Furthermore, it's worth noting that [the software](https://github.com/bisq-network/bisq) makes it technically impossible to collect very much data in the first place.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "The Bisq DAO enables value transfer and decision-making for the Bisq network. But it has several additional benefits too, which we'll focus on in this series.
+In this post, Part I of this series, we'll discuss how Bisq's revenue model offers a new approach to funding open-source software development that, by design, avoids incentives to exploit user privacy altogether.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Steve Jain"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-03-13"
+}
+</script>

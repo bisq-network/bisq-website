@@ -35,3 +35,26 @@ But there is more. Many interesting ideas and proposals are out and waiting for 
 So you can see a lot of challenging work is waiting for talented developers who want to become part of Bisq and help to build the infrastructure Bitcoin deserves: **a privacy protecting on-ramp which follows the principles of Bitcoin and not those of the banks.**
 
 If you are interested to work in a project that's permissionless and non-hierarchical by design, Bisq might be your [place](https://docs.bisq.network/contributor-checklist.html).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Time for the DAO to take over",
+  "description": "With the DAO in place Bisq has to evolve its organisational structure without its founders. The departure of the founders was planned from the very beginning. Now it is time to fulfill that plan.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2019-05-16"
+}
+</script>

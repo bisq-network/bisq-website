@@ -108,3 +108,25 @@ _"To change something build a new model that makes the existing model obsolete"_
 [14]: https://en.wikipedia.org/wiki/Tragedy_of_the_commons
 [15]: http://www.coindesk.com/coinbases-75-million-series-c/
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Reality check",
+  "description": "We are glad to announce that we have started our new approach to iteratively fund the development of our project using Lighthouse. Please find all details about our campaign at the crowdfunding2 section on our webpage.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2015-01-22"
+}
+</script>

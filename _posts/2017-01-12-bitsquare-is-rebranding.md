@@ -18,3 +18,25 @@ The project is now seeking a new brand name that will firmly establish its prese
 
 Manfred, Bitsquare's founder and lead dev, is offering a **bounty of 0.5 bitcoin** for the person whose proposed name ends up being selected by the team. You can find the details of the bounty in our [forum post](https://forum.bitsquare.io/t/bitsquare-bounty-0-5-btc-for-new-brand-name/1133).
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bitsquare is rebranding",
+  "description": "Bitsquare has always been proud to say it is not a startup or a company, but a free open-source community project. It is being developed without venture capital or any other form of external funding, but with personal savings and donations from the community it serves.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Mihail Mihaylov"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2017-01-12"
+}
+</script>

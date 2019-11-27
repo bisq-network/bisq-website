@@ -56,3 +56,26 @@ A fully P2P economy may not be realistic for various reasons, but it should be c
 [9]: https://en.wikipedia.org/wiki/Fungibility
 [10]: https://bitcointalk.org/index.php?topic=279249.0
 [11]: https://bitcoin.org/en/developer-guide#term-merge-avoidance
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Why decentralisation is essential for bitcoin's utility as money",
+  "description": "There was recently an important incident in the bitcoin space.",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Manfred Karrer"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2015-01-14"
+}
+</script>

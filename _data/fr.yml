@@ -39,7 +39,7 @@ homepage_content:
   hSecure: Sécurisé et toujours disponible
   pSecure: Communication cryptée de bout en bout sur Tor et sans down time.
   hOpen: Ouvrir
-  pOpen: "<p class=\"grey px-md-5\">Le code est <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, et la stratégie du projet est discutée ouvertement sur <a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a> et <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  pOpen: "<p class=\"grey px-md-5\">Le code est <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, et la stratégie du projet est discutée ouvertement sur <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> et <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Facile à utiliser
   pEasy: "<p class=\"grey px-md-5\">Nous avons rendu toute cette sophistication facile—<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">effectuez votre première transaction</a> en moins de 10 minutes!</p>"
   hBisqDao: La DAO de Bisq
@@ -248,7 +248,7 @@ faq:
   pBeArbitrator: "<p>L'exigence requise en <a href=\"https://docs.bisq.network/dao/phase-zero.html\" target=\"_blank\" rel=\"noopener\">BSQ bond</a> est très élevée et il n'y a actuellement que très peu de personnes ayant suffisamment contribué à Bisq pour avoir gagné autant de BSQ.</p>"
   hContactPeer: "Puis-je contacter mon pair de trading?"
   pContactPeer: >
-    <p>Jusqu'à présent, Bisq a intentionnellement évité d'offrir un moyen d'entrer en contact direct avec son pair de trading Il n'y a généralement pas besoin d'un tel mécanisme, et offrir un tel mécanisme n'ouvrirait qu'une " boîte de Pandore " en matière de sécurité : les utilisateurs malveillants pourraient piéger leurs pairs par le bias d'un échange en direct sans utiliser Bisq, puis exploiter le manque de sécurité pour arnaquer l'autre personne, ou utiliser le canal direct pour d'autres activités frauduleuses (fraudes d'ingénierie sociale, spam, etc).</p> <p>Au lieu de cela, en cas de problèmes, les utilisateurs peuvent ouvrir un différend et le résoudre avec l'aide d'un arbitre. Il y a également le <a href='https://bisq.community' target='_blank'>forum de Bisq</a> et <a href='https://bisq.network/slack-invite' target='_blank'>le canal de discussion Slack</a> à la disposition des utilisateurs désireux d'obtenir de l'aide.</p> <p>Remarque : avec le lancement du <a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>nouveau protocole d' échange</a>, il y aura, cependant, un moyen pour les pairs de communiquer directement les uns avec les autres.</p>
+    <p>Jusqu'à présent, Bisq a intentionnellement évité d'offrir un moyen d'entrer en contact direct avec son pair de trading Il n'y a généralement pas besoin d'un tel mécanisme, et offrir un tel mécanisme n'ouvrirait qu'une " boîte de Pandore " en matière de sécurité : les utilisateurs malveillants pourraient piéger leurs pairs par le bias d'un échange en direct sans utiliser Bisq, puis exploiter le manque de sécurité pour arnaquer l'autre personne, ou utiliser le canal direct pour d'autres activités frauduleuses (fraudes d'ingénierie sociale, spam, etc).</p> <p>Au lieu de cela, en cas de problèmes, les utilisateurs peuvent ouvrir un différend et le résoudre avec l'aide d'un arbitre. Il y a également le <a href='https://bisq.community' target='_blank'>forum de Bisq</a> et <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a> à la disposition des utilisateurs désireux d'obtenir de l'aide.</p> <p>Remarque : avec le lancement du <a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>nouveau protocole d' échange</a>, il y aura, cependant, un moyen pour les pairs de communiquer directement les uns avec les autres.</p>
   hBisqDAO: La DAO de Bisq
   hBisqDaoWhat: "Qu'est-ce que la DAO de Bisq?"
   pBisqDaoWhat: >
@@ -279,7 +279,7 @@ faq:
     <p>Bisq propose déjà un large éventail de modes de paiement pour les devises nationales, mais de nouveaux moyens de paiement pourront être ajoutés aussi longtemps que:</p> <ul>
       <li>les rétrofacturations sont peu probables</li>
       <li>les arbitres peuvent consulter la preuve de la transaction</li>
-    </ul> <p>Les virements bancaires nationaux sont pris en charge dans tous les pays.</p> <p>Vous pouvez proposer un nouveau moyen de paiement sur le <a href='https://bisq.community' target='_blank'>forum</a>, <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>, ou <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
+    </ul> <p>Les virements bancaires nationaux sont pris en charge dans tous les pays.</p> <p>Vous pouvez proposer un nouveau moyen de paiement sur le <a href='https://bisq.community' target='_blank'>forum</a>, <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>, ou <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
   hSoftwareBugs: "Que se passe-t-il en cas de bugs du logiciel?"
   pSoftwareBugs: >
     <p>Si l'application Bisq détecte que vous avez un problème logiciel, elle affichera un bouton "ticket de support". Votre arbitre transmettra votre rapport de bug aux développeurs, qui commenceront une enquête sur le problème. Il se peut qu'on vous demande
@@ -289,7 +289,7 @@ faq:
   pMultisig: >
     <p>“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multisig</a>”, comme on l'appelle, est intégré à Bitcoin comme une simple version d'un contrat intelligent. Une adresse multisig est générée avec plusieurs clés publiques avec une spécification du nombre de clés à signer pour libérer les fonds.</p> <p>Bisq utilise des adresses multisig 2-sur-3. Cela signifie que trois clés publiques sont utilisées pour créer l'adresse de paiement (celle de l'acheteur, du vendeur et d'un arbitre) et que la transaction doit être signée par deux des trois parties pour que les fonds soient libérés.</p> <p>En pratique, l'acheteur et le vendeur signent chacun la transaction pour débloquer les fonds. Mais en cas de litige, un arbitre se rangera du côté de l'une des parties pour fournir la deuxième signature nécessaire à la libération des fonds.</p>
   hOtherQuestions: "J'ai une question qui n'est pas abordée ici...?"
-  pOtherQuestions: "<p>Veuillez poster votre question sur <a href=\"https://bisq.community/\" target=\"_blank\"> le Forum de Bisq</a> ou <a href='https://bisq.network/slack-invite' target='_blank'>sur le canal de discussion Slack</a>.</p>"
+  pOtherQuestions: "<p>Veuillez poster votre question sur <a href=\"https://bisq.community/\" target=\"_blank\"> le Forum de Bisq</a> ou <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>.</p>"
 
 
 markets:

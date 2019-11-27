@@ -39,7 +39,7 @@ homepage_content:
   hSecure: Secure and Always On
   pSecure: End-to-end encrypted communication routed over Tor and no down time.
   hOpen: Open
-  pOpen: "<p class=\"grey px-md-5\">Code is <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, and project strategy is discussed openly on <a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a> and <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  pOpen: "<p class=\"grey px-md-5\">Code is <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, and project strategy is discussed openly on <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> and <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Easy to Use
   pEasy: "<p class=\"grey px-md-5\">We've made all this sophistication simple—<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">make your first trade</a> in under 10 minutes!</p>"
   hBisqDao: The Bisq DAO
@@ -261,7 +261,7 @@ faq:
     <p>Bisq already supports a wide range of payment methods for national currencies, but new ones may be added as long as:</p> <ul>
       <li>chargebacks are unlikely</li>
       <li>mediators and arbitrators can view evidence of the transaction</li>
-    </ul> <p>National bank transfers are supported in every country.</p> <p>You can suggest a new payment method on the <a href='https://bisq.community' target='_blank'>forum</a>, <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>, or <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
+    </ul> <p>National bank transfers are supported in every country.</p> <p>You can suggest a new payment method on the <a href='https://bisq.community' target='_blank'>forum</a>, <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>, or <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
   hSoftwareBugs: "What happens in case of software bugs?"
   pSoftwareBugs: >
     <p>If the Bisq application recognizes that you're having a software problem, it will display a “support ticket” button. Your arbitrator will forward your bug report to the developers, who will begin an investigation of the problem. You may be asked
@@ -271,7 +271,7 @@ faq:
   pMultisig: >
     <p>“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multisig</a>”, as it's called, is built into Bitcoin as a simple version of a smart contract. A multisig address is generated with multiple public keys and a specification of how many of those keys must sign to release the funds.</p> <p>Bisq uses 2-of-3 multisig addresses. This means three public keys are used to create the payment address (the buyer's, the seller's, and an arbitrator's), and the transaction must be signed by two of the three parties for the funds to be released.</p> <p>Typically, the buyer and seller each sign the transaction to release funds. But in case of a dispute, an arbitrator will side with one of the parties to provide the second signature to release funds.</p>
   hOtherQuestions: "I have a question that isn’t covered here…?"
-  pOtherQuestions: "<p>Please post your question at the <a href=\"https://bisq.community/\" target=\"_blank\">Bisq forum</a> or <a href='https://bisq.network/slack-invite' target='_blank'>Slack channel</a>.</p>"
+  pOtherQuestions: "<p>Please post your question on the <a href=\"https://bisq.community/\" target=\"_blank\">Bisq forum</a> or <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>.</p>"
 
 
 markets:

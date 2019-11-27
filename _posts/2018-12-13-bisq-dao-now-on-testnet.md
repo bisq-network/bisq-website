@@ -18,3 +18,26 @@ See complete [release notes for 0.9.0](https://github.com/bisq-network/bisq/rele
 You can download the latest version of Bisq with the updates [here on the Bisq website](https://bisq.network/downloads).
 
 If it's your first time using Bisq, follow our [Getting Started with Bisq](https://docs.bisq.network/getting-started) guide to make your first trade.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Bisq DAO now on testnet",
+  "description": "Bisq v0.9 is one of the biggest updates to Bisq ever: it brings the Bisq DAO to testnet, as well as a striking new visual design (among a host of other improvements and bug fixes).",
+  "image": "https://bisq.network/images/bisq-fav.png",  
+  "author": {
+    "@type": "Person",
+    "name": "Steve Jain"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Bisq Decentralized Autonomous Organization",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bisq.network/images/bisq-fav.png"
+    }
+  },
+  "datePublished": "2018-12-13"
+}
+</script>

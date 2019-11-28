@@ -21,13 +21,13 @@ outdated_translation: false
 
 <p>Se ha hablado bastante acerca de la descentralización en el espacio de Bitcoin, y varios intentos de crear casas de cambio descentralizadas para abordar esta debilidad.</p>
 
-<p>Bisq es una solución construida en una infraestructura P2P pura: software de escritorio, Tor, monederos locales, y sin cuentas cenrtales. Mientras la transferencia de moneda nacional requiere canales de pago tradiciones como bancos y procesadores de pago, Bisq no depende de uno en particular. El rol de estos canales de pago se limita a lo que debería ser: transferir moneda nacional, punto. Sin censura, confiscación, monitorización, o control de sus transacciones financieras.</p>
+<p>Bisq es una solución construida en una infraestructura P2P pura: software de escritorio, Tor, monederos locales, y sin cuentas centrales. Mientras la transferencia de moneda nacional requiere canales de pago tradiciones como bancos y procesadores de pago, Bisq no depende de uno en particular. El rol de estos canales de pago se limita a lo que debería ser: transferir moneda nacional, punto. Sin censura, confiscación, monitorización, o control de sus transacciones financieras.</p>
 
 <p>Bisq se ha hecho para aquéllos que:</p>
 
 <ul>
   <li>Quieren intercambiar moneda nacional como dólares, euros o yen por bitcoin.</li>
-  <li>Quieen intercambiar un amplio rango de criptomonedas alternativas por bitcoin.</li>
+  <li>Quieren intercambiar un amplio rango de criptomonedas alternativas por bitcoin.</li>
   <li>No quieren confiar en que  una casa de cambio custodie sus fondos.</li>
   <li>No quieren ceder control o privacidad a una autoridad central para poder comerciar con otras personas.</li>
   <li>Ven las transacciones financieras como una forma de libertad de expresión que debe protegerse de la vigilancia de bancos, gobiernos y otras instituciones.</li>
@@ -36,7 +36,7 @@ outdated_translation: false
 <p>Puede encontrar más acerca de la filosofía, de Bisq y cómo hace el intercambio de bitcoin privado, seguro y fácil en nuestra Documentación de Introducción:</p>
 
 <p><br>
-<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">» La la Introducción a Bisq</a></p>
+<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">» La Introducción a Bisq</a></p>
 
 </div>
 

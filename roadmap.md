@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Roadmap &lsaquo; Bisq - A decentralized Bitcoin exchange network
+title: Roadmap &lsaquo; Bisq - A decentralized bitcoin exchange network
 banner: /images/roadmap1.png
 ---
 # Roadmap

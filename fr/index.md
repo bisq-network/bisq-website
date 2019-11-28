@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bisq - A decentralized Bitcoin exchange network
+title: Bisq - A decentralized bitcoin exchange network
 banner: /images/bitsquare-home2.jpg
 ref: index
 lang: fr

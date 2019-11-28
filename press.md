@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Press &lsaquo; Bisq - A decentralized Bitcoin exchange network
+title: Press &lsaquo; Bisq - A decentralized bitcoin exchange network
 banner: /images/press.png
 ---
 # Press

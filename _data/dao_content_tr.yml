@@ -80,7 +80,7 @@ es:
   target: "_blank"
   rel: "noopener"
   img: /es/images/DAO/dao_why.svg
-  id: porqué
+  id: why
 
 
 
@@ -94,7 +94,7 @@ es:
   target: "_blank"
   rel: "noopener"
   img: /es/images/DAO/dao_what.svg
-  id: que
+  id: what
 
 
 
@@ -119,7 +119,7 @@ es:
   target: "_blank"
   rel: "noopener"
   img: /es/images/DAO/dao_benefits.svg
-  id: beneficios
+  id: benefits
 
 fr:
 - title: "La DAO de Bisq"
@@ -141,7 +141,7 @@ fr:
   target: "_blank"
   rel: "noopener"
   img: /fr/images/DAO/dao_why.svg
-  id: Pourquoi
+  id: why
 
 
 
@@ -155,7 +155,7 @@ fr:
   target: "_blank"
   rel: "noopener"
   img: /fr/images/DAO/dao_what.svg
-  id: quel
+  id: what
 
 
 
@@ -169,7 +169,7 @@ fr:
   target: "_blank"
   rel: "noopener"
   img: /fr/images/DAO/dao_how.svg
-  id: Comment
+  id: how
 
 
 
@@ -180,7 +180,7 @@ fr:
   target: "_blank"
   rel: "noopener"
   img: /fr/images/DAO/dao_benefits.svg
-  id: avantages
+  id: benefits
 
 
 ja:

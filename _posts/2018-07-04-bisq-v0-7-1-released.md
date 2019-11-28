@@ -2,7 +2,7 @@
 layout: post
 title: Bisq v0.7.1 released
 author: Chris Beams
-ref: blog
+en-only: true
 ---
 
 Bisq version 0.7.1 has been released. We recommend all users update immediately.

@@ -67,39 +67,31 @@
 
     <body class="home page-template-default page page-id-6 custom-background">
 
-<!--Select includes/main_nav according to page lang or absence of lang-->
-          {% if page.lang == "en" or page.ref == "blog" or page.ref == "404" %}
+        <!--Select includes/main_nav according to page lang or absence of lang-->
+        {% if page.lang == "en" or page.en-only %}
             {% include main_nav.html %}
-          {% else %}
+        {% else %}
             {% include main_nav_tr.html %}
-          {% endif %}
+        {% endif %}
 
-
-            {% if page.url == '/' %}
-
-                <div class="outter">
-                    {% include homepage_content.html %}
-                </div>
-
+        <div class="outter">
+        {% if page.ref == "index" %}
+            {% if page.lang == "en" %}
+                {% include homepage_content.html %}
             {% else %}
-
-                <div class="outter">
-<!-- Select includes/homepage_content according to page lang -->
-                  {% if page.ref == "index" %}
-                    {% include homepage_content_tr.html %}
-                  {% else %}
-                    {{ content }}
-                  {% endif %}
-                </div>
-
+                {% include homepage_content_tr.html %}
             {% endif %}
+        {% else %}
+            {{ content }}
+        {% endif %}
+        </div>
 
-<!-- Select includes/footer according to page lang -->
-              {% if page.lang == "en" or page.ref == "blog" %}
-                {% include footer.html %}
-              {% else %}
-                {% include footer_tr.html %}
-              {% endif %}
+        <!-- Select includes/footer according to page lang -->
+        {% if page.lang == "en" or page.en-only %}
+            {% include footer.html %}
+        {% else %}
+            {% include footer_tr.html %}
+        {% endif %}
 
 
         <!-- Matomo -->

@@ -99,7 +99,7 @@ dao:
   notConvinced: "Não está convencido de que um token é necessário?"
   pNotConvinced: "<p class=\"bigger\">Nós temos um <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">post</a> só para você.</p>"
   seeMore: >
-    <p>Veja mais recursos em nosso<a href='https://docs.bisq.network/dao.html'> Tudo Sobre a DAO Bisq</a> doc.</p><p>Contribuidores anteriores, verifiquem<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>o link</a>para obter instruções sobre como ser adicionado à distribuição de BSQ da gênese.</p>
+    <p>Veja mais recursos em nosso<a href='https://docs.bisq.network/dao.html'> Tudo Sobre a DAO Bisq</a> doc.</p><p>Contribuidores anteriores, verifiquem <a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>o link</a> para obter instruções sobre como ser adicionado à distribuição de BSQ da gênese.</p>
 downloads:
   hBisqDownloads: Downloads da Bisq
   runningWindows: Parece que você está usando um Windows

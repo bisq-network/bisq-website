@@ -74,13 +74,13 @@ main_nav:
 
 os_selector_options:
   liAllDownloads: Todos os Downloads
-  liAllDownloadsText: Ir para a página de downloads
+  liAllDownloadsText: Ir para downloads
   liWindows: Baixar para windows
   liMac: Baixar para Mac
   liDebian: Baixar para Debian/ubuntu
   liRedHat: Baixar para Red Hat/Fedora
   liArch: Baixar para Arch Linux
-  liArchText: "Repositório dos Usurários de Arch "
+  liArchText: "Repo Arch Linux "
   liSourceCode: Código Fonte
   liReleaseNotes: Notas de Lançamento
   liVerification: Verificação
@@ -111,7 +111,7 @@ downloads:
   tdDebian: Debian/Ubuntu
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
-  tdArchLinuxText: Repositório dos Usuários de Arch
+  tdArchLinuxText: Repo Arch Linux
   tdSourceCode: Código Fonte
   tdReleaseNotes: Notas de Lançamento
   tdReleaseNotesText: Notas de Lançamento para

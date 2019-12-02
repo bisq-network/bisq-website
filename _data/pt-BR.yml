@@ -224,7 +224,7 @@ faq:
     </ol>
   hReputationSystem: "Um sistema de reputação pura entre os negociadores não tornaria os mediadores e os árbitros desnecessários?"
   pReputationSystem: >
-    <p>Reputação pura, sem a opção da arbitragem, é um sistema de proteção fraco, já que você nunca poderia evitar ataques do tipo <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> ou <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</p>. <p>Tais mecanismos também são problemáticos para proteger a privacidade e manter o serviço descentralizado.</p>
+    <p>Reputação pura, sem a opção da arbitragem, é um sistema de proteção fraco, já que você nunca poderia evitar ataques do tipo <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> ou <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a>.</p> <p>Tais mecanismos também são problemáticos para proteger a privacidade e manter o serviço descentralizado.</p>
   hBeArbitrator: "Posso me tornar um mediador ou árbitro?"
   pBeArbitrator: "<p>Mediadores e árbitros são <a href=\"https://docs.bisq.network/user-dao-intro#ensure-honesty-in-high-trust-roles\" target=\"_blank\"> posições com depósito</a> na DAO Bisq.</p><p> Qualquer um pode tentar ser um, porém a aprovação dependerá das necessidades da rede no momento que a proposta for feita.</p>"
   hContactPeer: "Posso entrar em contato com meu parceiro de negociação?"

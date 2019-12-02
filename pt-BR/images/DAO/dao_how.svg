@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="681"
+   height="681"
+   viewBox="0 0 681 681"
+   version="1.1"
+   id="svg1566"
+   sodipodi:docname="dao_how.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1570">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     id="namedview1568"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="0.98018913"
+     inkscape:cx="335.32743"
+     inkscape:cy="360.92505"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="dao_how"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs1516">
+    <style
+       type="text/css"
+       id="style1509">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
+    <style
+       id="style1511">
+      .cls-1 {
+        clip-path: url(#clip-dao_how);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 5;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: #26b036;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        font-size: 16px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 300;
+      }
+    </style>
+    <clipPath
+       id="clip-dao_how">
+      <rect
+         width="681"
+         height="681"
+         id="rect1513" />
+    </clipPath>
+  </defs>
+  <g
+     id="dao_how"
+     class="cls-1"
+     clip-path="url(#clip-dao_how)">
+    <g
+       id="Group_45"
+       data-name="Group 45">
+      <path
+         id="Path_43"
+         data-name="Path 43"
+         class="cls-2"
+         d="M9739.088,4075.913l117.242,7.749,101.59,71.856c0-.8,50.4,97.716,50.4,97.716,0-.4,7.834,131.414,7.834,131.414l-84.215,107.269-109.076,42.855-127.2,3.385-110.91-77.968-51.74-108.046,22.315-135.072,63.118-92.094Z"
+         transform="translate(-9431 -3969)" />
+      <path
+         id="Path_44"
+         data-name="Path 44"
+         class="cls-2"
+         d="M9757.911,4108.223l-141.149,15.529,50.773,125.487,87.953-144,157.947,109.979-165.947-35.077,109.313-99.705,56.635,130.935,59.914,181.463,37.052-140.585s-207.7,42.814-208.885,41.352-48.837-115.808-48.837-115.808l-178.561,74.457-44.694,101.876s113.533,68.153,112.074,66.193-70.6-168.069-70.6-168.069l101.192-3.009,245.808-40.248-116.379,88.117-62.9,34.541-71.078-79.4L9641.5,4423.116l54.357,117.9,88.053-33.932-140.5-86.77,182.077,18.117L9930.286,4490l44.906-94.984-151.573,42.017,50.565-72.7-69.286-67.228-134.908-44.86"
+         transform="translate(-9431 -3969)" />
+      <path
+         id="Path_45"
+         data-name="Path 45"
+         class="cls-3"
+         d="M9876.942,4363.913c-1.117.876-138.5-30.382-138.5-30.382l-101.028,90.722-53.229,37.777"
+         transform="translate(-9431 -3969)" />
+      <path
+         id="Path_46"
+         data-name="Path 46"
+         class="cls-3"
+         d="M9735.255,4330.913l90.5,109.185-22.039-146.313"
+         transform="translate(-9431 -3969)" />
+      <path
+         id="Path_47"
+         data-name="Path 47"
+         class="cls-3"
+         d="M9615.9,4121.825l-41.288,135.522"
+         transform="translate(-9431 -3969)" />
+      <path
+         id="Path_48"
+         data-name="Path 48"
+         class="cls-3"
+         d="M9783.088,4507.913l40.435-70.261-125.217,98.668"
+         transform="translate(-9431 -3969)" />
+      <path
+         id="Path_49"
+         data-name="Path 49"
+         class="cls-3"
+         d="M9977.32,4392.913c-3.785-1.484-103.7-26.669-103.7-26.669l37.522-156.637,93.526,46.547"
+         transform="translate(-9431 -3969)" />
+      <path
+         id="Path_50"
+         data-name="Path 50"
+         class="cls-3"
+         d="M9954.817,4151.471l-40.414,62.356"
+         transform="translate(-9431 -3969)" />
+      <path
+         id="Path_57"
+         data-name="Path 57"
+         class="cls-3"
+         d="M10012.023,4151.471l-97.62,24.967"
+         transform="translate(-9589.315 -4035.524)" />
+      <path
+         id="Path_51"
+         data-name="Path 51"
+         class="cls-3"
+         d="M9914.4,4151.471l17,37.087"
+         transform="translate(-9606.316 -4044.558)" />
+      <path
+         id="Path_54"
+         data-name="Path 54"
+         class="cls-3"
+         d="M9914.4,4159.471l41-8"
+         transform="translate(-9370.316 -3735.558)" />
+      <path
+         id="Path_55"
+         data-name="Path 55"
+         class="cls-3"
+         d="M9914.406,4164.472l136-13"
+         transform="translate(-9550.316 -3629.559)" />
+      <path
+         id="Path_56"
+         data-name="Path 56"
+         class="cls-3"
+         d="M9914.406,4259.471l201-108"
+         transform="translate(-9790.318 -4010.559)" />
+      <path
+         id="Path_53"
+         data-name="Path 53"
+         class="cls-3"
+         d="M9917.066,4151.471l-2.662,95.9"
+         transform="translate(-9522.316 -3680.373)" />
+      <path
+         id="Path_52"
+         data-name="Path 52"
+         class="cls-3"
+         d="M9914.4,4151.471l221,216"
+         transform="translate(-9591.316 -3943.558)" />
+    </g>
+    <g
+       id="Group_46"
+       data-name="Group 46">
+      <circle
+         id="Ellipse_1"
+         data-name="Ellipse 1"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(296.175 95)" />
+      <circle
+         id="Ellipse_60"
+         data-name="Ellipse 60"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(413.175 103)" />
+      <circle
+         id="Ellipse_61"
+         data-name="Ellipse 61"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(313.175 129)" />
+      <circle
+         id="Ellipse_82"
+         data-name="Ellipse 82"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(306.175 201)" />
+      <circle
+         id="Ellipse_62"
+         data-name="Ellipse 62"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(175.175 144)" />
+      <circle
+         id="Ellipse_63"
+         data-name="Ellipse 63"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(112.175 237)" />
+      <circle
+         id="Ellipse_64"
+         data-name="Ellipse 64"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(132.175 276)" />
+      <circle
+         id="Ellipse_65"
+         data-name="Ellipse 65"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(226.175 269)" />
+      <circle
+         id="Ellipse_66"
+         data-name="Ellipse 66"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(91.175 371)" />
+      <circle
+         id="Ellipse_67"
+         data-name="Ellipse 67"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(144.175 481)" />
+      <circle
+         id="Ellipse_68"
+         data-name="Ellipse 68"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(199.175 440)" />
+      <circle
+         id="Ellipse_69"
+         data-name="Ellipse 69"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(254.175 557)" />
+      <circle
+         id="Ellipse_70"
+         data-name="Ellipse 70"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(340.175 527)" />
+      <circle
+         id="Ellipse_71"
+         data-name="Ellipse 71"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(380.175 553)" />
+      <circle
+         id="Ellipse_72"
+         data-name="Ellipse 72"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(382.175 457)" />
+      <circle
+         id="Ellipse_73"
+         data-name="Ellipse 73"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(296.175 350)" />
+      <circle
+         id="Ellipse_74"
+         data-name="Ellipse 74"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(361.175 314)" />
+      <circle
+         id="Ellipse_75"
+         data-name="Ellipse 75"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(431.175 383)" />
+      <circle
+         id="Ellipse_76"
+         data-name="Ellipse 76"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(488.175 510)" />
+      <circle
+         id="Ellipse_77"
+         data-name="Ellipse 77"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(532.175 412)" />
+      <circle
+         id="Ellipse_78"
+         data-name="Ellipse 78"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(573.175 404)" />
+      <circle
+         id="Ellipse_79"
+         data-name="Ellipse 79"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(565.175 273)" />
+      <circle
+         id="Ellipse_80"
+         data-name="Ellipse 80"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(469.175 232)" />
+      <circle
+         id="Ellipse_81"
+         data-name="Ellipse 81"
+         class="cls-4"
+         cx="11.912"
+         cy="11.912"
+         r="11.912"
+         transform="translate(512.175 171)" />
+    </g>
+    <text
+       id="Revenue-distribution"
+       class="cls-5"
+       x="253.51669"
+       y="70.601997"
+       style="font-weight:300;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+      <tspan
+         sodipodi:role="line"
+         id="tspan3203"
+         x="253.51669"
+         y="70.601997">Distribuição de receita</tspan>
+    </text>
+    <text
+       id="Decision-making"
+       class="cls-5"
+       x="267.74716"
+       y="617.60199"
+       style="font-weight:300;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+      <tspan
+         sodipodi:role="line"
+         id="tspan3205"
+         x="267.74716"
+         y="617.60199">Tomada de decisão</tspan>
+    </text>
+  </g>
+</svg>

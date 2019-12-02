@@ -40,3 +40,9 @@
   accept_languages: ["zh", "zh-CN"]
   site_name: "Bisq - 去中心化的比特币交易"
   site_desc: "Bisq 是一个开源的电脑程序，使你能够使用当地货币或加密货币来买卖比特币。"
+- name: "Português"
+  tag: "pt-BR"
+  enabled: Yes
+  accept_languages: ["pt-BR"]
+  site_name: "Bisq - A exchange de Bitcoin descentralizada"
+  site_desc: "Bisq é uma aplicação de desktop open-source que lhe permite comprar e vender bitcoins em troca de moedas nacionais ou altcoin."

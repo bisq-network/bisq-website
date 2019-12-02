@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Benefactors &lsaquo; Bisq - The decentralized Bitcoin exchange
-ref: blog
+en-only: true
 ---
 
 # Benefactors

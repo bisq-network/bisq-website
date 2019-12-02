@@ -2,7 +2,7 @@
 layout: post
 title: Bitsquare Website Updated
 author: Lloyd Johnson
-ref: blog
+en-only: true
 ---
 As the Bitsquare Application comes closer to a public Alpha we have been working hard towards updating the Bitsquare website too. The new website went live as of October 26, 2014.
 

@@ -26,13 +26,12 @@ outdated_translation: false
     <li><img src="/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">Canal de Bisq en Youtube</a><br>Vea y participe en nuestros reportes semanales, entrevistas con los desarrolladores y otros contenidos multimedia</li>
   </ul>
   <ul class="mt-sm-0 mb-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
-    <li><img src="/images/community/slack.svg" alt="slack"> <a href="https://bisq.network/slack-invite">Espacio de trabajo de Bisq en Slack</a><br>Participe en la conversación sobre cómo mejorar Bisq</li>
-    <li><img src="/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">Foro de Bisq</a><br>Publique sus opiniones y preguntas en el foro Bisq</li>
-    <li><img src="/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">Lista de correo del contribuidor de Bisq</a><br>Suscríbase a nuestro boletín</li>
+    <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">Bisq Keybase team</a><br>Join the Bisq team on Keybase</li>
+    <li><img src="/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">Bisq Forum</a><br>Post your opinions and questions on the Bisq forum</li>
+    <li><img src="/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">Bisq Contributor mailing list</a><br>Join our newsletter</li>
   </ul>
   <ul class="mt-sm-0 mb-0 mt-md-3 mb-md-5 community-links grey col-sm-12 col-md-4 pr-3">
-    <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">#Bisq en Freenode IRC</a><br>Servidor IRC freenode para un chat más descentralizado</li>
-    <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">r/Bisq Subreddit</a><br>Obtenga soporte y participe con la comunidad en el subreddit Bisq</li>
-    <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">Equipo de Bisq en Keybase</a><br>Únete al equipo de Bisq en Keybase</li>
+    <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">#bisq on Freenode IRC</a><br>IRC freenode server for more decentralized chat</li>
+    <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">r/Bisq Subreddit</a><br>Get support and mingle with the community in Bisq's subreddit</li>
   </ul>
 </div>

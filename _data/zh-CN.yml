@@ -47,7 +47,7 @@ homepage_content:
   hSecure: 全天在线以及安全
   pSecure: 点对点加密通信路由到 Tor，没有停机时间。
   hOpen: 开放
-  pOpen: "<p class=\"grey px-md-5\">代码是<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">开源</a>的，项目策略在<a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a>和<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>上公开讨论。"
+  pOpen: "<p class=\"grey px-md-5\">代码是<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">开源</a>的，项目策略在<a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a>和<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>上公开讨论。"
   hEasy: 便利
   pEasy: "<p class=\"grey px-md-5\">我们已经使所有这些复杂变得更加简单-<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">使您的第一次交易在</a>10分钟之内!</p>"
   hBisqDao: Bisq DAO
@@ -65,12 +65,11 @@ homepage_content:
   liGithub: "GitHub 上的 @bisq-network"
   liTwitter: "Twitter 上的 @bisq_network"
   liYoutube: Bisq 的 YouTube 频道
-  liSlack: Bisq 的 Slack 交流群
   liForum: Bisq 论坛
   liMailingList: Bisq 贡献者邮件列表
   liFreenodeIRC: "Freenode IRC 上的 #bisq"
   liSubreddit: r/Bisq 的 reddit 分话题
-  liKeybase: "Bisq Keybase team"
+  liKeybase: "Bisq Keybase"
 
 main_nav:
   liDownloads: 下载
@@ -273,7 +272,7 @@ faq:
   pBeArbitrator: "<p>所需的<a href=\"https://docs.bisq.network/dao/phase-zero.html\" target=\"_blank\" rel=\"noopener\">BSQ 债券</a>非常高，目前只有极少数人对 Bisq 做出了足够的贡献，从而获得了这么多 BSQ 。</p>"
   hContactPeer: "我可以联系我的交易伙伴吗？"
   pContactPeer: >
-    <p>到目前为止，Bisq 有意避免提供与交易双方直接接触的方式。一般来说不需要这样一个机制，并不需要提供一个只会对安全带来威胁的功能:恶意用户可能欺骗伙伴直接交易不使用 Bisq ，然后利用缺乏安全系统的保护想摆脱对方，或使用其他欺诈活动的直接渠道（社工诈骗、垃圾邮件等）。</p><p>相反，如果出现任何问题，用户可以在仲裁员的帮助下打开纠纷并解决问题。此外，还有<a href='https://bisq.community' target='_blank'> Bisq 论坛</a>和<a href='https://bisq.network/slack-invite' target='_blank'> Slack 频道</a>可供用户获取帮助。</p><p>注意：随着<a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>新的交易协议</a>的推出，将有一种方式，让双方直接沟通。</p>
+    <p>到目前为止，Bisq 有意避免提供与交易双方直接接触的方式。一般来说不需要这样一个机制，并不需要提供一个只会对安全带来威胁的功能:恶意用户可能欺骗伙伴直接交易不使用 Bisq ，然后利用缺乏安全系统的保护想摆脱对方，或使用其他欺诈活动的直接渠道（社工诈骗、垃圾邮件等）。</p><p>相反，如果出现任何问题，用户可以在仲裁员的帮助下打开纠纷并解决问题。此外，还有<a href='https://bisq.community' target='_blank'> Bisq 论坛</a>和<a href='https://keybase.io/team/bisq' target='_blank'> Keybase 频道</a>可供用户获取帮助。</p><p>注意：随着<a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>新的交易协议</a>的推出，将有一种方式，让双方直接沟通。</p>
   hBisqDAO: Bisq DAO
   hBisqDaoWhat: "什么是 Bisq DAO？"
   pBisqDaoWhat: >
@@ -310,7 +309,7 @@ faq:
 
     <li>仲裁员可以查看交易的证据</li>
 
-    </ul><p>每个国家都支持国家银行转账。</p><p>您可以在<a href='https://bisq.community' target='_blank'>论坛</a>、<a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>或<a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>上建议一种新的支付方式。</p>
+    </ul><p>每个国家都支持国家银行转账。</p><p>您可以在<a href='https://bisq.community' target='_blank'>论坛</a>、<a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>或<a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>上建议一种新的支付方式。</p>
   hSoftwareBugs: "如果出现软件错误，会发生什么？"
   pSoftwareBugs: >
     <p>如果 Bisq 应用程序发现您有软件问题，它将显示一个“提交工单”按钮。仲裁人员将您的错误报告转发给开发人员，开发人员将开始对问题进行调查。你可能会问
@@ -320,7 +319,7 @@ faq:
   pMultisig: >
     <p>它被称为“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">多重签名</a>”，是作为一种智能合约的简单版本内置在比特币中。使用多个公钥生成一个多重签名地址，并指定必须签署多少个公钥才能释放资金。</p><p>Bisq 使用2 / 3的多重签名地址。这意味着三个公钥用于创建支付地址（买方的、卖方的和仲裁方的），并且交易必须由三方中的两方签署才能释放资金。</p><p>通常，买方和卖方各自签署交易以释放资金。但在发生争议时，仲裁员会站在一方当事人的立场，提供第二份签字，以释放资金。</p>
   hOtherQuestions: "我有一个问题没有在这里解答…？"
-  pOtherQuestions: "<p>请将您的问题发布在<a href=\"https://bisq.community/\" target=\"_blank\"> Bisq 论坛</a>或<a href='https://bisq.network/slack-invite' target='_blank'> Slack 频道</a>。</p>"
+  pOtherQuestions: "<p>请将您的问题发布在<a href=\"https://bisq.community/\" target=\"_blank\"> Bisq 论坛</a>或<a href='https://keybase.io/team/bisq' target='_blank'> Keybase 频道</a>。</p>"
 
 
 markets:

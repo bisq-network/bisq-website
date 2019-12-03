@@ -39,7 +39,7 @@ homepage_content:
   hSecure: Seguro e sempre funcionando
   pSecure: Comunicação criptografada de ponta a ponta roteada através do Tor e sem tempo de inatividade.
   hOpen: Aberto
-  pOpen: "<p class=\"grey px-md-5\">O código é <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">aberto</a>, e a estratégia do projeto é discutida abertamente no <a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a> e <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  pOpen: "<p class=\"grey px-md-5\">O código é <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">aberto</a>, e a estratégia do projeto é discutida abertamente no <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> e <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Fácil de Usar
   pEasy: "<p class=\"grey px-md-5\">Nós fizemos toda essa sofisticação simples—<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">faça sua primeira negociação</a> em menos de 10 minutos!</p>"
   hBisqDao: A DAO Bisq
@@ -57,7 +57,6 @@ homepage_content:
   liGithub: "@bisq-network no GitHub"
   liTwitter: "@bisq-network no Twitter"
   liYoutube: Canal da Bisq no YouTube
-  liSlack: Workspace da Bisq no Slack
   liForum: Fórum Bisq
   liMailingList: Lista de discussão de Contribuidores da Bisq
   liFreenodeIRC: "#bisq no IRC da Freenode"
@@ -260,7 +259,7 @@ faq:
     <p>A Bisq já suporta uma variedade de meios de pagamento para moedas nacionais, mas novos meios podem ser adicionados desde que:</p> <ul>
       <li>estornos sejam pouco prováveis</li>
       <li>mediadores e árbitros consigam ver evidência da transação</li>
-    </ul> <p>Transferências bancárias são suportadas em todos os países.</p> <p>Você pode sugerir um novo meio de pagamento no <a href='https://bisq.community' target='_blank'>forum</a>, <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>, ou <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
+    </ul> <p>Transferências bancárias são suportadas em todos os países.</p> <p>Você pode sugerir um novo meio de pagamento no <a href='https://bisq.community' target='_blank'>forum</a>, <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>, ou <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
   hSoftwareBugs: "O que acontece no caso de bugs no software?"
   pSoftwareBugs: >
     <p>Se o programa da Bisq perceber que você está tendo algum problema com o software, ela vai mostrar um botão "enviar ticket para suporte". O seu árbitro vai encaminhar o seu relatório de bug para os desenvolvedores, que vão investigar o problema. Você pode ser perguntado
@@ -270,7 +269,7 @@ faq:
   pMultisig: >
     <p>“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multi-assinatura</a>”, como é chamado, é integrado no Bitcoin como uma versão simples de smart contract. Um endereço multi-assinatura é gerado quando múltiplas chaves públicas e uma especificaçäo de quantas dessas chaves precisam assinar para liberar os fundos.</p> <p> A Bisq usa endereços multi-assinatura 2-de-3. Isso quer dizer que três chaves públicas são usadas para criar o endereço de pagamento (a do comprador, do vendedor e a do árbitro), e a transação precisa ser assinada por duas das três partes para que os fundos sejam liberados.</p> <p> Geralmente, ambos, o comprador e o vendedor assinam a transação para liberar os fundos. No caso de disputa, um árbitro vai tomar lado de uma das duas partes para fornecer a segunda assinatura necessária para a liberação dos fundos.</p>
   hOtherQuestions: "Eu tenho uma pergunta que não é abordada aqui ...?"
-  pOtherQuestions: "<p>Por favor envie sua pergunta ao <a href=\"https://bisq.community/\" target=\"_blank\">forum Bisq</a> ou <a href='https://bisq.network/slack-invite' target='_blank'> no Slack</a>.</p>"
+  pOtherQuestions: "<p>Por favor envie sua pergunta ao <a href=\"https://bisq.community/\" target=\"_blank\">forum Bisq</a> ou no <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>.</p>"
 
 
 markets:

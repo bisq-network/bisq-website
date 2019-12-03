@@ -10,7 +10,7 @@ en-only: true
 
 _This post is by John Forsyth. John is a non-technical enthusiast for cryptocurrencies and decentralized autonomous organizations. [Follow him here](https://www.instagram.com/daokid1/) for more content about DAOs and cryptocurrencies._
 
-_If you'd like to contribute a post, please reach out on [Slack](https://bisq.network/slack-invite) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
+_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/bisq) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
 
 <hr>
 

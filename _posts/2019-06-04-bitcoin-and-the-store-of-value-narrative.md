@@ -10,7 +10,7 @@ en-only: true
 
 _Manuel writes at [juandemariana.org](https://www.juandemariana.org), is a perpetual student of monetary theory, and is a Bitcoin quasi-maximalist (he is almost there)._
 
-_If you'd like to contribute a post, please reach out on [Slack](https://bisq.network/slack-invite)!_
+_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/bisq)!_
 
 <hr>
 

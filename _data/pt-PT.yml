@@ -39,7 +39,7 @@ homepage_content:
   hSecure: Seguro e sempre Online
   pSecure: Comunicação encriptada de ponta a ponta roteada por Tor e sem tempo de inatividade.
   hOpen: Aberto
-  pOpen: "<p class=\"grey px-md-5\">O código é <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>,e a stratégia do projeto é discutida em aberto no <a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a> e no <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  pOpen: "<p class=\"grey px-md-5\">O código é <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>,e a stratégia do projeto é discutida em aberto no <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> e no <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Fácil de usar
   pEasy: "<p class=\"grey px-md-5\">Simplificamos toda essa sofisticação -<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">faça a sua primeira troca</a> em menos de 10 minutos!</p>"
   hBisqDao: A OAD do Bisq
@@ -57,12 +57,11 @@ homepage_content:
   liGithub: "@bisq-network no GitHub"
   liTwitter: "@bisq_network no Twitter"
   liYoutube: Canal Youtube do Bisq
-  liSlack: Bisq Slack workspace
   liForum: Bisq Forum
   liMailingList: Bisq Contributor mailing list
   liFreenodeIRC: "#bisq on Freenode IRC"
   liSubreddit: r/Bisq Subreddit
-  liKeybase: "Bisq Keybase team"
+  liKeybase: "Bisq no Keybase"
 
 main_nav:
   liDownloads: Downloads
@@ -258,7 +257,7 @@ faq:
   pBeArbitrator: "<p>O <a href=\"https://docs.bisq.network/dao/phase-zero.html\" target=\"_blank\" rel=\"noopener\">vínculo de BSQ</a>é muito alto e atualmente existem muito poucas pessoas que contribuíram o suficiente para o Bisq ter ganho tanto BSQ.</p>"
   hContactPeer: "Posso entrar em contato com meu par de negociação?"
   pContactPeer: >
-    <p>Até agora, o Bisq intencionalmente evitou oferecer uma maneira de entrar em contato direto com o par de negociação. Geralmente não há necessidade de tal mecanismo, e oferecer um só abriria uma 'lata de vermes' com relação à segurança: usuários maliciosos poderiam encaminhar os seus pares à um negócio direto sem usar o Bisq, e então explorar a falta de segurança para roubar a outra pessoa, ou usar o canal direto para outras atividades fraudulentas (fraudes de engenharia social, spam, etc.).</p> <p>Em vez disso, em caso de problemas, os usuários podem abrir uma disputa e resolver o problema com a ajuda de um árbitro. Existe também o <a href='https://bisq.community' target='_blank'>fórum do Bisq</a> e <a href='https://bisq.network/slack-invite' target='_blank'>o canal do Slack</a> disponíveis para os utilizadores receberem ajuda.</p> <p>Nota: contudo, com o lançamento do <a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>novo protocolo de negócio</a>, haverá meios para que os pares se comuniquem diretamente entre si.</p>
+    <p>Até agora, o Bisq intencionalmente evitou oferecer uma maneira de entrar em contato direto com o par de negociação. Geralmente não há necessidade de tal mecanismo, e oferecer um só abriria uma 'lata de vermes' com relação à segurança: usuários maliciosos poderiam encaminhar os seus pares à um negócio direto sem usar o Bisq, e então explorar a falta de segurança para roubar a outra pessoa, ou usar o canal direto para outras atividades fraudulentas (fraudes de engenharia social, spam, etc.).</p> <p>Em vez disso, em caso de problemas, os usuários podem abrir uma disputa e resolver o problema com a ajuda de um árbitro. Existe também o <a href='https://bisq.community' target='_blank'>fórum do Bisq</a> e <a href='https://keybase.io/team/bisq' target='_blank'>o Keybase</a> disponíveis para os utilizadores receberem ajuda.</p> <p>Nota: contudo, com o lançamento do <a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>novo protocolo de negócio</a>, haverá meios para que os pares se comuniquem diretamente entre si.</p>
   hBisqDAO: A OAD do Bisq
   hBisqDaoWhat: "O que é a OAD do Bisq?"
   pBisqDaoWhat: >
@@ -289,7 +288,7 @@ faq:
     <p>O Bisq já suporta uma ampla gama de métodos de pagamento para moedas nacionais, mas novos podem ser adicionados desde que:</p> <ul>
       <li>estornos sejam improváveis</li>
       <li>os árbitros possam ver evidências da transação</li>
-    </ul> <p>Transferências bancárias nacionais são apoiadas em todos os países.</p> <p>Você pode sugerir um novo método de pagamento no <a href='https://bisq.community' target='_blank'>fórum</a>, <a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>, ou <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
+    </ul> <p>Transferências bancárias nacionais são apoiadas em todos os países.</p> <p>Você pode sugerir um novo método de pagamento no <a href='https://bisq.community' target='_blank'>fórum</a>, <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>, ou <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
   hSoftwareBugs: "O que acontece em caso de erros de software?"
   pSoftwareBugs: >
     <p>Se o programa do Bisq reconhecer que você está com um problema de software, ele exibirá um botão "bilhete de apoio". O seu árbitro irá encaminhar o seu relatório de erro para os desenvolvedores, que iniciarão uma investigação do problema. Você pode ser solicitado o ficheiro de log para ajudar no processo.</p> <p>Se o botão não aparecer, você poderá abrir um bilhete de apoio clicando em Cmd+o (or Ctrl+o, dependendo do seu sistema) quando o negócio estiver selecionado em Portefólio > Lista de Negócios Abertos.</p>
@@ -297,7 +296,7 @@ faq:
   pMultisig: >
     <p>“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multi-assinatura</a>”, como é chamado, está embutido no Bitcoin como uma versão simples de um contrato inteligente. Um endereço multi-assinatura é gerado com várias chaves públicas e uma especificação de quantas dessas chaves devem assinar para liberar os fundos.</p> <p>O Bisq usa 2 de 3 endereços multi-assinatura. Isso significa que três chaves públicas são usadas para criar o endereço de pagamento (do comprador, do vendedor e do árbitro), e a transação deve ser assinada por duas das três partes para que os fundos sejam liberados.</p> <p>Normalmente, o comprador e o vendedor assinam a transação para liberar fundos. Mas em caso de disputa, um árbitro ficará do lado de uma das partes para fornecer a segunda assinatura para liberar fundos.</p>
   hOtherQuestions: "Eu tenho uma pergunta que não é abordada aqui ...?"
-  pOtherQuestions: "<p>Por favor, poste sua pergunta no <a href=\"https://bisq.community/\" target=\"_blank\">fórum do Bisq </a> ou <a href='https://bisq.network/slack-invite' target='_blank'>canal do Slack</a>.</p>"
+  pOtherQuestions: "<p>Por favor, poste sua pergunta no <a href=\"https://bisq.community/\" target=\"_blank\">fórum do Bisq </a> ou <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>.</p>"
 
 
 markets:

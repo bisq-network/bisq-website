@@ -10,7 +10,7 @@ en-only: true
 
 _Tomáš is a Bisq contributor, crypto enthusiast, libertarian, and voluntarist._
 
-_If you'd like to contribute a post, please reach out on [Slack](https://bisq.network/slack-invite) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
+_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/bisq) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
 
 <hr>
 

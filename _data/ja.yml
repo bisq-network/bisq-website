@@ -39,7 +39,7 @@ homepage_content:
   hSecure: 安全で常にオン
   pSecure: ダウンタイムなしでTor経由でルーティングされるエンドツーエンドの暗号化通信。
   hOpen: オープン
-  pOpen: "<p class=\"grey px-md-5\">コードは<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">オープンソース</a>で、プロジェクト戦略は<a href=\"https://bisq.network/slack-invite\" target=\"_blank\" rel=\"noopener\">Slack</a>と<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>でオープンに議論されています。</p>"
+  pOpen: "<p class=\"grey px-md-5\">コードは<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">オープンソース</a>で、プロジェクト戦略は<a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a>と<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>でオープンに議論されています。</p>"
   hEasy: 使うのが簡単
   pEasy: "<p class=\"grey px-md-5\">この洗練された機能をすべてシンプルにしました。<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">最初の取引</a>を10分以内で！</p>"
   hBisqDao: Bisq DAO
@@ -57,7 +57,6 @@ homepage_content:
   liGithub: "@bisq-network on GitHub"
   liTwitter: "@bisq-network on Twitter"
   liYoutube: Bisq YouTubeチャンネル
-  liSlack: Bisq Slackワークスペース
   liForum: Bisqフォーラム
   liMailingList: Bisq貢献者メーリングリスト
   liFreenodeIRC: "#bisq on Freenode IRC"
@@ -250,7 +249,7 @@ faq:
   pBeArbitrator: "<p>必要な<a href=\"https://docs.bisq.network/dao/phase-zero.html\" target=\"_blank\" rel=\"noopener\">BSQ担保</a>は非常に高く、現在、Bisqにこれほど多くのBSQを獲得できるほど十分な貢献をした人はごくわずかです。</p>"
   hContactPeer: "私はトレード相手とコンタクトを取れますか？"
   pContactPeer: >
-    <p>これまでのところ、Bisqはトレード相手と直接連絡を取る方法を提供することを意図的に避けてきました。通常、このようなメカニズムは不要であり、提供することでセキュリティに関して「ワームの缶」を開くだけです。つまり、悪意のあるユーザーは、Bisqを使用せずに相手を直接取引するよう誘導し、セキュリティの欠如を悪用して他人から奪い取ることができます。または、他の詐欺行為（ソーシャルエンジニアリングの詐欺、スパムなど）に直接チャネルを使用します。</p> <p>代わりに、問題が発生した場合、ユーザーは調停人の助けを借りて係争を開始し、問題を解決できます。また、<a href='https://bisq.community' target='_blank'>Bisqフォーラム</a>と<a href='https://bisq.network/slack-invite' target='_blank'>Slackチャンネル</a>があり、ユーザーがヘルプを利用できます。</p> <p>注：ただし、<a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>新しい取引プロトコル</a>の開始に伴い、ピアが相互に直接通信する手段が出てくるでしょう。</p>
+    <p>これまでのところ、Bisqはトレード相手と直接連絡を取る方法を提供することを意図的に避けてきました。通常、このようなメカニズムは不要であり、提供することでセキュリティに関して「ワームの缶」を開くだけです。つまり、悪意のあるユーザーは、Bisqを使用せずに相手を直接取引するよう誘導し、セキュリティの欠如を悪用して他人から奪い取ることができます。または、他の詐欺行為（ソーシャルエンジニアリングの詐欺、スパムなど）に直接チャネルを使用します。</p> <p>代わりに、問題が発生した場合、ユーザーは調停人の助けを借りて係争を開始し、問題を解決できます。また、<a href='https://bisq.community' target='_blank'>Bisqフォーラム</a>と<a href='https://keybase.io/team/bisq' target='_blank'>Keybaseチャンネル</a>があり、ユーザーがヘルプを利用できます。</p> <p>注：ただし、<a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>新しい取引プロトコル</a>の開始に伴い、ピアが相互に直接通信する手段が出てくるでしょう。</p>
   hBisqDAO: The Bisq DAO
   hBisqDaoWhat: "Bisq DAOとは何ですか？"
   pBisqDaoWhat: >
@@ -281,7 +280,7 @@ faq:
     <p>Bisqはすでに各国通貨の幅広い支払い方法をサポートしていますが、次の条件が満たされる限り、新しいものを追加できます。</p> <ul>
      <li>チャージバックが起きにくい</li>
      <li>調停人が取引の証拠を見ることができる</li>
-    </ul> <p>各国の銀行振込はすべての国でサポートされています。</p> <p><a href='https://bisq.community' target='_blank'>フォーラム</a>、<a href='https://bisq.network/slack-invite' target='_blank'>Slack</a>、または<a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>で新しい支払い方法を提案できます。</p>
+    </ul> <p>各国の銀行振込はすべての国でサポートされています。</p> <p><a href='https://bisq.community' target='_blank'>フォーラム</a>、<a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>、または<a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>で新しい支払い方法を提案できます。</p>
   hSoftwareBugs: "ソフトウェアのバグの場合はどうなりますか？"
   pSoftwareBugs: >
     <p>Bisqアプリケーションがソフトウェアの問題を認識している場合、「サポートチケット」ボタンが表示されます。調停人がバグレポートを開発者に転送し、開発者は問題の調査を開始します。あなたは求められるかもしれません
@@ -291,7 +290,7 @@ faq:
   pMultisig: >
     <p>いわゆる「<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">マルチシグ</a>」は、スマートコントラクトの単純なバージョンとしてビットコインに組み込まれています。マルチシグアドレスは、複数の公開鍵と、資金を解放するためにそれらの鍵のうちいくつかが署名する必要がある、という仕様で生成されます。</p> <p>Bisqでは2-of-3のマルチシグアドレスを使用します。これは、3つの公開鍵を使用する支払いアドレスを作成することを意味します（買い手、売り手、および調停人）。そして資金が解放されるためには、トランザクションに3者のうち2者によって署名されなければなりません。</p> <p>通常、買い手と売り手はそれぞれ資金を解放するためにトランザクションに署名します。 ただし、係争が発生した場合、調停人は一方の当事者と協力して、2番目の署名を提供して資金を解放します。</p>
   hOtherQuestions: "ここで取り上げていない質問があります…？"
-  pOtherQuestions: "<p>質問を<a href=\"https://bisq.community/\" target=\"_blank\">Bisqフォーラム</a>または<a href='https://bisq.network/slack-invite' target='_blank'>Slackチャンネル</a>に投稿してください。</p>"
+  pOtherQuestions: "<p>質問を<a href=\"https://bisq.community/\" target=\"_blank\">Bisqフォーラム</a>または<a href='https://keybase.io/team/bisq' target='_blank'>Keybaseチャンネル</a>に投稿してください。</p>"
 
 
 markets:

@@ -25,3 +25,28 @@ layout: page
   <br>
   <a href="/blog">« Back to Blog</a>
 </div>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "{{ page.title }}",
+        "description": "{{ page.excerpt }}",
+        "image": "https://bisq.network/images/bisq-fav.png",  
+        "author": {
+            "@type": "Person",
+            "name": "{{ page.author }}"
+        },  
+        "publisher": {
+            "@type": "Organization",
+            "name": "Bisq",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://bisq.network/images/bisq-fav.png"
+            }
+        },
+        "datePublished": "{{ page.date }}",
+        "dateModified": "{{ page.date }}",
+        "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+    }
+</script>

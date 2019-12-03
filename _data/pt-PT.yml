@@ -312,9 +312,9 @@ stats:
   pTotalDate: Durante o mês passado
   pDailyAverageTrade: Média de negócios por dia
   pSoftwareDownloads: Downloads do Software
-  pSoftwareDownloadsVersion: Para v1.1.5 (aproximativa)
+  pSoftwareDownloadsVersion: Para v1.2.3 (aproximativa)
   pGithubContributors: Contribuintes no GitHub
   pToDate: Até o mês passado
   pTwitterFollowers: Seguidores no Twitter
-  pSlackUsers: Utilizadores do Slack
+  pKeybaseUsers: Utilizadores do Keybase
   pNetworkLoad: "<p class='monitor-note'>Para a carga da rede P2P, métricas do Tor, e outros dados da rede, por favor visite o <a href='https://monitor.bisq.network' target='_blank'>Monitor da Rede do Bisq</a>.</p>"

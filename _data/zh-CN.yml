@@ -335,9 +335,9 @@ stats:
   pTotalDate: 上月数据
   pDailyAverageTrade: 每日交易数
   pSoftwareDownloads: 软件下载数<
-  pSoftwareDownloadsVersion: 在 v1.1.5（近似数）
+  pSoftwareDownloadsVersion: 在 v1.2.3（近似数）
   pGithubContributors: GitHub 贡献者
   pToDate: 截止上月
   pTwitterFollowers: Twitter 粉丝数
-  pSlackUsers: Slack 用户数
+  pKeybaseUsers: Keybase 用户数
   pNetworkLoad: "<p class='monitor-note'>有关 P2P 网络负载情况、Tor 指标和其他网络数据，请访问<a href='https://monitor.bisq.network' target='_blank'>Bisq 网络状况监控</a>。</p>"

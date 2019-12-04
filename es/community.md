@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Comunidad &lsaquo; Bisq - The decentralized Bitcoin exchange
+title: Comunidad &lsaquo; Bisq - A decentralized bitcoin exchange network
 ref: community
 lang: es
 flag: 🇪🇸

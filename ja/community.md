@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Community &lsaquo; Bisq - The decentralized Bitcoin exchange
+title: Community &lsaquo; Bisq - A decentralized bitcoin exchange network
 ref: community
 lang: ja
 flag: 🇯🇵

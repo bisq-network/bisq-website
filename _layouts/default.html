@@ -63,6 +63,56 @@
         <script defer src="/js/bootstrap.min.js"></script>
         <script defer src="/js/scripts.js"></script>
 
+{% unless page.layout == "post" %}
+        <!-- Schema.org JSON-LD Markup for Search Engine Optimization -->
+        <script type='application/ld+json'>
+        {
+            "@context": "https://schema.org/",
+            "@type": "SoftwareApplication",
+            "applicationCategory": "FinanceApplication",
+            "name": "Bisq Network",
+            "image": "https://bisq.network/images/bisq-logo.svg",
+            "availableOnDevice": "Desktop",
+            "author": {
+            "@type": "Project",
+            "url": "https://bisq.network/",
+            "name": "Bisq",
+            "sameAs": [
+                "https://github.com/bisq-network",
+                "https://twitter.com/bisq_network",
+                "https://www.youtube.com/c/bisq-network",
+                "https://bisq.network/slack-invite",
+                "https://bisq.community/",
+                "https://lists.bisq.network/listinfo/bisq-contrib",
+                "https://webchat.freenode.net/?channels=bisq",
+                "https://www.reddit.com/r/bisq",
+                "https://keybase.io/team/bisq"
+	          ]
+            },
+            "downloadUrl": "https://bisq.network/downloads/",
+            "fileSize": "180MB",
+            "operatingSystem": [
+                "Windows",
+                "Linux",
+                "OSX"
+            ],
+            "releaseNotes": "https://github.com/bisq-network/bisq/releases/latest",
+            "screenshot": "https://bisq.network/images/bisq_screen0.png",
+            "softwareVersion": "{{ site.client_version }}",
+            "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "ratingCount": "5"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+	    "priceCurrency": "BTC"
+          }
+        }
+        </script>
+{% endunless %}
+
     </head>
 
     <body class="home page-template-default page page-id-6 custom-background">

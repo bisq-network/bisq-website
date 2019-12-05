@@ -18,6 +18,59 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.2.4
+{: .mt-5 .mb-2}
+Released [December 5th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.4)
+
+This release is packed with bug fixes and improvements. It improves mailbox handling when a trading peer or arbitrator/mediator is offline, shows account age for high-risk payment methods in the UI, and should improve the trade process robustness in general.
+
+###### DAO
+- [Only show accepted bonded roles in bond view](https://github.com/bisq-network/bisq/pull/3676)
+
+###### UI
+- Text improvements: [1](https://github.com/bisq-network/bisq/pull/3591), [2](https://github.com/bisq-network/bisq/pull/3624), [3](https://github.com/bisq-network/bisq/pull/3637), [4](https://github.com/bisq-network/bisq/pull/3643), [5](https://github.com/bisq-network/bisq/pull/3647), [6](https://github.com/bisq-network/bisq/pull/3696)
+- [Fix malformed trade chat & dispute speech bubbles](https://github.com/bisq-network/bisq/pull/3680)
+- [Replace arbitration link in terms and conditions](https://github.com/bisq-network/bisq/pull/3696)
+- [Use correct language tags for script and regional language variants](https://github.com/bisq-network/bisq/pull/3716)
+- [Add traditional Chinese](https://github.com/bisq-network/bisq/pull/3714)
+
+###### Trading
+- [Re-introduce account age to payment methods with high chargeback risk](https://github.com/bisq-network/bisq/pull/3580)
+- [Improve account signing security](https://github.com/bisq-network/bisq/pull/3682)
+- [Fix possiblePaymentAccounts.isEmpty() bug when trying to take an offer with a MIN/MAX range](https://github.com/bisq-network/bisq/pull/3625)
+- [Update trading instruction for XMR (Monero)](https://github.com/bisq-network/bisq/pull/3596)
+- [Fix problem with MoneyGram account creation](https://github.com/bisq-network/bisq/pull/3600)
+- [Fix bug that new payment accounts for specific payment methods couldn't be removed without restart](https://github.com/bisq-network/bisq/pull/3612)
+- [Prevent taking of offers with unequal bank account types (excl. SEPA)](https://github.com/bisq-network/bisq/pull/3673)
+- [Added check for empty fields for general bank accounts and MoneyBeam on creation](https://github.com/bisq-network/bisq/pull/3573)
+- [Added check for empty fields in PopMoney, Uphold, Revolut and Zelle accounts on creation](https://github.com/bisq-network/bisq/pull/3575)
+- [Use 2of2 multisig deposit transaction version for manual payout](https://github.com/bisq-network/bisq/pull/3694)
+- [Not use 0 BTC outputs](https://github.com/bisq-network/bisq/pull/3725)
+- [Fix problem of trades with mediated payout end up in failed trades](https://github.com/bisq-network/bisq/pull/3726)
+
+###### Performance
+- [Fix resource leak caused by not cleaning up unused threads](https://github.com/bisq-network/bisq/pull/3734)
+
+###### Network
+- Fix cases where removal of mailbox message wasn't possible: [1](https://github.com/bisq-network/bisq/pull/3584), [2](https://github.com/bisq-network/bisq/pull/3609)
+- [Properly remove expire entries on disconnect](https://github.com/bisq-network/bisq/pull/3608)
+- [Fix bug of unnecessary syncing of temporary proposal payloads](https://github.com/bisq-network/bisq/pull/3636)
+
+###### Installation
+- [Check for special characters in installation path on Windows that prevented the app to start](https://github.com/bisq-network/bisq/pull/3642)
+
+###### Development
+- [Fix failing test when there are spaces in the project path](https://github.com/bisq-network/bisq/pull/3578)
+- [Upgrade Gradle wrapper to version 5.6.4](https://github.com/bisq-network/bisq/pull/3627)
+- [Upgrade Gradle Shadow plugin from 4.0.2 to 5.2.0](https://github.com/bisq-network/bisq/pull/3635)
+- [Upgrade JavaFX to 11.0.2](https://github.com/bisq-network/bisq/pull/3630)
+
+###### Build
+- [Improve version parsing for Windows](https://github.com/bisq-network/bisq/pull/3631)
+
+###### Assets
+No new assets where added.
+
 ##### Version 1.2.3
 {: .mt-5 .mb-2}
 Released [November 7th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.3)

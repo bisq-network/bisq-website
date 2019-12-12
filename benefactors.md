@@ -14,7 +14,7 @@ en-only: true
 
 <p><a href="https://www.ej-technologies.com/products/jprofiler/overview.html" target="_blank">ej-technologies JProfiler Java profiler</a> open-source license</p>
 
-<p><a href="https://www.jetbrains.com/idea/" target="_blank">JetBrains IntelliJ IDE</a> open-source license</p>
+<p><a href="https://www.jetbrains.com/idea/" target="_blank">JetBrains IntelliJ IDEA</a> open-source license</p>
 
 <br>
 

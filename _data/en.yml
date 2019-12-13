@@ -11,9 +11,9 @@ footer:
 homepage_content:
   title: "<span class=\"animate1\">Exchange,</span> <span class=\"animate2\">Decentralized.</span>"
   intro: "Bisq is an open-source, peer-to-peer application that allows you to buy and sell cryptocurrencies in exchange for national currencies. No registration required."
-  buttonWindows: Download for windows
+  buttonWindows: Download for Windows
   buttonMac: Download for Mac
-  buttonDebian: Download for Debian/ubuntu
+  buttonDebian: Download for Debian/Ubuntu
   buttonRedHat: Download for Red Hat/Fedora
   buttonDownloads: Downloads
   buttonGetBisq: Get Bisq
@@ -74,9 +74,9 @@ main_nav:
 os_selector_options:
   liAllDownloads: All Downloads
   liAllDownloadsText: Go to Downloads Page
-  liWindows: Download for windows
+  liWindows: Download for Windows
   liMac: Download for Mac
-  liDebian: Download for Debian/ubuntu
+  liDebian: Download for Debian/Ubuntu
   liRedHat: Download for Red Hat/Fedora
   liArch: Download for Arch Linux
   liArchText: Arch User Repo

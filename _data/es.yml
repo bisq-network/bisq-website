@@ -13,7 +13,7 @@ homepage_content:
   intro: "Bisq es una aplicación de código abierto P2P que le permite comprar y vender criptomonedas a cambio de monedas nacionales. No es necesario registrarse."
   buttonWindows: Descargar para Windows
   buttonMac: Descargar para Mac
-  buttonDebian: Descargar para Debian/ubuntu
+  buttonDebian: Descargar para Debian/Ubuntu
   buttonRedHat: Descargar para Red Hat/Fedora
   buttonDownloads: Descargas
   buttonGetBisq: Obtener Bisq

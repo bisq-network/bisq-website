@@ -74,9 +74,9 @@ main_nav:
 os_selector_options:
   liAllDownloads: Todos os Downloads
   liAllDownloadsText: Ir para downloads
-  liWindows: Baixar para windows
+  liWindows: Baixar para Windows
   liMac: Baixar para Mac
-  liDebian: Baixar para Debian/ubuntu
+  liDebian: Baixar para Debian/Ubuntu
   liRedHat: Baixar para Red Hat/Fedora
   liArch: Baixar para Arch Linux
   liArchText: "Repo Arch Linux "

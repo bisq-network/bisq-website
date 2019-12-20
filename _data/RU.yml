@@ -11,9 +11,9 @@ footer:
 homepage_content:
   title: "<span class=\"animate1\">Децентрализованная</span> <span class=\"animate2\">биржа.</span>"
   intro: "Bisq — это не требующее регистрации P2P-приложение с открытым исходным кодом, позволяющее покупать и продавать криптовалюты за национальную валюту."
-  buttonWindows: ""
+  buttonWindows: Загрузить для Windows
   buttonMac: Загрузить для Mac
-  buttonDebian: ""
+  buttonDebian: Загрузить для Debian/Ubuntu
   buttonRedHat: Загрузить для Red Hat/Fedora
   buttonDownloads: Загрузить
   buttonGetBisq: Получить Bisq
@@ -74,12 +74,12 @@ main_nav:
 os_selector_options:
   liAllDownloads: Все загрузки
   liAllDownloadsText: Перейти на страницу загрузок
-  liWindows: ""
+  liWindows: Загрузить для Windows
   liMac: Загрузить для Mac
-  liDebian: ""
+  liDebian: Загрузить для Debian/Ubuntu
   liRedHat: Загрузить для Red Hat/Fedora
   liArch: Загрузить для Arch Linux
-  liArchText: Репозиторий Arch User
+  liArchText: Arch User repo
   liSourceCode: Исходный код
   liReleaseNotes: Примечание к версии
   liVerification: Верификация

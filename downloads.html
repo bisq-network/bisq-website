@@ -21,43 +21,56 @@ language: English
     <tr class="border-bottom">
       <td>{{ item.tdWindows }}</td>
       <td>
-        <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a>
+        <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a> |
+        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.exe.asc">PGP SIGNATURE</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdMac }}</td>
-      <td><a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
+      <td>
+        <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a> |
+        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.dmg.asc">PGP SIGNATURE</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdDebian }}</td>
       <td>
-        <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">.deb</a>
+        <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">.deb</a> |
+        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.deb.asc">PGP SIGNATURE</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdRedHat }}</td>
       <td>
-        <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">.rpm</a>
+        <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">.rpm</a> |
+        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.rpm.asc">PGP SIGNATURE</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdArchLinux }}</td>
-      <td><a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bisq-git">{{ item.tdArchLinuxText }}</a></td>
+      <td>
+        <a href="https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=bisq-git">{{ item.tdArchLinuxText }}</a>
+      </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdSourceCode }}</td>
-      <td><a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.zip">zip</a> |
-        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.tar.gz">tar.gz</a></td>
+      <td>
+        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.zip">zip</a> |
+        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.tar.gz">tar.gz</a>
+      </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdReleaseNotes }}</td>
-      <td><a href="https://bisq.network/downloads/v{{ site.client_version }}">{{ item.tdReleaseNotesText }} v{{ site.client_version }}</a></td>
+      <td>
+        <a href="https://bisq.network/downloads/v{{ site.client_version }}">{{ item.tdReleaseNotesText }} v{{ site.client_version }}</a>
+      </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdVerification }}</td>
-      <td><a href="https://bisq.network/downloads/v{{ site.client_version }}">{{ item.tdVerificationText1 }}</a> |
-        <a href="https://bisq.network/downloads/v{{ site.client_version }}/29CDFD3B.asc">{{ item.tdVerificationText2 }}</a></td>
+      <td>
+        <a href="https://bisq.network/downloads/v{{ site.client_version }}">{{ item.tdVerificationText1 }}</a> |
+        <a href="https://bisq.network/downloads/v{{ site.client_version }}/29CDFD3B.asc">{{ item.tdVerificationText2 }}</a>
+      </td>
     </tr>
   </table>
 

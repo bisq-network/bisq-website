@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="681"
+   height="681"
+   viewBox="0 0 681 681"
+   version="1.1"
+   id="svg7226"
+   sodipodi:docname="dao_intro.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata7230">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
+     id="namedview7228"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="1.3861968"
+     inkscape:cx="483.10918"
+     inkscape:cy="174.48856"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="dao_intro" />
+  <defs
+     id="defs7164">
+    <style
+       type="text/css"
+       id="style7155">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
+    <style
+       id="style7157">
+      .cls-1, .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-dao_intro);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-12, .cls-4, .cls-9 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #26b036;
+      }
+
+      .cls-5, .cls-9 {
+        stroke: #fff;
+      }
+
+      .cls-6 {
+        font-size: 16px;
+      }
+
+      .cls-6, .cls-7 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 200;
+      }
+
+      .cls-7 {
+        font-size: 233px;
+        opacity: 0.383;
+      }
+
+      .cls-8 {
+        fill: rgba(255,255,255,0.56);
+        font-size: 12px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 300;
+      }
+
+      .cls-10, .cls-11 {
+        stroke: none;
+      }
+
+      .cls-11 {
+        fill: rgba(255,255,255,0.5);
+      }
+    </style>
+    <clipPath
+       id="clip-path">
+      <path
+         id="Subtraction_1"
+         data-name="Subtraction 1"
+         class="cls-1"
+         d="M-8894-1335h-537v-495h537v495Zm-322.167-65v37h119v-37ZM-9360.9-1712.186l-12.655,34.77,29.129,10.6,12.655-34.769-29.129-10.6Zm393.521-16.587h0l-23.212,15.657,20.688,30.674,23.212-15.657-20.688-30.674Z"
+         transform="translate(9503 1960)" />
+    </clipPath>
+    <clipPath
+       id="clip-dao_intro">
+      <rect
+         width="681"
+         height="681"
+         id="rect7161" />
+    </clipPath>
+  </defs>
+  <g
+     id="dao_intro"
+     class="cls-2"
+     clip-path="url(#clip-dao_intro)">
+    <g
+       id="Mask_Group_2"
+       data-name="Mask Group 2"
+       class="cls-3"
+       clip-path="url(#clip-path)">
+      <g
+         id="Path_22"
+         data-name="Path 22"
+         class="cls-4"
+         transform="translate(125.835 141)">
+        <path
+           class="cls-10"
+           d="M220,0C341.5,0,440,98.5,440,220S341.5,440,220,440,0,341.5,0,220,98.5,0,220,0Z"
+           id="path7166" />
+        <path
+           class="cls-11"
+           d="M 220 1 C 205.1405029296875 1 190.2906036376953 2.4969482421875 175.8628234863281 5.4493408203125 C 161.8022155761719 8.326568603515625 147.9717712402344 12.61972045898438 134.755615234375 18.209716796875 C 121.7792358398438 23.69827270507812 109.2633361816406 30.49166870117188 97.55572509765625 38.40115356445312 C 85.95904541015625 46.2357177734375 75.05404663085938 55.233154296875 65.14361572265625 65.14361572265625 C 55.233154296875 75.05404663085938 46.2357177734375 85.95904541015625 38.40115356445312 97.55572509765625 C 30.49166870117188 109.2633361816406 23.69827270507812 121.7792358398438 18.209716796875 134.755615234375 C 12.61972045898438 147.9717712402344 8.326568603515625 161.8022155761719 5.4493408203125 175.8628234863281 C 2.4969482421875 190.2906036376953 1 205.1405029296875 1 220 C 1 234.8594970703125 2.4969482421875 249.7093963623047 5.4493408203125 264.1371459960938 C 8.326568603515625 278.1977844238281 12.61972045898438 292.0282287597656 18.209716796875 305.244384765625 C 23.69827270507812 318.2207641601562 30.49166870117188 330.7366638183594 38.40115356445312 342.4442749023438 C 46.2357177734375 354.0409545898438 55.233154296875 364.9459533691406 65.14361572265625 374.8563842773438 C 75.05404663085938 384.766845703125 85.95904541015625 393.7642822265625 97.55572509765625 401.5988464355469 C 109.2633361816406 409.5083312988281 121.7792358398438 416.3017272949219 134.755615234375 421.790283203125 C 147.9717712402344 427.3802795410156 161.8022155761719 431.6734313964844 175.8628234863281 434.5506591796875 C 190.2906036376953 437.5030517578125 205.1405029296875 439 220 439 C 234.8594970703125 439 249.7093963623047 437.5030517578125 264.1371459960938 434.5506591796875 C 278.1977844238281 431.6734313964844 292.0282287597656 427.3802795410156 305.244384765625 421.790283203125 C 318.2207641601562 416.3017272949219 330.7366638183594 409.5083312988281 342.4442749023438 401.5988464355469 C 354.0409545898438 393.7642822265625 364.9459533691406 384.766845703125 374.8563842773438 374.8563842773438 C 384.766845703125 364.9459533691406 393.7642822265625 354.0409545898438 401.5988464355469 342.4442749023438 C 409.5083312988281 330.7366638183594 416.3017272949219 318.2207641601562 421.790283203125 305.244384765625 C 427.3802795410156 292.0282287597656 431.6734313964844 278.1977844238281 434.5506591796875 264.1371459960938 C 437.5030517578125 249.7093963623047 439 234.8594970703125 439 220 C 439 205.1405029296875 437.5030517578125 190.2906036376953 434.5506591796875 175.8628234863281 C 431.6734313964844 161.8022155761719 427.3802795410156 147.9717712402344 421.790283203125 134.755615234375 C 416.3017272949219 121.7792358398438 409.5083312988281 109.2633361816406 401.5988464355469 97.55572509765625 C 393.7642822265625 85.95904541015625 384.766845703125 75.05404663085938 374.8563842773438 65.14361572265625 C 364.9459533691406 55.233154296875 354.0409545898438 46.2357177734375 342.4442749023438 38.40115356445312 C 330.7366638183594 30.49166870117188 318.2207641601562 23.69827270507812 305.244384765625 18.209716796875 C 292.0282287597656 12.61972045898438 278.1977844238281 8.326568603515625 264.1371459960938 5.4493408203125 C 249.7093963623047 2.4969482421875 234.8594970703125 1 220 1 M 220 0 C 341.5026245117188 0 440 98.49737548828125 440 220 C 440 341.5026245117188 341.5026245117188 440 220 440 C 98.49737548828125 440 0 341.5026245117188 0 220 C 0 98.49737548828125 98.49737548828125 0 220 0 Z"
+           id="path7168" />
+      </g>
+    </g>
+    <g
+       id="Ellipse_1"
+       data-name="Ellipse 1"
+       class="cls-5"
+       transform="translate(280.83499,85)"
+       style="fill:#26b036;stroke:#ffffff">
+      <circle
+         class="cls-10"
+         cx="65"
+         cy="65"
+         r="65"
+         id="circle7172"
+         style="stroke:none" />
+      <circle
+         class="cls-12"
+         cx="65"
+         cy="65"
+         r="64.5"
+         id="circle7174"
+         style="fill:none" />
+    </g>
+    <g
+       id="Ellipse_2"
+       data-name="Ellipse 2"
+       class="cls-5"
+       transform="translate(470.835 401)">
+      <circle
+         class="cls-10"
+         cx="65"
+         cy="65"
+         r="65"
+         id="circle7177" />
+      <circle
+         class="cls-12"
+         cx="65"
+         cy="65"
+         r="64.5"
+         id="circle7179" />
+    </g>
+    <g
+       id="Ellipse_3"
+       data-name="Ellipse 3"
+       class="cls-5"
+       transform="translate(90.835 401)">
+      <circle
+         class="cls-10"
+         cx="65"
+         cy="65"
+         r="65"
+         id="circle7182" />
+      <circle
+         class="cls-12"
+         cx="65"
+         cy="65"
+         r="64.5"
+         id="circle7184" />
+    </g>
+    <text
+       id="Contributor"
+       class="cls-6"
+       x="335.23718"
+       y="156"
+       style="font-weight:200;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+      <tspan
+         x="296.07718"
+         y="156"
+         id="tspan7187">Contribuinte</tspan>
+    </text>
+    <text
+       id="Bisq_Network"
+       data-name="Bisq Network"
+       class="cls-6"
+       style="font-weight:200;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff"
+       x="542.07141"
+       y="470.41406">
+      <tspan
+         x="496.1514"
+         y="470.41406"
+         id="tspan7190">Rede Bisq</tspan>
+    </text>
+    <text
+       id="Trader"
+       class="cls-6"
+       style="font-weight:200;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff"
+       x="132.44075"
+       y="473">
+      <tspan
+         x="109.92875"
+         y="473"
+         id="tspan7193">Negociante</tspan>
+    </text>
+    <g
+       id="Group_25"
+       data-name="Group 25"
+       transform="translate(-737.165 -91)">
+      <text
+         id="_"
+         data-name="₿"
+         class="cls-7"
+         transform="translate(1076.776 523.439)">
+        <tspan
+           x="-70.482"
+           y="0"
+           id="tspan7196">₿</tspan>
+      </text>
+      <g
+         id="Group_3"
+         data-name="Group 3"
+         transform="translate(1068.674 456.685)">
+        <g
+           id="Ellipse_14"
+           data-name="Ellipse 14"
+           class="cls-5"
+           transform="translate(7.326 7.315)">
+          <circle
+             class="cls-10"
+             cx="48.775"
+             cy="48.775"
+             r="48.775"
+             id="circle7199" />
+          <circle
+             class="cls-12"
+             cx="48.775"
+             cy="48.775"
+             r="48.275"
+             id="circle7201" />
+        </g>
+        <text
+           id="BSQ_COLORED_BITCOIN"
+           data-name="BSQ COLORED BITCOIN"
+           class="cls-8"
+           transform="translate(56.326,45.315)"
+           style="font-weight:300;font-size:12px;font-family:'IBM Plex Sans', sans-serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start">
+          <tspan
+             sodipodi:role="line"
+             id="tspan7787"
+             style="font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+             x="0"
+             y="0">BITCOIN</tspan>
+          <tspan
+             sodipodi:role="line"
+             style="font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+             x="0"
+             y="15"
+             id="tspan9250">COLORIDO</tspan>
+          <tspan
+             sodipodi:role="line"
+             style="font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle"
+             x="0"
+             y="30"
+             id="tspan9246">BSQ</tspan>
+        </text>
+      </g>
+    </g>
+    <path
+       id="Path_3"
+       data-name="Path 3"
+       class="cls-9"
+       d="M4596.828,610.088h18.285v17.163"
+       transform="translate(-4117.165 -91)" />
+    <path
+       id="Path_4"
+       data-name="Path 4"
+       class="cls-9"
+       d="M4596.828,610.088h18.382v18.387"
+       transform="matrix(-0.469, -0.883, 0.883, -0.469, 2038.532, 4512.624)" />
+    <path
+       id="Path_5"
+       data-name="Path 5"
+       class="cls-9"
+       d="M4596.828,610.088h16.315V625.4"
+       transform="matrix(-0.469, 0.883, -0.883, -0.469, 2835.459, -3381.042)" />
+    <text
+       id="Compensation"
+       class="cls-6"
+       transform="translate(530.835,259)"
+       style="font-weight:200;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+      <tspan
+         x="-50.448002"
+         y="0"
+         id="tspan7216">Compensação</tspan>
+    </text>
+    <text
+       id="Improvements"
+       class="cls-6"
+       transform="translate(142.835,271)"
+       style="font-weight:200;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff">
+      <tspan
+         x="-51.296001"
+         y="0"
+         id="tspan7219">Melhoramento</tspan>
+    </text>
+    <text
+       id="Trading_Fees"
+       data-name="Trading Fees"
+       class="cls-6"
+       style="font-weight:200;font-size:16px;font-family:'IBM Plex Sans', sans-serif;fill:#ffffff"
+       x="306.57166"
+       y="583">
+      <tspan
+         x="262.30765"
+         y="583"
+         id="tspan7222">Taxas de Negociação</tspan>
+    </text>
+  </g>
+</svg>

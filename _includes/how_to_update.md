@@ -49,5 +49,17 @@ note the files here are in pairs: i.e. `dao_content.yml` & `dao_content_tr.yml`
 
 We are going to edit the second one. `_tr` refers to "translation"
 
+In the `data/languages.yml` file you need to add the new language details, usually it is somewhere in transifex, but not discriminated.
 
-Note: when copying the `main_nav_tr.yml` keep in mind that the characters used in transifex are not valid and yield an error when Jekyll is initialising. So the way to deal with it is to simply copy a previous language from above in that file. Open the 4th file from transifex (`for_use_bisq-website_main_nav_pt_BR.yml`) side by side and copy the contents
+these are the strings/parameters:
+```
+- name: "English"
+  tag: "en"
+  enabled: No
+  accept_languages: ["en", "en-us", "en-au", "en-nz", "en-za", "en-bz", "en-tt"]
+  site_name: "Bisq - A decentralized bitcoin exchange network"
+  site_desc: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative cryptocurrencies."
+```
+
+
+Note: when copying the `main_nav_tr.yml` keep in mind that the characters used in transifex are not valid (on windows! on Mac it worked fine) and yield an error when Jekyll is initialising. So the way to deal with it is to simply copy a previous language from above in that file. Open the 4th file from transifex (`for_use_bisq-website_main_nav_pt_BR.yml`) side by side and copy the contents

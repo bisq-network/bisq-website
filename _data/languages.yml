@@ -46,3 +46,9 @@
   accept_languages: ["pt-BR"]
   site_name: "Bisq - A exchange de Bitcoin descentralizada"
   site_desc: "Bisq é uma aplicação de desktop open-source que lhe permite comprar e vender bitcoins em troca de moedas nacionais ou altcoin."
+- name: "Русский"
+  tag: "RU"
+  enabled: Yes
+  accept_languages: ["RU"]
+  site_name: "Update this before merging"
+  site_desc: "Update this before merging"

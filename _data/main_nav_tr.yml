@@ -208,33 +208,32 @@ pt-BR:
       url: "https://docs.bisq.network/"
       target: _blank
 
-RU:
+ru:
   links:
 
-- title: Видение
-  url: /vision/
+    - title: Видение
+      url: /ru/vision/
 
-- title: ДАО Bisq
-  url: /dao/
+    - title: ДАО Bisq
+      url: /ru/dao/
 
-- title: Статистика
-  url: /stats/
+    - title: Статистика
+      url: /ru/stats/
 
-- title: ЧаВо
-  url: /faq/
+    - title: ЧаВо
+      url: /ru/faq/
 
-- title: Рынки
-  url: /markets/
+    - title: Рынки
+      url: /ru/markets/
 
-mobile_links:
+  mobile_links:
 
-- title: Сообщество
-  url: /community/
+    - title: Сообщество
+      url: /ru/community/
 
-- title: Блог
-  url: /blog/
+    - title: Блог
+      url: /blog/
 
-- title: Документация
-  url: "https://docs.bisq.network/"
-  target: _blank
-
+    - title: Документация
+      url: "https://docs.bisq.network/"
+      target: _blank

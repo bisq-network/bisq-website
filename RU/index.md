@@ -3,7 +3,7 @@ layout: page
 title: Bisq - The decentralized Bitcoin exchange
 banner: /images/bitsquare-home2.jpg
 ref: index
-lang: RU
+lang: ru
 flag: 🇷🇺
 language: Русский
 outdated_translation: false

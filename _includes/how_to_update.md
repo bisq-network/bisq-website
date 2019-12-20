@@ -62,4 +62,4 @@ these are the strings/parameters:
 ```
 
 
-Note: when copying the `main_nav_tr.yml` keep in mind that the characters used in transifex are not valid (on windows! on Mac it worked fine) and yield an error when Jekyll is initialising. So the way to deal with it is to simply copy a previous language from above in that file. Open the 4th file from transifex (`for_use_bisq-website_main_nav_pt_BR.yml`) side by side and copy the contents
+Note: when copying the `main_nav_tr.yml` keep in mind that the characters used in transifex are not valid and yield an error when Jekyll is initialising. So the way to deal with it is to simply copy a previous language from above in that file. Open the 4th file from transifex (`for_use_bisq-website_main_nav_pt_BR.yml`) side by side and copy the contents

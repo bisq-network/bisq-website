@@ -208,3 +208,33 @@ pt-BR:
       url: "https://docs.bisq.network/"
       target: _blank
 
+RU:
+  links:
+
+- title: Видение
+  url: /vision/
+
+- title: ДАО Bisq
+  url: /dao/
+
+- title: Статистика
+  url: /stats/
+
+- title: ЧаВо
+  url: /faq/
+
+- title: Рынки
+  url: /markets/
+
+mobile_links:
+
+- title: Сообщество
+  url: /community/
+
+- title: Блог
+  url: /blog/
+
+- title: Документация
+  url: "https://docs.bisq.network/"
+  target: _blank
+

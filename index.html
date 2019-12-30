@@ -28,8 +28,8 @@ language: English
                           <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button" data-bisq-version="{{ site.client_version }}" data-site-url="">
                               <div class="id-win64 hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Windows">
+                                      <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Windows">
                                       <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">{{ item.buttonWindows }}</a>
                                   </div>
                                   <div class="float-right">
@@ -39,8 +39,8 @@ language: English
 
                               <div class="id-mac hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Mac">
+                                      <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Mac">
                                       <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">{{ item.buttonMac }}</a>
                                   </div>
                                   <div class="float-right">
@@ -50,8 +50,8 @@ language: English
 
                               <div class="id-deb64 hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Debian/Ubuntu">
+                                      <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Debian/Ubuntu">
                                       <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">{{ item.buttonDebian }}</a>
                                   </div>
                                   <div class="float-right">
@@ -61,8 +61,8 @@ language: English
 
                               <div class="id-rpm64 hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Redhat/Fedora">
+                                      <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Redhat/Fedora">
                                       <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">{{ item.buttonRedHat }}</a>
                                   </div>
                                   <div class="float-right">
@@ -72,8 +72,8 @@ language: English
 
                               <div class="id-all hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-download-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-download-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-download-g.svg" class="os-icon os-icon-g" alt="Download Bisq">
+                                      <img src="/images/icon-download-w.svg" class="os-icon os-icon-w" alt="Download Bisq">
                                       {{ item.buttonDownloads }}
                                   </div>
                                   <div class="float-right">
@@ -95,22 +95,22 @@ language: English
 
 
                       <a href="/{{ page.lang }}/downloads" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                          <img src="/images/icon-download-g.svg" class="os-icon os-icon-g">
-                          <img src="/images/icon-download-w.svg" class="os-icon os-icon-w">
+                          <img src="/images/icon-download-g.svg" class="os-icon os-icon-g" alt="Download Bisq">
+                          <img src="/images/icon-download-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Windows">
                           {{ item.downloads }}
                       </a>
 
 
                       <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" rel="noopener" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
-                          <img src="/images/icon-android-g.svg" class="os-icon os-icon-g">
-                          <img src="/images/icon-android-w.svg" class="os-icon os-icon-w">
+                          <img src="/images/icon-android-g.svg" class="os-icon os-icon-g" alt="Download Bisq Notification App for Android">
+                          <img src="/images/icon-android-w.svg" class="os-icon os-icon-w" alt="Download Bisq Notification App for Android">
                           {{ item.androidNotificationsApp }}
                       </a>
 
 
                       <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank" rel="noopener" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
-                          <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                          <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                          <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g" alt="Download Bisq Notification App for iOs">
+                          <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w" alt="Download Bisq Notification App for iOs">
                           {{ item.iosNotificationApp }}
                       </a>
 
@@ -122,8 +122,8 @@ language: English
                       {% comment %}
 
                       <a id="play-video" href="/" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                                <img src="/images/icon-play-g.svg" class="os-icon os-icon-g">
-                                <img src="/images/icon-play-w.svg" class="os-icon os-icon-w">
+                                <img src="/images/icon-play-g.svg" class="os-icon os-icon-g" alt="Play Bisq video">
+                                <img src="/images/icon-play-w.svg" class="os-icon os-icon-w" alt="Play Bisq video">
                                 Play Video
                       </a>
 
@@ -210,7 +210,7 @@ language: English
           {{ item.pEasy }}
         </div>
         <div id="dao-callout" class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/dao_homepage.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/dao_homepage.svg" alt="Bisq DAO (Decentralized Autonomous Organization)" />
           <h4>{{ item.hBisqDao }}</h4>
           <p>{{ item.pBisqDao1 }} <a href="/dao">{{ item.pBisqDao2 }}</a>.</p>
         </div>

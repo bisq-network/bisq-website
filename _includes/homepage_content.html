@@ -30,8 +30,8 @@
 
                               <div class="id-mac hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Windows">
+                                      <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Windows">
                                       <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">{{ item.buttonMac }}</a>
                                   </div>
                                   <div class="float-right">
@@ -41,8 +41,8 @@
 
                               <div class="id-deb64 hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Mac">
+                                      <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Mac">
                                       <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">{{ item.buttonDebian }}</a>
                                   </div>
                                   <div class="float-right">
@@ -52,8 +52,8 @@
 
                               <div class="id-rpm64 hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Redhat/Fedora">
+                                      <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Redhat/Fedora">
                                       <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">{{ item.buttonRedHat }}</a>
                                   </div>
                                   <div class="float-right">
@@ -63,8 +63,8 @@
 
                               <div class="id-all hidden">
                                   <div class="float-left">
-                                      <img src="/images/icon-download-g.svg" class="os-icon os-icon-g">
-                                      <img src="/images/icon-download-w.svg" class="os-icon os-icon-w">
+                                      <img src="/images/icon-download-g.svg" class="os-icon os-icon-g" alt="Download Bisq">
+                                      <img src="/images/icon-download-w.svg" class="os-icon os-icon-w" alt="Download Bisq">
                                       {{ item.buttonDownloads }}
                                   </div>
                                   <div class="float-right">
@@ -93,15 +93,15 @@
 
 
                       <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" rel="noopener" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
-                          <img src="/images/icon-android-g.svg" class="os-icon os-icon-g">
-                          <img src="/images/icon-android-w.svg" class="os-icon os-icon-w">
+                          <img src="/images/icon-android-g.svg" class="os-icon os-icon-g" alt="Download Bisq Notification App for Android">
+                          <img src="/images/icon-android-w.svg" class="os-icon os-icon-w" alt="Download Bisq Notification App for Android">
                           {{ item.androidNotificationsApp }}
                       </a>
 
 
                       <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank" rel="noopener" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
-                          <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g">
-                          <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w">
+                          <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g" alt="Download Bisq Notification App for iOs">
+                          <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w" alt="Download Bisq Notification App for iOs">
                           {{ item.iosNotificationApp }}
                       </a>
 
@@ -113,8 +113,8 @@
                       {% comment %}
 
                       <a id="play-video" href="/" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                                <img src="/images/icon-play-g.svg" class="os-icon os-icon-g">
-                                <img src="/images/icon-play-w.svg" class="os-icon os-icon-w">
+                                <img src="/images/icon-play-g.svg" class="os-icon os-icon-g" alt="Play Bisq video">
+                                <img src="/images/icon-play-w.svg" class="os-icon os-icon-w" alt="Play Bisq video">
                                 Play Video
                       </a>
 
@@ -145,7 +145,7 @@
 
               </div>
               <div class="col-md-12 order-md-1 text-md-left homepage-hero">
-                <img class="img-fluid shadow-lg" alt="bisq" style="width: 100%; display: block;" src="/images/bisq_screen0.png">
+                <img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" style="width: 100%; display: block;" src="/images/bisq_screen0.svg">
               </div>
             </div>
 
@@ -169,39 +169,39 @@
           <p class="grey px-md-5">{{ item.pIdentityVerifications }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="/images/pic-decentralized.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="/images/pic-decentralized.svg" alt="Decentralized" />
           <h4>{{ item.hDecentralized }}</h4>
           <p class="grey px-md-5">{{ item.pDecentralized }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="/images/pic-padlock.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="/images/pic-padlock.svg" alt="Safe" />
           <h4>{{ item.hSafe }}</h4>
           <p class="grey px-md-5">{{ item.pSafe }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-private.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-private.svg" alt="Private" />
           <h4>{{ item.hPrivate }}</h4>
           <p class="grey px-md-5">{{ item.pPrivate }}</p>
         </div>
         {% comment %}
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-p2p.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-p2p.svg" alt="Secure" />
           <h4>{{ item.hSecure }}</h4>
           <p class="grey px-md-5">{{ item.pSecure }}</p>
         </div>
         {% endcomment %}
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-open.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-open.svg" alt="Open Source" />
           <h4>{{ item.hOpen }}</h4>
           {{ item.pOpen }}
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-easy.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-easy.svg" alt="Easy" />
           <h4>{{ item.hEasy }}</h4>
           {{ item.pEasy }}
         </div>
         <div id="dao-callout" class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/dao_homepage.svg" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/dao_homepage.svg" alt="Bisq DAO (Decentralized Autonomous Organization)" />
           <h4>{{ item.hBisqDao }}</h4>
           <p>{{ item.pBisqDao1 }} <a href="/dao">{{ item.pBisqDao2 }}</a>.</p>
         </div>
@@ -240,10 +240,10 @@
       </ol>
     </div>
     <div class="col-12 col-md-7 offset-0 offset-md-1">
-      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen0.png"></div>
-      <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen1.png"></div>
-      <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen0.png"></div>
-      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="bisq" src="/images/bisq_screen1.png"></div>
+      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" src="/images/bisq_screen0.svg"></div>
+      <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="Open Trades view inside Bisq" src="/images/bisq_screen1.svg"></div>
+      <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" src="/images/bisq_screen0.svg"></div>
+      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="Open Trades view inside Bisq" src="/images/bisq_screen1.svg"></div>
 
     </div>
   </div>
@@ -263,14 +263,14 @@
 
       <div class="col-12 col-md-6">
         <ul class="community-links grey community-home pl-0 pl-md-4 pt-4 pl-md-0 pt-md-0">
-          <li><img src="/images/community/github.svg" alt="github"> <a href="https://github.com/bisq-network">{{ item.liGithub }}</a></li>
-          <li><img src="/images/community/keybase.svg" alt="keybase"> <a href="https://keybase.io/team/bisq">{{ item.liKeybase }}</a></li>
-          <li><img src="/images/community/twitter.svg" alt="twitter"> <a href="https://twitter.com/bisq_network">{{ item.liTwitter }}</a></li>
-          <li><img src="/images/community/youtube.svg" alt="youtube"> <a href="https://www.youtube.com/c/bisq-network">{{ item.liYoutube }}</a></li>
-          <li><img src="/images/community/forum.svg" alt="forum"> <a href="https://bisq.community">{{ item.liForum }}</a></li>
-          <li><img src="/images/community/mailinglist.svg" alt="mailinglist"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">{{ item.liMailingList }}</a></li>
-          <li><img src="/images/community/irc.svg" alt="irc"> <a href="https://webchat.freenode.net/?channels=bisq">{{ item.liFreenodeIRC }}</a></li>
-          <li><img src="/images/community/reddit.svg" alt="reddit"> <a href="https://www.reddit.com/r/bisq">{{ item.liSubreddit }}</a></li>
+          <li><img src="/images/community/github.svg" alt="GitHub repository"> <a href="https://github.com/bisq-network">{{ item.liGithub }}</a></li>
+          <li><img src="/images/community/keybase.svg" alt="Keybase page"> <a href="https://keybase.io/team/bisq">{{ item.liKeybase }}</a></li>
+          <li><img src="/images/community/twitter.svg" alt="Twitter profile"> <a href="https://twitter.com/bisq_network">{{ item.liTwitter }}</a></li>
+          <li><img src="/images/community/youtube.svg" alt="YouTube account"> <a href="https://www.youtube.com/c/bisq-network">{{ item.liYoutube }}</a></li>
+          <li><img src="/images/community/forum.svg" alt="Forum"> <a href="https://bisq.community">{{ item.liForum }}</a></li>
+          <li><img src="/images/community/mailinglist.svg" alt="Mailing list"> <a href="https://lists.bisq.network/listinfo/bisq-contrib">{{ item.liMailingList }}</a></li>
+          <li><img src="/images/community/irc.svg" alt="IRC channel"> <a href="https://webchat.freenode.net/?channels=bisq">{{ item.liFreenodeIRC }}</a></li>
+          <li><img src="/images/community/reddit.svg" alt="Bisq subreddit"> <a href="https://www.reddit.com/r/bisq">{{ item.liSubreddit }}</a></li>
         </ul>
       </div>
 

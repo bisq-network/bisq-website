@@ -18,6 +18,57 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.2.5
+{: .mt-5 .mb-2}
+Released [January 9th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.2.5)
+
+This release is packed with performance improvements and bug fixes. To discourage future-style trades and minimize mediation cases, this update also increases minimum security deposits.
+
+###### DAO
+- [Add two new columns to vote result](https://github.com/bisq-network/bisq/pull/3822)
+- [Make all DAO screen tables resize to max. screen height](https://github.com/bisq-network/bisq/pull/3823)
+
+###### UI
+- [Show the correct sign state icon for accounts that are able to sign](https://github.com/bisq-network/bisq/pull/3850)
+- [Display minimum limit if used during trade](https://github.com/bisq-network/bisq/pull/3870)
+- [Add report feature for disputes](https://github.com/bisq-network/bisq/pull/3790)
+- [Fix bank account number label for Swedish language](https://github.com/bisq-network/bisq/pull/3847)
+- [Improve trade limit error message](https://github.com/bisq-network/bisq/pull/3834)
+- Fix dark mode issues: [1](https://github.com/bisq-network/bisq/pull/3803), [2](https://github.com/bisq-network/bisq/pull/3808), [3](https://github.com/bisq-network/bisq/pull/3771), [4](https://github.com/bisq-network/bisq/pull/3876)
+- [Display language switch warning based on supported languages by mediators and refund agents](https://github.com/bisq-network/bisq/pull/3743)
+- [Rename "Spread" tab to a more general "Details"](https://github.com/bisq-network/bisq/pull/3745)
+- [Fix double presence of the word "days"](https://github.com/bisq-network/bisq/pull/3804)
+- [Fix closed state handling for mediation cases](https://github.com/bisq-network/bisq/pull/3796)
+
+###### Trading
+- [Increase security deposits](https://github.com/bisq-network/bisq/pull/3826)
+- [Only move trades to failed trades if the reject message is critical](https://github.com/bisq-network/bisq/pull/3830)
+- [Not allow bitcoinj to autoconnect to localhost when localhost was not detected by client](https://github.com/bisq-network/bisq/pull/3783)
+- [Only accept phone number for new Revolut accounts](https://github.com/bisq-network/bisq/pull/3777)
+
+###### Performance
+- [Speed up DAO vote and BSQ Transactions screen](https://github.com/bisq-network/bisq/pull/3773)
+- [Speed up trades charts view load](https://github.com/bisq-network/bisq/pull/3828)
+- [Fix temp file path memory leak](https://github.com/bisq-network/bisq/pull/3817)
+
+###### Wallet
+- [Improve handling of spv resync edge case](https://github.com/bisq-network/bisq/pull/3821)
+- [Validate wallet date when restoring from seed](https://github.com/bisq-network/bisq/pull/3749)
+
+###### Network
+- Added four new BSQ explorers: [1](https://github.com/bisq-network/bisq/pull/3864), [2](https://github.com/bisq-network/bisq/pull/3872)
+- Add random BSQ explorer selection: [1](https://github.com/bisq-network/bisq/pull/3792), [2](https://github.com/bisq-network/bisq/pull/3802)
+- [Upgrade mempool.space to full block explorer](https://github.com/bisq-network/bisq/pull/3843)
+- [Re-enable mbm6ffx6j5ygi2ck.onion btcnode operated by @KanoczTomas](https://github.com/bisq-network/bisq/pull/3813)
+- [Temporarily disable z33nukt7ngik3cpe btcnode due to failing service checks](https://github.com/bisq-network/bisq/pull/3875)
+- Update seed node install script: [1](https://github.com/bisq-network/bisq/pull/3815), [2](https://github.com/bisq-network/bisq/pull/3853), [3](https://github.com/bisq-network/bisq/pull/3819)
+
+###### Build
+- [Add developer code signing for Windows binary](https://github.com/bisq-network/bisq/pull/3772)
+
+###### Assets
+No new assets where added.
+
 ##### Version 1.2.4
 {: .mt-5 .mb-2}
 Released [December 5th 2019](https://github.com/bisq-network/bisq/releases/tag/v1.2.4)

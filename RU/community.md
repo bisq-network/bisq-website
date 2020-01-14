@@ -5,6 +5,7 @@ ref: community
 lang: ru
 flag: 🇷🇺
 language: Русский
+outdated_translation: false
 ---
 # Сообщество
 {: .mb-5}

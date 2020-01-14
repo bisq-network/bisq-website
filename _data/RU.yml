@@ -22,10 +22,10 @@ homepage_content:
   androidNotificationsApp: Скачать приложение для Android
   iosNotificationApp: Скачать приложение для iOS
   getStarted: Узнать больше »
-  runningWindows: "Похоже, вы используете Windows"
-  runningMac: "Похоже, вы используете Mac"
-  runnigDebian: "Похоже, вы используете Debian/Ubuntu"
-  runningRedHat: "Похоже, вы используете Red Hat/Fedora"
+  runningWindows: Похоже, вы используете Windows
+  runningMac: Похоже, вы используете Mac
+  runnigDebian: Похоже, вы используете Debian/Ubuntu
+  runningRedHat: Похоже, вы используете Red Hat/Fedora
   currentVersion: Текущая версия
   hFeatures: Преимущества
   hIdentityVerifications: Не требуется подтверждение личности
@@ -61,7 +61,7 @@ homepage_content:
   liMailingList: Электронная рассылка Bisq
   liFreenodeIRC: "#bisq на Freenode IRC"
   liSubreddit: Подфорум r/Bisq на reddit
-  liKeybase: "Bisq в Keybase"
+  liKeybase: Bisq в Keybase
 
 main_nav:
   liDownloads: Загрузить

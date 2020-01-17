@@ -8,9 +8,9 @@ en-only: true
 
 This post summarizes the results of Cycle 8 of the Bisq DAO.
 
-It comes a bit later than usual, as Cycle 8 wasn't a pretty one. During the cycle, some significant issues were made apparent in the human side of the network: a lack of management and budgeting resulted in suboptimal resource allotment needed for growth, which resulted in a ballooning BSQ supply, which resulted in an erosion of confidence in BSQ, which ultimately resulted in a sharp downturn in the BSQ price.
+It comes a bit later than usual, as Cycle 8 wasn't a pretty one. During the cycle, some significant issues were made apparent in the human side of the network: a lack of management and budgeting resulted in suboptimal resource allotment needed for growth, which seemed to reflect in a lower BSQ price.
 
-In response, key contributors are working on substantial changes to the way Bisq operates in order to address these issues and restore confidence in the Bisq DAO. 
+In response, key contributors are working on substantial changes to the way Bisq operates in order to address these issues and ensure continued confidence in the Bisq DAO among contributors and users alike. 
 
 These changes will be discussed more thoroughly in a call next week, as well as in a post on this blog shortly thereafter.
 
@@ -23,12 +23,12 @@ These changes will be discussed more thoroughly in a call next week, as well as 
   * 1 parameter change and 1 bonded role
   * 35 compensation requests
 * 445 votes cast
-* 124 083 BSQ issued for compensation (151 293 BSQ was issued in total, of which 27 210 was for refund agent)
+* 124 083 BSQ issued for compensation (151 293 BSQ was issued in total, of which 27 210 was for reimbursing the refund agent)
 * 13 449 BSQ burned
 
 High BSQ issuance in the face of anemic trading volume resulted in a relatively big increase in BSQ supply during the cycle, a problem that aggravated the BSQ market. 
 
-As of the end of Cycle 8, BSQ was trading at about 9200 satoshis/BSQ, which was about $0.66 at the time (BSQ had been holding in the $0.80-1.00 range for much of the year). Since then the price has dropped quite a bit more, with many trades in the 3000-6000 satoshis/BSQ range. The bitcoin-USD rate has jumped over 20% since Cycle 8 ended, which has somewhat dampened the effect of the nominal price drop, but the real drop in BSQ price is still severe.
+As of the end of Cycle 8, BSQ was trading at about 9200 satoshis/BSQ, which was about $0.66 at the time (BSQ had been holding in the $0.80-1.00 range for much of the year). Since then the price has dropped quite a bit more, with many trades in the 3000-6000 satoshis/BSQ range. The bitcoin-USD rate has jumped over 20% since Cycle 8 ended, which has somewhat dampened the effect of the nominal price drop, but the real drop in BSQ price is still significant.
 
 Core contributors are taking the price signals as a wake-up call. As mentioned above, the network is working to correct course, and details are to follow shortly.
 

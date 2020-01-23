@@ -1,6 +1,6 @@
 footer:
   notificationApp: Мобильное приложение Bisq
-  siteYear: © 2019 Bisq
+  siteYear: © 2020 Bisq
   ulResources: Ресурсы
   liDownloads: Загрузить
   liRoadmap: Дорожная карта
@@ -72,19 +72,19 @@ main_nav:
   buttonDownloads: Загрузить
 
 os_selector_options:
-  liAllDownloads: Все загрузки
-  liAllDownloadsText: Перейти на страницу загрузок
-  liWindows: Загрузить для Windows
-  liMac: Загрузить для Mac
-  liDebian: Загрузить для Debian/Ubuntu
-  liRedHat: Загрузить для Red Hat/Fedora
-  liArch: Загрузить для Arch Linux
-  liArchText: Arch User repo
-  liSourceCode: Исходный код
-  liReleaseNotes: Примечание к версии
-  liVerification: Верификация
-  liVerificationText1: PGP-сигнатуры
-  liVerificationText2: Откр. ключ PGP
+  liAllDownloads: "Все загрузки"
+  liAllDownloadsText: "Перейти на страницу загрузок"
+  liWindows: "Загрузить для Windows"
+  liMac: "Загрузить для Mac"
+  liDebian: "Загрузить для Debian/Ubuntu"
+  liRedHat: "Загрузить для Red Hat/Fedora"
+  liArch: "Загрузить для Arch Linux"
+  liArchText: "Arch User repo"
+  liSourceCode: "Исходный код"
+  liReleaseNotes: "Примечание к версии"
+  liVerification: "Верификация"
+  liVerificationText1: "PGP-сигнатуры"
+  liVerificationText2: "Откр. ключ PGP"
 
 dao:
   hLearnMore: "Хотите узнать больше?"

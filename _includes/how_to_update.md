@@ -18,6 +18,11 @@ You should end up with 6 files:
 6. `for_use_bisq-website_vision_pt_BR.md`
 
 
+Important
+---
+
+**Following the convention to keep language codes in lower case saves you time! please refer to language codes in lower-case everywhere, especially in file and folder names!**
+
 Copy the language folder from another language
 ----
 

@@ -23,10 +23,10 @@ These changes will be discussed more thoroughly in a call next week, as well as 
   * 1 parameter change and 1 bonded role
   * 35 compensation requests
 * 445 votes cast
-* 124 083 BSQ issued for compensation (151 293 BSQ was issued in total, of which 27 210 was for reimbursing the refund agent)
-* 52 239 BSQ burned from trading fees (79 449 BSQ burned in total, of which 27 210 was disputed BTC funds)
+* 125 083 BSQ issued for compensation (151 293 BSQ was issued in total, of which 26 210 was for reimbursing the refund agent)
+* 53 239 BSQ burned from trading fees (79 449 BSQ burned in total, of which 26 210 was disputed BTC funds)
 
-More details on BSQ burned: the 52 239 BSQ burned from trading fees is the sum of BSQ burned directly for fees (13 449) and BTC fees collected by _burningman2_ to buy and burn BSQ (38 790 = 66 000 BSQ total burned<sup>1</sup> - 27 210 BSQ of disputed BTC funds). Since this was the first cycle in which BTC fees were used to buy and burn BSQ, the BTC fee total is abnormally high: it includes BTC fees that were collected before the cycle started, and should be relatively lower going forward.
+More details on BSQ burned: the 53 239 BSQ burned from trading fees is the sum of BSQ burned directly for fees (13 449) and BTC fees collected by _burningman2_ to buy and burn BSQ (39 790 = 66 000 BSQ total burned<sup>1</sup> - 26 210 BSQ of disputed BTC funds). Since this was the first cycle in which BTC fees were used to buy and burn BSQ, the BTC fee total is abnormally high: it includes BTC fees that were collected before the cycle started, and should be relatively lower going forward.
 
 High BSQ issuance in the face of anemic trading volume resulted in a relatively big increase in BSQ supply during the cycle, a problem that aggravated the BSQ market. 
 

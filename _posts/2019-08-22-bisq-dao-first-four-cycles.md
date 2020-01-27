@@ -24,16 +24,16 @@ But it's our duty to keep you (the community) informed, so it's about time we pr
 
 From now on, updates and communications about proposals and results will be provided more regularly and promptly.
 
-Note that all the details discussed in this post are publicly available; most are drawn from the `DAO > Facts & Figures` section of the software and the [Compensation](https://github.com/bisq-network/compensation) and [Bisq](https://github.com/bisq-network/bisq) repositories on GitHub. Numbers are as of the date of this post, August 22 2019.
+Note that all the details discussed in this post are publicly available; most are drawn from the `DAO > Facts & Figures` and `Governance` sections of the software and the API of [your favorite BSQ block explorer](https://explorer.bisq.network/API.html).
 
 ## Overview
 
 Summary:
 * 4 successful voting cycles
-* 114 918 BSQ issued for compensation
-* 50 761 BSQ burned through fees (mostly trading fees)
-* Over 80% of all Bisq trades since the DAO launch have used BSQ to pay trading fees
-  * 9 266 trades used BSQ for trading fee payments
+* 144 357 BSQ issued for compensation
+* 59 928 BSQ burned through BSQ trading fees
+* Almost _half_ of all Bisq trades since the DAO launch have used BSQ to pay trading fees
+  * 4 284 of 9 524 trades used BSQ for trading fee payments
 
 Looking at the numbers above, I would say trader acceptance and usage of the BSQ colored coin has been phenomenal so far.
 
@@ -53,7 +53,7 @@ Summary:
   * 18 compensation requests
 * 236 votes cast
 * 69 318 BSQ issued
-* <2 500 BSQ burned
+* 1 313 BSQ burned
 
 The very first DAO cycle was highly inflationary, as Manfred and other key developers worked full-time (resulting in high issuance for compensation), and little BSQ was burned since BSQ trading fees were sharply discounted to encourage adoption.
 
@@ -72,11 +72,11 @@ Summary:
   * 14 compensation requests
 * 164 votes cast
 * 22 870 BSQ issued
-* 10 000 BSQ burned
+* 2 789 BSQ burned
 
 This cycle started right after a couple key developers stepped back from the project—hence the lower issuance.
 
-BSQ burned increased dramatically, not because of fee increases, but because of unbelievable volume. June volume almost hit 3 000 BTC, which was almost 3x May's volume. Much of that volume was from the XMR/BTC trade, where 1 BTC and 2 BTC trades are relatively common. It seems those traders took full advantage of the ≈90% BSQ discount on trading fees!
+BSQ burned increased, not because of fee increases, but because of unbelievable volume. June volume almost hit 3 000 BTC, which was almost 3x May's volume. Much of that volume was from the XMR/BTC trade, where 1 BTC and 2 BTC trades are relatively common. It seems those traders took full advantage of the ≈90% BSQ discount on trading fees!
 
 Because of continued strength in the BSQ markets and usage, discussions to increase trading fees began. [In this thread](https://github.com/bisq-network/proposals/issues/94), a general consensus seemed to emerge for a slight increase in BSQ fees (to go from a 90% reduction over BTC fees to an 80% reduction over BTC fees). At this point, formal DAO proposals to change the BSQ trading fee parameters were made, one for the taker fee and the other for the maker fee.
 
@@ -112,7 +112,7 @@ Summary:
   * 17 compensation requests
 * 302 votes cast
 * 22 730 BSQ issued
-* 20 000 BSQ burned
+* 13 356 BSQ burned
 
 Following the continued strength of BSQ usage and trading, Cycle 3 voting resulted in another fee increase, this time for both BTC and BSQ fees. Full discussion is [here on GitHub](https://github.com/bisq-network/proposals/issues/99), but the basic reasoning was that strong BSQ markets, strong trading volume, and a need for the network to attract good developers made fee increases toward targets appropriate.
 
@@ -139,7 +139,7 @@ Summary:
   * 17 compensation requests
 * 218 votes cast
 * 29 437 BSQ issued
-* 46 000 BSQ burned
+* 42 470 BSQ burned
 
 Fee increases, despite fees still being below targets, resulted in the first-ever deflationary period for the BSQ colored coin. Of course, development efforts were depressed in this period, so issuance was relatively low, but it was still nice to see.
 

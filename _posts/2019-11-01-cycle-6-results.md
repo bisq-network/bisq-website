@@ -18,7 +18,7 @@ This post summarizes the results of Cycle 6 of the Bisq DAO.
   * 23 compensation requests
 * 190 votes cast
 * 86 851 BSQ issued
-* 19 820 BSQ burned (approximate)
+* 20 538 BSQ burned
 
 Much work was contributed in this cycle for the new trade protocol and account signing, two massive elements of the v1.2 release, resulting in relatively high BSQ issuance for compensating those efforts. An unfortunate drop in trading volume resulted in less BSQ taken out of supply, leading to a cycle with considerable inflation.
 

@@ -1,0 +1,14 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/* m-plus-rounded-1c-regular - japanese */
+@font-face {
+  font-family: 'M PLUS Rounded 1c';
+  font-style: normal;
+  font-weight: 400;
+  src: local('M PLUS Rounded 1c'), local('MPLUSRounded1c-Regular'),
+       url('../fonts/m-plus-rounded-1c-v10-japanese-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/m-plus-rounded-1c-v10-japanese-regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}

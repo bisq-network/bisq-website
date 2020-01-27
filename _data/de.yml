@@ -115,6 +115,7 @@ downloads:
   tdReleaseNotes: Versionshinweise
   tdReleaseNotesText: Versionshinweise für
   tdVerification: Verifizierung
+  tdVerificationText0: PGP Signatur
   tdVerificationText1: PGP Signaturen
   tdVerificationText2: PGP Public Key
   pSeeInstructions: "<p class=\"small\">Lesen Sie <a href=\"https://docs.bisq.network/getting-started.html\">Erste Schritte mit Bisq</a> für Anweisungen, wie Sie Ihren ersten Handel abschließen können."

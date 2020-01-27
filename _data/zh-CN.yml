@@ -123,6 +123,7 @@ downloads:
   tdReleaseNotes: 更新日志
   tdReleaseNotesText: 更新日志：
   tdVerification: 验证
+  tdVerificationText0: PGP 签名
   tdVerificationText1: PGP 签名
   tdVerificationText2: PGP 公钥
   pSeeInstructions: "<p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"https://docs.bisq.network/getting-started.html\">开始使用 Bisq</a>。</p>"

@@ -24,16 +24,18 @@
         <meta property="og:image" content="/images/bisq-og.jpg">
         <meta property="og:site_name" content="{{ langdata.site_name }}">
         <meta property="og:type" content="website">
+        <meta property="og:url" content="https://bisq.network/">
         <meta property="twitter:title" content="{{ page.title }}">
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:site" content="{{ langdata.enabled }}">
+        <meta property="twitter:site" content="https://bisq.network/">
+        <meta property="twitter:description" content="{{ langdata.site_desc }}">
+        <meta property="twitter:image" content="/images/bisq-og.jpg">
         <meta name="twitter:creator" content="@bisq_network">
         <link rel="canonical" href="{{ page.url }}">
         {% if page.lang == "ja" %}
-        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <link href="/css/jafont.css" rel="stylesheet">
         {% else %}
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <link href="/css/fonts.css" rel="stylesheet">
         {% endif %}
 
         <style>

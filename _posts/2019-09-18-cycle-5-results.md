@@ -19,7 +19,7 @@ Cycle 5 of the Bisq DAO went smoothly and resulted in some important decisions. 
   * 25 compensation requests
 * 432 votes cast
 * 100 471 BSQ issued
-* 56 200 BSQ burned (approximate)
+* 54 348 BSQ burned
 
 See notes on duplicate proposals below in "Lesson Learned" section. Non-compensation proposals are covered below.
 

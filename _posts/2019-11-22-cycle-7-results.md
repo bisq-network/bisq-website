@@ -18,7 +18,7 @@ This post summarizes the results of Cycle 7 of the Bisq DAO.
   * 25 compensation requests (3 duplicate)
 * 274 votes cast
 * 73 766 BSQ issued
-* 16 950 BSQ burned (approximate)
+* 15 037 BSQ burned
 
 In this cycle, work continued on final development, testing, and other preparations for the launch of v1.2. Another weak period of trading volume resulted in another inflationary cycle.
 

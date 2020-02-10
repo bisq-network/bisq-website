@@ -115,6 +115,7 @@ downloads:
   tdReleaseNotes: Примечание к версии
   tdReleaseNotesText: Примечание к версии
   tdVerification: Верификация
+  tdVerificationText0: PGP-подпись
   tdVerificationText1: PGP-сигнатуры
   tdVerificationText2: Откр. ключ PGP
   pSeeInstructions: "<p class=\"small\">Прочитайте статью <a href=\"https://docs.bisq.network/getting-started.html\">«Начало работы с Bisq»</a>, чтобы узнать, как совершить свою первую сделку.</p>"

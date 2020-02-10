@@ -79,7 +79,7 @@ os_selector_options:
   liDebian: "Загрузить для Debian/Ubuntu"
   liRedHat: "Загрузить для Red Hat/Fedora"
   liArch: "Загрузить для Arch Linux"
-  liArchText: "Arch User repo"
+  liArchText: "Arch User Repo"
   liSourceCode: "Исходный код"
   liReleaseNotes: "Примечание к версии"
   liVerification: "Верификация"

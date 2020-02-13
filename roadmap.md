@@ -18,6 +18,44 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.2.6
+{: .mt-5 .mb-2}
+Released [February 13th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.2.6)
+This release is packed with performance improvements and bug fixes. Most notably, this version introduces an option to refresh the trade process if it gets stuck during payment confirmation and adds Liquid Bitcoin (L-BTC) as a new asset.
+
+###### DAO
+- [Add new BSQ issued v. burnt chart](https://github.com/bisq-network/bisq/pull/3910)
+- [Improve readability of the daily burnt BSQ chart](https://github.com/bisq-network/bisq/pull/3890)
+
+###### UI
+- Reduce number of decimals shown for monetary fiat prices to 2: [1](https://github.com/bisq-network/bisq/pull/3926), [2](https://github.com/bisq-network/bisq/pull/3953)
+- [Fix account age format when ending in 1](https://github.com/bisq-network/bisq/pull/3857)
+- [Fix incorrect display of delete button next to open proposals](https://github.com/bisq-network/bisq/pull/3920)
+- [Fix popup message about trade limits](https://github.com/bisq-network/bisq/pull/3897)
+- [Use macOS app Info.plist setting for automatic light/dark title bar](https://github.com/bisq-network/bisq/pull/3883)
+- [Remove "beta" label from Dark Theme slider switch text](https://github.com/bisq-network/bisq/pull/3879)
+
+###### Trading
+- [Trade process refresh option if trade is stuck](https://github.com/bisq-network/bisq/pull/3922)
+
+###### Performance
+- [Prevent memory leak in CandleStickChart & VolumeChart](https://github.com/bisq-network/bisq/pull/3914)
+- [Fix potential resource leak in AvoidStandbyModeService](https://github.com/bisq-network/bisq/pull/3909)
+
+###### Privacy
+- [Remove unused uid in price feed service](https://github.com/bisq-network/bisq/pull/3937)
+
+###### Network
+- [Temporarily deactivate public network option](https://github.com/bisq-network/bisq/pull/3938)
+- [Remove Bitcoin Core nodes not operated by Bisq btcnode team members](https://github.com/bisq-network/bisq/pull/3904)
+
+###### Support
+- [Add signing debug logs](https://github.com/bisq-network/bisq/pull/3948)
+- [Dump delayed payout transaction hashes to local file](https://github.com/bisq-network/bisq/pull/3925)
+
+###### Assets
+One new asset was added: Liquid Bitcoin (L-BTC)
+
 ##### Version 1.2.5
 {: .mt-5 .mb-2}
 Released [January 9th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.2.5)

@@ -18,6 +18,14 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.2.7
+{: .mt-5 .mb-2}
+Released [February 13th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.2.7)
+
+This is a hotfix release covering following issue:
+
+- App freezes with blurred background on startup when launched on macOS Mojave or older.
+
 ##### Version 1.2.6
 {: .mt-5 .mb-2}
 Released [February 13th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.2.6)

@@ -2,7 +2,7 @@
 layout: post
 title: "Bisq DAO Cycle 9: Results"
 author: Steve Jain
-excerpt: "Cycle 9 of the Bisq DAO ended at block 613 866 on January 21 2019. This post covers its results. <br><br>"
+excerpt: "Cycle 9 of the Bisq DAO ended at block 613,866 on January 21 2019. This post covers its results. <br><br>"
 en-only: true
 ---
 
@@ -14,7 +14,7 @@ Please see [this post]({% post_url 2020-02-10-q1-2020-update %}) for details.
 
 ### Summary
 
-* Cycle took place between blocks 609 187 and 613 866
+* Cycle took place between blocks 609,187 and 613,866
   * Calendar dates: 12/21/2019 - 01/21/2019
 * 43 proposals
   * 4 generic proposals
@@ -22,8 +22,8 @@ Please see [this post]({% post_url 2020-02-10-q1-2020-update %}) for details.
   * 15 proposals to delist an asset
   * 23 compensation requests
 * 560 votes cast
-* 57 845 BSQ issued for compensation (106 536 BSQ was issued in total, of which 48 691 was for reimbursing the refund agent)
-* 86 519 BSQ burned from trading fees (142 585 BSQ was burned in total, of which 48 691 was disputed BTC funds)
+* 57,845 BSQ issued for compensation (106,536 BSQ was issued in total, of which 48,691 was for reimbursing the refund agent)
+* 86,519 BSQ burned from trading fees (142,585 BSQ was burned in total, of which 48,691 was disputed BTC funds)
 
 In a nice reversal from recent cycles, the Bisq DAO was deflationary in Cycle 9: more BSQ was burned than issued. While this was certainly a nice result, some of this deflation occurred from less compensation issuance (relatively less work delivered than in previous cycles) as well as a relatively large proportion of trading fees being paid in BTC. BTC fees are not preferable as they require a single person to collect them and inject them into the BSQ economy, so perhaps the project should think of ways to encourage traders to use BSQ instead of BTC.
 
@@ -69,7 +69,7 @@ _Proposal to change a parameter ([link](https://github.com/bisq-network/proposal
 
 _Accepted_
 
-A couple cycles of a lower BSQ price with relatively higher amounts of delivered work led to issuances that were approaching the 200 000 BSQ limit. This proposal changed the maximum BSQ issuance to 300 000 BSQ. It was critical that this parameter was changed, because in the event the limit was hit, all compensation requests would be denied. 
+A couple cycles of a lower BSQ price with relatively higher amounts of delivered work led to issuances that were approaching the 200,000 BSQ limit. This proposal changed the maximum BSQ issuance to 300,000 BSQ. It was critical that this parameter was changed, because in the event the limit was hit, all compensation requests would be denied. 
 
 It is important to note that this parameter was not originally put in place to curb inflation—rather, it was meant as a security measure to limit damage in case of an extreme scenario.
 

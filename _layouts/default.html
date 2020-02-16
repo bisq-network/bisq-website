@@ -33,9 +33,11 @@
         <meta name="twitter:creator" content="@bisq_network">
         <link rel="canonical" href="{{ page.url }}">
         {% if page.lang == "ja" %}
-        <link href="/css/jafont.css" rel="stylesheet">
+          <link href="/css/jafont.css" rel="stylesheet">
+        {% elsif page.lang == "ru" %}
+          <link href="/css/rufont.css" rel="stylesheet">
         {% else %}
-        <link href="/css/fonts.css" rel="stylesheet">
+          <link href="/css/fonts.css" rel="stylesheet">
         {% endif %}
 
         <style>

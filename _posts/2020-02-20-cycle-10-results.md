@@ -8,7 +8,7 @@ en-only: true
 
 This post summarizes the results of Cycle 10 of the Bisq DAO.
 
-Cycle 10 was a transitional cycle for the Bisq DAO as it implements a new management structure and budgets discussed in [this post]({% post_url 2020-02-10-q1-2020-update %}). Teams were established for core functions, teams began executing on top project priorities, and core administrative processes like compensation reviewing were overhauled.
+Cycle 10 was a transitional cycle for the Bisq DAO as it implements a new management structure and budgets discussed in [this post]({% post_url 2020-02-10-q1-2020-update %}). Teams were established for core functions, teams began executing on top project priorities, and core administrative processes like compensation request reviews were overhauled.
 
 More work on this transition continues in this cycle. Notable items in process are an overhauled proposal and project management dynamic as well as the roll-out of the Bisq wiki.
 

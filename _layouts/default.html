@@ -8,29 +8,39 @@
 {% endfor %}
 
     <head>
-
+        <!-- Common Tags-->
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-
         <meta name="author" content="Bisq">
-
+      
+        <!-- Search Engine -->
         <meta name="description" content="{{ langdata.site_desc }}">
         <meta name="image" content="/images/bisq-og.jpg">
+      
+        <!-- Schema.org for Google -->
         <meta itemprop="name" content="Bisq">
         <meta itemprop="description" content="{{ langdata.site_desc }}">
         <meta itemprop="image" content="/images/bisq-og.jpg">
+      
+        <!-- Open Graph general (Facebook, Pinterest & Google+) -->
         <meta property="og:title" content="{{ page.title }}">
         <meta property="og:description" content="{{ langdata.site_desc }}">
         <meta property="og:image" content="/images/bisq-og.jpg">
         <meta property="og:site_name" content="{{ langdata.site_name }}">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://bisq.network/">
+        <meta property="og:locale" content="{{ page.lang }}">
+        <meta property="og:video" content="https://www.youtube.com/watch?v=jj4x4x1OlAY">
+      
+        <!-- Twitter -->
         <meta property="twitter:title" content="{{ page.title }}">
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:site" content="https://bisq.network/">
         <meta property="twitter:description" content="{{ langdata.site_desc }}">
         <meta property="twitter:image" content="/images/bisq-og.jpg">
-        <meta name="twitter:creator" content="@bisq_network">
+        <meta property="twitter:creator" content="@bisq_network">
+        <meta property="twitter:player" content="https://www.youtube.com/watch?v=jj4x4x1OlAY">
+      
         <link rel="canonical" href="{{ page.url }}">
         {% if page.lang == "ja" %}
           <link href="/css/jafont.css" rel="stylesheet">

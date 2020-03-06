@@ -6,6 +6,18 @@ This repository hosts the source code for the Jekyll website hosted at https://b
 
 Please submit proposed changes as pull requests, ideally with commit messages that follow [these conventions](https://github.com/bisq-network/style/issues/9).
 
+---
+
+**NOTE**
+
+If you're expecting compensation from the Bisq DAO for your work, please make sure you've corresponded with the repo's maintainer to ensure the work you plan to do is currently prioritized and budgeted.
+
+You can do this by opening an issue in this repo explaining your proposed changes and cost, or by floating the idea in the #website channel on [Keybase](https://keybase.io/team/bisq).
+
+See further details on the [this wiki page](https://bisq.wiki/Growth_Team#Processes).
+
+---
+
 A pull requests should generally have a singular, well-defined purpose. For example, a pull request to add a blog post should just add a blog post, not add a blog post _and_ change spacing/indentation on some other page.
 
 You should fork this repository, create a new branch, and make all your changes there. Please don't commit your changes to the `master` branch.

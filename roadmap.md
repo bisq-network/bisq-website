@@ -18,6 +18,52 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.2.8
+{: .mt-5 .mb-2}
+Released [March 11th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.2.8)
+
+This release is, once again, packed with bug fixes and improvements. Most notably, it checks for errors in local Bitcoin Core node configuration and reduces the intervals in which users can trigger a trade process refresh.
+
+##### UI
+- [Improve wording for local BTC node reminder in `Settings > Network info`](https://github.com/bisq-network/bisq/pull/4024)
+- [Display 2 decimal places for fiat trading fees](https://github.com/bisq-network/bisq/pull/3973)
+- [Fix checkbox handling in `My Open Offers`](https://github.com/bisq-network/bisq/pull/4008)
+
+##### Trading
+- Reduce time until trade process refresh is possible: [1](https://github.com/bisq-network/bisq/pull/3980), [2](https://github.com/bisq-network/bisq/pull/4044)
+- [Update owner address of offer to new hidden service files](https://github.com/bisq-network/bisq/pull/4021)
+- [Add ARS as supported currency for MoneyGram](https://github.com/bisq-network/bisq/pull/4007)
+
+##### Wallet
+- [Add local Bitcoin node configuration detection](https://github.com/bisq-network/bisq/pull/3982)
+
+##### Performance
+- [Speed up DAO state monitor view load](https://github.com/bisq-network/bisq/pull/4035)
+
+##### Privacy
+- [Remove unused uid in fee provider service](https://github.com/bisq-network/bisq/pull/4015)
+- [Fix incorrect deletion of hidden service directory when using --appDataDir](https://github.com/bisq-network/bisq/pull/4018)
+
+##### Configuration
+- [Avoid startup failure when appDataDir is a symbolic link](https://github.com/bisq-network/bisq/pull/4002)
+- [Accept empty config values](https://github.com/bisq-network/bisq/pull/3978)
+
+##### Network
+- [Update URL for mempool.ninja blockchain explorer](https://github.com/bisq-network/bisq/pull/4033)
+- [Fix nginx.conf for collectd so it only listens on 127.0.0.1](https://github.com/bisq-network/bisq/pull/4016)
+- Fix CoinMarketCap API issues: [1](https://github.com/bisq-network/bisq/pull/4032), [2](https://github.com/bisq-network/bisq/pull/4037), [3](https://github.com/bisq-network/bisq/pull/4043)
+- [Moved node2.emzy.de to a new host](https://github.com/bisq-network/bisq/pull/4010)
+
+##### Monitor
+- [Added monitoring install scripts](https://github.com/bisq-network/bisq/pull/3985)
+
+##### Support
+- [Log delayed payout transaction bytes as soon as it's signed during trade initialization](https://github.com/bisq-network/bisq/pull/4040)
+- [Dump delayed payout transactions of both pending and failed trades if flag is set](https://github.com/bisq-network/bisq/pull/4029)
+
+##### Assets
+No assets were added.
+
 ##### Version 1.2.7
 {: .mt-5 .mb-2}
 Released [February 13th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.2.7)

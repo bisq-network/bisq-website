@@ -18,6 +18,12 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.3.1
+{: .mt-5 .mb-2}
+Released [April 8th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.3.1)
+
+This is a hotfix that improves delayed deposit transaction verification and fixes a bug that marks valid trades as failed trades.
+
 ##### Version 1.3.0
 {: .mt-5 .mb-2}
 Released [April 7th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.3.0)

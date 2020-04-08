@@ -18,6 +18,12 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.3.0
+{: .mt-5 .mb-2}
+Released [April 7th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.3.0)
+
+This is a hot fix release fixing a critical security vulnerability in the trade protocol.
+
 ##### Version 1.2.9
 {: .mt-5 .mb-2}
 Released [March 16th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.2.9)

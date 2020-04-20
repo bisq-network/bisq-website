@@ -18,6 +18,53 @@ You can help speed up our progress by [contributing](https://docs.bisq.network/c
 ## Releases
 {: .mt-5 .pt-5}
 
+##### Version 1.3.2
+{: .mt-5 .mb-2}
+
+This release is packed with bug fixes and improvements. Most notably, it improves the reliability of the wallet and uses Tor onion services version 3 for new data directories.
+
+##### UI
+- [Add volume weighted average BSQ price](https://github.com/bisq-network/bisq/pull/4098)
+- [Only use InputValidation when formatting voting stake](https://github.com/bisq-network/bisq/pull/4090)
+- [Make prompt text for passwords readable in dark mode](https://github.com/bisq-network/bisq/pull/4092)
+- [Size the offer book on window activation](https://github.com/bisq-network/bisq/pull/4031)
+- [Sorting order of offers appropriately by min/max range](https://github.com/bisq-network/bisq/pull/4068)
+
+##### Trading
+- [Unfail trades if possible (reattach addresses)](https://github.com/bisq-network/bisq/pull/4157)
+- [Add holder name for new Faster Payments accounts](https://github.com/bisq-network/bisq/pull/4046)
+- [Replace the Get Support button with Open Trader Chat until trade period is over](https://github.com/bisq-network/bisq/pull/4099)
+- [Add signed witness filter](https://github.com/bisq-network/bisq/pull/4124)
+- [Improve handling of filtered offers and unsupported payment methods](https://github.com/bisq-network/bisq/pull/4077)
+
+##### Wallet
+- [Limit number of unconfirmed offers](https://github.com/bisq-network/bisq/pull/4053)
+- [Prevent dust outputs from being created during the trade process](https://github.com/bisq-network/bisq/pull/4094)
+- [Prevent dust outputs from being created during withdraw from wallet](https://github.com/bisq-network/bisq/pull/4093)
+
+##### Performance/Reliability
+- [Improve avoid standby feature](https://github.com/bisq-network/bisq/pull/4060)
+- [Make UserThread::run* methods thread safe](https://github.com/bisq-network/bisq/pull/4122)
+- [Make serialisation in FileManager::saveToFile thread-safe](https://github.com/bisq-network/bisq/pull/4025)
+- [Added graceful shutdown hook](https://github.com/bisq-network/bisq/pull/4047)
+
+##### Privacy
+- [Upgrade to Tor 0.4.2.6 (using v3 addresses for new data directories)](https://github.com/bisq-network/bisq/pull/4028)
+
+##### Configuration
+- [Allow IPv6 connections to Bitcoin nodes](https://github.com/bisq-network/bisq/pull/4045)
+- [Prevent incorrect usage of `--useLocalhostForP2P` option](https://github.com/bisq-network/bisq/pull/4154)
+- [Avoid startup failure when bannedSeedNodes arg is empty](https://github.com/bisq-network/bisq/pull/4104)
+- [Limit system ram to 4GB](https://github.com/bisq-network/bisq/pull/4048)
+
+##### Network
+- [Replace a @wiz v2 seednode with a new v3 seednode](https://github.com/bisq-network/bisq/pull/4113)
+- [Remove a @wiz bitcoin node to reduce total count to 16 nodes](https://github.com/bisq-network/bisq/pull/4115)
+- [Add onion address for @robkaandorp's btcnode](https://github.com/bisq-network/bisq/pull/4106)
+
+##### Assets
+No assets were added.
+
 ##### Version 1.3.1
 {: .mt-5 .mb-2}
 Released [April 8th 2020](https://github.com/bisq-network/bisq/releases/tag/v1.3.1)

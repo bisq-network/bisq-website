@@ -173,6 +173,9 @@ https://bisq.io https://bisq.network 301
 /get-started https://docs.bisq.network/getting-started.html 302
 /getting-started https://docs.bisq.network/getting-started.html 302
 /contribute https://docs.bisq.network/contributor-checklist.html 301
+/payment-methods https://bisq.wiki/Payment_methods 302
+/trading-fees https://bisq.wiki/Trading_fees 302
+/trading-rules https://docs.bisq.network/trading-rules.html#trading-rules 301
 
 /arbitration_system.pdf /docs/exchange/arbitration-system 301
 /docs/arbitration-system.pdf /docs/exchange/arbitration-system 301

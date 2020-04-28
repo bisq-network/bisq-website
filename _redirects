@@ -214,6 +214,8 @@ https://bisq.io https://bisq.network 301
 
 /survey https://goo.gl/forms/UcKr2D7WNYUZl3Cf1 302
 
+/roadmap https://github.com/orgs/bisq-network/projects/3 302
+
 /dao-proposals/:id https://github.com/bisq-network/proposals/issues/:id 302
 /dao-proposals https://github.com/bisq-network/proposals/issues 302
 /dao-compensation/:id https://github.com/bisq-network/compensation/issues/:id 302

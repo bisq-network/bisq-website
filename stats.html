@@ -1,35 +1,7 @@
 ---
-layout: page
+layout: page_stats
 title: Network Stats &lsaquo; Bisq - A decentralized bitcoin exchange network
 ref: stats
 lang: en
 lang_display: En
 ---
-
-<link href="{{ '/css/chosen.css' | relative_url }}" rel="stylesheet">
-
-<script defer src="/js/highstock.js"></script>
-<script defer src="/js/stats.js"></script>
-
-<h1>Network Stats</h1>
-
-<div class='chart-stat-container'>
-    <div class='stat-chart' id="fiat-volume-container"></div>
-    {{  site.data.en.stats.pSeeMarkets }}
-</div>
-
-<div class='chart-stat-container'>
-    <div class='stat-chart' id="altcoin-volume-container"></div>
-    {{  site.data.en.stats.pSeeMarkets }}
-</div>
-
-<div class='chart-stat-container'>
-    <div class='stat-chart' id="bsq-container"></div>
-    <p>The mainnet <a href='https://docs.bisq.network/dao-user-reference.html#bsq-genesis-distribution' target='_blank'>BSQ genesis distribution</a> took place in April 2019.</p>
-</div>
-
-{% assign item = site.data.en.stats %}
-{% include statistics_data.html %}
-
-<br>
-<p class='monitor-note'>For P2P network load, Tor metrics, and other network data, please visit the <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>

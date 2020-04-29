@@ -1,0 +1,69 @@
+---
+layout: page
+---
+
+<link href="{{ '/css/chosen.css' | relative_url }}" rel="stylesheet">
+
+<script defer src="/js/highstock.js"></script>
+<script defer src="/js/stats.js"></script>
+
+{% assign item = site.data[page.lang].stats %}
+
+<h1>{{ item.hNetworkStats }}</h1>
+
+<div class='chart-stat-container'>
+    <div class='stat-chart' id="fiat-volume-container"></div>
+    {{  item.pSeeMarkets }}
+</div>
+
+<div class='chart-stat-container'>
+    <div class='stat-chart' id="altcoin-volume-container"></div>
+    {{  item.pSeeMarkets }}
+</div>
+
+<div class='chart-stat-container'>
+    <div class='stat-chart' id="bsq-container"></div>
+    <p>{{ item.pBSQDistribution }}</p>
+</div>
+
+
+
+<div class='plain-stat-container'>
+  <p class='stat-label'>{{item.pTotalTrades}}</p>
+  <p class='stat-figure'>56,312</p>
+  <p class='stat-note'>{{item.pTotalDate}}</p>
+</div>
+
+<div class='plain-stat-container'>
+  <p class='stat-label'>{{item.pDailyAverageTrade}}</p>
+  <p class='stat-figure'>116</p>
+  <p class='stat-note'>{{item.pTotalDate}}</p>
+</div>
+
+<div class='plain-stat-container'>
+  <p class='stat-label'>{{item.pSoftwareDownloads}}</p>
+  <p class='stat-figure'>11,743</p> <!--2465+2563+6511+204=11743-->
+  <p class='stat-note'>{{item.pSoftwareDownloadsVersion}}</p>
+</div>
+
+<div class='plain-stat-container'>
+  <p class='stat-label'>{{item.pGithubContributors}}</p>
+  <p class='stat-figure'>211</p>
+  <p class='stat-note'>{{item.pToDate}}</p>
+</div>
+
+<div class='plain-stat-container'>
+  <p class='stat-label'>{{item.pTwitterFollowers}}</p>
+  <p class='stat-figure'>20,647</p>
+  <p class='stat-note'>{{item.pToDate}}</p>
+</div>
+
+<div class='plain-stat-container'>
+  <p class='stat-label'>{{item.pKeybaseUsers}}</p>
+  <p class='stat-figure'>855</p>
+  <p class='stat-note'>{{item.pToDate}}</p>
+</div>
+
+
+<br>
+{{ item.pNetworkLoad }}

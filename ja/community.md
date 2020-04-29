@@ -3,8 +3,7 @@ layout: page
 title: Community &lsaquo; Bisq - A decentralized bitcoin exchange network
 ref: community
 lang: ja
-flag: 🇯🇵
-language: 日本語
+lang_display: 日本語
 ---
 # コミュニティ
 {: .mb-5}

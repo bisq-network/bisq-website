@@ -3,8 +3,7 @@ layout: page
 title: Community &lsaquo; Bisq - A decentralized bitcoin exchange network
 ref: community
 lang: ru
-flag: 🇷🇺
-language: Русский
+lang_display: Ru
 outdated_translation: false
 ---
 # Сообщество

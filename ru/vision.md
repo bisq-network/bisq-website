@@ -3,8 +3,7 @@ layout: page
 title: Vision &lsaquo; Bisq - A decentralized bitcoin exchange network
 ref: vision
 lang: ru
-flag: 🇷🇺
-language: Русский
+lang_display: Ru
 ---
 # Видение
 {: .mb-5}

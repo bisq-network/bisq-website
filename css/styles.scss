@@ -281,7 +281,7 @@ hr {
 
 
 .more-info-desktop .dropdown-menu {
-    width: 200px;
+    width: 130px;
 }
 
 .more-info-desktop .dropdown-menu .dropdown-item {
@@ -529,6 +529,10 @@ footer, footer ul li {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 0.4rem;
   padding-left: 0.4rem;
+}
+
+nav .language-selector .dropdown-menu, nav .mobile-language-selector .dropdown-menu {
+    min-width: 8rem;
 }
 
 nav .mobile-language-selector {

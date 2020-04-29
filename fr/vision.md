@@ -3,8 +3,7 @@ layout: page
 title: Vision &lsaquo; Bisq - La plateforme d'échange décentralisée Bitcoin
 ref: vision
 lang: fr
-flag: 🇫🇷
-language: Français
+lang_display: Fr
 outdated_translation: false
 ---
 # Vision

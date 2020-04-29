@@ -6,14 +6,14 @@
     {% if page.lang %}
     <div class="dropdown mobile-language-selector more-info-desktop">
       <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        {{ page.language }} {{ page.flag }}
+        {{ page.lang_display }}
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        {% assign pages = site.pages | where:"ref", page.ref | sort: 'language' %}
+        {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang_display' %}
         {% for page in pages %}
           <div class="dropdown-item btn-icon">
             <div class="float-right">
-              <a href="{{ page.url }}" hreflang="{{ page.lang }}">{{ page.language }} {{ page.flag }}</a>
+              <a href="{{ page.url }}">{{ page.lang_display }}</a>
             </div>
           </div>
         {% endfor %}
@@ -95,14 +95,14 @@
           {% if page.lang %}
           <li class="downloads-desktop nav-item dropdown more-info-desktop language-selector">
             <a class="nav-link dropdown-toggle visible-language" href='#' id="languageSelectorDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              {{ page.language }} {{ page.flag }}
+              {{ page.lang_display }}
             </a>
             <div class="dropdown-menu" aria-labelledby="languageSelectorDropdown">
-              {% assign pages = site.pages | where:"ref", page.ref | sort: 'language' %}
+              {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang_display' %}
               {% for page in pages %}
               <div class="dropdown-item btn-icon">
                 <div class="float-right">
-                  <a href="{{ page.url }}" hreflang="{{ page.lang }}">{{ page.language }} {{ page.flag }}</a>
+                  <a href="{{ page.url }}">{{ page.lang_display }}</a>
                 </div>
               </div>
               {% endfor %}

@@ -4,8 +4,7 @@ title: Bisq - A decentralized bitcoin exchange network
 banner: /images/bitsquare-home2.jpg
 ref: index
 lang: pt-PT
-flag: 🇵🇹
-language: Português
+lang_display: Pt
 outdated_translation: false
 ---
 

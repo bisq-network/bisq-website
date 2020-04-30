@@ -89,16 +89,15 @@ os_selector_options:
 dao:
   hLearnMore: "Want to learn more?"
   pLearnMore: "You can learn more about the Bisq DAO from the resources below, from high-level ELI5-style docs and videos to the technical specification for developers."
-  conceptualOverview: Conceptual Overview Doc
+  conceptualOverview: Conceptual Overview - Doc
   pConceptualOverview: "<p class=\"bigger\">Plain-language <a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">description</a> of the DAO.</p>"
-  bisqDaoBrief: Bisq DAO in Brief Videos
+  bisqDaoBrief: Bisq DAO in Brief - Videos
   pBisqDaoBrief: "<p class=\"bigger\">Quick, short <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">video series</a> on the Bisq DAO.</p>"
   technicalOverview: Technical Overview - Doc
   pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">Specification</a> of the workings of the Bisq DAO and BSQ token.</p>"
   notConvinced: "Not convinced a token is required?"
   pNotConvinced: "<p class=\"bigger\">We’ve got a <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">post</a> just for you.</p>"
-  seeMore: >
-    <p>See more resources on our <a href='https://docs.bisq.network/dao.html'>All About the Bisq DAO</a> doc.</p> <p>Past contributors, check <a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>this link</a> for instructions on being added to the genesis BSQ distribution.</p>
+  seeMore: "<p>See more resources on our <a href='https://docs.bisq.network/dao.html'>All About the Bisq DAO</a> doc.</p>"
 downloads:
   hBisqDownloads: Bisq Downloads
   runningWindows: You appear to be running Windows

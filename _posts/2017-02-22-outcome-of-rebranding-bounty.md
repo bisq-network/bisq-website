@@ -2,6 +2,7 @@
 layout: post
 title: Outcome of Rebranding Bounty
 author: Manfred Karrer
+lang: en
 en-only: true
 ---
 ### TL;DR

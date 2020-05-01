@@ -140,13 +140,7 @@
         {% endif %}
         </div>
 
-        <!-- Select includes/footer according to page lang -->
-        {% if page.lang == "en" or page.en-only %}
-            {% include footer.html %}
-        {% else %}
-            {% include footer_tr.html %}
-        {% endif %}
-
+        {% include footer.html %}
 
         <!-- Matomo -->
         <script type="text/javascript">

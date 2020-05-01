@@ -2,6 +2,7 @@
 layout: post
 title: Bisq v0.7.1 released
 author: Chris Beams
+lang: en
 en-only: true
 ---
 

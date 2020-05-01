@@ -2,6 +2,7 @@
 layout: post
 title: New P2P network
 author: Manfred Karrer
+lang: en
 en-only: true
 ---
 Some of you might ask what causes the delay of the beta release which was planned for that summer.

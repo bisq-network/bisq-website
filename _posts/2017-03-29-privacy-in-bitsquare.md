@@ -2,6 +2,7 @@
 layout: post
 title: Privacy in Bisq
 author: Manfred Karrer
+lang: en
 en-only: true
 ---
 To write a blog post about privacy in Bisq has been already a long time on my TODO list.

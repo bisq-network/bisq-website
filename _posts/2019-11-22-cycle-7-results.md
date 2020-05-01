@@ -3,6 +3,7 @@ layout: post
 title: "Bisq DAO Cycle 7: Results"
 author: Steve Jain
 excerpt: "Cycle 7 of the Bisq DAO ended at block 604 506 on November 19 2019. This post covers its results. <br><br>"
+lang: en
 en-only: true
 ---
 
@@ -30,7 +31,7 @@ _Generic proposal ([link](https://github.com/bisq-network/proposals/issues/139){
 
 _Accepted_
 
-A mobile experience for Bisq has long been desired but has been considered infeasible given resource requirements, power consumption, and other factors. 
+A mobile experience for Bisq has long been desired but has been considered infeasible given resource requirements, power consumption, and other factors.
 
 Recently wiz and bodymindarts made a proof-of-concept that combined an [alternative headless implementation called Risq](https://github.com/bodymindarts/risq){:target="_blank"} of Bisq with Tor with a native Android interface. After some discussion, it was decided the [upcoming gRPC API](https://github.com/bisq-network/proposals/issues/136){:target="_blank"} would be used instead of Risq.
 

@@ -2,6 +2,7 @@
 layout: post
 title: Crowdfunding campaign conclusion
 author: Richard Myers
+lang: en
 en-only: true
 ---
 

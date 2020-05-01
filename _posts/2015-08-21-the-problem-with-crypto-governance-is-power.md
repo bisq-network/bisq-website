@@ -2,6 +2,7 @@
 layout: post
 title: The Problem with Crypto Governance is Power
 author: Manfred Karrer
+lang: en
 en-only: true
 ---
 The really interesting problem in the recent Bitcoin crisis is not the block size debate. Nearly everyone [agrees][1] that there is need for a solution, but the consensus ends there. The form that the solution should take – and even the urgency of the problem itself – are still both hotly debated.

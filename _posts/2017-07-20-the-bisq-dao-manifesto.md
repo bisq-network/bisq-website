@@ -4,6 +4,7 @@ title: The Bisq DAO manifesto
 author: Mats-Erik Pistol
 redirect_from:
   - /blog/the-bisq-dao--manifesto
+lang: en
 en-only: true
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: "Bisq DAO Cycle 8: Results"
 author: Steve Jain
 excerpt: "Cycle 8 of the Bisq DAO ended at block 609 186 on December 21 2019. This post covers its results. <br><br>"
+lang: en
 en-only: true
 ---
 
@@ -10,7 +11,7 @@ This post summarizes the results of Cycle 8 of the Bisq DAO.
 
 It comes a bit later than usual, as Cycle 8 wasn't a pretty one. During the cycle, some significant issues were made apparent in the human side of the network: a lack of management and budgeting resulted in suboptimal resource allotment needed for growth, which seemed to reflect in a lower BSQ price.
 
-In response, key contributors are working on substantial changes to the way Bisq operates in order to address these issues and ensure continued confidence in the Bisq DAO among contributors and users alike. 
+In response, key contributors are working on substantial changes to the way Bisq operates in order to address these issues and ensure continued confidence in the Bisq DAO among contributors and users alike.
 
 These changes will be discussed more thoroughly in a call next week, as well as in a post on this blog shortly thereafter.
 
@@ -28,7 +29,7 @@ These changes will be discussed more thoroughly in a call next week, as well as 
 
 More details on BSQ burned: the 53 239 BSQ burned from trading fees is the sum of BSQ burned directly for fees (13 449) and BTC fees collected by _burningman2_ to buy and burn BSQ (39 790 = 66 000 BSQ total burned<sup>1</sup> - 26 210 BSQ of disputed BTC funds). Since this was the first cycle in which BTC fees were used to buy and burn BSQ, the BTC fee total is abnormally high: it includes BTC fees that were collected before the cycle started, and should be relatively lower going forward.
 
-High BSQ issuance in the face of anemic trading volume resulted in a relatively big increase in BSQ supply during the cycle, a problem that aggravated the BSQ market. 
+High BSQ issuance in the face of anemic trading volume resulted in a relatively big increase in BSQ supply during the cycle, a problem that aggravated the BSQ market.
 
 As of the end of Cycle 8, BSQ was trading at about 9200 satoshis/BSQ, which was about $0.66 at the time (BSQ had been holding in the $0.80-1.00 range for much of the year). Since then the price has dropped quite a bit more, with many trades in the 3000-6000 satoshis/BSQ range. The bitcoin-USD rate has jumped over 20% since Cycle 8 ended, which has somewhat dampened the effect of the nominal price drop, but the real drop in BSQ price is still significant.
 

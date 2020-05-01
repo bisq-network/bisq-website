@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Slack Redirect &lsaquo; Bisq - The decentralized Bitcoin exchange
+lang: en
 en-only: true
 ---
 

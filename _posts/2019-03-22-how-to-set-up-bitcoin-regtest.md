@@ -3,6 +3,7 @@ layout: post
 title: "How to Set Up a Bitcoin Regtest Environment"
 author: Tomáš Kanócz
 excerpt: "In this post, Tomáš shows you how to set up your very own Bitcoin regtest environment with bitcoin-qt and make your own blocks! <br><br>"
+lang: en
 en-only: true
 ---
 

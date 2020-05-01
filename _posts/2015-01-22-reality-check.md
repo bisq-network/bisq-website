@@ -2,6 +2,7 @@
 layout: post
 title: Reality check
 author: Manfred Karrer
+lang: en
 en-only: true
 ---
 We are glad to announce that we have started our new approach to iteratively fund the development of our project using [Lighthouse][1]. Please find all details about our campaign at the crowdfunding[2] section on our webpage.

@@ -2,6 +2,7 @@
 layout: post
 title: Software demo
 author: Manfred Karrer
+lang: en
 en-only: true
 ---
 This video gives an overview about the application and guided through the trade process:

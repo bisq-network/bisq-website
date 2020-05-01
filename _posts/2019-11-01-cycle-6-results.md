@@ -3,6 +3,7 @@ layout: post
 title: "Bisq DAO Cycle 6: Results"
 author: Steve Jain
 excerpt: "Cycle 6 of the Bisq DAO ended at block 599 826 on October 17 2019. This post covers its results. <br><br>"
+lang: en
 en-only: true
 ---
 

@@ -121,12 +121,7 @@
 
     <body class="home page-template-default page page-id-6 custom-background">
 
-        <!--Select includes/main_nav according to page lang or absence of lang-->
-        {% if page.lang == "en" or page.en-only %}
-            {% include main_nav.html %}
-        {% else %}
-            {% include main_nav_tr.html %}
-        {% endif %}
+      {% include main_nav.html %}
 
         <div class="outter">
         {% if page.ref == "index" %}

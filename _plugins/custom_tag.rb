@@ -6,7 +6,10 @@ class LingualLink < Liquid::Tag
 
   def render(context)
     lang = context.environments.first["page"]["lang"]
-    ( lang == "en" ) ? "/#{@dest.strip}/" : "/#{lang}/#{@dest.strip}/"
+    if @dest.strip == 'home'
+      return ( lang == "en" ) ? "/" : "/#{lang}/"
+    end
+    return ( lang == "en" ) ? "/#{@dest.strip}/" : "/#{lang}/#{@dest.strip}/"
   end
 end
 

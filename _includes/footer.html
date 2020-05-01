@@ -27,25 +27,31 @@
 
           <div class="col-12 col-lg-5 mb-md-0 mb-3 pr-md-5 pr-sm-2 small px-4 px-md-5">
             <h5 class="text-uppercase small grey">{{ item.ulResources }}</h5>
-            <ul class="list-unstyled divide-3col" style="column-gap: 3rem;">
+            <ul class="list-unstyled">
               <!--<li>
                 <a href="/press">Press</a>
               </li>-->
-              <li>
-                <a href="{% lingual_link downloads %}">{{ item.liDownloads }}</a>
-              </li>
-              <li>
-                <a href="https://github.com/orgs/bisq-network/projects/3" target="_blank">Roadmap</a>
-              </li>
-              <li>
-                <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">{{ item.liContribute }}</a>
-              </li>
-              <li>
-                <a href="https://markets.bisq.network/api/" target="_blank" rel="noopener">{{ item.liMarketData }}</a>
-              </li>
-              <li>
-                <a href="/benefactors">Benefactors</a>
-              </li>
+              <div class="virtual-column">
+                <li>
+                  <a href="{% lingual_link downloads %}">{{ item.liDownloads }}</a>
+                </li>
+                <li>
+                  <a href="https://github.com/orgs/bisq-network/projects/3" target="_blank">Roadmap</a>
+                </li>
+              </div>
+              <div class="virtual-column">
+                <li>
+                  <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">{{ item.liContribute }}</a>
+                </li>
+                <li>
+                  <a href="/benefactors">Benefactors</a>
+                </li>
+              </div>
+              <div class="virtual-column">
+                <li>
+                  <a href="https://markets.bisq.network/api/" target="_blank" rel="noopener">{{ item.liMarketData }}</a>
+                </li>
+              </div>
               <!--
               lets activate it once we have a dynamic content
               <li>

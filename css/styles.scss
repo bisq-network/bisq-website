@@ -677,6 +677,13 @@ ul.divide-3col {
   column-gap: 5rem;
 }
 
+.virtual-column {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px 0 0;
+}
+
 .community-links li {
     margin-bottom: 2rem;
     list-style: none;
@@ -1076,7 +1083,9 @@ faq page
 
 
   .page-footer ul li{
-    line-height:3em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    word-break: break-word;
   }
 
   ul.divide-2col {

@@ -4,7 +4,6 @@ title: "Why Some Bitcoin Companies Go Rogue: An Interview with Janine from Block
 author: Ricardo Martinez
 excerpt: "Ricardo Martinez interviews Janine of Block Digest. They discuss a peculiar phenomenon—the tendency for people and companies made successful by Bitcoin to turn against Bitcoin—and why it happens.<br><br>"
 lang: en
-en-only: true
 ---
 
 <hr>

@@ -3,7 +3,6 @@ layout: post
 title: Killer apps
 author: Manfred Karrer
 lang: en
-en-only: true
 ---
 Regardless of what you think or whatever you got presented by the media regarding the [Greek crisis][1], I think many of you will agree, that our current political system is in need for a drastic improvement to say the least.
 Depending on the interpretation of the severity of the problem one might come to the conclusion that our political, economic and financial system is just **too broken to get fixed**.

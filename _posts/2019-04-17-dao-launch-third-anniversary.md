@@ -4,7 +4,6 @@ title: "Bisq DAO Launches with Bisq v1.0"
 author: Steve Jain
 excerpt: "After years in the making, the Bisq DAO has launched on mainnet with the v1.0 release of the Bisq software, just days before Bisq celebrates 3 years in production. <br><br>"
 lang: en
-en-only: true
 ---
 
 <hr>

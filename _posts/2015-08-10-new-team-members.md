@@ -3,7 +3,6 @@ layout: post
 title: New team members
 author: Manfred Karrer
 lang: en
-en-only: true
 ---
 Good news! Bitsquare is expanding: **Amanda Johnson** and **Mihail Mihaylov** were delighted to join our team.
 

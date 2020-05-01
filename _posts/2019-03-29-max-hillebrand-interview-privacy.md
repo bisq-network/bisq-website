@@ -4,7 +4,6 @@ title: "Privacy Best Practices & Bisq: An Interview with Max Hillebrand"
 author: Ricardo Martinez
 excerpt: "Ricardo Martinez interviews Max Hillebrand of the World Crypto Network. They discuss privacy in general, privacy with respect to bitcoin, privacy with respect to Bisq, and more. <br><br>"
 lang: en
-en-only: true
 ---
 
 <hr>

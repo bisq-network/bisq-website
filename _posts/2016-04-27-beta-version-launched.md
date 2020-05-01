@@ -3,7 +3,6 @@ layout: post
 title: Beta version launched
 author: Manfred Karrer
 lang: en
-en-only: true
 ---
 A big day for Bitsquare – we have launched our [Beta version][1]!
 

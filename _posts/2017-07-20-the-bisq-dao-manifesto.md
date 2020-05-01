@@ -5,7 +5,6 @@ author: Mats-Erik Pistol
 redirect_from:
   - /blog/the-bisq-dao--manifesto
 lang: en
-en-only: true
 ---
 
 The Bisq DAO is a DAO that has been carefully designed to be stable against perturbations, such as majority attacks, scams and forks. The aim has been avoid any central points of failure or control and it is thus autonomous. It follows a general idea of DAOs, being based on network effects, modifiable computer programs and economic incentives. The Bisq DAO "controls" Bisq itself which is a p2p trading platform. The Bisq DAO has certain defining characteristics at its beginning, that we describe below:

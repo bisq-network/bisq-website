@@ -4,7 +4,6 @@ title: "Bisq DAO Cycle 9: Results"
 author: Steve Jain
 excerpt: "Cycle 9 of the Bisq DAO ended at block 613,866 on January 21 2020. This post covers its results. <br><br>"
 lang: en
-en-only: true
 ---
 
 This post summarizes the results of Cycle 9 of the Bisq DAO.

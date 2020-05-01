@@ -3,7 +3,6 @@ layout: post
 title: The Bitsquare arbitration system
 author: Manfred Karrer
 lang: en
-en-only: true
 ---
 A video going into the details of the Arbitration system for Bitsquare:
 

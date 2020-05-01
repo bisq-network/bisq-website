@@ -4,7 +4,6 @@ title: Bisq DAO for Bitcoin Maximalists
 author: Steve Jain
 excerpt: "Let's cut to the chase: the Bisq DAO is built on the Bitcoin network, and the BSQ token is just colored bitcoin.<br><br>"
 lang: en
-en-only: true
 ---
 
 <hr>

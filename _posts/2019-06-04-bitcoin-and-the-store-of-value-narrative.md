@@ -4,7 +4,6 @@ title: "Bitcoin and the Store of Value Narrative"
 author: Manuel Polavieja
 excerpt: "Manuel posits that Bitcoin's value cannot be explained with a store-of-value approach. <br><br>"
 lang: en
-en-only: true
 ---
 
 <hr>

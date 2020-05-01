@@ -3,7 +3,6 @@ layout: post
 title: Development update
 author: Manfred Karrer
 lang: en
-en-only: true
 ---
 It was a bit quiet here the last months, but there was going on a lot on the development front.
 

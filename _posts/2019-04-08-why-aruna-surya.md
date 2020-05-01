@@ -4,7 +4,6 @@ title: "Why I Am a Bisq Contributor: Aruna Surya"
 author: Aruna Surya
 excerpt: "Aruna Surya discusses her experience with being a Bisq contributor—why she started contributing, why she continues contributing, and how there's still a lot to like for a non-technical person with diverging interests. <br><br>"
 lang: en
-en-only: true
 ---
 
 <hr>

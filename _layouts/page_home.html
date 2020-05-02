@@ -1,4 +1,8 @@
-{% assign item = site.data.en.homepage_content %}
+---
+layout: default
+---
+
+{% assign item = site.data[page.lang].homepage_content %}
 <div class="container fadeIn">
         <main class="bd-masthead" id="content" role="main">
             <div class="row align-items-center">
@@ -68,7 +72,7 @@
                                       {{ item.buttonDownloads }}
                                   </div>
                                   <div class="float-right">
-                                      <a href="/downloads">{{ item.buttonGetBisq }}</a>
+                                      <a href="{% lingual_link downloads %}">{{ item.buttonGetBisq }}</a>
                                   </div>
                               </div>
                           </button>
@@ -81,11 +85,11 @@
                               {% include os_selector_options.html %}
                           </div>
 <!-- Need to repeat the function because the if/else function seems to nullify it -->
-{% assign item = site.data.en.homepage_content %}
+{% assign item = site.data[page.lang].homepage_content %}
                       </div>
 
 
-                      <a href="/downloads" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
+                      <a href="{% lingual_link downloads %}" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
                           <img src="/images/icon-download-g.svg" class="os-icon os-icon-g" alt="Download Bisq" loading="lazy">
                           <img src="/images/icon-download-w.svg" class="os-icon os-icon-w" alt="Download Bisq" loading="lazy">
                           {{ item.downloads }}
@@ -145,7 +149,7 @@
 
               </div>
               <div class="col-md-12 order-md-1 text-md-left homepage-hero">
-                <img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" style="width: 100%; display: block;" src="/images/bisq_screen0.png" loading="lazy">
+                <img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" style="width: 100%; display: block;" src="{% lingual_link image %}images/bisq_screen0.png" loading="lazy">
               </div>
             </div>
 
@@ -235,15 +239,15 @@
         {{ item.divGetStarted }}
       </div>
       <ol>
-        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="/downloads/">{{ item.liGetStarted1 }}</a>{{ item.liGetStarted2 }}</li>
+        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="{% lingual_link downloads %}">{{ item.liGetStarted1 }}</a>{{ item.liGetStarted2 }}</li>
         {{ item.liGetStarted3 }}
       </ol>
     </div>
     <div class="col-12 col-md-7 offset-0 offset-md-1">
-      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" src="/images/bisq_screen0.png" loading="lazy"></div>
-      <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="Open Trades view inside Bisq" src="/images/bisq_screen1.png" loading="lazy"></div>
-      <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" src="/images/bisq_screen0.png" loading="lazy"></div>
-      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="Open Trades view inside Bisq" src="/images/bisq_screen1.png" loading="lazy"></div>
+      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" src="{% lingual_link image %}images/bisq_screen0.png" loading="lazy"></div>
+      <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="Open Trades view inside Bisq" src="{% lingual_link image %}images/bisq_screen1.png" loading="lazy"></div>
+      <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" src="{% lingual_link image %}images/bisq_screen0.png" loading="lazy"></div>
+      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="Open Trades view inside Bisq" src="{% lingual_link image %}images/bisq_screen1.png" loading="lazy"></div>
 
     </div>
   </div>

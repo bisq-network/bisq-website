@@ -124,15 +124,7 @@
       {% include main_nav.html %}
 
         <div class="outter">
-        {% if page.ref == "index" %}
-            {% if page.lang == "en" %}
-                {% include homepage_content.html %}
-            {% else %}
-                {% include homepage_content_tr.html %}
-            {% endif %}
-        {% else %}
             {{ content }}
-        {% endif %}
         </div>
 
         {% include footer.html %}

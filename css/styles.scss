@@ -948,6 +948,13 @@ getting started page
     width: 60%;
     float: left;
     padding-right: 50px;
+    padding-left: 40px;
+}
+
+#getting-started .start-step-container .start-step .step-text h2 .step-number {
+    color: #bdc3c7;
+    position: absolute;
+    left: 20px;
 }
 
 #getting-started .start-step-container .start-step .step-text .topical {

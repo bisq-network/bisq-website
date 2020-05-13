@@ -10,7 +10,7 @@ en-only: true
 
 <div class="mt-5 mb-2" id="getting-started">
     <p>This guide covers just what you need to get trading quickly!</p>
-    <p>Most videos below are just about 2 minutes long. Written documentation is linked below too, if you prefer it. And <a href="https://keybase.io/team/bisq" target="_blank">support</a> is never too far away, if you need it.</p>
+    <p>Most videos below are just about 2 minutes long. Written documentation is linked below too, if you prefer it. And <a href="https://keybase.io/team/bisq" target="_blank">support</a> is never too far away.</p>
 
     <div class="admonition grey">
         <p class="note">Before you can start trading on Bisq, you'll need a little bitcoin for a security deposit and fees (0.01 BTC should be enough). Each trader must lock bitcoin in a multisignature escrow until the trade is complete—this is part of what makes trading on Bisq highly secure.</p>
@@ -131,9 +131,9 @@ en-only: true
             $( "." + currentStepItem ).removeClass( "active" );
 
             //activate payment account text items
-            if( e.currentTarget.id.indexOf("fiat") >= 0 ) {
+            if( e.currentTarget.id.indexOf("select-fiat") >= 0 ) {
                 $( "#getting-started .start-step-container .start-step .step-text .topical.fiat" ).addClass( "active" );
-            } else {
+            } else if( e.currentTarget.id.indexOf("select-altcoin") >= 0 ) {
                 $( "#getting-started .start-step-container .start-step .step-text .topical.altcoin" ).addClass( "active" );
             }
 

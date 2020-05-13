@@ -12,8 +12,12 @@ body {
   letter-spacing: 0.03rem;
 }
 
-strong {
+strong, .strong {
     font-weight: 700;
+}
+
+.centered {
+    text-align: center;
 }
 
 .green, a {
@@ -912,6 +916,74 @@ faq page
     margin: 20px 0;
 }
 
+/*****************
+getting started page
+*****************/
+
+#getting-started .admonition {
+    padding: 25px;
+    margin: 40px auto;
+}
+
+#getting-started .admonition.grey {
+    background-color: #f3f3f3;
+}
+
+#getting-started .admonition p:last-child {
+    margin-bottom: 0;
+}
+
+#getting-started .start-step-container {
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#getting-started .start-step-container .start-step {
+    clear: both;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+#getting-started .start-step-container .start-step .step-text {
+    width: 60%;
+    float: left;
+    padding-right: 50px;
+}
+
+#getting-started .start-step-container .start-step .step-text .topical {
+    display: none;
+}
+
+#getting-started .start-step-container .start-step .step-text .topical.active {
+    display: block;
+}
+
+#getting-started .start-step-container .start-step .step-feature {
+    width: 40%;
+    float: right;
+    padding-top: 7px;
+}
+
+#getting-started .start-step-container .start-step .step-feature .feature-selector > a {
+    padding: 8px 12px;
+    background-color: #f3f3f3;
+    color: #7E7E7E;
+    margin-right: 15px;
+}
+
+#getting-started .start-step-container .start-step .step-feature .feature-selector > a.active {
+    background-color: #25B135;
+    color: #fff;
+}
+
+#getting-started .step-feature .responsive-youtube-container {
+    margin-top: 15px;
+    display: none;
+}
+
+#getting-started .step-feature .responsive-youtube-container.active {
+    display: block;
+}
 
 /****************/
 

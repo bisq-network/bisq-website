@@ -1,8 +1,8 @@
 en:
   links:
 
-    - title: Vision
-      url: /vision/
+    - title: Getting Started
+      url: /getting-started/
 
     - title: Bisq DAO
       url: /dao/
@@ -31,8 +31,8 @@ en:
 de:
   links:
 
-    - title: Vision
-      url: /de/vision/
+    - title: Erste Schritte
+      url: /getting-started/
 
     - title: Bisq DAO
       url: /de/dao/
@@ -61,8 +61,8 @@ de:
 es:
   links:
 
-    - title: Visión
-      url: /es/vision/
+    - title: Empezando
+      url: /getting-started/
 
     - title: DAO Bisq
       url: /es/dao/
@@ -91,8 +91,8 @@ es:
 fr:
   links:
 
-    - title: Vision
-      url: /fr/vision/
+    - title: Mise en route
+      url: /getting-started/
 
     - title: La DAO de Bisq
       url: /fr/dao/
@@ -121,8 +121,8 @@ fr:
 ja:
   links:
 
-    - title: ビジョン
-      url: /ja/vision/
+    - title: 始めに
+      url: /getting-started/
 
     - title: Bisq DAO
       url: /ja/dao/
@@ -151,8 +151,8 @@ ja:
 pt-PT:
   links:
 
-    - title: Visão
-      url: /pt-PT/vision/
+    - title: Começar
+      url: /getting-started/
 
     - title: OAD do Bisq
       url: /pt-PT/dao/
@@ -181,8 +181,8 @@ pt-PT:
 zh-CN:
   links:
 
-    - title: 愿景
-      url: /zh-CN/vision/
+    - title: 快速入门
+      url: /getting-started/
 
     - title: Bisq DAO
       url: /zh-CN/dao/
@@ -211,8 +211,8 @@ zh-CN:
 pt-BR:
   links:
 
-    - title: Visão
-      url: /pt-BR/vision/
+    - title: Começando
+      url: /getting-started/
 
     - title: A DAO Bisq
       url: /pt-BR/dao/
@@ -241,8 +241,8 @@ pt-BR:
 ru:
   links:
 
-    - title: Видение
-      url: /ru/vision/
+    - title: Начало работы
+      url: /getting-started/
 
     - title: ДАО Bisq
       url: /ru/dao/

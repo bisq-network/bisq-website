@@ -976,6 +976,10 @@ getting started page
     background-color: #f3f3f3;
     color: #7E7E7E;
     margin-right: 15px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 14px;
 }
 
 #getting-started .start-step-container .start-step .step-feature .feature-selector > a.active {
@@ -1104,6 +1108,20 @@ getting started page
 
     .chart-stat-container .stat-chart {
         width: 100%;
+    }
+
+    /*****************
+    getting started page
+    *****************/
+
+    #getting-started .start-step-container .start-step .step-text {
+        width: 100%;
+    }
+
+    #getting-started .start-step-container .start-step .step-feature {
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 40px;
     }
 }
 

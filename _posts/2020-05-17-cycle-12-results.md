@@ -52,4 +52,4 @@ _Accepted_
 
 This proposal specified a framework for paying back the 6 victims from [the April security incident](https://bisq.network/statement-security-vulnerability-april-2020). Funds will be paid back as quickly as possible from BTC trading fees. A [filter-based mechanism to distribute repayments](https://github.com/bisq-network/bisq/pull/4150) is currently under review, and a basic [reporting mechanism](https://github.com/bisq-network/support/blob/master/track-repayments.html) to track payments has also been devised.
 
-Notably, this proposal _did not_ specify whether the total repayment would be the USD value of the funds at the time they were lost, or if the total would be the BTC total of the funds lost. This point remains to be addressed in a separate proposal to be submitted for consideration in Cycle 13.
+Notably, this proposal _did not_ specify whether the total repayment would be the USD value of the funds at the time they were lost, or if the total would be the BTC total of the funds lost. This point remains to be addressed in a separate proposal to be submitted for consideration in a subsequent cycle.

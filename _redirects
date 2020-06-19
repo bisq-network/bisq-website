@@ -170,8 +170,7 @@ https://bisq.io https://bisq.network 301
 /intro https://docs.bisq.network/intro.html 302
 /contrib-checklist /contributor-checklist 302
 /contributor-checklist https://docs.bisq.network/contributor-checklist.html 302
-/get-started https://docs.bisq.network/getting-started.html 302
-/getting-started https://docs.bisq.network/getting-started.html 302
+/get-started /getting-started 302
 /contribute https://docs.bisq.network/contributor-checklist.html 301
 /payment-methods https://bisq.wiki/Payment_methods 302
 /trading-fees https://bisq.wiki/Trading_fees 302

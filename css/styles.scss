@@ -12,8 +12,12 @@ body {
   letter-spacing: 0.03rem;
 }
 
-strong {
+strong, .strong {
     font-weight: 700;
+}
+
+.centered {
+    text-align: center;
 }
 
 .green, a {
@@ -912,6 +916,97 @@ faq page
     margin: 20px 0;
 }
 
+/*****************
+getting started page
+*****************/
+
+#getting-started .admonition {
+    padding: 25px;
+    margin: 40px auto;
+}
+
+#getting-started .admonition.grey {
+    background-color: #f3f3f3;
+}
+
+#getting-started .admonition p:last-child {
+    margin-bottom: 0;
+}
+
+#getting-started .start-step-container {
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#getting-started .start-step-container .final-notes {
+    padding: 0 25px;
+}
+
+#getting-started .start-step-container .final-notes {
+    padding: 0 25px;
+}
+
+#getting-started .start-step-container .final-notes h3.separator {
+    color: #bdc3c7;
+}
+
+#getting-started .start-step-container .start-step {
+    clear: both;
+    overflow: hidden;
+    margin: 25px auto;
+}
+
+#getting-started .start-step-container .start-step .step-text {
+    width: 60%;
+    float: left;
+    padding-right: 50px;
+    padding-left: 40px;
+}
+
+#getting-started .start-step-container .start-step .step-text h2 .step-number {
+    color: #bdc3c7;
+    position: absolute;
+    left: 20px;
+}
+
+#getting-started .start-step-container .start-step .step-text .topical {
+    display: none;
+}
+
+#getting-started .start-step-container .start-step .step-text .topical.active {
+    display: block;
+}
+
+#getting-started .start-step-container .start-step .step-feature {
+    width: 40%;
+    float: right;
+    padding-top: 7px;
+}
+
+#getting-started .start-step-container .start-step .step-feature .feature-selector > a {
+    padding: 8px 12px;
+    background-color: #f3f3f3;
+    color: #7E7E7E;
+    margin-right: 15px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#getting-started .start-step-container .start-step .step-feature .feature-selector > a.active {
+    background-color: #25B135;
+    color: #fff;
+}
+
+#getting-started .step-feature .responsive-youtube-container {
+    margin-top: 15px;
+    display: none;
+}
+
+#getting-started .step-feature .responsive-youtube-container.active {
+    display: block;
+}
 
 /****************/
 
@@ -1025,6 +1120,20 @@ faq page
 
     .chart-stat-container .stat-chart {
         width: 100%;
+    }
+
+    /*****************
+    getting started page
+    *****************/
+
+    #getting-started .start-step-container .start-step .step-text {
+        width: 100%;
+    }
+
+    #getting-started .start-step-container .start-step .step-feature {
+        width: 100%;
+        padding-right: 50px;
+        padding-left: 40px;
     }
 }
 

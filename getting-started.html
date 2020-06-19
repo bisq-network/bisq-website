@@ -1,0 +1,160 @@
+---
+layout: page
+title: Getting Started &lsaquo; Bisq - A decentralized bitcoin exchange network
+ref: getting-started
+lang: en
+en-only: true
+---
+
+<h1>Getting Started</h1>
+
+<div class="mt-5 mb-2" id="getting-started">
+    <p>This guide covers just what you need to get trading quickly!</p>
+    <p>Most videos below are just about 2 minutes long. Written documentation is linked below too, if you prefer it. And <a href="https://keybase.io/team/bisq" target="_blank">support</a> is never too far away.</p>
+
+    <div class="admonition grey">
+        <p class="note">Before you can start trading on Bisq, you'll need a little bitcoin for a security deposit and fees (0.01 BTC should be enough). Each trader must lock bitcoin in a multisignature escrow until the trade is complete—this is part of what makes trading on Bisq highly secure.</p>
+        <p class="note"><a href="https://bisq.wiki/Funding_your_wallet#How_to_Obtain_Your_First_Bitcoin" target="_blank">Here are some tips</a> on getting this bitcoin without surrendering your data to a corporate, centralized exchange.</p>
+    </div>
+
+    <div class="start-step-container">
+        <div class="start-step">
+            <div class="step-text">
+                <h2><span class="step-number">1</span>Download and Install Bisq</h2>
+                <p>You can download and install Bisq easily <a href="/downloads">from this website</a> or <a href="https://github.com/bisq-network/bisq/releases/latest" target="_blank">from GitHub</a>.</p>
+                <p>It's also a good idea to verify your installer file to be extra sure it hasn't been meddled with. See the videos here for directions. More details are in <a href="https://bisq.wiki/Downloading_and_installing" target="_blank">this wiki article</a>.</p>
+                <p>If you'd like to build Bisq from source, <a href="https://github.com/bisq-network/bisq/blob/master/docs/build.md" target="_blank">here are directions</a>. Bisq is free/libre open-source software that <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank">you can contribute to</a>.</p>
+            </div>
+            <div class="step-feature">
+                <div class="feature-selector"><a href="#" id="select-windows-install-video" class="install-step-item active">Windows</a><a href="#" id="select-linux-install-video" class="install-step-item">macOS or Linux</a></div>
+                <div class="responsive-youtube-container install-step-item active" id="windows-install-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XABzwXw6X0A?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="responsive-youtube-container install-step-item" id="linux-install-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dTfM4AsxNHY?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="start-step">
+            <div class="step-text">
+                <h2><span class="step-number">2</span>Back Up Keys, Write Down Seed</h2>
+                <p>With Bisq, you're in total control of your funds and your data. This means you retain unparalleled sovereignty, but it also means no one can help you if you lose something important—so it's critical that you do proper backups before using Bisq to trade.</p>
+                <p>We've also prepared a short tour of the Bisq interface so you can make the most of it.</p>
+                <p>More details are on the wiki: <a href="https://bisq.wiki/Backing_up_your_wallet_seed" target="_blank">writing down your seed words</a> and <a href="https://bisq.wiki/Backing_up_application_data" target="_blank">backing up your data directory</a>.</p>
+            </div>
+            <div class="step-feature">
+                <div class="feature-selector"><a href="#" id="select-backing-up-video" class="backup-step-item active">Backing Up</a><a href="#" id="select-interface-tour-video" class="backup-step-item">Tour of Bisq</a></div>
+                <div class="responsive-youtube-container backup-step-item active" id="backing-up-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JSwMcQAT_CA?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="responsive-youtube-container backup-step-item" id="interface-tour-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HDkzUl9wibc?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="start-step">
+            <div class="step-text">
+                <h2><span class="step-number">3</span>Create a Payment Account</h2>
+                <p>In order to trade bitcoin on Bisq, you've got to set up some way to send or receive other funds. Bisq only handles the bitcoin side of a trade—the other side is handled through fiat payment services (banks, money orders, cash) or altcoin wallets.</p>
+                <p class="topical active paymentaccount-step-item fiat">Not sure which kind of payment account to set up? There's a <a href="https://bisq.wiki/Payment_methods" target="_blank">full list of payment methods</a> on the wiki.</p>
+                <p class="topical active paymentaccount-step-item fiat">If you'll be trading fiat, please make sure you see the account limits video or read <a href="https://bisq.wiki/Account_limits" target="_blank">this article on the wiki</a>.</p>
+                <p class="topical paymentaccount-step-item altcoin">There are many altcoins available for trading on Bisq. Here are some tips for top markets:</p>
+                <ul class="topical paymentaccount-step-item altcoin">
+                    <li><span class="strong">Monero</span>. If sending XMR, make sure your wallet is capable of providing the transaction key, transaction ID, and recipient's address.</li>
+                    <li><span class="strong">BSQ</span>. You can find your BSQ address in <code>DAO</code> > <code>BSQ Wallet</code> > <code>Receive</code>.</li>
+                    <li><span class="strong">Liquid BTC</span>. If receiving L-BTC, you must use a wallet that can reveal your blinding key, like the <a href="https://github.com/ElementsProject/elements" target="_blank">core Elements software</a> (Blockstream Green won't work, as of this writing).</li>
+                </ul>
+            </div>
+            <div class="step-feature">
+                <div class="feature-selector"><a href="#" id="select-fiat-setup-video" class="paymentaccount-step-item active">Fiat</a><a href="#" id="select-fiat-limits-video" class="paymentaccount-step-item">Fiat Limits</a><a href="#" id="select-altcoin-setup-video" class="paymentaccount-step-item">Altcoin</a></div>
+                <div class="responsive-youtube-container paymentaccount-step-item active" id="fiat-setup-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nDgT_kFC-9Y?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="responsive-youtube-container paymentaccount-step-item" id="fiat-limits-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TP5Zh6IJPVo?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="responsive-youtube-container paymentaccount-step-item" id="altcoin-setup-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/33UTotkxw_0?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="start-step">
+            <div class="step-text">
+                <h2><span class="step-number">4</span>Do a Trade</h2>
+                <p>Making an offer will usually get you a better price and more control (e.g., setting payment method and deposit percentage), but taking an offer can be more convenient.</p>
+                <p>See <a href="https://bisq.wiki/Trading_fees" target="_blank">trading fees here</a>. You'll notice offer makers pay a lot less.</p>
+                <p>Note that there's a mobile app for <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank">Android</a> you can use to get notifications for new offers and action items on open trades.</p>
+                <p>To see both sides of a Bisq trade at the same time, side-by-side, be sure to check out our <a href="https://www.youtube.com/watch?v=QjmpAq9RUXM" target="_blank">Bird's Eye View of a Bisq Trade</a> video.</p>
+            </div>
+            <div class="step-feature">
+                <div class="feature-selector"><a href="#" id="select-make-offer-video" class="dotrade-step-item active">Make Offer</a><a href="#" id="select-take-offer-video" class="dotrade-step-item">Take Offer & Complete Trade</a></div>
+                <div class="responsive-youtube-container dotrade-step-item active" id="make-offer-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w7Uvv-xrxn8?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="responsive-youtube-container dotrade-step-item" id="take-offer-video">
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/E6AOgXajK_E?enablejsapi=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="final-notes centered">
+            <h3>That's it—the bare essentials of getting started with Bisq.</h3>
+            <h3 class="separator">―</h3>
+            <h3>Browse the <a href="https://bisq.wiki/" target="_blank">wiki</a> and <a href="https://docs.bisq.network/" target="_blank">documentation</a> to learn more.
+            <h3>Or say hi on <a href="https://keybase.io/team/bisq" target="_blank">Keybase</a>.</h3>
+            <h3 class="separator">―</h3>
+            <h3>Or simply make another trade!</h3>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+    //hack since jquery doesn't load until later
+    window.onload = function() {
+
+        //make selected selector and video active
+        $( "#getting-started .feature-selector > a" ).on( "click", function(e) {
+            e.preventDefault();
+
+            //activate selector
+            var currentStepItem = "";
+            var selectorClassList = e.currentTarget.classList;
+
+            for( var p in selectorClassList ) {
+                if( selectorClassList[p].indexOf( "-item" ) >= 0 ) {
+                    currentStepItem = selectorClassList[p];
+                        break;
+                }
+            }
+
+            $( "." + currentStepItem ).removeClass( "active" );
+
+            //stop any currently-playing videos from playing upon switching videos
+            $( "iframe" ).each(function(){
+                this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
+            });
+
+            //activate payment account text items
+            if( e.currentTarget.id.indexOf("select-fiat") >= 0 ) {
+                $( "#getting-started .start-step-container .start-step .step-text .topical.fiat" ).addClass( "active" );
+            } else if( e.currentTarget.id.indexOf("select-altcoin") >= 0 ) {
+                $( "#getting-started .start-step-container .start-step .step-text .topical.altcoin" ).addClass( "active" );
+            }
+
+            $( e.currentTarget ).addClass( "active" );
+
+            //show corresponding video
+            var currentVideo = ( e.currentTarget.id ).substring(7);
+            $( "#" + currentVideo ).addClass( "active" );
+
+            return;
+        })
+    };
+
+</script>

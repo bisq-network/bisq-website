@@ -150,4 +150,12 @@ $( document ).ready( function() {
         return;
     }
 
+
+    $( ".mode-toggle" ).on( "click", function() {
+      $('body').toggleClass("dark-mode");
+      var text = $(".mode-toggle").text();
+      $(".mode-toggle").text(text == "Light" ? "Dark" : "Light");
+      return;
+    });
+
 });

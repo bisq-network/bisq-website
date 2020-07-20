@@ -1,0 +1,294 @@
+footer:
+  notificationApp: Bisq mobilná notifikačná aplikácia
+  siteYear: © 2020 Bisq
+  ulResources: Zdroje
+  liDownloads: K stiahnutiu
+  liRoadmap: Roadmapa
+  liContribute: Prispieť
+  liMarketData: Market Data API
+  joinBisq: Pridaj sa
+
+homepage_content:
+  title: "<span class=\"animate1\">Decentralizovaná</span> <span class=\"animate2\">burza.</span>"
+  intro: "Bisq je open-source, peer-to-peer aplikácia, ktorá umožňuje nakupovať a predávať Bitcoiny za národné meny, alebo alternatívne kryptomeny. Nevyžaduje sa žiadna registrácia."
+  buttonWindows: Stiahnúť pre Windows
+  buttonMac: Stiahnúť pre Mac
+  buttonDebian: Stiahnúť pre Debian/Ubuntu
+  buttonRedHat: Stiahnúť pre Red Hat/Fedora
+  buttonDownloads: K stiahnutiu
+  buttonGetBisq: Získaj Bisq
+  buttonToggle: Prepnúť rozbaľovaciu ponuku
+  downloads: K stiahnutiu
+  androidNotificationsApp: Získaj andorid notifikačnú aplikáciu
+  iosNotificationApp: Získaj iOS notifikačnú aplikáciu
+  getStarted: Začíname »
+  runningWindows: Zdá sa, že používate systém Windows
+  runningMac: Zdá sa, že používate systém Mac
+  runnigDebian: Zdá sa, že používate systém Debian/Ubuntu
+  runningRedHat: Zdá sa, že používate systém Red Hat/Fedora
+  currentVersion: Aktuálna verzia
+  hFeatures: Funkcie
+  hIdentityVerifications: Žiadne overenie totožnosti
+  pIdentityVerifications: Okamžite prístupné. Nie je potrebná registrácia ani schválenie ústredným orgánom.
+  hDecentralized: Decentralizácia
+  pDecentralized: Obchodovanie prebieha na globálnej P2P sieti používateľov, ktorí prevádzkujú Bisq na svojich vlastných počítačoch.
+  hSafe: Bezpečnosť
+  pSafe: "Bisq nikdy nevlastní vaše prostriedky. Bezpečnostné vklady a multisig peňaženky napomáhajú bezpečnosti a úspešnému obchodovaniu."
+  hPrivate: Súkromie
+  pPrivate: Nikto okrem obchodných partnerov nemá prístup k vaším osobným údajom. Všetky osobné údaje sa ukladajú lokálne.
+  hSecure: Bezpečné a stále online
+  pSecure: End-to-end šifrovaná komunikácia smerovaná cez Tor bez výpadkov.
+  hOpen: Otvorenosť
+  pOpen: "<p class=\"grey px-md-5\">Kód je <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a> a o stratégii projektu sa diskutuje otvorene na <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> a <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  hEasy: Jednoduché použitie
+  pEasy: "<p class=\"grey px-md-5\">Vytvorené s jednoduchosťou—<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">urob svoj prvý obchod</a> za menej ako 10 minút!</p>"
+  hBisqDao: Bisq DAO
+  pBisqDao1: Decentralizovaná kontrola pre decentralizovanú výmenu.
+  pBisqDao2: Viac informácií tu
+  hGetStarted: Ako začať
+  divGetStarted: "S Bisq môžete začať obchodovať za menej ako 10 minút:"
+  liGetStarted1: Stiahnite aplikáciu
+  liGetStarted2: ", alebo si ju vytvorte zo zdrojového kódu."
+  liGetStarted3: >
+    <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Pridajte svoje národné alebo kryptomenové účty</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Vytvorte novú ponuku alebo využite už existujúcu.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Obchod dokončite podľa používateľského rozhrania.</li>
+  hJoin: Pridajte sa ku komunite
+  pJoin: >
+    <p>Bisq hľadá vysoko kvalifikovaných vývojárov, dizajnérov a bezpečnostných odborníkov, ktorí sa pripoja do <a href="https://bisq.network/community/">komunity</a>. Ak máte záujem pomôcť vylepšiť Bisq, existuje veľa spôsobov ako <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">prispieť</a>. Budeme veľmi radi!</p>
+  liGithub: "@bisq-network na GitHub"
+  liTwitter: "@bisq-network na Twitter"
+  liYoutube: Bisq YouTube kanál
+  liForum: Bisq fórum
+  liMailingList: Bisq newsletter pre prispievateľov
+  liFreenodeIRC: "#bisq na Freenode IRC"
+  liSubreddit: r/Bisq Subreddit
+  liKeybase: "Bisq na Keybase"
+
+main_nav:
+  liDownloads: K stiahnutiu
+  liLearnMore: Viac informácií
+  liDocumentation: Dokumentácia
+  liBlog: Blog
+  liCommunity: Komunita
+  buttonDownloads: K stiahnutiu
+
+os_selector_options:
+  liAllDownloads: Všetky súbory na stiahnutie
+  liAllDownloadsText: prejsť
+  liWindows: Stiahnúť pre Windows
+  liMac: Stiahnúť pre Mac
+  liDebian: Stiahnúť pre Debian/Ubuntu
+  liRedHat: Stiahnúť pre Red Hat/Fedora
+  liArch: Stiahnúť pre Arch Linux
+  liArchText: Arch User Repo
+  liSourceCode: Zdrojový kód
+  liReleaseNotes: Poznámky k vydaniu
+  liVerification: Verifikácia
+  liVerificationText1: PGP podpisy
+  liVerificationText2: PGP verejný kľúč
+
+dao:
+  hLearnMore: "Chcete sa dozvedieť viac?"
+  pLearnMore: "Viac informácií o Bisq DAO sa dozviete z nižšie uvedených zdrojov, od vysoko kvalitných dokumentov v štýle ELI5, videí až po technickú špecifikáciu pre vývojárov."
+  conceptualOverview: Koncepčný prehľad - dokumentácia
+  pConceptualOverview: "<p class=\"bigger\"><a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">Popis</a> ohľadne DAO.</p>"
+  bisqDaoBrief: Bisq DAO v skratke - videá
+  pBisqDaoBrief: "<p class=\"bigger\">Rýchla, krátka <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">video séria</a> o Bisq DAO.</p>"
+  technicalOverview: Technický prehľad - dokumentácia
+  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">Špecifikácia</a> fungovania tokenu Bisq DAO a BSQ tokenu.</p>"
+  notConvinced: "Nie ste presvedčený, že je potrebný token?"
+  pNotConvinced: "<p class=\"bigger\">Máme <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">článok</a> čisto len pre teba.</p>"
+  seeMore: "<p>Prečítajte si viac zdrojov na našom webe. <a href='https://docs.bisq.network/dao.html'>Všetko o Bisq DAO</a> je v dokumentácii.</p>"
+downloads:
+  hBisqDownloads: Bisq na stiahnutie
+  runningWindows: Zdá sa, že používate Windows
+  runningMac: Zdá sa, že používate Mac
+  runnigDebian: Zdá sa, že používate Debian/Ubuntu
+  runningRedHat: Zdá sa, že používate Red Hat/Fedora
+  tdWindows: Windows
+  tdMac: Mac
+  tdDebian: Debian/Ubuntu
+  tdRedHat: Red Hat/Fedora
+  tdArchLinux: Arch Linux
+  tdArchLinuxText: Arch User Repository
+  tdSourceCode: Zdrojový kód
+  tdReleaseNotes: Poznámky k vydaniu
+  tdReleaseNotesText: Poznámky k vydaniu pre
+  tdVerification: Verifikácia
+  tdVerificationText0: PGP podpis
+  tdVerificationText1: PGP podpisy
+  tdVerificationText2: PGP verejný kľúč
+  pSeeInstructions: "<p class=\"small\">Zobraziť <a href=\"https://docs.bisq.network/getting-started.html\">Začíname s Bisq</a> pre pokyny na dokončenie prvého obchodu.</p>"
+  hMobileNotifications: Bisq mobilná notifikácia
+  pMobileNotifications: Zostaňte v obraze o svojich obchodov a dostávajte upozornenia na svoj mobilný telefón.
+  p2MobileNotifications: <p class="small mt-2">Na prijímanie mobilných upozornení je potrebná verzia Bisq <strong> 0.8.0 </strong> alebo vyššia.</p>
+
+faq:
+  hFAQ: FAQ
+  hCoreFunctions: Základné funkcie
+  hSafeOpenSource: "Je Bisq bezpečný a open-source?"
+  pSafeOpenSource: >
+    <p>Áno, Bisq softvér je open-source a pod licenciou <em>"GNU Affero General Public License"</em> verzie 3. Tu je
+      <a href="https://github.com/bisq-network/bisq/" target="_blank">zdrojový kód</a> a
+      <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">licencia</a>.</p>
+    <p>Bisq využíva tri základné mechanizmy na dosiahnutie bezpečnosti:</p> <ol>
+      <li>Všetky Bitcoiny, s ktorými sa obchoduje v aplikácii Bisq, sú zabezpečené 2-of-2
+        <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multisignature</a> adresami.</li>
+      <li>Obaja obchodníci sú povinní platiť bezpečnostný vklad. Ten sa vracia po dokončení obchodu.</li>
+      <li>Obchodné spory sa riešia prostredníctvom <a href="https://docs.bisq.network/trading-rules#dispute-resolution" target="_blank">3-stupňovým mechanizmom</a>, ktorý zahŕňa chat obchodníkov, prostredníka a rozhodcu.</li>
+    </ol> <p>Pri obchodovaní s fiat menou za Bitcoiny vždy existuje určité riziko spätného prevodu, pretože transakcie s fiatmi sa technicky dajú vrátiť.</p><p>Na zmiernenie tohto rizika, Bisq:</p><ul><li>podporuje iba spôsoby platby, o ktorých je známe, že sťažujú spätný prevod - preto napríklad Bisq nepodporuje PayPal a kreditné karty. Prejdite na <a href="#chargeback-details">viac informácií o rizikách spätných prevodov</a>.</li><li>využíva <a href="https://docs.bisq.network/payment-methods#account-signing" target="_blank">mechanizmus podpisovania účtov</a> ktorý vynúti kupný limit 0,01 BTC, kým sa neoverí integrita kupujúceho.</li></ul>
+  hDifferent: "Existujú rôzne iné decentralizované burzy. Čím sa Bisq líši?"
+  pDifferent: >
+    <p>V súčasnosti žiadny iný projekt nezodpovedá našej definícii decentralizovanej výmeny Bitcoin-fiat. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> je projekt, ktorý sa približuje princípom Bisq, avšak je to internetový P2P obchod, nie burza.</p> <p>Väčšina búrz sa považujú za decentralizované aj keď nepodporujú fiat výmeny, alebo sú postavené na klient-server architektúre a nezodpovedajú našej definícii decentralizovanej burzy. Samozrejme existuje viacero ICO projektov s bielymi papiermi <em>(whitepapers)</em>.</p> <p>Aby mohla byť burza označená za decentralizovanú, je potrebné splniť nasledújuce:</p> <ul>
+      <li>Bisq nevlastní žiadne Bitcoiny. Všetky Bitcoiny sú držané v miltisignature adresách a nie v peňaženke ovládanej Bisq.</li>
+      <li>Bisq nevlastní žiadnu národnú menu. Národná mena sa presúva priamo od obchodníka k druhému.</li>
+      <li>Bisq používa peer-to-peer sieť cez Tor. To znamená, že neexistujú žiadne servery, ktoré by sa mohli vyhekovať, alebo byť terčom DDOS útoku.</li>
+      <li>Bisq nepozná obchodníkov. Nie su ukladané žiadne údaje o tom, kto s kým obchoduje.</li>
+      <li>Bisq nevyžaduje registráciu. To znamená, že je zachované súkromie, neexistujú žiadna <em>„schvaľovacia“</em> čakajúca doba a nie je možná krádež identity.</li>
+      <li>Bisq nie je spoločnosť. Je to open-source projekt organizovaný ako <a href="https://docs.bisq.network/user-dao-intro.html#what-is-a-dao" target="_blank" rel="noopener">Decentralizovaná Autonómna Organizácia (DAO)</a>.
+      </li>
+    </ul>
+  hPaymentMethods: "Ktoré spôsoby platby sú podporované?"
+  ulPaymentMethods: >
+    <ul>
+      <li>Advanced Cash</li>
+      <li>AliPay</li>
+      <li>Chase QuickPay</li>
+      <li>Faster Payments</li>
+      <li>HalCash</li>
+      <li>Interac e-Transfer</li>
+      <li>Japan Zengin Furikomi</li>
+      <li>MoneyBeam <em>(N26)</em></li>
+      <li>MoneyGram</li>
+      <li>Národný bankový prevod</li>
+      <li>Perfect Money</li>
+      <li>Popmoney</li>
+      <li>Prevod medzi rovnakou bankou</li>
+      <li>Prevod medzi rôznými bankami</li>
+      <li>PromptPay</li>
+      <li>Revolut</li>
+      <li>SEPA</li>
+      <li>SEPA Instant</li>
+      <li>Swish</li>
+      <li>Tvárou v tvár <em>(osobne)</em></li>
+      <li>Uphold</li>
+      <li>US Postal Money Order</li>
+      <li>Vklad hotovosti</li>
+      <li>WeChat Pay</li>
+      <li>Western Union</li>
+      <li>Zelle <em>(ClearXchange)</em></li>
+    </ul>
+    <p>Prečítajte si našu <a href="https://docs.bisq.network/payment-methods" target="_blank">dokumentáciu k spôsobom platieb</a> pre viac informácii. Rôzne spôsoby platby majú rôzne obchodné limity a obchodné obdobia.</p>
+  hTradingDetails: Podrobnosti o obchodovaní
+  hTradeLimits: "Aké sú obchodné limity?"
+  pTradeLimits: >
+    <p class='font-italic'>Fiat obchody</p> <p>Na zabránenie podvodom pri transakciách s fiatmi stanovuje Bisq limity na objemy obchodov. Tieto limity sú odvodené zo <a href="https://docs.bisq.network/payment-methods#account-signing" target="_blank">stavu podpísania platobného účtu</a>, a jeho vek <em>(t. j. čas od vytvorenia platobného účtu v Bisq)</em>.</p> <p>Počet obchodov, ktoré môžete urobiť, nie je nijako obmedzený - iba suma za obchod.</p> <p>Pre väčšinu bankových platobných metód ako SEPA alebo Zelle je maximálna veľkosť obchodu 0,25 BTC. Pre služby ako PerfectMoney a AliPay je to 1 BTC.</p> <p>Platobné metódy s nižším rizikom začínajú <em>"starnúť"</em> hneď po ich vytvorení v Bisq. Keď si vytvoríte platobný účet v Bisq, jeho obchodný limit bude 25% z celého obchodného limitu. Po 30 dňoch sa zvýši na 50% plného obchodného limitu a po 60 dňoch sa zvýši na 100% plného obchodného limitu.</p><p>Spôsoby platby s vyšším rizikom musia byt podpísane transakciou s dôveryhodným obchodníkom, aby mohli začať <em>"starnúť"</em>. Do tohto podpisu sa obmedzujú nákupy na 0,01 BTC. <a href="https://docs.bisq.network/payment-methods#account-signing" target="_blank">Dokumentácia k podpisom účtov</a> obsahuje viac podrobností.</p><p>Upozorňujeme, že predajné limity pre rizikové spôsoby platby nie sú ovplyvnené podpísaním a dodržiavaním pravidelného starnútia účtu.</p> <p class='font-italic'>Obchody s alternatívnymi kryptomenami</p> <p>Obchodu s alternatívnymi kryptomenami do 2 BTC sú povolené od prvého dňa - alternatívne kryptomeny nepodliehajú riziku spätného prevodu.</p>
+  hSecurityDeposit: "Prečo si Bisq vyžaduje zloženie bezpečnostného vkladu?"
+  pSecurityDeposit: >
+    <p>Bezpečnostné vklady vytvárajú stimuly pre kupujúceho a predávajúceho, aby dodržiavali pravidlá obchodného protokolu Bisq. Bezpečnostný poplatok sa uzamkne v miltisignature transakcii a je vrátená obom účastníkom obchodu po úspešnom dokončení obchodu.</p> <p>Ak je obchod sporný pre mediátora alebo rozhodcu, časť alebo celá suma bezpečnostného vkladu je vrátený protistrane. Príkladom porušenia protokoluje je, ak kupujúci nezaplatí predávajúcemu, alebo predávajúci nepotvrdí priatie platby.</p> <p>Väčšina obchodov Bisq je bez problémov dokončená čiastočne vďaka stimulom, ktoré vytvárajú bezpečnostné vklady.</p><p>Prečítajte si <a href="https://docs.bisq.network/trading-rules" target="_blank">dokumentáciu</a> pre úplné vysvetlenie obchodných pravidiel.</p>
+  hPrivacy: "Ako Bisq chráni moje súkromie?"
+  pPrivacy: >
+    <p>Bisq je samostatný softvér s otvoreným zdrojovým kódom, ktorý môžete skontrolovať pred spustením na vašom počítači, a preto nemusíte veriť, že akýkoľvek server zaznamenáva vaše osobné údaje <em>(ako aj v prípade webovej stránky)</em>.</p> <p>Pokiaľ ide o obchodný proces, vaše platobné informácie sa ukladajú lokálne na vašom počítači a počítači vášho obchodného partnera <em>(a počítači vášho mediátora alebo rozhodcu v prípade sporu)</em>. Všetky údaje vymieňané medzi používateľmi sú šifrované a podpísané.</p> <p>Na prenos údajov od jedného používateľa k druhému používa Bisq P2P sieť vybudovanú na protokole Tor, ktorá poskytuje vysoký stupeň anonymity. Pre zachovanie súkromia používateľ nemusí robiť žiadne ďalšie kroky - všetko je integrované v aplikácii.</p>
+  hTradeDuration: "Ako dlho trvá obchod?"
+  pTradeDuration: >
+    <p>Trvanie obchodu je určené časmi prevodu mien, ktoré používate. Prevody v národnej mene môžu byť okamžité <em>(Faster Payment)</em> alebo môžu trvať niekoľko dní <em>(SEPA)</em>.</p> <p>Bitcoinové transakcie trvajú problížne 10 minút, kým sú potvrdené.</p> <p>Obchody s alternatívnymi kryptomenami trvajú 1 deň <em>(alebo 1 hodinu pre okamžité obchody)</em>.</p><p>Prečítajte si <a href="https://docs.bisq.network/payment-methods" target="_blank">zoznam platobných metód</a> pre viac informácií.</p>
+  hTradeCost: "Koľko stojí obchodovanie na Bisq?"
+  pTradeCost: >
+    <p>Pri obchodovaní na Bisq používatelia platia obchodné poplatky Bisq a ťažobné poplatky ťažiarom.</p>
+
+    <strong>Obchodné poplatky</strong> <p>Obchodné poplatky sú splatné v BTC alebo BSQ. BSQ je zafarbený Bitcoin, ktorý Bisq používa na financovanie a riadenie. Použitie je voliteľné, avšak existujú <a href="https://docs.bisq.network/getting-started-dao-traders.html" target="_blank">významné výhody</a>.</p> <div id="faq-tables"> <p class="note">BTC obchodné poplatky za 1 BTC:</p> <table> <thead> <tr> <th></th> <th>BTC poplatky</th> <th>Poplatky ako % z 1 BTC obchodovanej veľkosti</th> </tr> </thead> <tbody> <tr> <td>Poplatok ponuky</td> <td>0.002 BTC</td> <td>0.20%</td> </tr> <tr> <td>Poplatok záujemcu</td> <td>0.006 BTC</td> <td>0.60%</td> </tr> </tbody> </table> <p class="note">BSQ obchodné poplatky za 1 BTC:</p> <table> <thead> <tr> <th></th> <th>BSQ poplatok</th> <th>Poplatok ako % z 1 BTC obchodovanej veľkosti</th> </tr> </thead> <tbody> <tr> <td>Poplatok ponuky</td> <td>10 BSQ</td> <td>0.10%</td> </tr> <tr> <td>Poplatok záujemcu</td> <td>30 BSQ</td> <td>0.30%</td> </tr> </tbody> </table> </div> <p>Vyššie uvedené percentuálne sadzby BSQ predpokladajú sadzbu 0,0001 BSQ / BTC.</p> <p>Nominálne poplatky BTC a BSQ sa pravidelne upravujú hlasovaním DAO, aby sa zohľadnili výkyvy na trhu.</p> <p>Minimálne obchodné poplatky sú stanovené na 0,00005 BTC a 0,03 BSQ.</p>
+
+    <strong>Ťažobné poplatky </strong>
+    <p>Za transakciu platí tvorca poplatky za ťažbu spolu s obchodnými poplatkami. Záujemca o ponuku platí ťažobné poplatky za bezpečnostný poplatok a výplatnú transakciu spolu s obchodným poplatkom. Dôvodom je, že poplatky za ťažbu kolíšu a pre tvorcu ponuky nie je možné, aby vedel, aké budú poplatky za ťažbu v čase prijatia ponuky.</p>
+    <p>Bisq používa <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">túto službu</a> na odhad transakčných poplatkov. Po vytvorení alebo prijatí ponuky sa používateľom zobrazia reálne poplatky za ťažbu</p>
+  hOpenOffer: "Prečo musím mať svoju aplikáciu online, keď mám otvorenú ponuku?"
+  pOpenOffer: >
+    <p>Ak ste zverejnili ponuku, vaša aplikácia Bisq musí zostať online, aby mohla reagovať, keď chce iný obchodník prijať vašu ponuku <em>(multisig transakcia vkladu sa vytvorí v procese prevzatia)</em>. Uistite sa, že ste deaktivovali pohotovostný režim počítača, aby vaša aplikácia Bisq mohla zostať online <em>(pohotovostný režim monitora nie je problém)</em>.</p> <p>Ak vaša aplikácia Bisq prejde do režimu offline, vaša ponuka bude odstránená z distribuovanej ponuky. Bude zverejnené pri najbližšom spustení aplikácie.</p> <p>Po prijatí ponuky a začatí obchodného procesu nemusí byť ani jedna strana obchodu nepretržite online, ale je potrebné, aby každý obchodník pravidelne kontroloval, či nie je potrebná nejaká akcia <em>(napr. zasielanie fiat / altcoinov, potvrdenie prijatia platby, atď)</em>.</p>
+  hEditOffer: "Ako môžem upraviť svoju ponuku?"
+  pEditOffer: "<p><a href=\"https://github.com/bisq-network/bisq/releases/tag/v0.7.0\">Verzia 0.7.0</a> pridala úpravu ponuky v portfóliu bez platenia dotatočných poplatkov.</p>"
+  hBank: "Bude moja banka vedieť, že kupujem Bitcoiny?"
+  pBank: >
+    <p>Existujú prípady, kedy niektoré banky zatvorili účty klientov, keď zistili nejaký pohyb na účte spojený s kryptomenami.</p> <p>Referenčný text <em>(niekedy nazývaný „dôvod platby“ alebo podobné)</em> bankového prevodu použitého na obchodovanie s Bisq musí byť <span class='font-italic'>vždy</span> vložený ako Bisq obchodné identifikačné číslo, čo je náhodná sekvencia znakov, rovnako ako identifikačné číslo mnoho iných prevodov. Uvedenie čohokoľvek iného ako <em>„dôvodu platby“</em> sa považuje za porušenie obchodného protokolu a bude mať za následok spor.</p> <p>Ak sa chcete vyhnúť problémom, odporúčame vám zriadiť si vyhradený bankový účet na nákup a predaj bitcoinov. Ak by banka zablokovala tento účet, spôsobilo by to pre vás menej problémov, než keby blokovala váš primárny účet.</p> <p>V poli predmetu nikdy neuvádzajte nič iné ako obchodné identifikačné číslo Bisq.</p>
+  hDisputeRsolution: Riešenie sporov
+  hArbitrationProcess: "Ako funguje riešenie sporov?"
+  pArbitrationProcess: >
+    <p>Bisq poskytuje 3-vrstvový mechanizmus na riešenie sporov: chat obchodníkov, mediátor a rozhodca.</p><p>Chat obchodníkov umožnuje obchodníkom na samostatné vyriešenie malých problémov súkromne cez end-to-end šifrovanie priamo v Bisq. Ak to nepomôže, obchodníci môžu najať mediátora, aby preskúmal situáciu a navrhol vyriešenie sporu. V zriedkavých prípadoch, keď madiátor zlyhá, obchodník môže zapojiť rozhodcu pre opätovné preskúmania situácie a vyriešenie sporu.</p><p>Vezmite prosím na vedomie, že rozsah privilégii rozhodcu sa významne zmenil zavedením nového obchodného protokolu vo verzii v1.2.</p><p>Pozri <a href="https://docs.bisq.network/trading-rules" target="_blank">dokumentáciu</a> pre viac informácií o tom, ako tento proces funguje.</p>
+  hCollusion: "Ako sa zabráni tajným dohodám medzi mediátorom, rozhodcom a obchodníkmi?"
+  pCollusion: >
+    <p>So zavedením nového obchodného protokolu vo verzii 1.2, multisig transakcia už neobsahuje kľúč rozhodcu. To znamená, že obchodníci si zachovávajú absolútnu kontrolu nad svojimi finančnými prostriedkami a neexistuje žiadna možnosť tajných dohôd.</p><p>Mediátori a rozhodcovia spľňajú stále <a href="https://docs.bisq.network/user-dao-intro.html#ensure-honesty-in-high-trust-roles" target="_blank">úlohu ručiteľov</a>, avšak, aj keď nemôžu podpísať transakciu na vyriešenie sporu, môžu dať <span class="note">návrh</span> ako vyriešiť spor, a je dôležité, aby boli zodpovední a spravodliví.</p>
+  hChargeback: "Čo sa stane, ak osoba nakupujúca Bitcoin vykoná kompenzáciu po tom, ako bol Bitcoin uvoľnený z multisig adresy?"
+  pChargeback: >
+    <p>Bisq podporuje iba spôsoby platby, pri ktorých spätný prevod nie je jednoduchý <em>(napr., to je dôvod, prečo PayPal a kreditné karty nie sú podporované)</em>. U bánk však stále existuje malé riziko spätného prevodu. Ak banka vykoná spätný prevod po tom, čo su presunuté BTC, mediátori a rozhodcovia sú v tomto prípade bezmocní</p> <p>Cieľom Bisq je čo najviac zamädziť tomuto scénaru, a to použitím týchto troch mechanizmov:</p> <ol>
+      <li>Stárnutie účtu vyžaduje novo vytvorené fiatové platobné účty na Bisq <a href='https://docs.bisq.network/payment-methods#supported-fiat-payment-methods' target="_blank">nižšie obchodné limity</a>, a tieto limity sa časom zvyšujú.</li>
+      <li><a href='https://docs.bisq.network/payment-methods#account-signing' target="_blank">Podpísanie účtu</a> vyžaduje, aby boli vysoko rizikové platobné metódy podpísané overením identity obchodníka pred tým, ako začne účet starnúť. Kým sa tieto účty nepodpíšu, nákupné limity sú nastavené na 0.01 BTC.</li>
+      <li>Spôsoby platby v národnej mene, o ktorých sa zistilo, že sa používajú na spätné prevody boli rýchlo odstránené.</li>
+    </ol>
+  hReputationSystem: "Nebol by reputačný systém medzi obchodníkmi postačujúci?"
+  pReputationSystem: >
+    <p>Reputačný systém bez dotatočných opatrení je slabý ochranný systém, kedže sa pri ňom nedá vyhnúť <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> alebo <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a> útokom.</p> <p>Takéto mechanizmy sú tiež problematické z hľadiska ochrany súkromia a udržania decentralizácie.</p>
+  hBeArbitrator: "Môžem sa stať mediátorom alebo rozhodcom?"
+  pBeArbitrator: <p>Mediátori a rozhodcovia spľňajú <a href="https://docs.bisq.network/user-dao-intro#ensure-honesty-in-high-trust-roles" target="_blank">úlohu ručiteľa</a> v Bisq DAO.</p><p>Ktokoľvek môže podať žiadosť o pridelenie týchto úloh, avšak schválenie závisi od požiadaviek siete v čase podania návrhu.</p>
+  hContactPeer: "Môžem kontaktovať svojho obchodného partnera?"
+  pContactPeer: >
+    <p>Áno, od verzie 1.1.6 Bisq obsahuje vstavanú funkciu súkromného a bezpečného chatu pre vyriešenie malých sporov bez potreby zapojenia mediátora alebo rozhodcu.</p>
+  hBisqDAO: Bisq DAO
+  hBisqDaoWhat: "Čo je Bisq DAO?"
+  pBisqDaoWhat: >
+    <p>Bisq DAO <em>(decentralizovaná autonómna organizácia)</em> je decentralizovaný riadiaci mechanizmus Bisq. Nahrádza organizáciu. Ako môže byť decentralizovaný mechanizmus dostatočný, keď je stále  kontrolovaný jednou entitou, ako napríklad organizáciou?</p> <p>Decentralizovaný mechanizmus nie je postačujúci bez decentralizovaného riadenia.</p> <p>Preto Bisq nie je organizáciou alebo právnickou osobou akéhokoľvek druhu - namiesto toho je DAO. DAO poskytuje financovanie a riadenie pre poskytnutie prosperity Bisq, a súčasne posilňuje bezpečnosť infraštruktúry.</p> <p>V skratke, Bisq DAO umožňuje Bisq stať sa odolnejšou voči cenzúre a spľňať <a href='https://docs.bisq.network/intro.html' target='_blank'>základné princípy</a> od úplného začiatku</p> <p>Prečítajte si viac o Bisq DAO v <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>tejto úvodnej dokumentácii</a>.</p>
+  hBisqDaoHow: "Ako funguje Bisq DAO?"
+  pBisqDaoHow: >
+    <p>Hlavným účelom Bisq DAO je financovanie projektu a stanovenie stratégií.</p> <ul>
+        <li>Obchodné poplatky sú distribuované priamo od obchodníkov k prispievateľom s tokenmi <em>(zafarbený Bitcoin)</em> nazývaný BSQ.</li>
+        <li>Stratégie sú určené spoločne hlasovaním v Bisq a zaznamenávane na Bitcoin sieti.</li>
+    </ul> <p>Prečítajte si viac informácií o tom, ako to vlastne funguje v <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>tejto sérii 3-5 minútových videí</a>.</p>
+  hNeedToKnow: "Čo potrebujem vedieť o DAO ako obchodník?"
+  pNeedToKnow: >
+    <p>Pretože Bisq DAO je mechanizmus riadenia, nemá veľký vplyv na každodenné používanie Bisq.</p> <p>Jedna vec, o ktorej by ste mali vedieť, je to, čo vlastne token BSQ robí. Prakticky, platíte menšie poplatky za transakčné poplatky použitím BSQ namiesto BTC.</p> <p>Prečo vlastniť BSQ token? Pretože umožnuje vyplatiť Bisq prispievateľom ích prácu bez potreby centrálnej peňaženky, alebo riadenia. Keď si kúpite BSQ, priamo platíte prispievateľom za ich prácu, čím podporujete Bisq projekt. Dynamickosť, ktorý tento token umožňuje <a href='https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/'>nie je možný pri Bitcoine</a>.</p> <p>Keď použijete BSQ na platbu obchodných poplatkov, tieto tokeny sú automaticky zničené <em>("spálene")</em>.</p> <p>Zistite viac o tom, ako tento proces funguje v <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>tejto dokumentácii</a> alebo v <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>v tejto sérii videí</a>.</p>
+  hUseBSQ: "Môžem používať Bisq bez BSQ a DAO?"
+  pUseBSQ: >
+    <p>Áno, môžete. Všetko, čo je potrebné urobiť, je zaplatiť obchodné poplatky prostredníctvom BTC namiesto BSQ. Dúfame však, že to neurobíte, pretože by to urobilo projekt neudržateľným.</p> <p>Pred Bisq DAO, obchodné poplatky boli presúvané na peňaženky, ktoré vlastnili iba niektorí Bisq prispievatelia <em>(rozhodcami)</em>. Všetci ostatní prispievatelia neboli odmenení. Bisq potrebuje, aby boli jeho prispievatelia pravidelne a predvídateľne platení, aby sa zabezpečil neustály <em>(a spoľahlivý)</em> vývoj, údržba a rast. Bisq DAO to umožňuje rozdelením obchodných poplatkov všetkým prispievateľom úplne decentralizovaným spôsobom.</p> <p>Bisq DAO a BSQ token umožňuje mechanizmus financovania a správy, ktorý <a href='https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/'>nie je možný v Bitcoine</a>. Odporúčame pozrieť <a href='https://docs.bisq.network/dao.html' target='_blank'>našu dokumentáciu</a> a <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>video série</a> pre získanie viac informácií.</p>
+  hBisqToken: "Bisq vytvoril token pretože potrebuje peniaze? Aký je harmonogram vydávania tochto tokenu?"
+  pBisqToken: >
+    <p>Bisq dostáva príjmi z obchodných poplatkov. DAO a BSQ token neboli vytvorené pre <span class='font-italic'>zárobok</span> - boli vytvorené pre <span class='font-italic'>distribúciu</span> odmeny pre prispievateľov bez potreby centrálneho bodu kontroly.</p> <p>BSQ token sa vydáva ak požiadavka od prispievateľa na kompenzáciu je schválena hlasovaním a tokeny sú zničené ked obchodník zaplatí obchodný poplatok s BSQ.</p> <p>BSQ vydávanie nie je jednorázová záležitosť a jej účelom nie je získať kapitál. Proces vydávania BSQ si môžete pozrieť v <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>tejto sérií videí</a>.</p>
+  hMiscellaneous: Rôzne
+  hNoBitcoins: "Ak nemám žiaden Bitcoin, ako si ho môžem zaobstarať na zaplatenie bezpečnostného vkladu a ťažebných poplatkov pre prvý obchod?"
+  pNoBitcoins: >
+    <p>Bitcoin bezpečnostný poplatok je potrebný na ochranu Bisq obchodníkov pred podvodmi a zneužitím.</p> <p>Výška bezpečnostného vkladu je vyjadrená percentuálne od obchodovanej sumy - 2% v predvolenom nastavení — ale môže ich upraviť tvorca ponuky.</p>
+
+    <p>Uvedomujeme si, že táto požiadavka môže byť prekážkou pre začiatočníkov, ale existuje veľa spôsobov, ako získať svoj prvé Bitcoiny: priatelia a rodina, Bitcoin stretnutia, Bitcoin bankomaty, poukážky, atď.</p>
+  hPaymentSupport: "Podporuje Bisq ‘XYZ’ platobné metódy?"
+  pPaymentSupport: >
+    <p>Bisq podporuje široku škálu platobných metód pre národné meny. Nové môžu byť priaté ak:</p> <ul>
+      <li>spätný prevod je nepravdepodobný</li>
+      <li>mediátor a rozhodca môže vidieť dôkaz o transakcii</li>
+    </ul> <p>Národné bankové prevody sú podporované v každej krajine.</p> <p>Môžete navrhnúť nový spôsob platby na <a href='https://bisq.community' target='_blank'>fóre</a>, <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>, alebo <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
+  hSoftwareBugs: "Čo sa stane v prípade softvérových chýb?"
+  pSoftwareBugs: >
+    <p>Ak Bisq aplikácia zistí, že máte problém so softvérom, zobrazí sa tlačidlo na „podporný lístok“. Tvoj rozhodca prestúpi vašu správu o chybe vývojárom, ktorý začnú hľadať riešenie problému. Môžete byť požiadaný
+      o logovací súbor pri asistencii v tomto procese.
+    </p> <p>Ak sa tlačidlo neobjaví, môžete otvoriť podporný lístok stlačením klávesy Cmd+o <em>(alebo Ctrl+o, záleží od vášho operačného systému)</em> v detaile obchodu.</p>
+  hMultisg: "Čo je Bitcoin ‘multisignature adresa’?"
+  pMultisig: >
+    <p><em>“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multisig</a>”</em>, je zabudovaný v Bitcoine ako jednoduchá verzia smart kontraktov. Multisig adresa sa generuje pomocou viacerých verejných kľúčov a špecifikuje, koľko z týchto kľúčov sa musí podpísať, aby sa mohlo manipulovať s Bitcoinami na tejto adrese.</p> <p>Bisq používa 2-of-3 multisig adresy. To znamená, že na vytvorenie platobnej adresy sa používajú tri verejné kľúče <em>(kupujúceho, predavajúceho a rozhodcu)</em>, a transakcia musí byť podpísaná dvoma z troch strán, aby sa mohlo manipulovať s Bitcoinami.</p> <p>Zvyčajne sa stáva, že transakciu podpísuje kupujúci a predávajúci, aby sa mohlo manipulovať s Bitcoinami. V prípade sporu sa však rozhodca postaví na jednu zo strán, aby poskytol druhý podpis na uvoľnenie Bitcoinov.</p>
+  hOtherQuestions: "Mám otázku, ktorá tu nie je zahrnutá…?"
+  pOtherQuestions: "<p>Zašlite svoju otázku na <a href=\"https://bisq.community/\" target=\"_blank\">Bisq fórum</a> alebo <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>.</p>"
+
+
+markets:
+  buy: Ponuky nákupu BTC
+  sell: Ponuky predaja BTC
+  tradeHistory: História obchodov <span class="grey">(Posledné 100 obchody)</span>
+
+stats:
+  hNetworkStats: Štatistiky siete
+  pSeeMarkets: "<p>Pozri <a href='https://bisq.network/markets'>stránku trhu</a> pre objem podľa meny.</p>"
+  pBSQDistribution: Mainnet <a href='https://docs.bisq.network/dao-user-reference.html#bsq-genesis-distribution' target='_blank'>počiatok BSQ distribúcie</a> sa konal v apríli 2019.
+  pTotalTrades: Celkový počet obchodov
+  pTotalDate: Počas minulého mesiaca
+  pDailyAverageTrade: Priemerné denné obchody
+  pSoftwareDownloads: Sťiahnutia
+  pSoftwareDownloadsVersion: Pre v1.3.4 (približne)
+  pGithubContributors: GitHub prispievatelia
+  pToDate: Od minulého mesiaca
+  pTwitterFollowers: Twitter priaznivci
+  pKeybaseUsers: Keybase uživatelia
+  pNetworkLoad: "<p class='monitor-note'>Pre P2P zaťaženie siete, Tor metriky, a ostatné dáta sieťe, prosím navštívte <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>"

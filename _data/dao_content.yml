@@ -393,3 +393,46 @@ ru:
   rel: "noopener"
   img: /images/DAO/dao_benefits.svg
   id: benefits
+
+sk:
+- title: "Bisq DAO"
+  intro: "Decentralizácia rozdelenia výnosov a rozhodovania, aby sa Bisq stal sebestačným a odolným voči cenzúre.<span class=\"footnote\">DAO znamená Decentralizovaná Autonómna Organizácia</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Zobraziť viac &darr;</a>"
+  img: /sk/images/DAO/dao_intro.svg
+  class: -main
+  id: intro
+
+- title: Prečo?
+  intro: "<p>Obchodovanie s Bisq je v decentralizované, ale rozdelenie výnosov a rozhodovanie nie.</p><p>Je dôležité, aby bol Bisq odolný voči cenzúre. Obchodný protokol a sieť P2P túto požiadavku spľňajú.</p><p>A čo vývojári Bisq? Pri tradičnej právnej štruktúre by sa rozhodovanie a rozdelenie príjmov centralizovali, čo by spôsobilo zraniteľné miesta.</p>"
+  href_text: Viac informácií o DAO ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /sk/images/DAO/dao_why.svg
+  id: why
+
+- title: Čo je Bisq DAO?
+  intro: "<p>Bisq DAO umožňuje prevod hodnoty od obchodníkov k prispievateľom. BSQ token to umožňuje decentralizovanou cestou.</p><p>Obchodné poplatky sa prideľujú prispievateľom bez obmedzenia spoločnosti alebo inej právnickej osoby, čo umožňuje Bisq byť bez štátnej príslošnosti.</p>"
+  href_text: Viac informácií o DAO ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /sk/images/DAO/dao_what.svg
+  id: what
+
+- title: Ako to funguje?
+  intro: "<div class=\"subtitle pt-4\"> Rozdelenie výnosov </div> <div class=\"small\"> <p>Na distribúciu výnosov z obchodných poplatkov pre prispievateľov sa používa Bisq BSQ - zafarbený Bitcoin. Prispievateľom sa vydájú nové BSQ, keď je žiadosť prispievateľa schválená hlasovaním. BSQ je zničené pri zaplatení obchodného poplatku. </p> <p> Neexistuje žiadny centrálny subjekt, ktorý by zhromažďoval alebo vytváral BSQ - Bisq zainteresobvané osoby sú kolektívne zodpovední za emisný proces. </p> <p class=\"disclaimer\"> Toto nie je ICO. BSQ nie je predávané pre zväčšenie kapitálu. </p> </div> <div class=\"subtitle pt-3\"> Rozhodovanie </div> <div class=\"small\"> <p> Bez výkonného riaditeľa alebo centrálneho riadiaceho tímu. Obchodníci a prispievatelia sú vlastníkmi Bisq. </p> <p> Sociálny konzesus (hlasovanie) určuje Bisq projektovú stratégiu. </p> </div>"
+  href_text: Viac informácií o DAO ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /sk/images/DAO/dao_how.svg
+  id: how
+
+- title: "Benefity"
+  intro: " <div class=\"subtitle\">Obchodníci: Robia Bisq udržateľným</div> <ul class=\"small pb-5\"> <li>Pomáhajú Bisq zabezpečiť konzistentný rozvoj a podporu zakúpením BSQ od prispievateľov</li> <li>Pomáhajú Bisq byť odolným voči cenzúre pri Bitcoin-fiat a Bitcoin-kryptomeny obchodoch</li> <li>Využívajú zľavu, ak používajú BSQ na platenie obchodných poplatkov</li> <li>Ak chcú, môžu platiť obchodné poplatky s BTC</li> </ul> <div class=\"subtitle\">Prispievatelia: Získavaju BSQ</div> <ul class=\"small pb-5\"> <li>Robia hodnotnú prácu, požadujú kompenzáciu, získavaju BSQ</li> <li>Predávajú BSQ na Bisq za BTC</li> <li>Hlasujú pri žiadostiach o kompenzáciu iných prispievateľov</li> <li>Pracujú na prelomovej technológii s prelomovou kultúrou</li> </ul>"
+  href_text: Viac informácií o DAO ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /sk/images/DAO/dao_benefits.svg
+  id: benefits

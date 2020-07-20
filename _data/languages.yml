@@ -52,3 +52,9 @@
   accept_languages: ["ru"]
   site_name: "Update this before merging"
   site_desc: "Update this before merging"
+- name: "Slovensky"
+  tag: "sk"
+  enabled: Yes
+  accept_languages: ["sk"]
+  site_name: "Bisq - Decentralizovaná bitcoin burza"
+  site_desc: "Bisq je open-source desktopová aplikácia, ktorá umožňuje nakupovať a predávať Bitcoiny za národné meny, alebo alternatívne kryptomeny."

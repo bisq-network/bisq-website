@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="681" height="264" viewBox="0 0 681 264">
+  <defs>
+
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
+
+
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-dao_what);
+      }
+
+      .cls-2 {
+        fill: #26b036;
+      }
+
+      .cls-2, .cls-5, .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        font-size: 12px;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+      }
+
+      .cls-4 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-style: italic;
+      }
+
+      .cls-5, .cls-6, .cls-9 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 10;
+      }
+
+      .cls-7 {
+        font-size: 30px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 200;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-dao_what">
+      <rect width="681" height="264"/>
+    </clipPath>
+  </defs>
+  <g id="dao_what" class="cls-1">
+    <g id="Group_44" data-name="Group 44" transform="translate(-8.835 -215)">
+      <g id="Ellipse_1" data-name="Ellipse 1" class="cls-2" transform="translate(434.01 227)">
+        <circle class="cls-8" cx="119.912" cy="119.912" r="119.912"/>
+        <circle class="cls-9" cx="119.912" cy="119.912" r="119.412"/>
+      </g>
+      <g id="Ellipse_59" data-name="Ellipse 59" class="cls-2" transform="translate(24.835 227)">
+        <circle class="cls-8" cx="119.912" cy="119.912" r="119.912"/>
+        <circle class="cls-9" cx="119.912" cy="119.912" r="119.412"/>
+      </g>
+      <text id="Contributors" class="cls-3" transform="translate(552.211 352.601)"><tspan x="-33.102" y="0">Prispievatelia</tspan></text>
+      <text id="Contributions" class="cls-4" transform="translate(348.835 408.35)"><tspan x="-25" y="0">Príspevky</tspan></text>
+      <text id="Fees" class="cls-4" transform="translate(348.835 296.853)"><tspan x="-22" y="0">Poplatky</tspan></text>
+      <text id="Traders" class="cls-3" transform="translate(143.71 352.601)"><tspan x="-25.136" y="0">Obchodníci</tspan></text>
+      <g id="Group_43" data-name="Group 43" transform="translate(236.433 304.838)">
+        <path id="Path_4" data-name="Path 4" class="cls-5" d="M0,0H6.279V6.279" transform="translate(221.626 0) rotate(45)"/>
+        <path id="Path_41" data-name="Path 41" class="cls-5" d="M0,0H6.279V6.279" transform="translate(4.439 84.614) rotate(-135)"/>
+        <line id="Line_46" data-name="Line 46" class="cls-6" x2="226.151" transform="translate(0.483 4.454)"/>
+        <line id="Line_47" data-name="Line 47" class="cls-6" x2="226.151" transform="translate(226.634 80.16) rotate(180)"/>
+      </g>
+      <text id="BSQ" class="cls-7" transform="translate(348.835 357)"><tspan x="-27.63" y="0">BSQ</tspan></text>
+    </g>
+  </g>
+</svg>

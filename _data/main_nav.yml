@@ -267,3 +267,33 @@ ru:
     - title: Документация
       url: "https://docs.bisq.network/"
       target: _blank
+
+sk:
+   links:
+
+     - title: Začíname
+       url: /getting-started/
+
+     - title: Bisq DAO
+       url: /sk/dao/
+
+     - title: Štatistiky
+       url: /sk/stats/
+
+     - title: FAQ
+       url: /sk/faq/
+
+     - title: Trh
+       url: /sk/markets/
+
+   mobile_links:
+
+     - title: Komunita
+       url: /sk/community/
+
+     - title: Blog
+       url: /blog/
+
+     - title: Dokumentácia
+       url: https://docs.bisq.network/
+       target: _blank

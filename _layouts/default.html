@@ -62,6 +62,7 @@
 
         <title>{{ page.title }}</title>
 
+        <script src="/js/js.cookie.min.js"></script>
         <script defer src="/js/jquery-3.3.1.min.js"></script>
         <script defer src="/js/popper.min.js"></script>
         <script defer src="/js/bootstrap.min.js"></script>
@@ -120,6 +121,11 @@
     </head>
 
     <body class="home page-template-default page page-id-6 custom-background">
+    <script>
+      if(Cookies.get('darkmode') == 1){
+        document.body.classList.add("dark-mode");
+      }
+    </script>
 
       {% include main_nav.html %}
 

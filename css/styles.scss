@@ -1465,3 +1465,26 @@ body.dark-mode .chosen-container .chosen-results li.highlighted {
 body.dark-mode .chosen-container-single .chosen-search input[type="text"] {
     border: 1px solid #383838 !important;
 }
+
+
+
+
+body.dark-mode .homepage-hero img {
+    content:url("/images/screens/bisq_hero_dark.png");
+}
+
+body.dark-mode .step-image-1 img {
+    content:url("/images/screens/step1_dark.png");
+}
+
+body.dark-mode .step-image-2 img {
+    content:url("/images/screens/step2_dark.png");
+}
+
+body.dark-mode .step-image-3 img {
+    content:url("/images/screens/step3_dark.png");
+}
+
+body.dark-mode .step-image-4 img {
+    content:url("/images/screens/step4_dark.png");
+}

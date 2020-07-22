@@ -505,11 +505,13 @@ footer, footer ul li {
 .btn-icon:hover .os-icon-w,
 .btn-icon .os-icon-g {
   opacity: 1;
+  -webkit-filter: grayscale(1);
   filter: grayscale(1);
 }
 
 .selected-os-download:hover img.os-icon.os-icon-g,
 .selected-os-download img.os-icon.os-icon-g {
+  -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
 
@@ -1455,9 +1457,9 @@ body.dark-mode .btn-secondary:hover {
 
 
 
-
-body.dark-mode .badge-img { /* svg on an img tag */
-  -webkit-filter: invert(1); /* safari 6.0 - 9.0 */
+body.dark-mode .community-links li img
+body.dark-mode .badge-img {
+  -webkit-filter: invert(1);
           filter: invert(1);
 }
 

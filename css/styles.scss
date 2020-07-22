@@ -194,7 +194,18 @@ hr {
 }
 
 .btn-group > .btn:hover, .btn-group-vertical > .btn:hover {
-     border-right: #7cc381 1px solid;
+    background-color: #25B135;
+    color: #fff;
+}
+.btn-group > .btn:hover a, .btn-group-vertical > .btn:hover a {
+    color: #fff;
+}
+
+.selected-os-download:hover .os-icon-w {
+    opacity: 1 !important;
+}
+.selected-os-download:hover .float-right a:hover{
+    color: #fff;
 }
 
 .btn-secondary,
@@ -202,14 +213,13 @@ hr {
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show>.btn-secondary.dropdown-toggle,
 .btn-secondary:hover {
-  background-color: #25B135;
-  border-color: #25B135;
+    background: none;
+    border-color: #d7e4d9;
+    color: #ccc;
 }
 
 .btn-secondary:hover {
-    color: #fff;
-    background-color: #25B135;
-    border-color: #0b8218;
+    color: #000;
 }
 
 .btn-outline-secondary {
@@ -313,7 +323,7 @@ hr {
   padding: 0.75rem 1rem;
   clear: both;
   font-weight: 300;
-  color: #25B135;
+  color: #000;
   text-align: inherit;
   white-space: initial;
   background-color: transparent;
@@ -423,7 +433,7 @@ footer, footer ul li {
     cursor: default;
 }
 
-.dropdown-item.btn-icon:hover a:hover, .selected-os-download:hover .float-right a:hover {
+.dropdown-item.btn-icon:hover a:hover {
   color: #25B135;
   text-decoration: none;
   border-bottom: #25B135 1px solid;
@@ -431,7 +441,7 @@ footer, footer ul li {
 
 .dropdown-item.btn-icon a.selected,
 .all-downloads a.selected {
-  background-color: #666;
+  background-color: #25B135;
   border-radius: 30px;
   padding: 3px 15px 3px 12px;
   color: #fff;
@@ -495,6 +505,12 @@ footer, footer ul li {
 .btn-icon:hover .os-icon-w,
 .btn-icon .os-icon-g {
   opacity: 1;
+  filter: grayscale(1);
+}
+
+.selected-os-download:hover img.os-icon.os-icon-g,
+.selected-os-download img.os-icon.os-icon-g {
+  filter: grayscale(0);
 }
 
 .btn-icon .os-icon-w, .btn-icon:hover .os-icon-w{
@@ -1343,6 +1359,12 @@ body.dark-mode .btn-outline-secondary {
     border-color: #313131;
 }
 
+body.dark-mode .btn-outline-secondary:hover {
+    background-color: #151515;
+    border: #424242 1px solid;
+    color: #2bca3e;
+}
+
 body.dark-mode .more-info-desktop .dropdown-menu .dropdown-item {
     height: 49px;
     background: #151515;
@@ -1414,9 +1436,24 @@ body.dark-mode .conclusion {
 }
 
 body.dark-mode .dropdown-item {
-    color: #25B135;
+    color: #fff;
     border-bottom: 1px solid #151515;
 }
+
+
+
+body.dark-mode .btn-secondary,
+body.dark-mode .btn-secondary:not(:disabled):not(.disabled):active,
+body.dark-mode .btn-secondary:not(:disabled):not(.disabled).active,
+body.dark-mode .show>.btn-secondary.dropdown-toggle,
+body.dark-mode .btn-secondary:hover {
+    background: none;
+    border-color: #313131;
+    color: #797979;
+}
+
+
+
 
 
 body.dark-mode .badge-img { /* svg on an img tag */

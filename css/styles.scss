@@ -1135,6 +1135,15 @@ getting started page
         padding-right: 50px;
         padding-left: 40px;
     }
+
+
+
+    body.dark-mode .navbar-light .navbar-nav .nav-item .nav-link,
+    .navbar-light .navbar-nav .nav-item.current .nav-link,
+    .navbar-light .navbar-nav .nav-item:hover .nav-link {
+        border-bottom: none;
+    }
+
 }
 
 
@@ -1374,6 +1383,11 @@ body.dark-mode .darker-grey {
   color: #ccc
 }
 
+body.dark-mode nav .mobile-language-selector button {
+    background: none;
+    color: #fff;
+    border: 1px solid #2f2f2f;
+}
 
 body.dark-mode #tables tr:hover {
     background: #151515;
@@ -1392,7 +1406,7 @@ body.dark-mode #tables tbody tr {
 }
 
 body.dark-mode .split-first {
-    background: #151515;
+    background: #0c0c0c;
 }
 
 body.dark-mode .conclusion {
@@ -1464,6 +1478,20 @@ body.dark-mode .chosen-container .chosen-results li.highlighted {
 
 body.dark-mode .chosen-container-single .chosen-search input[type="text"] {
     border: 1px solid #383838 !important;
+}
+
+
+@media (max-width: 991px) {
+    body.dark-mode ul.navbar-nav.ml-auto {
+      background: #000;
+    }
+    body.dark-mode .navbar-light .navbar-nav .nav-item .nav-link {
+        border-bottom: none;
+    }
+    body.dark-mode .navbar-light .navbar-nav .nav-item.current .nav-link,
+    body.dark-mode .navbar-light .navbar-nav .nav-item:hover .nav-link {
+        border-bottom: none;
+    }
 }
 
 

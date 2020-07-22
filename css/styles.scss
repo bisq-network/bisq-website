@@ -1535,6 +1535,11 @@ body.dark-mode .chosen-container-single .chosen-search input[type="text"] {
 
 
 
+body.dark-mode .features-pic {
+    -webkit-filter: invert(1) hue-rotate(165deg);
+    filter: invert(1) hue-rotate(165deg);
+}
+
 
 body.dark-mode .homepage-hero img {
     content:url("/images/screens/bisq_hero_dark.png");

@@ -1457,10 +1457,14 @@ body.dark-mode .btn-secondary:hover {
 
 
 
-body.dark-mode .community-links li img,
-body.dark-mode .badge-img {
+body.dark-mode .community-links li img {
   -webkit-filter: invert(1);
           filter: invert(1);
+}
+
+body.dark-mode .badge-img {
+  -webkit-filter: contrast(0.8);
+          filter: contrast(0.8);
 }
 
 

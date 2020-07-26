@@ -1323,7 +1323,7 @@ getting started page
 
 
 body.dark-mode, body.dark-mode .dropdown-menu {
-    background: #0a0a0a;
+    background: #101010;
     color: #f3f3f3;
 }
 
@@ -1373,12 +1373,14 @@ body.dark-mode .more-info-desktop .dropdown-menu .dropdown-item {
 }
 
 body.dark-mode .navbar {
-    border-bottom: #222 1px solid;
-    background-color: #000 !important;
+    border-bottom: #101010 1px solid;
+    background-color: #101010 !important;
 }
 
 body.dark-mode .navbar-light .navbar-nav .nav-item .nav-link {
-    border-bottom: #222 1px solid;
+    border-bottom: #101010 1px solid;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 body.dark-mode .navbar-light .navbar-nav .nav-link {
@@ -1389,8 +1391,9 @@ body.dark-mode .navbar-light .navbar-nav .nav-item.current .nav-link {
     color: #fff;
 }
 
-body.dark-mode .navbar-light .navbar-nav .nav-item.current .nav-link, body.dark-mode .navbar-light .navbar-nav .nav-item:hover .nav-link {
-    border-bottom: #25B135 1px solid;
+body.dark-mode .navbar-light .navbar-nav .nav-item.current .nav-link,
+body.dark-mode .navbar-light .navbar-nav .nav-item:hover .nav-link {
+    border-bottom: #6f6f6f 1px solid;
 }
 
 body.dark-mode .grey {
@@ -1430,7 +1433,12 @@ body.dark-mode #tables tbody tr {
 }
 
 body.dark-mode .split-first {
-    background: #0c0c0c;
+    background: #101010;
+}
+
+body.dark-mode .split-last {
+    -webkit-filter: brightness(0.8);
+            filter: brightness(0.8);
 }
 
 body.dark-mode .conclusion {
@@ -1485,6 +1493,10 @@ body.dark-mode .chart-stat-container .stat-chart, body.dark-mode #container {
     background: #1d1d1d;
 }
 
+body.dark-mode .plain-stat-container .stat-label {
+    color: #888888;
+}
+
 
 body.dark-mode rect.highcharts-plot-background, body.dark-mode svg.highcharts-root rect{
     fill: #1d1d1d;
@@ -1526,7 +1538,7 @@ body.dark-mode .chosen-container-single .chosen-search input[type="text"] {
 
 @media (max-width: 991px) {
     body.dark-mode ul.navbar-nav.ml-auto {
-      background: #000;
+      background: #101010;
     }
     body.dark-mode .navbar-light .navbar-nav .nav-item .nav-link {
         border-bottom: none;

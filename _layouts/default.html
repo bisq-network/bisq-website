@@ -124,6 +124,8 @@
     <script>
       if(Cookies.get('darkmode') == 1){
         document.body.classList.add("dark-mode");
+      }else{
+        Cookies.set("darkmode", 0);
       }
     </script>
 

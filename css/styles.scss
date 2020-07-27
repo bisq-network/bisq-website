@@ -646,10 +646,16 @@ nav .mobile-language-selector button {
 .accordion-toggle {
   cursor: pointer;
   padding-right: 30%;
+  background-image: url("/images/x-open.svg");
+  background-position: 99% 60%;
+  background-repeat: no-repeat;
+  background-size: 10px;
 }
 
 .accordion-toggle-active{
-  font-weight: 600
+  font-weight: 600;
+  background-image: url("/images/x-close.svg");
+  background-size: 9px;
 }
 
 .accordion-content {

@@ -124,8 +124,12 @@
     <script>
       if(Cookies.get('darkmode') == 1){
         document.body.classList.add("dark-mode");
+      }else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches && Cookies.get('darkmode') != 1) {
+        Cookies.set("darkmode", 1);
+        document.body.classList.add("dark-mode");
       }else{
         Cookies.set("darkmode", 0);
+        document.body.classList.remove("dark-mode");
       }
     </script>
 

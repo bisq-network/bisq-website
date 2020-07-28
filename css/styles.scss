@@ -1568,22 +1568,39 @@ body.dark-mode .features-pic {
 }
 
 
+body.dark-mode .homepage-hero img,
+body.dark-mode .step-image-1 img,
+body.dark-mode .step-image-2 img,
+body.dark-mode .step-image-3 img,
+body.dark-mode .step-image-4 img {
+  display: block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("/images/screens/bisq_hero_dark.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding-left: 100%;
+  padding-top: 63%;
+}
+
+
 body.dark-mode .homepage-hero img {
-    content:url("/images/screens/bisq_hero_dark.png");
+    background-image: url("/images/screens/bisq_hero_dark.png");
 }
 
 body.dark-mode .step-image-1 img {
-    content:url("/images/screens/step1_dark.png");
+    background-image: url("/images/screens/step1_dark.png");
 }
 
 body.dark-mode .step-image-2 img {
-    content:url("/images/screens/step2_dark.png");
+    background-image: url("/images/screens/step2_dark.png");
 }
 
 body.dark-mode .step-image-3 img {
-    content:url("/images/screens/step3_dark.png");
+    background-image: url("/images/screens/step3_dark.png");
 }
 
 body.dark-mode .step-image-4 img {
-    content:url("/images/screens/step4_dark.png");
+    background-image: url("/images/screens/step4_dark.png");
 }

@@ -1604,3 +1604,12 @@ body.dark-mode .step-image-3 img {
 body.dark-mode .step-image-4 img {
     background-image: url("/images/screens/step4_dark.png");
 }
+
+* {
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+    -webkit-transition: border-color 100ms linear;
+    -ms-transition: border-color 100ms linear;
+    transition: border-color 100ms linear;
+}

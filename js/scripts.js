@@ -154,8 +154,6 @@ $( document ).ready( function() {
     $( ".mode-toggle" ).on( "click", function() {
       $("body").toggleClass("dark-mode");
       $("body").hasClass("dark-mode") ? Cookies.set("darkmode", 1) : Cookies.set("darkmode", 0);
-      var text = $(".mode-toggle").text();
-      $(".mode-toggle").text(text === "Light" ? "Dark" : "Light");
       return;
     });
 

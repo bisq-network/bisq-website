@@ -536,8 +536,10 @@ footer, footer ul li {
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link {
-  border-bottom: #EBEBEB 1px solid;
-  font-weight: 400;
+    border-bottom: #EBEBEB 1px solid;
+    font-weight: 400;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navbar-light .navbar-nav .nav-item.current .nav-link,
@@ -1328,6 +1330,10 @@ getting started page
 }
 
 
+.mode-toggle {
+    cursor: pointer;
+}
+
 body.dark-mode, body.dark-mode .dropdown-menu {
     background: #101010;
     color: #f3f3f3;
@@ -1385,8 +1391,6 @@ body.dark-mode .navbar {
 
 body.dark-mode .navbar-light .navbar-nav .nav-item .nav-link {
     border-bottom: #101010 1px solid;
-    padding-left: 0;
-    padding-right: 0;
 }
 
 body.dark-mode .navbar-light .navbar-nav .nav-link {

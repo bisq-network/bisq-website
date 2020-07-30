@@ -122,7 +122,7 @@
 
     <body class="home page-template-default page page-id-6 custom-background">
     <script>
-      if (Cookies.get('darkmode') === undefined && window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+      if (Cookies.get('darkmode') === undefined && window.matchMedia('(prefers-color-scheme: light)').matches) {
         console.log('no cookie');
         Cookies.set("darkmode", 0);
       }else if(Cookies.get('darkmode') === undefined && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {

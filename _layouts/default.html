@@ -62,6 +62,7 @@
 
         <title>{{ page.title }}</title>
 
+        <script src="/js/js.cookie.min.js"></script>
         <script defer src="/js/jquery-3.3.1.min.js"></script>
         <script defer src="/js/popper.min.js"></script>
         <script defer src="/js/bootstrap.min.js"></script>
@@ -120,6 +121,20 @@
     </head>
 
     <body class="home page-template-default page page-id-6 custom-background">
+    <script>
+      if (Cookies.get('darkmode') === undefined && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        Cookies.set("darkmode", 0);
+      }else if(Cookies.get('darkmode') === undefined && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add("dark-mode");
+        Cookies.set("darkmode", 1);
+      }else if (Cookies.get('darkmode') == 1) {
+        Cookies.set("darkmode", 1);
+        document.body.classList.add("dark-mode");
+      }else{
+        Cookies.set("darkmode", 0);
+        document.body.classList.remove("dark-mode");
+      }
+    </script>
 
       {% include main_nav.html %}
 

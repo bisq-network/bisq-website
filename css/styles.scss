@@ -30,7 +30,6 @@ strong, .strong {
 
 .navbar-light .navbar-nav .nav-item.current .nav-link  {
     color: #000;
-    letter-spacing: 0.01em;
 }
 
 .grey {
@@ -564,6 +563,8 @@ footer, footer ul li {
     font-size: 14px;
     padding-left: 0;
     padding-right: 0;
+    letter-spacing: 0.01em;
+    border-bottom: 1px solid transparent;
 }
 
 .navbar-light .navbar-nav .nav-item.current .nav-link,

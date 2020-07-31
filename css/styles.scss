@@ -30,6 +30,7 @@ strong, .strong {
 
 .navbar-light .navbar-nav .nav-item.current .nav-link  {
     color: #000;
+    letter-spacing: 0.01em;
 }
 
 .grey {
@@ -1419,7 +1420,6 @@ body.dark-mode .navbar {
 
 body.dark-mode .navbar-light .navbar-nav .nav-link {
     color: #fff;
-    letter-spacing: 0.01em;
 }
 
 body.dark-mode .navbar-light .navbar-nav .nav-item.current .nav-link {

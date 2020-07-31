@@ -292,7 +292,38 @@ layout: default
   </div>
 </div>
 
+<div class="grey-back video">
+  <div class="row-block container" style="padding-bottom: 4em;">
+    <div class="row video-container">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/og7tqVK8c1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <style>
+    .grey-back.video {
+      margin: 0 0;
+      padding-bottom: 0;
+      background: #272727;
+    }
+    .dark-mode .grey-back.video {
+      background: #0f0f0f;
+    }
+    .video-container {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+      margin: 0;
+    }
 
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    </style>
+  </div>
+</div>
 
 {% comment %}
 <!-- future stats section -->

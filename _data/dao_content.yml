@@ -308,7 +308,7 @@ pt-BR:
 
 zh-CN:
 - title: "Bisq DAO"
-  intro: "分散收入分配和决策，使 Bisq 能够自我维持和抵制审查。<span class=\"footnote\">DAO 代表分散自治组织</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">了解更多</a>"
+  intro: "分散收入分配和决策，使 Bisq 能够自我维持和抵制审查。<span class=\"footnote\">DAO 代表分散自治组织</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">了解更多&darr;</a>"
   img: /zh-CN/images/DAO/dao_intro.svg
   class: -main
   id: intro

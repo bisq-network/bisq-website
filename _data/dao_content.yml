@@ -353,7 +353,7 @@ ru:
 
 - title: "ДАО Bisq"
   intro: "Децентрализованное распределение доходов и принятие решений для поддержания самофинансирования и цензуростойкости. <span class=\"footnote\">ДАО ⁠— это децентрализованная автономная организация.</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">Узнать больше &darr;</a>"
-  img: /images/DAO/dao_intro.svg
+  img: /ru/images/DAO/dao_intro.svg
   class: -main
   id: intro
 
@@ -363,7 +363,7 @@ ru:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: /images/DAO/dao_why.svg
+  img: /ru/images/DAO/dao_why.svg
   id: why
 
 - title: "Что такое ДАО Bisq?"
@@ -372,7 +372,7 @@ ru:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: /images/DAO/dao_what.svg
+  img: /ru/images/DAO/dao_what.svg
   id: what
 
 - title: "Как это работает?"
@@ -381,7 +381,7 @@ ru:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: /images/DAO/dao_how.svg
+  img: /ru/images/DAO/dao_how.svg
   id: how
 
 - title: "Преимущества"
@@ -390,5 +390,5 @@ ru:
   href: "https://docs.bisq.network/dao.html"
   target: "_blank"
   rel: "noopener"
-  img: /images/DAO/dao_benefits.svg
+  img: /ru/images/DAO/dao_benefits.svg
   id: benefits

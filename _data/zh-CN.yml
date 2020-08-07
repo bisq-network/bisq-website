@@ -105,7 +105,50 @@ os_selector_options:
   liVerificationText1: PGP 签名
   liVerificationText2: PGP 公钥
 
-dao:
+dao_page:
+- title: "Bisq DAO"
+  intro: "分散收入分配和决策，使 Bisq 能够自我维持和抵制审查。<span class=\"footnote\">DAO 代表分散自治组织</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">了解更多&darr;</a>"
+  img: /zh-CN/images/DAO/dao_intro.svg
+  class: -main
+  id: intro
+
+- title: 为什么？
+  intro: "<p>Bisq 交易目前是分散式的，但它的收入分配和决策并不是分散式的。</p><p>至关重要的是，Bisq 要抵制审查，而贸易协议和 P2P 网络为贸易商实现了这一点。</p><p>那 Bisq 的开发者呢？在传统的法律结构下，项目决策和收益分配将是集中式的，这可能会产生漏洞。</p>"
+  href_text: 了解更多关于 DAO 的信息 ›
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /zh-CN/images/DAO/dao_why.svg
+  id: why
+
+- title: Bisq DAO 是什么？
+  intro: "<p>Bisq DAO 支持从交易员到贡献者的价值转移。BSQ 以分散的方式实现了这一点。</p><p>交易费用不受公司或其他法律实体的限制，分配给贡献者，使 Bisq 保持无国籍和无主权。</p>"
+  href_text: 了解更多关于 DAO 的信息 >
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /zh-CN/images/DAO/dao_what.svg
+  id: what
+
+- title: 它的工作原理是什么？
+  intro: "<div class=\"subtitle pt-4\">收益分配</div>\n<div class=\"small\"><p>为了将交易费用收入分配给贡献者，Bisq 使用了 BSQ ——一种基于类似于比特币的货币。当利益相关者通过投票批准他们的薪酬请求时，贡献者将获得新的 BSQ ，当交易员使用 BSQ 支付交易费用时，BSQ 将获得“无干扰”。</p><p>没有集中的实体收集或创建 BSQ - Bisq 收益者，他们共同负责发布过程。</p><p class=\"disclaimer\">这不是 ICO 。没有出售 BSQ 来筹集资金。</p></div>\n\n<div class=\"subtitle pt-3\">决策</div>\n<div class=\"small\"><p>由于没有 CEO 或中央领导团队，Bisq 的股东（交易者和出资者）是 Bisq 的所有者。</p><p>通过社会共识（通过投票），他们决定 Bisq 的项目战略。</p>\n</div>"
+  href_text: 了解更多关于 DAO 的信息 >
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /zh-CN/images/DAO/dao_how.svg
+  id: how
+
+- title: "优点"
+  intro: "<div class=\"subtitle\">交易者：让 Bisq 可持续发展</div><ul class=\"small pb-5\"><li>通过从贡献者那里购买 BSQ ，帮助 Bisq 提供持续的专业开发和支持</li><li>帮助 Bisq 成为抗审查的比特币-法定货币和比特币-数字货币市场</li><li>如果您使用 BSQ 支付交易手续，可以享受折扣</li><li>如果您愿意，您仍然可以使用普通的 BTC 支付交易手续费</li></ul><div class=\"subtitle\">贡献者：赚取 BSQ</div><ul class=\"small pb-5\"><li>做有价值的工作，请求报偿，赚取 BSQ</li><li>在 Bisq 上为 BTC 出售 BSQ</li><li>对其他贡献者的薪酬要求进行表决</li><li>使用前沿文化— Bisq 协作的前沿技术的工作是不受许可的、非层次的和流动的</li></ul>"
+  href_text: 了解更多关于 DAO 的信息 >
+  href: "https://docs.bisq.network/dao.html"
+  target: "_blank"
+  rel: "noopener"
+  img: /zh-CN/images/DAO/dao_benefits.svg
+  id: benefits
+
+dao_footer:
   hLearnMore: "想要了解更多？"
   pLearnMore: "您可以从下面的参考资料、高级的 ELI5 风格的文档和视频以及开发人员的技术规范中了解更多关于 Bisq DAO 的信息。"
   conceptualOverview: 概念概述文档

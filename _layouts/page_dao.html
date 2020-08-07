@@ -202,7 +202,7 @@ layout: default
 
 
 
-{% for entry in site.data.dao_content[page.lang] %}
+{% for entry in site.data[page.lang].dao_page %}
 <div id="{{ entry.id }}" class="d-lg-flex h-md-100 align-items-center split-container{{ entry.class }} {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}{% if thecycle == 'even' %}split-invert{% endif %}">
   <div class="col-lg-6 p-0 h-md-100 split split-first">
       <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
@@ -229,7 +229,7 @@ layout: default
 
 
 
-{% assign item = site.data[page.lang].dao %}
+{% assign item = site.data[page.lang].dao_footer %}
 <div class="conclusion m-0 pb-5">
 <div class="row-block container">
   <h2 style="margin: 2em 0;">{{ item.hLearnMore }}</h2>

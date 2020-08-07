@@ -1,3 +1,30 @@
+main_nav:
+  liDownloads: 下载
+  liLearnMore: 了解更多
+  liDocumentation: 文档
+  liBlog: 博客
+  liCommunity: 社区
+  buttonDownloads: 下载
+  links:
+    - title: 快速入门
+      url: /getting-started/
+    - title: Bisq DAO
+      url: /zh-CN/dao/
+    - title: 统计数据
+      url: /zh-CN/stats/
+    - title: FAQ
+      url: /zh-CN/faq/
+    - title: 市场
+      url: /zh-CN/markets/
+  mobile_links:
+    - title: 社区
+      url: /zh-CN/community/
+    - title: 博客
+      url: /blog/
+    - title: 文档
+      url: https://docs.bisq.network/
+      target: _blank
+
 footer:
   notificationApp: Bisq 通知应用程序
   siteYear: © 2020 Bisq
@@ -62,14 +89,6 @@ homepage_content:
   liFreenodeIRC: "Freenode IRC 上的 #bisq"
   liSubreddit: r/Bisq 的 reddit 分话题
   liKeybase: "Keybase 上的 Bisq"
-
-main_nav:
-  liDownloads: 下载
-  liLearnMore: 了解更多
-  liDocumentation: 文档
-  liBlog: 博客
-  liCommunity: 社区
-  buttonDownloads: 下载
 
 os_selector_options:
   liAllDownloads: 所有下载

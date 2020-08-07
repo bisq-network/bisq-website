@@ -32,7 +32,7 @@
 
       <!-- MOBILE MENU -->
 
-      {% for item in site.data.main_nav[page.lang].links %}
+      {% for item in site.data[page.lang].main_nav.links %}
         <li class="nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
           {% if item.target == "_blank" %}
             <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
@@ -42,7 +42,7 @@
         </li>
       {% endfor %}
 
-      {% for item in site.data.main_nav[page.lang].mobile_links %}
+      {% for item in site.data[page.lang].main_nav.mobile_links %}
         <li class="downloads-mobile nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
           {% if item.target == "_blank" %}
             <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>

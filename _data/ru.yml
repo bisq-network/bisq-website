@@ -1,3 +1,30 @@
+main_nav:
+  liDownloads: Загрузить
+  liLearnMore: Узнать больше
+  liDocumentation: Документация
+  liBlog: Блог
+  liCommunity: Сообщество
+  buttonDownloads: Загрузить
+  links:
+    - title: Начало работы
+      url: /getting-started/
+    - title: ДАО Bisq
+      url: /ru/dao/
+    - title: Статистика
+      url: /ru/stats/
+    - title: ЧаВо
+      url: /ru/faq/
+    - title: Рынки
+      url: /ru/markets/
+  mobile_links:
+    - title: Сообщество
+      url: /ru/community/
+    - title: Блог
+      url: /blog/
+    - title: Документация
+      url: https://docs.bisq.network/
+      target: _blank
+
 footer:
   notificationApp: Мобильное приложение Bisq
   siteYear: "© 2020 Bisq"
@@ -62,14 +89,6 @@ homepage_content:
   liFreenodeIRC: "#bisq на Freenode IRC"
   liSubreddit: Подфорум r/Bisq на reddit
   liKeybase: Bisq в Keybase
-
-main_nav:
-  liDownloads: Загрузить
-  liLearnMore: Узнать больше
-  liDocumentation: Документация
-  liBlog: Блог
-  liCommunity: Сообщество
-  buttonDownloads: Загрузить
 
 os_selector_options:
   liAllDownloads: Все загрузки

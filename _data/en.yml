@@ -1,3 +1,30 @@
+main_nav:
+  liDownloads: Downloads
+  liLearnMore: Learn More
+  liDocumentation: Documentation
+  liBlog: Blog
+  liCommunity: Community
+  buttonDownloads: Downloads
+  links:
+    - title: Getting Started
+      url: /getting-started/
+    - title: Bisq DAO
+      url: /dao/
+    - title: Statistics
+      url: /stats/
+    - title: FAQ
+      url: /faq/
+    - title: Markets
+      url: /markets/
+  mobile_links:
+    - title: Community
+      url: /community/
+    - title: Blog
+      url: /blog/
+    - title: Documentation
+      url: https://docs.bisq.network/
+      target: _blank
+
 footer:
   notificationApp: Bisq mobile notification App
   siteYear: © 2020 Bisq
@@ -62,14 +89,6 @@ homepage_content:
   liFreenodeIRC: "#bisq on Freenode IRC"
   liSubreddit: r/Bisq Subreddit
   liKeybase: "Bisq on Keybase"
-
-main_nav:
-  liDownloads: Downloads
-  liLearnMore: Learn More
-  liDocumentation: Documentation
-  liBlog: Blog
-  liCommunity: Community
-  buttonDownloads: Downloads
 
 os_selector_options:
   liAllDownloads: All Downloads

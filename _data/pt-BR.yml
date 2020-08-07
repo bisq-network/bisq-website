@@ -148,6 +148,29 @@ dao_page:
   img: /pt-BR/images/DAO/dao_benefits.svg
   id: benefits
 
+dao_images:
+  dao_intro_contributor: Contribuidor
+  dao_intro_improvements: Melhorias
+  dao_intro_compensation: Compensação
+  dao_intro_trader: Negociador
+  dao_intro_bsq: BITCOIN COLORIDO BSQ
+  dao_intro_bisq: Rede Bisq
+  dao_intro_fees: Taxas de Negociação
+  dao_why_without: Sem DAO
+  dao_why_with: Com DAO
+  dao_why_contributors: Contribuidores
+  dao_why_traders: Negociadores
+  dao_why_cpof: Ponto de falha centralizado
+  dao_why_decent_governance: Governança Descentralizada
+  dao_what_fees: Taxas
+  dao_what_contributions: Contribuições
+  dao_what_traders: Negociadores
+  dao_what_contributors: Contribuidores
+  dao_how_revenue: Distribuição de receita
+  dao_how_decisions: Tomando decisão
+  dao_benefits_issuance: BSQ emitido para compensações
+  dao_benefits_burn: Taxas de Negociação
+
 dao_footer:
   hLearnMore: "Quer saber mais?"
   pLearnMore: "Você pode aprender mais sobre a DAO Bisq a partir dos recursos abaixo, desde documentos e vídeos de alto nível no estilo ELI5 até a especificação técnica para desenvolvedores."

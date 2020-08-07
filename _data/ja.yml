@@ -148,6 +148,29 @@ dao_page:
   img: /ja/images/DAO/dao_benefits.svg
   id: benefits
 
+dao_images:
+  dao_intro_contributor: 貢献者
+  dao_intro_improvements: 改善
+  dao_intro_compensation: 補償
+  dao_intro_trader: 取引者
+  dao_intro_bsq: BSQ カラード ビットコイン
+  dao_intro_bisq: Bisqネットワーク
+  dao_intro_fees: トレード手数料
+  dao_why_without: DAOなし
+  dao_why_with: DAOあり
+  dao_why_contributors: 貢献者
+  dao_why_traders: 取引者
+  dao_why_cpof: 中央集権化された障害点
+  dao_why_decent_governance: 非中央集権型のガバナンス
+  dao_what_fees: 手数料
+  dao_what_contributions: 貢献
+  dao_what_traders: 取引者
+  dao_what_contributors: 貢献者
+  dao_how_revenue: 収益分配
+  dao_how_decisions: 意思決定
+  dao_benefits_issuance: 補償のために発行されるBSQ
+  dao_benefits_burn: トレード手数料
+
 dao_footer:
   hLearnMore: "もっと知りたいですか？"
   pLearnMore: "Bisq DAOの詳細については、高レベルのELI5スタイルのドキュメントやビデオから開発者向けの技術仕様まで、以下のリソースからご覧ください。"

@@ -148,6 +148,29 @@ dao_page:
   img: /images/DAO/dao_benefits.svg
   id: benefits
 
+dao_images:
+  dao_intro_contributor: Contributor
+  dao_intro_improvements: Improvements
+  dao_intro_compensation: Compensation
+  dao_intro_trader: Trader
+  dao_intro_bsq: BSQ COLORED BITCOIN
+  dao_intro_bisq: Bisq Network
+  dao_intro_fees: Trading Fees
+  dao_why_without: Without DAO
+  dao_why_with: With DAO
+  dao_why_contributors: Contributors
+  dao_why_traders: Traders
+  dao_why_cpof: Centralized Point of Failure
+  dao_why_decent_governance: Decentralized Governance
+  dao_what_fees: Fees
+  dao_what_contributions: Contributions
+  dao_what_traders: Traders
+  dao_what_contributors: Contributors
+  dao_how_revenue: Revenue-distribution
+  dao_how_decisions: Decision-making
+  dao_benefits_issuance: BSQ issued for compensations
+  dao_benefits_burn: Trading fees
+
 dao_footer:
   hLearnMore: "Want to learn more?"
   pLearnMore: "You can learn more about the Bisq DAO from the resources below, from high-level ELI5-style docs and videos to the technical specification for developers."

@@ -148,6 +148,29 @@ dao_page:
   img: /pt-PT/images/DAO/dao_benefits.svg
   id: benefits
 
+dao_images:
+  dao_intro_contributor: Contribuinte
+  dao_intro_improvements: Melhoramento
+  dao_intro_compensation: Compensação
+  dao_intro_trader: Negociador
+  dao_intro_bsq: BITCOIN COLORIDO BSQ
+  dao_intro_bisq: Rede Bisq
+  dao_intro_fees: Taxa de negociação
+  dao_why_without: Sem OAD
+  dao_why_with: COM OAD
+  dao_why_contributors: Contribuintes
+  dao_why_traders: Negociantes
+  dao_why_cpof: Ponto de Falha Centralizado
+  dao_why_decent_governance: Governação Descentralizada
+  dao_what_fees: Taxas
+  dao_what_contributions: Contribuintes
+  dao_what_traders: Negociantes
+  dao_what_contributors: Contribuintes
+  dao_how_revenue: Distribuição de receita
+  dao_how_decisions: Tomada de decisão
+  dao_benefits_issuance: BSQ emitido para compensações
+  dao_benefits_burn: Taxa de negociação
+
 dao_footer:
   hLearnMore: "Quer aprender mais?"
   pLearnMore: "Você pode aprender mais sobre a OAD do Bisq a partir dos recursos abaixo, desde documentos e vídeos de alto nível no estilo ELI5 até a especificação técnica para desenvolvedores."

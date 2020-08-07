@@ -148,6 +148,29 @@ dao_page:
   img: /ru/images/DAO/dao_benefits.svg
   id: benefits
 
+dao_images:
+  dao_intro_contributor: Разработчик
+  dao_intro_improvements: Улучшения
+  dao_intro_compensation: Компенсация
+  dao_intro_trader: Трейдер
+  dao_intro_bsq: BSQ («ЦВЕТНОЙ» БИТКОЙН)
+  dao_intro_bisq: Сеть Bisq
+  dao_intro_fees: Комиссии
+  dao_why_without: Без ДАО
+  dao_why_with: С ДАО
+  dao_why_contributors: Разработчики
+  dao_why_traders: Трейдеры
+  dao_why_cpof: Централизованная точка отказа
+  dao_why_decent_governance: Децентрализованное управление
+  dao_what_fees: Комиссии
+  dao_what_contributions: Улучшения Bisq
+  dao_what_traders: Трейдеры
+  dao_what_contributors: Разработчики
+  dao_how_revenue: Распределение доходов
+  dao_how_decisions: Принятие решений
+  dao_benefits_issuance: BSQ, эмитированные в качестве компенсации
+  dao_benefits_burn: Комиссии
+
 dao_footer:
   hLearnMore: "Хотите узнать больше?"
   pLearnMore: "Вы можете узнать больше о ДАО Bisq из следующих ресурсов, документации и технических видеороликов для разработчиков."

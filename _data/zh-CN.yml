@@ -148,6 +148,29 @@ dao_page:
   img: /zh-CN/images/DAO/dao_benefits.svg
   id: benefits
 
+dao_images:
+  dao_intro_contributor: 贡献者
+  dao_intro_improvements: 改进
+  dao_intro_compensation: 报酬
+  dao_intro_trader: 交易商
+  dao_intro_bsq: 基于 BTC 的 BSQ
+  dao_intro_bisq: Bisq 网络
+  dao_intro_fees: 交易手续费
+  dao_why_without: 不使用 DAO
+  dao_why_with: 使用 DAO
+  dao_why_contributors: 贡献者
+  dao_why_traders: 交易商
+  dao_why_cpof: 中心化的坏处
+  dao_why_decent_governance: 去中心化的表决
+  dao_what_fees: 手续费
+  dao_what_contributions: 贡献
+  dao_what_traders: 交易商
+  dao_what_contributors: 贡献者
+  dao_how_revenue: 收益分配
+  dao_how_decisions: 决策
+  dao_benefits_issuance: BSQ 发放报偿
+  dao_benefits_burn: 交易手续费
+
 dao_footer:
   hLearnMore: "想要了解更多？"
   pLearnMore: "您可以从下面的参考资料、高级的 ELI5 风格的文档和视频以及开发人员的技术规范中了解更多关于 Bisq DAO 的信息。"

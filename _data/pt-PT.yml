@@ -1,6 +1,6 @@
 footer:
   notificationApp: App de notificação móvel do Bisq
-  siteYear: © 2019 Bisq
+  siteYear: "© 2020 Bisq"
   ulResources: Recursos
   liDownloads: Downloads
   liRoadmap: Roadmap
@@ -39,9 +39,9 @@ homepage_content:
   hSecure: Seguro e sempre Online
   pSecure: Comunicação encriptada de ponta a ponta roteada por Tor e sem tempo de inatividade.
   hOpen: Aberto
-  pOpen: "<p class=\"grey px-md-5\">O código é <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>,e a stratégia do projeto é discutida em aberto no <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> e no <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  pOpen: "<p class=\"grey px-md-5\">O código é <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, e a stratégia do projeto é discutida em aberto no <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> e <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Fácil de usar
-  pEasy: "<p class=\"grey px-md-5\">Simplificamos toda essa sofisticação -<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">faça a sua primeira troca</a> em menos de 10 minutos!</p>"
+  pEasy: "<p class=\"grey px-md-5\">Simplificamos toda essa sofisticação - <a href='/getting-started' target='_blank' rel=\"noopener\">faça a sua primeira troca</a> em menos de 10 minutos!</p>"
   hBisqDao: A OAD do Bisq
   pBisqDao1: Governação descentralizada para uma exchange descentralizada.
   pBisqDao2: Aprender mais aqui
@@ -53,7 +53,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Adicionar a sua conta de moeda nacional ou criptomoedas.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Criar uma nova oferta ou aceitar uma existente.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Siga a interface do usuário para finalizar a negociação.</li>
   hJoin: Junte-se à Comunidade
   pJoin: >
-    <p>A Bisq está sempre procurando desenvolvedores altamente qualificados, designers e especialistas em segurança para se juntarem à nossa <a href="https://bisq.network/pt-PT/community/">comunidade</a>. Se está interssado em ajudar a melhorar o Bisq, há muitas maneiras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>. Adoraríamos ouvir da sua parte!</p>
+    <p>A Bisq está sempre procurando desenvolvedores altamente qualificados, designers e especialistas em segurança para se juntarem à nossa <a href="https://bisq.network/pt-PT/community/">comunidade</a>. Se está interssado em ajudar a melhorar o Bisq, há muitas maneiras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.</p>
   liGithub: "@bisq-network no GitHub"
   liTwitter: "@bisq_network no Twitter"
   liYoutube: Canal Youtube do Bisq
@@ -98,7 +98,7 @@ dao:
   notConvinced: "Não está convencido de que um token é necessário?"
   pNotConvinced: "<p class=\"bigger\">Nós temos um <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">post</a> para si.</p>"
   seeMore: >
-    <p>Confira mais recursos no nosso <a href='https://docs.bisq.network/dao.html'>All About the Bisq DAO</a> doc.</p> <p>Antigos contribuintes, confiram<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>este link</a>para instruções de com serem adicionados à distribuição genesis de BSQ.</p>
+    <p>Confira mais recursos no nosso <a href='https://docs.bisq.network/dao.html'>All About the Bisq DAO</a> doc.</p>
 downloads:
   hBisqDownloads: Downloads de Bisq
   runningWindows: Você parece estar a utilizar Windows
@@ -118,7 +118,7 @@ downloads:
   tdVerificationText0: Assinatura PGP
   tdVerificationText1: Assinaturas PGP
   tdVerificationText2: Chave Pública PGP
-  pSeeInstructions: "<p class=\"small\">Confira <a href=\"https://docs.bisq.network/getting-started.html\">Getting Started with Bisq</a> para instruções de como completar a sua primeira troca.</p>"
+  pSeeInstructions: "<p class=\"small\">Confira <a href=\"/getting-started\">Getting Started with Bisq</a> para instruções de como completar a sua primeira troca.</p>"
   hMobileNotifications: Notificações móvies do Bisq
   pMobileNotifications: Mantenha-se atualizado sobre suas trocas e receba notificações no seu telemóvel.
   p2MobileNotifications: <p class="small mt-2">A versão do Bisq <strong>0.8.0</strong> ou superior é necessária para receber notificações móveis.</p>
@@ -133,10 +133,10 @@ faq:
       <a href="https://github.com/bisq-network/bisq/blob/master/LICENSE" target="_blank">licença</a>.</p>
     <p>O Bisq emprega três mecanismos primários para alcançar segurança:</p> <ol>
       <li>Todos os bitcoins trocados com o Bisq são assegurados em um endereço de
-        <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multi-assinatura</a> 2-de-3.</li>
-      <li>Ambos os negociantes são obrigados a pagar depósitos de segurança. Estes são reembolsados após as trocas serem concluídas..</li>
-      <li>O Bisq usa um sistema de arbitragem para lidar com disputas de negócios.</li>
-    </ol> <p>Ao trocar moeda fiduciária por bitcoin, há sempre algum risco de estorno, uma vez que as transações com moeda fiduciária podem tecnicamente ser revertidas. Para mitigar esse risco, o Bisq só suporta métodos de pagamento que são conhecidos por tornar os estornos difíceis - é por isso que o Bisq não suporta PayPal e cartões de crédito, por exemplo.</p> <p>Ler <a href="#chargeback-details">aqui</a> para mais sobre os riscos de estorno.</p>
+        <a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">multi-assinatura</a> 2-de-2.</li>
+      <li>Ambos os negociantes são obrigados a pagar depósitos de segurança. Estes são reembolsados após as trocas serem concluídas.</li>
+      <li>As disputas de negócio são tratadas através de um <a href="https://bisq.wiki/Dispute_resolution" target="_blank">mecanismo de três camadas</a> que inclui chat com negociadores, mediação e arbitragem.</li>
+    </ol> <p>Ao negociar moeda fiduciária por bitcoin, há sempre um risco de estorno, pois as transações fiduciárias podem ser tecnicamente revertidas.</p><p>Para mitigar este risco, o Bisq:</p><ul><li>suporta apenas métodos de pagamento conhecidos por dificultar estornos - é por isso que o Bisq não suporta PayPal e cartões de crédito, por exemplo. Veja <a href="#chargeback-details">mais sobre riscos de estorno</a>.</li><li>emprega um <a href="https://bisq.wiki/Account_limits#Account_signing" target="_blank">mecanismo de assinatura de conta</a> que força um limite de compra de 0,01 BTC até que a integridade do comprador seja verificada.</li></ul>
   hDifferent: "Já existem outras exchanges descentralizadas. Como é que o Bisq é diferente?"
   pDifferent: >
     <p>Atualmente nenhum outro projeto se encaixa na nossa definição de uma exchange de bitcoin-para-moeda-fiduciária descentralizada. <a href="https://openbazaar.org/" target="_blank">OpenBazaar</a> é um projeto que se aproxima dos princípios do Bisq, mas é um mercado de propósito geral, não é uma exchange de moeda especializada.</p> <p>A maioria das exchanges que alegam ser descentralizadas não suportam a troca de moeda fiduciária, ou operam com uma arquitetura cliente-servidor e não se encaixam em nossa definição. E, claro, há muitos projetos de ICO com whitepapers, mas estes ainda não provaram que podem fornecer qualquer software funcional.</p> <p>Para ser adequadamente descentralizado, é necessário evitar pontos únicos de falha:</p> <ul>
@@ -153,12 +153,13 @@ faq:
     <ul>
       <li>Advanced Cash</li>
       <li>AliPay</li>
-      <li>Depósite de dinheiro</li>
+      <li>Depósito de dinheiro</li>
       <li>Chase QuickPay</li>
       <li>Face à face (in person)</li>
       <li>Faster Payments</li>
       <li>HalCash</li>
       <li>Interac e-Transfer</li>
+      <li>Japan Zengin Furikomi</li>
       <li>MoneyBeam (N26)</li>
       <li>MoneyGram</li>
       <li>Transferência com Banco Nacional</li>
@@ -176,52 +177,31 @@ faq:
       <li>WeChat Pay</li>
       <li>Western Union</li>
       <li>Zelle (ClearXchange)</li>
-    </ul>
+    </ul> <p>Por favor veja o nosso <a href="https://bisq.wiki/Payment_methods" target="_blank">documento de métodos de pagamento</a> para mais detalhes. Differente métodos de pagamento têm differentes limites de quantia e período de negociaçao.</p>
   hTradingDetails: Detalhes de troca
   hTradeLimits: "Quais são os limites de troca?"
   pTradeLimits: >
-    <p class='font-italic'>Trocas por moedas fiduciárias</p> <p>Para desencorajar fraudes em transações de moedas fiduciárias, o Bisq impõe limites aos valores de troca. Esses limites são derivados do risco de estorno do método de pagamento e da idade da conta (ou seja, o tempo desde que você criou a conta de pagamento no Bisq).</p> <p>Não há limites para o número de trocas que você pode fazer - apenas a quantia por troca.</p> <p>Para a maioria dos pagamentos baseados em métodos bancários como SEPA ou Zelle o limite é de 0,5 BTC por troca. Para serviços como Swish, PerfectMoney e AliPay, o limite é de 1 BTC. Para métodos de pagamento adicionados recentemente como Revolut, Popmoney e MoneyBeam (N26), o limite de troca é de 0,25 BTC.</p> <p>Quando você adiciona uma conta de pagamento com moeda fiduciária ao Bisq, o seu limite de troca será de 25% do limite total de troca. O limite aumentará a cada 30 dias até que o limite total de troca seja atingido. </p> <p class='font-italic'>Troca por altcoins</p> <p>As trocas por altcoin até 2 BTC são permitidas desde o primeiro dia - as altcoins não têm risco de estorno, de modo que o envelhecimento da conta não é necessário.</p>
+    <p class='font-italic'>Negócios com moeda fiduciária</p> <p>Para desencorajar a fraude nas transações com moedas fiduciárias, o Bisq impõe limites aos valores de negócio. Esses limites são derivados do risco de estorno do método de pagamento, <a href="https://bisq.wiki/Account_limits#Account_signing" target="_blank">o seu estado de assinatura</a>, e a sua idade (ex: o tempo desde que você criou a conta de pagamento no Bisq).</p> <p>Não há limites para o número de negócios que você pode fazer - apenas a quantia por negócio.</p> <p>Para a maioria dos pagamentos baseados em métodos bancários como SEPA ou Zelle o limite é de 0.25 BTC. Para serviços como PerfectMoney e AliPay o limite é de 1 BTC.</p> <p>Métodos de pagamento com menor risk começam a envelhecer assim que a conta de pagamento é criada no Bisq, o seu limite de negócio inicial será de 25% do limite total de negócio. Após 30 dias, aumentará para 50% do limite total de negócio, e após 60 dias aumentará para 100% do limite total de negócio.</p><p>Contas de pagamento de alto risco devem ser assinadas por um par confiável para começar a envelhecer. Até esta assinatura, elas serão limitadas a comprar 0.01 BTC. O <a href="https://bisq.wiki/Account_limits#Account_signing" target="_blank">documento de assinatura de contas</a> tem mais detalhes.</p><p>Saiba que os limites de venda para métodos de pagamento de alto risco não são afetados pela assinatura e seguem o envelhecimento regular da conta conforme descrito acima para os métodos de pagamento de baixo risco.</p> <p class='font-italic'>Negócios com altcoins</p> <p>Negócios com altcoins até 2 BTC são permitidos desde o primeiro dia—altcoins não têm o risco de estorno, por isso o envelhecimento não é necessário.</p>
   hSecurityDeposit: "Por que é que o Bisq exige um depósito de segurança?"
   pSecurityDeposit: >
-    <p>Os depósitos de segurança criam incentivos para que o comprador e o vendedor sigam as regras do protocolo de negociação do Bisq. Eles são bloqueados em multi-assinatura, juntamente com o bitcoin sendo negociado, e são retornados para cada utilizador quando a troca é concluída com sucesso.</p> <p>Se uma troca for para arbitragem e for constatado que uma das partes violou o protocolo de troca do Bisq, parte ou todo o depósito de segurança dessa parte pode ser concedido à contraparte. Exemplos de violações do protocolo incluem um comprador que não paga a um vendedor, ou um vendedor que não confirma o recebimento do pagamento de um comprador.</p> <p>A maioria das trocas do Bisq é concluída sem nenhum problema, graças em parte aos incentivos que os depósitos de segurança criam.</p>
+    <p>Depósitos de segurança criam incentivos para o comprador e o vendedor seguirem as regras do protocolo de negociação do Bisq. Eles são bloqueados em escrow multisig, juntamente com o bitcoin que está sendo negociado, e são devolvidos a cada utilizador quando o negócio é concluído com êxito.</p> <p>Se um negócio for contestado por um mediador ou árbitro, parte ou todo o depósito de segurança dessa parte poderá ser concedido à contraparte. Exemplos de violações de protocolo incluem um comprador que não paga um vendedor ou um vendedor que não reconhece o recebimento do pagamento do comprador.</p> <p>A maioria dos negócios do Bisq é concluído sem nenhum problema, em parte devido aos incentivos que os depósitos de segurança criam.</p><p>Consulte <a href="https://bisq.wiki/Trading_rules" target="_blank">este documento</a> para as completas regras de negociação.</p>
   hPrivacy: "Como o é que o Bisq protege a minha privacidade?"
   pPrivacy: >
-    <p>O Bisq é um software independente e de código aberto que você pode inspecionar antes de executar na sua máquina, e como resultado, você não precisa confiar que qualquer servidor está registrando os seus dados pessoais (como faria no caso de um site).</p> <p>Quanto ao processo de troca, as suas informações de pagamento são armazenadas localmente na sua máquina e somente o seu parceiro de troca (e o seu árbitro, no caso de uma disputa) pode vê-la. Todos os dados trocados entre usuários são criptografados e assinados.</p> <p>Para transmitir dados de um usuário para outro, o Bisq usa uma rede P2P construída sobre o Tor, que fornece um alto grau de anonimato. O usuário não precisa fazer nenhum trabalho adicional para que tudo isso funcione - tudo está integrado no programa.</p>
+    <p>O Bisq é um software autônomo de código aberto que você pode inspecionar antes de executar no seu computador e, por isso, não precisa confiar que algum servidor esteja registrando os seus dados pessoais (como faria no caso de um site).</p> <p>Quanto ao processo de negociação, as suas informações de pagamento são armazenadas localmente no seu computador, e somente seu parceiro de negociação (e seu mediador ou árbitro, em caso de disputa) pode vê-las. Todos os dados trocados entre usuários são criptografados e assinados.</p> <p>Para transmitir dados de um utilizador para outro, o Bisq usa uma rede P2P construída sobre o Tor, que fornece um alto grau de anonimato. O usuário não precisa fazer nenhum trabalho adicional para que tudo isso funcione - tudo está integrado no programa.</p>
   hTradeDuration: "Quanto tempo dura uma troca?"
   pTradeDuration: >
-    <p>A duração da troca será determinada pelos tempos de transferência das moedas que você está usando. As transferências em moeda nacional podem ser instantâneas (pagamento mais rápido) ou podem levar dias (SEPA).</p> <p>As transações de bitcoin levam cerca de 10 minutos para confirmar, e pelo menos uma confirmação é exigida antes que o comprador possa enviar a moeda fiduciária ou altcoins.</p>
-
-    <p>Eis os períodos máximos de troca permitidos antes de uma troca entrar automaticamente em arbitragem:</p> <strong>EURO</strong> <ul>
-      <li>SEPA: 6 dias</li>
-      <li>SEPA Instant: 1 dia</li>
-    </ul> <strong>UK</strong> <ul>
-      <li>Faster Payments: 1 dia</li>
-    </ul> <strong>Sweden</strong> <ul>
-      <li>Swish: 1 dia</li>
-    </ul> <strong>US</strong> <ul>
-      <li>Zelle (formerly known as clearXchange): 4 dias</li>
-      <li>Chase QuickPay: 1 dia</li>
-      <li>US Postal Money Order: 8 dias</li>
-    </ul> <strong>Canada</strong> <ul>
-      <li>Interac e-Transfer: 1 dia</li>
-    </ul> <strong>Global</strong> <ul>
-      <li>Depósito de dinheiro: 4 dias</li>
-      <li>Western Union: 4 dias</li>
-      <li>Transferência com banco nacional: 4 dias</li>
-      <li>Transferência com o mesmo banco: 2 dias</li>
-      <li>Transferência com um banco específico: 4 dias</li>
-    </ul> <strong>Transnacional</strong> <ul>
-      <li>Perfect Money: 1 dia</li>
-    </ul> <strong>China</strong> <ul>
-      <li>Alipay: 1 dia</li>
-    </ul> <strong>Altcoins</strong> <ul>
-      <li>Blockchains: 1 dia</li>
-    </ul>
+    <p>A duração do negócio é determinada pelos tempos de transferência das moedas que você está usando. As transferências em moeda nacional podem ser instantâneas (Faster Payment) ou levar alguns dias (SEPA).</p> <p>As transações de Bitcoin levam cerca de 10 minutos para confirmar, e pelo menos uma confirmação é necessária antes que o comprador possa enviar o dinheiro ou altcoins.</p> <p>Os períodos de negócio de altcoins são sempre 1 dia (ou 1 hora para os Negócios Instantâneos de Altcoins).</p><p>Consulte a <a href="https://bisq.wiki/Payment_methods" target="_blank">lista de métodos de pagamento</a> para obter detalhes completos.</p>
   hTradeCost: "Quanto custa para fazer trocas no Bisq?"
   pTradeCost: >
-    <p>Para negociar no Bisq, os usuários pagam (1) taxas de negociação para o Bisq e (2) taxas de mineração para mineradores.</p><strong>Taxas de negociação</strong> <p>Os criadores de ofertas pagam 0,1% da quantia de negociação e os aceitadores da oferta pagam 0,3% da quantia de negociação. O mínimo em ambos os casos é 0,00005 BTC para evitar limites de poeira.</p>
+    <p>Para negociar no Bisq,utilizadores pagam (1) taxas de negociação ao Bisq e (2) taxas de mineração aos mineiros.</p>
 
-    <strong>Taxas de mineração</strong> <p>Um criador de ofertas só paga taxas de mineração para a transação de taxas de negociação. Um aceitador de oferta paga taxas de mineração para a transação de taxa de negociação, transação de depósito e transação de pagamento. Isso porque as taxas de mineração flutuam e é impossível para o criador da oferta saber quais taxas de mineração serão pagas no momento em que a oferta for aceite.</p><p>O Bisq usa <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">este serviço</a> para estimar as taxas. Os utilizadores podem ver as taxas reais de mineração depois de criar ou aceitar uma oferta.</p>
+    <strong>Taxas de negociação</strong> <p>Taxas de negociação podem ser pagas em BTC ou BSQ. BSQ é bitcoin colorido que o Bisq usa para se financiar e se auto-governar. O seu uso é opcional, mas existem <a href="https://docs.bisq.network/getting-started-dao-traders.html" target="_blank">benefícios significantes</a>.</p> <div id="faq-tables"> <p class="note">Taxas de negociação em BTC, por 1 BTC negociado:</p> <table> <thead> <tr> <th></th> <th>Taxas em BTC</th> <th>Taxa em % de um negócio de 1 BTC</th> </tr> </thead> <tbody> <tr> <td>Taxa de ofertante</td> <td>0.002 BTC</td> <td>0.20%</td> </tr> <tr> <td>Taxa de aceitador</td> <td>0.006 BTC</td> <td>0.60%</td> </tr> </tbody> </table> <p class="note">Taxas de negociação em BSQ, por 1 BTC negociado:</p> <table> <thead> <tr> <th></th> <th>Taxas em BSQ</th> <th>Taxas em % de um negócio de  1 BTC</th> </tr> </thead> <tbody> <tr> <td>Taxa de ofertante</td> <td>7.6 BSQ</td> <td>0.10%</td> </tr> <tr> <td>Taxa de aceitador</td> <td>53.23 BSQ</td> <td>0.30%</td> </tr> </tbody> </table> </div> <p>As percentagens da taxa em BSQ acima assumem uma taxa de 0.0001 BSQ/BTC.</p> <p>As taxas nominais de BTC e BSQ são ajustadas periodicamente pela votação da OAD para acomodar as flutuações do mercado.</p> <p>As taxas mínimas de negociação são fixadas em 0.00005 BTC e 0.03 BSQ para evitar limites de poeira.</p>
+
+    <strong>Taxas de mineração</strong> <p>Um ofertante da oferta paga apenas as taxas de mineração da transação da taxa de negócio. O aceitador da oferta paga as taxas de mineração da transação de taxa de negócio, transação de depósito e transação de pagamento. Isto porque porque as taxas de mineração variam e é impossível para o ofertante
+      saber quais serão as taxas de mineração quando a sua oferta for aceita.
+    .</p>
+
+    <p>Bisq usa <a href="https://mempool.space" target="_blank">mempool.space</a> para estimar as taxas. Os utilizadores podem verificar as taxas de mineração depois de criarem ou aceitarem uma oferta.</p>
   hOpenOffer: "Por que é que preciso manter o meu programa online quando tenho uma oferta aberta?"
   pOpenOffer: >
     <p>Se você publicou uma oferta, o seu programa Bisq precisa ficar online para que ele possa reagir quando um outro negociante quiser aceitar sua oferta (a transação de depósito de multi-assinatura é criada no processo aceitação da oferta). Certifique-se de ter desativado o modo de espera do seu computador para que o seu programa Bisq possa permanecer online (o modo de espera do monitor não é um problema).</p> <p>Se o seu programa Bisq ficar offline, a sua oferta será removida do livro de ofertas distribuído. Ela será publicada novamente na próxima vez que você iniciar o seu programa Bisq.</p> <p>Após uma oferta ter sido aceite e o processo de troca ter iniciado, nenhum dos negociantes precisa estar online continuamente, mas cada negociante precisará estar online periodicamente para verificar se alguma ação é necessária do seu lado (por exemplo, enviando moeda fiduciária/altcoin, confirmar a receção de pagamento, etc).</p>
@@ -231,38 +211,31 @@ faq:
   pBank: >
     <p>Houve relatos de que alguns bancos fecharam contas de clientes quando se apercebem da atividade relacionada com o Bitcoin.</p> <p>O texto de referência (às vezes chamado de "motivo do pagamento" ou similar) da transferência bancária usada para negociar com o Bisq deve sempre <span class='font-italic'>apenas</span> incluir o ID de negociação do Bisq, que é uma sequência aleatória de caracteres, assim como muitos outros IDs de compra. Colocar qualquer outra coisa como uma "razão para pagamento" é considerado uma violação do protocolo de troca e resultará em uma disputa.</p> <p>TPara evitar problemas, recomendamos a criação de uma conta bancária dedicada à compra e venda de bitcoins. Se o banco bloqueasse essa conta, isso causaria menos problemas para você do que se o banco bloqueasse a sua conta principal.</p> <p>Nunca mencione outra coisa que não seja o ID de troca do Bisq no campo de assunto.</p>
   hDisputeRsolution: Resolução de Disputas
-  hArbitrationProcess: "Como funciona o processo de arbitragem?"
+  hArbitrationProcess: "Como resolução de disputas funciona?"
   pArbitrationProcess: >
-    <p>No Bisq, os árbitros determinam soluções para disputas comerciais. Os árbitros devem pagar um valor muito alto de <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">vínculo de BSQ</a>, o que garante avaliações justas e evita a conspiração com os negociantes.</p> <p>Os árbitros são escolhidos aleatoriamente para cada troca.</p> <p>ISe o negociante A não confirmar a receção de uma transferência de moeda nacional dentro do<a href='#trade-periods'>tempo alocado</a>, um botão para entrar em contato com o árbitro aparecerá para os dois negociantes. O negociante B pode então apresentar provas ao árbitro de que, de fato, enviou a moeda nacional. Alternativamente, se o negociante B nunca enviou a moeda nacional, o negociante A pode apresentar provas ao árbitro de que os fundos nunca foram recebidos.</p>
-      <p>SA evidência enviada deve ser criptograficamente segura usando
-      <a href="https://tlsnotary.org/" target="_blank">PageSigner</a> ou extratos bancários assinados digitalmente. Se esses métodos falharem, rotas mais tradicionais de descoberta podem ser empregadas.</p>
-      <p>Na nossa experiência, a grande maioria das disputas não é causada por intenção maliciosa, mas por problemas menores, como problemas de rede, bugs, problemas bancários, usabilidade, etc.</p> <p>Uma vez que o árbitro tenha esclarecido a situação, eles assinarão o endereço muti-assinatura de 2-de-3 em favor da parte apropriada..</p>
-  hCollusion: "Como é que a conspiração entre árbitros e negociantes é impedida?"
+    <p>O Bisq fornece um mecanismo de três camadas para resolver disputas: chat para os negociadores, mediação e arbitragem.</p><p>O chat par negociadores permite que os negociadores resolvam pequenos problemas por conta própria, através do chat criptografado de ponta à ponta, diretamente no Bisq. Se isso não funcionar, os negociadores podem contactar um mediador para examinar a situação e sugerir um pagamento. Em raras circunstâncias em que a mediação falha, um negociador pode contratar um árbitro para reexaminar a situação e efetuar um pagamento.</p><p>Considere que a extensão da função de árbitro mudou significativamente com o lançamento do novo protocolo de negócio na v1.2.</p><p>Veja a <a href="https://bisq.wiki/Trading_rules" target="_blank">documentação</a> para mais detalhes sobre como o processo funciona.</p>
+  hCollusion: "Como a colusão entre mediadores, árbitros e negociadores é evitada?"
   pCollusion: >
-    <p>Como mencionado acima, os árbitros devem trancar um grande <a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">vínculo de BSQ</a>para se tornarem árbitros em primeiro lugar - muito acima do limite de negócio. Se ambos os negociadores não concordarem com a resolução do árbitro, eles podem solicitar o confisco do vínculo de BSQ do árbitro.</p> <p>Se for descoberto que houve conspiração, o árbitro com mau comportamento perderá o seu vínculo de BSQ. Isso coloca o árbitro em uma perda significativa, já que o seu vínculo BSQ era muito mais do que ele ganhou por ser desonesto.</p>
+    <p>Com o lançamento do novo protocolo de negociação na v1.2, os árbitros não têm mais uma chave na custódia multi-assinatura. Isso significa que os negociadores mantêm controle absoluto dos seus fundos e não há possibilidade de colusão.</p><p>Mediadores e árbitros ainda são <a href="https://docs.bisq.network/user-dao-intro.html#ensure-honesty-in-high-trust-roles" target="_blank">cargos vinculados</a> porque embora não possam assinar uma transação de pagamento para resolver uma disputa, eles podem <span class="note">aconselhar</span> como resolver uma disputa, e é importante que sejam responsáveis e justos ao fazê-lo.</p>
   hChargeback: "O que acontece se a pessoa comprando bitcoin fizer um estorno depois que o bitcoin for liberado do endereço multi-assinatura?"
   pChargeback: >
-    <p>O Bisq só suporta métodos de pagamento para os quais os estornos não são fáceis (por exemplo, é por isso que o PayPal e os cartões de crédito não são suportados). Mas ainda há um pequeno risco de estorno com os bancos. Se um banco executa um estorno depois que o BTC foi liberado, não há nada que um árbitro possa fazer.</p>
-
-    <p>O objetivo do Bisq é tornar esse cenário o menos atraente possível, usando três mecanismos principais</a>:</p> <ol>
-      <li>Existe um limite de negócio por negócio, que geralmente é pequeno demais para atrair criminosos.</li>
-      <li>Os métodos de pagamento em moeda nacional que são encontrados a serem usados para estornos são rapidamente removidos.</li>
-      <li>Com a versão 0.6.0, uma nova <a href="https://docs.bisq.network/payment-account-age-witness.html" target="_blank">ferramenta de envelhecimento da conta</a> foi adicionada. Este recurso permite que as contas fiat recentemente adicionadas ao Bisq tenham <a href='#trade-limits'>limites de negócio mais baixos</a>, e esses limites são aumentados ao longo do tempo. Isso adiciona proteção contra golpes de contas bancárias roubadas.</li>
+    <p>O Bisq suporta apenas métodos de pagamento para os quais os estornos não são fáceis (por exemplo, é por isso que o PayPal e os cartões de crédito não são aceites). Mas ainda há um pequeno risco de estorno nos bancos. Se um banco executar um estorno após a liberação do BTC, não haverá nada que um mediador ou árbitro possa fazer.</p> <p>O objetivo do Bisq é tornar esse cenário o menos atraente possível, usando três mecanismos principais:</p> <ol>
+      <li>O envelhecimento da conta exige que as contas de pagamento com moedas fiduciárias recém-criadas no Bisq tenham <a href='https://bisq.wiki/Payment_methods#Fiat_payment_methods' target="_blank">limites de negócio mais baixos</a>, e que esses limites aumentem com o tempo.</li>
+      <li><a href='https://bisq.wiki/Account_limits#Account_signing' target="_blank">A assinatura da conta</a> exige que métodos de pagamento de alto risco sejam assinados após a verificação da integridade de um negociador antes do início da validade da conta. Até que essas contas sejam assinadas, os limites de negócio são limitados à 0.01 BTC.</li>
+      <li>Os métodos de pagamento em moeda nacional que são usados para estornos são removidos rapidamente.</li>
     </ol>
-  hReputationSystem: "Um sistema de reputação entre os traders não tornaria os árbitros desnecessários?"
+  hReputationSystem: "Um puro sistema de reputação entre os negociadores não tornaria os mediadores e árbitros desnecessários?"
   pReputationSystem: >
-    <p>Pura reputação sem a opção de arbitragem é um sistema de proteção fraco, porque nunca se pode evitar
-      ataques <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> ou <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">longos golpes</a>.</p>
-    <p>Tais mecanismos também são problemáticos para proteger a privacidade e manter o serviço descentralizado.</p>
-  hBeArbitrator: "Posso ser um árbitro?"
-  pBeArbitrator: "<p>O <a href=\"https://docs.bisq.network/dao/phase-zero.html\" target=\"_blank\" rel=\"noopener\">vínculo de BSQ</a>é muito alto e atualmente existem muito poucas pessoas que contribuíram o suficiente para o Bisq ter ganho tanto BSQ.</p>"
+    <p>A reputação pura, sem medidas adicionais de resolução de disputas, é um sistema de proteção fraco, pois você nunca pode evitar ataques <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a> ou <a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">golpes longos</a> .</p> <p>Tais mecanismos também são problemáticos para proteger a privacidade e manter o serviço descentralizado.</p>
+  hBeArbitrator: "Posso me tornar um mediador ou árbitro?"
+  pBeArbitrator: "<p>Mediadores e árbitros são <a href=\"https://docs.bisq.network/user-dao-intro#ensure-honesty-in-high-trust-roles\" target=\"_blank\">cargos vinculados</a>na OAD do Bisq.</p><p>Qualquer um pode propor se tornar um dos dois, mas a aprovação dependerá das necessidades da rede no momento em que a proposta for feita.</p>"
   hContactPeer: "Posso entrar em contato com meu par de negociação?"
   pContactPeer: >
-    <p>Até agora, o Bisq intencionalmente evitou oferecer uma maneira de entrar em contato direto com o par de negociação. Geralmente não há necessidade de tal mecanismo, e oferecer um só abriria uma 'lata de vermes' com relação à segurança: usuários maliciosos poderiam encaminhar os seus pares à um negócio direto sem usar o Bisq, e então explorar a falta de segurança para roubar a outra pessoa, ou usar o canal direto para outras atividades fraudulentas (fraudes de engenharia social, spam, etc.).</p> <p>Em vez disso, em caso de problemas, os usuários podem abrir uma disputa e resolver o problema com a ajuda de um árbitro. Existe também o <a href='https://bisq.community' target='_blank'>fórum do Bisq</a> e <a href='https://keybase.io/team/bisq' target='_blank'>o Keybase</a> disponíveis para os utilizadores receberem ajuda.</p> <p>Nota: contudo, com o lançamento do <a href='https://github.com/bisq-network/proposals/issues/52' target='_blank'>novo protocolo de negócio</a>, haverá meios para que os pares se comuniquem diretamente entre si.</p>
+    <p>Sim, a partir da v1.1.6, o Bisq inclui um recurso de chat interno para resolução direta, privada e segura de pequenos problemas sem envolver um mediador ou árbitro.</p>
   hBisqDAO: A OAD do Bisq
   hBisqDaoWhat: "O que é a OAD do Bisq?"
   pBisqDaoWhat: >
-    <p>A OAD do Bisq (organização autónoma descentralizada) é um mecanismo de governança descentralizado para o software Bisq. Ele toma o lugar de uma empresa. Quão bom pode ser o software descentralizado se ainda for controlado por uma única entidade, como uma empresa?</p> <p>Software descentralizado não é bom sem governança descentralizada.</p> <p>É por isso que o Bisq não é uma empresa ou entidade legal de qualquer tipo - em vez disso, é organizado como um OAD. A OAD cuida do financiamento do software e da estratégia para permitir que a rede Bisq prospere e, ao mesmo tempo, endurece contra ataques à infraestrutura que alimenta a sua liderança e operação.</p> <p>Em resumo, a OAD do Bisq permite que o Bisq se torne ainda mais resistente à censura, um <a href='https://docs.bisq.network/intro.html' target='_blank'>princípio fundamental do projeto</a> desde o ínicio.</p> <p>Leia mais sobre a OAD do Bisq nest <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>documento introdutório</a>.</p>
+    <p>A OAD do Bisq (organização autónoma descentralizada) é um mecanismo de governança descentralizado para o software Bisq. Ele toma o lugar de uma empresa. Quão bom pode ser o software descentralizado se ainda for controlado por uma única entidade, como uma empresa?</p> <p>Software descentralizado não é bom sem governança descentralizada.</p> <p>É por isso que o Bisq não é uma empresa ou entidade legal de qualquer tipo - em vez disso, é organizado como um OAD. A OAD cuida do financiamento do software e da estratégia para permitir que a rede Bisq prospere e, ao mesmo tempo, endurece contra ataques à infraestrutura que alimenta a sua liderança e operação.</p> <p>Em resumo, a OAD do Bisq permite que o Bisq se torne ainda mais resistente à censura, um <a href='https://bisq.wiki/Introduction' target='_blank'>princípio fundamental do projeto</a> desde o ínicio.</p> <p>Leia mais sobre a OAD do Bisq nest <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>documento introdutório</a>.</p>
   hBisqDaoHow: "Como funciona a OAD do Bisq?"
   pBisqDaoHow: >
     <p>Os principais objetivos da OAD do Bisq são financiar o projeto e determinar a estratégia.</p> <ul>
@@ -286,18 +259,20 @@ faq:
     <p>Percebemos que este requisito pode ser uma barreira para iniciantes no bitcoin, mas há muitas maneiras de obter o seu primeiro bitcoin: amigos e familiares, meetups Bitcoin, ATMs de Bitcoin, vouchers, trabalhando por ele, etc.</p>
   hPaymentSupport: "O Bisq suporta pagamentos de \"XYZ\"?"
   pPaymentSupport: >
-    <p>O Bisq já suporta uma ampla gama de métodos de pagamento para moedas nacionais, mas novos podem ser adicionados desde que:</p> <ul>
-      <li>estornos sejam improváveis</li>
-      <li>os árbitros possam ver evidências da transação</li>
-    </ul> <p>Transferências bancárias nacionais são apoiadas em todos os países.</p> <p>Você pode sugerir um novo método de pagamento no <a href='https://bisq.community' target='_blank'>fórum</a>, <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>, ou <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
+    <p>O Bisq já suporta uma ampla variedade de métodos de pagamento para moedas nacionais, mas novos podem ser adicionados, desde que:</p> <ul>
+      <li>os estornos sejam improváveis</li>
+      <li>mediadores e árbitros podem ver evidências da transação
+    </li>
+
+    </ul> <p>As transferências bancárias nacionais são suportadas em todos os países.</p> <p>Você pode sugerir um novo método de pagamento no <a href='https://bisq.community' target='_blank'>fórum</a>, <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>, ou <a href='https://github.com/bisq-network/bisq/issues' target='_blank'>GitHub</a>.</p>
   hSoftwareBugs: "O que acontece em caso de erros de software?"
   pSoftwareBugs: >
     <p>Se o programa do Bisq reconhecer que você está com um problema de software, ele exibirá um botão "bilhete de apoio". O seu árbitro irá encaminhar o seu relatório de erro para os desenvolvedores, que iniciarão uma investigação do problema. Você pode ser solicitado o ficheiro de log para ajudar no processo.</p> <p>Se o botão não aparecer, você poderá abrir um bilhete de apoio clicando em Cmd+o (or Ctrl+o, dependendo do seu sistema) quando o negócio estiver selecionado em Portefólio > Lista de Negócios Abertos.</p>
   hMultisg: "O que é um \"endereço de multi-assinatura\" do Bitcoin?"
   pMultisig: >
-    <p>“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multi-assinatura</a>”, como é chamado, está embutido no Bitcoin como uma versão simples de um contrato inteligente. Um endereço multi-assinatura é gerado com várias chaves públicas e uma especificação de quantas dessas chaves devem assinar para liberar os fundos.</p> <p>O Bisq usa 2 de 3 endereços multi-assinatura. Isso significa que três chaves públicas são usadas para criar o endereço de pagamento (do comprador, do vendedor e do árbitro), e a transação deve ser assinada por duas das três partes para que os fundos sejam liberados.</p> <p>Normalmente, o comprador e o vendedor assinam a transação para liberar fundos. Mas em caso de disputa, um árbitro ficará do lado de uma das partes para fornecer a segunda assinatura para liberar fundos.</p>
+    <p>“<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multi-assinatura</a>”, como é chamado, está embutido no Bitcoin como uma versão simples de um contrato inteligente. Um endereço multi-assinatura é gerado com várias chaves públicas e uma especificação de quantas dessas chaves devem assinar para liberar os fundos.</p>
   hOtherQuestions: "Eu tenho uma pergunta que não é abordada aqui ...?"
-  pOtherQuestions: "<p>Por favor, poste sua pergunta no <a href=\"https://bisq.community/\" target=\"_blank\">fórum do Bisq </a> ou <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>.</p>"
+  pOtherQuestions: "<p>Por favor coloque a sua pergunta no <a href=\"https://bisq.community/\" target=\"_blank\">fórum do Bisq</a> ou <a href='https://keybase.io/team/bisq' target='_blank'>Keybase</a>.</p>"
 
 
 markets:

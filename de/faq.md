@@ -4,5 +4,5 @@ title: FAQ &lsaquo; Bisq - A decentralized bitcoin exchange network
 ref: faq
 lang: de
 lang_display: De
-outdated_translation: true
+outdated_translation: false
 ---

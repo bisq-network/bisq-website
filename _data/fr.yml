@@ -1,6 +1,6 @@
 footer:
   notificationApp: "App Bisq mobile de notification "
-  siteYear: © 2019 Bisq
+  siteYear: © 2020 Bisq
   ulResources: Ressources
   liDownloads: Téléchargements
   liRoadmap: Feuille de route
@@ -16,7 +16,7 @@ homepage_content:
   buttonDebian: Obtenir pour Debian/Ubuntu
   buttonRedHat: Obtenir pour Red Hat/Fedora
   buttonDownloads: Téléchargements
-  buttonGetBisq: Téléchargements Bisq
+  buttonGetBisq: Obtenez Bisq
   buttonToggle: Toggle Dropdown
   downloads: Téléchargements
   androidNotificationsApp: App de notifications Android
@@ -41,7 +41,7 @@ homepage_content:
   hOpen: Ouvrir
   pOpen: "<p class=\"grey px-md-5\">Le code est <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, et la stratégie du projet est discutée ouvertement sur <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> et <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Facile à utiliser
-  pEasy: "<p class=\"grey px-md-5\">Nous avons rendu toute cette sophistication facile—<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">effectuez votre première transaction</a> en moins de 10 minutes!</p>"
+  pEasy: "<p class=\"grey px-md-5\">Nous avons rendu toute cette sophistication facile—<a href='/getting-started' target='_blank' rel=\"noopener\">effectuez votre première transaction</a> en moins de 10 minutes!</p>"
   hBisqDao: La DAO de Bisq
   pBisqDao1: Gouvernance décentralisée pour une plateforme d'échange décentralisée.
   pBisqDao2: En savoir plus ici
@@ -53,7 +53,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Ajoutez vos comptes en devises nationales ou cryptos.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Créez une nouvelle offre ou choisissez une offre existante.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Suivez l'interface utilisateur pour finaliser la transaction.</li>
   hJoin: Rejoignez la communauté
   pJoin: >
-    <p>Bisq est toujours à la recherche de développeurs, de concepteurs et d'experts en sécurité hautement qualifiés pour se joindre à notre <a href="https://bisq.network/fr/community/">communauté</a>. Si vous souhaitez contribuer à l'amélioration de Bisq, il existe de nombreuses façons de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuer</a>. Nous aimerions beaucoup entendre parler de vous!</p>
+    <p>Bisq est toujours à la recherche de développeurs, de concepteurs et d'experts en sécurité hautement qualifiés pour se joindre à notre <a href="https://bisq.network/fr/community/">communauté</a>. Si vous souhaitez contribuer à l'amélioration de Bisq, il existe de nombreuses façons de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuer</a>.</p>
   liGithub: "@bisq-network sur GitHub"
   liTwitter: "@bisq-network sur Twitter"
   liYoutube: Chaîne YouTube Bisq
@@ -98,7 +98,7 @@ dao:
   notConvinced: "Vous n'êtes pas convaincu qu'un jeton est nécessaire?"
   pNotConvinced: "<p class=\"bigger\">Nous avons un <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">message</a> rien que pour vous.</p>"
   seeMore: >
-    <p>Consultez d'autres ressources sur notre <a href='https://docs.bisq.network/dao.html'>Tout savoir sur la DAO de Bisq</a> doc.</p> <p>Anciens contributeurs, vérifiez <a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>ce lien</a> pour obtenir des instructions sur la façon d'être inclus dans la distribution genesis de BSQ.</p>
+    <p>Consultez d'autres ressources sur notre <a href='https://docs.bisq.network/dao.html'>Tout savoir sur la DAO de Bisq</a> doc.</p>
 downloads:
   hBisqDownloads: Téléchargements Bisq
   runningWindows: Vous semblez utiliser Windows
@@ -118,7 +118,7 @@ downloads:
   tdVerificationText0: PGP signature
   tdVerificationText1: PGP signatures
   tdVerificationText2: Clé publique PGP
-  pSeeInstructions: "<p class=\"small\">Voir <a href=\"https://docs.bisq.network/getting-started.html\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
+  pSeeInstructions: "<p class=\"small\">Voir <a href=\"/getting-started.html\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
   hMobileNotifications: Notifications Bisq sur téléphone portable
   pMobileNotifications: Restez au fait de l'évolution de vos transactions et recevez des notifications sur votre téléphone portable.
   p2MobileNotifications: <p class="small mt-2">Une version de Bisq <strong>0.8.0</strong> ou plus est nécessaire pour recevoir des notifications sur portable.</p>
@@ -219,7 +219,7 @@ faq:
   pTradeCost: >
     <p>Pour trader sur Bisq, les utilisateurs paient (1) des frais de transaction à Bisq et (2) des frais de minage aux mineurs.</p> <strong>Frais de transaction</strong> <p>Les makers d'offres paient 0,1% du montant de l'opération et les takers d'offres paient 0,3% du montant de l'opération. Le minimum dans les deux cas est de 0,00005 BTC pour éviter les limites de dust.</p>
 
-    <strong>Frais de minage</strong> <p>Un maker qui propose une offre ne paie que des frais de minage associés aux frais de transaction de l'échange. Un taker d'offre paie des frais de minage associés aux frais de transaction de l'échange, et de la transaction de dépôt ainsi que de la transaction de paiement. C'est parce que les frais de minage fluctuent et qu'il est impossible pour celui qui sommet l'offre de savoir quels seront les frais de minage au moment où son offre sera acceptée.</p> <p>Bisq utilise <a href="https://bitcoinfees.earn.com/api/v1/fees/list" target="_blank">ce service</a> pour estimer les frais. Les utilisateurs peuvent voir les frais de minage en vigueur après qu'ils aient créé ou accepté une offre.</p>
+    <strong>Frais de minage</strong> <p>Un maker qui propose une offre ne paie que des frais de minage associés aux frais de transaction de l'échange. Un taker d'offre paie des frais de minage associés aux frais de transaction de l'échange, et de la transaction de dépôt ainsi que de la transaction de paiement. C'est parce que les frais de minage fluctuent et qu'il est impossible pour celui qui sommet l'offre de savoir quels seront les frais de minage au moment où son offre sera acceptée.</p> <p>Bisq utilise <a href="https://mempool.space" target="_blank">mempool.space</a> pour estimer les frais. Les utilisateurs peuvent voir les frais de minage en vigueur après qu'ils aient créé ou accepté une offre.</p>
   hOpenOffer: "Pourquoi dois-je garder le programme connecté lorsque j'ai une offre en cours?"
   pOpenOffer: >
     <p>Si vous avez publié une offre, votre application Bisq doit rester en ligne pour pouvoir réagir quand un autre trader voudra accepter votre offre (la transaction de dépôt multisig est créée lors du processus de take-offer). Assurez-vous d'avoir désactivé le mode veille de votre ordinateur pour que votre application Bisq puisse rester en ligne (la veille du moniteur n'est pas un problème).</p> <p>Si votre application Bisq est offline, votre offre sera retirée de l'offerbook. Elle sera republiée la prochaine fois que vous lancerez votre application Bisq.</p> <p>Après qu'une offre a été acceptée et que le processus de transaction a commencé, aucun des deux trader n'a besoin d'être en ligne en permanence, mais chaque trader devra être en ligne périodiquement pour vérifier si une action est nécessaire de leur côté (par exemple, l'envoi de fiat/altcoin, la confirmation de réception du paiement, etc).</p>
@@ -253,7 +253,7 @@ faq:
   hBisqDAO: La DAO de Bisq
   hBisqDaoWhat: "Qu'est-ce que la DAO de Bisq?"
   pBisqDaoWhat: >
-    <p>La DAO de Bisq (organisation autonome décentralisée) est un système de gouvernance décentralisé pour le logiciel Bisq. Il prend la place d'une entreprise. Comment un logiciel décentralisé peut-il être efficace s'il est toujours contrôlé par une seule entité, comme une entreprise?</p> <p>Un logiciel décentralisé ne sert à rien sans une gouvernance décentralisée.</p> <p>C'est pourquoi Bisq n'est pas une société ou une entité juridique de quelque nature que ce soit, elle est plutôt organisée comme un DAO. La DAO s'occupe du financement et de l'élaboration de la stratégie du logiciel afin de permettre au réseau Bisq de prospérer et, en même temps, de le renforcer contre les attaques contre ses infrastructures qui sont le moteur de sa direction et son fonctionnement.</p> <p>En résumé, la DAO de Bisq permet à Bisq de renforcer encore sa résistance à la censure, un <a href='https://docs.bisq.network/intro.html' target='_blank'>principe fondateur du projet</a> depuis sa genèse.</p> <p>En savoir plus sur la DAO de Bisq dans <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>ce document de présentation</a>.</p>
+    <p>La DAO de Bisq (organisation autonome décentralisée) est un système de gouvernance décentralisé pour le logiciel Bisq. Il prend la place d'une entreprise. Comment un logiciel décentralisé peut-il être efficace s'il est toujours contrôlé par une seule entité, comme une entreprise?</p> <p>Un logiciel décentralisé ne sert à rien sans une gouvernance décentralisée.</p> <p>C'est pourquoi Bisq n'est pas une société ou une entité juridique de quelque nature que ce soit, elle est plutôt organisée comme un DAO. La DAO s'occupe du financement et de l'élaboration de la stratégie du logiciel afin de permettre au réseau Bisq de prospérer et, en même temps, de le renforcer contre les attaques contre ses infrastructures qui sont le moteur de sa direction et son fonctionnement.</p> <p>En résumé, la DAO de Bisq permet à Bisq de renforcer encore sa résistance à la censure, un <a href='https://bisq.wiki/Introduction' target='_blank'>principe fondateur du projet</a> depuis sa genèse.</p> <p>En savoir plus sur la DAO de Bisq dans <a href='https://docs.bisq.network/user-dao-intro.html' target='_blank'>ce document de présentation</a>.</p>
   hBisqDaoHow: "Comment fonctionne la DAO de Bisq?"
   pBisqDaoHow: >
     <p>Les principaux objectifs de la DAO de Bisq sont le financement du projet et la détermination de la stratégie..</p> <ul>

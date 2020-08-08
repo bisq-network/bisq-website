@@ -1,6 +1,6 @@
 footer:
   notificationApp: Bisqモバイル通知アプリ
-  siteYear: © 2019 Bisq
+  siteYear: © 2020 Bisq
   ulResources: リソース
   liDownloads: ダウンロード
   liRoadmap: ロードマップ
@@ -41,7 +41,7 @@ homepage_content:
   hOpen: オープン
   pOpen: "<p class=\"grey px-md-5\">コードは<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">オープンソース</a>で、プロジェクト戦略は<a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a>と<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>でオープンに議論されています。</p>"
   hEasy: 使うのが簡単
-  pEasy: "<p class=\"grey px-md-5\">この洗練された機能をすべてシンプルにしました。<a href='https://docs.bisq.network/getting-started' target='_blank' rel=\"noopener\">最初の取引</a>を10分以内で！</p>"
+  pEasy: "<p class=\"grey px-md-5\">この洗練された機能をすべてシンプルにしました。<a href='/getting-started' target='_blank' rel=\"noopener\">最初の取引</a>を10分以内で！</p>"
   hBisqDao: Bisq DAO
   pBisqDao1: 非中央集権型の取引所のための非中央集権化されたガバナンス。
   pBisqDao2: もっと知る
@@ -53,7 +53,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">あなたの国または暗号通貨のアカウントを追加してください。</li><li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">新しいオファーを作成するか、既存のオファーを受けてください。</li><li class="mt-0 step step-text-4" data-image="step-image-4">ユーザーインターフェイスに従ってトレードを完了してください。</li>
   hJoin: コミュニティに参加
   pJoin: >
-    <p>Bisqは、<a href="https://bisq.network/ja/community/">コミュニティ</a>に参加するための高度なスキルを持つ開発者、デザイナー、およびセキュリティの専門家を常に探しています。 Bisqの改善に関心がありましたら、<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">貢献する</a>方法はたくさんあります。あなたからのご連絡をお待ちしています！</p>
+    <p>Bisqは、<a href="https://bisq.network/ja/community/">コミュニティ</a>に参加するための高度なスキルを持つ開発者、デザイナー、およびセキュリティの専門家を常に探しています。 Bisqの改善に関心がありましたら、<a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">貢献する</a>方法はたくさんあります。</p>
   liGithub: "@bisq-network on GitHub"
   liTwitter: "@bisq-network on Twitter"
   liYoutube: Bisq YouTubeチャンネル
@@ -98,7 +98,7 @@ dao:
   notConvinced: "トークンが必要だと確信していないですか？"
   pNotConvinced: "<p class=\"bigger\">あなた専用の<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">投稿</a>があります。</p>"
   seeMore: >
-    <p><a href='https://docs.bisq.network/dao.html'>Bisq DAOに関するすべて</a>のドキュメントで、その他のリソースを参照できます。</p><p>過去の貢献者は、<a href='https://docs.bisq.network/compensation.html#get-added-to-genesis'>このリンク</a>をチェックして、ジェネシスBSQディストリビューションに追加する手順を確認してください。</p>
+    <p><a href='https://docs.bisq.network/dao.html'>Bisq DAOに関するすべて</a>のドキュメントで、その他のリソースを参照できます。</p>
 downloads:
   hBisqDownloads: Bisqダウンロード
   runningWindows: Windowsを実行しているようです。
@@ -118,7 +118,7 @@ downloads:
   tdVerificationText0: PGP署名
   tdVerificationText1: PGP署名
   tdVerificationText2: PGPパブリックキー
-  pSeeInstructions: "<p class=\"small\">最初のトレードを完了する方法については<a href=\"https://docs.bisq.network/getting-started.html\">Bisqの概要</a>をご覧ください。</p>"
+  pSeeInstructions: "<p class=\"small\">最初のトレードを完了する方法については<a href=\"getting-started\">Bisqの概要</a>をご覧ください。</p>"
   hMobileNotifications: Bisqモバイル通知
   pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
   p2MobileNotifications: <p class="small mt-2">モバイル通知を受信するには、Bisqバージョン<strong>0.8.0</strong>以降が必要です。</p>
@@ -237,12 +237,7 @@ faq:
     <p>前述のように、調停人になるためには、前もって高い<a href="https://docs.bisq.network/dao/phase-zero.html" target="_blank" rel="noopener">BSQ担保</a>を調停人がロックインする必要があります。これは、トレード限度をはるかに上回っています。 両方のトレーダーが調停人の決議に同意しない場合、調停人のBSQ担保の没収を要求できます。</p> <p>共謀が行われたことが判明した場合、不正な調停人はBSQ担保を失います。 彼らのBSQ担保は、不正直で得られる分よりはるかに多くなるため、調停人は大きな損失を被ります。</p>
   hChargeback: "ビットコインがマルチシグアドレスからリリースされた後に、ビットコインを購入する人がチャージバックを行うとどうなりますか？"
   pChargeback: >
-    <p>Bisqは、チャージバックが容易ではない支払い方法のみをサポートします（たとえば、PayPalとクレジットカードがサポートされていない理由です）。しかし、銀行にはまだ少しチャージバックのリスクがあります。 BTCがリリースされた後に銀行がチャージバックを実行した場合、調停人ができることは何もありません。</p> <p>Bisqの目標は、次の3つの主要なメカニズムを使用して、このシナリオをできるだけ魅力のないものにすることです。</a></p> <ol>
-      <li>トレードごとにトレード制限がありますが、これは一般に犯罪者を引き付けるには小さすぎます。</li>
-      <li>チャージバックに使用されることが判明した国家通貨の支払い方法は、すぐに削除されます。</li>
-       <li>バージョン0.6.0では、新しい<a href="https://docs.bisq.network/payment-account-age-witness.html" target="_blank">アカウント加齢機能</a>が追加されました。 この機能により、最近Bisqに追加された法定通貨アカウントの<a href='#trade-limits'>トレード制限を低く</a>することができ、これらの制限は時間とともに増加します。 これにより、盗まれた銀行口座の詐欺に対する保護が追加されます。</li>
-
-    </ol>
+    <p>Bisqは、チャージバックが容易ではない支払い方法のみをサポートします（たとえば、PayPalとクレジットカードがサポートされていない理由です）。しかし、銀行にはまだ少しチャージバックのリスクがあります。 BTCがリリースされた後に銀行がチャージバックを実行した場合、調停人ができることは何もありません。</p> <p>Bisqの目標は、次の3つの主要なメカニズムを使用して、このシナリオをできるだけ魅力のないものにすることです。</a></p><ol><li>トレードごとにトレード制限がありますが、これは一般に犯罪者を引き付けるには小さすぎます。</li><li>チャージバックに使用されることが判明した国家通貨の支払い方法は、すぐに削除されます。</li><li>バージョン0.6.0では、新しい<a href="https://docs.bisq.network/payment-account-age-witness.html" target="_blank">アカウント加齢機能</a>が追加されました。 この機能により、最近Bisqに追加された法定通貨アカウントの<a href='#trade-limits'>トレード制限を低く</a>することができ、これらの制限は時間とともに増加します。 これにより、盗まれた銀行口座の詐欺に対する保護が追加されます。</li></ol>
   hReputationSystem: "トレーダー間の純粋な評判システムは、調停人を不要にしないのでしょうか？"
   pReputationSystem: >
     <p>調停の選択肢がない純粋な評判は弱い保護システムです。<a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank">sybil</a>または<a href="https://en.wikipedia.org/wiki/Confidence_trick" target="_blank">long con</a>攻撃を避けることはできないからです。</p> <p>このようなメカニズムは、プライバシーの保護とサービスの非中央集権化を維持する上で、問題になります。</p>

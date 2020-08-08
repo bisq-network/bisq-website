@@ -47,9 +47,9 @@
   <g id="dao_benefits" class="cls-1">
     <g id="Group_21" data-name="Group 21" transform="translate(-55.548 -2259.605)">
       <text id="Trading_fees" data-name="Trading
-fees" class="cls-2" transform="translate(510.002 2554.057)"><tspan x="0" y="0">Trading</tspan><tspan x="0" y="17">fees</tspan></text>
+fees" class="cls-2" transform="translate(460.002 2554.057)"><tspan x="0" y="0">トレード手数料</tspan><tspan x="0" y="17"></tspan></text>
       <text id="BSQ_issued_for_compensations" data-name="BSQ issued
-for compensations" class="cls-2" transform="translate(470.921 2727.626)"><tspan x="0" y="0">BSQ issued </tspan><tspan x="0" y="17">for compensations</tspan></text>
+for compensations" class="cls-2" transform="translate(470.921 2727.626)"><tspan x="0" y="0">補償のために発行されるBSQ</tspan><tspan x="0" y="17"></tspan></text>
       <line id="Line_7" data-name="Line 7" class="cls-3" x2="532.346" transform="translate(125.938 2804.709)"/>
       <line id="Line_8" data-name="Line 8" class="cls-4" x2="532.346" transform="translate(125.938 2702.407)"/>
       <line id="Line_9" data-name="Line 9" class="cls-4" x2="532.346" transform="translate(125.938 2600.105)"/>

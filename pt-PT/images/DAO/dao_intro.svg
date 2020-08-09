@@ -88,10 +88,10 @@
     <text id="dao_intro_contributor" class="cls-6" transform="translate(345.835 156)">
       <tspan x="-39.16" y="0">Contribuinte</tspan>
     </text>
-    <text id="dao_intro_bisq" data-name="Bisq Network" class="cls-6" transform="translate(537.835 473)">
+    <text id="dao_intro_bisq" data-name="Bisq Network" class="cls-6" transform="translate(547.835 473)">
       <tspan x="-45.92" y="0">Rede Bisq</tspan>
     </text>
-    <text id="dao_intro_trader" class="cls-6" transform="translate(155.835 473)">
+    <text id="dao_intro_trader" class="cls-6" transform="translate(145.835 473)">
       <tspan x="-22.512" y="0">Negociador</tspan>
     </text>
     <g id="Group_25" data-name="Group 25" transform="translate(-737.165 -91)">
@@ -106,7 +106,7 @@
         <text id="dao_intro_bsq" data-name="BSQ
 COLORED
 BITCOIN" class="cls-8" transform="translate(56.326 45.315)">
-          <tspan x="-11.418" y="0">BITCOIN</tspan>
+          <tspan x="-21.418" y="0">BITCOIN</tspan>
           <tspan x="-26.028" y="15">COLORIDO</tspan>
           <tspan x="-23.79" y="30">BSQ</tspan>
         </text>

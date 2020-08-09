@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="681" height="681" viewBox="0 0 681 681">
   <defs>
     <style type="text/css">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
-
-
     <style>
       .cls-1, .cls-6, .cls-7 {
         fill: #fff;
@@ -87,11 +85,19 @@
       <circle class="cls-10" cx="65" cy="65" r="65"/>
       <circle class="cls-12" cx="65" cy="65" r="64.5"/>
     </g>
-    <text id="dao_intro_contributor" class="cls-6" transform="translate(345.835 156)"><tspan x="-39.16" y="0">Contributor</tspan></text>
-    <text id="dao_intro_bisq" data-name="Bisq Network" class="cls-6" transform="translate(537.835 473)"><tspan x="-45.92" y="0">Bisq Network</tspan></text>
-    <text id="dao_intro_trader" class="cls-6" transform="translate(155.835 473)"><tspan x="-22.512" y="0">Trader</tspan></text>
+    <text id="dao_intro_contributor" class="cls-6" transform="translate(345.835 156)">
+      <tspan x="-39.16" y="0">Contribuidor</tspan>
+    </text>
+    <text id="dao_intro_bisq" data-name="Bisq Network" class="cls-6" transform="translate(537.835 473)">
+      <tspan x="-45.92" y="0">Rede Bisq</tspan>
+    </text>
+    <text id="dao_intro_trader" class="cls-6" transform="translate(155.835 473)">
+      <tspan x="-22.512" y="0">Negociador</tspan>
+    </text>
     <g id="Group_25" data-name="Group 25" transform="translate(-737.165 -91)">
-      <text id="_" data-name="₿" class="cls-7" transform="translate(1076.776 523.439)"><tspan x="-70.482" y="0">₿</tspan></text>
+      <text id="_" data-name="₿" class="cls-7" transform="translate(1076.776 523.439)">
+        <tspan x="-70.482" y="0">₿</tspan>
+      </text>
       <g id="Group_3" data-name="Group 3" transform="translate(1068.674 456.685)">
         <g id="Ellipse_14" data-name="Ellipse 14" class="cls-5" transform="translate(7.326 7.315)">
           <circle class="cls-10" cx="48.775" cy="48.775" r="48.775"/>
@@ -99,14 +105,24 @@
         </g>
         <text id="dao_intro_bsq" data-name="BSQ
 COLORED
-BITCOIN" class="cls-8" transform="translate(56.326 45.315)"><tspan x="-11.418" y="0">BSQ</tspan><tspan x="-26.028" y="15">COLORED</tspan><tspan x="-23.79" y="30">BITCOIN</tspan></text>
+BITCOIN" class="cls-8" transform="translate(56.326 45.315)">
+          <tspan x="-11.418" y="0">BITCOIN</tspan>
+          <tspan x="-26.028" y="15">COLORIDO</tspan>
+          <tspan x="-23.79" y="30">BSQ</tspan>
+        </text>
       </g>
     </g>
     <path id="Path_3" data-name="Path 3" class="cls-9" d="M4596.828,610.088h18.285v17.163" transform="translate(-4117.165 -91)"/>
     <path id="Path_4" data-name="Path 4" class="cls-9" d="M4596.828,610.088h18.382v18.387" transform="matrix(-0.469, -0.883, 0.883, -0.469, 2038.532, 4512.624)"/>
     <path id="Path_5" data-name="Path 5" class="cls-9" d="M4596.828,610.088h16.315V625.4" transform="matrix(-0.469, 0.883, -0.883, -0.469, 2835.459, -3381.042)"/>
-    <text id="dao_intro_compensation" class="cls-6" transform="translate(530.835 259)"><tspan x="-50.448" y="0">Compensation</tspan></text>
-    <text id="dao_intro_improvements" class="cls-6" transform="translate(142.835 271)"><tspan x="-51.296" y="0">Improvements</tspan></text>
-    <text id="dao_intro_fees" data-name="Trading Fees" class="cls-6" transform="translate(345.835 583)"><tspan x="-44.264" y="0">Trading Fees</tspan></text>
+    <text id="dao_intro_compensation" class="cls-6" transform="translate(530.835 259)">
+      <tspan x="-50.448" y="0">Compensação</tspan>
+    </text>
+    <text id="dao_intro_improvements" class="cls-6" transform="translate(142.835 271)">
+      <tspan x="-51.296" y="0">Melhorias</tspan>
+    </text>
+    <text id="dao_intro_fees" data-name="Trading Fees" class="cls-6" transform="translate(345.835 583)">
+      <tspan x="-44.264" y="0">Taxas de Negociação</tspan>
+    </text>
   </g>
 </svg>

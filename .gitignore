@@ -3,3 +3,4 @@ _site
 *.swp
 .idea
 .DS_Store
+node_modules

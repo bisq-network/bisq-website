@@ -3,6 +3,7 @@
   <a class="navbar-brand" href="{% lingual_link home %}"><img src="/images/bisq-logo.svg" height="30" loading="lazy"/></a>
 
   <!-- Language selector for mobile -->
+
   {% if page.en-only == false %}
   <div class="dropdown mobile-language-selector more-info-desktop">
     <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -21,7 +22,6 @@
   </div>
   {% endif %}
 
-
   <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -30,71 +30,79 @@
 
     <ul class="navbar-nav ml-auto">
 
-      <!-- MOBILE MENU -->
+      {% assign mainNavLabels = site.data[page.lang].main_nav %}
 
-      {% for item in site.data[page.lang].main_nav.links %}
-        <li class="nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
-          {% if item.target == "_blank" %}
-            <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
-          {% else %}
-            <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
+      <!-- main links for desktop and mobile -->
 
-      {% for item in site.data[page.lang].main_nav.mobile_links %}
-        <li class="downloads-mobile nav-item {% if page.url == item.url | append: '/' %}current{% endif %}">
-          {% if item.target == "_blank" %}
-            <a class="nav-link" rel="noopener" target="{{ item.target }}" href="{{ item.url }}">{{ item.title }}</a>
-          {% else %}
-            <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-
-      {% assign item = site.data[page.lang].main_nav %}
-      <li class="downloads-mobile nav-item {% if page.url == item.url %}current{% endif %}">
-          <a class="nav-link" href="{% lingual_link downloads %}">{{ item.liDownloads }}</a>
+      <li class="nav-item {% if page.url == '/getting-started/' %}current{% endif %}">
+        <a class="nav-link" href="/getting-started">{{ mainNavLabels.gettingStarted }}</a>
+      </li>
+      <li class="nav-item {% if page.url == '/dao/' %}current{% endif %}">
+        <a class="nav-link" href="{% lingual_link dao %}">{{ mainNavLabels.bisqDAO }}</a>
+      </li>
+      <li class="nav-item {% if page.url == '/stats/' %}current{% endif %}">
+        <a class="nav-link" href="{% lingual_link stats %}">{{ mainNavLabels.statistics }}</a>
+      </li>
+      <li class="nav-item {% if page.url == '/faq/' %}current{% endif %}">
+        <a class="nav-link" href="{% lingual_link faq %}">{{ mainNavLabels.faq }}</a>
+      </li>
+      <li class="nav-item {% if page.url == '/markets/' %}current{% endif %}">
+        <a class="nav-link" href="{% lingual_link markets %}">{{ mainNavLabels.markets }}</a>
       </li>
 
-      <!-- DESKTOP MENU -->
+      <!-- additional links for mobile menu (these show in "learn more" dropdown on desktop) -->
+
+      <li class="downloads-mobile nav-item {% if page.url == '/community/' %}current{% endif %}">
+        <a class="nav-link" href="{% lingual_link community %}">{{ mainNavLabels.community }}</a>
+      </li>
+      <li class="downloads-mobile nav-item">
+        <a class="nav-link" href="/blog">{{ mainNavLabels.blog }}</a>
+      </li>
+      <li class="downloads-mobile nav-item">
+        <a class="nav-link" href="https://docs.bisq.network" target="_blank">{{ mainNavLabels.documentation }}</a>
+      </li>
+      <li class="downloads-mobile nav-item">
+        <a class="nav-link" href="{% lingual_link downloads %}">{{ mainNavLabels.downloads }}</a>
+      </li>
+
+      <!-- dropdown menus for desktop -->
 
       <li class="downloads-desktop more-info-desktop nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ item.liLearnMore }}
+          {{ mainNavLabels.learnMore }}
         </a>
         <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="learnMoreDropdown">
           <div class="dropdown-item btn-icon">
             <div class="float-right">
-              <a href="https://docs.bisq.network/" target='_blank'>{{ item.liDocumentation }}</a>
+              <a href="https://docs.bisq.network/" target='_blank'>{{ mainNavLabels.documentation }}</a>
             </div>
           </div>
 
           <div class="dropdown-item btn-icon">
             <div class="float-right">
-              <a href="/blog/">{{ item.liBlog }}</a>
+              <a href="/blog/">{{ mainNavLabels.blog }}</a>
             </div>
           </div>
 
           <div class="dropdown-item btn-icon">
             <div class="float-right">
-              <a href="{% lingual_link community %}">{{ item.liCommunity }}</a>
+              <a href="{% lingual_link community %}">{{ mainNavLabels.community }}</a>
             </div>
           </div>
         </div>
       </li>
 
-
       <li class="downloads-desktop nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="downloadDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ item.buttonDownloads }}
+          {{ mainNavLabels.downloads }}
         </a>
         <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="downloadDropdown">
           {% include os_selector_options.html %}
         </div>
       </li>
 
-      <!-- Language selector for desktop -->
+      <!-- language selector for desktop -->
+
       {% if page.en-only == false %}
       <li class="downloads-desktop nav-item dropdown more-info-desktop language-selector">
         <a class="nav-link dropdown-toggle visible-language" href='#' id="languageSelectorDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -112,7 +120,6 @@
         </div>
       </li>
       {% endif %}
-
 
       <li class="nav-item">
         <div class="mode-toggle nav-link"><img alt="mode toggle" src="/images/mode-toggle.svg" /></div>

@@ -85,10 +85,10 @@
       <circle class="cls-10" cx="65" cy="65" r="65"/>
       <circle class="cls-12" cx="65" cy="65" r="64.5"/>
     </g>
-    <text id="dao_intro_contributor" class="cls-6" transform="translate(345.835 156)">
+    <text id="dao_intro_contributor" class="cls-6" transform="translate(355.835 156)">
       <tspan x="-39.16" y="0">贡献者</tspan>
     </text>
-    <text id="dao_intro_bisq" data-name="Bisq Network" class="cls-6" transform="translate(537.835 473)">
+    <text id="dao_intro_bisq" data-name="Bisq Network" class="cls-6" transform="translate(547.835 473)">
       <tspan x="-45.92" y="0">Bisq 网络</tspan>
     </text>
     <text id="dao_intro_trader" class="cls-6" transform="translate(155.835 473)">
@@ -115,10 +115,10 @@ BITCOIN" class="cls-8" transform="translate(56.326 45.315)">
     <path id="Path_3" data-name="Path 3" class="cls-9" d="M4596.828,610.088h18.285v17.163" transform="translate(-4117.165 -91)"/>
     <path id="Path_4" data-name="Path 4" class="cls-9" d="M4596.828,610.088h18.382v18.387" transform="matrix(-0.469, -0.883, 0.883, -0.469, 2038.532, 4512.624)"/>
     <path id="Path_5" data-name="Path 5" class="cls-9" d="M4596.828,610.088h16.315V625.4" transform="matrix(-0.469, 0.883, -0.883, -0.469, 2835.459, -3381.042)"/>
-    <text id="dao_intro_compensation" class="cls-6" transform="translate(530.835 259)">
+    <text id="dao_intro_compensation" class="cls-6" transform="translate(560.835 259)">
       <tspan x="-50.448" y="0">报酬</tspan>
     </text>
-    <text id="dao_intro_improvements" class="cls-6" transform="translate(142.835 271)">
+    <text id="dao_intro_improvements" class="cls-6" transform="translate(172.835 271)">
       <tspan x="-51.296" y="0">改进</tspan>
     </text>
     <text id="dao_intro_fees" data-name="Trading Fees" class="cls-6" transform="translate(345.835 583)">

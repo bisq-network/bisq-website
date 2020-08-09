@@ -67,10 +67,10 @@
         <circle class="cls-8" cx="119.912" cy="119.912" r="119.912"/>
         <circle class="cls-9" cx="119.912" cy="119.912" r="119.412"/>
       </g>
-      <text id="Contributors" class="cls-3" transform="translate(552.211 352.601)"><tspan x="-33.102" y="0">Contributors</tspan></text>
-      <text id="Contributions" class="cls-4" transform="translate(348.835 408.35)"><tspan x="-35.25" y="0">Contributions</tspan></text>
-      <text id="Fees" class="cls-4" transform="translate(348.835 296.853)"><tspan x="-11.934" y="0">Fees</tspan></text>
-      <text id="Traders" class="cls-3" transform="translate(143.71 352.601)"><tspan x="-20.136" y="0">Traders</tspan></text>
+      <text id="dao_why_contributors" class="cls-3" transform="translate(552.211 352.601)"><tspan x="-33.102" y="0">Contributors</tspan></text>
+      <text id="dao_what_contributions" class="cls-4" transform="translate(348.835 408.35)"><tspan x="-35.25" y="0">Contributions</tspan></text>
+      <text id="dao_what_fees" class="cls-4" transform="translate(348.835 296.853)"><tspan x="-11.934" y="0">Fees</tspan></text>
+      <text id="dao_what_traders" class="cls-3" transform="translate(143.71 352.601)"><tspan x="-20.136" y="0">Traders</tspan></text>
       <g id="Group_43" data-name="Group 43" transform="translate(236.433 304.838)">
         <path id="Path_4" data-name="Path 4" class="cls-5" d="M0,0H6.279V6.279" transform="translate(221.626 0) rotate(45)"/>
         <path id="Path_41" data-name="Path 41" class="cls-5" d="M0,0H6.279V6.279" transform="translate(4.439 84.614) rotate(-135)"/>

@@ -9,7 +9,7 @@ class LingualLink < Liquid::Tag
     if @dest.strip == 'home' || @dest.strip == 'image'
       return ( lang == "en" ) ? "/" : "/#{lang}/"
     end
-    return ( lang == "en" ) ? "/#{@dest.strip}/" : "/#{lang}/#{@dest.strip}/"
+    return ( lang == "en" ) ? "/#{@dest.strip}" : "/#{lang}/#{@dest.strip}"
   end
 end
 

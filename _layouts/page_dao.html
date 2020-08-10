@@ -201,35 +201,123 @@ layout: default
 </style>
 
 
+{% assign daoText = site.data[page.lang].dao_page_text %}
 
-{% for entry in site.data[page.lang].dao_page %}
-<div id="{{ entry.id }}" class="d-lg-flex h-md-100 align-items-center split-container{{ entry.class }} {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}{% if thecycle == 'even' %}split-invert{% endif %}">
+<div id="intro" class="d-lg-flex h-md-100 align-items-center split-container-main">
   <div class="col-lg-6 p-0 h-md-100 split split-first">
       <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
           <div class="pt-sm-0 pt-md-5 pb-5 split-text">
               <div class="title">
-                {{ entry.title }}
+                {{ daoText.introTitle }}
               </div>
               <div class="intro">
-                {{ entry.intro }}
+                {{ daoText.introText }}
               </div>
-              <a href="{{ entry.href }}" target="_blank">{{ entry.href_text }}</a>
           </div>
       </div>
   </div>
-
   <div class="col-lg-6 p-0 h-md-100 split split-last">
       <div class="d-md-flex align-items-center h-md-100 p-1 p-lg-5 pt-5 pb-5 justify-content-center">
-          <img src="{{ entry.img }}" />
+          <img src="{% lingual_link images/DAO/dao_intro.svg %}" />
       </div>
   </div>
-
 </div>
-{% endfor %}
 
+<div id="why" class="d-lg-flex h-md-100 align-items-center split-container split-invert">
+  <div class="col-lg-6 p-0 h-md-100 split split-first">
+      <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
+          <div class="pt-sm-0 pt-md-5 pb-5 split-text">
+              <div class="title">
+                {{ daoText.whyTitle }}
+              </div>
+              <div class="intro">
+                {{ daoText.whyText }}
+              </div>
+              <a href="https://docs.bisq.network/dao.html" target="_blank">
+                {{ daoText.whyLinkText }} ›
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="col-lg-6 p-0 h-md-100 split split-last">
+      <div class="d-md-flex align-items-center h-md-100 p-1 p-lg-5 pt-5 pb-5 justify-content-center">
+          <img src="{% lingual_link images/DAO/dao_why.svg %}" />
+      </div>
+  </div>
+</div>
+
+<div id="what" class="d-lg-flex h-md-100 align-items-center split-container">
+  <div class="col-lg-6 p-0 h-md-100 split split-first">
+      <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
+          <div class="pt-sm-0 pt-md-5 pb-5 split-text">
+              <div class="title">
+                {{ daoText.whatTitle }}
+              </div>
+              <div class="intro">
+                {{ daoText.whatText }}
+              </div>
+              <a href="https://docs.bisq.network/dao.html" target="_blank">
+                {{ daoText.whatLinkText }} ›
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="col-lg-6 p-0 h-md-100 split split-last">
+      <div class="d-md-flex align-items-center h-md-100 p-1 p-lg-5 pt-5 pb-5 justify-content-center">
+          <img src="{% lingual_link images/DAO/dao_what.svg %}" />
+      </div>
+  </div>
+</div>
+
+<div id="how" class="d-lg-flex h-md-100 align-items-center split-container split-invert">
+  <div class="col-lg-6 p-0 h-md-100 split split-first">
+      <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
+          <div class="pt-sm-0 pt-md-5 pb-5 split-text">
+              <div class="title">
+                {{ daoText.howTitle }}
+              </div>
+              <div class="intro">
+                {{ daoText.howText }}
+              </div>
+              <a href="https://docs.bisq.network/dao.html" target="_blank">
+                {{ daoText.howLinkText }} ›
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="col-lg-6 p-0 h-md-100 split split-last">
+      <div class="d-md-flex align-items-center h-md-100 p-1 p-lg-5 pt-5 pb-5 justify-content-center">
+          <img src="{% lingual_link images/DAO/dao_how.svg %}" />
+      </div>
+  </div>
+</div>
+
+<div id="benefits" class="d-lg-flex h-md-100 align-items-center split-container">
+  <div class="col-lg-6 p-0 h-md-100 split split-first">
+      <div class="d-md-flex align-items-center h-100 p-5 justify-content-center">
+          <div class="pt-sm-0 pt-md-5 pb-5 split-text">
+              <div class="title">
+                {{ daoText.benefitsTitle }}
+              </div>
+              <div class="intro">
+                {{ daoText.benefitsText }}
+              </div>
+              <a href="https://docs.bisq.network/dao.html" target="_blank">
+                {{ daoText.benefitsLinkText }} ›
+              </a>
+          </div>
+      </div>
+  </div>
+  <div class="col-lg-6 p-0 h-md-100 split split-last">
+      <div class="d-md-flex align-items-center h-md-100 p-1 p-lg-5 pt-5 pb-5 justify-content-center">
+          <img src="{% lingual_link images/DAO/dao_benefits.svg %}" />
+      </div>
+  </div>
+</div>
 
 
 {% assign item = site.data[page.lang].dao_footer %}
+
 <div class="conclusion m-0 pb-5">
 <div class="row-block container">
   <h2 style="margin: 2em 0;">{{ item.hLearnMore }}</h2>

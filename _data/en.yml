@@ -105,48 +105,21 @@ os_selector_options:
   liVerificationText1: PGP signatures
   liVerificationText2: PGP Public Key
 
-dao_page:
-- title: "The Bisq DAO"
-  intro: "Decentralizing revenue distribution and decision-making to make Bisq self-sustaining and censorship-resistant.<span class=\"footnote\">DAO stands for Decentralized Autonomous Organisation</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">See more &darr;</a>"
-  img: /images/DAO/dao_intro.svg
-  class: -main
-  id: intro
-
-- title: Why?
-  intro: "<p>Bisq trading is currently decentralized, but its revenue distribution and decision-making are not.</p><p>It is critical that Bisq be resistant to censorship, and the trade protocol and P2P network achieve this—for traders.</p><p>What about Bisq's developers? With a traditional legal structure, project decision-making and revenue distribution would be centralized, and this would create vulnerabilities.</p>"
-  href_text: Learn more about the DAO ›
-  href: "https://docs.bisq.network/dao.html"
-  target: "_blank"
-  rel: "noopener"
-  img: /images/DAO/dao_why.svg
-  id: why
-
-- title: What Is The Bisq DAO?
-  intro: "<p>The Bisq DAO enables value transfer from traders to contributors. The BSQ token makes this possible in a decentralized way.</p><p>Trading fees are distributed to contributors without the confines of a corporation or other legal entity, keeping Bisq stateless & sovereign.</p>"
-  href_text: Learn more about the DAO ›
-  href: "https://docs.bisq.network/dao.html"
-  target: "_blank"
-  rel: "noopener"
-  img: /images/DAO/dao_what.svg
-  id: what
-
-- title: How Does It Work?
-  intro: "<div class=\"subtitle pt-4\"> Revenue distribution </div> <div class=\"small\"> <p> To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. Contributors are issued new BSQ when stakeholders approve their compensation requests through voting, and BSQ gets “uncolored” when traders use it to pay trading fees. </p> <p> There is no central entity collecting or creating BSQ—Bisq stakeholders are collectively in charge of the issuance process. </p> <p class=\"disclaimer\"> This is not an ICO. No BSQ is sold to raise capital. </p> </div> <div class=\"subtitle pt-3\"> Decision-making </div> <div class=\"small\"> <p> With no CEO or central leadership team, Bisq stakeholders—traders and contributors—are the owners of Bisq. </p> <p> Through social consensus (via voting) they determine Bisq's project strategy. </p> </div>"
-  href_text: Learn more about the DAO ›
-  href: "https://docs.bisq.network/dao.html"
-  target: "_blank"
-  rel: "noopener"
-  img: /images/DAO/dao_how.svg
-  id: how
-
-- title: "Benefits"
-  intro: " <div class=\"subtitle\">Traders: Make Bisq sustainable</div> <ul class=\"small pb-5\"> <li>Help Bisq deliver consistent professional development and support by buying BSQ from contributors</li> <li>Help make Bisq the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li> <li>Enjoy a discount if you use BSQ to pay trading fees</li> <li>You can still pay trading fees with plain BTC if you like</li> </ul> <div class=\"subtitle\">Contributors: Earn BSQ</div> <ul class=\"small pb-5\"> <li>Do valuable work, request compensation, earn BSQ</li> <li>Sell BSQ on Bisq for BTC</li> <li>Vote on compensation requests of other contributors</li> <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid</li> </ul>"
-  href_text: Learn more about the DAO ›
-  href: "https://docs.bisq.network/dao.html"
-  target: "_blank"
-  rel: "noopener"
-  img: /images/DAO/dao_benefits.svg
-  id: benefits
+dao_page_text:
+  introTitle: "The Bisq DAO"
+  introText: "Decentralizing revenue distribution and decision-making to make Bisq self-sustaining and censorship-resistant.<span class=\"footnote\">DAO stands for Decentralized Autonomous Organisation</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">See more &darr;</a>"
+  whyTitle: Why?
+  whyText: "<p>Bisq trading is currently decentralized, but its revenue distribution and decision-making are not.</p><p>It is critical that Bisq be resistant to censorship, and the trade protocol and P2P network achieve this—for traders.</p><p>What about Bisq's developers? With a traditional legal structure, project decision-making and revenue distribution would be centralized, and this would create vulnerabilities.</p>"
+  whyLinkText: Learn more about the DAO
+  whatTitle: What Is The Bisq DAO?
+  whatText: "<p>The Bisq DAO enables value transfer from traders to contributors. The BSQ token makes this possible in a decentralized way.</p><p>Trading fees are distributed to contributors without the confines of a corporation or other legal entity, keeping Bisq stateless & sovereign.</p>"
+  whatLinkText: Learn more about the DAO
+  howTitle: How Does It Work?
+  howText: "<div class=\"subtitle pt-4\"> Revenue distribution </div> <div class=\"small\"> <p> To distribute revenue from trading fees to contributors, Bisq uses BSQ - a Bitcoin-based colored coin. Contributors are issued new BSQ when stakeholders approve their compensation requests through voting, and BSQ gets “uncolored” when traders use it to pay trading fees. </p> <p> There is no central entity collecting or creating BSQ—Bisq stakeholders are collectively in charge of the issuance process. </p> <p class=\"disclaimer\"> This is not an ICO. No BSQ is sold to raise capital. </p> </div> <div class=\"subtitle pt-3\"> Decision-making </div> <div class=\"small\"> <p> With no CEO or central leadership team, Bisq stakeholders—traders and contributors—are the owners of Bisq. </p> <p> Through social consensus (via voting) they determine Bisq's project strategy. </p> </div>"
+  howLinkText: Learn more about the DAO
+  benefitsTitle: "Benefits"
+  benefitsText: " <div class=\"subtitle\">Traders: Make Bisq sustainable</div> <ul class=\"small pb-5\"> <li>Help Bisq deliver consistent professional development and support by buying BSQ from contributors</li> <li>Help make Bisq the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li> <li>Enjoy a discount if you use BSQ to pay trading fees</li> <li>You can still pay trading fees with plain BTC if you like</li> </ul> <div class=\"subtitle\">Contributors: Earn BSQ</div> <ul class=\"small pb-5\"> <li>Do valuable work, request compensation, earn BSQ</li> <li>Sell BSQ on Bisq for BTC</li> <li>Vote on compensation requests of other contributors</li> <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid</li> </ul>"
+  benefitsLinkText: Learn more about the DAO
 
 dao_images:
   dao_intro_contributor: Contributor

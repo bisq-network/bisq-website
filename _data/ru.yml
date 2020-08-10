@@ -1,29 +1,14 @@
 main_nav:
-  liDownloads: Загрузить
-  liLearnMore: Узнать больше
-  liDocumentation: Документация
-  liBlog: Блог
-  liCommunity: Сообщество
-  buttonDownloads: Загрузить
-  links:
-    - title: Начало работы
-      url: /getting-started/
-    - title: ДАО Bisq
-      url: /ru/dao/
-    - title: Статистика
-      url: /ru/stats/
-    - title: ЧаВо
-      url: /ru/faq/
-    - title: Рынки
-      url: /ru/markets/
-  mobile_links:
-    - title: Сообщество
-      url: /ru/community/
-    - title: Блог
-      url: /blog/
-    - title: Документация
-      url: https://docs.bisq.network/
-      target: _blank
+  downloads: Загрузить
+  learnMore: Узнать больше
+  documentation: Документация
+  blog: Блог
+  community: Сообщество
+  gettingStarted: Начало работы
+  bisqDAO: ДАО Bisq
+  statistics: Статистика
+  faq: ЧаВо
+  markets: Рынки
 
 footer:
   notificationApp: Мобильное приложение Bisq

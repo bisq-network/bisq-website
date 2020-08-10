@@ -1,29 +1,14 @@
 main_nav:
-  liDownloads: ダウンロード
-  liLearnMore: もっと知る
-  liDocumentation: ドキュメント
-  liBlog: ブログ
-  liCommunity: コミュニティ
-  buttonDownloads: ダウンロード
-  links:
-    - title: 始めに
-      url: /getting-started/
-    - title: Bisq DAO
-      url: /ja/dao/
-    - title: 統計
-      url: /ja/stats/
-    - title: FAQ
-      url: /ja/faq/
-    - title: 市場
-      url: /ja/markets/
-  mobile_links:
-    - title: コミュニティー
-      url: /ja/community/
-    - title: ブログ
-      url: /blog/
-    - title: ドキュメンテーション
-      url: https://docs.bisq.network/
-      target: _blank
+  downloads: ダウンロード
+  learnMore: もっと知る
+  documentation: ドキュメンテーション
+  blog: ブログ
+  community: コミュニティ
+  gettingStarted: 始めに
+  bisqDAO: Bisq DAO
+  statistics: 統計
+  faq: FAQ
+  markets: 市場
 
 footer:
   notificationApp: Bisqモバイル通知アプリ

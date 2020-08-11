@@ -203,7 +203,7 @@ downloads:
   tdVerificationText0: PGP signature
   tdVerificationText1: PGP signatures
   tdVerificationText2: Clé publique PGP
-  pSeeInstructions: "<p class=\"small\">Voir <a href=\"/getting-started.html\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
+  pSeeInstructions: "<p class=\"small\">Voir <a href=\"/getting-started\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
   hMobileNotifications: Notifications Bisq sur téléphone portable
   pMobileNotifications: Restez au fait de l'évolution de vos transactions et recevez des notifications sur votre téléphone portable.
   p2MobileNotifications: <p class="small mt-2">Une version de Bisq <strong>0.8.0</strong> ou plus est nécessaire pour recevoir des notifications sur portable.</p>

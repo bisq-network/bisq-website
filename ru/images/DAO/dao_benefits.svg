@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="681" height="681" viewBox="0 0 681 681">
   <defs>
     <style type="text/css">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
-
     <style>
       .cls-1 {
         clip-path: url(#clip-dao_benefits);
@@ -46,10 +45,16 @@
   </defs>
   <g id="dao_benefits" class="cls-1">
     <g id="Group_21" data-name="Group 21" transform="translate(-55.548 -2259.605)">
-      <text id="Trading_fees" data-name="Trading
-fees" class="cls-2" transform="translate(510.002 2554.057)"><tspan x="0" y="0">Trading</tspan><tspan x="0" y="17">fees</tspan></text>
-      <text id="BSQ_issued_for_compensations" data-name="BSQ issued
-for compensations" class="cls-2" transform="translate(470.921 2727.626)"><tspan x="0" y="0">BSQ issued </tspan><tspan x="0" y="17">for compensations</tspan></text>
+      <text id="dao_benefits_burn" data-name="Trading
+fees" class="cls-2" transform="translate(490.002 2554.057)">
+        <tspan x="0" y="0">Комиссии</tspan>
+        <tspan x="0" y="17">·</tspan>
+      </text>
+      <text id="dao_benefits_issuance" data-name="BSQ issued
+for compensations" class="cls-2" transform="translate(470.921 2727.626)">
+        <tspan x="0" y="0">BSQ, эмитированные</tspan>
+        <tspan x="0" y="17">в качестве компенсации</tspan>
+      </text>
       <line id="Line_7" data-name="Line 7" class="cls-3" x2="532.346" transform="translate(125.938 2804.709)"/>
       <line id="Line_8" data-name="Line 8" class="cls-4" x2="532.346" transform="translate(125.938 2702.407)"/>
       <line id="Line_9" data-name="Line 9" class="cls-4" x2="532.346" transform="translate(125.938 2600.105)"/>

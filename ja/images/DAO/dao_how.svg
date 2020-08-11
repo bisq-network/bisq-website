@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="681" height="681" viewBox="0 0 681 681">
   <defs>
-    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');</style>
-
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i');</style>
     <style>
       .cls-1 {
         clip-path: url(#clip-dao_how);
@@ -26,8 +25,8 @@
       }
 
       .cls-5 {
-        font-size: 30px;
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-size: 16px;
+        font-family: 'IBM Plex Sans', sans-serif;
         font-weight: 300;
       }
     </style>
@@ -79,7 +78,11 @@
       <circle id="Ellipse_80" data-name="Ellipse 80" class="cls-4" cx="11.912" cy="11.912" r="11.912" transform="translate(469.175 232)"/>
       <circle id="Ellipse_81" data-name="Ellipse 81" class="cls-4" cx="11.912" cy="11.912" r="11.912" transform="translate(512.175 171)"/>
     </g>
-    <text id="Revenue-distribution" class="cls-5" transform="translate(343.875 70.602)"><tspan x="-60" y="0">収益分配</tspan></text>
-    <text id="Decision-making" class="cls-5" transform="translate(343.875 617.602)"><tspan x="-60" y="0">意思決定</tspan></text>
+    <text id="dao_how_revenue" class="cls-5" transform="translate(343.875 70.602)">
+      <tspan x="-74.48" y="0">収益分配</tspan>
+    </text>
+    <text id="dao_how_decisions" class="cls-5" transform="translate(343.875 617.602)">
+      <tspan x="-59.432" y="0">意思決定</tspan>
+    </text>
   </g>
 </svg>

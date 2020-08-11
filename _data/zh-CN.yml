@@ -63,8 +63,6 @@ homepage_content:
   pSafe: "Bisq 从来不持有你的资金。安全存款和多重团体交易钱包鼓励安全、成功的交易。"
   hPrivate: 隐私
   pPrivate: 除了贸易伙伴，没有人交换个人身份数据。所有个人资料均储存于本地。
-  hSecure: 全天在线以及安全
-  pSecure: 点对点加密通信路由到 Tor，没有停机时间。
   hOpen: 开放
   pOpen: "<p class=\"grey px-md-5\">代码是<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">开源</a>的，项目策略在<a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a>和<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>上公开讨论。"
   hEasy: 便利

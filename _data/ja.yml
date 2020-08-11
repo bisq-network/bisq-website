@@ -63,8 +63,6 @@ homepage_content:
   pSafe: "Bisqが資産を保有することはありません。セキュリティデポジットとマルチシグトレードウォレットによって、安全で成功したトレードを促進します。"
   hPrivate: プライベート
   pPrivate: 取引パートナー以外とは、個人を特定するデータを交換しません。すべての個人データはローカルに保存されます。
-  hSecure: 安全で常にオン
-  pSecure: ダウンタイムなしでTor経由でルーティングされるエンドツーエンドの暗号化通信。
   hOpen: オープン
   pOpen: "<p class=\"grey px-md-5\">コードは<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">オープンソース</a>で、プロジェクト戦略は<a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a>と<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>でオープンに議論されています。</p>"
   hEasy: 使うのが簡単

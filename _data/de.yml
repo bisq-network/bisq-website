@@ -63,8 +63,6 @@ homepage_content:
   pSafe: "Bisq verfügt nie über Ihre Gelder. Kautionen und Multisig-Trade-Wallets ermöglichen sichere und erfolgreiche Trades."
   hPrivate: Privat
   pPrivate: Niemand außer den Trading-Partnern tauscht persönliche Identifizierungsdaten aus. Alle persönlichen Daten werden lokal gespeichert.
-  hSecure: Sicher und immer verfügbar
-  pSecure: "End-to-End verschlüsselte Kommunikation, die über Tor geleitet wird, ohne Ausfallzeiten."
   hOpen: Offen
   pOpen: "<p class=\"grey px-md-5\">Der Code ist <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">Open Source</a> und die Projektstrategie wird auf <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> und <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a> offen diskutiert.</p>"
   hEasy: Einfach zu bedienen

@@ -63,8 +63,6 @@ homepage_content:
   pSafe: "Bisq nunca custodia seus fundos. Depósitos de segurança e carteiras para negociação multi-assinatura promovem negociações seguras e bem-sucedidas."
   hPrivate: Privado
   pPrivate: "Ninguém, exceto parceiros de negociação, troca dados de identificação pessoal. Todos os dados pessoais são armazenados localmente."
-  hSecure: Seguro e sempre funcionando
-  pSecure: Comunicação criptografada de ponta a ponta roteada através do Tor e sem tempo de inatividade.
   hOpen: Aberto
   pOpen: "<p class=\"grey px-md-5\">O código é <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">aberto</a>, e a estratégia do projeto é discutida abertamente no <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> e <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Fácil de Usar

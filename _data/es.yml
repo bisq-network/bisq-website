@@ -63,8 +63,6 @@ homepage_content:
   pSafe: "Bisq nunca retiene sus fondos. Los depósitos de seguridad y los monederos de intercambio multifirma permiten intercambios seguros y exitosos."
   hPrivate: Privado
   pPrivate: Nadie excepto los pares de intercambio intercambian datos de identificación personal. Todos los datos se guardan de manera local.
-  hSecure: Seguro y siempre en funcionamiento
-  pSecure: Comunicación cifrada de extremo a extremo enrutada vía Tor y sin caídas.
   hOpen: Abierto
   pOpen: "<p class=\"grey px-md-5\">Código es <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">abierto</a> y la estrategia del proyecto se discute abiertamente en <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a>y<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Fácil de Usar

@@ -63,8 +63,6 @@ homepage_content:
   pSafe: "Bisq никогда не имеет доступа к вашим средствам. Безопасность и успешное завершение сделок обеспечивается внесением залога и использованием мультиподписей."
   hPrivate: Конфиденциальность
   pPrivate: Личной идентифицирующей информацией обмениваются только контрагенты. Все личные данные хранятся на компьютерах пользователей.
-  hSecure: Безопасность и бесперебойность работы
-  pSecure: Сквозное шифрование через Tor и отсутствие простоев в работе.
   hOpen: Открытость
   pOpen: "<p class=\"grey px-md-5\">Исходный код <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">открыт</a>, а стратегия проекта обсуждается в <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> и на <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Простота использования

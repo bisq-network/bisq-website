@@ -203,7 +203,7 @@ downloads:
   tdVerificationText0: PGP署名
   tdVerificationText1: PGP署名
   tdVerificationText2: PGPパブリックキー
-  pSeeInstructions: "<p class=\"small\">最初のトレードを完了する方法については<a href=\"getting-started\">Bisqの概要</a>をご覧ください。</p>"
+  pSeeInstructions: "<p class=\"small\">最初のトレードを完了する方法については<a href=\"/getting-started\">Bisqの概要</a>をご覧ください。</p>"
   hMobileNotifications: Bisqモバイル通知
   pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
   p2MobileNotifications: <p class="small mt-2">モバイル通知を受信するには、Bisqバージョン<strong>0.8.0</strong>以降が必要です。</p>

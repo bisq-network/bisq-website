@@ -204,7 +204,6 @@ downloads:
   pSeeInstructions: "<p class=\"small\">Прочитайте статью <a href=\"/getting-started\">«Начало работы с Bisq»</a>, чтобы узнать, как совершить свою первую сделку.</p>"
   hMobileNotifications: Мобильные уведомления Bisq
   pMobileNotifications: Получайте оперативные уведомления о сделках на мобильный телефон.
-  p2MobileNotifications: <p class="small mt-2">Для получения мобильных уведомлений необходима версия Bisq <strong>0.8.0</strong> или новее.</p>
 
 faq:
   hFAQ: ЧаВо

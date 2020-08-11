@@ -204,7 +204,6 @@ downloads:
   pSeeInstructions: "<p class=\"small\">Vea <a href=\"/getting-started\">Iniciándose con Bisq</a> para instrucciones sobre cómo completar su primer intercambio.</p>"
   hMobileNotifications: Notificaciones móviles Bisq
   pMobileNotifications: Manténgase al día en sus intercambios y reciba notificaciones en su celular.
-  p2MobileNotifications: <p class="small mt-2">La versión de Bisq <strong>0.8.0</strong> o superior se requiere para recibir notificaciones de celular.</p>
 
 faq:
   hFAQ: FAQ

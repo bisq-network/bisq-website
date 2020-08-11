@@ -204,7 +204,6 @@ downloads:
   pSeeInstructions: "<p class=\"small\">See our <a href=\"/getting-started\"> Getting Started </a> page to see how to quickly complete your first trade.</p>"
   hMobileNotifications: Bisq Mobile Notifications
   pMobileNotifications: Stay up-to-date on your trades and receive notifications on your mobile phone.
-  p2MobileNotifications: <p class="small mt-2">Bisq version <strong>0.8.0</strong> or higher is required to receive mobile notifications.</p>
 
 faq:
   hFAQ: FAQ

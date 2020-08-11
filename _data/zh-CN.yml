@@ -204,7 +204,6 @@ downloads:
   pSeeInstructions: "<p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 Bisq</a>。</p>"
   hMobileNotifications: Bisq 通知应用程序
   pMobileNotifications: 保持最新的交易和接收通知在您的手机上。
-  p2MobileNotifications: <p class="small mt-2">接收手机通知需要Bisq <strong>0.8.0</strong>或更高版本。</p>
 
 faq:
   hFAQ: FAQ

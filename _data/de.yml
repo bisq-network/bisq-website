@@ -204,7 +204,6 @@ downloads:
   pSeeInstructions: "<p class=\"small\">Lesen Sie <a href=\"/getting-started\">Erste Schritte mit Bisq</a> für Anweisungen, wie Sie Ihren ersten Handel abschließen können."
   hMobileNotifications: Bisq Handy-Benachrichtigungen
   pMobileNotifications: Halten Sie sich über Ihre Trades auf dem Laufenden und erhalten Sie Benachrichtigungen auf Ihrem Handy.
-  p2MobileNotifications: <p class="small mt-2">Für den Empfang von Handy-Benachrichtigungen ist die Bisq Version <strong>0.8.0</strong> oder höher erforderlich.</p>
 
 faq:
   hFAQ: FAQ

@@ -984,8 +984,9 @@ getting started page
 *****************/
 
 #getting-started .admonition {
-    padding: 25px;
-    margin: 40px auto;
+    padding: 40px;
+    margin: 40px 0 80px 0;
+    max-width: 800px;
 }
 
 #getting-started .admonition.grey {
@@ -1005,12 +1006,14 @@ getting started page
     padding: 0 25px;
 }
 
-#getting-started .start-step-container .final-notes {
-    padding: 0 25px;
+#getting-started .start-step-container .final-notes h1 {
+    font-weight: 100;
+    max-width: 810px;
+    padding: 3rem 0;
 }
 
-#getting-started .start-step-container .final-notes h3.separator {
-    color: #bdc3c7;
+#getting-started .start-step-container .final-notes h3 ul {
+    list-style: circle;
 }
 
 #getting-started .start-step-container .start-step {
@@ -1020,10 +1023,14 @@ getting started page
 }
 
 #getting-started .start-step-container .start-step .step-text {
-    width: 60%;
+    width: 50%;
     float: left;
     padding-right: 50px;
     padding-left: 40px;
+}
+
+#getting-started .start-step-container .start-step .step-text h2 {
+    padding-bottom: 0.5em;
 }
 
 #getting-started .start-step-container .start-step .step-text h2 .step-number {

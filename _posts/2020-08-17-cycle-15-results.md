@@ -18,10 +18,18 @@ This post summarizes the results of Cycle 15 of the Bisq DAO.
   * 4 reimbursement proposals
   * 25 compensation requests
 * 368 votes cast
-* 95,708.01 BSQ issued for compensation (169,784.38 BSQ was issued in total, of which 46,142.70 was for reimbursing [an arbitrator](https://bisq.wiki/Arbitrator) and 27,933.67 was for a user-initiated reimbursement)
+* 61,566.31 BSQ issued for compensation (169,784.38 BSQ was issued in total, of which 80,284.40 was for reimbursing [an arbitrator](https://bisq.wiki/Arbitrator) and 27,933.67 was for a user-initiated reimbursement)
 * 7,962.94 BSQ was burned through fees (72,062.94 BSQ was burned in total, of which 64,000 was from proof-of-burn transactions that consisted of BTC trading fees and deposits from arbitrated trades)
 
 Please note that the proof-of-burn transactions and arbitrator reimbursements do not map neatly to DAO cycles, meaning that some of the funds involved with these issuances (and burns) are from previous cycles.
+
+Compensation by function:
+
+**Dev**|**Growth**|**Ops**|**Support**|**Admin**|**Total BSQ**
+-----|-----|-----|-----|-----|-----|-----
+28,737|7,351|13,167|12,002|307|61,566
+
+See more details by browsing the [compensation requests on GitHub](https://github.com/bisq-network/compensation/milestone/6?closed=1).
 
 ### Proposal Details
 

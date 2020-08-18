@@ -1,29 +1,14 @@
 main_nav:
-  liDownloads: 下载
-  liLearnMore: 了解更多
-  liDocumentation: 文档
-  liBlog: 博客
-  liCommunity: 社区
-  buttonDownloads: 下载
-  links:
-    - title: 快速入门
-      url: /getting-started/
-    - title: Bisq DAO
-      url: /zh-CN/dao/
-    - title: 统计数据
-      url: /zh-CN/stats/
-    - title: FAQ
-      url: /zh-CN/faq/
-    - title: 市场
-      url: /zh-CN/markets/
-  mobile_links:
-    - title: 社区
-      url: /zh-CN/community/
-    - title: 博客
-      url: /blog/
-    - title: 文档
-      url: https://docs.bisq.network/
-      target: _blank
+  downloads: 下载
+  learnMore: 了解更多
+  documentation: 文档
+  blog: 博客
+  community: 社区
+  gettingStarted: 快速入门
+  bisqDAO: Bisq DAO
+  statistics: 统计数据
+  faq: FAQ
+  markets: 市场
 
 footer:
   notificationApp: Bisq 通知应用程序

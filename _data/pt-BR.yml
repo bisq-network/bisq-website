@@ -1,29 +1,14 @@
 main_nav:
-  liDownloads: Downloads
-  liLearnMore: Saiba Mais
-  liDocumentation: Documentação
-  liBlog: Blog
-  liCommunity: Comunidade
-  buttonDownloads: Downloads
-  links:
-    - title: Começando
-      url: /getting-started/
-    - title: A DAO Bisq
-      url: /pt-BR/dao/
-    - title: Estatísticas
-      url: /pt-BR/stats/
-    - title: FAQ
-      url: /pt-BR/faq/
-    - title: Mercados
-      url: /pt-BR/markets/
-  mobile_links:
-    - title: Comunidade
-      url: /pt-BR/community/
-    - title: Blog
-      url: /blog/
-    - title: Documentation
-      url: https://docs.bisq.network/
-      target: _blank
+  downloads: Downloads
+  learnMore: Saiba Mais
+  documentation: Documentação
+  blog: Blog
+  community: Comunidade
+  gettingStarted: Começando
+  bisqDAO: A DAO Bisq
+  statistics: Estatísticas
+  faq: FAQ
+  markets: Mercados
 
 footer:
   notificationApp: App de notificações da Bisq

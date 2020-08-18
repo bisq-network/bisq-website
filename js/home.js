@@ -1,6 +1,5 @@
 $( document ).ready( function() {
 
-
     /**************************************************
     detect os to show correct download links
     **************************************************/
@@ -55,10 +54,6 @@ $( document ).ready( function() {
         }
     });
 
-    $( '.dl-win64, .dl-mac, .dl-deb64, .dl-rpm64' ).on( 'click', function() {
-        sendAnalytic( $(this).attr('class').split('-').pop().split(" ").shift() );
-    });
-
     //change dom to show downloads for the specific os
     function showOSDownloads( os ) {
         $( '.dl-' + os ).addClass( 'selected' );
@@ -72,20 +67,15 @@ $( document ).ready( function() {
             downloadLink = downloadLink.replace( /<site_url_placeholder>/g, siteURL );
         } else {
             downloadLink = downloadLink.replace( /<bisq_version_placeholder>/g, bisqVersion );
-            sendAnalytic( osName );
         }
         location.href = downloadLink;
         return;
     }
 
-    //add virtual pageview and event tracking for download attempts
-    function sendAnalytic( platform ) {
-        ga( 'send', 'pageview', location.pathname + 'release' );
-        ga( 'send', 'event', 'Release Build', 'download', platform );
-        return;
-    }
+    /**************************************************
+    hover actions for the "how to get started" section
+    **************************************************/
 
-    //How to get started
     $('.step').on({
         mouseenter: function () {
             $('.step').css('opacity', 0.5),
@@ -95,66 +85,4 @@ $( document ).ready( function() {
         },
         mouseout: function () {}
     });
-
-
-    //FAQ Accordion
-    $('.accordion').each(function() {
-
-        $(this).find('.accordion-toggle').click(function(event) {
-            event.preventDefault();
-
-            $(".accordion-toggle").not($(this)).removeClass('accordion-toggle-active');
-
-            if($(this).hasClass('accordion-toggle-active')){
-                $(this).removeClass('accordion-toggle-active');
-            }else{
-                $(this).addClass('accordion-toggle-active');
-            }
-
-            $(this).next().slideToggle('fast');
-            $(".accordion-content").not($(this).next()).slideUp('fast');
-
-            if($(this).attr('id') !== undefined) {
-                //add hash to url
-                if(history.pushState) {
-                    history.pushState(null, null, '#' + $(this).attr('id'));
-                } else {
-                    location.hash = '#' + $(this).attr('id');
-                }
-            }
-        });
-    });
-
-    if( window.location.hash ) {
-        showAccordionItem();
-    }
-
-    $( ".accordion-content a" ).on( "click", function() {
-        var address = $(this).attr('href');
-        if( address.charAt(0) === '#' ) {
-            showAccordionItem( address );
-        };
-        return;
-    });
-
-    function showAccordionItem( anchorAddress ) {
-
-        var address = anchorAddress ? anchorAddress : window.location.hash;
-
-        $("html, body").animate( {
-            scrollTop: ( $( address ).offset().top - 100 )
-        }, 1000 );
-
-        $( address ).addClass( 'accordion-toggle-active' ).next().slideToggle( 'fast' );
-
-        return;
-    }
-
-
-    $( ".mode-toggle" ).on( "click", function() {
-      $("body").toggleClass("dark-mode");
-      $("body").hasClass("dark-mode") ? Cookies.set("darkmode", 1) : Cookies.set("darkmode", 0);
-      return;
-    });
-
 });

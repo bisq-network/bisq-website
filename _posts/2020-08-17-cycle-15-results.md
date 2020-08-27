@@ -26,7 +26,7 @@ Please note that the proof-of-burn transactions and arbitrator reimbursements do
 Compensation by function:
 
 **Dev**|**Growth**|**Ops**|**Support**|**Admin**|**Total BSQ**
------|-----|-----|-----|-----|-----|-----
+-----|-----|-----|-----|-----|-----
 28,737|7,351|13,167|12,002|307|61,566
 
 See more details by browsing the [compensation requests on GitHub](https://github.com/bisq-network/compensation/milestone/6?closed=1).

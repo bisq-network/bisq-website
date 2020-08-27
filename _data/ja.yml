@@ -118,7 +118,7 @@ dao_page_text:
   howText: "<div class=\"subtitle pt-4\"> 収益分配 </div>\n<div class=\"small\"> <p> トレード手数料からの収益を貢献者に分配するために、BisqはBSQ（ビットコインベースのカラードコイン）を使用します。利害関係者が投票を通じて報酬要求を承認すると、貢献者へ新しいBSQが発行されます。トレーダーがそれを使用して取引手数料を支払うと、BSQは「無色」になります。</p> <p>BSQを収集または作成する中央エンティティはありません。Bisqの利害関係者が発行プロセスをまとめて担当しています。</p> <p class=\"disclaimer\">これはICOではありません。 資本調達のためのBSQは販売されていません。</p> </div>\n\n<div class=\"subtitle pt-3\"> 意思決定 </div>\n<div class=\"small\"> <p> CEOや中央のリーダーシップチームは存在せず、Bisqの利害関係者（トレーダーと貢献者）がBisqの所有者となります。</p> <p>（投票による）社会的コンセンサスを通じて、彼らがBisqのプロジェクト戦略を決定します。</p>\n</div>"
   howLinkText: DAOについてもっと知る
   benefitsTitle: "利点"
-  benefitsText: "<div class=\"subtitle\">トレーダー：Bisqを持続可能なものにする</div> <ul class=\"small pb-5\"> <li>貢献者からBSQを購入することにより、Bisqが一貫した専門的な開発とサポートを提供できるようにする</li> <li>Bisqを検閲耐性のある、ビットコインと法定通貨、およびビットコインと暗号通貨のマーケットプレイスにする</li> <li>BSQを使用してトレード手数料を支払う場合、割引を享受できます</li> <li>必要に応じてプレーンのBTCでトレード手数料を支払うこともできます</li>  <div class=\"subtitle\">貢献者：BSQを獲得</div> <ul class=\"small pb-5\"> <li>価値ある仕事を行い、報酬を請求し、BSQを獲得</li>　<li>BTCの為にBisqでBSQを売却</li> <li>他の貢献者の補償請求に投票</li> <li>最先端の文化を備えた最先端のテクノロジーでの取り組み。Bisqの協力には許可が必要なく、非階層的で流動的です</li> </ul>"
+  benefitsText: "<div class=\"subtitle\">トレーダー：Bisqを持続可能なものにする</div> <ul class=\"small pb-5\"> <li>貢献者からBSQを購入することにより、Bisqが一貫した専門的な開発とサポートを提供できるようにする</li> <li>Bisqを検閲耐性のある、ビットコインと法定通貨、およびビットコインと暗号通貨のマーケットプレイスにする</li> <li>BSQを使用してトレード手数料を支払う場合、割引を享受できます</li> <li>必要に応じてプレーンのBTCでトレード手数料を支払うこともできます</li></ul>  <div class=\"subtitle\">貢献者：BSQを獲得</div> <ul class=\"small pb-5\"> <li>価値ある仕事を行い、報酬を請求し、BSQを獲得</li><li>BTCの為にBisqでBSQを売却</li><li>他の貢献者の補償請求に投票</li> <li>最先端の文化を備えた最先端のテクノロジーでの取り組み。Bisqの協力には許可が必要なく、非階層的で流動的です</li> </ul>"
   benefitsLinkText: DAOについてもっと知る
 
 dao_images:

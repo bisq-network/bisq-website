@@ -48,8 +48,6 @@ homepage_content:
   pSafe: "Bisq 从来不持有你的资金。安全存款和多重团体交易钱包鼓励安全、成功的交易。"
   hPrivate: 隐私
   pPrivate: 除了贸易伙伴，没有人交换个人身份数据。所有个人资料均储存于本地。
-  hSecure: 全天在线以及安全
-  pSecure: 点对点加密通信路由到 Tor，没有停机时间。
   hOpen: 开放
   pOpen: "<p class=\"grey px-md-5\">代码是<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">开源</a>的，项目策略在<a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a>和<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>上公开讨论。"
   hEasy: 便利
@@ -164,7 +162,6 @@ downloads:
   pSeeInstructions: "<p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 Bisq</a>。</p>"
   hMobileNotifications: Bisq 通知应用程序
   pMobileNotifications: 保持最新的交易和接收通知在您的手机上。
-  p2MobileNotifications: <p class="small mt-2">接收手机通知需要Bisq <strong>0.8.0</strong>或更高版本。</p>
 
 faq:
   hFAQ: FAQ
@@ -244,8 +241,6 @@ faq:
   hOpenOffer: "当我有一个未完成的报价为什么需要我的应用程序保持在线？"
   pOpenOffer: >-
     <p>如果您已经发布了一个报价，那么您的 Bisq 应用程序需要保持在线状态，以便当其他交易员想要接收您的报价时，它可以做出反应（多重签名保证金交易是在接收报价过程中创建的）。确保您已经停用了计算机的待机模式，以便您的 Bisq 应用程序可以在线（显示器待机不会有问题）。</p><p>如果您的 Bisq 应用程序离线，您的报价将从分布式报价列表中删除。它将在您下次启动 Bisq 应用程序时重新发布。</p><p>在收到报价并开始交易流程后，两名交易员都不需要一直在线，但每名交易员都需要定期在线，以检查他们是否需要采取任何行动（例如发送法币/数字货币、确认收到付款等）。</p>
-  hEditOffer: "我怎么修改我的报价？"
-  pEditOffer: "<p><a href=\"https://github.com/bisq-network/bisq/releases/tag/v0.7.0\">0.7.0 版本</a>在 交易 > 我的未完成报价部分引入了报价编辑功能，无需支付额外费用。</p>"
   hBank: "银行会知道我在购买比特币吗？"
   pBank: >
     <p>有报道称，一些银行在观察到有比特币活动时，就关闭了客户账户。</p><p>用于与 Bisq 进行交易的银行转账的参考文本（有时称为“付款原因”或类似的文本）必须始终<span class='font-italic'>只能</span>包含 Bisq 交易 ID ，这是一个随机的字符序列，就像许多其他付款 ID 一样。把其他任何东西作为“付款理由”都被认为违反了交易协议，并将导致纠纷。</p><p>为了避免出现问题，我们建议设立一个专门的银行账户来买卖比特币。如果银行冻结了你的账户，你所遇到的问题会比银行冻结你的主要账户要少一些。</p><p>参考文本（付款理由）中除了 Bisq 交易 ID 外，不要提及任何其他内容。</p>

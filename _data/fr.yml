@@ -48,8 +48,6 @@ homepage_content:
   pSafe: "Bisq ne détient jamais vos fonds. Les dépôts de garantie et les portefeuilles multisig favorisent des transactions sûres et réussies."
   hPrivate: Privé
   pPrivate: Personne d'autre que les partenaires de trading ne peuvent communiquer vos données personnelles. Toutes les données sont stockées localement.
-  hSecure: Sécurisé et toujours disponible
-  pSecure: Communication cryptée de bout en bout sur Tor et sans down time.
   hOpen: Ouvrir
   pOpen: "<p class=\"grey px-md-5\">Le code est <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, et la stratégie du projet est discutée ouvertement sur <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> et <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Facile à utiliser
@@ -164,7 +162,6 @@ downloads:
   pSeeInstructions: "<p class=\"small\">Voir <a href=\"/getting-started\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
   hMobileNotifications: Notifications Bisq sur téléphone portable
   pMobileNotifications: Restez au fait de l'évolution de vos transactions et recevez des notifications sur votre téléphone portable.
-  p2MobileNotifications: <p class="small mt-2">Une version de Bisq <strong>0.8.0</strong> ou plus est nécessaire pour recevoir des notifications sur portable.</p>
 
 faq:
   hFAQ: FAQ
@@ -266,8 +263,6 @@ faq:
   hOpenOffer: "Pourquoi dois-je garder le programme connecté lorsque j'ai une offre en cours?"
   pOpenOffer: >
     <p>Si vous avez publié une offre, votre application Bisq doit rester en ligne pour pouvoir réagir quand un autre trader voudra accepter votre offre (la transaction de dépôt multisig est créée lors du processus de take-offer). Assurez-vous d'avoir désactivé le mode veille de votre ordinateur pour que votre application Bisq puisse rester en ligne (la veille du moniteur n'est pas un problème).</p> <p>Si votre application Bisq est offline, votre offre sera retirée de l'offerbook. Elle sera republiée la prochaine fois que vous lancerez votre application Bisq.</p> <p>Après qu'une offre a été acceptée et que le processus de transaction a commencé, aucun des deux trader n'a besoin d'être en ligne en permanence, mais chaque trader devra être en ligne périodiquement pour vérifier si une action est nécessaire de leur côté (par exemple, l'envoi de fiat/altcoin, la confirmation de réception du paiement, etc).</p>
-  hEditOffer: "Comment puis-je modifier mon offre?"
-  pEditOffer: "<p><a href=\"https://github.com/bisq-network/bisq/releases/tag/v0.7.0\">La version 0.7.0</a> intègre la possibilité de modifier une offre dans le Portfolio > Aller dans la section Mes offres en cours sans payer de frais supplémentaires.</p>"
   hBank: "Est-ce que ma banque saura que j'achète des bitcoins?"
   pBank: >
     <p>Il a été rapporté que certaines banques ont fermé des comptes clients lorsqu'elles détecte une activité en relation avec Bitcoin.</p> <p>Le texte de référence (parfois appelé "motif du paiement" ou équivalent) du virement bancaire utilisé pour trader avec Bisq doit toujours <span class='font-italic'>exclusivement</span> contenir l'ID de la transaction Bisq, qui est une séquence aléatoire de caractères, comme cela est le cas pour beaucoup d'autres référence d'achat. Toute autre raison de paiement est considérée comme une violation du protocole de transaction et donnera lieu à un différend.</p> <p>Pour éviter les problèmes, nous vous recommandons de créer un compte bancaire dédié à l'achat et à la vente de bitcoins. Si la banque bloquait ce compte, cela vous causerait moins de problèmes que si elle bloquait votre compte principal.</p> <p>Ne mentionnez jamais rien d'autre que l'ID de la transaction Bisq dans le champ relatif à l'objet.</p>

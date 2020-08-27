@@ -9,20 +9,21 @@ layout: page
   <h1>{{ item.hFAQ }}</h1>
   <h4 class="mt-5 pb-3">{{ item.hCoreFunctions }}</h4>
   <div class="accordion border-bottom mb-5">
-    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="safe-open-source" itemprop="name">{{ item.hSafeOpenSource }}</h6>
-      <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <div itemprop="text">
-        {{ item.pSafeOpenSource }}
-        </div>
-      </div>
-    </div>
-
+    
     <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
     <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="how-bisq-different" itemprop="name">{{ item.hDifferent }}</h6>
       <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
         <div itemprop="text">
         {{ item.pDifferent }}
+        </div>
+      </div>
+    </div>
+
+    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="safe-open-source" itemprop="name">{{ item.hSafeOpenSource }}</h6>
+      <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+        <div itemprop="text">
+        {{ item.pSafeOpenSource }}
         </div>
       </div>
     </div>
@@ -90,15 +91,6 @@ layout: page
       <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
         <div itemprop="text">
         {{ item.pOpenOffer }}
-        </div>
-      </div>
-    </div>
-
-    <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h6 class="accordion-toggle border-top pt-3 pb-2 green" id="edit-offer" itemprop="name">{{ item.hEditOffer }}</h6>
-      <div class="accordion-content pb-5 col-sm-12 col-md-8 ml-0 pl-sm-0 pl-md-0 px-0" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-        <div itemprop="text">
-        {{ item.pEditOffer }}
         </div>
       </div>
     </div>

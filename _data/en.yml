@@ -331,7 +331,7 @@ faq:
   hUseBSQ: "Can I use Bisq without BSQ and without this DAO?"
   pUseBSQ: >
     <p>You could. All you'd have to do is pay your trading fees with BTC instead of BSQ. But we hope you don't, because doing so would render the project unsustainable.</p> <p>Before the Bisq DAO, trading fees went to just a couple of wallets owned by specific Bisq contributors (arbitrators). All other contributors were not paid. Bisq needs its contributors to be paid in regular, predictable ways to ensure continual (and reliable) development, service, and growth; the Bisq DAO enables this to happen by distributing trading fees to all contributors in a totally decentralized way.</p> <p>The Bisq DAO and BSQ token enable a funding and governance mechanism that is <a href='https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/'>not possible with plain bitcoin</a>. We highly recommend you check <a href='https://docs.bisq.network/dao.html' target='_blank'>our documentation</a> and <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>video series</a> to learn more.</p>
-  hBisqToken: "Is Bisq doing a token because it needs money? What's the issuance schedule for the token?"
+  hBisqToken: "Is Bisq using a token because it needs money? What's the issuance schedule for the token?"
   pBisqToken: >
     <p>Bisq already earns revenue from trading fees. It's not launching this DAO and BSQ token for <span class='font-italic'>earning</span> revenue—it's doing it to <span class='font-italic'>distribute</span> the revenue it already earns to more people without any central points of control.</p> <p>BSQ tokens are issued every time a contributor's compensation request is approved through voting, and the tokens are destroyed every time a trader uses BSQ to pay trading fees.</p> <p>BSQ issuance is not a 1-time event, and its purpose is not to raise capital. You can see a walk-through of the BSQ issuance process in <a href='https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e' target='_blank'>this video series</a>.</p>
   hMiscellaneous: Miscellaneous
@@ -348,7 +348,7 @@ faq:
   hSoftwareBugs: "What happens in case of software bugs?"
   pSoftwareBugs: >
     <p>If you encounter a bug during a trade, try <a href="https://bisq.wiki/Dispute_resolution#Level_2:_Mediation" target="_blank">opening a dispute with a mediator</a>. If that isn't possible, you can reach out in the <a href="https://keybase.io/team/bisq" target="_blank">#support channel on Keybase</a>.
-  hMultisg: "What is a Bitcoin multisignature address?"
+  hMultisg: "What is a multisignature address?"
   pMultisig: >
     <p>"<a href="https://en.bitcoin.it/wiki/Multisignature" target="_blank">Multisig</a>", as it's called, is built into Bitcoin as a simple version of a smart contract. A multisig address is generated with multiple public keys and a specification of how many of those keys must sign to release funds.</p> <p>Bisq uses 2-of-2 multisig addresses. This means two public keys are used to create the payment address (those of both traders), and any transactions from the address must be signed by both parties (e.g, for trading funds to be released).</p> <p>In case of a dispute, mediators and/or arbitrators examine the situation and suggest payouts both traders can approve. See <a href="https://bisq.wiki/Dispute_resolution" target="_blank">this wiki article</a> for more on how Bisq handles disputes.</p>
   hOtherQuestions: "I have a question that isn’t covered here…?"

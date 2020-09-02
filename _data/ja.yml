@@ -16,6 +16,7 @@ footer:
   ulResources: リソース
   liDownloads: ダウンロード
   liRoadmap: ロードマップ
+  liBenefactors: Benefactors # see https://bisq.network/benefactors for context
   liContribute: 貢献
   liMarketData: 市場データAPI
   joinBisq: Bisqに参加

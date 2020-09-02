@@ -16,6 +16,7 @@ footer:
   ulResources: Recursos
   liDownloads: Downloads
   liRoadmap: Plano
+  liBenefactors: Benefactors # see https://bisq.network/benefactors for context
   liContribute: Contribuir
   liMarketData: API de dados de mercado
   joinBisq: Junte-se à Bisq

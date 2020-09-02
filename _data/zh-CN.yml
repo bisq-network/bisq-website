@@ -1,14 +1,14 @@
 main_nav:
-  downloads: 下载
-  learnMore: 了解更多
-  documentation: 文档
-  blog: 博客
-  community: 社区
-  gettingStarted: 快速入门
-  bisqDAO: Bisq DAO
-  statistics: 统计数据
-  faq: FAQ
-  markets: 市场
+  downloads: 下载 # main nav link: please be as short as possible
+  learnMore: 了解更多 # main nav link: please be as short as possible
+  documentation: 文档 # 14 characters max
+  blog: 博客 # 14 characters max
+  community: 社区 # 14 characters max
+  gettingStarted: 快速入门 # main nav link: please be as short as possible
+  bisqDAO: Bisq DAO # main nav link: please be as short as possible
+  statistics: 统计数据 # main nav link: please be as short as possible
+  faq: FAQ # main nav link: please be as short as possible
+  markets: 市场 # main nav link: please be as short as possible
 
 footer:
   notificationApp: Bisq 通知应用程序
@@ -31,9 +31,9 @@ homepage_content:
   buttonGetBisq: 下载 Bisq
   buttonToggle: 切换下拉单
   downloads: 下载
-  androidNotificationsApp: 下载 Android 通知应用程序
-  iosNotificationApp: 下载 iOS 通知应用程序
-  getStarted: 现在开始
+  androidNotificationsApp: 下载 Android 通知应用程序 # 26 characters max
+  iosNotificationApp: 下载 iOS 通知应用程序 # 26 characters max
+  getStarted: 现在开始 # 16 characters max
   runningWindows: 你似乎在使用 Windows
   runningMac: 你似乎在使用 Mac
   runningDebian: 你似乎在使用 Debian/Ubuntu
@@ -75,7 +75,7 @@ homepage_content:
 
 os_selector_options:
   liAllDownloads: 所有下载
-  liAllDownloadsText: 前往下载页面
+  liAllDownloadsText: 前往下载页面 # 28 characters max
   liWindows: 下载 Windows 版
   liMac: 下载 Mac 版
   liDebian: 下载 Debian/Ubuntu 版
@@ -85,8 +85,8 @@ os_selector_options:
   liSourceCode: 源代码
   liReleaseNotes: 更新日志
   liVerification: 验证
-  liVerificationText1: PGP 签名
-  liVerificationText2: PGP 公钥
+  liVerificationText1: PGP 签名 # 15 characters max
+  liVerificationText2: PGP 公钥 # 15 characters max
 
 dao_page_text:
   introTitle: "Bisq DAO"

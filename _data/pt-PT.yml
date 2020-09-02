@@ -1,14 +1,14 @@
 main_nav:
-  downloads: Downloads
-  learnMore: Aprender Mais
-  documentation: Documentation
-  blog: Blog
-  community: Comunidade
-  gettingStarted: Começar
-  bisqDAO: OAD do Bisq
-  statistics: Estatísticas
-  faq: FAQ
-  markets: Mercados
+  downloads: Downloads # main nav link: please be as short as possible
+  learnMore: Aprender Mais # main nav link: please be as short as possible
+  documentation: Documentation # 14 characters max
+  blog: Blog # 14 characters max
+  community: Comunidade # 14 characters max
+  gettingStarted: Começar # main nav link: please be as short as possible
+  bisqDAO: OAD do Bisq # main nav link: please be as short as possible
+  statistics: Estatísticas # main nav link: please be as short as possible
+  faq: FAQ # main nav link: please be as short as possible
+  markets: Mercados # main nav link: please be as short as possible
 
 footer:
   notificationApp: App de notificação móvel do Bisq
@@ -31,9 +31,9 @@ homepage_content:
   buttonGetBisq: Baixar Bisq
   buttonToggle: Toggle Dropdown
   downloads: Downloads
-  androidNotificationsApp: App de Notificação Android
-  iosNotificationApp: App de Notificação iOS
-  getStarted: Começar
+  androidNotificationsApp: App de Notificação Android # 26 characters max
+  iosNotificationApp: App de Notificação iOS # 26 characters max
+  getStarted: Começar # 16 characters max
   runningWindows: Você parece estar a utilizar Windows
   runningMac: Você parece estar a utilizar Mac
   runningDebian: Você parece estar a utilizar Debian/Ubuntu
@@ -75,7 +75,7 @@ homepage_content:
 
 os_selector_options:
   liAllDownloads: Todos os Downloads
-  liAllDownloadsText: Página de Downloads
+  liAllDownloadsText: Página de Downloads # 28 characters max
   liWindows: Download para Windows
   liMac: Download para Mac
   liDebian: Download para Debian/Ubuntu
@@ -85,8 +85,8 @@ os_selector_options:
   liSourceCode: Source Code
   liReleaseNotes: Release Notes
   liVerification: Verificação
-  liVerificationText1: Assinatura PGP
-  liVerificationText2: Chave Pública PGP
+  liVerificationText1: Assinatura PGP # 15 characters max
+  liVerificationText2: Chave Pública PGP # 15 characters max
 
 dao_page_text:
   introTitle: "A OAD do Bisq"

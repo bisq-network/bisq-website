@@ -1,14 +1,14 @@
 main_nav:
-  downloads: Downloads
-  learnMore: Mehr erfahren
-  documentation: Dokumentation
-  blog: Blog
-  community: Community
-  gettingStarted: Erste Schritte
-  bisqDAO: Bisq DAO
-  statistics: Statistiken
-  faq: FAQ
-  markets: Märkte
+  downloads: Downloads # main nav link: please be as short as possible
+  learnMore: Mehr erfahren # main nav link: please be as short as possible
+  documentation: Dokumentation # 14 characters max
+  blog: Blog # 14 characters max
+  community: Community # 14 characters max
+  gettingStarted: Erste Schritte # main nav link: please be as short as possible
+  bisqDAO: Bisq DAO # main nav link: please be as short as possible
+  statistics: Statistiken # main nav link: please be as short as possible
+  faq: FAQ # main nav link: please be as short as possible
+  markets: Märkte # main nav link: please be as short as possible
 
 footer:
   notificationApp: Bisq Mobile Benachrichtigungs-App
@@ -31,9 +31,9 @@ homepage_content:
   buttonGetBisq: Bisq erhalten
   buttonToggle: Dropdown-Menü umschalten
   downloads: Downloads
-  androidNotificationsApp: Benachrichtigungs-App Android
-  iosNotificationApp: Benachrichtigungs-App iOS
-  getStarted: Erste Schritte
+  androidNotificationsApp: Benachrichtigungs-App Android # 26 characters max
+  iosNotificationApp: Benachrichtigungs-App iOS # 26 characters max
+  getStarted: Erste Schritte # 16 characters max
   runningWindows: Sie scheinen Windows zu benutzen
   runningMac: Sie scheinen einen Mac zu benutzen
   runningDebian: Sie scheinen Debian/Ubuntu zu benutzen
@@ -75,7 +75,7 @@ homepage_content:
 
 os_selector_options:
   liAllDownloads: Alle Downloads
-  liAllDownloadsText: Zur Downloads Seite
+  liAllDownloadsText: Zur Downloads Seite # 28 characters max
   liWindows: Download für Windows
   liMac: Download für Mac
   liDebian: Download für Debian/Ubuntu
@@ -85,8 +85,8 @@ os_selector_options:
   liSourceCode: Quellcode
   liReleaseNotes: Versionshinweise
   liVerification: Verifizierung
-  liVerificationText1: PGP Signaturen
-  liVerificationText2: PGP Public Key
+  liVerificationText1: PGP Signaturen # 15 characters max
+  liVerificationText2: PGP Public Key # 15 characters max
 
 dao_page_text:
   introTitle: "Die Bisq DAO"

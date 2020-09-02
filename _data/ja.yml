@@ -1,14 +1,14 @@
 main_nav:
-  downloads: ダウンロード
-  learnMore: もっと知る
-  documentation: ドキュメント
-  blog: ブログ
-  community: コミュニティ
-  gettingStarted: 始めに
-  bisqDAO: Bisq DAO
-  statistics: 統計
-  faq: FAQ
-  markets: 市場
+  downloads: ダウンロード # main nav link: please be as short as possible
+  learnMore: もっと知る # main nav link: please be as short as possible
+  documentation: ドキュメント # 14 characters max
+  blog: ブログ # 14 characters max
+  community: コミュニティ # 14 characters max
+  gettingStarted: 始めに # main nav link: please be as short as possible
+  bisqDAO: Bisq DAO # main nav link: please be as short as possible
+  statistics: 統計 # main nav link: please be as short as possible
+  faq: FAQ # main nav link: please be as short as possible
+  markets: 市場 # main nav link: please be as short as possible
 
 footer:
   notificationApp: Bisqモバイル通知アプリ
@@ -31,9 +31,9 @@ homepage_content:
   buttonGetBisq: Bisqを入手
   buttonToggle: ドロップダウンを切り替えてください
   downloads: ダウンロード
-  androidNotificationsApp: Android通知アプリを入手
-  iosNotificationApp: iOS通知アプリを入手
-  getStarted: 始める
+  androidNotificationsApp: Android通知アプリを入手 # 26 characters max
+  iosNotificationApp: iOS通知アプリを入手 # 26 characters max
+  getStarted: 始める # 16 characters max
   runningWindows: Windowsを実行しているようです。
   runningMac: Macを実行しているようです。
   runningDebian: Debian/Ubuntuを実行しているようです。
@@ -75,7 +75,7 @@ homepage_content:
 
 os_selector_options:
   liAllDownloads: 全てのダウンロード
-  liAllDownloadsText: ダウンロードページヘ行く
+  liAllDownloadsText: ダウンロードページヘ行く # 28 characters max
   liWindows: ダウンロード for Windows
   liMac: ダウンロード for Mac
   liDebian: ダウンロード for Debian/Ubuntu
@@ -85,8 +85,8 @@ os_selector_options:
   liSourceCode: ソースコード
   liReleaseNotes: リリースノート
   liVerification: 検証
-  liVerificationText1: PGP署名
-  liVerificationText2: PGPパブリックキー
+  liVerificationText1: PGP署名 # 15 characters max
+  liVerificationText2: PGPパブリックキー # 15 characters max
 
 dao_page_text:
   introTitle: "Bisq DAO"

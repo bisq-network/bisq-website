@@ -614,7 +614,14 @@ nav .mobile-language-selector button {
 }
 
 .homepage-hero {
-  margin-top: 10vh
+  margin-top: 10vh;
+}
+
+h2#community::before {
+    content: "";
+    display: block;
+    height: 100px; /* fixed header height*/
+    margin: -100px 0 0; /* negative fixed header height */
 }
 
 #video-overlay {

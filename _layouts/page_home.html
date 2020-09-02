@@ -264,13 +264,21 @@ layout: default
 
       <div class="col-12 col-md-6">
         <ul class="community-links grey community-home pl-0 pl-md-4 pt-4 pl-md-0 pt-md-0">
-          <li><img src="/images/community/github.svg" alt="GitHub repository" loading="lazy"> <a href="https://github.com/bisq-network">{{ item.liGithub }}</a></li>
-          <li><img src="/images/community/keybase.svg" alt="Keybase team" loading="lazy"> <a href="https://keybase.io/team/bisq">{{ item.liKeybase }}</a></li>
-          <li><img src="/images/community/twitter.svg" alt="Twitter profile" loading="lazy"> <a href="https://twitter.com/bisq_network">{{ item.liTwitter }}</a></li>
-          <li><img src="/images/community/youtube.svg" alt="YouTube account" loading="lazy"> <a href="https://www.youtube.com/c/bisq-network">{{ item.liYoutube }}</a></li>
+          <li><img src="/images/community/github.svg" alt="GitHub repository" loading="lazy"> <a href="https://github.com/bisq-network">GitHub</a></li>
+          <li><img src="/images/community/keybase.svg" alt="Keybase team" loading="lazy"> <a href="https://keybase.io/team/bisq">Keybase</a></li>
+          <li><img src="/images/community/twitter.svg" alt="Twitter profile" loading="lazy"> <a href="https://twitter.com/bisq_network">Twitter</a></li>
+          <li><img src="/images/community/youtube.svg" alt="YouTube account" loading="lazy"> <a href="https://www.youtube.com/c/bisq-network">YouTube</a></li>
           <li><img src="/images/community/forum.svg" alt="Forum" loading="lazy"> <a href="https://bisq.community">{{ item.liForum }}</a></li>
-          <li><img src="/images/community/irc.svg" alt="IRC channel" loading="lazy"> <a href="https://webchat.freenode.net/?channels=bisq">{{ item.liFreenodeIRC }}</a></li>
-          <li><img src="/images/community/reddit.svg" alt="Bisq subreddit" loading="lazy"> <a href="https://www.reddit.com/r/bisq">{{ item.liSubreddit }}</a></li>
+          <li><img src="/images/community/irc.svg" alt="IRC channel" loading="lazy"> <a href="https://webchat.freenode.net/?channels=bisq">Freenode IRC</a></li>
+          <li><img src="/images/community/reddit.svg" alt="Bisq subreddit" loading="lazy"> <a href="https://www.reddit.com/r/bisq">Reddit</a></li>
+          <li><img src="/images/community/matrix.svg" alt="matrix" loading="lazy"> <a href="https://matrix.to/#/#freenode_#bisq:matrix.org">Matrix</a></li>
+          {% for language in site.data.languages %}
+            {% if language.tag == page.lang %}
+              {% assign current_lang = language %}
+            {% break %}
+            {% endif %}
+          {% endfor %}
+          <li><img src="/images/community/telegram.svg" alt="telegram" loading="lazy"> <a href="{{ current_lang.telegram_link }}">Telegram</a></li>
         </ul>
       </div>
 

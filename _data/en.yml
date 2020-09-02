@@ -64,14 +64,7 @@ homepage_content:
   hJoin: Join the Community
   pJoin: >
     <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="https://bisq.network/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribute</a>. We’d love to hear from you!</p>
-  liGithub: "@bisq-network on GitHub"
-  liTwitter: "@bisq-network on Twitter"
-  liYoutube: Bisq YouTube channel
-  liForum: Bisq Forum
-  liMailingList: Bisq Contributor mailing list
-  liFreenodeIRC: "#bisq on Freenode IRC"
-  liSubreddit: r/Bisq Subreddit
-  liKeybase: "Bisq on Keybase"
+  liForum: Forum
 
 os_selector_options:
   liAllDownloads: All Downloads

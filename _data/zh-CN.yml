@@ -36,7 +36,7 @@ homepage_content:
   getStarted: 现在开始
   runningWindows: 你似乎在使用 Windows
   runningMac: 你似乎在使用 Mac
-  runnigDebian: 你似乎在使用 Debian/Ubuntu
+  runningDebian: 你似乎在使用 Debian/Ubuntu
   runningRedHat: 你似乎在使用 Red Hat/Fedora
   currentVersion: 当前版本
   hFeatures: 特性
@@ -144,7 +144,7 @@ downloads:
   hBisqDownloads: Bisq 下载
   runningWindows: 你似乎在使用 Windows
   runningMac: 你似乎在使用 Mac
-  runnigDebian: 你似乎在使用 Debian/Ubuntu
+  runningDebian: 你似乎在使用 Debian/Ubuntu
   runningRedHat: 你似乎在使用 Red Hat/Fedora
   tdWindows: Windows
   tdMac: Mac

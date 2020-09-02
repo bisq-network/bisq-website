@@ -36,7 +36,7 @@ homepage_content:
   getStarted: Erste Schritte
   runningWindows: Sie scheinen Windows zu benutzen
   runningMac: Sie scheinen einen Mac zu benutzen
-  runnigDebian: Sie scheinen Debian/Ubuntu zu benutzen
+  runningDebian: Sie scheinen Debian/Ubuntu zu benutzen
   runningRedHat: Sie scheinen Red Hat/Fedora zu benutzen
   currentVersion: Aktuelle Version
   hFeatures: Eigenschaften
@@ -144,7 +144,7 @@ downloads:
   hBisqDownloads: Bisq Downloads
   runningWindows: Sie scheinen Windows zu benutzen
   runningMac: Sie scheinen einen Mac zu benutzen
-  runnigDebian: Sie scheinen Debian/Ubuntu zu benutzen
+  runningDebian: Sie scheinen Debian/Ubuntu zu benutzen
   runningRedHat: Sie scheinen Red Hat/Fedora zu benutzen
   tdWindows: Windows
   tdMac: Mac

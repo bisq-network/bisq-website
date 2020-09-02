@@ -36,7 +36,7 @@ homepage_content:
   getStarted: Commencer
   runningWindows: Vous semblez utiliser Windows
   runningMac: vous semblez utiliser un Mac
-  runnigDebian: vous semblez utiliser Debian/Ubuntu
+  runningDebian: vous semblez utiliser Debian/Ubuntu
   runningRedHat: vous semblez utiliser Red Hat/Fedora
   currentVersion: Version actuelle
   hFeatures: Caractéristiques
@@ -144,7 +144,7 @@ downloads:
   hBisqDownloads: Téléchargements Bisq
   runningWindows: Vous semblez utiliser Windows
   runningMac: Vous semblez utiliser un Mac
-  runnigDebian: Vous semblez utiliser Debian/Ubuntu
+  runningDebian: Vous semblez utiliser Debian/Ubuntu
   runningRedHat: Vous semblez utiliser Debian/Ubuntu
   tdWindows: Windows
   tdMac: Mac

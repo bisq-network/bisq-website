@@ -36,7 +36,7 @@ homepage_content:
   getStarted: 始める
   runningWindows: Windowsを実行しているようです。
   runningMac: Macを実行しているようです。
-  runnigDebian: Debian/Ubuntuを実行しているようです。
+  runningDebian: Debian/Ubuntuを実行しているようです。
   runningRedHat: Red Hat/Fedoraを実行しているようです。
   currentVersion: 現在のバージョン
   hFeatures: 特徴
@@ -144,7 +144,7 @@ downloads:
   hBisqDownloads: Bisqダウンロード
   runningWindows: Windowsを実行しているようです。
   runningMac: Macを実行しているようです。
-  runnigDebian: Debian/Ubuntuを実行しているようです。
+  runningDebian: Debian/Ubuntuを実行しているようです。
   runningRedHat: Red Hat/Fedoraを実行しているようです。
   tdWindows: Windows
   tdMac: Mac

@@ -36,7 +36,7 @@ homepage_content:
   getStarted: Comenzar
   runningWindows: Parece que está ejecutando Windows
   runningMac: Parece que está ejecutando Mac
-  runnigDebian: Parece que está usando Debian/Ubuntu
+  runningDebian: Parece que está usando Debian/Ubuntu
   runningRedHat: Parece que está usando Red Hat/Fedora
   currentVersion: Versión actual
   hFeatures: Características
@@ -103,7 +103,7 @@ dao_page_text:
   benefitsTitle: "Beneficios"
   benefitsText: " <div class=\"subtitle\">Comerciantes: Hagan a Bisq sostenible</div> <ul class=\"small pb-5\"> <li>Ayuden a Bisq a entregar un desarrollo profesional de manera consistente y apoyo comprando BSQ a los contribuidores.</li> <li>Ayuden a hacer de Bisq el mercado de confianza resistente a la censura, para intercambiar tanto bitcoin-fiat como bitcoin-cripto.</li> <li>Disfute de un descuento usando BSQ para pagar las cuotas de intercambio.</li> <li>Usted aún puede pagar tasas de intercambio con BTC si lo desea</li> </ul> <div class=\"subtitle\">Contribuidores: Ganen BSQ</div> <ul class=\"small pb-5\"> <li>Realicen trabajo valioso, soliciten compensación, y ganen BSQ</li> <li>Vendan BSQ en Bisq por BTC</li> <li>Voten en las solicitudes de compensación de otros contribuyentes</li> <li>Trabajen en tecnología de punta con una cultura innovadora. Colaborar con Bisq no requiere permiso, no es jerárquico, y es fluido.</li> </ul>"
   benefitsLinkText: Leer más acerca de la DAO
-  
+
 dao_images:
   dao_intro_contributor: Contribuyente
   dao_intro_improvements: Mejoras
@@ -144,7 +144,7 @@ downloads:
   hBisqDownloads: Descargas Bisq
   runningWindows: Parece que está ejecutando Windows
   runningMac: Parece que está usando un Mac
-  runnigDebian: Paree que está usando Debian/Ubuntu
+  runningDebian: Paree que está usando Debian/Ubuntu
   runningRedHat: Parece que está usando Red Hat/Fedora
   tdWindows: Windows
   tdMac: Mac

@@ -317,6 +317,50 @@ markets:
   sell: Sell BTC Offers
   tradeHistory: Trade History <span class="grey">(Last 100 trades)</span>
 
+getting_started:
+  pageTitle: Getting Started
+  h3Intro: This guide covers just what you need to get trading quickly!
+  liIntroPoint1: Most videos below are just about 2 minutes long.
+  liIntroPoint2: Written documentation is linked below too, if you prefer it.
+  liIntroPoint3: <a href="https://keybase.io/team/bisq" target="_blank">Support</a> is never too far away.
+  pIntroNote1: Before you can start trading on Bisq, you'll need a little bitcoin for a security deposit and fees (0.01 BTC should be enough). Each trader must lock bitcoin in a multisignature escrow until the trade is complete—this is part of what makes trading on Bisq highly secure.
+  pIntroNote2: <a href="https://bisq.wiki/Funding_your_wallet#How_to_Obtain_Your_First_Bitcoin" target="_blank">Here are some tips</a> on getting this bitcoin without surrendering your data to a corporate, centralized exchange.
+  step1Title: Download and Install Bisq
+  step1Explain1: You can download and install Bisq easily <a href="/downloads">from this website</a> or <a href="https://github.com/bisq-network/bisq/releases/latest" target="_blank">from GitHub</a>.
+  step1Explain2: It's also a good idea to verify your installer file to be extra sure it hasn't been meddled with. See the videos here for directions. More details are in <a href="https://bisq.wiki/Downloading_and_installing" target="_blank">this wiki article</a>.
+  step1Explain3: If you'd like to build Bisq from source, <a href="https://github.com/bisq-network/bisq/blob/master/docs/build.md" target="_blank">here are directions</a>. Bisq is free/libre open-source software that <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank">you can contribute to</a>.
+  step1VideoOption: macOS or Linux
+  step2Title: Back Up Keys, Write Down Seed
+  step2Explain1: With Bisq, you're in total control of your funds and your data. This means you retain unparalleled sovereignty, but it also means no one can help you if you lose something important—so it's critical that you do proper backups before using Bisq to trade.
+  step2Explain2: We've also prepared a short tour of the Bisq interface so you can make the most of it.
+  step2Explain3: >
+    More details are on the wiki: <a href="https://bisq.wiki/Backing_up_your_wallet_seed" target="_blank">writing down your seed words</a> and <a href="https://bisq.wiki/Backing_up_application_data" target="_blank">backing up your data directory</a>.
+  step2VideoOption1: Backing Up # See https://bisq.network/getting-started for context
+  step2VideoOption2: Tour of Bisq
+  step3Title: Create a Payment Account
+  step3Explain1: In order to trade bitcoin on Bisq, you've got to set up some way to send or receive other funds. Bisq only handles the bitcoin side of a trade—the other side is handled through fiat payment services (banks, money orders, cash) or altcoin wallets.
+  step3Explain2: Not sure which kind of payment account to set up? There's a <a href="https://bisq.wiki/Payment_methods" target="_blank">full list of payment methods</a> on the wiki.
+  step3Explain3: If you'll be trading fiat, please make sure you see the account limits video or read <a href="https://bisq.wiki/Account_limits" target="_blank">this article on the wiki</a>.
+  step3Explain4: >
+    There are many altcoins available for trading on Bisq. Here are some tips for top markets:
+  step3ExplainAltcoin1: If sending XMR, make sure your wallet is capable of providing the transaction key, transaction ID, and recipient's address.
+  step3ExplainAltcoin2: You can find your BSQ address in # full sentence, for context: "You can find your BSQ address in DAO > BSQ Wallet > Receive." the "DAO > BSQ Wallet > Receive" part refers to a screen in the Bisq software.
+  step3ExplainAltcoin3: If receiving L-BTC, you must use a wallet that can reveal your blinding key, like the <a href="https://github.com/ElementsProject/elements" target="_blank">core Elements software</a> (Blockstream Green won't work, as of this writing).
+  step3VideoOption1: Fiat
+  step3VideoOption2: Fiat Limits
+  step3VideoOption3: Altcoin
+  step4Title: Do a Trade
+  step4Explain1: Making an offer will usually get you a better price and more control (e.g., setting payment method and deposit percentage), but taking an offer can be more convenient.
+  step4Explain2: See <a href="https://bisq.wiki/Trading_fees" target="_blank">trading fees here</a>. You'll notice offer makers pay a lot less.
+  step4Explain3: Note that there's a mobile app for <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank">Android</a> you can use to get notifications for new offers and action items on open trades.
+  step4Explain4: To see both sides of a Bisq trade at the same time, side-by-side, be sure to check out our <a href="https://www.youtube.com/watch?v=QjmpAq9RUXM" target="_blank">Bird's Eye View of a Bisq Trade</a> video.
+  step4VideoOption1: Make Offer
+  step4VideoOption2: Take Offer & Complete Trade
+  thatsIt: That's it—the bare essentials of getting started with Bisq.
+  nextStep1: Browse the <a href="https://bisq.wiki/" target="_blank">wiki</a> and <a href="https://docs.bisq.network/" target="_blank">documentation</a> to learn more.
+  nextStep2: Say hi on <a href="https://keybase.io/team/bisq" target="_blank">Keybase</a>.
+  nextStep3: Or simply make another trade!
+
 stats:
   hNetworkStats: Network Stats
   pSeeMarkets: "<p>See <a href='https://bisq.network/markets'>Markets page</a> for volume by currency.</p>"

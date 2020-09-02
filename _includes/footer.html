@@ -75,13 +75,7 @@
               <a target="_blank" rel="noopener" title="IRC" href="https://webchat.freenode.net/?channels=bisq"><img src="/images/community/irc_w.svg" alt="irc" loading="lazy"> </a>
               <a target="_blank" rel="noopener" title="Reddit" href="https://www.reddit.com/r/bisq"><img src="/images/community/reddit_w.svg" alt="reddit" loading="lazy"> </a>
               <a target="_blank" rel="noopener" title="Matrix" href="https://matrix.to/#/#freenode_#bisq:matrix.org"><img src="/images/community/matrix_w.svg" alt="matrix" loading="lazy"> </a>
-              {% for language in site.data.languages %}
-                {% if language.tag == page.lang %}
-                  {% assign current_lang = language %}
-                {% break %}
-                {% endif %}
-              {% endfor %}
-              <a target="_blank" rel="noopener" title="Telegram" href="{{ current_lang.telegram_link }}"><img src="/images/community/telegram_w.svg" alt="telegram" loading="lazy"> </a>
+              <a target="_blank" rel="noopener" title="Telegram" href="{% local_social_link telegram %}"><img src="/images/community/telegram_w.svg" alt="telegram" loading="lazy"> </a>
             </span>
 
             </div>

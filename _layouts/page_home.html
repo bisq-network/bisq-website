@@ -272,13 +272,7 @@ layout: default
           <li><img src="/images/community/irc.svg" alt="IRC channel" loading="lazy"> <a href="https://webchat.freenode.net/?channels=bisq">Freenode IRC</a></li>
           <li><img src="/images/community/reddit.svg" alt="Bisq subreddit" loading="lazy"> <a href="https://www.reddit.com/r/bisq">Reddit</a></li>
           <li><img src="/images/community/matrix.svg" alt="matrix" loading="lazy"> <a href="https://matrix.to/#/#freenode_#bisq:matrix.org">Matrix</a></li>
-          {% for language in site.data.languages %}
-            {% if language.tag == page.lang %}
-              {% assign current_lang = language %}
-            {% break %}
-            {% endif %}
-          {% endfor %}
-          <li><img src="/images/community/telegram.svg" alt="telegram" loading="lazy"> <a href="{{ current_lang.telegram_link }}">Telegram</a></li>
+          <li><img src="/images/community/telegram.svg" alt="telegram" loading="lazy"> <a href="{% local_social_link telegram %}">Telegram</a></li>
         </ul>
       </div>
 

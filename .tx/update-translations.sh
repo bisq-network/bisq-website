@@ -8,9 +8,5 @@ mv ../_data/zh_CN.yml ../_data/zh-CN.yml
 mv ../_data/pt_BR.yml ../_data/pt-BR.yml
 mv ../_data/pt.yml ../_data/pt-PT.yml
 
-# update svg files
-echo "Updating SVG files..."
-node update-svg-text.js
-
 echo "Done."
-echo "Please double-check images on DAO page for positioning, especially if adding a new language."
+echo "Please don't forget to translate DAO images, especially if adding a new language."

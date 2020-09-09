@@ -23,10 +23,12 @@ The following findings are based on trade data from the past 12 months: August 2
   * BRL: National bank transfer
   * GBP: Faster Payments
 * Premiums are generally in 1-3% range for active markets; exception is ≤0.01 BTC trades, where premiums can be 6-7% on average for offer takers
-  * Mitigate high premiums—make your own offers for bigger trade sizes
-  * Why this happens—mining fees and smaller profit margins for smaller trades drive up trading costs for market makers
+  * This is because mining fees and smaller profit margins for smaller trades drive up trading costs for offer makers
+  * Traders can mitigate this by **making their own bids** for **bigger trade sizes**
   * No evidence that account signing contributes to these higher premiums
 * Selling bitcoin on Bisq can be lucrative
+
+See numbers to back these findings below.
 
 ## Most active markets
 

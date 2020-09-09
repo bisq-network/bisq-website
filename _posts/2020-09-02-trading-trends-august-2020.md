@@ -12,6 +12,22 @@ This sort of sustained trading activity is unprecedented for Bisq. In the past 1
 
 Now that the monthly numbers have been big enough for long enough, it might be interesting to take a look at some trends in trading activity over the past 12 months.
 
+## TL;DR
+
+The following findings are based on trade data from the past 12 months: August 2019 to August 2020.
+
+* Top 5 most active markets on Bisq, in order: EUR, USD, XMR, BRL, GBP
+* Top payment methods, by market:
+  * EUR: SEPA and Revolut
+  * USD: Zelle and US Postal Money Order
+  * BRL: National bank transfer
+  * GBP: Faster Payments
+* Premiums are generally in 1-3% range for active markets; exception is ≤0.01 BTC trades, where premiums can be 6-7% on average for offer takers
+  * Mitigate high premiums—make your own offers for bigger trade sizes
+  * Why this happens—mining fees and smaller profit margins for smaller trades drive up trading costs for market makers
+  * No evidence that account signing contributes to these higher premiums
+* Selling bitcoin on Bisq can be lucrative
+
 ## Most active markets
 
 One way to articulate Bisq's vision is to become the [fiat foreign exchange layer for Bitcoin](https://twitter.com/bisq_network/status/1010168687364657152).
@@ -42,11 +58,11 @@ But of course only certain payment methods are useful in certain markets, so her
 
 Every single trade in the CAD market during this time period used Interac e-Transfer, and almost all AUD trades used national bank transfers.
 
-## Premiums paid
+## Premiums paid to buy
 
 Pricing often discourages new or prospective Bisq users. Many will open Bisq, see few offers, complain that the ones available are expensive, and then leave (and maybe tweet about it).
 
-Let's see what kinds of premiums people are really paying to buy and sell bitcoin on Bisq.
+Let's see what kinds of premiums people are really paying to buy bitcoin on Bisq. If you're looking to sell bitcoin on Bisq, you would be _earning_ these premiums.
 
 Below are average premiums for the past 1 year for EUR and USD.
 
@@ -65,7 +81,7 @@ To make the chart above more concrete, here is an example takeaway. Bitcoin buye
 As you can see, that high premium to take existing offers goes down significantly as trade size goes up.
 
 So how can one buy bitcoin for a more reasonable price on Bisq?
-1. **Make your own bids to buy bitcoin**. Across all trade sizes, buyers who make bids pay significantly less than buyers who take what they see already on the Bisq offer book.
+1. **Make your own bids to buy bitcoin**. Across all trade sizes, buyers who make bids pay significantly less than buyers who take what they see already on the Bisq offer book. Add the [differential in trading fees](https://bisq.wiki/Trading_fees){:target="_blank"} for offer makers versus offer takers, and the premium paid to take existing offers grows even wider. Takers pay 0.35% of trade amount while makers pay only 0.05% of trade amount, if paying with BSQ; takers pay 0.7% of trade amount while makers pay only 0.1% of trade amount, if paying with BTC.
 
 2. **Do bigger trades**. Premium paid goes down significantly as trade size goes up. You can enable bigger trade sizes by getting your payment accounts signed and allowing your payment accounts to age. See more on these mechanisms to secure the network [here on the wiki](https://bisq.wiki/Account_limits){:target="_blank"}.
 
@@ -87,11 +103,13 @@ Here's the data.
 
 Sellers using all 3 payment methods asked for premiums in the 6-7% range (on average), and these premiums dropped significantly with higher trade sizes—whether or not the payment method required signing didn't seem to matter much.
 
-Therefore this GBP data seems to indicate that the phenomenon of sellers asking for large premiums on small trades probably has less to do with signing and more to do with profitability. After all, at current prices, even a 10% premium won't yield a seller a huge profit on a <0.01 BTC trade.
+Therefore this GBP data seems to indicate that the phenomenon of sellers asking for large premiums on small trades probably has less to do with signing and more to do with profitability. After all, at current prices, even a 10% premium won't yield a seller a huge profit on a <0.01 BTC trade. Furthermore, mining fees need to be paid no matter what, and these costs are proportionally larger for smaller trades.
 
 Also consider that sellers asking for higher premiums are also doing the extra legwork of keeping Bisq online and available throughout the day and night so their offers can be available to you. They're convenient—and convenience always costs.
 
-Accordingly, buyers who do that legwork are rewarded with better prices.
+So if you're a bitcoin seller, even if you're not particularly concerned about privacy, trading on Bisq can be lucrative. In fact, some buyers will [bid sizable premiums](https://twitter.com/bisq_network/status/1284179918184755200){:target="_blank"} for buying bitcoin using certain payment methods.
+
+Accordingly, buyers willing to put in a little more legwork are rewarded with better prices.
 
 ### Monero premiums
 

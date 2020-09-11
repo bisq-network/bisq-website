@@ -16,6 +16,7 @@ footer:
   ulResources: 资料
   liDownloads: 下载
   liRoadmap: 计划
+  liBenefactors: Benefactors # see https://bisq.network/benefactors for context
   liContribute: 贡献
   liMarketData: 市场数据 API
   joinBisq: 加入社区
@@ -325,7 +326,7 @@ stats:
   pTotalDate: 上月数据
   pDailyAverageTrade: 每日交易数
   pSoftwareDownloads: 软件下载数
-  pSoftwareDownloadsVersion: 在 v1.3.4（近似数）
+  pSoftwareDownloadsVersion: 在 v1.3.7（近似数）
   pGithubContributors: GitHub 贡献者
   pToDate: 截止上月
   pTwitterFollowers: Twitter 粉丝数

@@ -58,6 +58,6 @@
   tag: "ru"
   enabled: Yes
   accept_languages: ["ru"]
-  site_name: "Update this before merging"
-  site_desc: "Update this before merging"
+  site_name: "Bisq - децентрадизированная сеть обмена биткойном."
+  site_desc: "Bisq является открытым компьютерным программным обеспечением для купли и продажи биткойна за фиативные валюты или альтернативные криптовалюты."
   telegram_link: https://t.me/bisq_p2p

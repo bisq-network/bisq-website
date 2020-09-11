@@ -16,6 +16,7 @@ footer:
   ulResources: Recursos
   liDownloads: Descargas
   liRoadmap: Hoja de ruta
+  liBenefactors: Benefactors # see https://bisq.network/benefactors for context
   liContribute: Contribuir
   liMarketData: API de datos de mercado
   joinBisq: Unirse a la comunidad
@@ -377,7 +378,7 @@ stats:
   pTotalDate: Durante el mes pasado
   pDailyAverageTrade: Promedio diario de operaciones
   pSoftwareDownloads: Las descargas de software fueron
-  pSoftwareDownloadsVersion: "Para la versión v1.3.4 (aproximado)"
+  pSoftwareDownloadsVersion: "Para la versión v1.3.7 (aproximado)"
   pGithubContributors: Contribuyentes de GitHub
   pToDate: Hasta el mes pasado
   pTwitterFollowers: Seguidores de Twitter

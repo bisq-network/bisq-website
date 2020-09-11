@@ -8,13 +8,23 @@ Please submit proposed changes as pull requests, ideally with commit messages th
 
 ---
 
-**NOTE**
+**NOTE ON COMPENSATION**
 
 If you're expecting compensation from the Bisq DAO for your work, please make sure you've corresponded with the repo's maintainer to ensure the work you plan to do is currently prioritized and budgeted.
 
 You can do this by opening an issue in this repo explaining your proposed changes and cost, or by floating the idea in the #website channel on [Keybase](https://keybase.io/team/bisq).
 
 See further details on the [this wiki page](https://bisq.wiki/Growth_Team#Processes).
+
+---
+
+**NOTE ON TRANSLATIONS**
+
+All translations work, for the website and otherwise, takes place on [Transifex](https://www.transifex.com/bisq/). Please do not make pull requests for non-English text changes in this repository!
+
+If you'd like to propose adding a new language to the website, please get in touch in the #transifex channel [on Keybase](https://keybase.io/team/bisq) or open an issue in this repository.
+
+See further details on the [this wiki page](https://bisq.wiki/Translation).
 
 ---
 

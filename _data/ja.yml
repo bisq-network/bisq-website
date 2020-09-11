@@ -153,6 +153,8 @@ downloads:
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
   tdArchLinuxText: Archリポジトリ
+  tdQubes: Qubes OS
+  tdQubesText: Qubes OS Setup Guide
   tdSourceCode: ソースコード
   tdReleaseNotes: リリースノート
   tdReleaseNotesText: "リリースノート for "

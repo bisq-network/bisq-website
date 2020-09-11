@@ -19,7 +19,7 @@ footer:
   liBenefactors: Benefactors # see https://bisq.network/benefactors for context
   liContribute: Mitarbeiten
   liMarketData: Marktdaten API
-  joinBisq: Bisq nutzen
+  joinBisq: Treten Sie der Community bei
 
 homepage_content:
   title: "<span class=\"animate1\">Exchange,</span> <span class=\"animate2\">Dezentralisiert.</span>"

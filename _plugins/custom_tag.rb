@@ -32,3 +32,28 @@ class IsCurrentPage < Liquid::Tag
 end
 
 Liquid::Template.register_tag('is_current_page', IsCurrentPage)
+
+class LocalSocialLink < Liquid::Tag
+    def initialize(tag_name, channel, _tokens)
+      super
+      @channel = channel
+    end
+
+    def render(context)
+
+      # add channels here as necessary
+      channel_property = ""
+      if( @channel.strip == "telegram" )
+        channel_property = "telegram_link"
+      end
+
+      currentLang = context.environments.first["page"]["lang"]
+      for language in context.environments.first["site"]["data"]["languages"]
+        if( language["tag"] == currentLang )
+          return language[channel_property]
+        end
+      end
+    end
+  end
+
+  Liquid::Template.register_tag('local_social_link', LocalSocialLink)

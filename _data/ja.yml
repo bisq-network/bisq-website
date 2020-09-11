@@ -19,7 +19,7 @@ footer:
   liBenefactors: Benefactors # see https://bisq.network/benefactors for context
   liContribute: 貢献
   liMarketData: 市場データAPI
-  joinBisq: Bisqに参加
+  joinBisq: コミュニティに参加
 
 homepage_content:
   title: "<span class=\"animate1\">取引所、</span><span class=\"animate2\">非中央集権化された</span>"

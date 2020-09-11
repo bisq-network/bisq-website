@@ -19,7 +19,7 @@ footer:
   liBenefactors: Benefactors # see https://bisq.network/benefactors for context
   liContribute: Стать участником проекта
   liMarketData: API для доступа к рыночным данным
-  joinBisq: Следить за Bisq
+  joinBisq: Присоединяйтесь к сообществу
 
 homepage_content:
   title: "<span class=\"animate1\">Децентрализованная</span> <span class=\"animate2\">биржа.</span>"

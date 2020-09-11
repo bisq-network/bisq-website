@@ -153,6 +153,8 @@ downloads:
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
   tdArchLinuxText: Arch User Repository
+  tdQubes: QubesOS
+  tdQubesText: QubesOS Setup Guide
   tdSourceCode: Source Code
   tdReleaseNotes: Release Notes
   tdReleaseNotesText: Release Notes for

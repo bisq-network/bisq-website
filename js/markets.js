@@ -117,7 +117,7 @@ function getTrades( pair ) {
     if( !pair ) {
 
         pair = 'all';
-        jsonUrl = 'https://markets.bisq.network/api/trades?market=all&format=jsonpretty';
+        jsonUrl = 'https://bisq.markets/api/trades?market=all&format=jsonpretty';
 
         $.get( jsonUrl, function( data ) {
 
@@ -149,7 +149,7 @@ function getTrades( pair ) {
 
     } else {
 
-        jsonUrl = 'https://markets.bisq.network/api/trades?market=' + pair;
+        jsonUrl = 'https://bisq.markets/api/trades?market=' + pair;
 
         $.get( jsonUrl, function( data ) {
 
@@ -203,7 +203,7 @@ function getOffers( pair ){
         return;
     }
 
-    var jsonUrl = 'https://markets.bisq.network/api/offers?market=' + pair + '&format=jsonpretty';
+    var jsonUrl = 'https://bisq.markets/api/offers?market=' + pair + '&format=jsonpretty';
 
     $.getJSON( jsonUrl, function( data ) {
 
@@ -268,12 +268,12 @@ function buildData( jsonUrl ){
     if( !pair || pair === 'all' ) {
 
         pair = 'btc';
-        jsonUrl = "https://markets.bisq.network/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&fillgaps=&interval=day";
+        jsonUrl = "https://bisq.markets/api/volumes?basecurrency=btc&milliseconds=true&timestamp=no&fillgaps=&interval=day";
         getTrades();
 
     } else {
 
-        jsonUrl = 'https://markets.bisq.network/api/hloc?market=' + pair + '&timestamp=no' + '&interval=day' + '&timestamp_from=' + '&timestamp_to=';
+        jsonUrl = 'https://bisq.markets/api/hloc?market=' + pair + '&timestamp=no' + '&interval=day' + '&timestamp_from=' + '&timestamp_to=';
         getTrades( pair );
         getOffers( pair );
 

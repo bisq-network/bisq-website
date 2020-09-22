@@ -2,7 +2,7 @@
 layout: post
 title: "Bisq DAO Cycle 16: Results"
 author: Steve Jain
-excerpt: "Cycle 16 of the Bisq DAO ended at block 646,626 on September 02 2020. This post covers its results. <br><br>"
+excerpt: "Cycle 16 of the Bisq DAO ended at block 646,626 on 02 September 2020. This post covers its results. <br><br>"
 lang: en
 ---
 
@@ -11,7 +11,7 @@ This post summarizes the results of Cycle 16 of the Bisq DAO.
 ### Summary
 
 * Cycle took place between blocks 641,947 and 646,626
-  * Calendar dates: 08/02/2020 - 09/02/2020
+  * Calendar dates: 02 August 2020 - 02 September 2020
 * 25 proposals
   * 1 proposal to change a parameter
   * 24 compensation requests

@@ -8,8 +8,8 @@
 body {
   font-family: 'IBM Plex Sans', sans-serif;
   overflow-x: hidden;
-  font-weight: 300;
-  letter-spacing: 0.03rem;
+  font-weight: 250;
+  letter-spacing: 0.06rem;
 }
 
 strong, .strong {
@@ -18,6 +18,7 @@ strong, .strong {
 
 .centered {
     text-align: center;
+    justify-content:center;
 }
 
 .green, a {
@@ -72,7 +73,7 @@ a:hover {
 
 
 p a:hover {
-  opacity: 0.7
+  opacity: 0.9
 }
 
 .text-monospace,

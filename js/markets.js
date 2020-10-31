@@ -123,7 +123,6 @@ function getTrades( pair ) {
 
             $( '<tr>' ).append(
                 $( '<th>' ).text( 'Date' ),
-                $( '<th>' ).text( 'Action' ),
                 $( '<th>' ).text( 'Price' ),
                 $( '<th>' ).text( 'Amount in BTC' ),
                 $( '<th>' ).text( 'Trade Amount')
@@ -137,7 +136,6 @@ function getTrades( pair ) {
 
                 $( '<tr>' ).append(
                     $( '<td>' ).html( tradeDate.format( dateFormat ) ),
-                    $( '<td>' ).text( val.direction + ' ' + buildTicker( val.market ) ),
                     $( '<td>' ).text( getAssetBTCPrice( val.price, val.market ) + ( val.payment_method.startsWith('BLOCK_CHAINS') ? ' BTC' : ' ' + buildTicker( val.market ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) + ' ' + buildTicker( val.market ) )
@@ -158,7 +156,6 @@ function getTrades( pair ) {
             if( pair.startsWith( "btc" ) ){
                 $( '<tr>' ).append(
                     $( '<th>' ).text( 'Date' ),
-                    $( '<th>' ).text( 'Action' ),
                     $( '<th>' ).text( 'Price (' + buildTicker( pair ) + ')' ),
                     $( '<th>' ).text( 'Trade Size (BTC)' ),
                     $( '<th>' ).text( 'Trade Size (' + buildTicker( pair ) + ')' )
@@ -167,7 +164,6 @@ function getTrades( pair ) {
             } else {
                 $( '<tr>' ).append(
                     $( '<th>' ).text( 'Date' ),
-                    $( '<th>' ).text( 'Action' ),
                     $( '<th>' ).text( 'Price (BTC)' ),
                     $( '<th>' ).text( 'Trade Size (BTC)' ),
                     $( '<th>' ).text( 'Trade Size (' + buildTicker( pair ) + ')' )
@@ -181,7 +177,6 @@ function getTrades( pair ) {
                 tradeDate = new Date(val.trade_date);
                 $( '<tr>' ).append(
                     $( '<td>' ).text( tradeDate.format( dateFormat ) ),
-                    $( '<td>' ).text( val.direction + ' ' + actionTicker ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ?  parseFloat( val.price ).toFixed(8) : roundToSigFigs( parseFloat( val.price ) ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.volume ) : roundToSigFigs( val.amount ) ) ),
                     $( '<td>' ).text( ( val.payment_method.startsWith('BLOCK_CHAINS') ? roundToSigFigs( val.amount ) : roundToSigFigs( val.volume ) ) )

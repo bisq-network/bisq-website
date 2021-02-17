@@ -1574,8 +1574,12 @@ body.dark-mode .plain-stat-container .stat-label {
 }
 
 
-body.dark-mode rect.highcharts-plot-background, body.dark-mode svg.highcharts-root rect{
-    fill: #1d1d1d;
+.highcharts-plot-background {
+    display: none;
+}
+
+.dark-mode .highcharts-series-1 rect {
+    fill:#111
 }
 
 body.dark-mode .chart-stat-container text {

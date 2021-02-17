@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bisq DAO: The First 4 Cycles"
-author: Steve Jain
+author: m52go
 excerpt: "The Bisq DAO launched 4 months ago, after more than 4 years of development. It has now completed 4 voting cycles. In this post, we provide an update on how it's worked out so far. <br><br>"
 lang: en
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bisq DAO Cycle 8: Results"
-author: Steve Jain
+author: m52go
 excerpt: "Cycle 8 of the Bisq DAO ended at block 609 186 on December 21 2019. This post covers its results. <br><br>"
 lang: en
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bisq DAO Cycle 17: Results"
-author: Steve Jain
+author: m52go
 excerpt: "Cycle 17 of the Bisq DAO ended at block 651,306 on 04 October 2020. This post covers its results. <br><br>"
 lang: en
 ---

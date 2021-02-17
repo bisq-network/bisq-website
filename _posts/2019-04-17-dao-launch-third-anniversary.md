@@ -1,18 +1,10 @@
 ---
 layout: post
 title: "Bisq DAO Launches with Bisq v1.0"
-author: Steve Jain
+author: m52go
 excerpt: "After years in the making, the Bisq DAO has launched on mainnet with the v1.0 release of the Bisq software, just days before Bisq celebrates 3 years in production. <br><br>"
 lang: en
 ---
-
-<hr>
-
-_Steve contributes documentation, copywriting, speaking, media correspondence, and more to the Bisq network. Follow him [here](https://jain.io)._
-
-_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/bisq) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
-
-<hr>
 
 On Monday, Bisq hit the most significant landmark in its 5-year history: it launched v1.0 of its software.
 

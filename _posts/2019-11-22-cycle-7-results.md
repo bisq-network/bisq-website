@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bisq DAO Cycle 7: Results"
-author: Steve Jain
+author: m52go
 excerpt: "Cycle 7 of the Bisq DAO ended at block 604 506 on November 19 2019. This post covers its results. <br><br>"
 lang: en
 ---

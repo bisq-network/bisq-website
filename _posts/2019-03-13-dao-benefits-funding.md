@@ -1,18 +1,10 @@
 ---
 layout: post
 title: "Benefits of the Bisq DAO, Part I: Funding FLOSS & Avoiding Surveillance Capitalism"
-author: Steve Jain
+author: m52go
 excerpt: "The Bisq DAO enables value transfer and decision-making for the Bisq network. But it has several additional benefits too, which we'll focus on in this series.<br><br>In this post, Part I of this series, we'll discuss how Bisq's revenue model offers a new approach to funding open-source software development that, by design, avoids incentives to exploit user privacy altogether.<br><br>"
 lang: en
 ---
-
-<hr>
-
-_This is an essay which contains some subjective statements. Steve contributes documentation, copywriting, speaking, media correspondence, and more to the Bisq network. Follow him [here](https://jain.io)._
-
-_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/bisq) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
-
-<hr>
 
 At the [MIT Bitcoin Expo](https://mitbitcoinexpo.org/) this past weekend, funding open-source software development was a topic of high interest. Arjun Balaji's whole talk was focused on the topic, and a number of people approached me after my panel discussion wondering how the Bisq DAO worked to fund the project without any kind of external fundraising.
 

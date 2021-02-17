@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bisq DAO Cycle 14: Results"
-author: Steve Jain
+author: m52go
 excerpt: "Cycle 14 of the Bisq DAO ended at block 637,266 on July 01 2020. This post covers its results. <br><br>"
 lang: en
 ---

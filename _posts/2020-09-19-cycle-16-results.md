@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bisq DAO Cycle 16: Results"
-author: Steve Jain
+author: m52go
 excerpt: "Cycle 16 of the Bisq DAO ended at block 646,626 on 02 September 2020. This post covers its results. <br><br>"
 lang: en
 ---

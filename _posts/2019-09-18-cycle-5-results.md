@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bisq DAO Cycle 5: Results"
-author: Steve Jain
+author: m52go
 excerpt: "Cycle 5 of the Bisq DAO ended at block 595 146 on September 16 2019. This post covers its results, as well as an important lesson learned. <br><br>"
 lang: en
 ---

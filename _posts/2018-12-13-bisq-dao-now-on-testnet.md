@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bisq DAO now on testnet
-author: Steve Jain
+author: m52go
 lang: en
 ---
 

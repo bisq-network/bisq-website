@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Trends in Trading Activity, August 2020"
-author: Steve Jain
+author: m52go
 excerpt: "Most active markets, most active payment methods, and premiums paid across the network for August 2020. If you're wondering how to buy and sell bitcoin on Bisq quickly and cost-effectively, this post is for you. <br><br>"
 lang: en
 ---

@@ -111,17 +111,22 @@
         </div>
       </li>
       {% endif %}
-      <li class="nav-item">
-	<form class="form-inline" action="https://bisq.wiki/index.php" method="POST" target="_blank" rel="noopener noreferrer">
-		<div class="input-group">
-			<input style="max-height:1.7rem; height:55%; padding:15px; height:100%; margin-left:30px; margin-right:5px;margin-top:1rem;"class="form-control mr-sm-2" type="search" placeholder="Search Bisq Wiki..." name="search">
-			<button style="margin-top:1rem;" type="submit" class="btn btn-sm btn-outline-success nav-item">&#128269;</button>
-		</div>
-	</form>
+
+      <!-- search bar  -->
+
+      <li class="nav-item search">
+        <form class="form-inline" action="https://bisq.wiki/index.php" method="POST" target="_blank" rel="noopener noreferrer">
+          <div class="input-group">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Bisq Wiki..." name="search">
+            <button type="submit" class="btn btn-sm btn-outline-success nav-item"><img src="/images/search.svg"></button>
+          </div>
+        </form>
       </li>
+
       <li class="nav-item">
         <div class="mode-toggle nav-link"><img alt="mode toggle" src="/images/mode-toggle.svg" /></div>
       </li>
-    </ul>
+
+</ul>
   </div>
 </nav>

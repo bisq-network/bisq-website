@@ -576,6 +576,52 @@ footer, footer ul li {
   border-bottom: #25B135 1px solid;
 }
 
+.navbar-nav .nav-item.search input {
+    max-height: 1.7rem;
+    padding: 15px;
+    height: 100%;
+    margin-left: 30px;
+    margin-top: 1.1rem;
+    margin-right: 0 !important;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+body.dark-mode .navbar-nav .nav-item.search input {
+    background-color: #1f1f1f;
+    color: #7f7f7f;
+    border: none;
+}
+
+.navbar-nav .nav-item.search button {
+    margin-top: 1.1rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #ced4da;
+    border-left: none;
+    width: 32px;
+}
+
+body.dark-mode .navbar-nav .nav-item.search button {
+    background-color: #1f1f1f;
+    border: none;
+}
+
+.navbar-nav .nav-item.search button:hover {
+    background-color: #fff;
+}
+
+body.dark-mode .navbar-nav .nav-item.search button:hover {
+    background-color: #1f1f1f;
+}
+
+.navbar-nav .nav-item.search button img {
+    width: 12px;
+    margin-bottom: 2px;
+}
+
+
 .navbar-brand {
 	margin-right: 0.65rem;
 }
@@ -1160,7 +1206,16 @@ getting started page
       border-bottom: none;
     }
 
+    .navbar-nav .nav-item.search input {
+        margin-left: 0;
+        margin-top: 0.8rem;
+        margin-bottom: 0.7rem;
+    }
 
+    .navbar-nav .nav-item.search button {
+        margin-top: 0.8rem;
+        margin-bottom: 0.7rem;
+    }
 
     .flex-column {
       -ms-flex-direction: column !important;
@@ -1243,6 +1298,11 @@ getting started page
 }
 
 
+@media (min-width: 991px) and (max-width: 1070px) {
+    .navbar-nav .nav-item.search  {
+        display: none;
+    }
+}
 
 @media (max-width: 1000px) {
   .step-image {

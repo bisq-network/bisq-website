@@ -235,3 +235,5 @@ https://bisq.io https://bisq.network 301
 
 /source https://github.com/bisq-network 302
 /source/* https://github.com/bisq-network/:splat 302
+
+/faq https://bisq.wiki/Frequently_asked_questions 301

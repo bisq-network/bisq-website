@@ -144,26 +144,22 @@ https://bisq.io https://bisq.network 301
 /docs/dao/intro https://bisq.wiki/Introduction_to_the_DAO 302
 
 # dao user guide
-/docs/dao/user-guide https://docs.bisq.network/getting-started-dao.html 302
+/docs/dao/user-guide https://bisq.wiki/Introduction_to_the_DAO 302
 
 # in depth concept overview
-/phase-zero https://docs.bisq.network/dao/phase-zero.html 302
+/phase-zero https://bisq.wiki/images/e/e5/Bisq-dao-phase-zero.pdf 302
 
 # tech spec
 /docs/dao/specification https://bisq.wiki/DAO_technical_overview 302
-
-# for genesis distribution
-/docs/dao/genesis https://docs.bisq.network/compensation.html#get-added-to-genesis 302
 
 # setup full node docs
 /docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/docs/dao-setup.md 302
 
 # Overview about Bisq and the DAO (written by Chris), superseded by phase zero doc. Keep it for archive
-/docs/dao/overview https://docs.bisq.network/dao/overview.html 302
-
+/docs/dao/overview https://bisq.wiki/Introduction_to_the_DAO 302
 
 /list-token https://bisq.network/list-asset 301
-/list-asset https://docs.bisq.network/exchange/howto/list-asset.html 302
+/list-asset https://github.com/bisq-network/proposals/issues/166 302
 /intro https://bisq.wiki/Introduction 302
 /contrib-checklist /contributor-checklist 302
 /contributor-checklist https://bisq.wiki/Contributor_checklist 302
@@ -171,22 +167,9 @@ https://bisq.io https://bisq.network 301
 /contribute https://bisq.wiki/Contributor_checklist 301
 /payment-methods https://bisq.wiki/Payment_methods 302
 /trading-fees https://bisq.wiki/Trading_fees 302
-/trading-rules https://docs.bisq.network/trading-rules.html#trading-rules 301
+/trading-rules https://bisq.wiki/Trading_rules 301
 
-/arbitration_system.pdf /docs/exchange/arbitration-system 301
-/docs/arbitration-system.pdf /docs/exchange/arbitration-system 301
-/docs/exchange/arbitration-system https://docs.google.com/document/d/1DXEVEfk4x1qN6QgIcb2PjZwU4m7W6ib49wCdktMMjLw 302
-
-/whitepaper.pdf /docs/exchange/whitepaper 301
-/bitsquare.pdf /docs/exchange/whitepaper 301
-/docs/bitsquare.pdf /docs/exchange/whitepaper 301
-/docs/exchange/whitepaper https://docs.bisq.network/exchange/whitepaper.html 302
-
-/risk_analysis.pdf /docs/exchange/risk-analysis 301
-/docs/risk-analysis.pdf /docs/exchange/risk-analysis 301
-/docs/exchange/risk-analysis https://docs.google.com/document/d/1sHwU7K7C8Nl-fS4Z6X88L-NVJ_WBiKnsSpYpYfyqUXA/edit# 302
-
-/mobile-notifications https://docs.bisq.network/bisq-mobile.html#notifications 302
+/mobile-notifications https://bisq.wiki/Mobile_notifications 302
 
 
 # blog

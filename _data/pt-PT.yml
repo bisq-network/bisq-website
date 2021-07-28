@@ -64,7 +64,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Adicionar a sua conta de moeda nacional ou criptomoedas.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Criar uma nova oferta ou aceitar uma existente.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Siga a interface do usuário para finalizar a negociação.</li>
   hJoin: Junte-se à Comunidade
   pJoin: >
-    <p>A Bisq está sempre procurando desenvolvedores altamente qualificados, designers e especialistas em segurança para se juntarem à nossa <a href="https://bisq.network/pt-PT/community/">comunidade</a>. Se está interssado em ajudar a melhorar o Bisq, há muitas maneiras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>.</p>
+    <p>A Bisq está sempre procurando desenvolvedores altamente qualificados, designers e especialistas em segurança para se juntarem à nossa <a href="https://bisq.network/pt-PT/community/">comunidade</a>. Se está interssado em ajudar a melhorar o Bisq, há muitas maneiras de <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">contribuir</a>.</p>
   liGithub: "@bisq-network no GitHub"
   liTwitter: "@bisq_network no Twitter"
   liYoutube: Canal Youtube do Bisq

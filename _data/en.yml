@@ -64,7 +64,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Add your national or crypto currency accounts.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Create new offer or take an existing one.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Follow the user interface to finalize the trade.</li>
   hJoin: Join the Community
   pJoin: >
-    <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="https://bisq.network/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribute</a>. We’d love to hear from you!</p>
+    <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="https://bisq.network/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">contribute</a>. We’d love to hear from you!</p>
   liForum: Forum
 
 os_selector_options:
@@ -170,7 +170,7 @@ getting_started:
   step1Title: Download and Install Bisq
   step1Explain1: You can download and install Bisq easily <a href="/downloads">from this website</a> or <a href="https://github.com/bisq-network/bisq/releases/latest" target="_blank">from GitHub</a>.
   step1Explain2: It's also a good idea to verify your installer file to be extra sure it hasn't been meddled with. See the videos here for directions. More details are in <a href="https://bisq.wiki/Downloading_and_installing" target="_blank">this wiki article</a>.
-  step1Explain3: If you'd like to build Bisq from source, <a href="https://github.com/bisq-network/bisq/blob/master/docs/build.md" target="_blank">here are directions</a>. Bisq is free/libre open-source software that <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank">you can contribute to</a>.
+  step1Explain3: If you'd like to build Bisq from source, <a href="https://github.com/bisq-network/bisq/blob/master/docs/build.md" target="_blank">here are directions</a>. Bisq is free/libre open-source software that <a href="https://bisq.wiki/Contributor_checklist" target="_blank">you can contribute to</a>.
   step1VideoOption: macOS or Linux
   step2Title: Back Up Keys, Write Down Seed
   step2Explain1: With Bisq, you're in total control of your funds and your data. This means you retain unparalleled sovereignty, but it also means no one can help you if you lose something important—so it's critical that you do proper backups before using Bisq to trade.

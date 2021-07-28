@@ -34,4 +34,4 @@ But there is more. Many interesting ideas and proposals are out and waiting for 
 
 So you can see a lot of challenging work is waiting for talented developers who want to become part of Bisq and help to build the infrastructure Bitcoin deserves: **a privacy protecting on-ramp which follows the principles of Bitcoin and not those of the banks.**
 
-If you are interested to work in a project that's permissionless and non-hierarchical by design, Bisq might be your [place](https://docs.bisq.network/contributor-checklist.html).
+If you are interested to work in a project that's permissionless and non-hierarchical by design, Bisq might be your [place](https://bisq.wiki/Contributor_checklist).

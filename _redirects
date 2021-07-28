@@ -169,9 +169,9 @@ https://bisq.io https://bisq.network 301
 /list-asset https://docs.bisq.network/exchange/howto/list-asset.html 302
 /intro https://docs.bisq.network/intro.html 302
 /contrib-checklist /contributor-checklist 302
-/contributor-checklist https://docs.bisq.network/contributor-checklist.html 302
+/contributor-checklist https://bisq.wiki/Contributor_checklist 302
 /get-started /getting-started 302
-/contribute https://docs.bisq.network/contributor-checklist.html 301
+/contribute https://bisq.wiki/Contributor_checklist 301
 /payment-methods https://bisq.wiki/Payment_methods 302
 /trading-fees https://bisq.wiki/Trading_fees 302
 /trading-rules https://docs.bisq.network/trading-rules.html#trading-rules 301

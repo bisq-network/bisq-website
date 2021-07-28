@@ -152,7 +152,7 @@ A: Stay tuned, I would say. We have a lot of exciting things coming. For example
 
 Well, there you have it. An excellent rundown of best practices in Bitcoin for preserving user privacy and how to use the Bisq Exchange. I want to give an extra special thanks to both the Bisq contributors, and Max Hillebrand of the World Crypto Network, for helping me make this information available to you.
 
-If you’d like to help out and contribute to the Bisq open-source project,you can start [here](https://docs.bisq.network/contributor-checklist.html).
+If you’d like to help out and contribute to the Bisq open-source project,you can start [here](https://bisq.wiki/Contributor_checklist).
 
 You can see Max’s shows—[Bitcoin to the Max](https://www.youtube.com/playlist?list=PLPj3KCksGbSZtGhC7nIr_Mf1oCeP8U1tV), [Open Source Everything](https://www.youtube.com/watch?v=41y_eGsdy2U&list=PLPj3KCksGbSb1h33FZbsrtr1feIIwTBHt), and [Bitcoin Optech Newsletter](https://www.youtube.com/watch?v=NAXwLHgYHjo&list=PLPj3KCksGbSY9pV6EI5zkHcut5UTCs1cp)—on the [World Crypto Network](https://www.youtube.com/user/WorldCryptoNetwork/).
 

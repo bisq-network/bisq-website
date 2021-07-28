@@ -64,7 +64,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Añada sus cuentas de moneda nacional o cripto</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Cree una nueva oferta o tome una existente.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Siga la interfaz de usuario para finalizar el intercambio.</li>
   hJoin: Unirse a la comunidad
   pJoin: >
-    <p>Bisq siempre está buscando desarrolladores talentosos, diseñadores y expertos en seguridad para que se unan a nuestra <a href="https://bisq.network/community/">comunidad</a>. Si estás interesado en ayudar a mejorar a Bisq, existen muchas maneras de <a href="https://docs.bisq.network/contributor-checklist.html" target="_blank" rel="noopener">contribuir</a>. Nos encantaría oír de ti!</p><p>Nuestro<a href="https://bisq.network/roadmap/">roadmap</a>da una vista general, vistazo, de las características y metas que vienen en camino en Bisq v2.0.</p>
+    <p>Bisq siempre está buscando desarrolladores talentosos, diseñadores y expertos en seguridad para que se unan a nuestra <a href="https://bisq.network/community/">comunidad</a>. Si estás interesado en ayudar a mejorar a Bisq, existen muchas maneras de <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">contribuir</a>. Nos encantaría oír de ti!</p><p>Nuestro<a href="https://bisq.network/roadmap/">roadmap</a>da una vista general, vistazo, de las características y metas que vienen en camino en Bisq v2.0.</p>
   liGithub: "@bisq-network en GitHub"
   liTwitter: "@bisq-network en Twitter"
   liYoutube: Canal de YouTube Bisq

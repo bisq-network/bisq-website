@@ -169,7 +169,7 @@ downloads:
 stats:
   hNetworkStats: Estatísticas da rede
   pSeeMarkets: "<p>Veja <a href='https://bisq.network/markets'>Página de Mercados</a> para o volume por moeda.</p>"
-  pBSQDistribution: "A <a href='https://docs.bisq.network/dao-user-reference.html#bsq-genesis-distribution' target='_blank'>distribuição gênese de BSQ</a> na mainnet aconteceu em Abril de 2019."
+  pBSQDistribution: "A <a href='https://bisq.wiki/DAO_user_reference#BSQ_Genesis_Distribution' target='_blank'>distribuição gênese de BSQ</a> na mainnet aconteceu em Abril de 2019."
   pTotalTrades: Todas as Negociações
   pTotalDate: Até o fim do mês passado
   pDailyAverageTrade: Média diária de negociações

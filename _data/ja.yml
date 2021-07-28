@@ -169,7 +169,7 @@ downloads:
 stats:
   hNetworkStats: ネットワーク統計
   pSeeMarkets: "<p>通貨別の取引高については<a href='https://bisq.network/ja/markets'>マーケットのページ</a>をご覧ください。</p>"
-  pBSQDistribution: "メインネットの<a href='https://docs.bisq.network/dao-user-reference.html#bsq-genesis-distribution' target='_blank'>BSQジェネシス配布</a>は2019年4月に行われました。"
+  pBSQDistribution: "メインネットの<a href='https://bisq.wiki/DAO_user_reference#BSQ_Genesis_Distribution' target='_blank'>BSQジェネシス配布</a>は2019年4月に行われました。"
   pTotalTrades: 全トレード
   pTotalDate: 先月まで
   pDailyAverageTrade: 日々の平均トレード

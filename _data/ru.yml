@@ -169,7 +169,7 @@ downloads:
 stats:
   hNetworkStats: Статистика сети
   pSeeMarkets: "<p>Для просмотра объёмов торгов для каждой валюты см. <a href='https://bisq.network/markets'>страницу рынков</a>.</p>"
-  pBSQDistribution: "Первичное <a href='https://docs.bisq.network/dao-user-reference.html#bsq-genesis-distribution' target='_blank'>распределение BSQ</a> состоялось в апреле 2019 г."
+  pBSQDistribution: "Первичное <a href='https://bisq.wiki/DAO_user_reference#BSQ_Genesis_Distribution' target='_blank'>распределение BSQ</a> состоялось в апреле 2019 г."
   pTotalTrades: Всего сделок
   pTotalDate: с прошлого месяца
   pDailyAverageTrade: Среднее кол-во сделок в день

@@ -166,11 +166,6 @@ downloads:
   hMobileNotifications: Bisq Handy-Benachrichtigungen
   pMobileNotifications: Halten Sie sich über Ihre Trades auf dem Laufenden und erhalten Sie Benachrichtigungen auf Ihrem Handy.
 
-markets:
-  buy: Kaufe BTC Angebote
-  sell: Verkaufe BTC Angebote
-  tradeHistory: Trade Verlauf <span class="grey">(Letzten 100 Trades)</span>
-
 stats:
   hNetworkStats: Netzwerk-Statistiken
   pSeeMarkets: "<p>Auf der <a href='https://bisq.network/markets'>Märkte Seite</a> finden Sie das Volumen je nach Währung.</p>"

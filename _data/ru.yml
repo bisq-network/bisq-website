@@ -166,11 +166,6 @@ downloads:
   hMobileNotifications: Мобильные уведомления Bisq
   pMobileNotifications: Получайте оперативные уведомления о сделках на мобильный телефон.
 
-markets:
-  buy: Предложения покупки BTC
-  sell: Предложения продажи BTC
-  tradeHistory: История сделок <span class="grey">(последние 100 сделок)</span>
-
 stats:
   hNetworkStats: Статистика сети
   pSeeMarkets: "<p>Для просмотра объёмов торгов для каждой валюты см. <a href='https://bisq.network/markets'>страницу рынков</a>.</p>"

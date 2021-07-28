@@ -156,7 +156,7 @@ So whereas accumulated assets (i.e., data) are the primary enablers of revenue f
 
 **The incentive structure is based solely on producing and consuming software**. Having a big honeypot of data makes no sense.
 
-Indeed, it's actually counter-productive. Even if a contributor on the network did start to collect data through their own means for the whole network to leverage, such an activity would add a point of reliance to the system and degrade its resilience. This directly clashes with the [core principles of the project](https://docs.bisq.network/intro.html#why-bisq-exists), and the community would probably reject integrating such activities into the system.<sup>3</sup>
+Indeed, it's actually counter-productive. Even if a contributor on the network did start to collect data through their own means for the whole network to leverage, such an activity would add a point of reliance to the system and degrade its resilience. This directly clashes with the [core principles of the project](https://bisq.wiki/Introduction#why-bisq-exists), and the community would probably reject integrating such activities into the system.<sup>3</sup>
 
 In this way, Bisq discourages data gathering by design. Through the Bisq DAO, people maintain continuous relationships to coordinate their work with low cost, and the profit motive is high. But with no mothership, profits go directly to the people who earned them, so there is no pressure to accumulate a common base of assets.
 

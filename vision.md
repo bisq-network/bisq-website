@@ -34,7 +34,7 @@ lang_display: En
 <p>You can find out more about the philosophy of Bisq and how it makes trading bitcoin private, secure, and easy in our Introduction doc:</p>
 
 <p><br>
-<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">» Read the Bisq Introduction</a></p>
+<a href="https://bisq.wiki/Introduction" target="_blank" rel="noopener">» Read the Bisq Introduction</a></p>
 
 </div>
 

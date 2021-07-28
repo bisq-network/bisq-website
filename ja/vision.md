@@ -35,7 +35,7 @@ lang_display: 日本語
 <p>概要ドキュメントで、Bisqの哲学と、それがどのようにビットコインをプライベートで、安全で、簡単にするのかについての詳細を見つけることができます：</p>
 
 <p><br>
-<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">»Bisqの紹介を読む</a></p>
+<a href="https://bisq.wiki/Introduction" target="_blank" rel="noopener">»Bisqの紹介を読む</a></p>
 
 </div>
 

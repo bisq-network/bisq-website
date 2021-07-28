@@ -34,7 +34,7 @@ lang_display: Ru
 <p>Вы можете узнать больше о философии Bisq и о том, как в Bisq обеспечивается конфиденциальность, безопасность и простота торговли биткойнами, в нашем вступительном документе:</p>
 
 <p><br>
-<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">» Прочитать вступительный документ Bisq</a></p>
+<a href="https://bisq.wiki/Introduction" target="_blank" rel="noopener">» Прочитать вступительный документ Bisq</a></p>
 
 </div>
 

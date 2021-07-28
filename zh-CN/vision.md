@@ -37,7 +37,7 @@ outdated_translation: false
 <p>在我们的介绍文档中，你可以了解更多关于 Bisq 的理念，以及它是如何让比特币交易变得私密、安全、简单的：</p>
 
 <p><br>
-<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">阅读 Bisq 的介绍</a></p>
+<a href="https://bisq.wiki/Introduction" target="_blank" rel="noopener">阅读 Bisq 的介绍</a></p>
 
 </div>
 

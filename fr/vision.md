@@ -35,7 +35,7 @@ outdated_translation: false
 <p>Pour en savoir plus sur la philosophie de Bisq et comment cela garantit l'anonymat des trades, en toute sécurité et facilement, consultez notre doc d'introduction:</p>
 
 <p><br>
-<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">» Lire l'introduction au sujet de Bisq</a></p>
+<a href="https://bisq.wiki/Introduction" target="_blank" rel="noopener">» Lire l'introduction au sujet de Bisq</a></p>
 
 </div>
 

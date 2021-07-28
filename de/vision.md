@@ -35,7 +35,7 @@ outdated_translation: false
 <p>Mehr über die Philosophie von Bisq und wie es den Handel mit Bitcoin privat, sicher und einfach macht, erfahren Sie in unserem Einführungsdokument:</p>
 
 <p><br>
-<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">» Lesen Sie die Bisq-Einführung</a></p>
+<a href="https://bisq.wiki/Introduction" target="_blank" rel="noopener">» Lesen Sie die Bisq-Einführung</a></p>
 
 </div>
 

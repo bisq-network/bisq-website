@@ -35,7 +35,7 @@ outdated_translation: false
 <p>Puede encontrar más acerca de la filosofía, de Bisq y cómo hace el intercambio de bitcoin privado, seguro y fácil en nuestra Documentación de Introducción:</p>
 
 <p><br>
-<a href="https://docs.bisq.network/intro.html" target="_blank" rel="noopener">» La Introducción a Bisq</a></p>
+<a href="https://bisq.wiki/Introduction" target="_blank" rel="noopener">» La Introducción a Bisq</a></p>
 
 </div>
 

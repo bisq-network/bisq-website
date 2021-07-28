@@ -132,7 +132,7 @@ dao_footer:
   hLearnMore: "Quer saber mais?"
   pLearnMore: "Você pode aprender mais sobre a DAO Bisq a partir dos recursos abaixo, desde documentos e vídeos de alto nível no estilo ELI5 até a especificação técnica para desenvolvedores."
   conceptualOverview: Documento Conceitual com a Visão Geral
-  pConceptualOverview: "<p class=\"bigger\">Descrição <a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">da DAO</a> em linguagem simples.</p>"
+  pConceptualOverview: "<p class=\"bigger\">Descrição <a href=\"https://bisq.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">da DAO</a> em linguagem simples.</p>"
   bisqDaoBrief: A DAO Bisq em pequenos vídeos
   pBisqDaoBrief: "<p class=\"bigger\">Série de vídeos <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">curtos e rápidos</a> sobre a DAO Bisq.</p>"
   technicalOverview: Visão Geral Técnica - Doc

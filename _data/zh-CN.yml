@@ -132,7 +132,7 @@ dao_footer:
   hLearnMore: "想要了解更多？"
   pLearnMore: "您可以从下面的参考资料、高级的 ELI5 风格的文档和视频以及开发人员的技术规范中了解更多关于 Bisq DAO 的信息。"
   conceptualOverview: 概念概述文档
-  pConceptualOverview: "<p class=\"bigger\">DAO 的纯语言<a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">描述</a>。</p>"
+  pConceptualOverview: "<p class=\"bigger\">DAO 的纯语言<a href=\"https://bisq.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">描述</a>。</p>"
   bisqDaoBrief: Bisq DAO 简短的视频介绍
   pBisqDaoBrief: "<p class=\"bigger\">快速，精练<a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">视频系列</a>里的 Bisq DAO 。</p>"
   technicalOverview: 技术概览 - 文档

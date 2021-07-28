@@ -36,7 +36,7 @@ The Bisq DAO and BSQ token are answers to these questions. They've been devised 
 
 ## Common Misconceptions
 
-We've explained how the Bisq DAO works elsewhere ([here's a write-up](https://docs.bisq.network/user-dao-intro.html) and [here's a short video-series](https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e)), so we won't cover those details here.
+We've explained how the Bisq DAO works elsewhere ([here's a write-up](https://bisq.wiki/Introduction_to_the_DAO) and [here's a short video-series](https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e)), so we won't cover those details here.
 
 Instead, we'll cover common questions and misconceptions:
 

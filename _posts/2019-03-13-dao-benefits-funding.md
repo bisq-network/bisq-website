@@ -12,11 +12,11 @@ The Bisq network's approaches to the challenges of funding open-source software 
 
 In this post, we'll cover the practical _results_ of these approaches from a financial perspective: how an integrated revenue model—coupled with decentralized governance—results in an open-source software project that can grow and prosper on its own, while actually being _incentivized_ to protect its users' privacy.
 
-_Since we’ll be discussing the benefits of the Bisq DAO, this post assumes you already know a little bit about it. You can learn the basics with [this video series](https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e) or [this doc](https://docs.bisq.network/user-dao-intro.html)._
+_Since we’ll be discussing the benefits of the Bisq DAO, this post assumes you already know a little bit about it. You can learn the basics with [this video series](https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e) or [this doc](https://bisq.wiki/Introduction_to_the_DAO)._
 
 ## 0. A Note on DAOs
 
-You may have come across the term 'DAO' before. As covered [here](https://docs.bisq.network/user-dao-intro.html#what-is-a-dao), a decentralized autonomous organization (DAO) can be considered a generic term for a governance model sanctioned by software instead of by a state.
+You may have come across the term 'DAO' before. As covered [here](https://bisq.wiki/Introduction_to_the_DAO#What_is_a_DAO.3F), a decentralized autonomous organization (DAO) can be considered a generic term for a governance model sanctioned by software instead of by a state.
 
 A DAO can be made for any purpose, just like a company can be: DASH uses a DAO to manage its cryptocurrency, while Moloch uses a DAO to allocate capital to projects in the Ethereum space.
 

@@ -20,7 +20,7 @@ If you haven’t heard about Bisq, it is one of the few truly decentralized, non
 
 Since its launch in 2016, Bisq has done more than 22,000 trades in volume and has many trading pairs including altcoins and fiat currencies.
 
-There is no central figurehead, and Bisq is taking measures to reward and incentivize its growth and development by making use of the Decentralized Autonomous Organization (DAO). Read about Bisq DAO [here](https://docs.bisq.network/user-dao-intro.html#what-is-a-dao).
+There is no central figurehead, and Bisq is taking measures to reward and incentivize its growth and development by making use of the Decentralized Autonomous Organization (DAO). Read about Bisq DAO [here](https://bisq.wiki/Introduction_to_the_DAO#What_is_a_DAO.3F).
 
 This is where BSQ comes in.
 

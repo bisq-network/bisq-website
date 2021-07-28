@@ -132,7 +132,7 @@ dao_footer:
   hLearnMore: "Хотите узнать больше?"
   pLearnMore: "Вы можете узнать больше о ДАО Bisq из следующих ресурсов, документации и технических видеороликов для разработчиков."
   conceptualOverview: Концепция
-  pConceptualOverview: "<p class=\"bigger\">Упрощённое <a href=\"https://docs.bisq.network/user-dao-intro.html\" target=\"_blank\" rel=\"noopener\">описание</a> ДАО.</p>"
+  pConceptualOverview: "<p class=\"bigger\">Упрощённое <a href=\"https://bisq.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">описание</a> ДАО.</p>"
   bisqDaoBrief: Короткие видеоролики о ДАО Bisq
   pBisqDaoBrief: "<p class=\"bigger\">Короткие <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">видеоролики</a> о ДАО Bisq.</p>"
   technicalOverview: Технический обзор

@@ -36,7 +36,7 @@ _Bitcoin node operator ([link](https://github.com/bisq-network/proposals/issues/
 
 _Accepted_
 
-These proposals were for _wiz_ and _m52go_ to post bonds for the roles listed above. Bonding is a [key element of DAO governance](https://docs.bisq.network/user-dao-intro.html#ensure-honesty-in-high-trust-roles). A little over 300,000 BSQ has now been locked up in bonds for high-trust roles, and a role audit is now underway to ensure remaining bonds are posted as required.
+These proposals were for _wiz_ and _m52go_ to post bonds for the roles listed above. Bonding is a [key element of DAO governance](https://bisq.wiki/Introduction_to_the_DAO#Ensure_honesty_in_high-trust_roles). A little over 300,000 BSQ has now been locked up in bonds for high-trust roles, and a role audit is now underway to ensure remaining bonds are posted as required.
 
 **Raise BSQ fees**
 

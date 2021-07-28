@@ -141,7 +141,7 @@ https://bisq.io https://bisq.network 301
 /docs/dao https://bisq.wiki/Decentralized_autonomous_organization 302
 
 # main dao overview on docs
-/docs/dao/intro https://docs.bisq.network/user-dao-intro.html 302
+/docs/dao/intro https://bisq.wiki/Introduction_to_the_DAO 302
 
 # dao user guide
 /docs/dao/user-guide https://docs.bisq.network/getting-started-dao.html 302
@@ -157,9 +157,6 @@ https://bisq.io https://bisq.network 301
 
 # setup full node docs
 /docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/docs/dao-setup.md 302
-
-# not sure where it is used (not in app), keep it just in case.
-/dao-testnet https://docs.bisq.network/user-dao-intro.html#now-you-try 302
 
 # Overview about Bisq and the DAO (written by Chris), superseded by phase zero doc. Keep it for archive
 /docs/dao/overview https://docs.bisq.network/dao/overview.html 302

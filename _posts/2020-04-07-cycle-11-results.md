@@ -54,7 +54,7 @@ _All were accepted_
 
 * 1 Bisq maintainer: [sqrrm](https://github.com/bisq-network/proposals/issues/187){:target="_blank"}
 
-Bonding is a [key element of DAO governance](https://docs.bisq.network/user-dao-intro.html#ensure-honesty-in-high-trust-roles). This role added over 100,000 BSQ in bond commitments, taking the total amount of bonded BSQ to a little over 400,000 BSQ.
+Bonding is a [key element of DAO governance](https://bisq.wiki/Introduction_to_the_DAO#Ensure_honesty_in_high-trust_roles). This role added over 100,000 BSQ in bond commitments, taking the total amount of bonded BSQ to a little over 400,000 BSQ.
 
 **Promotion of 2 support interns to L1 support agents**
 

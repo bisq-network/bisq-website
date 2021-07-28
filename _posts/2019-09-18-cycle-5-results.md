@@ -47,7 +47,7 @@ Upon approval, this proposal created a bonded role for the _BTC donation address
 
 It also set the `RECIPIENT_BTC_ADDRESS` DAO parameter (aka "donation address") to the bitcoin address specified in the same GitHub proposal linked above.
 
-Part of the core purpose of the Bisq DAO is to [route trading fees directly from traders to contributors](https://docs.bisq.network/user-dao-intro.html#earn-and-distribute-revenue){:target="_blank"} with no one person or entity authorizing funds, providing funds, or routing funds. This is why we encourage Bisq users to use BSQ to pay trading fees, but we don't coerce, so BSQ is optional. Traders can still pay trading fees in BTC. Instead of going to arbitrators, BTC fees will soon go to the donation address.
+Part of the core purpose of the Bisq DAO is to [route trading fees directly from traders to contributors](https://bisq.wiki/Introduction_to_the_DAO#earn-and-distribute-revenue#Earn_and_distribute_revenue){:target="_blank"} with no one person or entity authorizing funds, providing funds, or routing funds. This is why we encourage Bisq users to use BSQ to pay trading fees, but we don't coerce, so BSQ is optional. Traders can still pay trading fees in BTC. Instead of going to arbitrators, BTC fees will soon go to the donation address.
 
 The person taking on this role will periodically purchase BSQ with the BTC accumulated in the donation address. They will be assigned to the [corresponding role issue](https://github.com/bisq-network/roles/issues/80){:target="_blank"} shortly, where you will see monthly updates.
 

@@ -136,7 +136,7 @@ dao_footer:
   bisqDaoBrief: Bisq DAO 简短的视频介绍
   pBisqDaoBrief: "<p class=\"bigger\">快速，精练<a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">视频系列</a>里的 Bisq DAO 。</p>"
   technicalOverview: 技术概览 - 文档
-  pTechnicalOverview: "<p class=\"bigger\">Bisq DAO 和 BSQ 令牌工作原理的<a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">说明</a>。</p>"
+  pTechnicalOverview: "<p class=\"bigger\">Bisq DAO 和 BSQ 令牌工作原理的<a href=\"https://bisq.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">说明</a>。</p>"
   notConvinced: "不确定是否需要 BSQ？"
   pNotConvinced: "<p class=\"bigger\">我们专门为你准备了一个<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">职位</a>。"
   seeMore: >

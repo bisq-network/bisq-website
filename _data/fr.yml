@@ -136,7 +136,7 @@ dao_footer:
   bisqDaoBrief: La DAO de Bisq en vidéos brèves
   pBisqDaoBrief: "<p class=\"bigger\">Rapide, courte <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">série de vidéos</a> sur la DAO de Bisq.</p>"
   technicalOverview: Vue d'ensemble technique - Documentation
-  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">Spécificité</a> du fonctionnement de la DAO de Bisq et du jeton BSQ.</p>"
+  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://bisq.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">Spécificité</a> du fonctionnement de la DAO de Bisq et du jeton BSQ.</p>"
   notConvinced: "Vous n'êtes pas convaincu qu'un jeton est nécessaire?"
   pNotConvinced: "<p class=\"bigger\">Nous avons un <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">message</a> rien que pour vous.</p>"
   seeMore: >

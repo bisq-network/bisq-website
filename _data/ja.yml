@@ -136,7 +136,7 @@ dao_footer:
   bisqDaoBrief: Bisq DAOの概略ビデオ
   pBisqDaoBrief: "<p class=\"bigger\">Bisq DAOの早く短い<a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">ビデオシリーズ</a>。</p>"
   technicalOverview: 技術概要-ドキュメント
-  pTechnicalOverview: "<p class=\"bigger\">Bisq DAOとBSQトークンの動作の<a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">仕様</a>。</p>"
+  pTechnicalOverview: "<p class=\"bigger\">Bisq DAOとBSQトークンの動作の<a href=\"https://bisq.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">仕様</a>。</p>"
   notConvinced: "トークンが必要だと確信していないですか？"
   pNotConvinced: "<p class=\"bigger\">あなた専用の<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">投稿</a>があります。</p>"
   seeMore: >

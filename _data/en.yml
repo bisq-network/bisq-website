@@ -129,7 +129,7 @@ dao_footer:
   bisqDaoBrief: Bisq DAO in Brief - Videos
   pBisqDaoBrief: "<p class=\"bigger\">Quick, short <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">video series</a> on the Bisq DAO.</p>"
   technicalOverview: Technical Overview - Doc
-  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">Specification</a> of the workings of the Bisq DAO and BSQ token.</p>"
+  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://bisq.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">Specification</a> of the workings of the Bisq DAO and BSQ token.</p>"
   notConvinced: "Not convinced a token is required?"
   pNotConvinced: "<p class=\"bigger\">We’ve got a <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">post</a> just for you.</p>"
   seeMore: "<p>See more resources on our <a href='https://bisq.wiki/Decentralized_autonomous_organization'>All About the Bisq DAO</a> doc.</p>"

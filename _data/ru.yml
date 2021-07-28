@@ -136,7 +136,7 @@ dao_footer:
   bisqDaoBrief: Короткие видеоролики о ДАО Bisq
   pBisqDaoBrief: "<p class=\"bigger\">Короткие <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">видеоролики</a> о ДАО Bisq.</p>"
   technicalOverview: Технический обзор
-  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://docs.bisq.network/dao/specification.html\" target=\"_blank\" rel=\"noopener\">Спецификация</a> ДАО Bisq и токена BSQ.</p>"
+  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://bisq.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">Спецификация</a> ДАО Bisq и токена BSQ.</p>"
   notConvinced: "Не уверены, зачем нужен токен?"
   pNotConvinced: "<p class=\"bigger\">Прочитайте <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">этот</a> пост.</p>"
   seeMore: >

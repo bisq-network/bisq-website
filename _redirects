@@ -150,7 +150,7 @@ https://bisq.io https://bisq.network 301
 /phase-zero https://docs.bisq.network/dao/phase-zero.html 302
 
 # tech spec
-/docs/dao/specification https://docs.bisq.network/dao/specification.html 302
+/docs/dao/specification https://bisq.wiki/DAO_technical_overview 302
 
 # for genesis distribution
 /docs/dao/genesis https://docs.bisq.network/compensation.html#get-added-to-genesis 302

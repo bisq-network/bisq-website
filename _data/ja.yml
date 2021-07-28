@@ -166,11 +166,6 @@ downloads:
   hMobileNotifications: Bisqモバイル通知
   pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
 
-markets:
-  buy: BTCオファーを購入
-  sell: BTCオファーを売却
-  tradeHistory: トレード履歴<span class="grey">（最近の100トレード）</span>
-
 stats:
   hNetworkStats: ネットワーク統計
   pSeeMarkets: "<p>通貨別の取引高については<a href='https://bisq.network/ja/markets'>マーケットのページ</a>をご覧ください。</p>"

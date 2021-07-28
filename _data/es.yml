@@ -166,11 +166,6 @@ downloads:
   hMobileNotifications: Notificaciones móviles Bisq
   pMobileNotifications: Manténgase al día en sus intercambios y reciba notificaciones en su celular.
 
-markets:
-  buy: Comprar ofertas BTC
-  sell: Vender ofertas BTC
-  tradeHistory: Historial de intercambios <span class="grey">(Últimos 100 intercambios)</span>
-
 stats:
   hNetworkStats: Estado de red
   pSeeMarkets: "<p>Ver la <a href='https://bisq.network/es/markets'>página de Mercados</a> para el volumen por moneda.</p>"

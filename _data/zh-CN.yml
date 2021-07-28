@@ -166,11 +166,6 @@ downloads:
   hMobileNotifications: Bisq 通知应用程序
   pMobileNotifications: 保持最新的交易和接收通知在您的手机上。
 
-markets:
-  buy: 购买 BTC 报价
-  sell: 出售 BTC 报价
-  tradeHistory: 交易历史<span class="grey">（最新的100个）</span>
-
 stats:
   hNetworkStats: 网络状况
   pSeeMarkets: "<p>按货币计算的成交量见<a href='https://bisq.network/zh-CN/markets'>市场页面</a>。</p>"

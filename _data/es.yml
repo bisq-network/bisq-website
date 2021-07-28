@@ -1,7 +1,7 @@
 main_nav:
   downloads: Descargas # main nav link: please be as short as possible
   learnMore: Aprender más # main nav link: please be as short as possible
-  documentation: Documentación # 14 characters max
+  documentation: Wiki # 14 characters max
   blog: Blog # 14 characters max
   community: Comunidad # 14 characters max
   gettingStarted: Empezando # main nav link: please be as short as possible

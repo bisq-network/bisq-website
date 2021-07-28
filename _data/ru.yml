@@ -1,7 +1,7 @@
 main_nav:
   downloads: Загрузить # main nav link: please be as short as possible
   learnMore: Узнать больше # main nav link: please be as short as possible
-  documentation: Документация # 14 characters max
+  documentation: вики # 14 characters max
   blog: Блог # 14 characters max
   community: Сообщество # 14 characters max
   gettingStarted: Начало работы # main nav link: please be as short as possible

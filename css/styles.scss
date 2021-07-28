@@ -1697,6 +1697,11 @@ body.dark-mode .features-pic {
     filter: invert(1) hue-rotate(165deg);
 }
 
+img.external-link-symbol {
+    height: auto;
+    width: 14px;
+    vertical-align: top;
+}
 
 body.dark-mode .homepage-hero img,
 body.dark-mode .step-image-1 img,

@@ -140,7 +140,7 @@ dao_footer:
   notConvinced: "Не уверены, зачем нужен токен?"
   pNotConvinced: "<p class=\"bigger\">Прочитайте <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">этот</a> пост.</p>"
   seeMore: >
-    <p>С дополнительными ресурсами можно ознакомиться в статье <a href='https://docs.bisq.network/dao.html'>«Все о ДАО Bisq»</a>.</p>
+    <p>С дополнительными ресурсами можно ознакомиться в статье <a href='https://bisq.wiki/Decentralized_autonomous_organization'>«Все о ДАО Bisq»</a>.</p>
 downloads:
   hBisqDownloads: Загрузить Bisq
   runningWindows: "Похоже, вы используете Windows"

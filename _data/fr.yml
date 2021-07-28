@@ -140,7 +140,7 @@ dao_footer:
   notConvinced: "Vous n'êtes pas convaincu qu'un jeton est nécessaire?"
   pNotConvinced: "<p class=\"bigger\">Nous avons un <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">message</a> rien que pour vous.</p>"
   seeMore: >
-    <p>Consultez d'autres ressources sur notre <a href='https://docs.bisq.network/dao.html'>Tout savoir sur la DAO de Bisq</a> doc.</p>
+    <p>Consultez d'autres ressources sur notre <a href='https://bisq.wiki/Decentralized_autonomous_organization'>Tout savoir sur la DAO de Bisq</a> doc.</p>
 downloads:
   hBisqDownloads: Téléchargements Bisq
   runningWindows: Vous semblez utiliser Windows

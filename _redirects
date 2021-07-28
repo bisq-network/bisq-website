@@ -138,7 +138,7 @@ https://bisq.io/* https://bisq.network/:splat 301!
 https://bisq.io https://bisq.network 301
 
 # main page on docs for dao with links to further content
-/docs/dao https://docs.bisq.network/dao.html 302
+/docs/dao https://bisq.wiki/Decentralized_autonomous_organization 302
 
 # main dao overview on docs
 /docs/dao/intro https://docs.bisq.network/user-dao-intro.html 302

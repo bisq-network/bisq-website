@@ -140,7 +140,7 @@ dao_footer:
   notConvinced: "トークンが必要だと確信していないですか？"
   pNotConvinced: "<p class=\"bigger\">あなた専用の<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">投稿</a>があります。</p>"
   seeMore: >
-    <p><a href='https://docs.bisq.network/dao.html'>Bisq DAOに関するすべて</a>のドキュメントで、その他のリソースを参照できます。</p>
+    <p><a href='https://bisq.wiki/Decentralized_autonomous_organization'>Bisq DAOに関するすべて</a>のドキュメントで、その他のリソースを参照できます。</p>
 downloads:
   hBisqDownloads: Bisqダウンロード
   runningWindows: Windowsを実行しているようです。

@@ -140,7 +140,7 @@ dao_footer:
   notConvinced: "不确定是否需要 BSQ？"
   pNotConvinced: "<p class=\"bigger\">我们专门为你准备了一个<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">职位</a>。"
   seeMore: >
-    <p><a href='https://docs.bisq.network/dao.html'>有关Bisq DAO 文档的更多信息</a>，请参阅参考资料。</p>
+    <p><a href='https://bisq.wiki/Decentralized_autonomous_organization'>有关Bisq DAO 文档的更多信息</a>，请参阅参考资料。</p>
 downloads:
   hBisqDownloads: Bisq 下载
   runningWindows: 你似乎在使用 Windows

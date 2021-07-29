@@ -105,29 +105,6 @@ dao_page_text:
   benefitsText: " <div class=\"subtitle\">Trader: Machen Sie Bisq nachhaltig</div> <ul class=\"small pb-5\"> <li>Helfen Sie Bisq bei der konsequenten professionellen Entwicklung und unterstützen Sie das Projekt, indem Sie BSQ von Mitwirkenden kaufen.</li> <li>Helfen Sie, Bisq zum zensurresistenten Bitcoin-zu-Fiat- und Bitcoin-zu-Krypto-Marktplatz zu machen.</li> <li>Genießen Sie einen Rabatt, wenn Sie BSQ zur Zahlung von Trading-Gebühren verwenden.<li>Sie können trotzdem Trading-Gebühren mit normalen BTC bezahlen, wenn Sie möchten.</li> </ul> <div class=\"subtitle\">Mitwirkende: Verdienen Sie BSQ</div> <ul class=\"small pb-5\"> <li>Leisten Sie wertvolle Arbeit, beantragen Sie eine Vergütung, verdienen Sie BSQ.</li> <li>Verkaufen Sie BSQ auf Bisq für BTC.</li> <li>Stimmen Sie ab über Vergütungsanträge anderer Mitarbeiter.</li> <li>Arbeiten Sie an Spitzentechnologien mit einer hochmodernen Kultur - die Zusammenarbeit von Bisq ist genehmigungsfrei, unhierarchisch und reibungslos.</li> </ul>"
   benefitsLinkText: Lernen Sie mehr über die DAO
 
-dao_images:
-  dao_intro_contributor: Mitarbeiter
-  dao_intro_improvements: Verbesserungen
-  dao_intro_compensation: Kompensation
-  dao_intro_trader: Trader
-  dao_intro_bsq: BSQ COLORED BITCOIN
-  dao_intro_bisq: Bisq Network
-  dao_intro_fees: Trading-Gebühren
-  dao_why_without: Ohne DAO
-  dao_why_with: Mit DAO
-  dao_why_contributors: Mitarbeiter
-  dao_why_traders: Trader
-  dao_why_cpof: Zentralisierte Fehlerstelle
-  dao_why_decent_governance: Dezentrale Governance 
-  dao_what_fees: Gebühren
-  dao_what_contributions: Beiträge
-  dao_what_traders: Trader
-  dao_what_contributors: Mitarbeiter
-  dao_how_revenue: Erlösverteilung
-  dao_how_decisions: Entscheidungsfindung
-  dao_benefits_issuance: BSQ ausgegeben als Kompensation
-  dao_benefits_burn: Trading-Gebühren
-
 dao_footer:
   hLearnMore: "Wollen Sie mehr erfahren?"
   pLearnMore: "Sie können mehr über die Bisq DAO erfahren, indem Sie die folgenden Ressourcen nutzen, von anspruchsvollen Dokumenten und Videos im ELI5-Stil bis hin zur technischen Spezifikation für Entwickler."

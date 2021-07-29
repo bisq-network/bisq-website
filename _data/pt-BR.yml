@@ -105,29 +105,6 @@ dao_page_text:
   benefitsText: "<div class=\"subtitle\">Negociadores: Tornar Bisq sustentável</div><ul class=\"small pb-5\"><li> Ajude a Bisq a crescer com desenvolvimento profissional consistente e ajude comprando BSQ de contribuidores</li><li> Ajude a fazer da Bisq o principal mercado de bitcoin-fiat e bitcoin-alt resistente à censura</li><li> Ganhe um desconto ao usar o BSQ para pagar taxas de negociações</li><li> Você ainda pode pagar as taxas de negociação com BTC comum se quiser</li></ul><div class=\"subtitle\"> Contribuidores: Ganhe BSQ </div><ul class=\"small pb-5\"><li>Faça um trabalho valioso, solicite compensação, ganhe BSQ</li><li> Venda BSQ no Bisq por BTC</li><li> Vote em pedidos de compensação de outros contribuintes</li><li> Trabalhe com tecnologia de ponta com  cultura de ponta - a colaboração Bisq é sem permissão, não hierárquica e fluida</li></ul>"
   benefitsLinkText: Aprenda mais sobre a DAO
 
-dao_images:
-  dao_intro_contributor: Contribuidor
-  dao_intro_improvements: Melhorias
-  dao_intro_compensation: Compensação
-  dao_intro_trader: Negociador
-  dao_intro_bsq: BITCOIN COLORIDO BSQ
-  dao_intro_bisq: Rede Bisq
-  dao_intro_fees: Taxas de Negociação
-  dao_why_without: Sem DAO
-  dao_why_with: Com DAO
-  dao_why_contributors: Contribuidores
-  dao_why_traders: Negociadores
-  dao_why_cpof: Ponto de falha centralizado
-  dao_why_decent_governance: Governança Descentralizada
-  dao_what_fees: Taxas
-  dao_what_contributions: Contribuições
-  dao_what_traders: Negociadores
-  dao_what_contributors: Contribuidores
-  dao_how_revenue: Distribuição de receita
-  dao_how_decisions: Tomando decisão
-  dao_benefits_issuance: BSQ emitido para compensações
-  dao_benefits_burn: Taxas de Negociação
-
 dao_footer:
   hLearnMore: "Quer saber mais?"
   pLearnMore: "Você pode aprender mais sobre a DAO Bisq a partir dos recursos abaixo, desde documentos e vídeos de alto nível no estilo ELI5 até a especificação técnica para desenvolvedores."

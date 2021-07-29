@@ -105,29 +105,6 @@ dao_page_text:
   benefitsText: " <div class=\"subtitle\">Comerciantes: Hagan a Bisq sostenible</div> <ul class=\"small pb-5\"> <li>Ayuden a Bisq a entregar un desarrollo profesional de manera consistente y apoyo comprando BSQ a los contribuidores.</li> <li>Ayuden a hacer de Bisq el mercado de confianza resistente a la censura, para intercambiar tanto bitcoin-fiat como bitcoin-cripto.</li> <li>Disfute de un descuento usando BSQ para pagar las cuotas de intercambio.</li> <li>Usted aún puede pagar tasas de intercambio con BTC si lo desea</li> </ul> <div class=\"subtitle\">Contribuidores: Ganen BSQ</div> <ul class=\"small pb-5\"> <li>Realicen trabajo valioso, soliciten compensación, y ganen BSQ</li> <li>Vendan BSQ en Bisq por BTC</li> <li>Voten en las solicitudes de compensación de otros contribuyentes</li> <li>Trabajen en tecnología de punta con una cultura innovadora. Colaborar con Bisq no requiere permiso, no es jerárquico, y es fluido.</li> </ul>"
   benefitsLinkText: Leer más acerca de la DAO
 
-dao_images:
-  dao_intro_contributor: Contribuyente
-  dao_intro_improvements: Mejoras
-  dao_intro_compensation: Compensación
-  dao_intro_trader: Comerciante
-  dao_intro_bsq: BSQ BITCOIN COLOREADO
-  dao_intro_bisq: Red Bisq
-  dao_intro_fees: Comisiones de Intercambio
-  dao_why_without: Sin DAO
-  dao_why_with: Con DAO
-  dao_why_contributors: Contribuidores
-  dao_why_traders: Comerciantes
-  dao_why_cpof: Punto Centralizado de Fallo
-  dao_why_decent_governance: Gobernanza descentralizada
-  dao_what_fees: Comisiones
-  dao_what_contributions: Contribuciones
-  dao_what_traders: Comerciantes
-  dao_what_contributors: Contribuidores
-  dao_how_revenue: Distribución de ingresos
-  dao_how_decisions: Toma de decisiones
-  dao_benefits_issuance: BSQ emitidos para compensaciones
-  dao_benefits_burn: Comisiones de Intercambio
-
 dao_footer:
   hLearnMore: "¿Quiere aprender más?"
   pLearnMore: "Puede aprender más acerca de la DAO Bisq desde los recursos de abajo, desde documentos ELI5-style de alto nivel y videos a especificaciones técnicas para desarrolladores."

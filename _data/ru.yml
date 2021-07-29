@@ -105,29 +105,6 @@ dao_page_text:
   benefitsText: " <div class=\"subtitle\">Трейдеры: помощь развитию Bisq </div> <ul class=\"small pb-5\"> <li>Помощь в постоянном развитии Bisq и поддержка проекта посредством покупки BSQ у разработчиков.</li> <li>Помощь в позиционировании Bisq как надежной цензуростойкой биржи для обмена биткойнов на национальную валюту и другие криптовалюты.</li> <li>Скидка при использовании BSQ для оплаты комиссий.</li> <li>Комиссию за сделки можно также оплачивать в BTC.</li> </ul> <div class=\"subtitle\">Пользователи, помогающие развитию проекта: получение BSQ</div> <ul class=\"small pb-5\"> <li>Выполняйте полезную работу, запрашивайте компенсацию и зарабатывайте BSQ.</li> <li>Продавайте BSQ в Bisq за BTC.</li> <li>Голосуйте за запросы компенсации других пользователей.</li> <li>Работайте над развитием сверхсовременной технологии со сверхсовременной культурой — работа в Bisq не требует разрешения, отчетов начальству и не подразумевает долгосрочных обязательств.</li> </ul>"
   benefitsLinkText: Узнать больше о ДАО
 
-dao_images:
-  dao_intro_contributor: Разработчик
-  dao_intro_improvements: Улучшения
-  dao_intro_compensation: Компенсация
-  dao_intro_trader: Трейдер
-  dao_intro_bsq: BSQ («ЦВЕТНОЙ» БИТКОЙН)
-  dao_intro_bisq: Сеть Bisq
-  dao_intro_fees: Комиссии
-  dao_why_without: Без ДАО
-  dao_why_with: С ДАО
-  dao_why_contributors: Разработчики
-  dao_why_traders: Трейдеры
-  dao_why_cpof: Централизованная точка отказа
-  dao_why_decent_governance: Децентрализованное управление
-  dao_what_fees: Комиссии
-  dao_what_contributions: Улучшения Bisq
-  dao_what_traders: Трейдеры
-  dao_what_contributors: Разработчики
-  dao_how_revenue: Распределение доходов
-  dao_how_decisions: Принятие решений
-  dao_benefits_issuance: BSQ, эмитированные в качестве компенсации
-  dao_benefits_burn: Комиссии
-
 dao_footer:
   hLearnMore: "Хотите узнать больше?"
   pLearnMore: "Вы можете узнать больше о ДАО Bisq из следующих ресурсов, документации и технических видеороликов для разработчиков."

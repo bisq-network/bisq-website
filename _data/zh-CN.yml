@@ -105,29 +105,6 @@ dao_page_text:
   benefitsText: "<div class=\"subtitle\">交易者：让 Bisq 可持续发展</div><ul class=\"small pb-5\"><li>通过从贡献者那里购买 BSQ ，帮助 Bisq 提供持续的专业开发和支持</li><li>帮助 Bisq 成为抗审查的比特币-法定货币和比特币-数字货币市场</li><li>如果您使用 BSQ 支付交易手续，可以享受折扣</li><li>如果您愿意，您仍然可以使用普通的 BTC 支付交易手续费</li></ul><div class=\"subtitle\">贡献者：赚取 BSQ</div><ul class=\"small pb-5\"><li>做有价值的工作，请求报偿，赚取 BSQ</li><li>在 Bisq 上为 BTC 出售 BSQ</li><li>对其他贡献者的薪酬要求进行表决</li><li>使用前沿文化— Bisq 协作的前沿技术的工作是不受许可的、非层次的和流动的</li></ul>"
   benefitsLinkText: 了解更多关于 DAO 的信息
 
-dao_images:
-  dao_intro_contributor: 贡献者
-  dao_intro_improvements: 改进
-  dao_intro_compensation: 报酬
-  dao_intro_trader: 交易商
-  dao_intro_bsq: 基于 BTC 的 BSQ
-  dao_intro_bisq: Bisq 网络
-  dao_intro_fees: 交易手续费
-  dao_why_without: 不使用 DAO
-  dao_why_with: 使用 DAO
-  dao_why_contributors: 贡献者
-  dao_why_traders: 交易商
-  dao_why_cpof: 中心化的坏处
-  dao_why_decent_governance: 去中心化的表决
-  dao_what_fees: 手续费
-  dao_what_contributions: 贡献
-  dao_what_traders: 交易商
-  dao_what_contributors: 贡献者
-  dao_how_revenue: 收益分配
-  dao_how_decisions: 决策
-  dao_benefits_issuance: BSQ 发放报偿
-  dao_benefits_burn: 交易手续费
-
 dao_footer:
   hLearnMore: "想要了解更多？"
   pLearnMore: "您可以从下面的参考资料、高级的 ELI5 风格的文档和视频以及开发人员的技术规范中了解更多关于 Bisq DAO 的信息。"

@@ -98,29 +98,6 @@ dao_page_text:
   benefitsText: " <div class=\"subtitle\">Traders: Make Bisq sustainable</div> <ul class=\"small pb-5\"> <li>Help Bisq deliver consistent professional development and support by buying BSQ from contributors</li> <li>Help make Bisq the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li> <li>Enjoy a discount if you use BSQ to pay trading fees</li> <li>You can still pay trading fees with plain BTC if you like</li> </ul> <div class=\"subtitle\">Contributors: Earn BSQ</div> <ul class=\"small pb-5\"> <li>Do valuable work, request compensation, earn BSQ</li> <li>Sell BSQ on Bisq for BTC</li> <li>Vote on compensation requests of other contributors</li> <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid</li> </ul>"
   benefitsLinkText: Learn more about the DAO
 
-dao_images:
-  dao_intro_contributor: Contributor
-  dao_intro_improvements: Improvements
-  dao_intro_compensation: Compensation
-  dao_intro_trader: Trader
-  dao_intro_bsq: BSQ COLORED BITCOIN
-  dao_intro_bisq: Bisq Network
-  dao_intro_fees: Trading Fees
-  dao_why_without: Without DAO
-  dao_why_with: With DAO
-  dao_why_contributors: Contributors
-  dao_why_traders: Traders
-  dao_why_cpof: Centralized Point of Failure
-  dao_why_decent_governance: Decentralized Governance
-  dao_what_fees: Fees
-  dao_what_contributions: Contributions
-  dao_what_traders: Traders
-  dao_what_contributors: Contributors
-  dao_how_revenue: Revenue-distribution
-  dao_how_decisions: Decision-making
-  dao_benefits_issuance: BSQ issued for compensations
-  dao_benefits_burn: Trading fees
-
 dao_footer:
   hLearnMore: "Want to learn more?"
   pLearnMore: "You can learn more about the Bisq DAO from the resources below, from high-level ELI5-style docs and videos to the technical specification for developers."

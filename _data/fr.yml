@@ -105,29 +105,6 @@ dao_page_text:
   benefitsText: " <div class=\"subtitle\">Traders: Rendez Bisq durable</div> <ul class=\"small pb-5\"> <li>Aidez Bisq à réaliser un développement professionnel et apportez un soutien constant en achetant des BSQ à des contributeurs.</li> <li>Aidez à faire de Bisq une plateforme de référence pour des échanges bitcoin contre fiat et bitcoin contre crypto résistants à la censure</li> <li>Profitez de réductions si vous utilisez des BSQ pour payer vos frais de transaction.</li> <li>Vous pouvez toujours payer les frais de trading simplement en BTC si vous le souhaitez.</li> </ul> <div class=\"subtitle\">Contributeurs: Obtenez des BSQ</div> <ul class=\"small pb-5\"> <li>Effectuez une tâche utile, demander une compensation, obtenez des BSQ</li> <li>Vendre des BSQ sur Bisq contre des BTC</li> <li>Votez pour des demandes de compensation des autres contributeurs</li> <li>Travailler sur une technologie de pointe dans un environnement culturel à la pointe—La collaboration sur Bisq est sans demande de permission, non hiérarchique et fluide</li> </ul>"
   benefitsLinkText: Pour en savoir plus sur la DAO
 
-dao_images:
-  dao_intro_contributor: Contributeur
-  dao_intro_improvements: Améliorations
-  dao_intro_compensation: Compensation
-  dao_intro_trader: Trader
-  dao_intro_bsq: BSQ COLORED BITCOIN
-  dao_intro_bisq: Réseau Bisq
-  dao_intro_fees: Frais de Trading
-  dao_why_without: Sans la DAO
-  dao_why_with: Avec le DAO
-  dao_why_contributors: Contributeurs
-  dao_why_traders: Traders
-  dao_why_cpof: Point de rupture centralisé
-  dao_why_decent_governance: Gouvernance décentralisée
-  dao_what_fees: Frais
-  dao_what_contributions: Contributions
-  dao_what_traders: Traders
-  dao_what_contributors: Contributeurs
-  dao_how_revenue: Répartition des revenus
-  dao_how_decisions: Prise de décision
-  dao_benefits_issuance: BSQ émis pour en compensations
-  dao_benefits_burn: Frais de Trading
-
 dao_footer:
   hLearnMore: "Vous voulez en savoir plus?"
   pLearnMore: "Vous pouvez en apprendre davantage sur la DAO de Bisq à partir des ressources ci-dessous, qui contiennent de la documentation complète de type ELI5, ainsi des vidéos avec les spécifications techniques pour les développeurs."

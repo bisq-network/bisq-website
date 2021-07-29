@@ -105,29 +105,6 @@ dao_page_text:
   benefitsText: "<div class=\"subtitle\">トレーダー：Bisqを持続可能なものにする</div> <ul class=\"small pb-5\"> <li>貢献者からBSQを購入することにより、Bisqが一貫した専門的な開発とサポートを提供できるようにする</li> <li>Bisqを検閲耐性のある、ビットコインと法定通貨、およびビットコインと暗号通貨のマーケットプレイスにする</li> <li>BSQを使用してトレード手数料を支払う場合、割引を享受できます</li> <li>必要に応じてプレーンのBTCでトレード手数料を支払うこともできます</li></ul>  <div class=\"subtitle\">貢献者：BSQを獲得</div> <ul class=\"small pb-5\"> <li>価値ある仕事を行い、報酬を請求し、BSQを獲得</li><li>BTCの為にBisqでBSQを売却</li><li>他の貢献者の補償請求に投票</li> <li>最先端の文化を備えた最先端のテクノロジーでの取り組み。Bisqの協力には許可が必要なく、非階層的で流動的です</li> </ul>"
   benefitsLinkText: DAOについてもっと知る
 
-dao_images:
-  dao_intro_contributor: 貢献者
-  dao_intro_improvements: 改善
-  dao_intro_compensation: 補償
-  dao_intro_trader: 取引者
-  dao_intro_bsq: BSQ カラード ビットコイン
-  dao_intro_bisq: Bisqネットワーク
-  dao_intro_fees: トレード手数料
-  dao_why_without: DAOなし
-  dao_why_with: DAOあり
-  dao_why_contributors: 貢献者
-  dao_why_traders: 取引者
-  dao_why_cpof: 中央集権化された障害点
-  dao_why_decent_governance: 非中央集権型のガバナンス
-  dao_what_fees: 手数料
-  dao_what_contributions: 貢献
-  dao_what_traders: 取引者
-  dao_what_contributors: 貢献者
-  dao_how_revenue: 収益分配
-  dao_how_decisions: 意思決定
-  dao_benefits_issuance: 補償のために発行されるBSQ
-  dao_benefits_burn: トレード手数料
-
 dao_footer:
   hLearnMore: "もっと知りたいですか？"
   pLearnMore: "Bisq DAOの詳細については、高レベルのELI5スタイルのドキュメントやビデオから開発者向けの技術仕様まで、以下のリソースからご覧ください。"

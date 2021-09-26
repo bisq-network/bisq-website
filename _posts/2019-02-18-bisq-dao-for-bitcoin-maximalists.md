@@ -56,7 +56,7 @@ However, when there is no entity, as in Bisq's case, things change. New tools ar
 
 Here's a concrete example of how this mechanism allows traders to pay contributors without any central wallets. We use round numbers for simplicity.
 
-Developer does $1000 of work on Bisq software. He requests $1000 of BSQ, and includes 1000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1000 satoshis into BSQ worth $1000. Traders buy this BSQ with $1000 of BTC, and then use the BSQ to pay trading fees.
+Developer does $1,000 of work on Bisq software. He requests $1,000 of BSQ and includes 1,000 satoshis with his request. DAO stakeholders vote to approve his request, coloring his 1,000 satoshis into BSQ worth $1,000. Traders buy this BSQ with $1,000 of BTC, and then use the BSQ to pay trading fees.
 
 BSQ is just a placeholder for a BTC payment until the other party is known. The DAO is just a mechanism for collective decision-making in the absence of a CEO.
 
@@ -100,7 +100,7 @@ This is why we call it the Bisq Network and not the Bisq Project. This has been 
 
 New BSQ is issued every time a contributor's request is approved through DAO voting. BSQ issuance is not a one-time event. Issuance is not a capital raise like an ICO—it happens continually as contributors do work.
 
-BSQ is also burned out of existance continually as traders use it to pay trading fees.
+BSQ is also burned out of existence continually as traders use it to pay trading fees.
 
 This issuance and burning creates a scarcity dynamic for the BSQ token.
 

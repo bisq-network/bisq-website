@@ -1,6 +1,6 @@
 ---
 layout: page_dao
-title: The DAO &lsaquo; Bisq - The decentralized Bitcoin exchange
+title: The DAO &lsaquo; Bisq - A decentralized bitcoin exchange network
 ref: dao
 lang: pt-BR
 lang_display: Pt (Br)

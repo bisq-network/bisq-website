@@ -81,7 +81,7 @@ We tried hard to find a funding model which is closely aligned to our constituti
 
 It is an opportunity for us and for the bitcoin community to evaluate its values, to check where we are and where we are aiming to go. Bitcoin is not just the next PayPal, it has a revolutionary potential and that is the reason why we are in and why we are working hard to make that project a reality.
 
-## Committed to Satoshis vision of bitcoin
+## Committed to Satoshi's vision of Bitcoin
 
 In times when big banks and Wall Street giants are entering the bitcoin space with [investments of 75M USD][15] in exchanges which are representing more or less the opposite of what we are standing for, it is time to act: It is time to bring new infrastructure to bitcoin which is following bitcoins inherent concept of decentralisation and protection of privacy.
 

@@ -52,7 +52,7 @@ _Generic proposal and parameter change ([link](https://github.com/bisq-network/p
 
 _Accepted_
 
-Key stakeholders approved a proposal to change the owner of the Bisq donation address. A corresponding parameter change proposal was made to change the bitcoin address in the DAO, and the new owner's 50 000 BSQ bond was locked upon the close of Cycle 8.
+Key stakeholders approved a proposal to change the owner of the Bisq donation address. A corresponding parameter change proposal was made to change the Bitcoin address in the DAO, and the new owner's 50 000 BSQ bond was locked upon the close of Cycle 8.
 
 ---
 

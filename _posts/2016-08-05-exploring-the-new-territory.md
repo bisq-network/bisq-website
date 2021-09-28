@@ -70,7 +70,7 @@ Bitcoin seems to become the **wet dream for governments** to get full control an
 
 Those companies who are engaged in that business of weakening privacy cannot be considered as anything else than parasites – destroying it's host for short term profits.
 
-So even those who are not convinced of the [importance of the protection of privacy][8] should be alarmed about that, because such a currency will never find mass adoption. No company will use Bitcoin when they know that they have zero privacy with their transactions. Furthermore, people will not accept Bitcoin as payment if they cannot be sure that they can spend it later without risk. The burden of verifying the history of a coin and evaluating it's risk would produce too much friction for mass adoption. All that would make Bitcoin inferior to the USD or EUR.
+So even those who are not convinced of the [importance of the protection of privacy][8] should be alarmed about that, because such a currency will never find mass adoption. No company will use Bitcoin when they know that they have zero privacy with their transactions. Furthermore, people will not accept bitcoin as payment if they cannot be sure that they can spend it later without risk. The burden of verifying the history of a coin and evaluating it's risk would produce too much friction for mass adoption. All that would make Bitcoin inferior to the USD or EUR.
 
 ### How can a decentralized exchange like Bitsquare help here?
 

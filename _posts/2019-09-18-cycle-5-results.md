@@ -45,7 +45,7 @@ _Approved_
 
 Upon approval, this proposal created a bonded role for the _BTC donation address owner_ in the Bisq DAO assigned to burning2019, who [locked the requisite 50 000 BSQ bond](https://explorer.bisq.network/tx.html?tx=45859e0fc3c75db969fb33e85dfd5b35c62743ba8649186ca02703d90579ac3a){:target="_blank"} on Monday.
 
-It also set the `RECIPIENT_BTC_ADDRESS` DAO parameter (aka "donation address") to the bitcoin address specified in the same GitHub proposal linked above.
+It also set the `RECIPIENT_BTC_ADDRESS` DAO parameter (aka "donation address") to the Bitcoin address specified in the same GitHub proposal linked above.
 
 Part of the core purpose of the Bisq DAO is to [route trading fees directly from traders to contributors](https://bisq.wiki/Introduction_to_the_DAO#earn-and-distribute-revenue#Earn_and_distribute_revenue){:target="_blank"} with no one person or entity authorizing funds, providing funds, or routing funds. This is why we encourage Bisq users to use BSQ to pay trading fees, but we don't coerce, so BSQ is optional. Traders can still pay trading fees in BTC. Instead of going to arbitrators, BTC fees will soon go to the donation address.
 

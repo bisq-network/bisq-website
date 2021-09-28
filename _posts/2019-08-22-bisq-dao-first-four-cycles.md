@@ -177,4 +177,4 @@ At roughly the same time as the DAO launch in April, it became clear that the ne
 
 Also needed quickly is the implementation of [a new trade protocol](https://github.com/bisq-network/proposals/issues/52) to remove arbitrators and embrace off-chain trading. Getting rid of arbitrators is a crucial step forward in hardening the network. This is a significant project that will require more developers to finish it in a reasonable timeframe.
 
-The successful launch of the Bisq DAO made [the ambitious vision](https://docs.bisq.network/dao/phase-zero.html) laid out in Phase Zero real. But big challenges remain, and the network must figure out how to conquer these challenges if it is to really succeed and realize its ultimate vision of becoming _the_ Bitcoin on/off-ramp.
+The successful launch of the Bisq DAO made [the ambitious vision](https://docs.bisq.network/dao/phase-zero.html) laid out in Phase Zero real. But big challenges remain, and the network must figure out how to conquer these challenges if it is to really succeed and realize its ultimate vision of becoming _the_ bitcoin on/off-ramp.

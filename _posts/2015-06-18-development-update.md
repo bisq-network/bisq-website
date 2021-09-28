@@ -8,7 +8,7 @@ It was a bit quiet here the last months, but there was going on a lot on the dev
 
 I have implemented the support for various **payment methods** (OKPay, SEPA, AliPay, Swish, …) and the **arbitration system**.
 
-We also have now **Altcoins support!** So you can change safely and in a decentralized way your Altcoin against Bitcoin.
+We also have now **Altcoins support!** So you can change safely and in a decentralized way your altcoin against bitcoin.
 
 The arbitration system comes with a complete messaging/chat system so it is integrated to the process in a way that it makes the life for arbitrators and traders as easy as possible in case of a dispute.
 

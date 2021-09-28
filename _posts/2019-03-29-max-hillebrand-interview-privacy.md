@@ -2,7 +2,7 @@
 layout: post
 title: "Privacy Best Practices & Bisq: An Interview with Max Hillebrand"
 author: Ricardo Martinez
-excerpt: "Ricardo Martinez interviews Max Hillebrand of the World Crypto Network. They discuss privacy in general, privacy with respect to bitcoin, privacy with respect to Bisq, and more. <br><br>"
+excerpt: "Ricardo Martinez interviews Max Hillebrand of the World Crypto Network. They discuss privacy in general, privacy with respect to Bitcoin, privacy with respect to Bisq, and more. <br><br>"
 lang: en
 ---
 
@@ -96,7 +96,7 @@ You only share the opening transaction on-chain. The subsequent commitment chann
 
 Since Lightning Network is a network of payment channels, there is privacy when you route payments across this network. It uses a routing protocol called Sphinx, which is very similar to the Tor network’s onion encryption protocol. Every hop in a Lightning payment only knows the peer that passed the payment to it, and the peer they pass it to. They do not know who initiated the payment or who received the payment.
 
-On a conceptual basis, the Lightning Network is already much more private than Bitcoin on-chain transactions.owever, there is still a huge amount of work to be done to reach its full potential in terms of privacy.
+On a conceptual basis, the Lightning Network is already much more private than Bitcoin on-chain transactions. However, there is still a huge amount of work to be done to reach its full potential in terms of privacy.
 
 Although Lightning has the potential to be private, if we use bad implementations that do not follow best practices, or just carelessly give away our private information, then these privacy benefits suffer tremendously.
 
@@ -104,7 +104,7 @@ This is why libre open source software is so important. Bisq for example, is ver
 
 So when a Lightning wallet company has a chain analysis subsidiary, you can be sure they are talking. It’s probably not the best choice to give entities like this your personal information.
 
-**Q: I’m glad you mentioned Bisq because my next question is about Bisq. Have you used it to buy and sell Bitcoin?**
+**Q: I’m glad you mentioned Bisq because my next question is about Bisq. Have you used it to buy and sell bitcoin?**
 
 A: Yes, Bisq is one of my favorite exchanges if not my favorite exchange period because it is cypherpunk as fuck, as they say.
 

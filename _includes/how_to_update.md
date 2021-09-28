@@ -7,7 +7,7 @@ Example using `pt-BR`
 download translated files
 ----
 go to transifex, get your language and download the files:
-https://www.transifex.com/bisq/bisq-website/ 
+https://www.transifex.com/bisq/bisq-website/
 
 You should end up with 6 files:
 1. `for_use_bisq-website_community_pt_BR.md`
@@ -34,7 +34,7 @@ i.e. copying `pt-PT` as `pt-BR`
 Adapt the headers
 ----
 
-Within the folder you just created, in the markdown files (.md) 
+Within the folder you just created, in the markdown files (.md)
 edit the parts that need changing.
 
 ```
@@ -63,7 +63,7 @@ these are the strings/parameters:
   enabled: No
   accept_languages: ["en", "en-us", "en-au", "en-nz", "en-za", "en-bz", "en-tt"]
   site_name: "Bisq - A decentralized bitcoin exchange network"
-  site_desc: "Bisq is an open-source desktop application that allows you to buy and sell bitcoins in exchange for national currencies, or alternative cryptocurrencies."
+  site_desc: "Bisq is an open-source desktop application that allows you to buy and sell bitcoin in exchange for national currencies, or alternative cryptocurrencies."
 ```
 
 

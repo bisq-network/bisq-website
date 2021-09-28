@@ -13,19 +13,19 @@ In summary, the campaign raised 54,03480061 BTC (45%) of our 120 BTC goal from [
 
 We appreciate every pledge, but in particular we would like to thank the community leaders whose public pledges also served as a vote of confidence for what we are doing.  In particular, [Mike Hearn][3] (1 BTC), [Olivier Janssens][4] (10 BTC) and [Arthur Falls][5] (3,03629).
 
-We would also like to thank the members of the bitcoin media who supported our campaign by writing or podcasting about the project.  We encourage you to read or listen to the links on our [press page][6] and pass them on to your friends and followers.  We believe there are many in the bitcoin community who share our vision, but do not know about Bitsquare and would be excited to learn more about how a truly decentralized bitcoin exchange is becoming a reality.
+We would also like to thank the members of the Bitcoin media who supported our campaign by writing or podcasting about the project.  We encourage you to read or listen to the links on our [press page][6] and pass them on to your friends and followers.  We believe there are many in the Bitcoin community who share our vision, but do not know about Bitsquare and would be excited to learn more about how a truly decentralized bitcoin exchange is becoming a reality.
 
 **Lessons Learned**
 
 Overall our experiment using Lighthouse for crowd funding was a great success.   The technology works well and we feel overall it enhanced our ability to attract pledges.
 
-That said, there are some lessons learned that we will share.  We had a few comments that our minimum pledge amount was too high.   We would have preferred a lower amount also, but due to a [technical limitation][7] of bitcoin we set it as low as we could.  In retrospect, we might have benefited from a lower minimum pledge but ultimately it is unlikely to have changed the outcome of our campaign.
+That said, there are some lessons learned that we will share.  We had a few comments that our minimum pledge amount was too high.   We would have preferred a lower amount also, but due to a [technical limitation][7] of Bitcoin we set it as low as we could.  In retrospect, we might have benefited from a lower minimum pledge but ultimately it is unlikely to have changed the outcome of our campaign.
 
 Another lesson learned is that if we had run our campaign longer the publicity about our project might have reached more people.  Unfortunately our full time developers were already well past their financial limits before Lighthouse was available so our only option was an aggressively short campaign.
 
 We will not forget our supporters and look forward to validating your confidence in us.   Please get in touch if you can  contribute some time to the project for development or testing.
 
-You will need to revoke your Bitsquare pledge from within Lighthouse, but we encourage you to investigate the many other [worthy projects][8] using Lighthouse, especially those that support decentralization and core bitcoin development.
+You will need to revoke your Bitsquare pledge from within Lighthouse, but we encourage you to investigate the many other [worthy projects][8] using Lighthouse, especially those that support decentralization and core Bitcoin development.
 
 Thank you from all of us on the Bitsquare team!
 

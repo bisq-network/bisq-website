@@ -31,7 +31,7 @@ The network routing algorithm used to transport the data (offers) previously sto
 More sophisticated and effective routing algorithms like [Kademlia routing][10] which is used in DHTs come with a serious Sybil attack risk, as anyone who can control certain nodes could control the storage of certain data. The problem is that the network ID creation is free and the network ID is used to derive the storage location. So  you can create a huge amount of netwok IDs and then select those which are giving you the control over the data storage location of the data you want to control.
 That vulnerability is mitigated with the flooding algorithm as every node stores everything.
 
-Satoshi has chosen the flooding algorithm for Bitcoins P2P network to obtain a highly decentralized and randomized network structure which is very important to secure the network against hostile takeover of parts of the network.
+Satoshi has chosen the flooding algorithm for Bitcoin's P2P network to obtain a highly decentralized and randomized network structure which is very important to secure the network against hostile takeover of parts of the network.
 Though it came with some costs regarding resource usage. As we know, every full node in the Bitcoin network has to store 50 GB of blockchain data.
 Luckily Bitsquare uses very small amount of short living data and the number of nodes will be much smaller as well. I estimate there will be data storage requirements of a few hundreds of Kilobytes or a few Megabytes. Each data has an expiration date, so our requirements will not cause any scalability problems.
 

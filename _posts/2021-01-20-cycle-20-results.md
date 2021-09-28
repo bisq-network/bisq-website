@@ -23,7 +23,7 @@ Stakeholders will make new proposals in Cycle 21 for both Cycle 20 and Cycle 21.
 
 ### Details
 
-In the vote reveal phase (which lasts 450 blocks), each Bisq node publishes a bitcoin transaction that includes a hash of an ordered list of all voting data objects it received during the blind vote phase. This is done to establish a prevailing view of voting data—since the network is eventually consistent, each node cannot be trusted to have the exact same set of data, so each node must compare the set of data it received with the set of data every other node received.
+In the vote reveal phase (which lasts 450 blocks), each Bisq node publishes a Bitcoin transaction that includes a hash of an ordered list of all voting data objects it received during the blind vote phase. This is done to establish a prevailing view of voting data—since the network is eventually consistent, each node cannot be trusted to have the exact same set of data, so each node must compare the set of data it received with the set of data every other node received.
 
 Voting weight is the metric used to resolve differences. Recall that each ballot submitted during the blind voting phase has a BSQ stake attached to it—this same voting stake is used to weight voting data views in the vote reveal phase. Nodes with a collective minimum of 80% of the cycle's voting stake must agree on 1 data view, otherwise, the whole voting cycle is invalidated.
 

@@ -32,7 +32,7 @@ The team selected the following winners (listed here in alphabetical order):
  - [vieuxvicq][8] – for offering high-quality constructive feedback and valuable discussion
  [silverback][9] – for proposing Bisqui, for being active in the forum and for motivating his/her proposals
 
-These users should contact Manfred, stating their bitcoin address, in order to receive their share of the bounty: 0.1 BTC each. Nevertheless, **we thank everyone who contributed** in the forum for their desire to help the team!
+These users should contact Manfred, stating their Bitcoin address, in order to receive their share of the bounty: 0.1 BTC each. Nevertheless, **we thank everyone who contributed** in the forum for their desire to help the team!
 
 ### New brand name
 

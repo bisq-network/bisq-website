@@ -78,7 +78,7 @@ In future we will decouple that by using an optional GPG key for reputation and 
 
 ## Privacy in Fiat trades
 
-When the users are trading Bitcoin with a national currency the transfer of the Fiat currency requires usually some personally identifying data.
+When the users are trading bitcoin with a national currency the transfer of the Fiat currency requires usually some personally identifying data.
 
 With a bank transfer it is typically the name and the bank account number. With other payment methods it might be an email address or phone number (e.g. ClearXchange, Interac, Swish,…). Only with OKPay and PerfectMoney an account number alone is sufficient. But even there the account is usually verified in the registration process at the payment provider so the company knows the real life identity behind that account number.
 
@@ -108,7 +108,7 @@ This connects the trades at the Bitcoin [transaction graph](https://www.youtube.
 To avoid that, you need to fund each offer independently from an external wallet and withdraw the funds at the end of the trade to an external wallet.
 Of course you need to take care that you don't leak your privacy with **coin merge** again in the external wallet (you can use multiple external wallets as well to make that easier).
 
-UI-wise that strategy is [fully supported](https://github.com/bitsquare/bitsquare/wiki/Dedicated-trade-wallets) in Bisq (in fact it was the only option initially) but we are aware that most people prefer the more convenient usage of the internal wallet to re-use bitcoins from one trade for funding the next trade.
+UI-wise that strategy is [fully supported](https://github.com/bitsquare/bitsquare/wiki/Dedicated-trade-wallets) in Bisq (in fact it was the only option initially) but we are aware that most people prefer the more convenient usage of the internal wallet to re-use bitcoin from one trade for funding the next trade.
 Unfortunately there is no good solution to combine both **convenience with privacy** here.
 
 To offer a tool (similar to coin control in Bitcoin Core) to let the user decide which unspent transaction outputs (UTXO) should be used for funding an offer or trade might help to mitigate the problem. But there is some complexity and difficulty involved to decide which UTXO to use as well the problem that often you don't have enough options to choose from. So that approach does not look like a feasible strategy to solve that issue. It is a conceptual problem from the way how transactions are connected in a graph in Bitcoin.
@@ -181,7 +181,7 @@ The others are probably leaking their privacy already in many other areas as wel
 This is not a satisfying situation though as we want to provide **privacy by default** in a user friendly manner. Convenience and privacy are unfortunately often hard to combine.
 But we will continue to work to find the best solutions to solve those current weaknesses.
 
-With all that said we have to emphasize that **Bisq has already archived a very high level of privacy protection** and clearly **outperforms any other Bitcoin exchange** in that matter.
+With all that said we have to emphasize that **Bisq has already archived a very high level of privacy protection** and clearly **outperforms any other bitcoin exchange** in that matter.
 * No registration required. No centralized data collection.
 * We use Tor by default for all network traffic. So your IP address never get leaked!
 * Our UI supports coin merge avoidance.

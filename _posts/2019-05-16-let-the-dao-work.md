@@ -14,7 +14,7 @@ So with all that in mind I had planned to step back from most of my roles in Bis
 
 So this moment might be a good occasion to look back to what we have achieved and look forward what is on our roadmap.
 
-- Bisq is the only really decentralised Bitcoin-Fiat exchange
+- Bisq is the only really decentralised bitcoin-fiat exchange
 - We have developed the first Bitcoin based DAO
 - We built up a strong community of contributors
 - We earned a great reputation and Bisq became a quite well recognised brand in the Bitcoin community

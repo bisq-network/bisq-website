@@ -36,13 +36,13 @@ We decided to use an iterative crowdfunding model[12] with Lighthouse for pushin
 
 Such a model comes with some difficulties:
 
-It is not easy today to get attention in the bitcoin media space.
+It is not easy today to get attention in the Bitcoin media space.
 
 There is a huge competition for getting the signal above all the noise. We don't have any marketing budget for hiring PR professionals and it wouldn't fit into our philosophy and style as well. We have limited time ourselves and already spent way too much time on those non-development tasks!
 
 So we are highly dependent on our community to support us in our marketing and communication efforts.
 
-The iterative approach does not give us any security for the next funding rounds and it is hard to keep developers in such an uncertain environment. To be in competition with companies in an emerging market like bitcoin, that offer equity and high compensation to key developers, does not make the situation easier. To find and keep developers for open source projects which are struggling to just pay the basic living expenses, seems already to be an incredible difficult task.
+The iterative approach does not give us any security for the next funding rounds and it is hard to keep developers in such an uncertain environment. To be in competition with companies in an emerging market like Bitcoin, that offer equity and high compensation to key developers, does not make the situation easier. To find and keep developers for open source projects which are struggling to just pay the basic living expenses, seems already to be an incredible difficult task.
 
 We're not claiming that our approach is the golden solution, it is just the best that we could come up with after much time of debating and considering and the one which aligns cleanest to our initial motivation why we started to build such kind of project.
 
@@ -79,13 +79,13 @@ The fact that we deal with money makes the situation more difficult as it introd
 
 We tried hard to find a funding model which is closely aligned to our constitutional ideas of decentralization. Using that iterative crowdfunding model with Lighthouse seemed to be the best fit. We are aware that it is not easy and we need our community to support our efforts to spread the word and to reach our funding goal.
 
-It is an opportunity for us and for the bitcoin community to evaluate its values, to check where we are and where we are aiming to go. Bitcoin is not just the next PayPal, it has a revolutionary potential and that is the reason why we are in and why we are working hard to make that project a reality.
+It is an opportunity for us and for the Bitcoin community to evaluate its values, to check where we are and where we are aiming to go. Bitcoin is not just the next PayPal, it has a revolutionary potential and that is the reason why we are in and why we are working hard to make that project a reality.
 
 ## Committed to Satoshi's vision of Bitcoin
 
-In times when big banks and Wall Street giants are entering the bitcoin space with [investments of 75M USD][15] in exchanges which are representing more or less the opposite of what we are standing for, it is time to act: It is time to bring new infrastructure to bitcoin which is following bitcoins inherent concept of decentralisation and protection of privacy.
+In times when big banks and Wall Street giants are entering the Bitcoin space with [investments of 75M USD][15] in exchanges which are representing more or less the opposite of what we are standing for, it is time to act: It is time to bring new infrastructure to Bitcoin which is following Bitcoin's inherent concept of decentralisation and protection of privacy.
 
-It is in our hands whether bitcoin moves more and more into a direction guided by banks and the existing power elite or if we can keep bitcoin as what it originally stood for us early adopters, for that why we initially got excited about bitcoin: To change the world, to help to distribute the overwhelming wealth of the few to the other 99%. To challenge the century old elites of power and help to make them obsolete. To force governments to redefine themselves in a new model, not based on the creation and control of money, but on the purpose of organizing communities to efficiently produce value for all participants.
+It is in our hands whether Bitcoin moves more and more into a direction guided by banks and the existing power elite or if we can keep Bitcoin as what it originally stood for us early adopters, for that why we initially got excited about Bitcoin: To change the world, to help to distribute the overwhelming wealth of the few to the other 99%. To challenge the century old elites of power and help to make them obsolete. To force governments to redefine themselves in a new model, not based on the creation and control of money, but on the purpose of organizing communities to efficiently produce value for all participants.
 
 And when already caught in such a solemn mood, lets finish with our favorite quote:
 

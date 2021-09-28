@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Benefactors &lsaquo; Bisq - The decentralized Bitcoin exchange
+title: Benefactors &lsaquo; Bisq - A decentralized bitcoin exchange network
 lang: en
 en-only: true
 ---

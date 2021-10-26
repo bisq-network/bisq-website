@@ -20,14 +20,10 @@ $( document ).ready( function() {
             spacing: [25,20,20,30]
         },
         title: {
-            text: 'BSQ SUPPLY',
+            text: '',
             align: 'left',
             x: 0,
             y: 15
-        },
-        subtitle: {
-            text: 'Total BSQ issued net of BSQ burned for fees',
-            align: 'left'
         },
         xAxis: {
             categories: ["Oct '17","Nov '17","Dec '17","Jan '18","Feb '18","Mar '18","Apr '18","May '18","Jun '18","Jul '18","Aug '18","Sep '18","Oct '18","Nov '18","Dec '18","Jan '19","Feb '19","Mar '19","Cycle 1","Cycle 2","Cycle 3","Cycle 4","Cycle 5","Cycle 6","Cycle 7","Cycle 8","Cycle 9","Cycle 10","Cycle 11","Cycle 12","Cycle 13","Cycle 14","Cycle 15","Cycle 16","Cycle 17","Cycle 18","Cycle 19","Cycle 20","Cycle 21","Cycle 22","Cycle 23","Cycle 24","Cycle 25"],
@@ -66,7 +62,7 @@ $( document ).ready( function() {
         series: [{
             yAxis: 0,
             name: 'BSQ',
-            color: '#aaa',
+            color: '#25B135',
             tooltip: {
                 pointFormat: '{point.y:,.0f} BSQ<br>'
             },

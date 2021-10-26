@@ -211,7 +211,7 @@ $( document ).ready( function() {
         series: [{
             yAxis: 0,
             name: 'BSQ',
-            color: '#000',
+            color: '#aaa',
             tooltip: {
                 pointFormat: '{point.y:,.0f} BSQ<br>'
             },

@@ -937,6 +937,10 @@ stats
     height: 275px;
 }
 
+.dark-mode .chart-stat-container rect.highcharts-background {
+    fill: #1d1d1d !important;
+}
+
 .chart-stat-container .stat-box-header {
     width: 275px;
     height: 275px;

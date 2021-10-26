@@ -142,18 +142,3 @@ downloads:
   pSeeInstructions: "<p class=\"small\">最初のトレードを完了する方法については<a href=\"/getting-started\">Bisqの概要</a>をご覧ください。</p>"
   hMobileNotifications: Bisqモバイル通知
   pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
-
-stats:
-  hNetworkStats: ネットワーク統計
-  pSeeMarkets: "<p>通貨別の取引高については<a href='https://bisq.network/ja/markets'>マーケットのページ</a>をご覧ください。</p>"
-  pBSQDistribution: "メインネットの<a href='https://bisq.wiki/DAO_user_reference#BSQ_Genesis_Distribution' target='_blank'>BSQジェネシス配布</a>は2019年4月に行われました。"
-  pTotalTrades: 全トレード
-  pTotalDate: 先月まで
-  pDailyAverageTrade: 日々の平均トレード
-  pSoftwareDownloads: ソフトウェアダウンロード
-  pSoftwareDownloadsVersion: v1.6.5（概算）の場合
-  pGithubContributors: GitHub 貢献者
-  pToDate: 先月より
-  pTwitterFollowers: Twitterフォロワー
-  pKeybaseUsers: Keybaseユーザー
-  pNetworkLoad: "<p class='monitor-note'>P2Pネットワーク負荷、Torメトリック、およびその他のネットワークデータについては、<a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>をご覧ください。</p>"

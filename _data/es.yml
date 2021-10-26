@@ -142,18 +142,3 @@ downloads:
   pSeeInstructions: "<p class=\"small\">Vea <a href=\"/getting-started\">Iniciándose con Bisq</a> para instrucciones sobre cómo completar su primer intercambio.</p>"
   hMobileNotifications: Notificaciones móviles Bisq
   pMobileNotifications: Manténgase al día en sus intercambios y reciba notificaciones en su celular.
-
-stats:
-  hNetworkStats: Estado de red
-  pSeeMarkets: "<p>Ver la <a href='https://bisq.network/es/markets'>página de Mercados</a> para el volumen por moneda.</p>"
-  pBSQDistribution: La distribución de BSQ en la red principal fue el 15 de Abril de 2019.
-  pTotalTrades: Intercambios totales
-  pTotalDate: Durante el mes pasado
-  pDailyAverageTrade: Promedio diario de operaciones
-  pSoftwareDownloads: Las descargas de software fueron
-  pSoftwareDownloadsVersion: "Para la versión v1.6.5 (aproximado)"
-  pGithubContributors: Contribuyentes de GitHub
-  pToDate: Hasta el mes pasado
-  pTwitterFollowers: Seguidores de Twitter
-  pKeybaseUsers: Usuarios Keybase
-  pNetworkLoad: "<p class='monitor-note'>Para carga de la red P2P, métricas de Tor y otros datos de red, por favor visite el <a href='https://monitor.bisq.network' target='_blank'>Monitor de Red Bisq</a>.</p>"

@@ -142,18 +142,3 @@ downloads:
   pSeeInstructions: "<p class=\"small\">Lesen Sie <a href=\"/getting-started\">Erste Schritte mit Bisq</a> für Anweisungen, wie Sie Ihren ersten Handel abschließen können."
   hMobileNotifications: Bisq Handy-Benachrichtigungen
   pMobileNotifications: Halten Sie sich über Ihre Trades auf dem Laufenden und erhalten Sie Benachrichtigungen auf Ihrem Handy.
-
-stats:
-  hNetworkStats: Netzwerk-Statistiken
-  pSeeMarkets: "<p>Auf der <a href='https://bisq.network/markets'>Märkte Seite</a> finden Sie das Volumen je nach Währung.</p>"
-  pBSQDistribution: Die Mainnet BSQ-Ausgabe ist für April 2019 geplant.
-  pTotalTrades: Trades insgesamt
-  pTotalDate: Während des letzten Monats
-  pDailyAverageTrade: Täglich durchschnittliche Trades
-  pSoftwareDownloads: Software Downloads
-  pSoftwareDownloadsVersion: Für v1.6.5 (voraussichtlich)
-  pGithubContributors: GitHub Mitarbeiter
-  pToDate: Bis Ende letzten Monats
-  pTwitterFollowers: Twitter Follower
-  pKeybaseUsers: Keybase-Benutzer
-  pNetworkLoad: "<p class='monitor-note'>Für die P2P-Netzwerklast, Tor-Metriken und andere Netzwerkdaten besuchen Sie bitte den <a href='https://monitor.bisq.network' target='_blank'>Bisq Network Monitor</a>.</p>"

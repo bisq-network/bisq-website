@@ -17,6 +17,9 @@ exclude:
   - CNAME
   - README
   - Gemfile
+collections:
+  dashboard:
+    output: true
 defaults:
   -
     scope:

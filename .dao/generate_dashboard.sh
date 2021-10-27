@@ -27,3 +27,8 @@ mv ../js/dashboard-2.js ../js/dashboard.js
 
 echo -e "Generating cycle tiles for dashboard page...\n"
 python3 utilities/dashboard-tiles/generate.py
+
+# generate cycle pages at /dashboard/cycle-n
+
+echo -e "Generating cycle pages...\n"
+python3 utilities/cycle-detail-pages/generate.py

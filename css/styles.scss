@@ -1207,6 +1207,35 @@ dashboard page
     color: #fff;
 }
 
+/*****************
+dashboard cycle pages
+*****************/
+
+#cycle-dashboard {
+    margin-top: 30px;
+}
+
+#cycle-dashboard .overview {
+    text-transform: uppercase;
+    margin: 30px 0 30px 0;
+}
+
+#cycle-dashboard .overview .overview-item .heading {
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
+    display: inline-block;
+    width: 175px;
+}
+
+#cycle-dashboard .overview .overview-item .content.supply-change.decrease {
+    color: #25B135;
+}
+
+#cycle-dashboard .overview .overview-item .content.supply-change.increase {
+    color: #e74c3c;
+}
+
+
 /****************/
 
 

@@ -191,6 +191,8 @@ https://bisq.io https://bisq.network 301
 /events https://calendar.google.com/calendar/embed?src=adfiuiokq9jtac8t9keomc00b0%40group.calendar.google.com 302
 /calendar /events 301
 
+/stats /dashboard 302
+
 /volume https://docs.google.com/spreadsheets/d/1M8y2cIlHv5Hx5UAt4WZ961Ac8xaNSLiiavjxabNf0qc/edit#gid=1242111088 302
 
 /release-stats https://somsubhra.github.io/github-release-stats/?username=bisq-network&repository=bisq 302

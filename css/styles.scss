@@ -1137,13 +1137,75 @@ getting started page
 
 
 /*****************
-getting started page
+dashboard page
 *****************/
 
 .dashboard-component {
     margin: 50px auto;
 }
 
+#cycle-tile-container {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#cycle-tile-container .cycle-tile {
+    display: inline-block;
+    float: left;
+    background-color: #25B135;
+    margin: 0 20px 20px 0;
+    padding: 20px;
+    width: 350px;
+    height: 181px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+#cycle-tile-container .cycle-tile:hover {
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
+}
+
+#cycle-tile-container .cycle-tile h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#cycle-tile-container .cycle-tile p {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 4px;
+}
+
+#cycle-tile-container .cycle-tile p > i {
+    position: absolute;
+    top: 4px;
+}
+
+#cycle-tile-container .cycle-tile p > i.fa-clock-o {
+    left: 0;
+}
+
+#cycle-tile-container .cycle-tile p > i.fa-lightbulb-o {
+    left: 2px;
+}
+
+#cycle-tile-container .cycle-tile p > i.fa-area-chart {
+    left: -1px;
+}
+
+#cycle-tile-container .cycle-tile .start-date {
+    color: #fff;
+}
+
+#cycle-tile-container .cycle-tile .number-proposals {
+    color: #fff;
+}
+
+#cycle-tile-container .cycle-tile .issuance-burn {
+    color: #fff;
+}
 
 /****************/
 

@@ -4,11 +4,14 @@
 
 ## Requirements
 
-The scripts called by `generate_dashboard.sh` were written over a period of many months using different tools to address different near-term goals. They're recycled here for expedience.
-
+Dependencies:
 - Python 3.6 or later
 - NodeJS (tested on `v14.17.5`)
 - `jq`
+
+Critical:
+- Make sure all settings are correct in `settings.json`.
+- Only run `generate_dashboard.sh` from `.dao/` as there are some relative links that will not work otherwise.
 
 ## General Information
 

@@ -10,7 +10,7 @@ python3 utilities/dao-burn/parse-txs.py
 
 # generate cycle overview data
 
-echo -e "Generating overview for dashboard...\n"
+echo -e "Compiling overview data for dashboard...\n"
 python3 utilities/cycle-overview-data/fetch.py
 
 # generate series for bsq supply chart
@@ -22,3 +22,8 @@ head -n 4 ../js/dashboard.js > ../js/dashboard-2.js
 less data/highcharts-vars.txt >> ../js/dashboard-2.js
 tail -n +7 ../js/dashboard.js >> ../js/dashboard-2.js
 mv ../js/dashboard-2.js ../js/dashboard.js
+
+# generate cycle tiles on /dashboard
+
+echo -e "Generating cycle tiles for dashboard page...\n"
+python3 utilities/dashboard-tiles/generate.py

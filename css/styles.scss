@@ -1215,26 +1215,64 @@ dashboard cycle pages
     margin-top: 30px;
 }
 
-#cycle-dashboard .overview {
+#cycle-dashboard .overview-section {
     text-transform: uppercase;
     margin: 30px 0 30px 0;
 }
 
-#cycle-dashboard .overview .overview-item .heading {
+#cycle-dashboard .overview-section .overview-item .heading {
     text-transform: uppercase;
     color: rgba(0,0,0,0.5);
     display: inline-block;
     width: 175px;
 }
 
-#cycle-dashboard .overview .overview-item .content.supply-change.decrease {
+#cycle-dashboard .overview-section .overview-item .content.supply-change.decrease {
     color: #25B135;
 }
 
-#cycle-dashboard .overview .overview-item .content.supply-change.increase {
+#cycle-dashboard .overview-section .overview-item .content.supply-change.increase {
     color: #e74c3c;
 }
 
+#cycle-dashboard .funds-section {
+    margin-top: 30px;
+}
+
+#cycle-dashboard .funds-section table {
+    margin: 25px 0 35px 0;
+}
+
+#cycle-dashboard .funds-section table thead th {
+    font-weight: 400;
+    padding: 0.6rem 5rem 0.6rem 0.6rem;
+}
+
+#cycle-dashboard .funds-section table td {
+    padding: 0.6rem 5rem 0.6rem 0.6rem;
+}
+
+#cycle-dashboard .funds-section table tr.notable-weight td {
+    font-weight: 400;
+}
+
+#cycle-dashboard .funds-section table .light-border-top {
+    border-top: 1px solid #f3f3f3;
+}
+
+#cycle-dashboard .funds-section table .heavy-border-top {
+    border-top: 4px solid #f3f3f3;
+}
+
+#cycle-dashboard .funds-section table thead th:nth-child(2), #cycle-dashboard .funds-section table tr td:nth-child(2)  {
+    padding-left: 20px;
+    position: relative;
+}
+
+#cycle-dashboard .funds-section table td.net-change-result span {
+    position: absolute;
+    left: 0;
+}
 
 /****************/
 

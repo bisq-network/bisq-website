@@ -27,3 +27,5 @@ Generated data is saved in `data/`. Scripts read that folder for data generated 
 
 - BSQ supply numbers are currently written into `js/dashboard.js` once the relevant numbers are calculated. The method for doing this is rather hacky and fragile. There is probably a better way to do this.
 - The x-axis of the BSQ supply chart can appear jumbled.
+- Currently no additional context on issuance, proposals, etc is gathered from GitHub.
+- Cycle trading data didn't seem to fit on this page as previously thought, but can be integrated if desired.

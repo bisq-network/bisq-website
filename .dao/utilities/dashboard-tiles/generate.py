@@ -3,16 +3,11 @@ import datetime
 import calendar
 
 overviewFilePath = 'data/cycle-overview-data.json'
-pathError = 'Error finding cycle overview file.'
 
 ### get overview data
 
-try:
-    with open( overviewFilePath, 'r' ) as overviewFile:
-        overview = overviewFile.read()
-except:
-    print( pathError )
-    sys.exit()
+with open( overviewFilePath, 'r' ) as overviewFile:
+    overview = overviewFile.read()
 
 with open( '../_includes/dao_dashboard_tiles.html', 'w' ) as f:
     f.write( '' )

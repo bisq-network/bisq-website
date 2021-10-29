@@ -4,22 +4,13 @@ import calendar
 import math
 
 overviewFilePath = 'data/cycle-overview-data.json'
-overviewPathError = 'Error finding cycle overview file.'
-
 burnFilePath = 'data/dao-burn-cycle.json'
-burnPathError = 'Error finding cycle burn file.'
-
 settingsFilePath = 'settings.json'
-pathError = 'Error finding DAO tx files...did you put the right path in ' + settingsFilePath + '? You must specify the full path.'
 
 ### get overview data
 
-try:
-    with open( overviewFilePath, 'r' ) as overviewFile:
-        overview = overviewFile.read()
-except:
-    print( overviewPathError )
-    sys.exit()
+with open( overviewFilePath, 'r' ) as overviewFile:
+    overview = overviewFile.read()
 
 overviewObj = json.loads(overview)
 
@@ -60,12 +51,8 @@ def getFriendlyTxType( txType ):
 
 ### get burn data and order it by total fees earned
 
-try:
-    with open( burnFilePath, 'r' ) as burnFile:
-        burnData = burnFile.read()
-except:
-    print( burnPathError )
-    sys.exit()
+with open( burnFilePath, 'r' ) as burnFile:
+    burnData = burnFile.read()
 
 burnDataObj = json.loads(burnData)
 
@@ -84,12 +71,8 @@ for cycle in burnDataObj:
 
 ### get issuance details from dao results file
 
-try:
-    with open( settingsFilePath, 'r' ) as settingsFile:
-        settings = settingsFile.read()
-except:
-    print( pathError )
-    sys.exit()
+with open( settingsFilePath, 'r' ) as settingsFile:
+    settings = settingsFile.read()
 
 settingsObj = json.loads(settings)
 voteResultsPath = settingsObj['daoVoteResultsFile']

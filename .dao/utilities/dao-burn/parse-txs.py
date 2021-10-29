@@ -8,7 +8,6 @@ monthlyResults = {}
 dailyResults = {}
 
 settingsFilePath = 'settings.json'
-pathError = 'Error finding DAO tx files...did you put the right path in ' + settingsFilePath + '? You must specify the full path.'
 
 resultTemplate = {
     'IRREGULAR': {
@@ -139,12 +138,8 @@ def writeJsonToCsv( timeType, destinationFile, dictionary ):
 
 ### get settings
 
-try:
-    with open( settingsFilePath, 'r' ) as settingsFile:
-        settings = settingsFile.read()
-except:
-    print( pathError )
-    sys.exit()
+with open( settingsFilePath, 'r' ) as settingsFile:
+    settings = settingsFile.read()
 
 settingsObj = json.loads(settings)
 daoTxPath = settingsObj['daoTxDirectory']

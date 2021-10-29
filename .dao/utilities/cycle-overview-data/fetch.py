@@ -7,9 +7,7 @@ cycleOverviewData = {}
 timeNow = math.floor( time.time() )
 
 daoCycleBurnDataFilePath = 'data/dao-burn-cycle.json'
-
 settingsFilePath = 'settings.json'
-pathError = 'Error finding DAO voting results file...did you put the right path in ' + settingsFilePath + '? You must specify the full path.'
 
 ### return cycle start and end blocks from cycle number
 
@@ -29,24 +27,16 @@ def getCycleBlocks( cycle ):
 
 ### get settings
 
-try:
-    with open( settingsFilePath, 'r' ) as settingsFile:
-        settings = settingsFile.read()
-except:
-    print( pathError )
-    sys.exit()
+with open( settingsFilePath, 'r' ) as settingsFile:
+    settings = settingsFile.read()
 
 settingsObj = json.loads(settings)
 daoResultsPath = settingsObj['daoVoteResultsFile']
 
 ### get dao burn data
 
-try:
-    with open( daoCycleBurnDataFilePath, 'r' ) as daoBurnFile:
-        daoBurnData = daoBurnFile.read()
-except:
-    print( 'Error reading file with DAO burn data.')
-    sys.exit()
+with open( daoCycleBurnDataFilePath, 'r' ) as daoBurnFile:
+    daoBurnData = daoBurnFile.read()
 
 daoBurnDataObj = json.loads(daoBurnData)
 

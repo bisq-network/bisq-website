@@ -44,12 +44,12 @@ $( document ).ready( function() {
         },
         yAxis: [{
             title: {
-                text: '',
+                text: "",
 
             },
             labels: {
                 formatter: function () {
-                    return this.value / 1000000 + 'M';
+                    return this.value / 1000000 + "M";
                 }
             },
             gridLineColor: "transparent",

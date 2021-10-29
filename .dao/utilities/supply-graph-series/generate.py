@@ -8,16 +8,11 @@ timePeriods = ["Oct '17", "Nov '17", "Dec '17", "Jan '18", "Feb '18", "Mar '18",
 bsqSupply = [2548500, 2620250, 2671850, 2722950, 2769150, 2806330, 2830832, 2868164, 2889799, 2934231, 2971823, 3018665, 3052400, 3272927, 3344765, 3406635, 3520705, 3657480]
 
 overviewFilePath = 'data/cycle-overview-data.json'
-pathError = 'Error: could not find cycle overview file.'
 
 ### get cycle data from overview file
 
-try:
-    with open( overviewFilePath, 'r' ) as overview:
-        overviewData = overview.read()
-except:
-    print( pathError )
-    sys.exit()
+with open( overviewFilePath, 'r' ) as overview:
+    overviewData = overview.read()
 
 overViewDataObj = json.loads(overviewData)
 

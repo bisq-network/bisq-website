@@ -1162,6 +1162,10 @@ dashboard page
     transition: 0.3s all;
 }
 
+body.dark-mode #cycle-tile-container .cycle-tile {
+    background-color: #1d1d1d;
+}
+
 #cycle-tile-container .cycle-tile:hover {
     box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 50%);
     transition: 0.3s all;
@@ -1227,6 +1231,10 @@ dashboard cycle pages
     width: 175px;
 }
 
+body.dark-mode #cycle-dashboard .overview-section .overview-item .heading {
+    color: #7E7E7E;
+}
+
 #cycle-dashboard .overview-section .overview-item .content.supply-change.decrease {
     color: #25B135;
 }
@@ -1290,6 +1298,10 @@ dashboard cycle pages
     text-transform: uppercase;
     color: rgba(0,0,0,0.5);
     font-size: 14px;
+}
+
+body.dark-mode #cycle-dashboard .governance-section .proposal-item .user-and-link {
+    color: #7E7E7E;
 }
 
 #cycle-dashboard .governance-section .proposal-item .user-and-link .user-handle {

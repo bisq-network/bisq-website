@@ -10,21 +10,21 @@ var supplySeries = [2548500, 2620250, 2671850, 2722950, 2769150, 2806330, 283083
 $( document ).ready( function() {
 
     //bsq supply chart
-    var bsqChart = Highcharts.chart( 'bsq-container', {
+    var bsqChart = Highcharts.chart( "bsq-container", {
         lang: {
             thousandsSep: ",",
-            decimalPoint: '.'
+            decimalPoint: "."
         },
         chart: {
-            type: 'line',
+            type: "line",
             spacing: [25,20,20,30],
             style: {
                 fontFamily: "'IBM Plex Sans', sans-serif"
             }
         },
         title: {
-            text: '',
-            align: 'left',
+            text: "",
+            align: "left",
             x: 0,
             y: 15
         },
@@ -40,7 +40,7 @@ $( document ).ready( function() {
             minorTickLength: 0,
             lineWidth: 0,
             minorGridLineWidth: 0,
-            lineColor: 'transparent'
+            lineColor: "transparent"
         },
         yAxis: [{
             title: {
@@ -52,7 +52,7 @@ $( document ).ready( function() {
                     return this.value / 1000000 + 'M';
                 }
             },
-            gridLineColor: 'transparent',
+            gridLineColor: "transparent",
             opposite: true
         }],
         plotOptions: {
@@ -64,10 +64,10 @@ $( document ).ready( function() {
         },
         series: [{
             yAxis: 0,
-            name: 'BSQ',
-            color: '#25B135',
+            name: "BSQ",
+            color: "#25B135",
             tooltip: {
-                pointFormat: '{point.y:,.0f} BSQ<br>'
+                pointFormat: "{point.y:,.0f} BSQ<br>"
             },
             data: supplySeries
         }],

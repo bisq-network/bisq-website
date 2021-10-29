@@ -1,9 +1,6 @@
-import sys
-import os
 import json
 import datetime
 import calendar
-import math
 
 overviewFilePath = 'data/cycle-overview-data.json'
 pathError = 'Error finding cycle overview file.'
@@ -16,7 +13,7 @@ try:
 except:
     print( pathError )
     sys.exit()
-    
+
 with open( '../_includes/dao_dashboard_tiles.html', 'w' ) as f:
     f.write( '' )
 

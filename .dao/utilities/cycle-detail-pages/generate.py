@@ -1,5 +1,3 @@
-import sys
-import os
 import json
 import datetime
 import calendar
@@ -59,7 +57,7 @@ def getFriendlyTxType( txType ):
         return "Unverified"
     else:
         return "Irregular"
-    
+
 ### get burn data and order it by total fees earned
 
 try:
@@ -82,8 +80,8 @@ for cycle in burnDataObj:
         cleanedOrderedDaoBurns[cycle]['txFees'].sort(reverse=True)
         orderedLocation = cleanedOrderedDaoBurns[cycle]['txFees'].index( roundedBurn )
         cleanedOrderedDaoBurns[cycle]['txTypes'].insert( orderedLocation, txType )
-        cleanedOrderedDaoBurns[cycle]['txCounts'].insert( orderedLocation, burnDataObj[cycle][txType]['count'] )   
-        
+        cleanedOrderedDaoBurns[cycle]['txCounts'].insert( orderedLocation, burnDataObj[cycle][txType]['count'] )
+
 ### get issuance details from dao results file
 
 try:
@@ -95,22 +93,22 @@ except:
 
 settingsObj = json.loads(settings)
 voteResultsPath = settingsObj['daoVoteResultsFile']
-        
-### loop through cycles and write front matter   
+
+### loop through cycles and write front matter
 
 i = 0
 for c in overviewObj:
     i = i + 1
-    
+
     # stylize the bsq supply change
-    
+
     bsqSupplyChange = overviewObj[str(i)]['issuance'] - overviewObj[str(i)]['burn']
     if( bsqSupplyChange <= 0 ):
         bsqSupplyChange = '— ' + str( '{:,.0f}'.format( bsqSupplyChange ) )[1:]
     else:
         bsqSupplyChange = '+ ' + str( '{:,.0f}'.format( bsqSupplyChange ) )
-        
-    # write cycle page front matter        
+
+    # write cycle page front matter
 
     with open( '../_dashboard/cycle-' + str(i) + '.md', 'w' ) as f:
         f.write( '---\n' )
@@ -140,16 +138,16 @@ for c in overviewObj:
                 j = j + 1
         f.write( 'totalBurnAmount: "' + str( '{:,.0f}'.format( cleanedOrderedDaoBurns[str(i)]['txFees'][0] ) + '"\n' ) )
         f.write( 'totalBurnTx: "' + str( '{:,.0f}'.format( cleanedOrderedDaoBurns[str(i)]['txCounts'][0] ) + '"\n' ) )
-        
+
         # collect proposal details
 
         compensationTotal = 0
         reimbursementTotal = 0
         governanceTotal = 0
         with open( voteResultsPath, 'r' ) as results:
-        
+
             resultsDict = json.loads( results.read() )
-            
+
             f.write( 'compensationDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
                 if( ( p['proposal.proposalType'] == 'COMPENSATION_REQUEST' ) and ( p['isAccepted'] == 'Accepted' ) ):
@@ -180,7 +178,7 @@ for c in overviewObj:
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   proposalParam: ' + p['proposal.param'] + '\n' )
                     f.write( '   isAccepted: ' + ( str(1) if ( p['isAccepted'] == 'Accepted' ) else str(0) ) + '\n' )
-             
+
             f.write( 'genericProposalDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
                 if( p['proposal.proposalType'] == 'GENERIC' ):
@@ -190,7 +188,7 @@ for c in overviewObj:
                     f.write( '   nameOnProposal: "' + p['proposal.name'].strip() + '"\n' )
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   isAccepted: ' + ( str(1) if ( p['isAccepted'] == 'Accepted' ) else str(0) ) + '\n' )
-                    
+
             f.write( 'bondedRoleDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
                 if( p['proposal.proposalType'] == 'BONDED_ROLE' ):
@@ -212,7 +210,7 @@ for c in overviewObj:
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   asset: ' + p['proposal.tickerSymbol'] + '\n' )
                     f.write( '   isAccepted: ' + ( str(1) if ( p['isAccepted'] == 'Accepted' ) else str(0) ) + '\n' )
-                    
+
             # CONFISCATE_BOND proposal type should be revisited if/when it actually happens
             f.write( 'confiscateBondDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
@@ -225,10 +223,10 @@ for c in overviewObj:
                     f.write( '   isAccepted: ' + ( str(1) if ( p['isAccepted'] == 'Accepted' ) else str(0) ) + '\n' )
 
             # disregarding 'UNDEFINED' proposal type
-                
+
         f.write( 'compensationTotal: "' + str( '{:,.0f}'.format( compensationTotal ) ) + '"\n' )
         f.write( 'reimbursementTotal: "' + str( '{:,.0f}'.format( reimbursementTotal ) ) + '"\n' )
         f.write( 'numberGovernanceProposals: ' + str( governanceTotal ) + '\n' )
         f.write( 'totalIssuance: "' + str( '{:,.0f}'.format( compensationTotal + reimbursementTotal ) ) + '"\n' )
-        
+
         f.write( '---\n' )

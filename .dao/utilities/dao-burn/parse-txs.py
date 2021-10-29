@@ -1,4 +1,3 @@
-import sys
 import os
 import json
 import copy
@@ -110,15 +109,15 @@ def getCalendarLabel( timestamp, needDay ):
 
     return calendarLabel
 
-def writeJsonToCsv( timeType, destinationFile, dict ):
+def writeJsonToCsv( timeType, destinationFile, dictionary ):
 
-    timeKeys = list( dict.keys() )
+    timeKeys = list( dictionary.keys() )
     timeKeys.sort( reverse=True )
 
     with open( destinationFile, 'w' ) as f:
 
         txLabels = ''
-        txKeys = list( dict[ timeKeys[0] ] )
+        txKeys = list( dictionary[ timeKeys[0] ] )
         for txKey in txKeys:
             txLabels += ( txKey.lower() + '-count,' ) + ( txKey.lower() + '-fees,' )
 
@@ -134,8 +133,8 @@ def writeJsonToCsv( timeType, destinationFile, dict ):
         for date in timeKeys:
             csvData = ''
             for txType in txKeys:
-                csvData += str( dict[ date ][ txType ][ 'count' ] ) + ',' + \
-                str( dict[ date ][ txType ][ 'feeSum' ] ) + ','
+                csvData += str( dictionary[ date ][ txType ][ 'count' ] ) + ',' + \
+                str( dictionary[ date ][ txType ][ 'feeSum' ] ) + ','
             f.write( str(date) + ',' + csvData[:-1] + '\n' )
 
 ### get settings

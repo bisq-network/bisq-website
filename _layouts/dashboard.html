@@ -18,16 +18,16 @@ layout: page
         <p class="overview-item"><span class="heading">Supply Change</span><span class="content supply-change">{{ page.supplyChange }}</span></p>
         <p class="overview-item"><span class="heading">Governance</span><span class="content">{{ page.numberAcceptedProposals }} of {{ page.numberRejectedProposals }} proposals accepted</span></p>
     </div>
-    
+
     <!--<p>See further details on this cycle below. Or <a href="/dashboard">go to the dashboard</a> to learn more about other cycles.</p>-->
-    
+
     <!---------------------------
     funds transfer section
     ---------------------------->
 
     <div class="funds-section">
         <h3>Network Funds Transfers</h3>
-        
+
         <table>
             <thead>
                 <tr>
@@ -97,23 +97,23 @@ layout: page
         <p>⁵ Decreases in BSQ supply are good.</p>
 
     </div>
-    
+
     <!---------------------------
     governance section
     ---------------------------->
 
     <div class="governance-section">
-        
+
         {% if page.numberAcceptedProposals > 0 %}
-        
+
         <h3>Governance</h3>
-            
+
             <!--<p>The following proposals went up for voting in this cycle. Results, commentary, and links to learn more are listed below.</p>-->
 
             {% if page.numberGovernanceProposals == 0 %}
                 <p>There were no governance-related proposals in this cycle.</p>
             {% endif %}
-            
+
             {% for i in page.paramChangeDetails %}
                 <div class="proposal-item">
                     <h5>Parameter change proposal for <code>{{ i.proposalParam }}</code></h5>
@@ -123,7 +123,7 @@ layout: page
                     {% else %}
                         <p class="yay-or-nay nay">Rejected</p>
                     {% endif %}
-                    
+
                     {% assign comment = site.proposalcommentaries | where: 'proposalID', i.proposalTxid | first %}
                     {% if comment %}
                         <div class="further-comments">
@@ -133,7 +133,7 @@ layout: page
 
                 </div>
             {% endfor %}
-            
+
             <!--{% assign comment = site.proposalcommentaries | where: 'cycleUniqueID', '13-e56ae10d2f0f3232b019a0ffa954095fc6a3792e1a0b0be2bce0582d542987b0' | first %}
             <div class="test">{{ comment.content | markdownify }}</div>-->
 
@@ -148,17 +148,17 @@ layout: page
                     {% endif %}
 
                     {% assign comment = site.proposalcommentaries | where: 'proposalID', i.proposalTxid | first %}
-                    
+
                     {% assign comment = site.proposalcommentaries | where: 'proposalID', i.proposalTxid | first %}
                     {% if comment %}
                         <div class="further-comments">
                             {{ comment.content | markdownify }}
                         </div>
                     {% endif %}
-                    
+
                 </div>
             {% endfor %}
-            
+
             {% for i in page.bondedRoleDetails %}
                 <div class="proposal-item">
                     <h5>Bonded role proposal for <code>{{ i.proposedRole }}</code></h5>
@@ -168,7 +168,7 @@ layout: page
                     {% else %}
                         <p class="yay-or-nay nay">Rejected</p>
                     {% endif %}
-                    
+
                     {% assign comment = site.proposalcommentaries | where: 'proposalID', i.proposalTxid | first %}
                     {% if comment %}
                         <div class="further-comments">
@@ -178,7 +178,7 @@ layout: page
 
                 </div>
             {% endfor %}
-            
+
             {% for i in page.removeAssetDetails %}
                 <div class="proposal-item">
                     <h5>Proposal to de-list asset with ticker <code>{{ i.asset }}</code></h5>
@@ -188,7 +188,7 @@ layout: page
                     {% else %}
                         <p class="yay-or-nay nay">Rejected</p>
                     {% endif %}
-                    
+
                     {% assign comment = site.proposalcommentaries | where: 'proposalID', i.proposalTxid | first %}
                     {% if comment %}
                         <div class="further-comments">
@@ -198,7 +198,7 @@ layout: page
 
                 </div>
             {% endfor %}
-            
+
             {% for i in page.confiscateBondDetails %}
                 <div class="proposal-item">
                     <h5>Proposal confiscate a bond</code></h5>
@@ -208,7 +208,7 @@ layout: page
                     {% else %}
                         <p class="yay-or-nay nay">Rejected</p>
                     {% endif %}
-                    
+
                     {% assign comment = site.proposalcommentaries | where: 'proposalID', i.proposalTxid | first %}
                     {% if comment %}
                         <div class="further-comments">
@@ -218,42 +218,44 @@ layout: page
 
                 </div>
             {% endfor %}
-            
+
         {% else %}
 
             <h3>Critical Cycle Notes</h3>
-                    
+
             {% assign comment = site.proposalcommentaries | where: 'proposalID', page.blockEndDate | first %}
             {% if comment %}
 
                 <div class="critical-cycle-notes">
                     {{ comment.content | markdownify }}
                 </div>
-                
+
             {% else %}
-            
+
                 <div class="critical-cycle-notes">
                     <p>There were no proposals approved in this cycle, so something probably went wrong. Look for a post-mortem to be posted soon.</p>
                 </div>
-                
+
             {% endif %}
-        
+
         {% endif %}
-        
-    </div>  
-    
+
+    </div>
+
     <!---------------------------
     notes section, shown only if there is an md file found with front matter containing the cycle's starting block
     ---------------------------->
-    
+
     {% assign comment = site.proposalcommentaries | where: 'proposalID', page.blockStartDate | first %}
     {% if comment %}
     <div class="notes-section">
-        <h3>Notes</h3>  
+        <h3>Notes</h3>
         <div class="general-cycle-notes">
             {{ comment.content | markdownify }}
         </div>
     </div>
     {% endif %}
-    
+
+    <a href="/dashboard" class="back-to-dashboard">< See more DAO data on the Dashboard</a>
+
 </div>

@@ -17,6 +17,10 @@ exclude:
   - CNAME
   - README
   - Gemfile
+collections:
+  dashboard:
+    output: true
+  proposalcommentaries:
 defaults:
   -
     scope:

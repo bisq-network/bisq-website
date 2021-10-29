@@ -56,4 +56,18 @@ class LocalSocialLink < Liquid::Tag
     end
   end
 
-  Liquid::Template.register_tag('local_social_link', LocalSocialLink)
+Liquid::Template.register_tag('local_social_link', LocalSocialLink)
+
+class SupplySpanned < Liquid::Tag
+  def initialize(tag_name, dest, _tokens)
+    super
+    @dest = dest
+  end
+
+  def render(context)
+    str = context.environments.first["page"]["supplyChange"]
+    return "<span>" + str[0] + "</span>" + str[2..]
+  end
+end
+
+Liquid::Template.register_tag('supply_spanned', SupplySpanned)

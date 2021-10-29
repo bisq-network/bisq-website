@@ -1,0 +1,4 @@
+{
+    "daoTxDirectory": "/location/to/your/btc_mainnet/db/json/tx/",
+    "daoVoteResultsFile": "/location/to/voteResultsHistory.json"
+}

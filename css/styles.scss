@@ -933,7 +933,7 @@ stats
 *****************/
 
 .chart-stat-container {
-    margin: 3em 0 5em 0;
+    margin: 2em 0 4em 0;
     height: 275px;
 }
 
@@ -1134,6 +1134,205 @@ getting started page
 #getting-started .step-feature .responsive-youtube-container.active {
     display: block;
 }
+
+
+/*****************
+dashboard page
+*****************/
+
+.dashboard-component {
+    margin: 50px auto;
+}
+
+#cycle-tile-container {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#cycle-tile-container .cycle-tile {
+    display: inline-block;
+    float: left;
+    background-color: #25B135;
+    margin: 0 20px 20px 0;
+    padding: 20px;
+    width: 350px;
+    height: 181px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+body.dark-mode #cycle-tile-container .cycle-tile {
+    background-color: #1d1d1d;
+}
+
+#cycle-tile-container .cycle-tile:hover {
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 50%);
+    transition: 0.3s all;
+}
+
+#cycle-tile-container .cycle-tile h4 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#cycle-tile-container .cycle-tile p {
+    position: relative;
+    padding-left: 26px;
+    margin-bottom: 4px;
+}
+
+#cycle-tile-container .cycle-tile p > i {
+    position: absolute;
+    top: 4px;
+}
+
+#cycle-tile-container .cycle-tile p > i.fa-clock-o {
+    left: 0;
+}
+
+#cycle-tile-container .cycle-tile p > i.fa-lightbulb-o {
+    left: 2px;
+}
+
+#cycle-tile-container .cycle-tile p > i.fa-area-chart {
+    left: -1px;
+}
+
+#cycle-tile-container .cycle-tile .start-date {
+    color: #fff;
+}
+
+#cycle-tile-container .cycle-tile .number-proposals {
+    color: #fff;
+}
+
+#cycle-tile-container .cycle-tile .issuance-burn {
+    color: #fff;
+}
+
+/*****************
+dashboard cycle pages
+*****************/
+
+#cycle-dashboard {
+    margin-top: 30px;
+}
+
+#cycle-dashboard .overview-section {
+    text-transform: uppercase;
+    margin: 30px 0 30px 0;
+}
+
+#cycle-dashboard .overview-section .overview-item .heading {
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
+    display: inline-block;
+    width: 175px;
+}
+
+body.dark-mode #cycle-dashboard .overview-section .overview-item .heading {
+    color: #7E7E7E;
+}
+
+#cycle-dashboard .overview-section .overview-item .content.supply-change.decrease {
+    color: #25B135;
+}
+
+#cycle-dashboard .overview-section .overview-item .content.supply-change.increase {
+    color: #e74c3c;
+}
+
+#cycle-dashboard .funds-section {
+    margin-top: 30px;
+}
+
+#cycle-dashboard .funds-section table {
+    margin: 25px 0 35px 0;
+}
+
+#cycle-dashboard .funds-section table thead th {
+    font-weight: 400;
+    padding: 0.6rem 5rem 0.6rem 0.6rem;
+}
+
+#cycle-dashboard .funds-section table td {
+    padding: 0.6rem 5rem 0.6rem 0.6rem;
+}
+
+#cycle-dashboard .funds-section table tr.notable-weight td {
+    font-weight: 400;
+}
+
+#cycle-dashboard .funds-section table .light-border-top {
+    border-top: 1px solid #f3f3f3;
+}
+
+#cycle-dashboard .funds-section table .heavy-border-top {
+    border-top: 4px solid #f3f3f3;
+}
+
+#cycle-dashboard .funds-section table thead th:nth-child(2), #cycle-dashboard .funds-section table tr td:nth-child(2)  {
+    padding-left: 20px;
+    position: relative;
+}
+
+#cycle-dashboard .funds-section table td.net-change-result span {
+    position: absolute;
+    left: 0;
+}
+
+#cycle-dashboard .governance-section h3 {
+    margin-top: 30px;
+}
+
+#cycle-dashboard .governance-section h5 {
+    font-weight: 400;
+}
+
+#cycle-dashboard .governance-section .proposal-item {
+    margin: 35px 0 35px 0;
+}
+
+#cycle-dashboard .governance-section .proposal-item .user-and-link {
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+
+body.dark-mode #cycle-dashboard .governance-section .proposal-item .user-and-link {
+    color: #7E7E7E;
+}
+
+#cycle-dashboard .governance-section .proposal-item .user-and-link .user-handle {
+    font-weight: 400;
+}
+
+#cycle-dashboard .governance-section .proposal-item .yay-or-nay {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    font-size: 14px;
+}
+
+#cycle-dashboard .governance-section .proposal-item .yay-or-nay.yay {
+    border: 1px solid #25B135;
+    color: #25B135;
+}
+
+#cycle-dashboard .governance-section .proposal-item .yay-or-nay.nay {
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+
+a.back-to-dashboard {
+    text-transform: uppercase;
+    display: block;
+    margin-top: 40px;
+}
+
 
 /****************/
 

@@ -142,18 +142,3 @@ downloads:
   pSeeInstructions: "<p class=\"small\">Veja <a href=\"/getting-started\">Introdução ao Bisq</a> para instruções sobre como fazer sua primeira negociação.</p>"
   hMobileNotifications: Notificações da Bisq Móvel
   pMobileNotifications: Mantenha-se atualizado sobre suas negociações e receba notificações no seu celular.
-
-stats:
-  hNetworkStats: Estatísticas da rede
-  pSeeMarkets: "<p>Veja <a href='https://bisq.network/markets'>Página de Mercados</a> para o volume por moeda.</p>"
-  pBSQDistribution: "A <a href='https://bisq.wiki/DAO_user_reference#BSQ_Genesis_Distribution' target='_blank'>distribuição gênese de BSQ</a> na mainnet aconteceu em Abril de 2019."
-  pTotalTrades: Todas as Negociações
-  pTotalDate: Até o fim do mês passado
-  pDailyAverageTrade: Média diária de negociações
-  pSoftwareDownloads: Downloads do software
-  pSoftwareDownloadsVersion: "Para v1.6.5 (aproximadamente)"
-  pGithubContributors: Contribuidores no GitHub
-  pToDate: No mês passado
-  pTwitterFollowers: Seguidores no Twitter
-  pKeybaseUsers: "Usuários no Keybase"
-  pNetworkLoad: "<p class='monitor-note'>Para dados sobre a rede P2P, métricas do Tor e outros dados da rede, por favor visite <a href='https://monitor.bisq.network' target='_blank'>o Monitor da Rede Bisq</a>.</p>"

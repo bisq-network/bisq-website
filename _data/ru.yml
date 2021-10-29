@@ -142,18 +142,3 @@ downloads:
   pSeeInstructions: "<p class=\"small\">Прочитайте статью <a href=\"/getting-started\">«Начало работы с Bisq»</a>, чтобы узнать, как совершить свою первую сделку.</p>"
   hMobileNotifications: Мобильные уведомления Bisq
   pMobileNotifications: Получайте оперативные уведомления о сделках на мобильный телефон.
-
-stats:
-  hNetworkStats: Статистика сети
-  pSeeMarkets: "<p>Для просмотра объёмов торгов для каждой валюты см. <a href='https://bisq.network/markets'>страницу рынков</a>.</p>"
-  pBSQDistribution: "Первичное <a href='https://bisq.wiki/DAO_user_reference#BSQ_Genesis_Distribution' target='_blank'>распределение BSQ</a> состоялось в апреле 2019 г."
-  pTotalTrades: Всего сделок
-  pTotalDate: с прошлого месяца
-  pDailyAverageTrade: Среднее кол-во сделок в день
-  pSoftwareDownloads: Загрузок программы
-  pSoftwareDownloadsVersion: версии v1.6.5 (приблизительно)
-  pGithubContributors: Участников проекта на GitHub
-  pToDate: в прошлом месяце
-  pTwitterFollowers: Читателей в Twitter
-  pKeybaseUsers: Пользователей в Keybase
-  pNetworkLoad: "<p class='monitor-note'>Информацию о нагрузке на сеть P2P, данных Tor и других сетевых данных можно посмотреть <a href='https://monitor.bisq.network' target='_blank'>в мониторе сети Bisq</a>.</p>"

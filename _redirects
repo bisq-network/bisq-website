@@ -171,6 +171,25 @@ https://bisq.io https://bisq.network 301
 
 /mobile-notifications https://bisq.wiki/Mobile_notifications 302
 
+# dao reports
+/stats /dashboard 302
+/blog/cycle-5-results /dashboard/cycle-5 302
+/blog/cycle-6-results /dashboard/cycle-6 302
+/blog/cycle-7-results /dashboard/cycle-7 302
+/blog/cycle-8-results /dashboard/cycle-8 302
+/blog/cycle-9-results /dashboard/cycle-9 302
+/blog/cycle-10-results /dashboard/cycle-10 302
+/blog/cycle-11-results /dashboard/cycle-11 302
+/blog/cycle-12-results /dashboard/cycle-12 302
+/blog/cycle-13-results /dashboard/cycle-13 302
+/blog/cycle-14-results /dashboard/cycle-14 302
+/blog/cycle-15-results /dashboard/cycle-15 302
+/blog/cycle-16-results /dashboard/cycle-26 302
+/blog/cycle-17-results /dashboard/cycle-17 302
+/blog/cycle-18-results /dashboard/cycle-18 302
+/blog/cycle-19-results /dashboard/cycle-19 302
+/blog/cycle-20-results /dashboard/cycle-20 302
+/blog/cycle-21-results /dashboard/cycle-21 302
 
 # blog
 /blog/tag/ /blog/ 302

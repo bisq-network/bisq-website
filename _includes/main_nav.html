@@ -40,8 +40,8 @@
       <li class="nav-item {% is_current_page dao %}">
         <a class="nav-link" href="{% lingual_link dao %}">{{ mainNavLabels.bisqDAO }}</a>
       </li>
-      <li class="nav-item {% is_current_page stats %}">
-        <a class="nav-link" href="{% lingual_link stats %}">{{ mainNavLabels.statistics }}</a>
+      <li class="nav-item {% if page.url == '/dashboard/' %}current{% endif %}">
+        <a class="nav-link" href="/dashboard">{{ mainNavLabels.statistics }}</a>
       </li>
       <li class="nav-item {% is_current_page faq %}">
         <a class="nav-link" target="_blank" href="https://bisq.wiki/Frequently_asked_questions">{{ mainNavLabels.faq }}<img class="external-link-symbol" src="/images/external-link-b.svg"></a>

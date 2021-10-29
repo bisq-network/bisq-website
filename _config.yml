@@ -20,6 +20,7 @@ exclude:
 collections:
   dashboard:
     output: true
+  proposalcommentaries:
 defaults:
   -
     scope:

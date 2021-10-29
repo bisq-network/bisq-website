@@ -1274,6 +1274,47 @@ dashboard cycle pages
     left: 0;
 }
 
+#cycle-dashboard .governance-section h3 {
+    margin-top: 30px;
+}
+
+#cycle-dashboard .governance-section h5 {
+    font-weight: 400;
+}
+
+#cycle-dashboard .governance-section .proposal-item {
+    margin: 35px 0 35px 0;
+}
+
+#cycle-dashboard .governance-section .proposal-item .user-and-link {
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+
+#cycle-dashboard .governance-section .proposal-item .user-and-link .user-handle {
+    font-weight: 400;
+}
+
+#cycle-dashboard .governance-section .proposal-item .yay-or-nay {
+    display: inline-block;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 2px 10px;
+    font-size: 14px;
+}
+
+#cycle-dashboard .governance-section .proposal-item .yay-or-nay.yay {
+    border: 1px solid #25B135;
+    color: #25B135;
+}
+
+#cycle-dashboard .governance-section .proposal-item .yay-or-nay.nay {
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+
 /****************/
 
 

@@ -46,5 +46,6 @@ removeAssetDetails:
 confiscateBondDetails: 
 compensationTotal: "0"
 reimbursementTotal: "0"
+numberGovernanceProposals: 0
 totalIssuance: "0"
 ---

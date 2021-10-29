@@ -145,6 +145,7 @@ for c in overviewObj:
 
         compensationTotal = 0
         reimbursementTotal = 0
+        governanceTotal = 0
         with open( voteResultsPath, 'r' ) as results:
         
             resultsDict = json.loads( results.read() )
@@ -153,6 +154,7 @@ for c in overviewObj:
             for p in resultsDict[i-1]['proposals']:
                 if( ( p['proposal.proposalType'] == 'COMPENSATION_REQUEST' ) and ( p['isAccepted'] == 'Accepted' ) ):
                     f.write( ' - proposalType: ' + p['proposal.proposalType'] + '\n' )
+                    f.write( '   proposalTxid: ' + p['proposal.txId'] + '\n' )
                     f.write( '   nameOnProposal: "' + p['proposal.name'].strip() + '"\n' )
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   requestedBSQ: "' + str( '{:,.0f}'.format( p['proposal.requestedBsq'] / 100 ) ) + '"\n' )
@@ -162,6 +164,7 @@ for c in overviewObj:
             for p in resultsDict[i-1]['proposals']:
                 if( ( p['proposal.proposalType'] == 'REIMBURSEMENT_REQUEST' ) and ( p['isAccepted'] == 'Accepted' ) ):
                     f.write( ' - proposalType: ' + p['proposal.proposalType'].strip() + '\n' )
+                    f.write( '   proposalTxid: ' + p['proposal.txId'] + '\n' )
                     f.write( '   nameOnProposal: "' + p['proposal.name'] + '"\n' )
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   requestedBSQ: "' + str( '{:,.0f}'.format( p['proposal.requestedBsq'] / 100 ) ) + '"\n' )
@@ -170,7 +173,9 @@ for c in overviewObj:
             f.write( 'paramChangeDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
                 if( p['proposal.proposalType'] == 'CHANGE_PARAM' ):
+                    governanceTotal = governanceTotal + 1
                     f.write( ' - proposalType: ' + p['proposal.proposalType'] + '\n' )
+                    f.write( '   proposalTxid: ' + p['proposal.txId'] + '\n' )
                     f.write( '   nameOnProposal: "' + p['proposal.name'].strip() + '"\n' )
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   proposalParam: ' + p['proposal.param'] + '\n' )
@@ -179,7 +184,9 @@ for c in overviewObj:
             f.write( 'genericProposalDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
                 if( p['proposal.proposalType'] == 'GENERIC' ):
+                    governanceTotal = governanceTotal + 1
                     f.write( ' - proposalType: ' + p['proposal.proposalType'] + '\n' )
+                    f.write( '   proposalTxid: ' + p['proposal.txId'] + '\n' )
                     f.write( '   nameOnProposal: "' + p['proposal.name'].strip() + '"\n' )
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   isAccepted: ' + ( str(1) if ( p['isAccepted'] == 'Accepted' ) else str(0) ) + '\n' )
@@ -187,7 +194,9 @@ for c in overviewObj:
             f.write( 'bondedRoleDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
                 if( p['proposal.proposalType'] == 'BONDED_ROLE' ):
+                    governanceTotal = governanceTotal + 1
                     f.write( ' - proposalType: ' + p['proposal.proposalType'] + '\n' )
+                    f.write( '   proposalTxid: ' + p['proposal.txId'] + '\n' )
                     f.write( '   nameOnProposal: "' + p['proposal.name'].strip() + '"\n' )
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   proposedRole: ' + p['proposal.bondedRoleType'] + '\n' )
@@ -196,7 +205,9 @@ for c in overviewObj:
             f.write( 'removeAssetDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
                 if( p['proposal.proposalType'] == 'REMOVE_ASSET' ):
+                    governanceTotal = governanceTotal + 1
                     f.write( ' - proposalType: ' + p['proposal.proposalType'] + '\n' )
+                    f.write( '   proposalTxid: ' + p['proposal.txId'] + '\n' )
                     f.write( '   nameOnProposal: "' + p['proposal.name'].strip() + '"\n' )
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   asset: ' + p['proposal.tickerSymbol'] + '\n' )
@@ -206,7 +217,9 @@ for c in overviewObj:
             f.write( 'confiscateBondDetails: \n' )
             for p in resultsDict[i-1]['proposals']:
                 if( p['proposal.proposalType'] == 'CONFISCATE_BOND' ):
+                    governanceTotal = governanceTotal + 1
                     f.write( ' - proposalType: ' + p['proposal.proposalType'] + '\n' )
+                    f.write( '   proposalTxid: ' + p['proposal.txId'] + '\n' )
                     f.write( '   nameOnProposal: "' + p['proposal.name'].strip() + '"\n' )
                     f.write( '   proposalLink: "' + p['proposal.link'] + '"\n' )
                     f.write( '   isAccepted: ' + ( str(1) if ( p['isAccepted'] == 'Accepted' ) else str(0) ) + '\n' )
@@ -215,6 +228,7 @@ for c in overviewObj:
                 
         f.write( 'compensationTotal: "' + str( '{:,.0f}'.format( compensationTotal ) ) + '"\n' )
         f.write( 'reimbursementTotal: "' + str( '{:,.0f}'.format( reimbursementTotal ) ) + '"\n' )
+        f.write( 'numberGovernanceProposals: ' + str( governanceTotal ) + '\n' )
         f.write( 'totalIssuance: "' + str( '{:,.0f}'.format( compensationTotal + reimbursementTotal ) ) + '"\n' )
         
         f.write( '---\n' )

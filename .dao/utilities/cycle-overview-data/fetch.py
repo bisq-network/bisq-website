@@ -46,7 +46,7 @@ with open( daoResultsPath, 'r' ) as daoResults:
 
     daoResultsDict = json.loads( daoResults.read() )
 
-    # assume cycle that started more than 40 days ago has completed
+    # assume cycle that started more than 29 days ago has completed (not perfect, but must deal with invalid cycles like cycle 20)
     i = 0
     for cycle in daoResultsDict:
         i = i + 1
@@ -57,7 +57,7 @@ with open( daoResultsPath, 'r' ) as daoResults:
                 acceptedProposals = acceptedProposals + 1
             else:
                 rejectedProposals = rejectedProposals + 1
-        if( ( timeNow - ( cycle['startTime'] / 1000 ) > 3456000 ) ):
+        if( ( timeNow - ( cycle['startTime'] / 1000 ) > 2505600 ) ):
             cycleOverviewData[ str(cycle['cycleIndex']) ] = {}
             cycleOverviewData[ str(cycle['cycleIndex']) ]['startTime'] = math.floor( cycle['startTime'] / 1000 )
             cycleOverviewData[ str(cycle['cycleIndex']) ]['endTime'] = math.floor( ( ( daoResultsDict[ i ]['startTime'] ) / 1000 ) ) - 1

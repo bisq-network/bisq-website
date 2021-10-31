@@ -19,6 +19,7 @@
   - See existing commentary for examples, and/or `/_layouts/dashboard.html` to see how it works in practice.
 
 ### Must-know
+- When generating a new cycle report, the script will exclude any cycles that started less than 29 days ago. If a new report is not generating as you expect, inspect the script in `utilities/cycle-overview-data/`.
 - Only run `generate_dashboard.sh` from `.dao/` as there are some relative links that will not work otherwise.
 - All files in `/dashboard` are regenerated every time `generate_dashboard.sh` is run, so don't save anything manually there.
 

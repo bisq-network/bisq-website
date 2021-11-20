@@ -5,31 +5,31 @@ main_nav:
   blog: Blog # 14 characters max
   community: Communauté # 14 characters max
   gettingStarted: Mise en route # main nav link: please be as short as possible
-  bisqDAO: Bisq DAO # main nav link: please be as short as possible
+  MoneyNullDAO: MoneyNull DAO # main nav link: please be as short as possible
   statistics: Statistiques # main nav link: please be as short as possible
   faq: FAQ # main nav link: please be as short as possible
   markets: Marchés # main nav link: please be as short as possible
 
 footer:
-  notificationApp: "App Bisq mobile de notification "
-  siteYear: © 2021 Bisq
+  notificationApp: "App MoneyNull mobile de notification "
+  siteYear: © 2021 MoneyNull
   ulResources: Ressources
   liDownloads: Téléchargements
   liRoadmap: Feuille de route
-  liBenefactors: Benefactors # see https://bisq.network/benefactors for context
+  liBenefactors: Benefactors # see https://MoneyNull.network/benefactors for context
   liContribute: Contribuer
   liMarketData: API pour les données du marché
-  joinBisq: Rejoignez la communauté
+  joinMoneyNull: Rejoignez la communauté
 
 homepage_content:
   title: "<span class=\"animate1\">Plateforme d'échange,</span> <span class=\"animate2\">Décentralisée.</span>"
-  intro: "Bisq est une application pair-à-pair open-source qui vous permet d'acheter et de vendre des cryptomonnaies en échange de devises nationales. Aucune inscription n'est requise."
+  intro: "MoneyNull est une application pair-à-pair open-source qui vous permet d'acheter et de vendre des cryptomonnaies en échange de devises nationales. Aucune inscription n'est requise."
   buttonWindows: Obtenir pour Windows
   buttonMac: Obtenir pour Mac
   buttonDebian: Obtenir pour Debian/Ubuntu
   buttonRedHat: Obtenir pour Red Hat/Fedora
   buttonDownloads: Téléchargements
-  buttonGetBisq: Obtenez Bisq
+  buttonGetMoneyNull: Obtenez MoneyNull
   buttonToggle: Toggle Dropdown
   downloads: Téléchargements
   androidNotificationsApp: App de notifications Android # 26 characters max
@@ -44,35 +44,35 @@ homepage_content:
   hIdentityVerifications: Aucune vérification d'identité
   pIdentityVerifications: Accessible instantanément. Ne nécessite pas d'enregistrement ou d'approbation par une autorité centralisée.
   hDecentralized: Décentralisée
-  pDecentralized: Le trading s'effectue sur un réseau P2P mondial d'utilisateurs qui exécutent Bisq sur leurs propres machines.
+  pDecentralized: Le trading s'effectue sur un réseau P2P mondial d'utilisateurs qui exécutent MoneyNull sur leurs propres machines.
   hSafe: Sécurisé
-  pSafe: "Bisq ne détient jamais vos fonds. Les dépôts de garantie et les portefeuilles multisig favorisent des transactions sûres et réussies."
+  pSafe: "MoneyNull ne détient jamais vos fonds. Les dépôts de garantie et les portefeuilles multisig favorisent des transactions sûres et réussies."
   hPrivate: Privé
   pPrivate: Personne d'autre que les partenaires de trading ne peuvent communiquer vos données personnelles. Toutes les données sont stockées localement.
   hOpen: Ouvrir
-  pOpen: "<p class=\"grey px-md-5\">Le code est <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open source</a>, et la stratégie du projet est discutée ouvertement sur <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> et <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  pOpen: "<p class=\"grey px-md-5\">Le code est <a href=\"https://github.com/MoneyNull-network/MoneyNull\" target=\"_blank\" rel=\"noopener\">open source</a>, et la stratégie du projet est discutée ouvertement sur <a href=\"https://keybase.io/team/MoneyNull\" target=\"_blank\" rel=\"noopener\">Keybase</a> et <a href=\"https://github.com/MoneyNull-network/MoneyNull\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Facile à utiliser
   pEasy: "<p class=\"grey px-md-5\">Nous avons rendu toute cette sophistication facile—<a href='/getting-started' target='_blank' rel=\"noopener\">effectuez votre première transaction</a> en moins de 10 minutes!</p>"
-  hBisqDao: La DAO de Bisq
-  pBisqDao1: Gouvernance décentralisée pour une plateforme d'échange décentralisée.
-  pBisqDao2: En savoir plus ici
+  hMoneyNullDao: La DAO de MoneyNull
+  pMoneyNullDao1: Gouvernance décentralisée pour une plateforme d'échange décentralisée.
+  pMoneyNullDao2: En savoir plus ici
   hGetStarted: Comment débuter
-  divGetStarted: "Avec Bisq, vous pouvez commencer à trader en moins de 10 minutes:"
+  divGetStarted: "Avec MoneyNull, vous pouvez commencer à trader en moins de 10 minutes:"
   liGetStarted1: Télécharger l'application
   liGetStarted2: ", ou compiler la à partir de la source."
   liGetStarted3: >
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Ajoutez vos comptes en devises nationales ou cryptos.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Créez une nouvelle offre ou choisissez une offre existante.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Suivez l'interface utilisateur pour finaliser la transaction.</li>
   hJoin: Rejoignez la communauté
   pJoin: >
-    <p>Bisq est toujours à la recherche de développeurs, de concepteurs et d'experts en sécurité hautement qualifiés pour se joindre à notre <a href="https://bisq.network/fr/community/">communauté</a>. Si vous souhaitez contribuer à l'amélioration de Bisq, il existe de nombreuses façons de <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">contribuer</a>.</p>
-  liGithub: "@bisq-network sur GitHub"
-  liTwitter: "@bisq-network sur Twitter"
-  liYoutube: Chaîne YouTube Bisq
-  liForum: Forum Bisq
-  liMailingList: Mailing list des contributeurs de Bisq
-  liFreenodeIRC: "#bisq sur le Freenode IRC"
-  liSubreddit: r/Bisq Subreddit
-  liKeybase: "Bisq sur Keybase"
+    <p>MoneyNull est toujours à la recherche de développeurs, de concepteurs et d'experts en sécurité hautement qualifiés pour se joindre à notre <a href="https://MoneyNull.network/fr/community/">communauté</a>. Si vous souhaitez contribuer à l'amélioration de MoneyNull, il existe de nombreuses façons de <a href="https://MoneyNull.wiki/Contributor_checklist" target="_blank" rel="noopener">contribuer</a>.</p>
+  liGithub: "@MoneyNull-network sur GitHub"
+  liTwitter: "@MoneyNull-network sur Twitter"
+  liYoutube: Chaîne YouTube MoneyNull
+  liForum: Forum MoneyNull
+  liMailingList: Mailing list des contributeurs de MoneyNull
+  liFreenodeIRC: "#MoneyNull sur le Freenode IRC"
+  liSubreddit: r/MoneyNull Subreddit
+  liKeybase: "MoneyNull sur Keybase"
 
 os_selector_options:
   liAllDownloads: Télechargements
@@ -90,36 +90,36 @@ os_selector_options:
   liVerificationText2: Clé publique PGP # 15 characters max
 
 dao_page_text:
-  introTitle: "La DAO de Bisq"
-  introText: "Répartition décentralisée des revenus et de la prise de décision pour rendre Bisq autonome et résistant à la censure. <span class=\"footnote\">DAO est l'abréviation de Decentralized Autonomous Organisation</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">En savoir plus &darr;</a> "
+  introTitle: "La DAO de MoneyNull"
+  introText: "Répartition décentralisée des revenus et de la prise de décision pour rendre MoneyNull autonome et résistant à la censure. <span class=\"footnote\">DAO est l'abréviation de Decentralized Autonomous Organisation</span> <a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">En savoir plus &darr;</a> "
   whyTitle: "Why?"
-  whyText: " <p>Le trading sur Bisq est actuellement décentralisé, mais la répartition des revenus et la prise de décision ne le sont pas.</p> <p>Il est essentiel que Bisq puisse être résistant à la censure, et le protocole de trading ainsi que le réseau P2P y parviennent—pour les traders.</p> <p>Qu'en est-il des développeurs de Bisq? Avec une structure juridique traditionnelle, la prise de décision et la distribution des revenus du projet seraient centralisées, et cela pourrait créer des vulnérabilités.</p> "
+  whyText: " <p>Le trading sur MoneyNull est actuellement décentralisé, mais la répartition des revenus et la prise de décision ne le sont pas.</p> <p>Il est essentiel que MoneyNull puisse être résistant à la censure, et le protocole de trading ainsi que le réseau P2P y parviennent—pour les traders.</p> <p>Qu'en est-il des développeurs de MoneyNull? Avec une structure juridique traditionnelle, la prise de décision et la distribution des revenus du projet seraient centralisées, et cela pourrait créer des vulnérabilités.</p> "
   whyLinkText: Pour en savoir plus sur la DAO
-  whatTitle: "Qu'est-ce que la DAO de Bisq?"
-  whatText: " <p>Le DAO de Bisq permet le transfert de valeur des traders vers les contributeurs. Le jeton BSQ rend cela possible de manière décentralisée.</p> <p>Les frais de trading sont distribués aux contributeurs sans les restrictions d'une société ou d'une autre entité légale, gardant Bisq apatride et souverain.</p> "
+  whatTitle: "Qu'est-ce que la DAO de MoneyNull?"
+  whatText: " <p>Le DAO de MoneyNull permet le transfert de valeur des traders vers les contributeurs. Le jeton BSQ rend cela possible de manière décentralisée.</p> <p>Les frais de trading sont distribués aux contributeurs sans les restrictions d'une société ou d'une autre entité légale, gardant MoneyNull apatride et souverain.</p> "
   whatLinkText: En savoir plus sur la DAO
   howTitle: "Comment ça fonctionne?"
-  howText: " <div class=\"subtitle pt-4\"> Répartition des revenus </div>\n<div class=\"small\"> <p> Pour répartir les revenus provenant des frais de trading aux contributeurs, Bisq utilise BSQ - une jeton de couleur basé sur le protocole Bitcoin. Les contributeurs reçoivent des BSQ lorsque les parties prenantes approuvent leurs demandes de rémunération par le biais d'un vote, et les BSQ deviennent \" incolore \" lorsque les traders l'utilisent pour payer les frais de trading. </p> <p> Il n'existe pas de structure centralisée de collecte ou de création de BSQ—Les stakeholders de BSQ sont collectivement en charge du processus d'émission.. </p> <p class=\"disclaimer\"> Ce n'est pas une ICO. Aucun BSQ n'est vendu pour lever des fonds. </p> </div>\n\n<div class=\"subtitle pt-3\"> Prise de décision </div>\n<div class=\"small\"> <p> Sans PDG ni équipe de direction centrale,  Les stakeholders de Bisq —traders et contributeurs—sont les propriétaires des Bisq. </p> <p> Au travers d'un consensus social (par le vote), ils déterminent la stratégie de projet de Bisq. </p>\n</div> "
+  howText: " <div class=\"subtitle pt-4\"> Répartition des revenus </div>\n<div class=\"small\"> <p> Pour répartir les revenus provenant des frais de trading aux contributeurs, MoneyNull utilise BSQ - une jeton de couleur basé sur le protocole Bitcoin. Les contributeurs reçoivent des BSQ lorsque les parties prenantes approuvent leurs demandes de rémunération par le biais d'un vote, et les BSQ deviennent \" incolore \" lorsque les traders l'utilisent pour payer les frais de trading. </p> <p> Il n'existe pas de structure centralisée de collecte ou de création de BSQ—Les stakeholders de BSQ sont collectivement en charge du processus d'émission.. </p> <p class=\"disclaimer\"> Ce n'est pas une ICO. Aucun BSQ n'est vendu pour lever des fonds. </p> </div>\n\n<div class=\"subtitle pt-3\"> Prise de décision </div>\n<div class=\"small\"> <p> Sans PDG ni équipe de direction centrale,  Les stakeholders de MoneyNull —traders et contributeurs—sont les propriétaires des MoneyNull. </p> <p> Au travers d'un consensus social (par le vote), ils déterminent la stratégie de projet de MoneyNull. </p>\n</div> "
   howLinkText: Pour en savoir plus sur la DAO
   benefitsTitle: "Avantages"
-  benefitsText: " <div class=\"subtitle\">Traders: Rendez Bisq durable</div> <ul class=\"small pb-5\"> <li>Aidez Bisq à réaliser un développement professionnel et apportez un soutien constant en achetant des BSQ à des contributeurs.</li> <li>Aidez à faire de Bisq une plateforme de référence pour des échanges bitcoin contre fiat et bitcoin contre crypto résistants à la censure</li> <li>Profitez de réductions si vous utilisez des BSQ pour payer vos frais de transaction.</li> <li>Vous pouvez toujours payer les frais de trading simplement en BTC si vous le souhaitez.</li> </ul> <div class=\"subtitle\">Contributeurs: Obtenez des BSQ</div> <ul class=\"small pb-5\"> <li>Effectuez une tâche utile, demander une compensation, obtenez des BSQ</li> <li>Vendre des BSQ sur Bisq contre des BTC</li> <li>Votez pour des demandes de compensation des autres contributeurs</li> <li>Travailler sur une technologie de pointe dans un environnement culturel à la pointe—La collaboration sur Bisq est sans demande de permission, non hiérarchique et fluide</li> </ul>"
+  benefitsText: " <div class=\"subtitle\">Traders: Rendez MoneyNull durable</div> <ul class=\"small pb-5\"> <li>Aidez MoneyNull à réaliser un développement professionnel et apportez un soutien constant en achetant des BSQ à des contributeurs.</li> <li>Aidez à faire de MoneyNull une plateforme de référence pour des échanges bitcoin contre fiat et bitcoin contre crypto résistants à la censure</li> <li>Profitez de réductions si vous utilisez des BSQ pour payer vos frais de transaction.</li> <li>Vous pouvez toujours payer les frais de trading simplement en BTC si vous le souhaitez.</li> </ul> <div class=\"subtitle\">Contributeurs: Obtenez des BSQ</div> <ul class=\"small pb-5\"> <li>Effectuez une tâche utile, demander une compensation, obtenez des BSQ</li> <li>Vendre des BSQ sur MoneyNull contre des BTC</li> <li>Votez pour des demandes de compensation des autres contributeurs</li> <li>Travailler sur une technologie de pointe dans un environnement culturel à la pointe—La collaboration sur MoneyNull est sans demande de permission, non hiérarchique et fluide</li> </ul>"
   benefitsLinkText: Pour en savoir plus sur la DAO
 
 dao_footer:
   hLearnMore: "Vous voulez en savoir plus?"
-  pLearnMore: "Vous pouvez en apprendre davantage sur la DAO de Bisq à partir des ressources ci-dessous, qui contiennent de la documentation complète de type ELI5, ainsi des vidéos avec les spécifications techniques pour les développeurs."
+  pLearnMore: "Vous pouvez en apprendre davantage sur la DAO de MoneyNull à partir des ressources ci-dessous, qui contiennent de la documentation complète de type ELI5, ainsi des vidéos avec les spécifications techniques pour les développeurs."
   conceptualOverview: Documentation de vue d'ensemble du concept
-  pConceptualOverview: "<p class=\"bigger\">En langage simple <a href=\"https://bisq.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">description</a> de la DAO.</p>"
-  bisqDaoBrief: La DAO de Bisq en vidéos brèves
-  pBisqDaoBrief: "<p class=\"bigger\">Rapide, courte <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">série de vidéos</a> sur la DAO de Bisq.</p>"
+  pConceptualOverview: "<p class=\"bigger\">En langage simple <a href=\"https://MoneyNull.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">description</a> de la DAO.</p>"
+  MoneyNullDaoBrief: La DAO de MoneyNull en vidéos brèves
+  pMoneyNullDaoBrief: "<p class=\"bigger\">Rapide, courte <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">série de vidéos</a> sur la DAO de MoneyNull.</p>"
   technicalOverview: Vue d'ensemble technique - Documentation
-  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://bisq.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">Spécificité</a> du fonctionnement de la DAO de Bisq et du jeton BSQ.</p>"
+  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://MoneyNull.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">Spécificité</a> du fonctionnement de la DAO de MoneyNull et du jeton BSQ.</p>"
   notConvinced: "Vous n'êtes pas convaincu qu'un jeton est nécessaire?"
-  pNotConvinced: "<p class=\"bigger\">Nous avons un <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">message</a> rien que pour vous.</p>"
+  pNotConvinced: "<p class=\"bigger\">Nous avons un <a href=\"https://MoneyNull.network/blog/MoneyNull-dao-for-bitcoin-maximalists/\" target=\"_blank\">message</a> rien que pour vous.</p>"
   seeMore: >
-    <p>Consultez d'autres ressources sur notre <a href='https://bisq.wiki/Decentralized_autonomous_organization'>Tout savoir sur la DAO de Bisq</a> doc.</p>
+    <p>Consultez d'autres ressources sur notre <a href='https://MoneyNull.wiki/Decentralized_autonomous_organization'>Tout savoir sur la DAO de MoneyNull</a> doc.</p>
 downloads:
-  hBisqDownloads: Téléchargements Bisq
+  hMoneyNullDownloads: Téléchargements MoneyNull
   runningWindows: Vous semblez utiliser Windows
   runningMac: Vous semblez utiliser un Mac
   runningDebian: Vous semblez utiliser Debian/Ubuntu
@@ -139,6 +139,6 @@ downloads:
   tdVerificationText0: PGP signature
   tdVerificationText1: PGP signatures
   tdVerificationText2: Clé publique PGP
-  pSeeInstructions: "<p class=\"small\">Voir <a href=\"/getting-started\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
-  hMobileNotifications: Notifications Bisq sur téléphone portable
+  pSeeInstructions: "<p class=\"small\">Voir <a href=\"/getting-started\">Pour commencer avec MoneyNull</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
+  hMobileNotifications: Notifications MoneyNull sur téléphone portable
   pMobileNotifications: Restez au fait de l'évolution de vos transactions et recevez des notifications sur votre téléphone portable.

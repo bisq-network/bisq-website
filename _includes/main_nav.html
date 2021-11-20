@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
-  <a class="navbar-brand" href="{% lingual_link home %}"><img src="/images/bisq-logo.svg" height="30" loading="lazy"/></a>
+  <a class="navbar-brand" href="{% lingual_link home %}"><img src="/images/MoneyNull-logo.svg" height="30" loading="lazy"/></a>
 
   <!-- Language selector for mobile -->
 
@@ -38,16 +38,16 @@
         <a class="nav-link" href="/getting-started">{{ mainNavLabels.gettingStarted }}</a>
       </li>
       <li class="nav-item {% is_current_page dao %}">
-        <a class="nav-link" href="{% lingual_link dao %}">{{ mainNavLabels.bisqDAO }}</a>
+        <a class="nav-link" href="{% lingual_link dao %}">{{ mainNavLabels.MoneyNullDAO }}</a>
       </li>
       <li class="nav-item {% if page.url == '/dashboard/' %}current{% endif %}">
         <a class="nav-link" href="/dashboard">{{ mainNavLabels.statistics }}</a>
       </li>
       <li class="nav-item {% is_current_page faq %}">
-        <a class="nav-link" target="_blank" href="https://bisq.wiki/Frequently_asked_questions">{{ mainNavLabels.faq }}<img class="external-link-symbol" src="/images/external-link-b.svg"></a>
+        <a class="nav-link" target="_blank" href="https://MoneyNull.wiki/Frequently_asked_questions">{{ mainNavLabels.faq }}<img class="external-link-symbol" src="/images/external-link-b.svg"></a>
       </li>
       <li class="nav-item {% is_current_page markets %}">
-        <a class="nav-link" target="_blank" href="https://bisq.markets">{{ mainNavLabels.markets }}<img class="external-link-symbol" src="/images/external-link-b.svg"></a>
+        <a class="nav-link" target="_blank" href="https://MoneyNull.markets">{{ mainNavLabels.markets }}<img class="external-link-symbol" src="/images/external-link-b.svg"></a>
       </li>
 
       <!-- additional links for mobile menu (these show in "learn more" dropdown on desktop) -->
@@ -56,7 +56,7 @@
         <a class="nav-link" href="/blog">{{ mainNavLabels.blog }}</a>
       </li>
       <li class="downloads-mobile nav-item">
-        <a class="nav-link" href="https://bisq.wiki" target="_blank">{{ mainNavLabels.documentation }}</a>
+        <a class="nav-link" href="https://MoneyNull.wiki" target="_blank">{{ mainNavLabels.documentation }}</a>
       </li>
       <li class="downloads-mobile nav-item">
         <a class="nav-link" href="{% lingual_link downloads %}">{{ mainNavLabels.downloads }}</a>
@@ -71,7 +71,7 @@
         <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="learnMoreDropdown">
           <div class="dropdown-item btn-icon">
             <div class="float-right">
-              <a href="https://bisq.wiki" target='_blank'>{{ mainNavLabels.documentation }}</a>
+              <a href="https://MoneyNull.wiki" target='_blank'>{{ mainNavLabels.documentation }}</a>
             </div>
           </div>
 
@@ -115,7 +115,7 @@
       <!-- search bar  -->
 
       <li class="nav-item search">
-        <form class="form-inline" action="https://bisq.wiki/index.php" method="POST" target="_blank" rel="noopener noreferrer">
+        <form class="form-inline" action="https://MoneyNull.wiki/index.php" method="POST" target="_blank" rel="noopener noreferrer">
           <div class="input-group">
             <input class="form-control mr-sm-2" type="search" placeholder="Search Wiki..." name="search">
             <button type="submit" class="btn btn-sm btn-outline-success nav-item"><img src="/images/search.svg"></button>

@@ -1,7 +1,7 @@
 {% assign item = site.data[page.lang].os_selector_options %}
 <div class="dropdown-item btn-icon">
-  <img src="/images/icon-download-g.svg" class="os-icon os-icon-g" alt="Download Bisq" loading="lazy">
-  <img src="/images/icon-download-w.svg" class="os-icon os-icon-w" alt="Download Bisq" loading="lazy">
+  <img src="/images/icon-download-g.svg" class="os-icon os-icon-g" alt="Download MoneyNull" loading="lazy">
+  <img src="/images/icon-download-w.svg" class="os-icon os-icon-w" alt="Download MoneyNull" loading="lazy">
   {{ item.liAllDownloads }}
   <div class="float-right">
     <a href="{% lingual_link downloads %}">{{ item.liAllDownloadsText }}</a>
@@ -9,51 +9,51 @@
 </div>
 
 <div class="dropdown-item btn-icon">
-  <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Windows" loading="lazy" />
-  <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Windows" loading="lazy" />
+  <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g" alt="Download MoneyNull for Windows" loading="lazy" />
+  <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w" alt="Download MoneyNull for Windows" loading="lazy" />
   {{ item.liWindows }}
   <div class="float-right">
-    <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">.exe</a>
+    <a class="dl-win64" href="https://MoneyNull.network/downloads/v{{ site.client_version }}/MoneyNull-64bit-{{ site.client_version }}.exe">.exe</a>
   </div>
 </div>
 
 
 <div class="dropdown-item btn-icon">
-  <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Mac" loading="lazy" />
-  <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Mac" loading="lazy" />
+  <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g" alt="Download MoneyNull for Mac" loading="lazy" />
+  <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w" alt="Download MoneyNull for Mac" loading="lazy" />
   {{ item.liMac }}
   <div class="float-right">
-    <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
+    <a class="dl-mac" href="https://MoneyNull.network/downloads/v{{ site.client_version }}/MoneyNull-{{ site.client_version }}.dmg">.dmg</a>
   </div>
 </div>
 
 
 <div class="dropdown-item btn-icon">
-  <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Debian/Ubuntu" loading="lazy" />
-  <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Debian/Ubuntu" loading="lazy" />
+  <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g" alt="Download MoneyNull for Debian/Ubuntu" loading="lazy" />
+  <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w" alt="Download MoneyNull for Debian/Ubuntu" loading="lazy" />
   {{ item.liDebian }}
   <div class="float-right">
-    <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">.deb</a>
+    <a class="dl-deb64" href="https://MoneyNull.network/downloads/v{{ site.client_version }}/MoneyNull-64bit-{{ site.client_version }}.deb">.deb</a>
   </div>
 </div>
 
 
 <div class="dropdown-item btn-icon">
-  <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Red Hat/Fedora" loading="lazy" />
-  <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Red Hat/Fedora" loading="lazy" />
+  <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g" alt="Download MoneyNull for Red Hat/Fedora" loading="lazy" />
+  <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w" alt="Download MoneyNull for Red Hat/Fedora" loading="lazy" />
   {{ item.liRedHat }}
   <div class="float-right">
-    <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">.rpm</a>
+    <a class="dl-rpm64" href="https://github.com/MoneyNull-network/MoneyNull/releases/download/v{{ site.client_version }}/MoneyNull-64bit-{{ site.client_version }}.rpm">.rpm</a>
   </div>
 </div>
 
 
 <div class="dropdown-item btn-icon">
-  <img src="/images/icon-arch-linux-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Arch Linux" loading="lazy" />
-  <img src="/images/icon-arch-linux-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Arch Linux" loading="lazy" />
+  <img src="/images/icon-arch-linux-g.svg" class="os-icon os-icon-g" alt="Download MoneyNull for Arch Linux" loading="lazy" />
+  <img src="/images/icon-arch-linux-w.svg" class="os-icon os-icon-w" alt="Download MoneyNull for Arch Linux" loading="lazy" />
   {{ item.liArch }}
   <div class="float-right">
-    <a href="https://aur.archlinux.org/packages/bisq/">{{ item.liArchText }}</a></div>
+    <a href="https://aur.archlinux.org/packages/MoneyNull/">{{ item.liArchText }}</a></div>
 </div>
 
 <div class="dropdown-item btn-icon">
@@ -61,8 +61,8 @@
   <img src="/images/icon-opensource-w.svg" class="os-icon os-icon-w" alt="Source Code" loading="lazy" />
   {{ item.liSourceCode }}
   <div class="float-right">
-    <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.zip">zip</a> |
-    <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.tar.gz">tar.gz</a></div>
+    <a href="https://MoneyNull.network/downloads/archive/v{{ site.client_version }}.zip">zip</a> |
+    <a href="https://MoneyNull.network/downloads/archive/v{{ site.client_version }}.tar.gz">tar.gz</a></div>
 </div>
 
 <div class="dropdown-item btn-icon">
@@ -70,7 +70,7 @@
   <img src="/images/icon-notes-w.svg" class="os-icon os-icon-w" alt="Release Notes" loading="lazy" />
   {{ item.liReleaseNotes }}
   <div class="float-right">
-    <a href="https://bisq.network/downloads/v{{ site.client_version }}">v{{ site.client_version }}</a>
+    <a href="https://MoneyNull.network/downloads/v{{ site.client_version }}">v{{ site.client_version }}</a>
   </div>
 </div>
 
@@ -79,6 +79,6 @@
   <img src="/images/icon-verification-w.svg" class="os-icon os-icon-w" alt="Verification" loading="lazy" />
   {{ item.liVerification }}
   <div class="float-right">
-    <a href="https://bisq.network/downloads/v{{ site.client_version }}">{{ item.liVerificationText1 }}</a> |
-    <a href="https://bisq.network/downloads/v{{ site.client_version }}/29CDFD3B.asc">{{ item.liVerificationText2 }}</a></div>
+    <a href="https://MoneyNull.network/downloads/v{{ site.client_version }}">{{ item.liVerificationText1 }}</a> |
+    <a href="https://MoneyNull.network/downloads/v{{ site.client_version }}/29CDFD3B.asc">{{ item.liVerificationText2 }}</a></div>
 </div>

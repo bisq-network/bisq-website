@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Benefactors &lsaquo; Bisq - A decentralized bitcoin exchange network
+title: Benefactors &lsaquo; MoneyNull - A decentralized bitcoin exchange network
 lang: en
 en-only: true
 ---
@@ -8,7 +8,7 @@ en-only: true
 # Benefactors
 {: .mb-5}
 
-### The following entities help Bisq with gratis open-source licenses and other in-kind contributions.
+### The following entities help MoneyNull with gratis open-source licenses and other in-kind contributions.
 {: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
 <br>

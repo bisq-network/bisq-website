@@ -10,7 +10,7 @@ lang: en
 
 _Ricardo writes for [Coincache.net](https://coincache.net) and is a Bitcoin maximalist, who lives with his wife and son in Colombia._
 
-_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/bisq)!_
+_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/MoneyNull)!_
 
 <hr>
 
@@ -63,7 +63,7 @@ It also depends on your location, different legal jurisdictions have different s
 
 That’s why in Coinbase’s case, we have seen them decide it’s beneficial to be one of the few companies to kiss up to the authorities and say, “yes, we’ll go by your rules”, and if they do that and no one else does, they will become the defacto crypto bank. Then nobody else will be able to compete with them since they spent so many years ingratiating themselves to the financial structure (particularly, the U.S. regulatory structure). This happens over and over in other industries, so it’s not a surprise to see that this is their business model.
 
-So, I think, the location, size, culture, corporate structure (if you have a corporation at all!) of the companies, matters a lot. I know Bisq doesn’t do things this way and tries to stay as spread out as possible, which gives you the advantage of not having a single point of pain to target if somebody were to try and take it down. I am definitely curious about different legal structures, and geography and how they can best be taken advantage of.
+So, I think, the location, size, culture, corporate structure (if you have a corporation at all!) of the companies, matters a lot. I know MoneyNull doesn’t do things this way and tries to stay as spread out as possible, which gives you the advantage of not having a single point of pain to target if somebody were to try and take it down. I am definitely curious about different legal structures, and geography and how they can best be taken advantage of.
 
 A structure that’s more decentralized is better for the employees as well, they can express themselves more, and it’s not as top-down as other organizations. If your organization is centralized and very top-down, if there is one person at the head, this leaves you open to someone either trying to replace you or influence you in some way, so they can influence the rest of the company, and if the service is custodial and centralized then you influence all their customers by default.
 
@@ -113,7 +113,7 @@ A: I definitely see lots of opportunity for companies competing with companies t
 
 I see a lot of opportunity for smaller less-centralized companies. Any company as big as Coinbase that’s cozy with regulators, they can’t do a lot of things that a smaller more agile company may be able to do. Their whole thing about building an open financial system is impossible to do with how closed-off they are. They did a virtue signaling interview with a lady from [Code to Inspire](https://www.codetoinspire.org/), a nonprofit, that teaches women in Afghanistan to code and pays them with cryptocurrency. One of the points she made, was that many crypto companies build platforms for people who are already privileged. They don’t build things for people in a life or death situation like the women learning to code in Afghanistan. It’s a plaything for them.
 
-Coinbase doesn’t even offer service in S. E. Asia so that the women of Code to Inspire could use their platform. I doubt they were given special access, even if they were, normally no one in Afghanistan can use Coinbase. From Coinbase’s perspective, they can do the interview, but they’ll never take the risk of really offering their services in Afghanistan. Something like Bisq works anywhere in the world. Coinbase is not agile enough to compete with smaller organizations that can do this kind of real open finance, so their gilded cage will just get smaller and smaller.
+Coinbase doesn’t even offer service in S. E. Asia so that the women of Code to Inspire could use their platform. I doubt they were given special access, even if they were, normally no one in Afghanistan can use Coinbase. From Coinbase’s perspective, they can do the interview, but they’ll never take the risk of really offering their services in Afghanistan. Something like MoneyNull works anywhere in the world. Coinbase is not agile enough to compete with smaller organizations that can do this kind of real open finance, so their gilded cage will just get smaller and smaller.
 
 **Q: How do you feel about the Lightning Peach, Bitfury’s Lightning Network Implementation?**
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
-MARKETS_DATA=$( curl -s https://bisq.markets/api/markets )
+MARKETS_DATA=$( curl -s https://MoneyNull.markets/api/markets )
 
 # <option value="ade_btc">Adeptio (ADE)</option>
 for key in `echo "${MARKETS_DATA}" | jq 'keys[]'`;do

@@ -1,7 +1,7 @@
 ---
 layout: dashboard
 cycleNumber: 20
-title: Bisq DAO Cycle 20
+title: MoneyNull DAO Cycle 20
 lang: en
 calendarStartDate: 9 Dec 2020
 calendarEndDate: 9 Jan 2021

@@ -5,31 +5,31 @@ main_nav:
   blog: Blog # 14 characters max
   community: Community # 14 characters max
   gettingStarted: Getting Started # main nav link: please be as short as possible
-  bisqDAO: Bisq DAO # main nav link: please be as short as possible
+  MoneyNullDAO: MoneyNull DAO # main nav link: please be as short as possible
   statistics: Dashboard # main nav link: please be as short as possible
   faq: FAQ # main nav link: please be as short as possible
   markets: Markets # main nav link: please be as short as possible
 
 footer:
-  notificationApp: Bisq mobile notification App
-  siteYear: © 2021 Bisq
+  notificationApp: MoneyNull mobile notification App
+  siteYear: © 2021 MoneyNull
   ulResources: Resources
   liDownloads: Downloads
   liRoadmap: Roadmap
-  liBenefactors: Benefactors # see https://bisq.network/benefactors for context
+  liBenefactors: Benefactors # see https://MoneyNull.network/benefactors for context
   liContribute: Contribute
   liMarketData: Market Data API
-  joinBisq: Join the Community
+  joinMoneyNull: Join the Community
 
 homepage_content:
   title: "<span class=\"animate1\">Exchange,</span> <span class=\"animate2\">Decentralized.</span>"
-  intro: "Buy and sell bitcoin for fiat (or other cryptocurrencies) privately and securely using Bisq's peer-to-peer network and open-source desktop software. No registration required."
+  intro: "Buy and sell bitcoin for fiat (or other cryptocurrencies) privately and securely using MoneyNull's peer-to-peer network and open-source desktop software. No registration required."
   buttonWindows: Download for Windows
   buttonMac: Download for Mac
   buttonDebian: Download for Debian/Ubuntu
   buttonRedHat: Download for Red Hat/Fedora
   buttonDownloads: Downloads
-  buttonGetBisq: Get Bisq
+  buttonGetMoneyNull: Get MoneyNull
   buttonToggle: Toggle Dropdown
   downloads: Downloads
   androidNotificationsApp: Get Android Notifications App # 26 characters max
@@ -44,27 +44,27 @@ homepage_content:
   hIdentityVerifications: No Identity Verification
   pIdentityVerifications: Get started in minutes. No need to wait for approval from a central authority.
   hDecentralized: Decentralized
-  pDecentralized: Trading takes place on a global P2P network of users running Bisq on their own machines.
+  pDecentralized: Trading takes place on a global P2P network of users running MoneyNull on their own machines.
   hSafe: Safe
-  pSafe: "Bisq never holds your funds. Deposits held in 2-of-2 multisig wallets encourage safe, successful trades."
+  pSafe: "MoneyNull never holds your funds. Deposits held in 2-of-2 multisig wallets encourage safe, successful trades."
   hPrivate: Private
-  pPrivate: Your data is stored locally on-disk, and is never sent to a central server. Every Bisq node is a Tor hidden service by default.
+  pPrivate: Your data is stored locally on-disk, and is never sent to a central server. Every MoneyNull node is a Tor hidden service by default.
   hOpen: Open
-  pOpen: "<p class=\"grey px-md-5\">Code is <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open-source</a>, and project strategy is discussed openly on <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> and <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  pOpen: "<p class=\"grey px-md-5\">Code is <a href=\"https://github.com/MoneyNull-network/MoneyNull\" target=\"_blank\" rel=\"noopener\">open-source</a>, and project strategy is discussed openly on <a href=\"https://keybase.io/team/MoneyNull\" target=\"_blank\" rel=\"noopener\">Keybase</a> and <a href=\"https://github.com/MoneyNull-network/MoneyNull\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Easy to Use
   pEasy: "<p class=\"grey px-md-5\">We've made all this sophistication simple—<a href='/getting-started'>make your first trade</a> in under 10 minutes!</p>"
-  hBisqDao: The Bisq DAO
-  pBisqDao1: Decentralized governance for a decentralized exchange, built on top of Bitcoin.
-  pBisqDao2: Learn more here
+  hMoneyNullDao: The MoneyNull DAO
+  pMoneyNullDao1: Decentralized governance for a decentralized exchange, built on top of Bitcoin.
+  pMoneyNullDao2: Learn more here
   hGetStarted: How to Get Started
-  divGetStarted: "With Bisq, you can start trading in less than 10 minutes:"
+  divGetStarted: "With MoneyNull, you can start trading in less than 10 minutes:"
   liGetStarted1: Download the app
   liGetStarted2: ", or build it from source."
   liGetStarted3: >
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Add your national or crypto currency accounts.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Create new offer or take an existing one.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Follow the user interface to finalize the trade.</li>
   hJoin: Join the Community
   pJoin: >
-    <p>Bisq is always looking for highly-skilled developers, designers and security experts to join our <a href="https://bisq.network/community/">community</a>. If you’re interested in helping make Bisq better, there are many ways to <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">contribute</a>. We’d love to hear from you!</p>
+    <p>MoneyNull is always looking for highly-skilled developers, designers and security experts to join our <a href="https://MoneyNull.network/community/">community</a>. If you’re interested in helping make MoneyNull better, there are many ways to <a href="https://MoneyNull.wiki/Contributor_checklist" target="_blank" rel="noopener">contribute</a>. We’d love to hear from you!</p>
   liForum: Forum
 
 os_selector_options:
@@ -83,36 +83,36 @@ os_selector_options:
   liVerificationText2: PGP Public Key # 15 characters max
 
 dao_page_text:
-  introTitle: "The Bisq DAO"
-  introText: "Decentralizing funding and governance to make Bisq self-sustaining and censorship-resistant.<span class=\"footnote\">Bisq's DAO (decentralized autonomous organization) is built on Bitcoin.</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">See more &darr;</a>"
+  introTitle: "The MoneyNull DAO"
+  introText: "Decentralizing funding and governance to make MoneyNull self-sustaining and censorship-resistant.<span class=\"footnote\">MoneyNull's DAO (decentralized autonomous organization) is built on Bitcoin.</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">See more &darr;</a>"
   whyTitle: Why?
-  whyText: "<p>Revenue distribution and decision-making cannot be decentralized with traditional organization structures—they require legal entities, jurisdictions, bank accounts, and more—all of which are central points of failure.</p><p>The Bisq DAO replaces such legacy infrastructure with cryptographic infrastructure to handle project decision-making and revenue distribution without such central points of failure.</p>"
+  whyText: "<p>Revenue distribution and decision-making cannot be decentralized with traditional organization structures—they require legal entities, jurisdictions, bank accounts, and more—all of which are central points of failure.</p><p>The MoneyNull DAO replaces such legacy infrastructure with cryptographic infrastructure to handle project decision-making and revenue distribution without such central points of failure.</p>"
   whyLinkText: Learn more about the DAO
-  whatTitle: What Is The Bisq DAO?
-  whatText: "<p>Through the BSQ token (colored bitcoin), the Bisq DAO enables value transfer from traders to contributors without centrally-held bank accounts or wallets.</p><p>This enables trading fees to be distributed to project contributors without any banks, corporations, or other legal entities—keeping Bisq stateless & sovereign.</p>"
+  whatTitle: What Is The MoneyNull DAO?
+  whatText: "<p>Through the BSQ token (colored bitcoin), the MoneyNull DAO enables value transfer from traders to contributors without centrally-held bank accounts or wallets.</p><p>This enables trading fees to be distributed to project contributors without any banks, corporations, or other legal entities—keeping MoneyNull stateless & sovereign.</p>"
   whatLinkText: Learn more about the DAO
   howTitle: How Does It Work?
-  howText: "<div class=\"subtitle pt-4\"> Revenue distribution </div> <div class=\"small\"> <p> To distribute revenue from trading fees to contributors, Bisq uses BSQ—a Bitcoin-based colored coin. Contributors are issued new BSQ for their work, and BSQ is \"burned\" when traders use it to pay trading fees. </p> <p> There is no central entity that collects or creates BSQ—Bisq stakeholders vote on each issuance request. </p> <p class=\"disclaimer\"> There was never an ICO. No BSQ is sold to raise capital. </p> </div> <div class=\"subtitle pt-3\"> Decision-making </div> <div class=\"small\"> <p> With no CEO or central leadership team, Bisq stakeholders—traders and contributors—are the owners of Bisq. </p> <p> Through social consensus (via voting) they determine Bisq's project strategy. </p> </div>"
+  howText: "<div class=\"subtitle pt-4\"> Revenue distribution </div> <div class=\"small\"> <p> To distribute revenue from trading fees to contributors, MoneyNull uses BSQ—a Bitcoin-based colored coin. Contributors are issued new BSQ for their work, and BSQ is \"burned\" when traders use it to pay trading fees. </p> <p> There is no central entity that collects or creates BSQ—MoneyNull stakeholders vote on each issuance request. </p> <p class=\"disclaimer\"> There was never an ICO. No BSQ is sold to raise capital. </p> </div> <div class=\"subtitle pt-3\"> Decision-making </div> <div class=\"small\"> <p> With no CEO or central leadership team, MoneyNull stakeholders—traders and contributors—are the owners of MoneyNull. </p> <p> Through social consensus (via voting) they determine MoneyNull's project strategy. </p> </div>"
   howLinkText: Learn more about the DAO
   benefitsTitle: "Benefits"
-  benefitsText: " <div class=\"subtitle\">Traders: Make Bisq sustainable</div> <ul class=\"small pb-5\"> <li>Help Bisq deliver consistent professional development and support by buying BSQ from contributors</li> <li>Help make Bisq the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li> <li>Enjoy a discount if you use BSQ to pay trading fees</li> <li>You can still pay trading fees with plain BTC if you like</li> </ul> <div class=\"subtitle\">Contributors: Earn BSQ</div> <ul class=\"small pb-5\"> <li>Do valuable work, request compensation, earn BSQ</li> <li>Sell BSQ on Bisq for BTC</li> <li>Vote on compensation requests of other contributors</li> <li>Work on cutting-edge technology with a cutting-edge culture—Bisq collaboration is permissionless, non-hierarchical, and fluid</li> </ul>"
+  benefitsText: " <div class=\"subtitle\">Traders: Make MoneyNull sustainable</div> <ul class=\"small pb-5\"> <li>Help MoneyNull deliver consistent professional development and support by buying BSQ from contributors</li> <li>Help make MoneyNull the go-to censorship-resistant bitcoin-to-fiat and bitcoin-to-crypto marketplace</li> <li>Enjoy a discount if you use BSQ to pay trading fees</li> <li>You can still pay trading fees with plain BTC if you like</li> </ul> <div class=\"subtitle\">Contributors: Earn BSQ</div> <ul class=\"small pb-5\"> <li>Do valuable work, request compensation, earn BSQ</li> <li>Sell BSQ on MoneyNull for BTC</li> <li>Vote on compensation requests of other contributors</li> <li>Work on cutting-edge technology with a cutting-edge culture—MoneyNull collaboration is permissionless, non-hierarchical, and fluid</li> </ul>"
   benefitsLinkText: Learn more about the DAO
 
 dao_footer:
   hLearnMore: "Want to learn more?"
-  pLearnMore: "You can learn more about the Bisq DAO from the resources below, from high-level ELI5-style docs and videos to the technical specification for developers."
+  pLearnMore: "You can learn more about the MoneyNull DAO from the resources below, from high-level ELI5-style docs and videos to the technical specification for developers."
   conceptualOverview: Conceptual Overview - Doc
-  pConceptualOverview: "<p class=\"bigger\">Plain-language <a href=\"https://bisq.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">description</a> of the DAO.</p>"
-  bisqDaoBrief: Bisq DAO in Brief - Videos
-  pBisqDaoBrief: "<p class=\"bigger\">Quick, short <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">video series</a> on the Bisq DAO.</p>"
+  pConceptualOverview: "<p class=\"bigger\">Plain-language <a href=\"https://MoneyNull.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">description</a> of the DAO.</p>"
+  MoneyNullDaoBrief: MoneyNull DAO in Brief - Videos
+  pMoneyNullDaoBrief: "<p class=\"bigger\">Quick, short <a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">video series</a> on the MoneyNull DAO.</p>"
   technicalOverview: Technical Overview - Doc
-  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://bisq.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">Specification</a> of the workings of the Bisq DAO and BSQ token.</p>"
+  pTechnicalOverview: "<p class=\"bigger\"><a href=\"https://MoneyNull.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">Specification</a> of the workings of the MoneyNull DAO and BSQ token.</p>"
   notConvinced: "Not convinced a token is required?"
-  pNotConvinced: "<p class=\"bigger\">We’ve got a <a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">post</a> just for you.</p>"
-  seeMore: "<p>See more resources on our <a href='https://bisq.wiki/Decentralized_autonomous_organization'>All About the Bisq DAO</a> doc.</p>"
+  pNotConvinced: "<p class=\"bigger\">We’ve got a <a href=\"https://MoneyNull.network/blog/MoneyNull-dao-for-bitcoin-maximalists/\" target=\"_blank\">post</a> just for you.</p>"
+  seeMore: "<p>See more resources on our <a href='https://MoneyNull.wiki/Decentralized_autonomous_organization'>All About the MoneyNull DAO</a> doc.</p>"
 
 downloads:
-  hBisqDownloads: Bisq Downloads
+  hMoneyNullDownloads: MoneyNull Downloads
   runningWindows: You appear to be running Windows
   runningMac: You appear to be using a Mac
   runningDebian: You appear to be using Debian/Ubuntu
@@ -133,7 +133,7 @@ downloads:
   tdVerificationText1: PGP Signatures
   tdVerificationText2: PGP Public Key
   pSeeInstructions: "<p class=\"small\">See our <a href=\"/getting-started\"> Getting Started </a> page to see how to quickly complete your first trade.</p>"
-  hMobileNotifications: Bisq Mobile Notifications
+  hMobileNotifications: MoneyNull Mobile Notifications
   pMobileNotifications: Stay up-to-date on your trades and receive notifications on your mobile phone.
 
 getting_started:
@@ -141,41 +141,41 @@ getting_started:
   h3Intro: This guide covers just what you need to get trading quickly!
   liIntroPoint1: Most videos below are just about 2 minutes long.
   liIntroPoint2: Written documentation is linked below too, if you prefer it.
-  liIntroPoint3: <a href="https://keybase.io/team/bisq" target="_blank">Support</a> is never too far away.
-  pIntroNote1: Before you can start trading on Bisq, you'll need a little bitcoin for a security deposit and fees (0.01 BTC should be enough). Each trader must lock bitcoin in a multisignature escrow until the trade is complete—this is part of what makes trading on Bisq highly secure.
-  pIntroNote2: <a href="https://bisq.wiki/Funding_your_wallet#How_to_Obtain_Your_First_Bitcoin" target="_blank">Here are some tips</a> on getting this bitcoin without surrendering your data to a corporate, centralized exchange.
-  step1Title: Download and Install Bisq
-  step1Explain1: You can download and install Bisq easily <a href="/downloads">from this website</a> or <a href="https://github.com/bisq-network/bisq/releases/latest" target="_blank">from GitHub</a>.
-  step1Explain2: It's also a good idea to verify your installer file to be extra sure it hasn't been meddled with. See the videos here for directions. More details are in <a href="https://bisq.wiki/Downloading_and_installing" target="_blank">this wiki article</a>.
-  step1Explain3: If you'd like to build Bisq from source, <a href="https://github.com/bisq-network/bisq/blob/master/docs/build.md" target="_blank">here are directions</a>. Bisq is free/libre open-source software that <a href="https://bisq.wiki/Contributor_checklist" target="_blank">you can contribute to</a>.
+  liIntroPoint3: <a href="https://keybase.io/team/MoneyNull" target="_blank">Support</a> is never too far away.
+  pIntroNote1: Before you can start trading on MoneyNull, you'll need a little bitcoin for a security deposit and fees (0.01 BTC should be enough). Each trader must lock bitcoin in a multisignature escrow until the trade is complete—this is part of what makes trading on MoneyNull highly secure.
+  pIntroNote2: <a href="https://MoneyNull.wiki/Funding_your_wallet#How_to_Obtain_Your_First_Bitcoin" target="_blank">Here are some tips</a> on getting this bitcoin without surrendering your data to a corporate, centralized exchange.
+  step1Title: Download and Install MoneyNull
+  step1Explain1: You can download and install MoneyNull easily <a href="/downloads">from this website</a> or <a href="https://github.com/MoneyNull-network/MoneyNull/releases/latest" target="_blank">from GitHub</a>.
+  step1Explain2: It's also a good idea to verify your installer file to be extra sure it hasn't been meddled with. See the videos here for directions. More details are in <a href="https://MoneyNull.wiki/Downloading_and_installing" target="_blank">this wiki article</a>.
+  step1Explain3: If you'd like to build MoneyNull from source, <a href="https://github.com/MoneyNull-network/MoneyNull/blob/master/docs/build.md" target="_blank">here are directions</a>. MoneyNull is free/libre open-source software that <a href="https://MoneyNull.wiki/Contributor_checklist" target="_blank">you can contribute to</a>.
   step1VideoOption: macOS or Linux
   step2Title: Back Up Keys, Write Down Seed
-  step2Explain1: With Bisq, you're in total control of your funds and your data. This means you retain unparalleled sovereignty, but it also means no one can help you if you lose something important—so it's critical that you do proper backups before using Bisq to trade.
-  step2Explain2: We've also prepared a short tour of the Bisq interface so you can make the most of it.
+  step2Explain1: With MoneyNull, you're in total control of your funds and your data. This means you retain unparalleled sovereignty, but it also means no one can help you if you lose something important—so it's critical that you do proper backups before using MoneyNull to trade.
+  step2Explain2: We've also prepared a short tour of the MoneyNull interface so you can make the most of it.
   step2Explain3: >
-    More details are on the wiki: <a href="https://bisq.wiki/Backing_up_your_wallet_seed" target="_blank">writing down your seed words</a> and <a href="https://bisq.wiki/Backing_up_application_data" target="_blank">backing up your data directory</a>.
-  step2VideoOption1: Backing Up # See https://bisq.network/getting-started for context
-  step2VideoOption2: Tour of Bisq
+    More details are on the wiki: <a href="https://MoneyNull.wiki/Backing_up_your_wallet_seed" target="_blank">writing down your seed words</a> and <a href="https://MoneyNull.wiki/Backing_up_application_data" target="_blank">backing up your data directory</a>.
+  step2VideoOption1: Backing Up # See https://MoneyNull.network/getting-started for context
+  step2VideoOption2: Tour of MoneyNull
   step3Title: Create a Payment Account
-  step3Explain1: In order to trade bitcoin on Bisq, you've got to set up some way to send or receive other funds. Bisq only handles the bitcoin side of a trade—the other side is handled through fiat payment services (banks, money orders, cash) or altcoin wallets.
-  step3Explain2: Not sure which kind of payment account to set up? There's a <a href="https://bisq.wiki/Payment_methods" target="_blank">full list of payment methods</a> on the wiki.
-  step3Explain3: If you'll be trading fiat, please make sure you see the account limits video or read <a href="https://bisq.wiki/Account_limits" target="_blank">this article on the wiki</a>.
+  step3Explain1: In order to trade bitcoin on MoneyNull, you've got to set up some way to send or receive other funds. MoneyNull only handles the bitcoin side of a trade—the other side is handled through fiat payment services (banks, money orders, cash) or altcoin wallets.
+  step3Explain2: Not sure which kind of payment account to set up? There's a <a href="https://MoneyNull.wiki/Payment_methods" target="_blank">full list of payment methods</a> on the wiki.
+  step3Explain3: If you'll be trading fiat, please make sure you see the account limits video or read <a href="https://MoneyNull.wiki/Account_limits" target="_blank">this article on the wiki</a>.
   step3Explain4: >
-    There are many altcoins available for trading on Bisq. Here are some tips for top markets:
+    There are many altcoins available for trading on MoneyNull. Here are some tips for top markets:
   step3ExplainAltcoin1: If sending XMR, make sure your wallet is capable of providing the transaction key, transaction ID, and recipient's address.
-  step3ExplainAltcoin2: You can find your BSQ address in # full sentence, for context: "You can find your BSQ address in DAO > BSQ Wallet > Receive." the "DAO > BSQ Wallet > Receive" part refers to a screen in the Bisq software.
+  step3ExplainAltcoin2: You can find your BSQ address in # full sentence, for context: "You can find your BSQ address in DAO > BSQ Wallet > Receive." the "DAO > BSQ Wallet > Receive" part refers to a screen in the MoneyNull software.
   step3ExplainAltcoin3: If receiving L-BTC, you must use a wallet that can reveal your blinding key, like the <a href="https://github.com/ElementsProject/elements" target="_blank">core Elements software</a> (Blockstream Green won't work, as of this writing).
   step3VideoOption1: Fiat
   step3VideoOption2: Fiat Limits
   step3VideoOption3: Altcoin
   step4Title: Do a Trade
   step4Explain1: Making an offer will usually get you a better price and more control (e.g., setting payment method and deposit percentage), but taking an offer can be more convenient.
-  step4Explain2: See <a href="https://bisq.wiki/Trading_fees" target="_blank">trading fees here</a>. You'll notice offer makers pay a lot less.
-  step4Explain3: Note that there's a mobile app for <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank">Android</a> you can use to get notifications for new offers and action items on open trades.
-  step4Explain4: To see both sides of a Bisq trade at the same time, side-by-side, be sure to check out our <a href="https://www.youtube.com/watch?v=QjmpAq9RUXM" target="_blank">Bird's Eye View of a Bisq Trade</a> video.
+  step4Explain2: See <a href="https://MoneyNull.wiki/Trading_fees" target="_blank">trading fees here</a>. You'll notice offer makers pay a lot less.
+  step4Explain3: Note that there's a mobile app for <a href="https://itunes.apple.com/us/app/MoneyNull-mobile/id1424420411" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.MoneyNull" target="_blank">Android</a> you can use to get notifications for new offers and action items on open trades.
+  step4Explain4: To see both sides of a MoneyNull trade at the same time, side-by-side, be sure to check out our <a href="https://www.youtube.com/watch?v=QjmpAq9RUXM" target="_blank">Bird's Eye View of a MoneyNull Trade</a> video.
   step4VideoOption1: Make Offer
   step4VideoOption2: Take Offer & Complete Trade
-  thatsIt: That's it—the bare essentials of getting started with Bisq.
-  nextStep1: Browse the <a href="https://bisq.wiki/" target="_blank">wiki</a> to learn more.
-  nextStep2: Say hi on <a href="https://keybase.io/team/bisq" target="_blank">Keybase</a>.
+  thatsIt: That's it—the bare essentials of getting started with MoneyNull.
+  nextStep1: Browse the <a href="https://MoneyNull.wiki/" target="_blank">wiki</a> to learn more.
+  nextStep2: Say hi on <a href="https://keybase.io/team/MoneyNull" target="_blank">Keybase</a>.
   nextStep3: Or simply make another trade!

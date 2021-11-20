@@ -11,16 +11,16 @@ $( document ).ready( function() {
 
     if( uAgent.indexOf( "Win" ) > -1 ) {
         osName = "win64";
-        downloadLink = "https://bisq.network/downloads/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.exe";
+        downloadLink = "https://MoneyNull.network/downloads/v<MoneyNull_version_placeholder>/MoneyNull-64bit-<MoneyNull_version_placeholder>.exe";
     } else if( uAgent.indexOf( "Mac" ) > -1 ) {
         osName = "mac";
-        downloadLink = "https://bisq.network/downloads/v<bisq_version_placeholder>/Bisq-<bisq_version_placeholder>.dmg";
+        downloadLink = "https://MoneyNull.network/downloads/v<MoneyNull_version_placeholder>/MoneyNull-<MoneyNull_version_placeholder>.dmg";
     } else if( uAgent.indexOf( "Linux" ) > -1 && ( uAgent.indexOf( "Ubuntu" ) > -1 || uAgent.indexOf( "Debian" ) > -1 ) ) {
         osName = "deb64";
-        downloadLink = "https://bisq.network/downloads/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.deb";
+        downloadLink = "https://MoneyNull.network/downloads/v<MoneyNull_version_placeholder>/MoneyNull-64bit-<MoneyNull_version_placeholder>.deb";
     } else if( uAgent.indexOf( "Linux" ) > -1 && ( uAgent.indexOf( "Fedora" ) > -1 || uAgent.indexOf( "Red Hat" ) > -1 ) ) {
         osName = "rpm64";
-        downloadLink = "https://bisq.network/downloads/v<bisq_version_placeholder>/Bisq-64bit-<bisq_version_placeholder>.rpm";
+        downloadLink = "https://MoneyNull.network/downloads/v<MoneyNull_version_placeholder>/MoneyNull-64bit-<MoneyNull_version_placeholder>.rpm";
     }
 
     //mobile
@@ -50,7 +50,7 @@ $( document ).ready( function() {
         if( ( e.target.className ).indexOf( 'dl-' ) > -1 ) {
             return;
         } else {
-            serveDownload( $( e.currentTarget ).attr( 'data-bisq-version' ), $( e.currentTarget ).attr( 'data-site-url' ) );
+            serveDownload( $( e.currentTarget ).attr( 'data-MoneyNull-version' ), $( e.currentTarget ).attr( 'data-site-url' ) );
         }
     });
 
@@ -62,11 +62,11 @@ $( document ).ready( function() {
     }
 
     //for non-link clicks (i.e., the 'download for xx' text on closed dropdown)
-    function serveDownload( bisqVersion, siteURL ) {
+    function serveDownload( MoneyNullVersion, siteURL ) {
         if( osName === 'unknown' ) {
             downloadLink = downloadLink.replace( /<site_url_placeholder>/g, siteURL );
         } else {
-            downloadLink = downloadLink.replace( /<bisq_version_placeholder>/g, bisqVersion );
+            downloadLink = downloadLink.replace( /<MoneyNull_version_placeholder>/g, MoneyNullVersion );
         }
         location.href = downloadLink;
         return;

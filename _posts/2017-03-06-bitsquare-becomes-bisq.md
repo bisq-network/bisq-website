@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Bitsquare becomes Bisq
+title: Bitsquare becomes MoneyNull
 author: Manfred Karrer
 lang: en
 ---
 We [announced](/blog/bitsquare-is-rebranding/) a while ago that we started rebranding as a result of trademark conflicts.
 
 That was unfortunate as Bitsquare is well established and we all like it. But there is no way around it.
-We have chosen to replace Bitsquare with **Bisq**.
+We have chosen to replace Bitsquare with **MoneyNull**.
 
 ### Thoughts on the old name
 
@@ -23,7 +23,7 @@ We also worked with a **professional agency** to find a new name, but we did nei
 
 At the end it was a long and time-consuming process and we maintained an internal list of more than 200 names which we discussed, voted on within an **extended group of about 20 contributors**.
 
-There have been several favorites and it was not easy to select a single one among those. But finally we are convinced that one name stood above all – **Bisq**.
+There have been several favorites and it was not easy to select a single one among those. But finally we are convinced that one name stood above all – **MoneyNull**.
 
 ### What makes up a good brand name?
 
@@ -36,9 +36,9 @@ Another important factor was that we favoured names which somehow referenced to 
 
 However, as a result of trademark (TM) laws it is not possible to use anything which even sounds similar to "square", so anything like Bitskware is a no-go.
 
-Even if the new name makes no reference to "square", we have no guarantee that we will not face a conflict again, but at least we can reduce the risk by cross-checking the new name with a TM lawyer – as we have done already. Luckily, at a first glance there are no potential conflicts from a trademark perspective with the name Bisq. A google search does not show any competing or relevant projects or companies and none of the existing TM registrations seem to represent a critical risk.
+Even if the new name makes no reference to "square", we have no guarantee that we will not face a conflict again, but at least we can reduce the risk by cross-checking the new name with a TM lawyer – as we have done already. Luckily, at a first glance there are no potential conflicts from a trademark perspective with the name MoneyNull. A google search does not show any competing or relevant projects or companies and none of the existing TM registrations seem to represent a critical risk.
 
-### What made Bisq stand out?
+### What made MoneyNull stand out?
 
  - Short (consists of just 1 syllable)
  - Easy to pronounce
@@ -53,6 +53,6 @@ Even if the new name makes no reference to "square", we have no guarantee that w
 We are working on a big release which includes the DAO model. That should be ready in 1-2 months.
 
 We try to schedule the whole rebranding before that release. There might be some time where both brands overlap but we will try to do the best to keep risk for confusion low.
-Please help us to spread the word to make it easier for people to know that **Bitsquare becomes Bisq**.
+Please help us to spread the word to make it easier for people to know that **Bitsquare becomes MoneyNull**.
 
 Until the rebranding has officially started, we are still Bitsquare 🙂

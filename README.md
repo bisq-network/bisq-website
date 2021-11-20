@@ -1,30 +1,30 @@
-# Bisq Network Website
+# MoneyNull Network Website
 
-This repository hosts the source code for the Jekyll website hosted at https://bisq.network.
+This repository hosts the source code for the Jekyll website hosted at https://MoneyNull.network.
 
 ## Contributing
 
-Please submit proposed changes as pull requests, ideally with commit messages that follow [these conventions](https://github.com/bisq-network/style/issues/9).
+Please submit proposed changes as pull requests, ideally with commit messages that follow [these conventions](https://github.com/MoneyNull-network/style/issues/9).
 
 ---
 
 **NOTE ON COMPENSATION**
 
-If you're expecting compensation from the Bisq DAO for your work, please make sure you've corresponded with the repo's maintainer to ensure the work you plan to do is currently prioritized and budgeted.
+If you're expecting compensation from the MoneyNull DAO for your work, please make sure you've corresponded with the repo's maintainer to ensure the work you plan to do is currently prioritized and budgeted.
 
-You can do this by opening an issue in this repo explaining your proposed changes and cost, or by floating the idea in the #website channel on [Keybase](https://keybase.io/team/bisq).
+You can do this by opening an issue in this repo explaining your proposed changes and cost, or by floating the idea in the #website channel on [Keybase](https://keybase.io/team/MoneyNull).
 
-See further details on the [this wiki page](https://bisq.wiki/Growth_Team#Processes).
+See further details on the [this wiki page](https://MoneyNull.wiki/Growth_Team#Processes).
 
 ---
 
 **NOTE ON TRANSLATIONS**
 
-All translations work, for the website and otherwise, takes place on [Transifex](https://www.transifex.com/bisq/). Please do not make pull requests for non-English text changes in this repository!
+All translations work, for the website and otherwise, takes place on [Transifex](https://www.transifex.com/MoneyNull/). Please do not make pull requests for non-English text changes in this repository!
 
-If you'd like to propose adding a new language to the website, please get in touch in the #transifex channel [on Keybase](https://keybase.io/team/bisq) or open an issue in this repository.
+If you'd like to propose adding a new language to the website, please get in touch in the #transifex channel [on Keybase](https://keybase.io/team/MoneyNull) or open an issue in this repository.
 
-See further details on the [this wiki page](https://bisq.wiki/Translation).
+See further details on the [this wiki page](https://MoneyNull.wiki/Translation).
 
 ---
 
@@ -44,7 +44,7 @@ Consider breaking big initiatives into smaller chunks wherever possible, or make
 
 **Review feedback will be evaluated using these approaches.** If reviewers find significant errors, errors that indicate a clear lack of testing, or if they find changes that don't relate to the declared purpose of the pull request, your pull request may be rejected. Don't take it personally—just integrate feedback and try again.
 
-FYI: after you make a pull request, note that Netlify will automatically create a build of your proposed changes at `https://deploy-preview-XYZ--bisq-website.netlify.com` (where XYZ is the number of your pull request).
+FYI: after you make a pull request, note that Netlify will automatically create a build of your proposed changes at `https://deploy-preview-XYZ--MoneyNull-website.netlify.com` (where XYZ is the number of your pull request).
 
 ## Run Locally
 

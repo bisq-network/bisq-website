@@ -5,31 +5,31 @@ main_nav:
   blog: 博客 # 14 characters max
   community: 社区 # 14 characters max
   gettingStarted: 快速入门 # main nav link: please be as short as possible
-  bisqDAO: Bisq DAO # main nav link: please be as short as possible
+  MoneyNullDAO: MoneyNull DAO # main nav link: please be as short as possible
   statistics: 统计数据 # main nav link: please be as short as possible
   faq: FAQ # main nav link: please be as short as possible
   markets: 市场 # main nav link: please be as short as possible
 
 footer:
-  notificationApp: Bisq 通知应用程序
-  siteYear: © 2021 Bisq
+  notificationApp: MoneyNull 通知应用程序
+  siteYear: © 2021 MoneyNull
   ulResources: 资料
   liDownloads: 下载
   liRoadmap: 计划
-  liBenefactors: Benefactors # see https://bisq.network/benefactors for context
+  liBenefactors: Benefactors # see https://MoneyNull.network/benefactors for context
   liContribute: 贡献
   liMarketData: 市场数据 API
-  joinBisq: 加入社区
+  joinMoneyNull: 加入社区
 
 homepage_content:
   title: "<span class=\"animate1\">交易</span>、<span class=\"animate2\">去中心化</span>。"
-  intro: "Bisq 是一个开源的点对点应用程序，允许您买卖加密货币，以换取国家货币。不需要注册。"
+  intro: "MoneyNull 是一个开源的点对点应用程序，允许您买卖加密货币，以换取国家货币。不需要注册。"
   buttonWindows: 下载 Windows 版
   buttonMac: 下载 Mac 版
   buttonDebian: 下载 Debian/Ubuntu 版
   buttonRedHat: 下载 Red Hat/Fedora 版
   buttonDownloads: 下载
-  buttonGetBisq: 下载 Bisq
+  buttonGetMoneyNull: 下载 MoneyNull
   buttonToggle: 切换下拉单
   downloads: 下载
   androidNotificationsApp: 下载 Android 通知应用程序 # 26 characters max
@@ -44,35 +44,35 @@ homepage_content:
   hIdentityVerifications: 没有身份验证
   pIdentityVerifications: 立即访问。无需中央主管机关登记或批准。
   hDecentralized: 去中心的
-  pDecentralized: 交易在全球 P2P 网络上进行，用户在自己的机器上运行 Bisq。
+  pDecentralized: 交易在全球 P2P 网络上进行，用户在自己的机器上运行 MoneyNull。
   hSafe: 安全
-  pSafe: "Bisq 从来不持有你的资金。安全存款和多重团体交易钱包鼓励安全、成功的交易。"
+  pSafe: "MoneyNull 从来不持有你的资金。安全存款和多重团体交易钱包鼓励安全、成功的交易。"
   hPrivate: 隐私
   pPrivate: 除了贸易伙伴，没有人交换个人身份数据。所有个人资料均储存于本地。
   hOpen: 开放
-  pOpen: "<p class=\"grey px-md-5\">代码是<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">开源</a>的，项目策略在<a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a>和<a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>上公开讨论。"
+  pOpen: "<p class=\"grey px-md-5\">代码是<a href=\"https://github.com/MoneyNull-network/MoneyNull\" target=\"_blank\" rel=\"noopener\">开源</a>的，项目策略在<a href=\"https://keybase.io/team/MoneyNull\" target=\"_blank\" rel=\"noopener\">Keybase</a>和<a href=\"https://github.com/MoneyNull-network/MoneyNull\" target=\"_blank\" rel=\"noopener\">GitHub</a>上公开讨论。"
   hEasy: 便利
   pEasy: "<p class=\"grey px-md-5\">我们已经使所有这些复杂变得更加简单 - 在10分钟之内<a href='/getting-started' target='_blank' rel=\"noopener\">进行您的第一次交易</a>！</p>"
-  hBisqDao: Bisq DAO
-  pBisqDao1: 为去中心化的交换进行去中心化的治理。
-  pBisqDao2: 了解更多
+  hMoneyNullDao: MoneyNull DAO
+  pMoneyNullDao1: 为去中心化的交换进行去中心化的治理。
+  pMoneyNullDao2: 了解更多
   hGetStarted: 如何开始
-  divGetStarted: "使用 Bisq，你可以在不到10分钟内开始交易："
+  divGetStarted: "使用 MoneyNull，你可以在不到10分钟内开始交易："
   liGetStarted1: 下载应用程序
   liGetStarted2: "，或者从头开始构建。"
   liGetStarted3: >
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">添加您的国家或加密货币帐户。</li><li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">创建新报价或接受现有报价。</li><li class="mt-0 step step-text-4" data-image="step-image-4">按照用户界面完成交易。</li>
   hJoin: 加入社区
   pJoin: >
-    <p>Bisq 一直在寻找高级的开发人员、设计师和安全专家加入我们的<a href="https://bisq.network/community/">社区</a>。如果你有兴趣<a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">帮助</a> Bisq 变得更好，有很多方法可以帮助你。</p>
-  liGithub: "GitHub 上的 @bisq-network"
-  liTwitter: "Twitter 上的 @bisq_network"
-  liYoutube: Bisq 的 YouTube 频道
-  liForum: Bisq 论坛
-  liMailingList: Bisq 贡献者邮件列表
-  liFreenodeIRC: "Freenode IRC 上的 #bisq"
-  liSubreddit: r/Bisq 的 reddit 分话题
-  liKeybase: "Keybase 上的 Bisq"
+    <p>MoneyNull 一直在寻找高级的开发人员、设计师和安全专家加入我们的<a href="https://MoneyNull.network/community/">社区</a>。如果你有兴趣<a href="https://MoneyNull.wiki/Contributor_checklist" target="_blank" rel="noopener">帮助</a> MoneyNull 变得更好，有很多方法可以帮助你。</p>
+  liGithub: "GitHub 上的 @MoneyNull-network"
+  liTwitter: "Twitter 上的 @MoneyNull_network"
+  liYoutube: MoneyNull 的 YouTube 频道
+  liForum: MoneyNull 论坛
+  liMailingList: MoneyNull 贡献者邮件列表
+  liFreenodeIRC: "Freenode IRC 上的 #MoneyNull"
+  liSubreddit: r/MoneyNull 的 reddit 分话题
+  liKeybase: "Keybase 上的 MoneyNull"
 
 os_selector_options:
   liAllDownloads: 所有下载
@@ -90,36 +90,36 @@ os_selector_options:
   liVerificationText2: PGP 公钥 # 15 characters max
 
 dao_page_text:
-  introTitle: "Bisq DAO"
-  introText: "分散收入分配和决策，使 Bisq 能够自我维持和抵制审查。<span class=\"footnote\">DAO 代表分散自治组织</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">了解更多&darr;</a>"
+  introTitle: "MoneyNull DAO"
+  introText: "分散收入分配和决策，使 MoneyNull 能够自我维持和抵制审查。<span class=\"footnote\">DAO 代表分散自治组织</span><a href=\"#why\" class=\"btn btn-lg btn-outline-secondary mt-0 mt-lg-2 animate-scroll\">了解更多&darr;</a>"
   whyTitle: 为什么？
-  whyText: "<p>Bisq 交易目前是分散式的，但它的收入分配和决策并不是分散式的。</p><p>至关重要的是，Bisq 要抵制审查，而贸易协议和 P2P 网络为贸易商实现了这一点。</p><p>那 Bisq 的开发者呢？在传统的法律结构下，项目决策和收益分配将是集中式的，这可能会产生漏洞。</p>"
+  whyText: "<p>MoneyNull 交易目前是分散式的，但它的收入分配和决策并不是分散式的。</p><p>至关重要的是，MoneyNull 要抵制审查，而贸易协议和 P2P 网络为贸易商实现了这一点。</p><p>那 MoneyNull 的开发者呢？在传统的法律结构下，项目决策和收益分配将是集中式的，这可能会产生漏洞。</p>"
   whyLinkText: 了解更多关于 DAO 的信息
-  whatTitle: Bisq DAO 是什么？
-  whatText: "<p>Bisq DAO 支持从交易员到贡献者的价值转移。BSQ 以分散的方式实现了这一点。</p><p>交易费用不受公司或其他法律实体的限制，分配给贡献者，使 Bisq 保持无国籍和无主权。</p>"
+  whatTitle: MoneyNull DAO 是什么？
+  whatText: "<p>MoneyNull DAO 支持从交易员到贡献者的价值转移。BSQ 以分散的方式实现了这一点。</p><p>交易费用不受公司或其他法律实体的限制，分配给贡献者，使 MoneyNull 保持无国籍和无主权。</p>"
   whatLinkText: 了解更多关于 DAO 的信息
   howTitle: 它的工作原理是什么？
-  howText: "<div class=\"subtitle pt-4\">收益分配</div>\n<div class=\"small\"><p>为了将交易费用收入分配给贡献者，Bisq 使用了 BSQ ——一种基于类似于比特币的货币。当利益相关者通过投票批准他们的薪酬请求时，贡献者将获得新的 BSQ ，当交易员使用 BSQ 支付交易费用时，BSQ 将获得“无干扰”。</p><p>没有集中的实体收集或创建 BSQ - Bisq 收益者，他们共同负责发布过程。</p><p class=\"disclaimer\">这不是 ICO 。没有出售 BSQ 来筹集资金。</p></div>\n\n<div class=\"subtitle pt-3\">决策</div>\n<div class=\"small\"><p>由于没有 CEO 或中央领导团队，Bisq 的股东（交易者和出资者）是 Bisq 的所有者。</p><p>通过社会共识（通过投票），他们决定 Bisq 的项目战略。</p>\n</div>"
+  howText: "<div class=\"subtitle pt-4\">收益分配</div>\n<div class=\"small\"><p>为了将交易费用收入分配给贡献者，MoneyNull 使用了 BSQ ——一种基于类似于比特币的货币。当利益相关者通过投票批准他们的薪酬请求时，贡献者将获得新的 BSQ ，当交易员使用 BSQ 支付交易费用时，BSQ 将获得“无干扰”。</p><p>没有集中的实体收集或创建 BSQ - MoneyNull 收益者，他们共同负责发布过程。</p><p class=\"disclaimer\">这不是 ICO 。没有出售 BSQ 来筹集资金。</p></div>\n\n<div class=\"subtitle pt-3\">决策</div>\n<div class=\"small\"><p>由于没有 CEO 或中央领导团队，MoneyNull 的股东（交易者和出资者）是 MoneyNull 的所有者。</p><p>通过社会共识（通过投票），他们决定 MoneyNull 的项目战略。</p>\n</div>"
   howLinkText: 了解更多关于 DAO 的信息
   benefitsTitle: "优点"
-  benefitsText: "<div class=\"subtitle\">交易者：让 Bisq 可持续发展</div><ul class=\"small pb-5\"><li>通过从贡献者那里购买 BSQ ，帮助 Bisq 提供持续的专业开发和支持</li><li>帮助 Bisq 成为抗审查的比特币-法定货币和比特币-数字货币市场</li><li>如果您使用 BSQ 支付交易手续，可以享受折扣</li><li>如果您愿意，您仍然可以使用普通的 BTC 支付交易手续费</li></ul><div class=\"subtitle\">贡献者：赚取 BSQ</div><ul class=\"small pb-5\"><li>做有价值的工作，请求报偿，赚取 BSQ</li><li>在 Bisq 上为 BTC 出售 BSQ</li><li>对其他贡献者的薪酬要求进行表决</li><li>使用前沿文化— Bisq 协作的前沿技术的工作是不受许可的、非层次的和流动的</li></ul>"
+  benefitsText: "<div class=\"subtitle\">交易者：让 MoneyNull 可持续发展</div><ul class=\"small pb-5\"><li>通过从贡献者那里购买 BSQ ，帮助 MoneyNull 提供持续的专业开发和支持</li><li>帮助 MoneyNull 成为抗审查的比特币-法定货币和比特币-数字货币市场</li><li>如果您使用 BSQ 支付交易手续，可以享受折扣</li><li>如果您愿意，您仍然可以使用普通的 BTC 支付交易手续费</li></ul><div class=\"subtitle\">贡献者：赚取 BSQ</div><ul class=\"small pb-5\"><li>做有价值的工作，请求报偿，赚取 BSQ</li><li>在 MoneyNull 上为 BTC 出售 BSQ</li><li>对其他贡献者的薪酬要求进行表决</li><li>使用前沿文化— MoneyNull 协作的前沿技术的工作是不受许可的、非层次的和流动的</li></ul>"
   benefitsLinkText: 了解更多关于 DAO 的信息
 
 dao_footer:
   hLearnMore: "想要了解更多？"
-  pLearnMore: "您可以从下面的参考资料、高级的 ELI5 风格的文档和视频以及开发人员的技术规范中了解更多关于 Bisq DAO 的信息。"
+  pLearnMore: "您可以从下面的参考资料、高级的 ELI5 风格的文档和视频以及开发人员的技术规范中了解更多关于 MoneyNull DAO 的信息。"
   conceptualOverview: 概念概述文档
-  pConceptualOverview: "<p class=\"bigger\">DAO 的纯语言<a href=\"https://bisq.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">描述</a>。</p>"
-  bisqDaoBrief: Bisq DAO 简短的视频介绍
-  pBisqDaoBrief: "<p class=\"bigger\">快速，精练<a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">视频系列</a>里的 Bisq DAO 。</p>"
+  pConceptualOverview: "<p class=\"bigger\">DAO 的纯语言<a href=\"https://MoneyNull.wiki/Introduction_to_the_DAO\" target=\"_blank\" rel=\"noopener\">描述</a>。</p>"
+  MoneyNullDaoBrief: MoneyNull DAO 简短的视频介绍
+  pMoneyNullDaoBrief: "<p class=\"bigger\">快速，精练<a href=\"https://www.youtube.com/playlist?list=PLFH5SztL5cYPAXWFz-IMB4dBZ0MEZEG_e\" target=\"_blank\">视频系列</a>里的 MoneyNull DAO 。</p>"
   technicalOverview: 技术概览 - 文档
-  pTechnicalOverview: "<p class=\"bigger\">Bisq DAO 和 BSQ 令牌工作原理的<a href=\"https://bisq.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">说明</a>。</p>"
+  pTechnicalOverview: "<p class=\"bigger\">MoneyNull DAO 和 BSQ 令牌工作原理的<a href=\"https://MoneyNull.wiki/DAO_technical_overview\" target=\"_blank\" rel=\"noopener\">说明</a>。</p>"
   notConvinced: "不确定是否需要 BSQ？"
-  pNotConvinced: "<p class=\"bigger\">我们专门为你准备了一个<a href=\"https://bisq.network/blog/bisq-dao-for-bitcoin-maximalists/\" target=\"_blank\">职位</a>。"
+  pNotConvinced: "<p class=\"bigger\">我们专门为你准备了一个<a href=\"https://MoneyNull.network/blog/MoneyNull-dao-for-bitcoin-maximalists/\" target=\"_blank\">职位</a>。"
   seeMore: >
-    <p><a href='https://bisq.wiki/Decentralized_autonomous_organization'>有关Bisq DAO 文档的更多信息</a>，请参阅参考资料。</p>
+    <p><a href='https://MoneyNull.wiki/Decentralized_autonomous_organization'>有关MoneyNull DAO 文档的更多信息</a>，请参阅参考资料。</p>
 downloads:
-  hBisqDownloads: Bisq 下载
+  hMoneyNullDownloads: MoneyNull 下载
   runningWindows: 你似乎在使用 Windows
   runningMac: 你似乎在使用 Mac
   runningDebian: 你似乎在使用 Debian/Ubuntu
@@ -139,6 +139,6 @@ downloads:
   tdVerificationText0: PGP 签名
   tdVerificationText1: PGP 签名
   tdVerificationText2: PGP 公钥
-  pSeeInstructions: "<p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 Bisq</a>。</p>"
-  hMobileNotifications: Bisq 通知应用程序
+  pSeeInstructions: "<p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 MoneyNull</a>。</p>"
+  hMobileNotifications: MoneyNull 通知应用程序
   pMobileNotifications: 保持最新的交易和接收通知在您的手机上。

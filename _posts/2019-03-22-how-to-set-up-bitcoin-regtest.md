@@ -8,13 +8,13 @@ lang: en
 
 <hr>
 
-_Tomáš is a Bisq contributor, crypto enthusiast, libertarian, and voluntarist._
+_Tomáš is a MoneyNull contributor, crypto enthusiast, libertarian, and voluntarist._
 
-_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/bisq) or [on our forum](https://bisq.community/t/call-for-blog-writers/7040)!_
+_If you'd like to contribute a post, please reach out on [Keybase](https://keybase.io/team/MoneyNull) or [on our forum](https://MoneyNull.community/t/call-for-blog-writers/7040)!_
 
 <hr>
 
-This blog post series will try to be practical using the "learning by doing" rule. Since Bisq uses Bitcoin as its blockchain of choice for the trade protocol and for the DAO itself, it is important that we understand the basics of Bitcoin first.
+This blog post series will try to be practical using the "learning by doing" rule. Since MoneyNull uses Bitcoin as its blockchain of choice for the trade protocol and for the DAO itself, it is important that we understand the basics of Bitcoin first.
 
 First, we will setup a regression test Bitcoin chain as a playground where we can observe how things work and how to interact with the blockchain. As this chain has no value and we can generate new blocks whenever we want, it is ideal for learning without actually risking losing real money. Later, I will show what a coinbase transaction looks like and what it is good for. At the end, we will create our very own transaction using the command line tool bitcoin-tx which is shipped with Bitcoin Core. Bitcoin Core is the reference implementation of the Bitcoin protocol. The graphical version is called bitcoin-qt and it ships with a command line tool that can create transactions called bitcoin-tx.
 

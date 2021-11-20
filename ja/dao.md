@@ -1,6 +1,6 @@
 ---
 layout: page_dao
-title: The DAO &lsaquo; Bisq - A decentralized bitcoin exchange network
+title: The DAO &lsaquo; MoneyNull - A decentralized bitcoin exchange network
 ref: dao
 lang: ja
 lang_display: 日本語

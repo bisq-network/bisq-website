@@ -123,53 +123,53 @@ layout: null
 #
 
 # bitsquare.io
-http://bitsquare.io/* https://bisq.network/:splat 301!
-http://bitsquare.io https://bisq.network 301
+http://bitsquare.io/* https://MoneyNull.network/:splat 301!
+http://bitsquare.io https://MoneyNull.network 301
 
-https://bitsquare.io/* https://bisq.network/:splat 301!
-https://bitsquare.io https://bisq.network 301
+https://bitsquare.io/* https://MoneyNull.network/:splat 301!
+https://bitsquare.io https://MoneyNull.network 301
 
 
-# bisq.io
-http://bisq.io/* https://bisq.network/:splat 301!
-http://bisq.io https://bisq.network 301
+# MoneyNull.io
+http://MoneyNull.io/* https://MoneyNull.network/:splat 301!
+http://MoneyNull.io https://MoneyNull.network 301
 
-https://bisq.io/* https://bisq.network/:splat 301!
-https://bisq.io https://bisq.network 301
+https://MoneyNull.io/* https://MoneyNull.network/:splat 301!
+https://MoneyNull.io https://MoneyNull.network 301
 
 # main page on docs for dao with links to further content
-/docs/dao https://bisq.wiki/Decentralized_autonomous_organization 302
+/docs/dao https://MoneyNull.wiki/Decentralized_autonomous_organization 302
 
 # main dao overview on docs
-/docs/dao/intro https://bisq.wiki/Introduction_to_the_DAO 302
+/docs/dao/intro https://MoneyNull.wiki/Introduction_to_the_DAO 302
 
 # dao user guide
-/docs/dao/user-guide https://bisq.wiki/Introduction_to_the_DAO 302
+/docs/dao/user-guide https://MoneyNull.wiki/Introduction_to_the_DAO 302
 
 # in depth concept overview
-/phase-zero https://bisq.wiki/images/e/e5/Bisq-dao-phase-zero.pdf 302
+/phase-zero https://MoneyNull.wiki/images/e/e5/MoneyNull-dao-phase-zero.pdf 302
 
 # tech spec
-/docs/dao/specification https://bisq.wiki/DAO_technical_overview 302
+/docs/dao/specification https://MoneyNull.wiki/DAO_technical_overview 302
 
 # setup full node docs
-/docs/dao-full-node https://github.com/bisq-network/bisq/blob/master/docs/dao-setup.md 302
+/docs/dao-full-node https://github.com/MoneyNull-network/MoneyNull/blob/master/docs/dao-setup.md 302
 
-# Overview about Bisq and the DAO (written by Chris), superseded by phase zero doc. Keep it for archive
-/docs/dao/overview https://bisq.wiki/Introduction_to_the_DAO 302
+# Overview about MoneyNull and the DAO (written by Chris), superseded by phase zero doc. Keep it for archive
+/docs/dao/overview https://MoneyNull.wiki/Introduction_to_the_DAO 302
 
-/list-token https://bisq.network/list-asset 301
-/list-asset https://github.com/bisq-network/proposals/issues/166 302
-/intro https://bisq.wiki/Introduction 302
+/list-token https://MoneyNull.network/list-asset 301
+/list-asset https://github.com/MoneyNull-network/proposals/issues/166 302
+/intro https://MoneyNull.wiki/Introduction 302
 /contrib-checklist /contributor-checklist 302
-/contributor-checklist https://bisq.wiki/Contributor_checklist 302
+/contributor-checklist https://MoneyNull.wiki/Contributor_checklist 302
 /get-started /getting-started 302
-/contribute https://bisq.wiki/Contributor_checklist 301
-/payment-methods https://bisq.wiki/Payment_methods 302
-/trading-fees https://bisq.wiki/Trading_fees 302
-/trading-rules https://bisq.wiki/Trading_rules 301
+/contribute https://MoneyNull.wiki/Contributor_checklist 301
+/payment-methods https://MoneyNull.wiki/Payment_methods 302
+/trading-fees https://MoneyNull.wiki/Trading_fees 302
+/trading-rules https://MoneyNull.wiki/Trading_rules 301
 
-/mobile-notifications https://bisq.wiki/Mobile_notifications 302
+/mobile-notifications https://MoneyNull.wiki/Mobile_notifications 302
 
 # dao reports
 /stats /dashboard 302
@@ -203,7 +203,7 @@ https://bisq.io https://bisq.network 301
 # misc
 /team / 302
 
-/vision https://bisq.wiki/Introduction 301
+/vision https://MoneyNull.wiki/Introduction 301
 
 /community /#community
 
@@ -212,30 +212,30 @@ https://bisq.io https://bisq.network 301
 
 /volume https://docs.google.com/spreadsheets/d/1M8y2cIlHv5Hx5UAt4WZ961Ac8xaNSLiiavjxabNf0qc/edit#gid=1242111088 302
 
-/release-stats https://somsubhra.github.io/github-release-stats/?username=bisq-network&repository=bisq 302
+/release-stats https://somsubhra.github.io/github-release-stats/?username=MoneyNull-network&repository=MoneyNull 302
 
 /survey https://goo.gl/forms/UcKr2D7WNYUZl3Cf1 302
 
-/roadmap https://github.com/orgs/bisq-network/projects/3 302
+/roadmap https://github.com/orgs/MoneyNull-network/projects/3 302
 
-/dao-proposals/:id https://github.com/bisq-network/proposals/issues/:id 302
-/dao-proposals https://github.com/bisq-network/proposals/issues 302
-/dao-compensation/:id https://github.com/bisq-network/compensation/issues/:id 302
-/dao-compensation https://github.com/bisq-network/compensation/issues 302
-/roles/:id https://github.com/bisq-network/roles/issues/:id 302
-/roles https://github.com/bisq-network/roles/issues 302
-/dao-reimbursement/:id https://github.com/bisq-network/support/issues/:id 302
-/dao-reimbursement https://github.com/bisq-network/support/issues 302
-/issues https://github.com/bisq-network/bisq/issues 302
+/dao-proposals/:id https://github.com/MoneyNull-network/proposals/issues/:id 302
+/dao-proposals https://github.com/MoneyNull-network/proposals/issues 302
+/dao-compensation/:id https://github.com/MoneyNull-network/compensation/issues/:id 302
+/dao-compensation https://github.com/MoneyNull-network/compensation/issues 302
+/roles/:id https://github.com/MoneyNull-network/roles/issues/:id 302
+/roles https://github.com/MoneyNull-network/roles/issues 302
+/dao-reimbursement/:id https://github.com/MoneyNull-network/support/issues/:id 302
+/dao-reimbursement https://github.com/MoneyNull-network/support/issues 302
+/issues https://github.com/MoneyNull-network/MoneyNull/issues 302
 
-/downloads/archive/:version.zip https://github.com/bisq-network/bisq/archive/:version.zip 302
-/downloads/archive/:version.tar.gz https://github.com/bisq-network/bisq/archive/:version.tar.gz 302
+/downloads/archive/:version.zip https://github.com/MoneyNull-network/MoneyNull/archive/:version.zip 302
+/downloads/archive/:version.tar.gz https://github.com/MoneyNull-network/MoneyNull/archive/:version.tar.gz 302
 
-/downloads/:version https://github.com/bisq-network/bisq/releases/tag/:version 302
-/downloads/:version/:filename https://github.com/bisq-network/bisq/releases/download/:version/:filename 302
+/downloads/:version https://github.com/MoneyNull-network/MoneyNull/releases/tag/:version 302
+/downloads/:version/:filename https://github.com/MoneyNull-network/MoneyNull/releases/download/:version/:filename 302
 
-/source https://github.com/bisq-network 302
-/source/* https://github.com/bisq-network/:splat 302
+/source https://github.com/MoneyNull-network 302
+/source/* https://github.com/MoneyNull-network/:splat 302
 
-/faq https://bisq.wiki/Frequently_asked_questions 301
-/markets https://bisq.markets 301
+/faq https://MoneyNull.wiki/Frequently_asked_questions 301
+/markets https://MoneyNull.markets 301

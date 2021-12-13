@@ -36,7 +36,7 @@ defaults:
       en-only: false
 paginate: 10
 paginate_path: "/blog/page/:num/"
-client_version: "1.7.5"
+client_version: "1.8.0"
 sass:
   style: compressed
 webrick:

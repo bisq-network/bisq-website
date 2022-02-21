@@ -22,7 +22,7 @@ See further details on the [this wiki page](https://bisq.wiki/Growth_Team#Proces
 
 All translations work, for the website and otherwise, takes place on [Transifex](https://www.transifex.com/bisq/). Please do not make pull requests for non-English text changes in this repository!
 
-If you'd like to propose adding a new language to the website, please get in touch in the Growth channel [on Matrix](https://bisq.chat/) or open an issue in this repository.
+If you'd like to propose adding a new language to the website, please get in touch in the Growth channel [on Matrix](https://matrix.to/#/#bisq.growth:bitcoin.kyoto) or open an issue in this repository.
 
 See further details on the [this wiki page](https://bisq.wiki/Translation).
 

@@ -31,7 +31,7 @@ $( document ).ready( function() {
         xAxis: {
             categories: timeframeSeries,
             labels: {
-                step: 2,
+                step: 3,
                 style: {
                     color: "#bababa"
                 }

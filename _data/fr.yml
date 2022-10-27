@@ -25,7 +25,7 @@ homepage_content:
   title: "<span class=\"animate1\">Plateforme d'échange,</span> <span class=\"animate2\">Décentralisée.</span>"
   intro: "Bisq est une application pair-à-pair open-source qui vous permet d'acheter et de vendre des cryptomonnaies en échange de devises nationales. Aucune inscription n'est requise."
   buttonWindows: Obtenir pour Windows
-  buttonMac: Obtenir pour Mac
+  buttonMac: Obtenir pour macOS
   buttonDebian: Obtenir pour Debian/Ubuntu
   buttonRedHat: Obtenir pour Red Hat/Fedora
   buttonDownloads: Téléchargements
@@ -36,7 +36,7 @@ homepage_content:
   iosNotificationApp: App de notifications iOS # 26 characters max
   getStarted: Commencer # 16 characters max
   runningWindows: Vous semblez utiliser Windows
-  runningMac: vous semblez utiliser un Mac
+  runningMac: vous semblez utiliser un macOS
   runningDebian: vous semblez utiliser Debian/Ubuntu
   runningRedHat: vous semblez utiliser Red Hat/Fedora
   currentVersion: Version actuelle
@@ -78,7 +78,7 @@ os_selector_options:
   liAllDownloads: Télechargements
   liAllDownloadsText: Page des téléchargement # 28 characters max
   liWindows: Obtenir pour Windows
-  liMac: Obtenir pour Mac
+  liMac: Obtenir pour macOS
   liDebian: Obtenir pour Debian/Ubuntu
   liRedHat: Obtenir pour Red Hat/Fedora
   liArch: Obtenir pour Arch Linux
@@ -121,11 +121,11 @@ dao_footer:
 downloads:
   hBisqDownloads: Téléchargements Bisq
   runningWindows: Vous semblez utiliser Windows
-  runningMac: Vous semblez utiliser un Mac
+  runningMac: Vous semblez utiliser macOS
   runningDebian: Vous semblez utiliser Debian/Ubuntu
   runningRedHat: Vous semblez utiliser Debian/Ubuntu
   tdWindows: Windows
-  tdMac: Mac
+  tdMac: macOS
   tdDebian: Debian/Ubuntu
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
@@ -139,6 +139,6 @@ downloads:
   tdVerificationText0: PGP signature
   tdVerificationText1: PGP signatures
   tdVerificationText2: Clé publique PGP
-  pSeeInstructions: "<p class=\"small\">Voir <a href=\"/getting-started\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
+  pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Voir <a href=\"/getting-started\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
   hMobileNotifications: Notifications Bisq sur téléphone portable
   pMobileNotifications: Restez au fait de l'évolution de vos transactions et recevez des notifications sur votre téléphone portable.

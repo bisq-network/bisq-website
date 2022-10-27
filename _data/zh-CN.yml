@@ -25,7 +25,7 @@ homepage_content:
   title: "<span class=\"animate1\">交易</span>、<span class=\"animate2\">去中心化</span>。"
   intro: "Bisq 是一个开源的点对点应用程序，允许您买卖加密货币，以换取国家货币。不需要注册。"
   buttonWindows: 下载 Windows 版
-  buttonMac: 下载 Mac 版
+  buttonMac: 下载 macOS 版
   buttonDebian: 下载 Debian/Ubuntu 版
   buttonRedHat: 下载 Red Hat/Fedora 版
   buttonDownloads: 下载
@@ -36,7 +36,7 @@ homepage_content:
   iosNotificationApp: 下载 iOS 通知应用程序 # 26 characters max
   getStarted: 现在开始 # 16 characters max
   runningWindows: 你似乎在使用 Windows
-  runningMac: 你似乎在使用 Mac
+  runningMac: 你似乎在使用 macOS
   runningDebian: 你似乎在使用 Debian/Ubuntu
   runningRedHat: 你似乎在使用 Red Hat/Fedora
   currentVersion: 当前版本
@@ -78,7 +78,7 @@ os_selector_options:
   liAllDownloads: 所有下载
   liAllDownloadsText: 前往下载页面 # 28 characters max
   liWindows: 下载 Windows 版
-  liMac: 下载 Mac 版
+  liMac: 下载 macOS 版
   liDebian: 下载 Debian/Ubuntu 版
   liRedHat: 下载 Red Hat/Fedora 版
   liArch: 下载 Arch Linux 版
@@ -121,11 +121,11 @@ dao_footer:
 downloads:
   hBisqDownloads: Bisq 下载
   runningWindows: 你似乎在使用 Windows
-  runningMac: 你似乎在使用 Mac
+  runningMac: 你似乎在使用 macOS
   runningDebian: 你似乎在使用 Debian/Ubuntu
   runningRedHat: 你似乎在使用 Red Hat/Fedora
   tdWindows: Windows
-  tdMac: Mac
+  tdMac: macOS
   tdDebian: Debian/Ubuntu
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
@@ -139,6 +139,6 @@ downloads:
   tdVerificationText0: PGP 签名
   tdVerificationText1: PGP 签名
   tdVerificationText2: PGP 公钥
-  pSeeInstructions: "<p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 Bisq</a>。</p>"
+  pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 Bisq</a>。</p>"
   hMobileNotifications: Bisq 通知应用程序
   pMobileNotifications: 保持最新的交易和接收通知在您的手机上。

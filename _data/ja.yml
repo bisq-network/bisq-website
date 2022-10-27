@@ -25,7 +25,7 @@ homepage_content:
   title: "<span class=\"animate1\">取引所、</span><span class=\"animate2\">非中央集権化された</span>"
   intro: "Bisqは、各国通貨と引き換えに暗号通貨と売買できるオープンソースのピアツーピアアプリケーションです。登録は不要です。"
   buttonWindows: ダウンロード for Windows
-  buttonMac: ダウンロード for Mac
+  buttonMac: ダウンロード for macOS
   buttonDebian: ダウンロード for Debian/Ubuntu
   buttonRedHat: ダウンロード for Red Hat/Fedora
   buttonDownloads: ダウンロード
@@ -36,7 +36,7 @@ homepage_content:
   iosNotificationApp: iOS通知アプリを入手 # 26 characters max
   getStarted: 始める # 16 characters max
   runningWindows: Windowsを実行しているようです。
-  runningMac: Macを実行しているようです。
+  runningMac: macOSを実行しているようです。
   runningDebian: Debian/Ubuntuを実行しているようです。
   runningRedHat: Red Hat/Fedoraを実行しているようです。
   currentVersion: 現在のバージョン
@@ -78,7 +78,7 @@ os_selector_options:
   liAllDownloads: 全てのダウンロード
   liAllDownloadsText: ダウンロードページヘ行く # 28 characters max
   liWindows: ダウンロード for Windows
-  liMac: ダウンロード for Mac
+  liMac: ダウンロード for macOS
   liDebian: ダウンロード for Debian/Ubuntu
   liRedHat: ダウンロード for Red Hat/Fedora
   liArch: ダウンロード for Arch Linux
@@ -121,11 +121,11 @@ dao_footer:
 downloads:
   hBisqDownloads: Bisqダウンロード
   runningWindows: Windowsを実行しているようです。
-  runningMac: Macを実行しているようです。
+  runningMac: macOSを実行しているようです。
   runningDebian: Debian/Ubuntuを実行しているようです。
   runningRedHat: Red Hat/Fedoraを実行しているようです。
   tdWindows: Windows
-  tdMac: Mac
+  tdMac: macOS
   tdDebian: Debian/Ubuntu
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
@@ -139,6 +139,6 @@ downloads:
   tdVerificationText0: PGP署名
   tdVerificationText1: PGP署名
   tdVerificationText2: PGPパブリックキー
-  pSeeInstructions: "<p class=\"small\">最初のトレードを完了する方法については<a href=\"/getting-started\">Bisqの概要</a>をご覧ください。</p>"
+  pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">最初のトレードを完了する方法については<a href=\"/getting-started\">Bisqの概要</a>をご覧ください。</p>"
   hMobileNotifications: Bisqモバイル通知
   pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。

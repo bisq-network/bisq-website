@@ -25,7 +25,7 @@ homepage_content:
   title: "<span class=\"animate1\">Децентрализованная</span> <span class=\"animate2\">биржа.</span>"
   intro: "Bisq — это не требующее регистрации P2P-приложение с открытым исходным кодом, позволяющее покупать и продавать криптовалюты за национальную валюту."
   buttonWindows: Загрузить для Windows
-  buttonMac: Загрузить для Mac
+  buttonMac: Загрузить для macOS
   buttonDebian: Загрузить для Debian/Ubuntu
   buttonRedHat: Загрузить для Red Hat/Fedora
   buttonDownloads: Загрузить
@@ -36,7 +36,7 @@ homepage_content:
   iosNotificationApp: Скачать приложение для iOS # 26 characters max
   getStarted: Узнать больше # 16 characters max
   runningWindows: "Похоже, вы используете Windows"
-  runningMac: "Похоже, вы используете Mac"
+  runningMac: "Похоже, вы используете macOS"
   runningDebian: "Похоже, вы используете Debian/Ubuntu"
   runningRedHat: "Похоже, вы используете Red Hat/Fedora"
   currentVersion: Текущая версия
@@ -78,7 +78,7 @@ os_selector_options:
   liAllDownloads: Все загрузки
   liAllDownloadsText: Перейти на страницу загрузок # 28 characters max
   liWindows: Загрузить для Windows
-  liMac: Загрузить для Mac
+  liMac: Загрузить для macOS
   liDebian: Загрузить для Debian/Ubuntu
   liRedHat: Загрузить для Red Hat/Fedora
   liArch: Загрузить для Arch Linux
@@ -121,11 +121,11 @@ dao_footer:
 downloads:
   hBisqDownloads: Загрузить Bisq
   runningWindows: "Похоже, вы используете Windows"
-  runningMac: "Похоже, вы используете Mac"
+  runningMac: "Похоже, вы используете macOS"
   runningDebian: "Похоже, вы используете Debian/Ubuntu"
   runningRedHat: "Похоже, вы используете Red Hat/Fedora"
   tdWindows: Windows
-  tdMac: Mac
+  tdMac: macOS
   tdDebian: Debian/Ubuntu
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
@@ -139,6 +139,6 @@ downloads:
   tdVerificationText0: PGP-подпись
   tdVerificationText1: PGP-сигнатуры
   tdVerificationText2: Откр. ключ PGP
-  pSeeInstructions: "<p class=\"small\">Прочитайте статью <a href=\"/getting-started\">«Начало работы с Bisq»</a>, чтобы узнать, как совершить свою первую сделку.</p>"
+  pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Прочитайте статью <a href=\"/getting-started\">«Начало работы с Bisq»</a>, чтобы узнать, как совершить свою первую сделку.</p>"
   hMobileNotifications: Мобильные уведомления Bisq
   pMobileNotifications: Получайте оперативные уведомления о сделках на мобильный телефон.

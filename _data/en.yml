@@ -25,7 +25,7 @@ homepage_content:
   title: "<span class=\"animate1\">Exchange,</span> <span class=\"animate2\">Decentralized.</span>"
   intro: "Buy and sell bitcoin for fiat (or other cryptocurrencies) privately and securely using Bisq's peer-to-peer network and open-source desktop software. No registration required."
   buttonWindows: Download for Windows
-  buttonMac: Download for Mac
+  buttonMac: Download for macOS
   buttonDebian: Download for Debian/Ubuntu
   buttonRedHat: Download for Red Hat/Fedora
   buttonDownloads: Downloads
@@ -36,7 +36,7 @@ homepage_content:
   iosNotificationApp: Get iOS Notification app # 26 characters max
   getStarted: Get Started # 16 characters max
   runningWindows: You appear to be running Windows
-  runningMac: You appear to be using a Mac
+  runningMac: You appear to be using macOS
   runningDebian: You appear to be using Debian/Ubuntu
   runningRedHat: You appear to be using Red Hat/Fedora
   currentVersion: Current Version
@@ -71,7 +71,7 @@ os_selector_options:
   liAllDownloads: All Downloads
   liAllDownloadsText: Go to Downloads Page # 28 characters max
   liWindows: Download for Windows
-  liMac: Download for Mac
+  liMac: Download for macOS
   liDebian: Download for Debian/Ubuntu
   liRedHat: Download for Red Hat/Fedora
   liArch: Download for Arch Linux
@@ -114,11 +114,11 @@ dao_footer:
 downloads:
   hBisqDownloads: Bisq Downloads
   runningWindows: You appear to be running Windows
-  runningMac: You appear to be using a Mac
+  runningMac: You appear to be using macOS
   runningDebian: You appear to be using Debian/Ubuntu
   runningRedHat: You appear to be using Red Hat/Fedora
   tdWindows: Windows
-  tdMac: Mac
+  tdMac: macOS
   tdDebian: Debian/Ubuntu
   tdRedHat: Red Hat/Fedora
   tdArchLinux: Arch Linux
@@ -132,7 +132,7 @@ downloads:
   tdVerificationText0: PGP Signature
   tdVerificationText1: PGP Signatures
   tdVerificationText2: PGP Public Key
-  pSeeInstructions: "<p class=\"small\">See our <a href=\"/getting-started\"> Getting Started </a> page to see how to quickly complete your first trade.</p>"
+  pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">See our <a href=\"/getting-started\"> Getting Started </a> page how to quickly complete your first trade.</p>"
   hMobileNotifications: Bisq Mobile Notifications
   pMobileNotifications: Stay up-to-date on your trades and receive notifications on your mobile phone.
 

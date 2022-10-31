@@ -4,3 +4,6 @@ _site
 .idea
 .DS_Store
 .dao/data
+/.java-version
+/.gradle/*
+/tor.keyring

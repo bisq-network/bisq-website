@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Bisq v2.0.0 Released: Annoucement"
+title: "Announcing Bisq 2"
 author: cbeams
-excerpt: "Bisq v2.0.0 was released earlier today.  <br><br>"
+excerpt: "Excerpt TBD"
 lang: en
 ---
 
-Bisq v2.0.0 was just released, and it's quite a notable update.
+TBD

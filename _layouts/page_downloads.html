@@ -92,7 +92,7 @@ layout: page
     <tr class="border-bottom">
       <td>{{ item.tdMac }}</td>
       <td>
-        <a class="dl-mac" href="https://bisq.network/downloads/v{{ bisq2version }}/Bisq-{{ bisq2version }}.dmg">.dmg</a> |
+        <a class="dl-mac" href="{{ host }}v{{ bisq2version }}/Bisq-{{ bisq2version }}.dmg">.dmg</a> |
         <a href="{{ host }}v{{ bisq2version }}/Bisq-{{ bisq2version }}.dmg.asc">{{ item.tdVerificationText0 }}</a>
       </td>
     </tr>
@@ -106,8 +106,8 @@ layout: page
     <tr class="border-bottom">
       <td>{{ item.tdRedHat }}</td>
       <td>
-        <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.rpm">.rpm</a> |
-        <a href="https://github.com/bisq-network/bisq/releases/download/v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.rpm.asc">{{ item.tdVerificationText0 }}</a>
+        <a class="dl-rpm64" href="{{ host }}v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.rpm">.rpm</a> |
+        <a href="{{ host }}v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.rpm.asc">{{ item.tdVerificationText0 }}</a>
       </td>
     </tr>
 <!--    <tr class="border-bottom">-->
@@ -128,14 +128,14 @@ layout: page
     <tr class="border-bottom">
       <td>{{ item.tdReleaseNotes }}</td>
       <td>
-        <a href="{{ host }}v{{ bisq2version }}">{{ item.tdReleaseNotesText }} v{{ bisq2version }}</a>
+        <a href="https://github.com/bisq-network/bisq2/releases/tag/v{{ bisq2version }}">{{ item.tdReleaseNotesText }} v{{ bisq2version }}</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdVerification }}</td>
       <td>
-        <a href="{{ host }}v{{ bisq2version }}">{{ item.tdVerificationText1 }}</a> |
-        <a href="{{ host }}v{{ bisq2version }}/E222AA02.asc">{{ item.tdVerificationText2 }}</a>
+        <a href="https://github.com/bisq-network/bisq2/releases/tag/v{{ bisq2version }}">{{ item.tdVerificationText1 }}</a> |
+        <a href="https://github.com/bisq-network/bisq2/releases/tag/v{{ bisq2version }}/E222AA02.asc">{{ item.tdVerificationText2 }}</a>
       </td>
     </tr>
   </table>

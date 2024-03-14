@@ -139,6 +139,7 @@ downloads:
   tdVerificationText0: Assinatura PGP
   tdVerificationText1: Assinaturas PGP
   tdVerificationText2: Chave Pública PGP
-  pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Confira <a href=\"/getting-started\">Getting Started with Bisq</a> para instruções de como completar a sua primeira troca.</p>"
+  pSeeInstructions: "<p class=\"small\">Para macOS e Windows, consulte as nossas novas instruções de instalação na página <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Confira <a href=\"/getting-started\">Getting Started with Bisq</a> para instruções de como completar a sua primeira troca.</p>"
   hMobileNotifications: Notificações móvies do Bisq
   pMobileNotifications: Mantenha-se atualizado sobre suas trocas e receba notificações no seu telemóvel.
+  bisq2Notifications: O Bisq 2 está atualmente em fase beta. Saiba mais em <a href="/blog/announcing-bisq-2/">[publicação no blogue do anúncio]</a>.

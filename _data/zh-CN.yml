@@ -139,6 +139,7 @@ downloads:
   tdVerificationText0: PGP 签名
   tdVerificationText1: PGP 签名
   tdVerificationText2: PGP 公钥
-  pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 Bisq</a>。</p>"
+  pSeeInstructions: "<p class=\"small\">关于 macOS 和 Windows，请参阅 <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>上的新安装说明。</p><p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 Bisq</a>。</p>"
   hMobileNotifications: Bisq 通知应用程序
   pMobileNotifications: 保持最新的交易和接收通知在您的手机上。
+  bisq2Notifications: Bisq 2 目前处于测试阶段。了解更多信息，请参阅 <a href="/blog/announcing-bisq-2/">[公告博文]</a>。

@@ -142,4 +142,4 @@ downloads:
   pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Vea <a href=\"/getting-started\">Iniciándose con Bisq</a> para instrucciones sobre cómo completar su primer intercambio.</p>"
   hMobileNotifications: Notificaciones móviles Bisq
   pMobileNotifications: Manténgase al día en sus intercambios y reciba notificaciones en su celular.
-  bisq2Notifications: Bisq 2 está actualmente en fase beta. Más información en la <a href="/blog/announcing-bisq-2/">[entrada de blog del anuncio]</a>.
+  bisq2Notifications: Bisq 2 está actualmente en fase beta. Más información en la <a href="/blog/announcing-bisq-2/">entrada de blog del anuncio</a>.

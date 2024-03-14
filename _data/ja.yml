@@ -142,4 +142,4 @@ downloads:
   pSeeInstructions: "<p class=\"small\">macOSとWindowsについては、<a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>の新しいインストール手順をご覧ください。</p><p class=\"small\">最初のトレードを完了する方法については<a href=\"/getting-started\">Bisqの概要</a>をご覧ください。</p>"
   hMobileNotifications: Bisqモバイル通知
   pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
-  bisq2Notifications: Bisq 2 Bisq 2は現在ベータ版です。詳しくは <a href="/blog/announcing-bisq-2/">[発表ブログ記事]</a>ご覧ください。
+  bisq2Notifications: Bisq 2 Bisq 2は現在ベータ版です。詳しくは <a href="/blog/announcing-bisq-2/">発表ブログ記事</a>ご覧ください。

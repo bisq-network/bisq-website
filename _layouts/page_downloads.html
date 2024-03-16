@@ -77,37 +77,35 @@ layout: page
 
   <div id="bisq2">&nbsp;</div>
   <h2>Bisq 2 Downloads</h2>
-  {{ item.bisq2Notifications }}
-  {% assign bisq2version = '2.0.0' %}
-  {% assign host = 'https://github.com/bisq-network/bisq2/releases/download/' %}
+  {% assign bisq2_releases = 'https://github.com/bisq-network/bisq2/releases' %}
 
   <table class="all-downloads mt-5">
     <tr class="border-bottom">
       <td>{{ item.tdWindows }}</td>
       <td>
-        <a class="dl-win64" href="{{ host }}v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.exe">.exe</a> |
-        <a href="{{ host }}v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.exe.asc">{{ item.tdVerificationText0 }}</a>
+        <a class="dl-win64" href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.exe">.exe</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.exe.asc">{{ item.tdVerificationText0 }}</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdMac }}</td>
       <td>
-        <a class="dl-mac" href="{{ host }}v{{ bisq2version }}/Bisq-{{ bisq2version }}.dmg">.dmg</a> |
-        <a href="{{ host }}v{{ bisq2version }}/Bisq-{{ bisq2version }}.dmg.asc">{{ item.tdVerificationText0 }}</a>
+        <a class="dl-mac" href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-{{ site.bisq2_version }}.dmg">.dmg</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-{{ site.bisq2_version }}.dmg.asc">{{ item.tdVerificationText0 }}</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdDebian }}</td>
       <td>
-        <a class="dl-deb64" href="{{ host }}v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.deb">.deb</a> |
-        <a href="{{ host }}v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.deb.asc">{{ item.tdVerificationText0 }}</a>
+        <a class="dl-deb64" href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.deb">.deb</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.deb.asc">{{ item.tdVerificationText0 }}</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdRedHat }}</td>
       <td>
-        <a class="dl-rpm64" href="{{ host }}v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.rpm">.rpm</a> |
-        <a href="{{ host }}v{{ bisq2version }}/Bisq-64bit-{{ bisq2version }}.rpm.asc">{{ item.tdVerificationText0 }}</a>
+        <a class="dl-rpm64" href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.rpm">.rpm</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.rpm.asc">{{ item.tdVerificationText0 }}</a>
       </td>
     </tr>
 <!--    <tr class="border-bottom">-->
@@ -121,21 +119,21 @@ layout: page
     <tr class="border-bottom">
       <td>{{ item.tdSourceCode }}</td>
       <td>
-        <a href="{{ host }}archive/v{{ bisq2version }}.zip">zip</a> |
-        <a href="{{ host }}archive/v{{ bisq2version }}.tar.gz">tar.gz</a>
+        <a href="{{ bisq2_releases }}/download/archive/v{{ site.bisq2_version }}.zip">zip</a> |
+        <a href="{{ bisq2_releases }}/download/archive/v{{ site.bisq2_version }}.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdReleaseNotes }}</td>
       <td>
-        <a href="https://github.com/bisq-network/bisq2/releases/tag/v{{ bisq2version }}">{{ item.tdReleaseNotesText }} v{{ bisq2version }}</a>
+        <a href="{{ bisq2_releases }}/tag/v{{ site.bisq2_version }}">{{ item.tdReleaseNotesText }} v{{ site.bisq2_version }}</a>
       </td>
     </tr>
     <tr class="border-bottom">
       <td>{{ item.tdVerification }}</td>
       <td>
-        <a href="https://github.com/bisq-network/bisq2/releases/tag/v{{ bisq2version }}">{{ item.tdVerificationText1 }}</a> |
-        <a href="https://github.com/bisq-network/bisq2/releases/tag/v{{ bisq2version }}/E222AA02.asc">{{ item.tdVerificationText2 }}</a>
+        <a href="{{ bisq2_releases }}/tag/v{{ site.bisq2_version }}">{{ item.tdVerificationText1 }}</a> |
+        <a href="{{ bisq2_releases }}/tag/v{{ site.bisq2_version }}/E222AA02.asc">{{ item.tdVerificationText2 }}</a>
       </td>
     </tr>
   </table>

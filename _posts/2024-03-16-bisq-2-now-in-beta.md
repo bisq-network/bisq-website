@@ -16,8 +16,8 @@ After nearly three years in development, we're thrilled to announce the first in
 
 Ready to get started with Bisq 2? It's easy:
 
-1. Download and install Bisq 2 from the [downloads page](/downloads#bisq2). Mac user? [Read this first](https://support.apple.com/en-us/102445).
-2. Try your first small trade with Bisq 2's new **Bisq Easy** trade protocol
+1. Download and install Bisq 2 from the [downloads page](/downloads#bisq2). Mac user? Read [this](https://support.apple.com/en-us/102445) first.
+2. Try your first small trade with Bisq 2's new Bisq Easy trade protocol
 3. Share your feedback in Bisq 2's built-in discussions area
 
 Note: If you're already running Bisq 1, carry on! Bisq 2 is a separate application and will install and run alongside Bisq 1 without issue.

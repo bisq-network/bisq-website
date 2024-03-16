@@ -75,13 +75,78 @@ layout: page
 
   {{ item.pSeeInstructions }}
 
+  <div id="bisq2">&nbsp;</div>
+  <h2>Bisq 2 Downloads</h2>
+  {{ item.bisq2BetaNote }}
+  {% assign bisq2_archive = 'https://github.com/bisq-network/bisq2/archive' %}
+  {% assign bisq2_releases = 'https://github.com/bisq-network/bisq2/releases' %}
 
+  <table class="all-downloads mt-5">
+    <tr class="border-bottom">
+      <td>{{ item.tdWindows }}</td>
+      <td>
+        <a class="dl-win64" href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.exe">.exe</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.exe.asc">{{ item.tdVerificationText0 }}</a>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td>{{ item.tdMac }}</td>
+      <td>
+        <a class="dl-mac" href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-{{ site.bisq2_version }}.dmg">.dmg</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-{{ site.bisq2_version }}.dmg.asc">{{ item.tdVerificationText0 }}</a>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td>{{ item.tdDebian }}</td>
+      <td>
+        <a class="dl-deb64" href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.deb">.deb</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.deb.asc">{{ item.tdVerificationText0 }}</a>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td>{{ item.tdRedHat }}</td>
+      <td>
+        <a class="dl-rpm64" href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.rpm">.rpm</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-64bit-{{ site.bisq2_version }}.rpm.asc">{{ item.tdVerificationText0 }}</a>
+      </td>
+    </tr>
+<!--    <tr class="border-bottom">-->
+<!--      <td>{{ item.tdArchLinux }}</td>-->
+<!--      <td><a href="https://aur.archlinux.org/packages/bisq/">{{ item.tdArchLinuxText }}</a></td>-->
+<!--    </tr>-->
+<!--    <tr class="border-bottom">-->
+<!--      <td>{{ item.tdQubes }}</td>-->
+<!--      <td><a href="https://bisq.wiki/Running_Bisq_on_Qubes">{{ item.tdQubesText }}</a></td>-->
+<!--    </tr>-->
+    <tr class="border-bottom">
+      <td>{{ item.tdSourceCode }}</td>
+      <td>
+        <a href="{{ bisq2_archive }}/v{{ site.bisq2_version }}.zip">zip</a> |
+        <a href="{{ bisq2_archive }}/v{{ site.bisq2_version }}.tar.gz">tar.gz</a>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td>{{ item.tdReleaseNotes }}</td>
+      <td>
+        <a href="{{ bisq2_releases }}/tag/v{{ site.bisq2_version }}">{{ item.tdReleaseNotesText }} v{{ site.bisq2_version }}</a>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td>{{ item.tdVerification }}</td>
+      <td>
+        <a href="{{ bisq2_releases }}/tag/v{{ site.bisq2_version }}">{{ item.tdVerificationText1 }}</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/E222AA02.asc">{{ item.tdVerificationText2 }}</a>
+      </td>
+    </tr>
+  </table>
+
+  <br>
 </div>
 
 
 
 <div class="mt-5">
-  <h5>{{ item.hMobileNotifications }}</h5>
+  <h2>{{ item.hMobileNotifications }}</h2>
    <p>{{ item.pMobileNotifications }}</p>
 
         <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img mb-2" alt="Get it on Google Play" src="/images/badge_google_play.svg" loading="lazy"/></a>

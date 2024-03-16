@@ -12,7 +12,7 @@ main_nav:
 
 footer:
   notificationApp: App de notificações da Bisq
-  siteYear: "© 2022 Bisq"
+  siteYear: "© 2024 Bisq"
   ulResources: Recursos
   liDownloads: Downloads
   liRoadmap: Plano
@@ -139,6 +139,7 @@ downloads:
   tdVerificationText0: "Assinatura PGP"
   tdVerificationText1: "Assinaturas PGP"
   tdVerificationText2: Chave Pública PGP
-  pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Veja <a href=\"/getting-started\">Introdução ao Bisq</a> para instruções sobre como fazer sua primeira negociação.</p>"
+  pSeeInstructions: "<p class=\"small\">Para macOS e Windows, consulte nossas novas instruções de instalação no site <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Veja <a href=\"/getting-started\">Introdução ao Bisq</a> para instruções sobre como fazer sua primeira negociação.</p>"
   hMobileNotifications: Notificações da Bisq Móvel
   pMobileNotifications: Mantenha-se atualizado sobre suas negociações e receba notificações no seu celular.
+  bisq2BetaNote: O Bisq 2 está atualmente na versão beta. Saiba mais na <a href="/blog/bisq-2-now-in-beta/">publicação do anúncio no blog</a>.

@@ -12,7 +12,7 @@ main_nav:
 
 footer:
   notificationApp: "App Bisq mobile de notification "
-  siteYear: © 2022 Bisq
+  siteYear: © 2024 Bisq
   ulResources: Ressources
   liDownloads: Téléchargements
   liRoadmap: Feuille de route
@@ -142,3 +142,4 @@ downloads:
   pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Voir <a href=\"/getting-started\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
   hMobileNotifications: Notifications Bisq sur téléphone portable
   pMobileNotifications: Restez au fait de l'évolution de vos transactions et recevez des notifications sur votre téléphone portable.
+  bisq2BetaNote: Bisq 2 est actuellement en version bêta. Pour en savoir plus, consultez le <a href="/blog/bisq-2-now-in-beta/">billet de blog d'annonce</a>.

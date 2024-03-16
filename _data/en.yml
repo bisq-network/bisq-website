@@ -12,7 +12,7 @@ main_nav:
 
 footer:
   notificationApp: Bisq mobile notification App
-  siteYear: © 2022 Bisq
+  siteYear: © 2024 Bisq
   ulResources: Resources
   liDownloads: Downloads
   liRoadmap: Roadmap
@@ -135,6 +135,7 @@ downloads:
   pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">See our <a href=\"/getting-started\"> Getting Started </a> page how to quickly complete your first trade.</p>"
   hMobileNotifications: Bisq Mobile Notifications
   pMobileNotifications: Stay up-to-date on your trades and receive notifications on your mobile phone.
+  bisq2BetaNote: Bisq 2 is currently in beta. Learn more in the <a href="/blog/bisq-2-now-in-beta/">announcement blog post</a>.
 
 getting_started:
   pageTitle: Getting Started

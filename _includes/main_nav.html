@@ -27,7 +27,6 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
     <ul class="navbar-nav ml-auto">
 
       {% assign mainNavLabels = site.data[page.lang].main_nav %}
@@ -37,8 +36,11 @@
       <li class="nav-item {% if page.url == '/getting-started/' %}current{% endif %}">
         <a class="nav-link" href="/getting-started">{{ mainNavLabels.gettingStarted }}</a>
       </li>
-      <li class="nav-item {% is_current_page dao %}">
-        <a class="nav-link" href="{% lingual_link dao %}">{{ mainNavLabels.bisqDAO }}</a>
+<!--      <li class="nav-item {% is_current_page dao %}">-->
+<!--        <a class="nav-link" href="{% lingual_link dao %}">{{ mainNavLabels.bisqDAO }}</a>-->
+<!--      </li>-->
+      <li class="nav-item">
+        <a class="nav-link" href="/bisq-2">Bisq 2 <sup class="green">BETA</sup></a>
       </li>
       <li class="nav-item {% if page.url == '/dashboard/' %}current{% endif %}">
         <a class="nav-link" href="/dashboard">{{ mainNavLabels.statistics }}</a>

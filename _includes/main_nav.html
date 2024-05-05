@@ -42,47 +42,8 @@
       <li class="nav-item">
         <a class="nav-link" href="/bisq-2">Bisq 2 <sup class="green">BETA</sup></a>
       </li>
-      <li class="nav-item {% if page.url == '/dashboard/' %}current{% endif %}">
-        <a class="nav-link" href="/dashboard">{{ mainNavLabels.statistics }}</a>
-      </li>
       <li class="nav-item {% is_current_page faq %}">
         <a class="nav-link" target="_blank" href="https://bisq.wiki/Frequently_asked_questions">{{ mainNavLabels.faq }}<img class="external-link-symbol" src="/images/external-link-b.svg"></a>
-      </li>
-      <li class="nav-item {% is_current_page markets %}">
-        <a class="nav-link" target="_blank" href="https://bisq.markets">{{ mainNavLabels.markets }}<img class="external-link-symbol" src="/images/external-link-b.svg"></a>
-      </li>
-
-      <!-- additional links for mobile menu (these show in "learn more" dropdown on desktop) -->
-
-      <li class="downloads-mobile nav-item">
-        <a class="nav-link" href="/blog">{{ mainNavLabels.blog }}</a>
-      </li>
-      <li class="downloads-mobile nav-item">
-        <a class="nav-link" href="https://bisq.wiki" target="_blank">{{ mainNavLabels.documentation }}</a>
-      </li>
-      <li class="downloads-mobile nav-item">
-        <a class="nav-link" href="{% lingual_link downloads %}">{{ mainNavLabels.downloads }}</a>
-      </li>
-
-      <!-- dropdown menus for desktop -->
-
-      <li class="downloads-desktop more-info-desktop nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="learnMoreDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          {{ mainNavLabels.learnMore }}
-        </a>
-        <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="learnMoreDropdown">
-          <div class="dropdown-item btn-icon">
-            <div class="float-right">
-              <a href="https://bisq.wiki" target='_blank'>{{ mainNavLabels.documentation }}</a>
-            </div>
-          </div>
-
-          <div class="dropdown-item btn-icon">
-            <div class="float-right">
-              <a href="/blog/">{{ mainNavLabels.blog }}</a>
-            </div>
-          </div>
-        </div>
       </li>
 
       <li class="downloads-desktop nav-item dropdown">

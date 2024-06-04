@@ -12,8 +12,6 @@ Please submit proposed changes as pull requests, ideally with commit messages th
 
 If you're expecting compensation from the Bisq DAO for your work, please make sure you've corresponded with the repo's maintainer to ensure the work you plan to do is currently prioritized and budgeted.
 
-You can do this by opening an issue in this repo explaining your proposed changes and cost, or by floating the idea in the #website channel on [Keybase](https://keybase.io/team/bisq).
-
 See further details on the [this wiki page](https://bisq.wiki/Growth_Team#Processes).
 
 ---

@@ -50,7 +50,7 @@ homepage_content:
   hPrivate: Private
   pPrivate: Your data is stored locally on-disk, and is never sent to a central server. Every Bisq node is a Tor hidden service by default.
   hOpen: Open
-  pOpen: "<p class=\"grey px-md-5\">Code is <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open-source</a>, and project strategy is discussed openly on <a href=\"https://keybase.io/team/bisq\" target=\"_blank\" rel=\"noopener\">Keybase</a> and <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
+  pOpen: "<p class=\"grey px-md-5\">Code is <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">open-source</a>, and project strategy is discussed openly on <a href=\"https://bisq.chat\" target=\"_blank\" rel=\"noopener\">Matrix</a> and <a href=\"https://github.com/bisq-network/bisq\" target=\"_blank\" rel=\"noopener\">GitHub</a>.</p>"
   hEasy: Easy to Use
   pEasy: "<p class=\"grey px-md-5\">We've made all this sophistication simple—<a href='/getting-started'>make your first trade</a> in under 10 minutes!</p>"
   hBisqDao: The Bisq DAO
@@ -142,7 +142,7 @@ getting_started:
   h3Intro: This guide covers just what you need to get trading quickly!
   liIntroPoint1: Most videos below are just about 2 minutes long.
   liIntroPoint2: Written documentation is linked below too, if you prefer it.
-  liIntroPoint3: <a href="https://keybase.io/team/bisq" target="_blank">Support</a> is never too far away.
+  liIntroPoint3: <a href="https://bisq.chat" target="_blank">Support</a> is never too far away.
   pIntroNote1: Before you can start trading on Bisq, you'll need a little bitcoin for a security deposit and fees (0.01 BTC should be enough). Each trader must lock bitcoin in a multisignature escrow until the trade is complete—this is part of what makes trading on Bisq highly secure.
   pIntroNote2: <a href="https://bisq.wiki/Funding_your_wallet#How_to_Obtain_Your_First_Bitcoin" target="_blank">Here are some tips</a> on getting this bitcoin without surrendering your data to a corporate, centralized exchange.
   step1Title: Download and Install Bisq
@@ -178,5 +178,5 @@ getting_started:
   step4VideoOption2: Take Offer & Complete Trade
   thatsIt: That's it—the bare essentials of getting started with Bisq.
   nextStep1: Browse the <a href="https://bisq.wiki/" target="_blank">wiki</a> to learn more.
-  nextStep2: Say hi on <a href="https://keybase.io/team/bisq" target="_blank">Keybase</a>.
+  nextStep2: Say hi on <a href="https://bisq.chat" target="_blank">Matrix</a>.
   nextStep3: Or simply make another trade!

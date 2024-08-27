@@ -20,4 +20,4 @@ Getting started with Bisq 2 is easy:
 2. Try the new [Bisq Easy](/bisq-easy) trade protocol
 3. Share your feedback in the integrated p2p group chat
 
-Note: If you're already running Bisq 1, carry on! Bisq 2 is a separate application and will install and run alongside Bisq 1 without issue.
+Note: Already running Bisq 1? No problem! Bisq 2 is a separate application and will install and run alongside Bisq 1 without issue.

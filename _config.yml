@@ -11,6 +11,7 @@ plugins:
 feed:
   path: blog/feed.atom
 include:
+  - .well-known
   - _redirects
   - _headers
 exclude:

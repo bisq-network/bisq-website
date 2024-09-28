@@ -1,9 +1,16 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~> 3.6.3'
-gem 'jekyll-livereload'
+gem 'jekyll', '~> 4.0'
 gem 'jekyll-redirect-from'
 gem 'jekyll-feed'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 gem 'jekyll-sass-converter'
+gem 'base64'
+gem 'bigdecimal'
+gem 'csv'
+gem 'ffi', '~> 1.15'
+gem 'kramdown', '~> 2.3'
+gem 'logger'
+gem 'ostruct'
+gem 'rexml'

@@ -28,7 +28,7 @@ Now there are no IP addresses used but onion addresses. Those cannot be used to 
 
 The network routing algorithm used to transport the data (offers) previously stored in the DHT to all users is now a [flooding][9] (or gossiping) algorithm. A similar one is used in Bitcoin to provide a very robust P2P network with less vulnerabilities as a structured network like a DHT.
 
-More sophisticated and effective routing algorithms like [Kademlia routing][10] which is used in DHTs come with a serious Sybil attack risk, as anyone who can control certain nodes could control the storage of certain data. The problem is that the network ID creation is free and the network ID is used to derive the storage location. So  you can create a huge amount of netwok IDs and then select those which are giving you the control over the data storage location of the data you want to control.
+More sophisticated and effective routing algorithms like [Kademlia routing][10] which is used in DHTs come with a serious Sybil attack risk, as anyone who can control certain nodes could control the storage of certain data. The problem is that the network ID creation is free and the network ID is used to derive the storage location. So  you can create a huge amount of network IDs and then select those which are giving you the control over the data storage location of the data you want to control.
 That vulnerability is mitigated with the flooding algorithm as every node stores everything.
 
 Satoshi has chosen the flooding algorithm for Bitcoin's P2P network to obtain a highly decentralized and randomized network structure which is very important to secure the network against hostile takeover of parts of the network.

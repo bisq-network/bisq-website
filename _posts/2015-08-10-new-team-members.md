@@ -12,7 +12,7 @@ Mihail Mihaylov is a Bitsquare contributor from the very early days on. He is th
 
 We also want to add a bit of background information about our recently joined team members: **Mats-Erik Pistol** and **Thomas Bocek**.
 
-[Mats-Erik Pistol][8] is a scientist in the field of Semiconductor physics at the Lund University in Sweden. He followed Bitsquare from the very first days on and is a great advisor for discussing things beyond code and day to day work. He demonstrated great support in the days when the project nearly fell apart after the failed crowndfunding campaign in February.
+[Mats-Erik Pistol][8] is a scientist in the field of Semiconductor physics at the Lund University in Sweden. He followed Bitsquare from the very first days on and is a great advisor for discussing things beyond code and day to day work. He demonstrated great support in the days when the project nearly fell apart after the failed crowdfunding campaign in February.
 
 [Thomas Bocek][9] is the author of [TomP2P][10], the P2P network library which serves as backbone of Bitsquare. He teaches distributed and Peer-to-Peer Systems at the University of Zurich. We are happy that we were able to get the best candidate to help us make the P2P network stable and safe for real life usage with the heavy burden of financial transactions.
 

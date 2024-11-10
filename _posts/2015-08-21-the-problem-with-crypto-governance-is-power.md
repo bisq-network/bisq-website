@@ -34,7 +34,7 @@ A better model may be similar to what young nation-states do: set up constitutio
 
 Isn't it ludicrous that the current Bitcoin crisis is affecting nearly all other cryptocurrencies as well? It reminds one of the 2008 financial crisis, in which the failure of one institution was deemed a systemic threat to the entire global financial structure.
 
-But supporting a network of smaller cryptocurrencies would relieve the political pressure of trying to have "one true blockchain." It would create and maintain actual decentralization in money. Releasing Bitcoin's political burden as a multi billion dollar asset will also make space for innovation. Even the pressure of governmental intervention can be mitigated by distributing its impact across the entire cryptocucrrency sphere, where a single failure doesn't cause systemic risk for the whole ecosystem.
+But supporting a network of smaller cryptocurrencies would relieve the political pressure of trying to have "one true blockchain." It would create and maintain actual decentralization in money. Releasing Bitcoin's political burden as a multi billion dollar asset will also make space for innovation. Even the pressure of governmental intervention can be mitigated by distributing its impact across the entire cryptocurrency sphere, where a single failure doesn't cause systemic risk for the whole ecosystem.
 
 Now to the caveats of my proposed solution: using a multitude of smaller cryptocurrencies is not the sort of system we are used to. Historically people haven't preferred to deal with multiple currencies. But the problems of a multi-currency ecosystem can be solved when we have near-frictionless, automated, and trust-free exchanges.
 

@@ -142,4 +142,5 @@ downloads:
   pSeeInstructions: "<p class=\"small\">For macOS and Windows please see our new installation instructions on the <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Voir <a href=\"/getting-started\">Pour commencer avec Bisq</a> pour obtenir des instructions sur la façon d'effectuer votre premier échange.</p>"
   hMobileNotifications: Notifications Bisq sur téléphone portable
   pMobileNotifications: Restez au fait de l'évolution de vos transactions et recevez des notifications sur votre téléphone portable.
-  bisq2BetaNote: Bisq 2 est actuellement en version bêta. Pour en savoir plus, consultez le <a href="/blog/bisq-2-now-in-beta/">billet de blog d'annonce</a>.
+  bisq1ScopeNote: La version originale de Bisq, offrant la sécurité du protocole multisig et permettant des montants de transaction plus importants.
+  bisq2ScopeNote: Propose actuellement le protocole <a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a> pour intégrer facilement les utilisateurs sans bitcoin et étendre la portée des vendeurs. Un jour, elle héritera d'une version améliorée du protocole multisig. En savoir plus dans le <a href="/blog/bisq-2-now-in-beta/">post du blog d'annonce</a>.

@@ -142,4 +142,5 @@ downloads:
   pSeeInstructions: "<p class=\"small\">macOSとWindowsについては、<a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>の新しいインストール手順をご覧ください。</p><p class=\"small\">最初のトレードを完了する方法については<a href=\"/getting-started\">Bisqの概要</a>をご覧ください。</p>"
   hMobileNotifications: Bisqモバイル通知
   pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
-  bisq2BetaNote: Bisq 2 は現在ベータ版です。詳しくは <a href="/blog/bisq-2-now-in-beta/">発表ブログ記事</a>ご覧ください。
+  bisq1ScopeNote: マルチシグプロトコルのセキュリティを提供し、より大きな取引額を可能にするBisqのオリジナルバージョン。
+  bisq2ScopeNote: 現在、<a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a>プロトコルを提供しており、ビットコインを持っていないユーザーのオンボーディングを簡単にし、販売者のリーチを拡大しています。将来的には、マルチシグプロトコルのより良いバージョンを継承する予定です。詳細は<a href="/blog/bisq-2-now-in-beta/">発表ブログ投稿</a>をご覧ください。

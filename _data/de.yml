@@ -140,7 +140,7 @@ downloads:
   tdVerificationText1: PGP Signaturen
   tdVerificationText2: PGP Public Key
   pSeeInstructions: "<p class=\"small\">Für macOS und Windows folgen Sie bitte den Installationsanweisungen im <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Lesen Sie <a href=\"/getting-started\">Erste Schritte mit Bisq</a> für Anweisungen, wie Sie Ihren ersten Handel abschließen können."
-  hMobileNotifications: Bisq Handy-Benachrichtigungen
+  hMobileNotifications: Bisq1 Handy-Benachrichtigungen
   pMobileNotifications: Halten Sie sich über Ihre Trades auf dem Laufenden und erhalten Sie Benachrichtigungen auf Ihrem Handy.
   bisq1ScopeNote: Die ursprüngliche Version von Bisq, die die Sicherheit des Multisig-Protokolls bietet und größere Handelsbeträge ermöglicht.
   bisq2ScopeNote: Bietet derzeit das <a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a> Protokoll an, um Benutzer ohne Bitcoin einfach zu onboarden und die Reichweite der Verkäufer zu erweitern. Wird eines Tages eine verbesserte Version des Multisig-Protokolls übernehmen. Erfahren Sie mehr im <a href="/blog/bisq-2-now-in-beta/">Ankündigungs-Blogpost</a>.

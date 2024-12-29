@@ -140,7 +140,7 @@ downloads:
   tdVerificationText1: PGP 签名
   tdVerificationText2: PGP 公钥
   pSeeInstructions: "<p class=\"small\">关于 macOS 和 Windows，请参阅 <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>上的新安装说明。</p><p class=\"small\">有关如何完成第一笔交易的说明，请参阅如何<a href=\"/getting-started\">开始使用 Bisq</a>。</p>"
-  hMobileNotifications: Bisq 通知应用程序
+  hMobileNotifications: Bisq1 通知应用程序
   pMobileNotifications: 保持最新的交易和接收通知在您的手机上。
   bisq1ScopeNote: Bisq 的原始版本，提供 multisig 协议的安全性，并允许更大的交易金额。
   bisq2ScopeNote: 目前提供 <a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a> 协议，方便无比特币的用户进行注册，并扩展卖家的覆盖范围。未来将继承改进版的 multisig 协议。了解更多内容，请参阅 <a href="/blog/bisq-2-now-in-beta/">公告博客文章</a>。

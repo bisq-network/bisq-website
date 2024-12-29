@@ -140,7 +140,7 @@ downloads:
   tdVerificationText1: PGP-сигнатуры
   tdVerificationText2: Откр. ключ PGP
   pSeeInstructions: "<p class=\"small\">Для macOS и Windows, пожалуйста, ознакомьтесь с нашими новыми инструкциями по установке на <a href=\"https://bisq.wiki/Downloading_and_installing#OS-specific_install_notes\">bisq.wiki</a>.</p><p class=\"small\">Прочитайте статью <a href=\"/getting-started\">«Начало работы с Bisq»</a>, чтобы узнать, как совершить свою первую сделку.</p>"
-  hMobileNotifications: Мобильные уведомления Bisq
+  hMobileNotifications: Мобильные уведомления Bisq1
   pMobileNotifications: Получайте оперативные уведомления о сделках на мобильный телефон.
   bisq1ScopeNote: Оригинальная версия Bisq, обеспечивающая безопасность протокола multisig и позволяющая осуществлять сделки с большими суммами.
   bisq2ScopeNote: В настоящее время предлагает протокол <a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a>, который упрощает onboarding пользователей без биткойнов и расширяет охват продавцов. Со временем он унаследует улучшенную версию протокола multisig. Узнайте больше в <a href="/blog/bisq-2-now-in-beta/">анонсирующем посте в блоге</a>.

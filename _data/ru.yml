@@ -64,7 +64,7 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Добавьте счета в национальной или криптовалюте.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Создайте новое предложение или воспользуйтесь уже созданным.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Следуйте подсказкам, чтобы завершить сделку.</li>
   hJoin: Присоединяйтесь к сообществу
   pJoin: >
-    <p>Bisq постоянно ищет высококвалифицированных разработчиков, дизайнеров и специалистов в области безопасности и предлагает вам стать частью своего <a href="https://bisq.network/community/">сообщества</a>. Если вы хотите улучшить Bisq, существует много различных способов <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">внести вклад</a>.</p>
+    <p>Bisq постоянно ищет <a href="/blog/bisq-needs-senior-java-developers">высококвалифицированных разработчиков</a>, дизайнеров и специалистов в области безопасности и предлагает вам стать частью своего <a href="https://bisq.network/community/">сообщества</a>. Если вы хотите улучшить Bisq, существует много различных способов <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">внести вклад</a>.</p>
   liGithub: "@bisq-network на GitHub"
   liTwitter: "@bisq-network в Twitter"
   liYoutube: Канал Bisq на YouTube

@@ -37,7 +37,7 @@ defaults:
       en-only: false
 paginate: 10
 paginate_path: "/blog/page/:num/"
-client_version: "1.9.18"
+client_version: "1.9.19"
 bisq2_version: "2.1.6"
 sass:
   style: compressed

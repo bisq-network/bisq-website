@@ -110,9 +110,9 @@ Join the Matrix channel and share your chosen idea or project.
 Collaboration is encouraged—join a team or form one!
 
 ##### 3. Wrap-Up
-Share your progress in the channel by the end of Day 3.
+Share your progress in the channel by the end of the last day (April 13).
 Incomplete projects are welcome—what matters is contribution and momentum.
-You're free to continue post-hackathon—just give a quick status update so we can track feedback and next steps.
+You're free to continue post-hackathon—just give a quick status update so we can provide feedback and discuss next steps.
 
 ##### 4. Continue contributing to Bisq
 If your work gains traction, you’re welcome to keep building and submit follow-up compensation requests or DAO proposals.

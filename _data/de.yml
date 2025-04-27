@@ -19,6 +19,7 @@ footer:
   liBenefactors: Benefactors # see https://bisq.network/benefactors for context
   liContribute: Mitarbeiten
   liMarketData: Marktdaten API
+  liBlog: Blog
   joinBisq: Treten Sie der Community bei
 
 homepage_content:

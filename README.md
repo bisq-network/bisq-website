@@ -42,7 +42,7 @@ Consider breaking big initiatives into smaller chunks wherever possible, or make
 
 **Review feedback will be evaluated using these approaches.** If reviewers find significant errors, errors that indicate a clear lack of testing, or if they find changes that don't relate to the declared purpose of the pull request, your pull request may be rejected. Don't take it personally—just integrate feedback and try again.
 
-FYI: after you make a pull request, note that Netlify will automatically create a build of your proposed changes at `https://deploy-preview-XYZ--bisq-website.netlify.com` (where XYZ is the number of your pull request).
+FYI: after you make a pull request, note that Netlify will automatically create a build of your proposed changes at `https://deploy-preview-XYZ--bisq-website.netlify.app/` (where XYZ is the number of your pull request).
 
 ## Run Locally
 

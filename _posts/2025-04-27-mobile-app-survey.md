@@ -53,6 +53,21 @@ Before we ask a few questions, please review the two available modes of operatio
 
 This two-mode strategy allows us to serve both **advanced users** and **casual users**, maintaining a strong balance between **privacy**, **decentralization**, and **usability** across platforms.
 
+> _You Might Also Wonder..._
+>
+> ##### _Why isn't Bisq 1's MultiSig protocol supported on mobile?_
+>
+> _Bisq 1's MultiSig protocol requires high resource availability and continuous online presence for makers, making it unsuitable for mobile environments._
+> _Bisq 2 introduces MuSig, a more efficient and privacy-enhancing protocol. However, even with MuSig, running a full Bisq node on mobile devices remains unrealistic — only the Light Client mode will be viable for mobile users._
+>
+> ##### _Why is Full Node mode Android-only?_
+>
+> _Bisq's core codebase is written in Java, which runs natively on Android but not on iOS._
+> _Rewriting the full node in Swift for iOS would require significant development effort._
+> _Moreover, Apple's restrictive App Store policies and the technical challenges of reliably using Tor on iOS further increase the complexity and risk._
+> _As a result, Full Node support is limited to Android, where these obstacles do not exist._
+
+
 <a target="_blank" href="https://bisq.supersurvey.com/AS6XJ5LC"> <img src="/images/blog/start_survey_button.png" alt="Mobile Apps Survey" loading="lazy" width="650"> </a>
 
 

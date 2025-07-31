@@ -18,7 +18,7 @@ See further details on the [this wiki page](https://bisq.wiki/Growth_Team#Proces
 
 **NOTE ON TRANSLATIONS**
 
-All translations work, for the website and otherwise, takes place on [Transifex](https://www.transifex.com/bisq/). Please do not make pull requests for non-English text changes in this repository!
+All translations work, for the website and otherwise, takes place on [Transifex](https://explore.transifex.com/bisq/). Please do not make pull requests for non-English text changes in this repository!
 
 If you'd like to propose adding a new language to the website, please get in touch in the Growth channel [on Matrix](https://matrix.to/#/#bisq.growth:bitcoin.kyoto) or open an issue in this repository.
 

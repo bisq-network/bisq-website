@@ -41,6 +41,7 @@ homepage_content:
   runningDebian: Debian/Ubuntuを実行しているようです。
   runningRedHat: Red Hat/Fedoraを実行しているようです。
   currentVersion: 現在のバージョン
+  bisqEasyMobileText: Tor経由でピアツーピアかつプライバシーを守りながらビットコインを取得するのが、モバイルでBisq Easyならこれまでになく簡単です。
   hFeatures: 特徴
   hIdentityVerifications: 本人確認なし
   pIdentityVerifications: すぐにアクセスできます。登録や中央当局からの承認は不要です。
@@ -144,4 +145,9 @@ downloads:
   hMobileNotifications: Bisq1モバイル通知
   pMobileNotifications: トレードを最新の状態に保ち、携帯電話で通知を受け取りましょう。
   bisq1ScopeNote: マルチシグプロトコルのセキュリティを提供し、より大きな取引額を可能にするBisqのオリジナルバージョン。
-  bisq2ScopeNote: 現在、<a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a>プロトコルを提供しており、ビットコインを持っていないユーザーのオンボーディングを簡単にし、販売者のリーチを拡大しています。将来的には、マルチシグプロトコルのより良いバージョンを継承する予定です。詳細は<a href="/blog/bisq-2-now-in-beta/">発表ブログ投稿</a>をご覧ください。
+  bisq2ScopeNote: 現在、<a href="https://bisq.network/bisq-easy">Bisq Easy</a> プロトコルを提供しています。これは、新しいユーザーがビットコインを始めるための簡単な方法です。Bisq 2 向けの次世代マルチシグ取引プロトコルの開発が進行中です。
+  hBisqEasyMobile: Bisq Easy モバイル
+  pBisqEasyMobile: モバイルで、Tor を介してプライバシーを保ちながらピアツーピアでビットコインを入手するのがこれまでになく簡単になりました。
+  tdApkBisqEasyMobileVerificationText: 検証
+  tdApkBisqEasyMobileVerificationInstructions: 手順
+  tdApkBisqEasyMobileText: GitHub リリースページ

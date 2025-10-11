@@ -41,6 +41,7 @@ homepage_content:
   runningDebian: Parece que está usando Debian/Ubuntu
   runningRedHat: Parece que está usando Red Hat/Fedora
   currentVersion: Versión actual
+  bisqEasyMobileText: Nunca ha sido tan fácil obtener Bitcoin de manera peer-to-peer y preservando la privacidad a través de Tor — Bisq Easy en móvil.
   hFeatures: Características
   hIdentityVerifications: Sin verificación de identidad
   pIdentityVerifications: Accesible instantáneamente. No es necesario registrarse o una aprobación desde una autoridad central.
@@ -144,4 +145,9 @@ downloads:
   hMobileNotifications: Notificaciones móviles Bisq1
   pMobileNotifications: Manténgase al día en sus intercambios y reciba notificaciones en su celular.
   bisq1ScopeNote: La versión original de Bisq, que ofrece la seguridad del protocolo multisig y permite cantidades de comercio más grandes.
-  bisq2ScopeNote: Actualmente ofrece el protocolo <a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a> para facilitar la incorporación de usuarios sin bitcoin y ampliar el alcance de los vendedores. Un día heredará una versión mejorada del protocolo multisig. Aprende más en el <a href="/blog/bisq-2-now-in-beta/">post del blog de anuncio</a>.
+  bisq2ScopeNote: Actualmente se ofrece el protocolo <a href="https://bisq.network/bisq-easy">Bisq Easy</a>, una forma sencilla para que los nuevos usuarios comiencen con Bitcoin. El desarrollo del protocolo de comercio multisig de próxima generación para Bisq 2 está en curso.
+  hBisqEasyMobile: Bisq Easy Mobile
+  pBisqEasyMobile: Nunca ha sido tan fácil obtener Bitcoin de forma peer-to-peer y con privacidad a través de Tor, ahora en dispositivos móviles.
+  tdApkBisqEasyMobileVerificationText: Verificar
+  tdApkBisqEasyMobileVerificationInstructions: Instrucciones
+  tdApkBisqEasyMobileText: Página de lanzamiento en GitHub

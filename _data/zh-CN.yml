@@ -41,6 +41,7 @@ homepage_content:
   runningDebian: 你似乎在使用 Debian/Ubuntu
   runningRedHat: 你似乎在使用 Red Hat/Fedora
   currentVersion: 当前版本
+  bisqEasyMobileText: 通过 Tor 点对点且保护隐私地获取比特币从未如此简单 — 移动端的 Bisq Easy。
   hFeatures: 特性
   hIdentityVerifications: 没有身份验证
   pIdentityVerifications: 立即访问。无需中央主管机关登记或批准。
@@ -144,4 +145,10 @@ downloads:
   hMobileNotifications: Bisq1 通知应用程序
   pMobileNotifications: 保持最新的交易和接收通知在您的手机上。
   bisq1ScopeNote: Bisq 的原始版本，提供 multisig 协议的安全性，并允许更大的交易金额。
-  bisq2ScopeNote: 目前提供 <a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a> 协议，方便无比特币的用户进行注册，并扩展卖家的覆盖范围。未来将继承改进版的 multisig 协议。了解更多内容，请参阅 <a href="/blog/bisq-2-now-in-beta/">公告博客文章</a>。
+  bisq2ScopeNote: 目前提供 <a href="https://bisq.network/bisq-easy">Bisq Easy</a> 协议——让新用户轻松开始使用比特币。Bisq 2 的下一代多重签名交易协议正在开发中。
+  hBisqEasyMobile: Bisq Easy 移动版
+  pBisqEasyMobile: 通过 Tor 以点对点和隐私保护的方式获取比特币从未如此简单——现在在移动设备上即可实现。
+  tdApkBisqEasyMobileVerificationText: 验证
+  tdApkBisqEasyMobileVerificationInstructions: 指南
+  tdApkBisqEasyMobileText: GitHub 发布页面
+

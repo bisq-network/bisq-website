@@ -41,6 +41,7 @@ homepage_content:
   runningDebian: 你似乎在使用 Debian/Ubuntu
   runningRedHat: 你似乎在使用 Red Hat/Fedora
   currentVersion: 当前版本
+  bisqEasyMobileText: 通过 Tor 点对点且保护隐私地获取比特币从未如此简单 — 移动端的 Bisq Easy。
   hFeatures: 特性
   hIdentityVerifications: 没有身份验证
   pIdentityVerifications: 立即访问。无需中央主管机关登记或批准。

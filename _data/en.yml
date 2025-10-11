@@ -41,6 +41,7 @@ homepage_content:
   runningDebian: You appear to be using Debian/Ubuntu
   runningRedHat: You appear to be using Red Hat/Fedora
   currentVersion: Current Version
+  bisqEasyMobileText: It’s never been easier to get Bitcoin peer-to-peer and privacy-preserving over Tor.
   hFeatures: Features
   hIdentityVerifications: No Identity Verification
   pIdentityVerifications: Get started in minutes. No need to wait for approval from a central authority.

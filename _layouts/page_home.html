@@ -6,161 +6,196 @@ layout: default
 
 {% assign item = site.data[page.lang].homepage_content %}
 <div class="container fadeIn">
-        <main class="bd-masthead" id="content" role="main">
-            <div class="row align-items-center">
-              <div class="col-md-12 order-md-1 text-md-left px-3 px-md-5">
-                <h1 class="intro display-1" style="margin-left: -.3rem;">{{ item.title }}</h1>
+  <main class="bd-masthead" id="content" role="main">
+    <div class="row align-items-center">
+      <div class="col-md-12 order-md-1 text-md-left px-3 px-md-5">
+        <h1 class="intro display-1" style="margin-left: -.3rem;">{{ item.title }}</h1>
 
-                <div class="row-block pl-0 pt-4 pt-md-5 pr-0 pr-lg-5">
+        <div class="row-block pl-0 pt-4 pt-md-5 pr-0 pr-lg-5">
 
-                    <p class="lead col-md-8 col-sm-12 pl-0 pb-5">
-                      {{ item.intro }}
-                    </p>
+          <p class="lead col-md-8 col-sm-12 pl-0 pb-5">
+            {{ item.intro }}
+          </p>
 
-                    <div class="d-flex flex-column flex-md-row lead mb-1">
+          <div class="d-flex flex-column flex-md-row lead mb-1">
 
-                      <div class="downloads-desktop btn-group os-selector-home col-sm-12 col-md-12 col-lg-5 px-0 hero-btn">
+            <div class="downloads-desktop btn-group os-selector-home col-sm-12 col-md-12 col-lg-5 px-0 hero-btn">
 
-                          <!-- This what displays on the dropdown in collapsed state -->
-                          <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button" data-bisq-version="{{ site.client_version }}" data-site-url="">
-                              <div class="id-win64 hidden">
-                                <a class="dl-win64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">
-                                  <div class="float-left">
-                                      <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Windows" loading="lazy">
-                                      <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Windows" loading="lazy">
-                                      {{ item.buttonWindows }}
-                                  </div>
-                                  <div class="float-right">
-                                      .exe <img class="btn-icon-img" src="/images/arrow-down-w.svg" />
-                                  </div>
-                                </a>
-                              </div>
-
-                              <div class="id-mac hidden">
-                                <a class="dl-mac" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">
-                                  <div class="float-left">
-                                      <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g" alt="Download Bisq for macOS" loading="lazy">
-                                      <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w" alt="Download Bisq for macOS" loading="lazy">
-                                      {{ item.buttonMac }}
-                                  </div>
-                                  <div class="float-right">
-                                      .dmg <img class="btn-icon-img" src="/images/arrow-down-w.svg" />
-                                  </div>
-                                </a>
-                              </div>
-
-                              <div class="id-deb64 hidden">
-                                <a class="dl-deb64" href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">
-                                  <div class="float-left">
-                                      <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Ubuntu/Debian" loading="lazy">
-                                      <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Ubuntu/Debian" loading="lazy">
-                                      {{ item.buttonDebian }}
-                                  </div>
-                                  <div class="float-right">
-                                      .deb <img class="btn-icon-img" src="/images/arrow-down-w.svg" />
-                                  </div>
-                                </a>
-                              </div>
-
-                              <div class="id-rpm64 hidden">
-                                <a class="dl-rpm64" href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">
-                                  <div class="float-left">
-                                      <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Red Hat/Fedora" loading="lazy">
-                                      <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Red Hat/Fedora" loading="lazy">
-                                      {{ item.buttonRedHat }}
-                                  </div>
-                                  <div class="float-right">
-                                      .rpm <img class="btn-icon-img" src="/images/arrow-down-w.svg" />
-                                  </div>
-                                </a>
-                              </div>
-
-                              <div class="id-all hidden">
-                                <a href="{% lingual_link downloads %}">
-                                  <div class="float-left">
-                                      <img src="/images/icon-download-g.svg" class="os-icon os-icon-g" alt="Download Bisq" loading="lazy">
-                                      <img src="/images/icon-download-w.svg" class="os-icon os-icon-w" alt="Download Bisq" loading="lazy">
-                                      {{ item.buttonDownloads }}
-                                  </div>
-                                  <div class="float-right">
-                                      {{ item.buttonGetBisq }} <img class="btn-icon-img" src="/images/arrow-down-w.svg" />
-                                  </div>
-                                </a>
-                              </div>
-                          </button>
-
-
-<!-- Need to repeat the function because the if/else function seems to nullify it -->
-{% assign item = site.data[page.lang].homepage_content %}
-                      </div>
-
-
-                      <a href="{% lingual_link downloads %}" class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                          {{ item.downloads }}
-                          <img class="btn-icon-img" src="/images/icon-download-b.svg" alt="Download Bisq">
-                      </a>
-
-                      <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank" rel="noopener" class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
-                          {{ item.androidNotificationsApp }} <img src="/images/icon-android-b.svg" class="btn-icon-img" alt="Download Bisq Notification App for Android" loading="lazy">
-                      </a>
-
-
-                      <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank" rel="noopener" class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn" onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
-                          {{ item.iosNotificationApp }} <img src="/images/icon-apple-b.svg" class="btn-icon-img" alt="Download Bisq Notification App for iOS" loading="lazy">
-                      </a>
-
-                      <a href="/getting-started" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn">
-                          {{ item.getStarted }} <img class="btn-icon-img" src="/images/arrow-right-w.svg" />
-                      </a>
-
-
-
-                      {% comment %}
-                      <a id="play-video" href="/" class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
-                                <img src="/images/icon-play-g.svg" class="os-icon os-icon-g" alt="Play Bisq video" loading="lazy">
-                                <img src="/images/icon-play-w.svg" class="os-icon os-icon-w" alt="Play Bisq video" loading="lazy">
-                                Play Video
-                      </a>
-                      <div id="video-overlay" style="display:none">
-                        <div class="embed-responsive">
-                          <iframe id="video" width="420" height="315" src="//www.youtube.com/embed/9B7te184ZpQ?rel=0" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                      </div>
-                      {% endcomment %}
-
+              <!-- This what displays on the dropdown in collapsed state -->
+              <button class="btn btn-outline-secondary btn-lg selected-os-download btn-icon shadow-btn" type="button"
+                      data-bisq-version="{{ site.client_version }}" data-site-url="">
+                <div class="id-win64 hidden">
+                  <a class="dl-win64"
+                     href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.exe">
+                    <div class="float-left">
+                      <img src="/images/icon-windows-g.svg" class="os-icon os-icon-g" alt="Download Bisq for Windows"
+                           loading="lazy">
+                      <img src="/images/icon-windows-w.svg" class="os-icon os-icon-w" alt="Download Bisq for Windows"
+                           loading="lazy">
+                      {{ item.buttonWindows }}
                     </div>
-
-
-                    <p class="mb-0 mt-1 small" style="opacity: 0.7">
-                      <a href="{% lingual_link downloads %}">
-                        {{ site.data[page.lang].os_selector_options.liAllDownloads }}
-                      </a>
-                      <span class="seperator-version"> | </span>
-                      v{{ site.client_version }}
-                      <span class="seperator-version"> | </span>
-                      <span class="id-win64 hidden">{{ item.runningWindows }}</span>
-                      <span class="id-mac hidden">{{ item.runningMac }}</span>
-                      <span class="id-deb64 hidden">{{ item.runningDebian }}</span>
-                      <span class="id-rpm64 hidden">{{ item.runningRedHat }}</span>
-                      <span class="id-all hidden">{{ item.currentVersion }}</span> <!-- fallback text if no desktop os recognized -->
-                    </p>
-
-
-
+                    <div class="float-right">
+                      .exe <img class="btn-icon-img" src="/images/arrow-down-w.svg"/>
+                    </div>
+                  </a>
                 </div>
 
+                <div class="id-mac hidden">
+                  <a class="dl-mac"
+                     href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">
+                    <div class="float-left">
+                      <img src="/images/icon-apple-g.svg" class="os-icon os-icon-g" alt="Download Bisq for macOS"
+                           loading="lazy">
+                      <img src="/images/icon-apple-w.svg" class="os-icon os-icon-w" alt="Download Bisq for macOS"
+                           loading="lazy">
+                      {{ item.buttonMac }}
+                    </div>
+                    <div class="float-right">
+                      .dmg <img class="btn-icon-img" src="/images/arrow-down-w.svg"/>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="id-deb64 hidden">
+                  <a class="dl-deb64"
+                     href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.deb">
+                    <div class="float-left">
+                      <img src="/images/icon-ubuntu-g.svg" class="os-icon os-icon-g"
+                           alt="Download Bisq for Ubuntu/Debian" loading="lazy">
+                      <img src="/images/icon-ubuntu-w.svg" class="os-icon os-icon-w"
+                           alt="Download Bisq for Ubuntu/Debian" loading="lazy">
+                      {{ item.buttonDebian }}
+                    </div>
+                    <div class="float-right">
+                      .deb <img class="btn-icon-img" src="/images/arrow-down-w.svg"/>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="id-rpm64 hidden">
+                  <a class="dl-rpm64"
+                     href="https://github.com/bisq-network/bisq/releases/download/v{{ site.client_version }}/Bisq-64bit-{{ site.client_version }}.rpm">
+                    <div class="float-left">
+                      <img src="/images/icon-fedora-g.svg" class="os-icon os-icon-g"
+                           alt="Download Bisq for Red Hat/Fedora" loading="lazy">
+                      <img src="/images/icon-fedora-w.svg" class="os-icon os-icon-w"
+                           alt="Download Bisq for Red Hat/Fedora" loading="lazy">
+                      {{ item.buttonRedHat }}
+                    </div>
+                    <div class="float-right">
+                      .rpm <img class="btn-icon-img" src="/images/arrow-down-w.svg"/>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="id-all hidden">
+                  <a href="{% lingual_link downloads %}">
+                    <div class="float-left">
+                      <img src="/images/icon-download-g.svg" class="os-icon os-icon-g" alt="Download Bisq"
+                           loading="lazy">
+                      <img src="/images/icon-download-w.svg" class="os-icon os-icon-w" alt="Download Bisq"
+                           loading="lazy">
+                      {{ item.buttonDownloads }}
+                    </div>
+                    <div class="float-right">
+                      {{ item.buttonGetBisq }} <img class="btn-icon-img" src="/images/arrow-down-w.svg"/>
+                    </div>
+                  </a>
+                </div>
+              </button>
 
 
-              </div>
-              <div class="col-md-12 order-md-1 text-md-left homepage-hero">
-                <img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" style="width: 100%; display: block;" src="/images/screens/bisq_hero_light.png" loading="lazy">
-              </div>
+              <!-- Need to repeat the function because the if/else function seems to nullify it -->
+              {% assign item = site.data[page.lang].homepage_content %}
             </div>
 
 
+            <a href="{% lingual_link downloads %}"
+               class="downloads-mobile btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
+              {{ item.downloads }}
+              <img class="btn-icon-img" src="/images/icon-download-b.svg" alt="Download Bisq">
+            </a>
 
-          </main>
+            <a href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq" target="_blank"
+               rel="noopener"
+               class="downloads-android hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn"
+               onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'android-notifications');">
+              {{ item.androidNotificationsApp }} <img src="/images/icon-android-b.svg" class="btn-icon-img"
+                                                      alt="Download Bisq Notification App for Android" loading="lazy">
+            </a>
 
+
+            <a href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411" target="_blank" rel="noopener"
+               class="downloads-ios hidden btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn"
+               onclick="ga('send', 'event', 'Jumbotron actions', 'download', 'ios-notifications');">
+              {{ item.iosNotificationApp }} <img src="/images/icon-apple-b.svg" class="btn-icon-img"
+                                                 alt="Download Bisq Notification App for iOS" loading="lazy">
+            </a>
+
+            <a href="/getting-started"
+               class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn">
+              {{ item.getStarted }} <img class="btn-icon-img" src="/images/arrow-right-w.svg"/>
+            </a>
+
+
+            {% comment %}
+            <a id="play-video" href="/"
+               class="btn btn-lg btn-outline-secondary btn-icon hero-btn col-sm-12 col-md-12 col-lg-3 px-0 shadow-btn ">
+              <img src="/images/icon-play-g.svg" class="os-icon os-icon-g" alt="Play Bisq video" loading="lazy">
+              <img src="/images/icon-play-w.svg" class="os-icon os-icon-w" alt="Play Bisq video" loading="lazy">
+              Play Video
+            </a>
+            <div id="video-overlay" style="display:none">
+              <div class="embed-responsive">
+                <iframe id="video" width="420" height="315" src="//www.youtube.com/embed/9B7te184ZpQ?rel=0"
+                        frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            {% endcomment %}
+
+          </div>
+
+
+          <p class="mb-0 mt-1 small" style="opacity: 0.7">
+            <a href="{% lingual_link downloads %}">
+              {{ site.data[page.lang].os_selector_options.liAllDownloads }}
+            </a>
+            <span class="seperator-version"> | </span>
+            v{{ site.client_version }}
+            <span class="seperator-version"> | </span>
+            <span class="id-win64 hidden">{{ item.runningWindows }}</span>
+            <span class="id-mac hidden">{{ item.runningMac }}</span>
+            <span class="id-deb64 hidden">{{ item.runningDebian }}</span>
+            <span class="id-rpm64 hidden">{{ item.runningRedHat }}</span>
+            <span class="id-all hidden">{{ item.currentVersion }}</span>
+            <!-- fallback text if no desktop os recognized -->
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-12 order-md-1 text-md-left homepage-hero mb-5">
+        <img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" style="width: 100%; display: block;"
+             src="/images/screens/bisq_hero_light.png" loading="lazy">
+      </div>
+
+      <div class="col-md-12 order-md-1 text-md-left px-3 px-md-5 mt-5">
+
+        <h2>Bisq Easy Mobile</h2>
+        <p class="lead col-md-8 col-sm-12 pl-0 pb-5">
+          {{ item.bisqEasyMobileText }}
+        </p>
+      </div>
+
+      <div class="col-md-12 order-md-1 text-md-left">
+        <a target="_blank" rel="noopener" class="app-link"
+           href="https://play.google.com/store/apps/details?id=network.bisq.mobile.node">
+          <img alt="Bisq Easy Mobile" style="width: 100%; display: block;"
+               src="/images/screens/bisq_easy_mobile.png" loading="lazy">
+        </a>
+      </div>
+
+    </div>
+  </main>
 </div>
 
 
@@ -172,37 +207,43 @@ layout: default
       <h2>{{ item.hFeatures }}</h2>
       <div class="row align-items-center text-md-center text-left">
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-no-reg.svg" alt="No Identity Verification" loading="lazy" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-no-reg.svg"
+               alt="No Identity Verification" loading="lazy"/>
           <h4>{{ item.hIdentityVerifications }}</h4>
           <p class="grey px-md-5">{{ item.pIdentityVerifications }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="/images/pic-decentralized.svg" alt="Decentralized" loading="lazy" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pr-md-3" src="/images/pic-decentralized.svg"
+               alt="Decentralized" loading="lazy"/>
           <h4>{{ item.hDecentralized }}</h4>
           <p class="grey px-md-5">{{ item.pDecentralized }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="/images/pic-padlock.svg" alt="Safe" loading="lazy" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto pl-md-4" src="/images/pic-padlock.svg" alt="Safe"
+               loading="lazy"/>
           <h4>{{ item.hSafe }}</h4>
           <p class="grey px-md-5">{{ item.pSafe }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-private.svg" alt="Private" loading="lazy" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-private.svg" alt="Private"
+               loading="lazy"/>
           <h4>{{ item.hPrivate }}</h4>
           <p class="grey px-md-5">{{ item.pPrivate }}</p>
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-open.svg" alt="Open Source" loading="lazy" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-open.svg" alt="Open Source"
+               loading="lazy"/>
           <h4>{{ item.hOpen }}</h4>
           {{ item.pOpen }}
         </div>
         <div class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-easy.svg" alt="Easy" loading="lazy" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/pic-easy.svg" alt="Easy" loading="lazy"/>
           <h4>{{ item.hEasy }}</h4>
           {{ item.pEasy }}
         </div>
         <div id="dao-callout" class="col-12 col-md-6 pr-5">
-          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/dao_homepage.svg" alt="Bisq DAO (Decentralized Autonomous Organization)" loading="lazy" />
+          <img class="features-pic mb-4 mt-2 mt-md-5 mx-md-auto" src="/images/dao_homepage.svg"
+               alt="Bisq DAO (Decentralized Autonomous Organization)" loading="lazy"/>
           <h4>{{ item.hBisqDao }}</h4>
           <p>{{ item.pBisqDao1 }} <a href="/dao">{{ item.pBisqDao2 }}</a>.</p>
         </div>
@@ -212,17 +253,6 @@ layout: default
 
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 <div class="row-block justify-content-between container">
@@ -236,15 +266,29 @@ layout: default
         {{ item.divGetStarted }}
       </div>
       <ol>
-        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a href="{% lingual_link downloads %}">{{ item.liGetStarted1 }}</a>{{ item.liGetStarted2 }}</li>
+        <li class="mt-4 mb-4 pb-4 border-bottom step step-text-1" data-image="step-image-1"><a
+          href="{% lingual_link downloads %}">{{ item.liGetStarted1 }}</a>{{ item.liGetStarted2 }}
+        </li>
         {{ item.liGetStarted3 }}
       </ol>
     </div>
     <div class="col-12 col-md-7 offset-0 offset-md-1">
-      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" src="/images/screens/step1_light.png" loading="lazy"></div>
-      <div class="getting-started-img step-image step-image-2 d-none" ><img class="img-fluid shadow-lg" alt="Open Trades view inside Bisq" src="/images/screens/step2_light.png" loading="lazy"></div>
-      <div class="getting-started-img step-image step-image-3 d-none" ><img class="img-fluid shadow-lg" alt="Offer Book view inside Bisq" src="/images/screens/step3_light.png" loading="lazy"></div>
-      <div class="getting-started-img step-image step-image-4 d-none" ><img class="img-fluid shadow-lg" alt="Open Trades view inside Bisq" src="/images/screens/step4_light.png" loading="lazy"></div>
+      <div class="getting-started-img step-image step-image-1 d-block"><img class="img-fluid shadow-lg"
+                                                                            alt="Offer Book view inside Bisq"
+                                                                            src="/images/screens/step1_light.png"
+                                                                            loading="lazy"></div>
+      <div class="getting-started-img step-image step-image-2 d-none"><img class="img-fluid shadow-lg"
+                                                                           alt="Open Trades view inside Bisq"
+                                                                           src="/images/screens/step2_light.png"
+                                                                           loading="lazy"></div>
+      <div class="getting-started-img step-image step-image-3 d-none"><img class="img-fluid shadow-lg"
+                                                                           alt="Offer Book view inside Bisq"
+                                                                           src="/images/screens/step3_light.png"
+                                                                           loading="lazy"></div>
+      <div class="getting-started-img step-image step-image-4 d-none"><img class="img-fluid shadow-lg"
+                                                                           alt="Open Trades view inside Bisq"
+                                                                           src="/images/screens/step4_light.png"
+                                                                           loading="lazy"></div>
 
     </div>
   </div>
@@ -264,12 +308,18 @@ layout: default
 
       <div class="col-12 col-md-6">
         <ul class="community-links grey community-home pl-0 pl-md-4 pt-4 pl-md-0 pt-md-0">
-          <li><img src="/images/community/github.svg" alt="GitHub repository" loading="lazy"> <a href="https://github.com/bisq-network">GitHub</a></li>
-          <li><img src="/images/community/x.svg" alt="X profile" loading="lazy"> <a href="https://x.com/bisq_network">X</a></li>
-          <li><img src="/images/community/forum.svg" alt="Forum" loading="lazy"> <a href="https://bisq.community">{{ item.liForum }}</a></li>
-          <li><img src="/images/community/reddit.svg" alt="Bisq subreddit" loading="lazy"> <a href="https://www.reddit.com/r/bisq">Reddit</a></li>
-          <li><img src="/images/community/matrix.svg" alt="matrix" loading="lazy"> <a href="https://bisq.chat">Matrix</a></li>
-          <li><img src="/images/community/telegram.svg" alt="telegram" loading="lazy"> <a href="{% local_social_link telegram %}">Telegram</a></li>
+          <li><img src="/images/community/github.svg" alt="GitHub repository" loading="lazy"> <a
+            href="https://github.com/bisq-network">GitHub</a></li>
+          <li><img src="/images/community/x.svg" alt="X profile" loading="lazy"> <a
+            href="https://x.com/bisq_network">X</a></li>
+          <li><img src="/images/community/forum.svg" alt="Forum" loading="lazy"> <a href="https://bisq.community">{{
+            item.liForum }}</a></li>
+          <li><img src="/images/community/reddit.svg" alt="Bisq subreddit" loading="lazy"> <a
+            href="https://www.reddit.com/r/bisq">Reddit</a></li>
+          <li><img src="/images/community/matrix.svg" alt="matrix" loading="lazy"> <a
+            href="https://bisq.chat">Matrix</a></li>
+          <li><img src="/images/community/telegram.svg" alt="telegram" loading="lazy"> <a
+            href="{% local_social_link telegram %}">Telegram</a></li>
         </ul>
       </div>
 
@@ -280,16 +330,16 @@ layout: default
 
 {% comment %}
 <!-- future stats section -->
-  <div class="row-block container">
+<div class="row-block container">
 
-    <div class="row">
+  <div class="row">
 
-      <div class="col-12 col-md-6 grey text-sans">
-        <h1 id="join-the-community" class="oversized">300%</h1>
-        <p>Data caption</p>
-      </div>
-
+    <div class="col-12 col-md-6 grey text-sans">
+      <h1 id="join-the-community" class="oversized">300%</h1>
+      <p>Data caption</p>
     </div>
 
   </div>
+
+</div>
 {% endcomment %}

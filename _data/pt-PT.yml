@@ -41,6 +41,7 @@ homepage_content:
   runningDebian: Você parece estar a utilizar Debian/Ubuntu
   runningRedHat: Você parece estar a utilizar Red Hat/Fedora
   currentVersion: Versão atual
+  bisqEasyMobileText: Nunca foi tão fácil obter Bitcoin peer-to-peer e preservando a privacidade via Tor — Bisq Easy no telemóvel.
   hFeatures: Características
   hIdentityVerifications: Nenhuma verificação de identidade
   pIdentityVerifications: Instantaneamente acessível. Não há necessidade de registro ou aprovação de uma autoridade central.

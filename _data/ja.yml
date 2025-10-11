@@ -41,6 +41,7 @@ homepage_content:
   runningDebian: Debian/Ubuntuを実行しているようです。
   runningRedHat: Red Hat/Fedoraを実行しているようです。
   currentVersion: 現在のバージョン
+  bisqEasyMobileText: Tor経由でピアツーピアかつプライバシーを守りながらビットコインを取得するのが、モバイルでBisq Easyならこれまでになく簡単です。
   hFeatures: 特徴
   hIdentityVerifications: 本人確認なし
   pIdentityVerifications: すぐにアクセスできます。登録や中央当局からの承認は不要です。

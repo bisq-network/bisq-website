@@ -144,4 +144,10 @@ downloads:
   hMobileNotifications: Notifications Bisq1 sur téléphone portable
   pMobileNotifications: Restez au fait de l'évolution de vos transactions et recevez des notifications sur votre téléphone portable.
   bisq1ScopeNote: La version originale de Bisq, offrant la sécurité du protocole multisig et permettant des montants de transaction plus importants.
-  bisq2ScopeNote: Propose actuellement le protocole <a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a> pour intégrer facilement les utilisateurs sans bitcoin et étendre la portée des vendeurs. Un jour, elle héritera d'une version améliorée du protocole multisig. En savoir plus dans le <a href="/blog/bisq-2-now-in-beta/">post du blog d'annonce</a>.
+  bisq2ScopeNote: Le protocole <a href="https://bisq.network/bisq-easy">Bisq Easy</a> est actuellement proposé — une manière simple pour les nouveaux utilisateurs de commencer avec Bitcoin. Le développement du protocole d’échange multisignature de nouvelle génération pour Bisq 2 est en cours.
+  hBisqEasyMobile: Bisq Easy Mobile
+  pBisqEasyMobile: Il n’a jamais été aussi facile d’obtenir du Bitcoin en pair à pair et de manière confidentielle via Tor — désormais sur mobile.
+  tdApkBisqEasyMobileVerificationText: Vérifier
+  tdApkBisqEasyMobileVerificationInstructions: Instructions
+  tdApkBisqEasyMobileText: Page de publication GitHub
+

@@ -11,7 +11,7 @@ main_nav:
   markets: Markets # main nav link: please be as short as possible
 
 footer:
-  notificationApp: Bisq mobile notification App
+  notificationApp: Bisq Easy Mobile
   siteYear: © 2024 Bisq
   ulResources: Resources
   liDownloads: Downloads
@@ -140,7 +140,13 @@ downloads:
   hMobileNotifications: Bisq1 Mobile Notifications
   pMobileNotifications: Stay up-to-date on your trades and receive notifications on your mobile phone.
   bisq1ScopeNote: The original version of Bisq, featuring the security of the multisig protocol and allowing larger trade amounts.
-  bisq2ScopeNote: Currently offering the <a href="https://bisq.wiki/Bisq_Easy">Bisq Easy</a> protocol to easily onboard users with no bitcoin, and extend the reach of sellers, will one day inherit a better version of the multisig protocol. Learn more in the <a href="/blog/bisq-2-now-in-beta/">announcement blog post</a>.
+  bisq2ScopeNote: Currently offering the <a href="https://bisq.network/bisq-easy">Bisq Easy</a> protocol — a simple way for new users to get started with Bitcoin. Development of the next-generation, multisig-based trade protocol for Bisq 2 is underway.
+  hBisqEasyMobile: Bisq Easy Mobile
+  pBisqEasyMobile: It’s never been easier to get Bitcoin peer-to-peer and privacy-preserving over Tor — now on mobile.
+  tdApkBisqEasyMobileVerificationText: Verify
+  tdApkBisqEasyMobileVerificationInstructions: Instructions
+  tdApkBisqEasyMobileText: GitHub release page
+
 
 getting_started:
   pageTitle: Getting Started

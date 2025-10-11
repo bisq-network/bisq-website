@@ -74,7 +74,18 @@ layout: page
 
   <br>
 
+
   {{ item.pSeeInstructions }}
+
+  <div class="mt-5">
+    <h2>{{ item.hMobileNotifications }}</h2>
+    <p>{{ item.pMobileNotifications }}</p>
+
+    <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img mb-2" alt="Get it on Google Play" src="/images/badge_google_play.svg" loading="lazy"/></a>
+    &nbsp;
+    <a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img mb-2" alt="Get it on the App Store" src="/images/badge_app_store.svg" loading="lazy"/></a>
+  </div>
+
 
   <div id="bisq2">&nbsp;</div>
   <h2>Bisq2 Downloads</h2>
@@ -144,13 +155,34 @@ layout: page
   <br>
 </div>
 
-
-
 <div class="mt-5">
-  <h2>{{ item.hMobileNotifications }}</h2>
-   <p>{{ item.pMobileNotifications }}</p>
+  <h2>{{ item.hBisqEasyMobile }}</h2>
+  <p>{{ item.pBisqEasyMobile }}</p>
 
-        <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=com.joachimneumann.bisq"><img class="badge-img mb-2" alt="Get it on Google Play" src="/images/badge_google_play.svg" loading="lazy"/></a>
-      &nbsp;
-        <a target="_blank" rel="noopener" href="https://itunes.apple.com/us/app/bisq-mobile/id1424420411"><img class="badge-img mb-2" alt="Get it on the App Store" src="/images/badge_app_store.svg" loading="lazy"/></a>
+  <table class="all-downloads mt-5">
+    <tr class="border-bottom">
+      <td>Android</td>
+      <td>
+        <a href="https://github.com/bisq-network/bisq-mobile/releases/download/anode_{{ site.bisqEasyMobile_version }}/Bisq_Easy-{{ site.bisqEasyMobile_version }}.apk">.apk</a> |
+        <a href="https://github.com/bisq-network/bisq-mobile/releases/download/anode_{{ site.bisqEasyMobile_version }}/release-cert.pem">{{ item.tdApkBisqEasyMobileVerificationText }}</a> |
+        <a href="https://github.com/bisq-network/bisq-mobile/wiki/How-to-verify-our-Releases">{{ item.tdApkBisqEasyMobileVerificationInstructions }}</a>
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td>{{ item.tdSourceCode }}</td>
+      <td>
+        <a href="https://github.com/bisq-network/bisq-mobile/archive/refs/tags/anode_{{ site.bisqEasyMobile_version }}.zip">zip</a> |
+        <a href="https://github.com/bisq-network/bisq-mobile/archive/refs/tags/anode_{{ site.bisqEasyMobile_version }}.tar.gz">tar.gz</a> |
+      </td>
+    </tr>
+    <tr class="border-bottom">
+      <td>{{ item.tdReleaseNotes }}</td>
+      <td>
+        <a href="https://github.com/bisq-network/bisq-mobile/releases/anode_{{ site.bisqEasyMobile_version }}">{{ item.tdReleaseNotesText }} v{{ site.bisqEasyMobile_version }}</a>
+      </td>
+    </tr>
+  </table>
+
+  <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=network.bisq.mobile.node"><img class="badge-img mb-2" alt="Get it on Google Play" src="/images/badge_google_play.svg" loading="lazy"/></a>
+
 </div>

@@ -186,3 +186,34 @@ layout: page
   <a target="_blank" rel="noopener" href="https://play.google.com/store/apps/details?id=network.bisq.mobile.node"><img class="badge-img mb-2" alt="Get it on Google Play" src="/images/badge_google_play.svg" loading="lazy"/></a>
 
 </div>
+
+<script>
+  (async () => {
+    const api = 'https://api.github.com/repos/bisq-network/bisq-mobile/releases/latest';
+    try {
+      const res = await fetch(api, {
+        headers: { 'Accept': 'application/vnd.github.v3+json' }
+      });
+      if (!res.ok) throw new Error('GitHub API error ' + res.status);
+      const data = await res.json();
+
+      // extract and sanitize tag (e.g. "anode_v0.1.2")
+      const tag = (data.tag_name || '').trim().replace(/[^a-zA-Z0-9._-]/g, '');
+      const version = tag.replace(/^anode[_-]?/i, '');
+
+      // Update all download links containing the Jekyll placeholder
+      document.querySelectorAll('a[href*="{{ site.bisqEasyMobile_version }}"]').forEach(a => {
+        a.href = a.href.replaceAll('{{ site.bisqEasyMobile_version }}', version);
+      });
+
+      // Update any visible text using data-version (optional)
+      document.querySelectorAll('[data-version]').forEach(el => {
+        el.textContent = version;
+      });
+
+      console.log(`Bisq Easy Mobile version updated to ${version}`);
+    } catch (err) {
+      console.error('Failed to fetch latest Bisq Mobile release:', err);
+    }
+  })();
+</script>

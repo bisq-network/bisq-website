@@ -11,7 +11,8 @@ main_nav:
   markets: Markets # main nav link: please be as short as possible
 
 footer:
-  notificationApp: Bisq Easy Mobile
+  bisqEasyMobile: Bisq Easy Mobile
+  bisqConnect: Bisq Connect
   siteYear: © 2024 Bisq
   ulResources: Resources
   liDownloads: Downloads
@@ -148,6 +149,8 @@ downloads:
   tdApkBisqEasyMobileVerificationInstructions: Instructions
   tdApkBisqEasyMobileText: GitHub release page
 
+  hBisqConnectMobile: Bisq Connect
+  pBisqConnectMobile: Connect your mobile app to your own Bisq node or one hosted by a trusted friend or family member.
 
 getting_started:
   pageTitle: Getting Started

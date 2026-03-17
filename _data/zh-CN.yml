@@ -11,7 +11,7 @@ main_nav:
   markets: 市场 # main nav link: please be as short as possible
 
 footer:
-  notificationApp: Bisq 通知应用程序
+  bisqEasyMobile: Bisq 通知应用程序
   siteYear: © 2024 Bisq
   ulResources: 资料
   liDownloads: 下载

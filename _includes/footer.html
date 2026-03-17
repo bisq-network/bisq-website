@@ -1,83 +1,102 @@
 <footer class="page-footer font-small blue pt-2 pt-md-5 dark-grey">
   {% assign item = site.data[page.lang].footer %}
 
-      <div class="container-fluid text-md-left px-0">
+  <div class="container-fluid text-md-left px-0">
 
-        <div class="row mx-0 pb-md-5 pb-sm-5">
+    <div class="row mx-0 pb-md-5 pb-sm-5">
 
-          <div class="col-12 col-lg-4 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-sm-4 px-4">
-            <h5 class="text-uppercase small grey">{{ item.notificationApp }}</h5>
-            <a target="_blank" rel="noopener" class="app-link" href="https://play.google.com/store/apps/details?id=network.bisq.mobile.node"><img class="badge-img" alt="Get it on Google Play" src="/images/badge_google_play.svg" loading="lazy"/></a>
-
-            <div class="text-left small grey pt-4">
-              {{ item.siteYear }}
-            </div>
-
-
-
-
-
-
+      <div class="col-12 col-lg-6 mt-md-0 mt-3 pl-md-5 pl-sm-3 small px-sm-4 px-4">
+        <div class="footer-apps d-flex flex-column flex-sm-row">
+          <div class="footer-app-col footer-app-col--easy pr-sm-4">
+            <h5 class="text-uppercase small grey">{{ item.bisqEasyMobile }}</h5>
+            <a target="_blank" rel="noopener" class="app-link"
+               href="https://play.google.com/store/apps/details?id=network.bisq.mobile.node">
+              <img class="badge-img" alt="Get it on Google Play" src="/images/badge_google_play.svg" loading="lazy"/>
+            </a>
           </div>
-
-          <hr class="clearfix w-100 d-lg-none pb-3">
-
-          <div class="col-12 col-lg-5 mb-md-0 mb-3 pr-md-5 pr-sm-2 small px-4 px-md-5">
-            <h5 class="text-uppercase small grey">{{ item.ulResources }}</h5>
-            <ul class="list-unstyled">
-              <!--<li>
-                <a href="/press">Press</a>
-              </li>-->
-              <div class="virtual-column">
-                <li>
-                  <a href="/blog">{{ item.liBlog }}</a>
-                </li>
-              </div>
-             <!-- <div class="virtual-column">
-                &lt;!&ndash;<li>
-                  <a href="https://github.com/orgs/bisq-network/projects/3" target="_blank">{{ item.liRoadmap }}</a>
-                </li>&ndash;&gt;
-                <li>
-                  <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">{{ item.liContribute }}</a>
-                </li>
-              </div>-->
-              <div class="virtual-column">
-                <li>
-                  <a href="https://markets.bisq.services/docs/api/rest" target="_blank" rel="noopener">{{ item.liMarketData }}</a>
-                </li>
-              </div>
-              <div class="virtual-column">
-                <li>
-                  <a href="/benefactors">{{ item.liBenefactors }}</a>
-                </li>
-              </div>
-              <!--
-              lets activate it once we have a dynamic content
-              <li>
-                 <a href="/stats">Stats</a>
-               </li>-->
-            </ul>
-          </div>
-
-          <hr class="clearfix w-100 d-lg-none pb-3">
-
-          <div class="col-12 col-lg-3 mb-md-0 mb-3 small px-4 px-md-5 pb-1 pb-5">
-
-            <h5 class="text-uppercase small grey">{{ item.joinBisq }}</h5>
-
-            <span id="community-footer">
-              <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/bisq-network"> <img src="/images/community/github_w.svg" alt="github" loading="lazy"> </a>
-              <a target="_blank" rel="noopener" title="X" href="https://x.com/bisq_network"> <img src="/images/community/x_w.svg" alt="X" loading="lazy"> </a>
-              <a target="_blank" rel="noopener" title="Bisq Forum" href="https://bisq.community"><img src="/images/community/forum_w.svg" alt="forum" loading="lazy"> </a>
-              <a target="_blank" rel="noopener" title="Reddit" href="https://www.reddit.com/r/bisq"><img src="/images/community/reddit_w.svg" alt="reddit" loading="lazy"> </a>
-              <a target="_blank" rel="noopener" title="Matrix" href="https://bisq.chat"><img src="/images/community/matrix_w.svg" alt="matrix" loading="lazy"> </a>
-              <a target="_blank" rel="noopener" title="Telegram" href="{% local_social_link telegram %}"><img src="/images/community/telegram_w.svg" alt="telegram" loading="lazy"> </a>
-            </span>
-
+          <div class="footer-app-col footer-app-col--connect mt-4 mt-sm-0">
+            <h5 class="text-uppercase small grey">{{ item.bisqConnect }}</h5>
+            <div class="store-badges">
+              <a target="_blank" rel="noopener"
+                 href="https://play.google.com/store/apps/details?id=network.bisq.mobile.client">
+                <img class="badge-img" alt="Get it on Google Play" src="/images/badge_google_play.svg" loading="lazy"/>
+              </a>
+              <a target="_blank" rel="noopener" href="https://bisq-network.github.io/bisq-mobile/">
+                <img class="badge-img" alt="Get Bisq Connect for iOS" src="/images/badge_apple_test_flight.png"
+                     loading="lazy"/>
+              </a>
             </div>
+          </div>
+        </div>
+        <div class="text-left small grey pt-4">
+          {{ item.siteYear }}
         </div>
       </div>
 
+      <hr class="clearfix w-100 d-lg-none pb-3">
+
+      <div class="col-12 col-lg-4 mb-md-0 mb-3 pr-md-5 pr-sm-2 small px-4 px-md-5">
+        <h5 class="text-uppercase small grey">{{ item.ulResources }}</h5>
+        <ul class="list-unstyled">
+          <!--<li>
+            <a href="/press">Press</a>
+          </li>-->
+          <div class="virtual-column">
+            <li>
+              <a href="/blog">{{ item.liBlog }}</a>
+            </li>
+          </div>
+          <!-- <div class="virtual-column">
+             &lt;!&ndash;<li>
+               <a href="https://github.com/orgs/bisq-network/projects/3" target="_blank">{{ item.liRoadmap }}</a>
+             </li>&ndash;&gt;
+             <li>
+               <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">{{ item.liContribute }}</a>
+             </li>
+           </div>-->
+          <div class="virtual-column">
+            <li>
+              <a href="https://markets.bisq.services/docs/api/rest" target="_blank" rel="noopener">{{ item.liMarketData
+                }}</a>
+            </li>
+          </div>
+          <div class="virtual-column">
+            <li>
+              <a href="/benefactors">{{ item.liBenefactors }}</a>
+            </li>
+          </div>
+          <!--
+          lets activate it once we have a dynamic content
+          <li>
+             <a href="/stats">Stats</a>
+           </li>-->
+        </ul>
+      </div>
+
+      <hr class="clearfix w-100 d-lg-none pb-3">
+
+      <div class="col-12 col-lg-2 mb-md-0 mb-3 small px-4 px-md-5 pb-1 pb-5">
+
+        <h5 class="text-uppercase small grey">{{ item.joinBisq }}</h5>
+
+        <span id="community-footer">
+              <a target="_blank" rel="noopener" title="GitHub" href="https://github.com/bisq-network"> <img
+                src="/images/community/github_w.svg" alt="github" loading="lazy"> </a>
+              <a target="_blank" rel="noopener" title="X" href="https://x.com/bisq_network"> <img
+                src="/images/community/x_w.svg" alt="X" loading="lazy"> </a>
+              <a target="_blank" rel="noopener" title="Bisq Forum" href="https://bisq.community"><img
+                src="/images/community/forum_w.svg" alt="forum" loading="lazy"> </a>
+              <a target="_blank" rel="noopener" title="Reddit" href="https://www.reddit.com/r/bisq"><img
+                src="/images/community/reddit_w.svg" alt="reddit" loading="lazy"> </a>
+              <a target="_blank" rel="noopener" title="Matrix" href="https://bisq.chat"><img
+                src="/images/community/matrix_w.svg" alt="matrix" loading="lazy"> </a>
+              <a target="_blank" rel="noopener" title="Telegram" href="{% local_social_link telegram %}"><img
+                src="/images/community/telegram_w.svg" alt="telegram" loading="lazy"> </a>
+            </span>
+
+      </div>
+    </div>
+  </div>
 
 
-    </footer>
+</footer>

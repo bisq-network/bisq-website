@@ -11,7 +11,7 @@ main_nav:
   markets: Рынки # main nav link: please be as short as possible
 
 footer:
-  notificationApp: Мобильное приложение Bisq
+  bisqEasyMobile: Мобильное приложение Bisq
   siteYear: "© 2024 Bisq"
   ulResources: Ресурсы
   liDownloads: Загрузить

@@ -364,18 +364,20 @@ hr {
 }
 
 .badge-img {
-  height: auto;
-  width: 160px;
+  height: 44px;
+  width: auto;
 }
 
 .store-badges {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  align-items: center;
 }
 
 footer .badge-img {
-  width: 150px;
+  height: 40px;
+  width: auto;
   max-width: 100%;
 }
 

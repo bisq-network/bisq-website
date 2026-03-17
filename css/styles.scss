@@ -368,9 +368,33 @@ hr {
   width: 160px;
 }
 
+.store-badges {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 footer .badge-img {
-  width: 45%;
-  max-width: 150px
+  width: 150px;
+  max-width: 100%;
+}
+
+footer .footer-apps {
+  column-gap: 24px;
+}
+
+footer .footer-app-col {
+  flex: 1 1 100%;
+}
+
+@media (min-width: 576px) {
+  footer .footer-app-col--easy {
+    flex: 0 1 260px;
+  }
+
+  footer .footer-app-col--connect {
+    flex: 1 1 360px;
+  }
 }
 
 

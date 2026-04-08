@@ -67,8 +67,8 @@ layout: page
     <tr class="border-bottom">
       <td>{{ item.tdSourceCode }}</td>
       <td>
-        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.zip">zip</a> |
-        <a href="https://bisq.network/downloads/archive/v{{ site.client_version }}.tar.gz">tar.gz</a>
+        <a href="https://bisq.network/downloads/archive/refs/tags/v{{ site.client_version }}.zip">zip</a> |
+        <a href="https://bisq.network/downloads/archive/refs/tags/v{{ site.client_version }}.tar.gz">tar.gz</a>
       </td>
     </tr>
     <tr class="border-bottom">
@@ -108,7 +108,8 @@ layout: page
   <div id="bisq2">&nbsp;</div>
   <h2>Bisq2 Downloads</h2>
   {{ item.bisq2ScopeNote }}
-  {% assign bisq2_archive = 'https://github.com/bisq-network/bisq2/archive' %}
+
+  {% assign bisq2_archive = 'https://github.com/bisq-network/bisq2/archive/refs/tags' %}
   {% assign bisq2_releases = 'https://github.com/bisq-network/bisq2/releases' %}
 
   <table class="all-downloads mt-5">

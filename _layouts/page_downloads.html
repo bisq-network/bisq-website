@@ -2,6 +2,9 @@
 layout: page
 ---
 {% assign item = site.data[page.lang].downloads %}
+{% assign bisq1_downloads = 'https://bisq.network/downloads/v' | append: site.client_version %}
+{% assign bisq1_macos_x86_64 = 'Bisq-x86_64-' | append: site.client_version | append: '.dmg' %}
+{% assign bisq1_macos_aarch64 = 'Bisq-aarch64-' | append: site.client_version | append: '.dmg' %}
 <h1>Bisq1 Downloads</h1>
 {{ item.bisq1ScopeNote}}
 
@@ -28,9 +31,15 @@ layout: page
       <td>{{ item.tdMac }}</td>
       <td>
         <a class="dl-mac"
-           href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg">.dmg</a>
+           href="{{ bisq1_downloads }}/{{ bisq1_macos_x86_64 }}">Intel .dmg</a>
         |
-        <a href="https://bisq.network/downloads/v{{ site.client_version }}/Bisq-{{ site.client_version }}.dmg.asc">{{
+        <a href="{{ bisq1_downloads }}/{{ bisq1_macos_x86_64 }}.asc">{{
+          item.tdVerificationText0 }}</a>
+        <br>
+        <a class="dl-mac"
+           href="{{ bisq1_downloads }}/{{ bisq1_macos_aarch64 }}">Apple Silicon .dmg</a>
+        |
+        <a href="{{ bisq1_downloads }}/{{ bisq1_macos_aarch64 }}.asc">{{
           item.tdVerificationText0 }}</a>
       </td>
     </tr>

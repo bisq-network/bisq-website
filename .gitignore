@@ -7,3 +7,4 @@ _site
 /.java-version
 /.gradle/*
 /tor.keyring
+/temp

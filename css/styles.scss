@@ -3,7 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "bootstrap";
+@use "bootstrap";
 
 #bisq2 {
     padding-bottom: 40px;
@@ -14,6 +14,17 @@ body {
   overflow-x: hidden;
   font-weight: 300;
   letter-spacing: 0.03rem;
+}
+
+.container,
+.row {
+  --bs-gutter-x: 30px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
 }
 
 strong, .strong {
@@ -217,7 +228,7 @@ hr {
 .selected-os-download:hover .os-icon-w {
     opacity: 1 !important;
 }
-.selected-os-download:hover .float-right a:hover{
+.selected-os-download:hover .float-end a:hover{
     color: #fff;
 }
 
@@ -325,7 +336,7 @@ hr {
 
 
 
-.dropdown-menu-right {
+.dropdown-menu-end {
   right: 0;
   left: auto;
 }
@@ -607,6 +618,9 @@ footer, footer ul li {
 }
 
 .navbar-nav .nav-item.search input {
+    flex: 0 0 150px;
+    width: 150px;
+    min-width: 150px;
     max-height: 1.7rem;
     padding: 15px;
     height: 100%;
@@ -616,6 +630,11 @@ footer, footer ul li {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     font-weight: 500;
+}
+
+.navbar-nav .nav-item.search .input-group {
+    flex-wrap: nowrap;
+    width: auto;
 }
 
 body.dark-mode .navbar-nav .nav-item.search input {
@@ -741,6 +760,10 @@ h2#community::before {
 
 .getting-started-img {
   width: 180%
+}
+
+.getting-started-img-col {
+  position: relative;
 }
 
 .features-pic {
@@ -1122,6 +1145,7 @@ getting started page
 #getting-started .start-step-container .start-step .step-text {
     width: 50%;
     float: left;
+    position: relative;
     padding-right: 50px;
     padding-left: 40px;
 }
@@ -1436,7 +1460,7 @@ a.back-to-dashboard {
     .display-1 {
       font-size: 2.5rem;
     }
-    ul.navbar-nav.ml-auto {
+    ul.navbar-nav.ms-auto {
       background: #fff;
     }
     .navbar {
@@ -1455,9 +1479,16 @@ a.back-to-dashboard {
     }
 
     .navbar-nav .nav-item.search input {
+        flex: 1 1 auto;
+        width: 1%;
+        min-width: 0;
         margin-left: 0;
         margin-top: 0.8rem;
         margin-bottom: 0.7rem;
+    }
+
+    .navbar-nav .nav-item.search .input-group {
+        width: 100%;
     }
 
     .navbar-nav .nav-item.search button {
@@ -1904,7 +1935,7 @@ body.dark-mode text tspan {
 }
 
 @media (max-width: 991px) {
-    body.dark-mode ul.navbar-nav.ml-auto {
+    body.dark-mode ul.navbar-nav.ms-auto {
       background: #101010;
     }
     body.dark-mode .navbar-light .navbar-nav .nav-item .nav-link {

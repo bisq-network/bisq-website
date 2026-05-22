@@ -18,6 +18,8 @@ exclude:
   - CNAME
   - README
   - Gemfile
+  - docs
+  - scripts
 collections:
   dashboard:
     output: true

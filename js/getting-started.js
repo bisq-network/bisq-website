@@ -1,4 +1,24 @@
 $(document).ready(function () {
+  var youtubePlayerOrigins = {
+    "https://www.youtube-nocookie.com": true,
+    "https://www.youtube.com": true
+  };
+
+  function getYoutubePlayerOrigin(iframe) {
+    var src = iframe.getAttribute("src");
+
+    if (!src) {
+      return null;
+    }
+
+    try {
+      var origin = new URL(src, window.location.href).origin;
+      return youtubePlayerOrigins[origin] ? origin : null;
+    } catch (error) {
+      return null;
+    }
+  }
+
   $("#getting-started .feature-selector > a").on("click", function (event) {
     event.preventDefault();
 
@@ -19,8 +39,10 @@ $(document).ready(function () {
     $("." + currentStepItem).removeClass("active");
 
     $("iframe").each(function () {
-      if (this.contentWindow) {
-        this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', "*");
+      var targetOrigin = getYoutubePlayerOrigin(this);
+
+      if (this.contentWindow && targetOrigin) {
+        this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', targetOrigin);
       }
     });
 

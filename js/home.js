@@ -127,6 +127,20 @@ $( document ).ready( function() {
         return;
     }
 
+    $( "[data-ga-category][data-ga-action][data-ga-label]" ).on( "click", function() {
+        if( typeof ga !== "function" ) {
+            return;
+        }
+
+        ga(
+            "send",
+            "event",
+            $( this ).data( "ga-category" ),
+            $( this ).data( "ga-action" ),
+            $( this ).data( "ga-label" )
+        );
+    });
+
     /**************************************************
     hover actions for the "how to get started" section
     **************************************************/

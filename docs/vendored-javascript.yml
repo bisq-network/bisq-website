@@ -1,0 +1,120 @@
+# Vendored browser JavaScript inventory.
+#
+# Update this file whenever a third-party browser asset under js/ is added,
+# removed, or replaced. Keep the SHA-256 values in sync by running:
+#
+#   ruby scripts/check-vendored-javascript.rb
+#
+schema_version: 1
+owner: "Website maintainers"
+review_cadence: "Review quarterly and whenever security advisories mention a listed package."
+notes: >
+  Vendored browser libraries are served directly from this repository instead of
+  an npm lockfile. Replacements should use a reviewed upstream release, update
+  the source URL and SHA-256 hash below, and receive browser smoke testing on
+  the pages listed in each usage field.
+
+vendored:
+  - path: "js/jquery-3.7.1.min.js"
+    name: "jQuery"
+    package: "jquery"
+    version: "3.7.1"
+    source_url: "https://code.jquery.com/jquery-3.7.1.min.js"
+    license: "MIT"
+    sha256: "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a"
+    status: "loaded-site-wide"
+    usage: "Loaded by _layouts/default.html on every generated page."
+    update_cadence: "Review quarterly and on jQuery security advisories."
+
+  - path: "js/bootstrap.min.js"
+    name: "Bootstrap"
+    package: "bootstrap"
+    version: "4.6.2"
+    source_url: "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    license: "MIT"
+    sha256: "b1f26defa22fc66b85710f12dfe5ceccdcb7df3db44c0037c4ed94f7b8dcd0db"
+    status: "loaded-site-wide"
+    usage: "Loaded by _layouts/default.html for navigation, dropdowns, and responsive UI behavior."
+    update_cadence: "Review quarterly and on Bootstrap security advisories."
+
+  - path: "js/bootstrap.min.js.map"
+    name: "Bootstrap source map"
+    package: "bootstrap"
+    version: "4.6.2"
+    source_url: "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js.map"
+    license: "MIT"
+    sha256: "92ebb3751c154c9ddb81dd113b0669e8ae7764c09d76f55410115c32825c7d84"
+    status: "source-map"
+    usage: "Referenced by js/bootstrap.min.js for debugging."
+    update_cadence: "Keep in lockstep with js/bootstrap.min.js."
+
+  - path: "js/popper.min.js"
+    name: "Popper.js"
+    package: "popper.js"
+    version: "1.16.1"
+    source_url: "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    license: "MIT"
+    sha256: "fe28dc38bc057f6eb11180235bbe458b3295a39b674d889075d3d9a0b5071d9f"
+    status: "loaded-site-wide"
+    usage: "Loaded by _layouts/default.html before Bootstrap for dropdown and tooltip positioning."
+    update_cadence: "Review quarterly and keep compatible with Bootstrap."
+
+  - path: "js/popper.min.js.map"
+    name: "Popper.js source map"
+    package: "popper.js"
+    version: "1.16.1"
+    source_url: "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js.map"
+    license: "MIT"
+    sha256: "70d7eb70b6099122d0f371e3e8d108a5ec348ccf711b04d80a120540e971e89d"
+    status: "source-map"
+    usage: "Referenced by js/popper.min.js for debugging."
+    update_cadence: "Keep in lockstep with js/popper.min.js."
+
+  - path: "js/js.cookie.min.js"
+    name: "js-cookie"
+    package: "js-cookie"
+    version: "3.0.7"
+    source_url: "https://cdn.jsdelivr.net/npm/js-cookie@3.0.7/dist/js.cookie.min.js"
+    license: "MIT"
+    sha256: "e90892919e11dfbdfd830d679cedbf97fbf4852f2f01e2c2b2348280151f7821"
+    status: "loaded-site-wide"
+    usage: "Loaded by _layouts/default.html; used by js/theme-init.js and js/site.js for dark-mode persistence."
+    update_cadence: "Review quarterly and on js-cookie security advisories."
+
+  - path: "js/highstock.js"
+    name: "Highstock"
+    package: "highcharts"
+    version: "12.6.0"
+    source_url: "https://registry.npmjs.org/highcharts/-/highcharts-12.6.0.tgz"
+    license: "Highcharts license"
+    sha256: "9c6e1261bb6f5bdae04fbaf86ee54cca3c1f224c0947bfbf42f56d47f0e0fcc8"
+    status: "loaded-dashboard"
+    usage: "Loaded by dashboard.html; used by js/dashboard.js for the DAO supply chart."
+    update_cadence: "Review quarterly and on Highcharts security advisories."
+
+  - path: "js/highcharts-accessibility.js"
+    name: "Highcharts accessibility module"
+    package: "highcharts"
+    version: "12.6.0"
+    source_url: "https://cdn.jsdelivr.net/npm/highcharts@12.6.0/modules/accessibility.js"
+    license: "Highcharts license"
+    sha256: "211f88e8fc61b8af4300d9bdb2068ec8690113e380b29024ed350969a96d5142"
+    status: "loaded-dashboard"
+    usage: "Loaded by dashboard.html after js/highstock.js to add accessibility metadata and keyboard support to the DAO supply chart."
+    update_cadence: "Keep in lockstep with js/highstock.js."
+
+first_party:
+  - path: "js/dashboard.js"
+    usage: "DAO dashboard chart code loaded by dashboard.html."
+  - path: "js/downloads.js"
+    usage: "Downloads page release metadata helper loaded by _layouts/page_downloads.html."
+  - path: "js/getting-started.js"
+    usage: "Getting-started page interactions loaded by getting-started.html."
+  - path: "js/home.js"
+    usage: "Homepage OS detection and download tracking loaded by _layouts/page_home.html."
+  - path: "js/page-dao.js"
+    usage: "DAO page behavior loaded by _layouts/page_dao.html."
+  - path: "js/site.js"
+    usage: "Site-wide UI behavior loaded by _layouts/default.html."
+  - path: "js/theme-init.js"
+    usage: "Site-wide dark-mode initialization loaded by _layouts/default.html."

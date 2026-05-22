@@ -22,6 +22,9 @@ $( document ).ready( function() {
                 fontFamily: "'IBM Plex Sans', sans-serif"
             }
         },
+        accessibility: {
+            description: "Total BSQ issued net of BSQ burned for fees over time."
+        },
         title: {
             text: "",
             align: "left",

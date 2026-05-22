@@ -3,7 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@use "bootstrap";
+@import "bootstrap";
 
 #bisq2 {
     padding-bottom: 40px;
@@ -217,7 +217,7 @@ hr {
 .selected-os-download:hover .os-icon-w {
     opacity: 1 !important;
 }
-.selected-os-download:hover .float-end a:hover{
+.selected-os-download:hover .float-right a:hover{
     color: #fff;
 }
 
@@ -325,7 +325,7 @@ hr {
 
 
 
-.dropdown-menu-end {
+.dropdown-menu-right {
   right: 0;
   left: auto;
 }
@@ -1436,7 +1436,7 @@ a.back-to-dashboard {
     .display-1 {
       font-size: 2.5rem;
     }
-    ul.navbar-nav.ms-auto {
+    ul.navbar-nav.ml-auto {
       background: #fff;
     }
     .navbar {
@@ -1904,7 +1904,7 @@ body.dark-mode text tspan {
 }
 
 @media (max-width: 991px) {
-    body.dark-mode ul.navbar-nav.ms-auto {
+    body.dark-mode ul.navbar-nav.ml-auto {
       background: #101010;
     }
     body.dark-mode .navbar-light .navbar-nav .nav-item .nav-link {

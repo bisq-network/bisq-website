@@ -9,7 +9,7 @@ en-only: true
 {: .mb-5}
 
 ### The following entities help Bisq with gratis open-source licenses and other in-kind contributions.
-{: .mt-5 .col-sm-12 .col-md-10 .ps-0}
+{: .mt-5 .col-sm-12 .col-md-10 .pl-0}
 
 <br>
 

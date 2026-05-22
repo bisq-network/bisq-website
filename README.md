@@ -50,8 +50,8 @@ You'll want to run the site locally to test your changes.
 
 First make sure you have Ruby and Bundler:
 
-1. Check that Ruby is installed (check with `ruby -v`). Use the version in `.ruby-version` or another Ruby version supported by the Bundler version recorded in `Gemfile.lock`.
-2. If you don't already have Bundler (check with `which bundle`), install the version recorded in `Gemfile.lock` by following the instructions at https://bundler.io.
+1. Check that Ruby is installed (check with `ruby -v`). Must be 2.2.5 or higher.
+2. If you don't already have Bundler (check with `which bundle`), you can install by following the instructions at https://bundler.io.
 
 Then clone the source code, build, and serve:
 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ps-md-5 pe-md-5 ps-sm-3 pe-0">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top pl-md-5 pr-md-5 pl-sm-3 pr-0">
 
   <a class="navbar-brand" href="{% lingual_link home %}"><img src="/images/bisq-logo.svg" height="30" loading="lazy"/></a>
 
@@ -6,14 +6,14 @@
 
   {% if page.en-only == false %}
   <div class="dropdown mobile-language-selector more-info-desktop">
-    <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       {{ page.lang_display }}
     </button>
     <div class="dropdown-menu shadow-lg" aria-labelledby="dropdownMenuButton">
       {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang_display' %}
       {% for page in pages %}
         <div class="dropdown-item btn-icon">
-          <div class="float-end">
+          <div class="float-right">
             <a href="{{ page.url }}">{{ page.lang_display }}</a>
           </div>
         </div>
@@ -22,12 +22,12 @@
   </div>
   {% endif %}
 
-  <button class="navbar-toggler pe-3 pe-md-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler pr-3 pr-md-0 collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ms-auto">
+    <ul class="navbar-nav ml-auto">
 
       {% assign mainNavLabels = site.data[page.lang].main_nav %}
 
@@ -47,10 +47,10 @@
       </li>
 
       <li class="downloads-desktop nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="downloadDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="downloadDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{ mainNavLabels.downloads }}
         </a>
-        <div class="dropdown-menu dropdown-menu-end shadow-lg" aria-labelledby="downloadDropdown">
+        <div class="dropdown-menu dropdown-menu-right shadow-lg" aria-labelledby="downloadDropdown">
           {% include os_selector_options.html %}
         </div>
       </li>
@@ -59,14 +59,14 @@
 
       {% if page.en-only == false %}
       <li class="downloads-desktop nav-item dropdown more-info-desktop language-selector">
-        <a class="nav-link dropdown-toggle visible-language" href='#' id="languageSelectorDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle visible-language" href='#' id="languageSelectorDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{ page.lang_display }}
         </a>
         <div class="dropdown-menu shadow-lg" aria-labelledby="languageSelectorDropdown">
           {% assign pages = site.pages | where:"ref", page.ref | sort: 'lang_display' %}
           {% for page in pages %}
           <div class="dropdown-item btn-icon">
-            <div class="float-end">
+            <div class="float-right">
               <a href="{{ page.url }}">{{ page.lang_display }}</a>
             </div>
           </div>
@@ -78,9 +78,9 @@
       <!-- search bar  -->
 
       <li class="nav-item search">
-        <form class="d-flex" action="https://bisq.wiki/index.php" method="POST" target="_blank" rel="noopener noreferrer">
+        <form class="form-inline" action="https://bisq.wiki/index.php" method="POST" target="_blank" rel="noopener noreferrer">
           <div class="input-group">
-            <input class="form-control me-sm-2" type="search" placeholder="Search Wiki..." name="search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Wiki..." name="search">
             <button type="submit" class="btn btn-sm btn-outline-success nav-item"><img src="/images/search.svg"></button>
           </div>
         </form>

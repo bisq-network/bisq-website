@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<script defer src="/js/page-dao.js"></script>
+
 <style>
 
   .split-text{
@@ -384,15 +386,3 @@ layout: default
 
 </div>
 </div>
-
-<script>
-  window.onload = function() {
-      $(".animate-scroll").click(function (){
-          event.preventDefault();
-          var hash = this.hash;
-          $('html, body').animate({
-              scrollTop: $(hash).offset().top - 70
-          }, 500);
-      });
-  };
-</script>

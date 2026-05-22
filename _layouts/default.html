@@ -103,7 +103,7 @@
             ],
             "releaseNotes": "https://github.com/bisq-network/bisq/releases/latest",
             "screenshot": "https://bisq.network/images/bisq_screen0.png",
-            "softwareVersion": "{{ site.client_version }}",
+            "softwareVersion": {{ site.client_version | jsonify | replace: "</", "<\/" }},
             "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "5",
@@ -121,20 +121,7 @@
     </head>
 
     <body class="home page-template-default page page-id-6 custom-background">
-    <script>
-      if (Cookies.get('darkmode') === undefined && window.matchMedia('(prefers-color-scheme: light)').matches) {
-        Cookies.set("darkmode", 0);
-      }else if(Cookies.get('darkmode') === undefined && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add("dark-mode");
-        Cookies.set("darkmode", 1);
-      }else if (Cookies.get('darkmode') == 1) {
-        Cookies.set("darkmode", 1);
-        document.body.classList.add("dark-mode");
-      }else{
-        Cookies.set("darkmode", 0);
-        document.body.classList.remove("dark-mode");
-      }
-    </script>
+    <script src="/js/theme-init.js"></script>
 
       {% include main_nav.html %}
 

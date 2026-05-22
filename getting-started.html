@@ -6,6 +6,8 @@ lang: en
 en-only: true
 ---
 
+<script defer src="/js/getting-started.js"></script>
+
 <h1>Getting Started</h1>
 
 <div class="mt-5 mb-2" id="getting-started">
@@ -114,49 +116,3 @@ en-only: true
         </div>
     </div>
 </div>
-
-<script>
-
-    //hack since jquery doesn't load until later
-    window.onload = function() {
-
-        //make selected selector and video active
-        $( "#getting-started .feature-selector > a" ).on( "click", function(e) {
-            e.preventDefault();
-
-            //activate selector
-            var currentStepItem = "";
-            var selectorClassList = e.currentTarget.classList;
-
-            for( var p in selectorClassList ) {
-                if( selectorClassList[p].indexOf( "-item" ) >= 0 ) {
-                    currentStepItem = selectorClassList[p];
-                        break;
-                }
-            }
-
-            $( "." + currentStepItem ).removeClass( "active" );
-
-            //stop any currently-playing videos from playing upon switching videos
-            $( "iframe" ).each(function(){
-                this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*');
-            });
-
-            //activate payment account text items
-            if( e.currentTarget.id.indexOf("select-fiat") >= 0 ) {
-                $( "#getting-started .start-step-container .start-step .step-text .topical.fiat" ).addClass( "active" );
-            } else if( e.currentTarget.id.indexOf("select-altcoin") >= 0 ) {
-                $( "#getting-started .start-step-container .start-step .step-text .topical.altcoin" ).addClass( "active" );
-            }
-
-            $( e.currentTarget ).addClass( "active" );
-
-            //show corresponding video
-            var currentVideo = ( e.currentTarget.id ).substring(7);
-            $( "#" + currentVideo ).addClass( "active" );
-
-            return;
-        })
-    };
-
-</script>

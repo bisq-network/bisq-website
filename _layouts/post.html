@@ -5,7 +5,7 @@ layout: page
   <article id="post-802" class="post-802 post type-post status-publish format-standard hentry category-news">
     <div class="dets_wrap">
       <div class="dets">
-       <a href="/blog/feed.atom" class="rss-link post"><img src="{{ site.url}}/images/logo-rss.svg" loading="lazy"></a>
+       <a href="/blog/feed.atom" class="rss-link post"><img src="{{ '/images/logo-rss.svg' | relative_url }}" loading="lazy"></a>
         <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
         <p class='post-meta grey'>
           Posted by <span>{{ page.author }}</span> on <span>{{ page.date | date: "%-d %B %Y"}}</span>
@@ -30,13 +30,13 @@ layout: page
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "{{ page.title }}",
-        "description": "{{ page.excerpt }}",
-        "image": "https://bisq.network/images/bisq-fav.png",  
+        "headline": {{ page.title | jsonify | replace: "</", "<\/" }},
+        "description": {{ page.excerpt | strip_html | normalize_whitespace | jsonify | replace: "</", "<\/" }},
+        "image": "https://bisq.network/images/bisq-fav.png",
         "author": {
             "@type": "Person",
-            "name": "{{ page.author }}"
-        },  
+            "name": {{ page.author | jsonify | replace: "</", "<\/" }}
+        },
         "publisher": {
             "@type": "Organization",
             "name": "Bisq",
@@ -45,8 +45,8 @@ layout: page
                 "url": "https://bisq.network/images/bisq-fav.png"
             }
         },
-        "datePublished": "{{ page.date }}",
-        "dateModified": "{{ page.date }}",
-        "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
+        "datePublished": {{ page.date | jsonify | replace: "</", "<\/" }},
+        "dateModified": {{ page.date | jsonify | replace: "</", "<\/" }},
+        "mainEntityOfPage": {{ site.url | append: page.url | jsonify | replace: "</", "<\/" }}
     }
 </script>

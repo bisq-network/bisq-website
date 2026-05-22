@@ -1202,6 +1202,11 @@ dashboard page
     transition: 0.3s all;
 }
 
+#cycle-tile-container .cycle-tile,
+#cycle-tile-container .cycle-tile:hover {
+    text-decoration: none;
+}
+
 body.dark-mode #cycle-tile-container .cycle-tile {
     background-color: #1d1d1d;
 }

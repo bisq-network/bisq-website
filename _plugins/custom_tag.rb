@@ -71,3 +71,26 @@ class SupplySpanned < Liquid::Tag
 end
 
 Liquid::Template.register_tag('supply_spanned', SupplySpanned)
+
+module BlankTargetRel
+  REQUIRED_REL_TOKENS = %w[noopener noreferrer].freeze
+  TARGET_BLANK_ANCHOR = /<a\b(?=[^>]*\btarget\s*=\s*(['"])_blank\1)[^>]*>/i.freeze
+  REL_ATTRIBUTE = /\brel\s*=\s*(['"])(.*?)\1/i.freeze
+
+  def self.apply(html)
+    html.gsub(TARGET_BLANK_ANCHOR) do |tag|
+      if tag =~ REL_ATTRIBUTE
+        quote = Regexp.last_match(1)
+        existing_tokens = Regexp.last_match(2).split(/\s+/)
+        rel_tokens = (existing_tokens + REQUIRED_REL_TOKENS).uniq
+        tag.sub(REL_ATTRIBUTE, "rel=#{quote}#{rel_tokens.join(' ')}#{quote}")
+      else
+        tag.sub(/>$/, ' rel="noopener noreferrer">')
+      end
+    end
+  end
+end
+
+Jekyll::Hooks.register [:documents, :pages], :post_render do |document|
+  document.output = BlankTargetRel.apply(document.output)
+end

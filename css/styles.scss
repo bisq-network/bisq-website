@@ -16,17 +16,6 @@ body {
   letter-spacing: 0.03rem;
 }
 
-.container,
-.row {
-  --bs-gutter-x: 30px;
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1300px;
-  }
-}
-
 strong, .strong {
     font-weight: 700;
 }
@@ -618,9 +607,6 @@ footer, footer ul li {
 }
 
 .navbar-nav .nav-item.search input {
-    flex: 0 0 150px;
-    width: 150px;
-    min-width: 150px;
     max-height: 1.7rem;
     padding: 15px;
     height: 100%;
@@ -630,11 +616,6 @@ footer, footer ul li {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 14px;
     font-weight: 500;
-}
-
-.navbar-nav .nav-item.search .input-group {
-    flex-wrap: nowrap;
-    width: auto;
 }
 
 body.dark-mode .navbar-nav .nav-item.search input {
@@ -1145,7 +1126,6 @@ getting started page
 #getting-started .start-step-container .start-step .step-text {
     width: 50%;
     float: left;
-    position: relative;
     padding-right: 50px;
     padding-left: 40px;
 }
@@ -1479,16 +1459,9 @@ a.back-to-dashboard {
     }
 
     .navbar-nav .nav-item.search input {
-        flex: 1 1 auto;
-        width: 1%;
-        min-width: 0;
         margin-left: 0;
         margin-top: 0.8rem;
         margin-bottom: 0.7rem;
-    }
-
-    .navbar-nav .nav-item.search .input-group {
-        width: 100%;
     }
 
     .navbar-nav .nav-item.search button {

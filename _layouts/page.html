@@ -5,14 +5,14 @@ layout: default
 <div class="container pb-5 mb-5">
     <div class="row align-items-center">
       <!-- Outdated translation alert tool tag-->
-      <div class="col-md-12 order-md-1 text-md-left">
+      <div class="col-md-12 order-md-1 text-md-start">
         {% if page.outdated_translation %}
           <p class="text-muted">⚠ This page contains some outdated translations. <a href="https://www.transifex.com/bisq/bisq-website/">Help us improve!</a></p>
         {% endif %}
       </div>
 
-      <!-- <div class="{% if page.url == '/community/' %}col-md-12{% else %}col-md-8{% endif %} order-md-1 text-md-left pr-md-5"> -->
-      <div class="col-md-12 order-md-1 text-md-left" id="{{ page.ref }}">
+      <!-- <div class="{% if page.url == '/community/' %}col-md-12{% else %}col-md-8{% endif %} order-md-1 text-md-start pe-md-5"> -->
+      <div class="col-md-12 order-md-1 text-md-start" id="{{ page.ref }}">
          {{ content }}
       </div>
     </div>

@@ -120,6 +120,8 @@ layout: page
 
   {% assign bisq2_archive = 'https://github.com/bisq-network/bisq2/archive/refs/tags' %}
   {% assign bisq2_releases = 'https://github.com/bisq-network/bisq2/releases' %}
+  {% assign bisq2_macos_x86_64 = 'Bisq-x86_64-' | append: site.bisq2_version | append: '.dmg' %}
+  {% assign bisq2_macos_aarch64 = 'Bisq-aarch64-' | append: site.bisq2_version | append: '.dmg' %}
 
   <table class="all-downloads mt-5">
     <tr class="border-bottom">
@@ -135,8 +137,13 @@ layout: page
       <td>{{ item.tdMac }}</td>
       <td>
         <a class="dl-mac"
-           href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-{{ site.bisq2_version }}.dmg">.dmg</a> |
-        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/Bisq-{{ site.bisq2_version }}.dmg.asc">{{
+           href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/{{ bisq2_macos_x86_64 }}">Intel .dmg</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/{{ bisq2_macos_x86_64 }}.asc">{{
+          item.tdVerificationText0 }}</a>
+        <br>
+        <a class="dl-mac"
+           href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/{{ bisq2_macos_aarch64 }}">Apple Silicon .dmg</a> |
+        <a href="{{ bisq2_releases }}/download/v{{ site.bisq2_version }}/{{ bisq2_macos_aarch64 }}.asc">{{
           item.tdVerificationText0 }}</a>
       </td>
     </tr>

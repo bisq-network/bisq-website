@@ -4,6 +4,10 @@
     easy: "anode_",
     connect: "connect_"
   };
+  var requiredAssets = {
+    easy: "Bisq_Easy-",
+    connect: "Bisq_Connect-"
+  };
 
   function ready(callback) {
     if (document.readyState === "loading") {
@@ -23,14 +27,28 @@
     return safeTag.replace(new RegExp("^" + escapedPrefix, "i"), "");
   }
 
-  function findLatestByPrefix(releases, prefix) {
+  function hasAsset(release, assetName) {
+    return Array.isArray(release.assets) && release.assets.some(function (asset) {
+      return asset && asset.name === assetName;
+    });
+  }
+
+  function hasExpectedAssets(release, prefix, appNamePrefix) {
+    var version = extractVersion(release.tag_name, prefix);
+    return version &&
+      hasAsset(release, appNamePrefix + version + ".apk") &&
+      hasAsset(release, "release-cert.pem");
+  }
+
+  function findLatestByPrefix(releases, prefix, appNamePrefix) {
     var matches = releases.filter(function (release) {
-      if (release.draft) {
+      if (release.draft || release.prerelease) {
         return false;
       }
 
       var tag = sanitizeTag(release.tag_name);
-      return tag.toLowerCase().indexOf(prefix.toLowerCase()) === 0;
+      return tag.toLowerCase().indexOf(prefix.toLowerCase()) === 0 &&
+        hasExpectedAssets(release, prefix, appNamePrefix);
     });
 
     if (matches.length === 0) {
@@ -90,8 +108,8 @@
         throw new Error("Unexpected GitHub API response");
       }
 
-      var easyRelease = findLatestByPrefix(releases, prefixes.easy);
-      var connectRelease = findLatestByPrefix(releases, prefixes.connect);
+      var easyRelease = findLatestByPrefix(releases, prefixes.easy, requiredAssets.easy);
+      var connectRelease = findLatestByPrefix(releases, prefixes.connect, requiredAssets.connect);
       var easyVersionElement = document.querySelector('[data-version="bisq-easy"]');
       var connectVersionElement = document.querySelector('[data-version="bisq-connect"]');
 

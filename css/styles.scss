@@ -3,7 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "bootstrap";
+@use "bootstrap";
 
 #bisq2 {
     padding-bottom: 40px;

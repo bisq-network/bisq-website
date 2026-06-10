@@ -238,7 +238,6 @@ https://bisq.io https://bisq.network 301
 /source/* https://github.com/bisq-network/:splat 302
 
 /faq https://bisq.wiki/Frequently_asked_questions 301
-/markets https://bisq.markets 301
 
 /bisq-2 /blog/bisq-2-now-in-beta 302
 /bisq-easy-video https://www.youtube.com/watch?v=OILRE7DVX9E 302

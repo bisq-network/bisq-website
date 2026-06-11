@@ -3,7 +3,6 @@ _site
 *.swp
 .idea
 .DS_Store
-.dao/data
 /.java-version
 /.gradle/*
 /tor.keyring

@@ -4,7 +4,7 @@
 
   This repository contains the Bisq website at https://bisq.network, including
   download pages, release information, public signing keys, documentation, blog
-  content, redirects, headers, localized pages, DAO dashboard data, and deployment
+  content, redirects, headers, localized pages, and deployment
   configuration.
 
   Security fixes are applied to the active website branch and the currently
@@ -36,11 +36,11 @@
     asset;
   - affected component, such as downloads pages, release links, public signing
     keys, `_redirects`, `_headers`, `.well-known`, JavaScript, CSS, Jekyll
-    templates, `_data`, DAO dashboard generation scripts, blog content, or
+    templates, `_data`, blog content, or
     Netlify/deployment configuration;
   - whether the issue affects download integrity, release verification, signing
     key authenticity, redirect behavior, headers, content injection, dependency
-    supply chain, localization, static asset integrity, or generated DAO data;
+    supply chain, localization, static asset integrity;
   - whether the issue can cause users to download malicious binaries, trust a
     wrong signing key, bypass verification guidance, leak visitor metadata, execute
     untrusted JavaScript, follow malicious redirects, or receive misleading

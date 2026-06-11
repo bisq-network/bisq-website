@@ -6,9 +6,7 @@ main_nav:
   community: Comunidad # 14 characters max
   gettingStarted: Empezando # main nav link: please be as short as possible
   bisqDAO: DAO Bisq # main nav link: please be as short as possible
-  statistics: Estadísticas # main nav link: please be as short as possible
   faq: FAQ # main nav link: please be as short as possible
-  markets: Mercados # main nav link: please be as short as possible
 
 footer:
   bisqEasyMobile: App de notificaciones de celular Bisq

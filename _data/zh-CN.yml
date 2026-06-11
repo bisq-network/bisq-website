@@ -6,9 +6,7 @@ main_nav:
   community: 社区 # 14 characters max
   gettingStarted: 快速入门 # main nav link: please be as short as possible
   bisqDAO: Bisq DAO # main nav link: please be as short as possible
-  statistics: 统计数据 # main nav link: please be as short as possible
   faq: FAQ # main nav link: please be as short as possible
-  markets: 市场 # main nav link: please be as short as possible
 
 footer:
   bisqEasyMobile: Bisq 通知应用程序

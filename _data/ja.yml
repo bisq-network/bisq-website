@@ -6,9 +6,7 @@ main_nav:
   community: コミュニティ # 14 characters max
   gettingStarted: 始めに # main nav link: please be as short as possible
   bisqDAO: Bisq DAO # main nav link: please be as short as possible
-  statistics: 統計 # main nav link: please be as short as possible
   faq: FAQ # main nav link: please be as short as possible
-  markets: 市場 # main nav link: please be as short as possible
 
 footer:
   bisqEasyMobile: Bisqモバイル通知アプリ

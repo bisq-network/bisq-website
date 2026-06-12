@@ -6,9 +6,7 @@ main_nav:
   community: Сообщество # 14 characters max
   gettingStarted: Начало работы # main nav link: please be as short as possible
   bisqDAO: ДАО Bisq # main nav link: please be as short as possible
-  statistics: Статистика # main nav link: please be as short as possible
   faq: ЧаВо # main nav link: please be as short as possible
-  markets: Рынки # main nav link: please be as short as possible
 
 footer:
   bisqEasyMobile: Мобильное приложение Bisq

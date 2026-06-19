@@ -36,7 +36,7 @@ defaults:
       en-only: false
 paginate: 10
 paginate_path: "/blog/page/:num/"
-client_version: "1.10.1"
+client_version: "1.10.2"
 bisq2_version: "2.1.11"
 bisqEasyMobile_version: "0.7.0"
 bisqConnectMobile_version: "0.5.0"

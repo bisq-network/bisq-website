@@ -64,9 +64,9 @@ homepage_content:
     <li class="mt-0 mb-4 pb-4 border-bottom step step-text-2" data-image="step-image-2">Add your national or crypto currency accounts.</li> <li class="mt-0 mb-4 pb-4 border-bottom step step-text-3" data-image="step-image-3">Create new offer or take an existing one.</li> <li class="mt-0 step step-text-4" data-image="step-image-4">Follow the user interface to finalize the trade.</li>
   hJoin: Join the Community
   pJoin: >
-    <p>Bisq is always looking for <a href="/blog/bisq-needs-senior-java-developers">talented developers</a>, designers, and security experts to help drive our mission forward.
-    If you're passionate about decentralization and interested in <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">contributing</a> to Bisq’s <a href="/blog/bisq-2-now-in-beta/">roadmap</a>,
-    there are many ways to get involved—we’d love to hear from you!</p>
+    <p>Bisq is open source and run as a DAO. If you're passionate about decentralization and interested in <a href="https://bisq.wiki/Contributor_checklist" target="_blank" rel="noopener">contributing</a> to Bisq’s <a href="/blog/bisq-2-now-in-beta/">roadmap</a>,
+    please get in touch with the maintainers before you start working on a change.
+    We have temporarily paused accepting new contributors for compensated development (<a href="/blog/open-source-development-in-the-age-of-ai/">details</a>).</p>
     <p>We recently launched the <a href="/blog/bisq-hackathon" target="_blank">Bisq Hackathon</a> to tackle impactful challenges. Even though the event has ended, you can still browse the hackathon page for insights into the open areas Bisq is currently exploring.</p>
   liForum: Forum
 

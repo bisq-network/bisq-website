@@ -6,6 +6,8 @@ excerpt: "Bisq needs self-driven Senior Java Developers to build decentralized, 
 lang: en
 ---
 
+> **Update (November 2026):** This call is closed for now. Bisq has temporarily paused accepting new contributors for compensated development. See [Open Source Software Development in the Age of AI](/blog/open-source-development-in-the-age-of-ai/) for details.
+
 We are looking for experienced and self-driven Senior Java Developers to help build the future of financial sovereignty. We operate without project managers, embrace open-source collaboration, and focus on security, privacy, and decentralization.
 
 ### What You’ll Do
